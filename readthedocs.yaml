@@ -4,10 +4,10 @@ version: 2
 
 # Build settings
 sphinx:
-  configuration: docs/conf.py  # Change to the location of your conf.py
+  configuration: source/conf.py  # Change to the location of your conf.py
 
 # Python settings
 python:
   version: 3.9  # Or any version you are using
   install:
-    - requirements: docs/requirements.txt  # List your requirements here
+    - requirements: requirements.txt  # List your requirements here
