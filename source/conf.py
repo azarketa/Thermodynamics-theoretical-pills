@@ -21,8 +21,9 @@ sys.path.insert(0, os.path.abspath('.'))
 extensions = [
     'myst_parser',
     #'myst_nb',
+    #'sphinxcontrib.jupyter',
     'nbsphinx',
-    'sphinx_design',
+    #'sphinx_design',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
@@ -47,7 +48,6 @@ html_css_files = ['custom.css']
 html_context = {
     'mathjax_url': 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML',
 }
-html_baseurl = "https://mudle.mondragon.edu/mgep/mod/folder/view.php?id=817547"
 
 # MyST Configuration
 myst_enable_extensions = [
