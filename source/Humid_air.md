@@ -220,7 +220,7 @@ Assuming that the above process takes place at a constant atmospheric pressure, 
 - The $P_{\text{v}}$ value, which was unknown initially, can be determined by going to the $P-v-T$ tables and reading the saturation pressure that corresponds to the temperature at which the first dew drops have formed.
 - Likewise, the saturation pressure for the initial temperature can be obtained equally, as the initial temperature has been registered by the thermometer. As the water vapor pressure at the initial state equals the saturation pressure determined when the dew drops have begun to form, the two pressure values present in {eq}`eq_relative_humidity` are known; the relative humidity, $\phi$, can hence be obatined.
 
-The procedure described above corresponds to a set of operations that, given an initial thermodynamic state, determine a unique value for the temperature at which the dew drops are formed. Accordingly, such a temperature can be used as a descriptive indicator of thermodynamic states. Any such descriptor, which is uniquely defined by a set of operations, is what adopts the name of **property** on physical grounds. As such, the mentioned temperature constitutes a thermodynamic property of the air-water mixture, and merits a name different from the **dry-bulb temperature** employed for denoting the more usual measurements of the thermometer used in the experiment. By convention, the newly descriped property is named the **dew-point temperature**, and is symbolysed by $T_{\text{dp}}$. Its mathematical definition reads:
+The procedure described above corresponds to a set of operations that, given an initial thermodynamic state, determine a unique value for the temperature at which the dew drops are formed. Accordingly, such a temperature can be used as a descriptive indicator of thermodynamic states. Any such descriptor, which is uniquely defined by a set of operations, is what adopts the name of **property** on physical grounds. As such, the mentioned temperature constitutes a thermodynamic property of the air-water mixture, and merits a name different from the **dry-bulb temperature** employed for denoting the more usual measurements of the thermometer used in the experiment. By convention, the newly described property is named the **dew-point temperature**, and is symbolysed by $T_{\text{dp}}$. Its mathematical definition reads:
 
 ```{math}
 :label: eq_dew_point_temperature
@@ -256,6 +256,8 @@ The procedure described above corresponds to a set of operations that, given an 
 
 <center> <b>Mass balances:</b> </center>
 
+<br/>
+
 The mass flow rate of dry air remains constant
 
 ```{math}
@@ -277,6 +279,8 @@ The mass flow rate of vapor in the air increases by an amount equal to the rate 
 ```
 
 <center> <b>Energy balance:</b> </center>
+
+<br/>
 
 There are no heat and work interactions $\left(\dot{Q}=\dot{W}=0\right)$, and the kinetic and potential energy variations are assumed to be negligible $\left(\Delta\dot{E}_{\text{kin.}}=\Delta\dot{E}_{\text{pot.}} \cong 0\right)$, so the only contributions to the energy balance are the enthalpic terms (as it is an open system):
 ```{math}
@@ -321,8 +325,9 @@ where:
 - $h_{\text{g}_{1}}$ is the enthalpy of saturated gas at the inlet temperature $T_{1}$.
 - $h_{\text{fg}_{2}}$ is the vaporisation enthalpy of water at the outlet temperature $T_{2}$.
 - $h_{\text{f}_{2}}$ is the enthalpy of saturated liquid at the same temperature.
-- $\omega_{2}$ is determined from the condition of saturated air at the outlet, namely from {eq}`eq_omega_terms_phi` with $\phi_{2}=1$:
+- $\omega_{2}$ is determined from the condition of saturated air at the exit, namely from {eq}`eq_omega_terms_phi` with $\phi_{2}=1$:
 ```{math}
+:label: eq_specific_humidity_exit_adsat
 
 \begin{equation}
     \omega_{2} = \frac{0.622P_{\text{g}_{2}}}{P_{2} - P_{\text{g}_{2}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right]
