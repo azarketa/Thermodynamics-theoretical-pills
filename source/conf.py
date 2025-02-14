@@ -21,7 +21,6 @@ sys.path.insert(0, os.path.abspath('.'))
 extensions = [
     'myst_parser',
     #'myst_nb',
-    'sphinxcontrib.jupyter',
     'nbsphinx',
     'sphinx_design',
     'sphinx.ext.autodoc',
