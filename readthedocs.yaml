@@ -9,5 +9,5 @@ sphinx:
 # Python settings
 python:
   version: 3.9  # Or any version you are using
-  install:
-    - requirements: requirements.txt  # List your requirements here
+#  install:
+#    - requirements: requirements.txt  # List your requirements here
