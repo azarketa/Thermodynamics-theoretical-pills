@@ -17,6 +17,6 @@ sphinx:
   configuration: source/conf.py  # Change to the location of your conf.py
 
 # Python settings
-# python:
-#  install:
-#    - requirements: requirements.txt  # List your requirements here
+python:
+  install:
+    - requirements: requirements.txt
