@@ -23,7 +23,6 @@ extensions = [
     #'myst_nb',
     #'sphinxcontrib.jupyter',
     'nbsphinx',
-    #'sphinx_design',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',

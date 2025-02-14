@@ -111,7 +111,7 @@ It turns out that there are two main properties that desribe such an amount. The
 :label: eq_specific_humidity
 
 \begin{equation}
-    \omega = \frac{m_{\text{v}}}{m_{\text{a}}} \ [\text{kg water vapor}/\text{kg dry air}].
+    \omega = \frac{m_{\text{v}}}{m_{\text{a}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right].
 \end{equation}
 ```
 
@@ -121,7 +121,7 @@ If the ideal (perfect) gas model is assumed for both constituents (i.e. dry air 
 :label: eq_specific_humidity_pres_ratio
 
 \begin{equation}
-    \omega = \frac{m_{\text{v}}}{m_{\text{a}}} = \frac{P_{\text{v}}V/R_{\text{v}}T}{P_{\text{a}}V/R_{\text{a}}T} = \frac{P_{\text{v}}/R_{\text{v}}}{P_{\text{a}}/R_{\text{a}}} = 0.622\frac{P_{\text{v}}}{P_{\text{a}}} \ [\text{kg water vapor}/\text{kg dry air}],
+    \omega = \frac{m_{\text{v}}}{m_{\text{a}}} = \frac{P_{\text{v}}V/R_{\text{v}}T}{P_{\text{a}}V/R_{\text{a}}T} = \frac{P_{\text{v}}/R_{\text{v}}}{P_{\text{a}}/R_{\text{a}}} = 0.622\frac{P_{\text{v}}}{P_{\text{a}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
 \end{equation}
 ```
 
@@ -131,7 +131,7 @@ where the last equality comes from the fact that the ratio of specific-gas const
 :label: eq_specific_humidity_pres_ratio_dalton
 
 \begin{equation}
-    \omega = \frac{0.622P_{\text{v}}}{P - P_{\text{v}}} \ [\text{kg water vapor}/\text{kg dry air}],
+    \omega = \frac{0.622P_{\text{v}}}{P - P_{\text{v}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
 \end{equation}
 ```
 
@@ -175,7 +175,7 @@ If equations {eq}`eq_specific_humidity_pres_ratio_dalton` and {eq}`eq_relative_h
 :label: eq_omega_terms_phi
 
 \begin{equation}
-    \omega = \frac{0.622\phi{}P_{\text{g}}}{P - \phi{}P_{\text{g}}} \ [\text{kg water vapor}/\text{kg dry air}].
+    \omega = \frac{0.622\phi{}P_{\text{g}}}{P - \phi{}P_{\text{g}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right].
 \end{equation}
 ```
 
@@ -197,7 +197,7 @@ In usual practical applications, though, the amount of dry air in the air-water 
 :label: eq_intensive_enthalpy_atmospheric_air
 
 \begin{equation}
-    h = \frac{H}{m_{\text{a}}} = h_{\text{a}} + \frac{m_{\text{v}}}{m_{\text{a}}}h_{\text{v}} = h_{\text{a}} + \omega{}h_{\text{v}} \cong h_{\text{a}} + \omega{}h_{\text{g}} \ [\text{kJ}/\text{kg dry air}],
+    h = \frac{H}{m_{\text{a}}} = h_{\text{a}} + \frac{m_{\text{v}}}{m_{\text{a}}}h_{\text{v}} = h_{\text{a}} + \omega{}h_{\text{v}} \cong h_{\text{a}} + \omega{}h_{\text{g}} \ \left[\frac{\text{kJ}}{\text{kg dry air}}\right],
 \end{equation}
 ```
 
@@ -232,6 +232,9 @@ The procedure described above corresponds to a set of operations that, given an 
 (adiabatic_saturation_and_wet_bulb)=
 ## Two additional temperatures: adiabatic saturation and wet-bulb
 
+(adiabatic_saturation_process)=
+### The adiabatic saturation process
+
 {ref}`The procedure described above <dew_point_temperature>` for determining $\phi$ via $T_{\text{dp}}$ may sound straightforward, but is actually quite impractical for a number of reasons:
 
 - It requires a **controlled cooling**, which may be challenging to achieve and maintain during the process.
@@ -239,4 +242,106 @@ The procedure described above corresponds to a set of operations that, given an 
 - It is a **time-consuming** method, since air must be cooled gradually; likewise, each measurement requires a **separate cooling cycle**, which rules out the possibility of performing a **continuous monitoring** of the processes, thus increasing the time-cost of the method.
 - **Supercooling can occur, where air cools below its dew point without condensation**, leading to inaccurate readings and experimental errors. Supercooling happens because condensation requires not just low temperatures, but also nucleation sites (like dust particles) for water vapor to condense onto (recall that dew drops are formed at the outdoor surfaces which, as may be deduced, act as nucleation sites). The sensitiveness of the measurement devices to particles other than water (i.e. nucleation sites), and the need for such particles so that condensation occurs effectively are two contradictory requirements.
 
-**Is there another way of determining either the specific or the relative humidity by operational means?** Fortunately, there is. One such process, much more practical than the determination of $T_{\text{db}}$, is the so-called **adiabatic saturation process**. The experimental set-up, now, consists of a long insulated channel containing a pool of water.
+**Is there another way of determining either the specific or the relative humidity by operational means?** Fortunately, there is. One such process, much more practical than the determination of $T_{\text{db}}$, is the so-called **adiabatic saturation process**. The operations that need to be carried out in order to saturate an air/water mixture adiabatically are the following:
+
+- An experimental device consisting of a long insulated channel is set up. The insulation is required for avoiding any energetic exchange with the environment in the form of heat.
+- Liquid water is introduced to the channel from an opening at the bottom, filling the channel until a pool is formed. It is important to leave room in the channel so that air is allowed to enter and exit the device from two additional openings that act as inlet and outlet, respectively.
+- The air entering the channel is the atmospheric air whose thermodynamic state is to be determined by means of the adiabatic saturation process. It is assumed that its initial condition is given by the triplet $(T_{1}, \omega_{1}, \phi_{1})$. Additionally, such an air is circulated in a continuous manner, so that the open system constituted by the channel is ensured to operate in a steady state.
+- As the stream of unsaturated air flows over the pool of water, some of that water will evaporate and mix with the airstream. As a result, two main thermodynamic processes will be observed in the air/water mixture:
+    - The moisture content of air/water mixture will increase steadily, due to the evaporation of some of the surface water in the pool.
+    - The temperature of the mixture will drop, as part of the latent heat required to vaporise the water comes from the air.
+- If the channel is long enough, the air/water mixture will exit the system as saturated air ($\phi_{2}=1$) at a temperature $T_{2}$, which is called the **adiabatic saturation temperature**. The equilibrium thermodynamic state at the outlet will be determined by the triplet $(T_{2}, \omega_{2}, \phi_{2}=1)$.
+- For the overall process to operate under steady-state conditions, the water that is vaporised into the air and, consequently, expelled from the channel must be replaced somehow. The opening employed for forming the pool in the first place must supply such a makeup water, and it must do so at the rate of evaporation at the temperature $T_{2}$ so that a steady-state operation ensues.
+- Under such circumstances, the overall process can be assumed to involve no heat or work interactions, nor significant variations of kinetic and potential energies. Hence, the two conservation laws (mass and energy) adopt pretty simple forms for the two-inlet, one-exit steady-flow system described. Indeed:
+
+<center> <b>Mass balances:</b> </center>
+
+The mass flow rate of dry air remains constant
+
+```{math}
+:label: eq_mass_cons_air_adsat
+
+\begin{equation}
+    \dot{m}_{\text{a}_{1}} = \dot{m}_{\text{a}_{2}} = \dot{m}_{\text{a}} \ [\text{kg}/\text{s}]
+\end{equation}
+```
+
+The mass flow rate of vapor in the air increases by an amount equal to the rate of evaporation $\dot{m}_{\text{f}}$.
+
+```{math}
+:label: eq_mass_cons_water_adsat
+
+\begin{equation}
+    \dot{m}_{\text{w}_{1}} + \dot{m}_{\text{f}} = \dot{m}_{\text{w}_{2}} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{a}}\omega_{1} + \dot{m}_{\text{f}} = \dot{m}_{\text{a}}\omega_{2} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{f}} = \dot{m}_{\text{a}}\left(\omega_{2} - \omega_{1}\right) \ [\text{kg}/\text{s}]
+\end{equation}
+```
+
+<center> <b>Energy balance:</b> </center>
+
+There are no heat and work interactions $\left(\dot{Q}=\dot{W}=0\right)$, and the kinetic and potential energy variations are assumed to be negligible $\left(\Delta\dot{E}_{\text{kin.}}=\Delta\dot{E}_{\text{pot.}} \cong 0\right)$, so the only contributions to the energy balance are the enthalpic terms (as it is an open system):
+```{math}
+:label: eq_energy_cons_adsat
+
+\begin{equation}
+    \Delta\dot{H}=0 \hspace{2mm} \implies \hspace{2mm} \dot{H}_{\text{in}} = \dot{H}_{\text{out}} \hspace{2mm} \implies \hspace{2mm} \dot{H}_{1} + \dot{H}_{\text{f}} = \dot{H}_{2} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{a}}h_{1} + \dot{m}_{\text{f}}h_{\text{f}_{2}} = \dot{m}_{\text{a}}h_{2} \ [\text{kJ}].
+\end{equation}
+```
+
+Combining {eq}`eq_mass_cons_water_adsat` and {eq}`eq_energy_cons_adsat` above:
+
+```{math}
+:label: eq_energy_cons_spec_adsat
+
+\begin{equation}
+    \dot{m}_{\text{a}}h_{1} + \dot{m}_{\text{a}}\left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = \dot{m}_{\text{a}}h_{2} \hspace{2mm} \overset{/\dot{m}_{\text{a}}}{\implies} \hspace{2mm} h_{1} + \left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = h_{2} \ [\text{kJ}/\text{kg}].
+\end{equation}
+```
+
+Assuming that a prefect-gas model is applicable to the dry air, so that its enthalpy can be referenced to a $0 \ ^{\circ}\text{C}$ temperature by means of $h_{\text{a}}|_{@T}=c_{p}T$, {eq}`eq_energy_cons_spec_adsat` adopts the form:
+
+```{math}
+:label: eq_energy_cons_spec_enthalpy_adsat
+
+\begin{equation}
+    \left(c_{p}T_{1} + \omega{}h_{\text{g}_{1}}\right) + \left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = \left(c_{p}T_{2} + \omega_{2}h_{\text{g}_{2}}\right) \ [\text{kJ}/\text{kg}].
+\end{equation}
+```
+
+The specific humidity at the inlet, $\omega_{1}$, can be obtained from {eq}`eq_energy_cons_spec_enthalpy_adsat`:
+
+```{math}
+:label: eq_specific_humidity_adsat
+
+\begin{equation}
+    \omega_{1} = \frac{c_{p}\left(T_{2} - T_{1}\right) + \omega_{2}h_{\text{fg}_{2}}}{h_{\text{g}_{1}} - h_{\text{f}_{2}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
+\end{equation}
+```
+
+where:
+- $h_{\text{g}_{1}}$ is the enthalpy of saturated gas at the inlet temperature $T_{1}$.
+- $h_{\text{fg}_{2}}$ is the vaporisation enthalpy of water at the outlet temperature $T_{2}$.
+- $h_{\text{f}_{2}}$ is the enthalpy of saturated liquid at the same temperature.
+- $\omega_{2}$ is determined from the condition of saturated air at the outlet, namely from {eq}`eq_omega_terms_phi` with $\phi_{2}=1$:
+```{math}
+
+\begin{equation}
+    \omega_{2} = \frac{0.622P_{\text{g}_{2}}}{P_{2} - P_{\text{g}_{2}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right]
+\end{equation}
+```
+
+Thus, the above procedure allows calculating the specific humidity $\omega_{1}$ (and, consequently, also the relative humidity $\phi_{1}$) by measuring the pressure and temperature at the inlet and outlet of the channel. That's the reason why these type of channels are called **adiabatic saturators**.
+
+It is noteworthy that the process of adiabatic saturation is different from the one described to explain the phenomena of dew drop formation. Indeed, the process leading to the dew-point temperature has been assumed to occur at a constant partial pressure of the water vapor ($P_{\text{v}}=\text{const.}$), considering that such a partial pressure does not vary much when the system analysed corresponds to the atmosphere. Instead, the process leading to adiabatic saturation takes place in a confined space (the channel or saturator) whereby the progressive increment of the relative humidity rises the partial pressure of the water vapor. **The adiabatic saturation process does not occur at $P_{\text{v}}=\text{const.}$, as happens for the dewing phenomenon**. In general, hence, the two temperatures will not be the same, although both of them constitute properties that determine the thermodynamic state of an air/water mixture.
+
+(wet_bulb_temperature)=
+### The wet-bulb device
+
+As occurs with the dew-point determination, the process of adiabatic saturation also shows some disadvantages:
+
+- The channel required to saturate the mixture may be exceedingly long.
+- The spraying mechanism to achieve such a saturation may turn too complex to design.
+
+A more practical (and, indeed, employed) approach for determining the humidity of the air/water mixture is by a so-called **wet-bulb thermometer**. These type of devices are similar to the conventional dry-bulb thermometers, but they show the particularity of having their bulb covered with a cotton wick saturated with water. Air is then blown over the wick, and part of the water present in the cotton is evaporated in {ref}`a process identical to the one occurring in an adiabatic saturator <adiabatic_saturation_process>`. In fact, the air/water mixture located in the immediate surroundings of the wick can be assumed to be in a state of saturation. Again, evaporating the water requires energy and, as a result of such an extraction, the temperature of the water drops. This temperature difference constitutes the driving force for the heat transfer between air and water. After a while, the heat loss due to evaporation equals the heat gain from the air, and the temperature of the water stabilises at a given value. Such a temperature is called the **wet-bulb tmeperature**, and is symbolysed by $T_{\text{wb}}$. As mentioned, its easy measurement turns it into the most employed parameter in applications such as air-conditioning.
+
+(psychrometric_chart)=
+## The psychrometric chart
