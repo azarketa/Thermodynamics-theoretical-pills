@@ -441,7 +441,7 @@ print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 ```
 
 **Code output:**
-```verbatim
+```{code}
 Mass and molar fractions correctly computed
 -----
 y_N2 = 0.79 [-]
@@ -555,7 +555,7 @@ print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 
 **Code output:**
 
-```verbatim
+```{code}
 Mass and molar fractions correctly computed
 -----
 y_N2_inv = 0.21 [-]
@@ -696,13 +696,13 @@ plt.show()
 
 **Code output**
 
+(fig_1)=
 ```{image} Fig1.svg
-:label: fig1
 :width: 700px
 ```
 
+(fig_2)=
 ```{image} Fig2.svg
-:label: fig2
 :width: 700px
 ```
 
@@ -719,3 +719,8 @@ Observing the figures above, notice how:
 +++
 **End of Test Problem 3**
 :::
+
+
+```python
+
+```

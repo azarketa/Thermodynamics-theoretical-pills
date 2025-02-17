@@ -22,14 +22,12 @@ extensions = [
     #'myst_parser',
     'myst_nb',
     'sphinx_design',
-    #'sphinxcontrib.jupyter',
     'nbsphinx',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
     # 'sphinxcontrib.bibtex',
-    'jupyter_sphinx',
 ]
 
 # Configure MathJax for equation numbering and cross-references
