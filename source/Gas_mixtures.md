@@ -316,9 +316,11 @@ And the same can be said about the specific heats that, together with the specif
 ## Example problems: computing properties of mixtures
 
 (properties_of_air)=
-:::{card} Computing the properties of air
+### Test problem 1
 
-**Test Problem 1**
+:::{card} 
+
+**Computing the properties of air**
 ^^^
 Assuming air at atmospheric pressure and 300 K to be composed of 79% of $\text{N}_{2}$ and 21% of $\text{O}_{2}$ (in a volumetric basis), and knowing the following data:
 
@@ -477,9 +479,11 @@ As observed, the calculation of molar and mass fractions does not pose any diffi
 :::
 
 (inverted_air)=
-:::{card} Computing the properties of inverted air
+### Test problem 2
 
-**Test Problem 2**
+:::{card} 
+
+**Computing the properties of inverted air**
 ^^^
 
 Assume the same thermodynamic scenario as in the {ref}`previous problem <properties_of_air>`, but inverting the volume percentages of the constituents. Calculate the molar and mass fractions of this mixture, termed as "_inverted air_" herein, as well as its mixture properties. Compare them to the results obtained previously.
@@ -589,9 +593,11 @@ The fact that the specific gas constant for the mixture, $R_{\text{mix.}}$, is l
 :::
 
 (plotting_composition_properties)=
-:::{card} Plotting composition-dependent properties
+### Test Problem 3
 
-**Test Problem 3**
+:::{card} 
+
+**Plotting composition-dependent properties**
 ^^^
 
 Now assume that the volumetric composition of the mixture is variable, being possible to change it from 10% to 90% for both components. Obviously, there is a constraint in the values that the volumetric percentages of the constituents can adopt, as they must sum up to 100%: if the volumetric percentage of $\text{O}_{2}$ is of 10%, this means that the one of $\text{N}_{2}$ is of 90%, and _vice versa_.
