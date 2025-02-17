@@ -441,29 +441,28 @@ print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 ```
 
 **Code output:**
-```{code}
-Mass and molar fractions correctly computed
------
-y_N2 = 0.79 [-]
-y_O2 = 0.21 [-]
------
-x_N2 = 0.767 [-]
-x_O2 = 0.233 [-]
--------------------
-Mixture properties
------
-MW_air = 28.84 [kg/kmol]
-R_air = 0.288 [kJ/kg·K]
-cp_air = 1.011 [kJ/kg·K]
-cv_air = 0.723 [kJ/kg·K]
--------------------
-Differences with tabulated data
------
-Err. in MW = -0.449 [%]
-Err. in R = 0.452 [%]
-Err. in cp = 0.578 [%]
-Err. in cv = 0.723 [%]
-```
+
+    Mass and molar fractions correctly computed
+    -----
+    y_N2 = 0.79 [-]
+    y_O2 = 0.21 [-]
+    -----
+    x_N2 = 0.767 [-]
+    x_O2 = 0.233 [-]
+    -------------------
+    Mixture properties
+    -----
+    MW_air = 28.84 [kg/kmol]
+    R_air = 0.288 [kJ/kg·K]
+    cp_air = 1.011 [kJ/kg·K]
+    cv_air = 0.723 [kJ/kg·K]
+    -------------------
+    Differences with tabulated data
+    -----
+    Err. in MW = -0.449 [%]
+    Err. in R = 0.452 [%]
+    Err. in cp = 0.578 [%]
+    Err. in cv = 0.723 [%]
 
 ```{note}
 As observed, the calculation of molar and mass fractions does not pose any difficulties. Neither does the computation of the mixture properties, although certain differences are observed when comparing the obtained values with tabulated data. The sources of those errors may be traced down to two main factors:
@@ -555,29 +554,27 @@ print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 
 **Code output:**
 
-```{code}
-Mass and molar fractions correctly computed
------
-y_N2_inv = 0.21 [-]
-y_O2_inv = 0.79 [-]
------
-x_N2_inv = 0.189 [-]
-x_O2_inv = 0.811 [-]
--------------------
-Mixture properties
------
-MW_air_inv = 31.16 [kg/kmol]
-R_air_inv = 0.267 [kJ/kg·K]
-cp_air_inv = 0.941 [kJ/kg·K]
-cv_air_inv = 0.674 [kJ/kg·K]
--------------------
-Differences with standard, simplified air
------
-Err. in MW = 8.044 [%]
-Err. in R = -7.445 [%]
-Err. in cp = -6.922 [%]
-Err. in cv = -6.797 [%]
-```
+    Mass and molar fractions correctly computed
+    -----
+    y_N2_inv = 0.21 [-]
+    y_O2_inv = 0.79 [-]
+    -----
+    x_N2_inv = 0.189 [-]
+    x_O2_inv = 0.811 [-]
+    -------------------
+    Mixture properties
+    -----
+    MW_air_inv = 31.16 [kg/kmol]
+    R_air_inv = 0.267 [kJ/kg·K]
+    cp_air_inv = 0.941 [kJ/kg·K]
+    cv_air_inv = 0.674 [kJ/kg·K]
+    -------------------
+    Differences with standard, simplified air
+    -----
+    Err. in MW = 8.044 [%]
+    Err. in R = -7.445 [%]
+    Err. in cp = -6.922 [%]
+    Err. in cv = -6.797 [%]
 
 ```{note}
 Notice that, in this case, the molar weight has increased considerably. This makes sense insofar the molar weight of the mixture is a weighted average of the individual weights. The weights of the averaging are the molar fractions and, compared with the standard air composition, the inverted case owns a much larger molar fraction for oxygen than for nitrogen. Hence, the molar weight of the mixture will lie closer to the constituent whose molar fraction is higher (notice that, in case the mixture is equilibrated in its composition, the molar weight (as well as all the other properties) will match the arithmetic averages of the individual components' values). Indeed, the deviation from the standard air's value is of 8%, which is remarkable.
@@ -711,7 +708,7 @@ Observing the figures above, notice how:
 
 - The molar fractions vary linearly along the considered interval: the molar fraction of $\text{N}_{2}$ increases linearly, and the one of $\text{O}_{2}$ decreases accordingly, thus fulfilling the normalization constraint of adding up to 1.
 
-- The evolution of the mass fractions is slightly different, as they show a slight bending on their linear tendency, resembling more to parabolic shapes. This is due to the fact that the mass fractions are computed by multiplying the molar fractions with the ratio of the molar weight of the constituent to the molar weight of the mixture (see {eq}`eq_frac_relation}). As both the molar fraction and the molar weight of the mixture follow linear trends (as observed in the second figure), a difference in their slopes results in a tendency for the mass fractions that departs slightly from a straight line.
+- The evolution of the mass fractions is slightly different, as they show a slight bending on their linear tendency, resembling more to parabolic shapes. This is due to the fact that the mass fractions are computed by multiplying the molar fractions with the ratio of the molar weight of the constituent to the molar weight of the mixture (see equation {eq}`eq_frac_relation`). As both the molar fraction and the molar weight of the mixture follow linear trends (as observed in the second figure), a difference in their slopes results in a tendency for the mass fractions that departs slightly from a straight line.
 
 - The mixture constants increase steadily throughout the considered interval, and they do so linearly (the counteracting parabolic trends of the mass fractions entering the computation of the weighted averages for the $c_{p}$ and $c_{v}$ cases cancel each other out, leading to a linear trend instead).
 ```
@@ -719,8 +716,3 @@ Observing the figures above, notice how:
 +++
 **End of Test Problem 3**
 :::
-
-
-```python
-
-```
