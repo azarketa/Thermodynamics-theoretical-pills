@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'myst_parser',
+    #'myst_parser',
     'myst_nb',
     #'sphinxcontrib.jupyter',
     'nbsphinx',
