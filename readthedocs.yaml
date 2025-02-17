@@ -14,13 +14,7 @@ build:
 
 # Build settings
 sphinx:
-  configuration: source/conf.py  # Change to the location of your conf.py
-  config:
-    latex_elements:
-      preamble: |
-        \renewcommand{\theequation}{\arabic{equation}}
-        \setlength{\abovedisplayskip}{5pt}
-        \setlength{\belowdisplayskip}{5pt}        
+  configuration: source/conf.py  # Change to the location of your conf.py  
 
 # Python settings
 python:
