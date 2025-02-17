@@ -21,6 +21,7 @@ sys.path.insert(0, os.path.abspath('.'))
 extensions = [
     #'myst_parser',
     'myst_nb',
+    'sphinx_design',
     #'sphinxcontrib.jupyter',
     'nbsphinx',
     'sphinx.ext.autodoc',
@@ -58,7 +59,7 @@ myst_enable_extensions = [
     "html_image",
 ]
 
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
-}
+#source_suffix = {
+#    '.rst': 'restructuredtext',
+#    '.md': 'markdown',
+#}
