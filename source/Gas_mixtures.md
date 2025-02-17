@@ -316,13 +316,14 @@ And the same can be said about the specific heats that, together with the specif
 ## Example problems: computing properties of mixtures
 
 (properties_of_air)=
-### Computing the properties of air
+:::{card} Computing the properties of air
 
+**Test Problem 1**
+^^^
 Assuming air at atmospheric pressure and 300 K to be composed of 79% of $\text{N}_{2}$ and 21% of $\text{O}_{2}$ (in a volumetric basis), and knowing the following data:
 
-Common (universal) data.
-
-- $\text{R}_{\text{u}} = 8.314 \ [\text{kJ}/\text{kmol}{\cdot}\text{K}]$ .
+- Common (universal) data.
+    - $\text{R}_{\text{u}} = 8.314 \ [\text{kJ}/\text{kmol}{\cdot}\text{K}]$ .
 
 - $\text{N}_{2}$:
     - $\text{MW}_{\text{N}_2} = 28 \ [\text{kg}/\text{kmol}]$ ,
@@ -332,23 +333,22 @@ Common (universal) data.
 - $\text{O}_{2}$:
     - $\text{MW}_{\text{O}_2} = 32 \ [\text{kg}/\text{kmol}]$ ,
     - $c_{p,\text{O}_{2}} = 0.918 \ [\text{kJ}/\text{kg}{\cdot}\text{K}]$ ,
-    - $c_{v,\text{O}_{2}} = 0.658 \ [\text{kJ}/\text{kg}{\cdot}\text{K}]$ .
+    - $c_{v,\text{O}_{2}} = 0.658 \ [\text{kJ}/\text{kg}{\cdot}\text{K}]$ ,
 
-Considering that the mixture behaves as an ideal gas, calculate the mass and molar fractions of air, as well as its molar weight and specific heats. Compare these with the data provided in tables for the nitrogen-oxygen mixture tabulated as "_Air_".
+calculate the mass and molar fractions of air, as well as its molar weight and specific heats (consider that the mixture behaves as an ideal gas). Compare the computed data with the data provided in tables for the nitrogen-oxygen mixture tabulated as "_Air_".
 
-
-```python
+**Code input:**
+```{code} python
+:linenos:
+    
 #####
 ##### Importing packages
 #####
 
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib as mpl
-```
-
-
-```python
+import matplotlib as mpl    
+    
 #####
 ##### Problem-independent (constant) data.
 #####
@@ -365,10 +365,7 @@ cv_N2 = 0.743
 MW_O2 = 32
 cp_O2 = 0.918
 cv_O2 = 0.658
-```
 
-
-```python
 #####
 ##### Problem-specific data.
 #####
@@ -383,18 +380,18 @@ v_frac_O2 = 0.21
 ##### Mixture calculations.
 #####
 
-# By virtue of (14).
+# By virtue of equation (14).
 y_N2 = v_frac_N2 
 y_O2 = v_frac_O2
 
-# By virtue of (7).
+# By virtue of equation (7).
 MW_air = y_N2*MW_N2 + y_O2*MW_O2
 
-# By virtue of (8)
+# By virtue of equation (8).
 x_N2 = y_N2*(MW_N2/MW_air)
 x_O2 = y_O2*(MW_O2/MW_air)
 
-# Checking (3) and (4).
+# Checking mass and molar fraction normalizations (equations (3) and (4)).
 if y_N2 + y_O2 == 1 and x_N2 + x_O2 == 1:
     print("Mass and molar fractions correctly computed")
     print("-----")
@@ -404,10 +401,10 @@ if y_N2 + y_O2 == 1 and x_N2 + x_O2 == 1:
     print(f"x_N2 = {np.round(x_N2, 3)} [-]")
     print(f"x_O2 = {np.round(x_O2, 3)} [-]")
     
-# By virtue of (6).
+# By virtue of equation (6).
 R_air = R_u/MW_air
 
-# By virtue of (24) and (25).
+# By virtue of equations (24) and (25).
 cp_air = x_N2*cp_N2 + x_O2*cp_O2
 cv_air = x_N2*cv_N2 + x_O2*cv_O2
 
@@ -419,12 +416,17 @@ print(f"R_air = {np.round(R_air, 3)} [kJ/kg·K]")
 print(f"cp_air = {np.round(cp_air, 3)} [kJ/kg·K]")
 print(f"cv_air = {np.round(cv_air, 3)} [kJ/kg·K]")
 
+#####
+##### Comparing with tabulate data.
+####
+
 # Reading air data from tables.
 MW_air_table = 28.97
 R_air_table = 0.287
 cp_air_table = 1.005
 cv_air_table = 0.718
 
+# Computing the errors.
 delta_MW = 100*(MW_air - MW_air_table)/MW_air_table
 delta_R = 100*(R_air - R_air_table)/R_air_table
 delta_cp = 100*(cp_air - cp_air_table)/cp_air_table
@@ -438,42 +440,56 @@ print(f"Err. in cp = {np.round(delta_cp, 3)} [%]")
 print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 ```
 
-    Mass and molar fractions correctly computed
-    -----
-    y_N2 = 0.79 [-]
-    y_O2 = 0.21 [-]
-    -----
-    x_N2 = 0.767 [-]
-    x_O2 = 0.233 [-]
-    -------------------
-    Mixture properties
-    -----
-    MW_air = 28.84 [kg/kmol]
-    R_air = 0.288 [kJ/kg·K]
-    cp_air = 1.011 [kJ/kg·K]
-    cv_air = 0.723 [kJ/kg·K]
-    -------------------
-    Differences with tabulated data
-    -----
-    Err. in MW = -0.449 [%]
-    Err. in R = 0.452 [%]
-    Err. in cp = 0.578 [%]
-    Err. in cv = 0.723 [%]
-    
+**Code output:**
+```verbatim
+Mass and molar fractions correctly computed
+-----
+y_N2 = 0.79 [-]
+y_O2 = 0.21 [-]
+-----
+x_N2 = 0.767 [-]
+x_O2 = 0.233 [-]
+-------------------
+Mixture properties
+-----
+MW_air = 28.84 [kg/kmol]
+R_air = 0.288 [kJ/kg·K]
+cp_air = 1.011 [kJ/kg·K]
+cv_air = 0.723 [kJ/kg·K]
+-------------------
+Differences with tabulated data
+-----
+Err. in MW = -0.449 [%]
+Err. in R = 0.452 [%]
+Err. in cp = 0.578 [%]
+Err. in cv = 0.723 [%]
+```
 
+```{note}
 As observed, the calculation of molar and mass fractions does not pose any difficulties. Neither does the computation of the mixture properties, although certain differences are observed when comparing the obtained values with tabulated data. The sources of those errors may be traced down to two main factors:
 
 - The fact that the assumed mixture composition is not identical to the one employed for computing the tabulated data. In fact, standard atmospheric air is not constituted by $\text{N}_{2}$ and $\text{O}_{2}$ exclusively, although such gases prevail in amount. However, tiny fractions of other constituents (argon, for instance) may play a significant role when comparing the data obtained with the simplified air composition with the real one.
 
 - Rounding errors during the computations may also affect the final results, although this source is presumably playing a minor role compared to the compositional one.
+```
+
++++
+**End of Test Problem 1**
+:::
 
 (inverted_air)=
-### Computing the properties of inverted air
+:::{card} Computing the properties of inverted air
+
+**Test Problem 2**
+^^^
 
 Assume the same thermodynamic scenario as in the {ref}`previous problem <properties_of_air>`, but inverting the volume percentages of the constituents. Calculate the molar and mass fractions of this mixture, termed as "_inverted air_" herein, as well as its mixture properties. Compare them to the results obtained previously.
 
+**Code input:**
 
-```python
+```{code} python
+:linenos:
+
 #####
 ##### Problem-specific data.
 #####
@@ -488,18 +504,18 @@ v_frac_O2_inv = 0.79
 ##### Mixture calculations.
 #####
 
-# By virtue of (14).
+# By virtue of equation (14).
 y_N2_inv = v_frac_N2_inv
 y_O2_inv = v_frac_O2_inv
 
-# By virtue of (7).
+# By virtue of equation (7).
 MW_air_inv = y_N2_inv*MW_N2 + y_O2_inv*MW_O2
 
-# By virtue of (8)
+# By virtue of equation (8).
 x_N2_inv = y_N2_inv*(MW_N2/MW_air_inv)
 x_O2_inv = y_O2_inv*(MW_O2/MW_air_inv)
 
-# Checking (3) and (4).
+# Checking mass and molar fraction normalizations (equations (3) and (4)).
 if y_N2_inv + y_O2_inv == 1 and x_N2_inv + x_O2_inv == 1:
     print("Mass and molar fractions correctly computed")
     print("-----")
@@ -509,7 +525,7 @@ if y_N2_inv + y_O2_inv == 1 and x_N2_inv + x_O2_inv == 1:
     print(f"x_N2_inv = {np.round(x_N2_inv, 3)} [-]")
     print(f"x_O2_inv = {np.round(x_O2_inv, 3)} [-]")
     
-# By virtue of (6).
+# By virtue of equation (6).
 R_air_inv = R_u/MW_air_inv
 
 # By virtue of (24) and (25).
@@ -537,44 +553,57 @@ print(f"Err. in cp = {np.round(delta_cp, 3)} [%]")
 print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 ```
 
-    Mass and molar fractions correctly computed
-    -----
-    y_N2_inv = 0.21 [-]
-    y_O2_inv = 0.79 [-]
-    -----
-    x_N2_inv = 0.189 [-]
-    x_O2_inv = 0.811 [-]
-    -------------------
-    Mixture properties
-    -----
-    MW_air_inv = 31.16 [kg/kmol]
-    R_air_inv = 0.267 [kJ/kg·K]
-    cp_air_inv = 0.941 [kJ/kg·K]
-    cv_air_inv = 0.674 [kJ/kg·K]
-    -------------------
-    Differences with standard, simplified air
-    -----
-    Err. in MW = 8.044 [%]
-    Err. in R = -7.445 [%]
-    Err. in cp = -6.922 [%]
-    Err. in cv = -6.797 [%]
-    
+**Code output:**
 
+```verbatim
+Mass and molar fractions correctly computed
+-----
+y_N2_inv = 0.21 [-]
+y_O2_inv = 0.79 [-]
+-----
+x_N2_inv = 0.189 [-]
+x_O2_inv = 0.811 [-]
+-------------------
+Mixture properties
+-----
+MW_air_inv = 31.16 [kg/kmol]
+R_air_inv = 0.267 [kJ/kg·K]
+cp_air_inv = 0.941 [kJ/kg·K]
+cv_air_inv = 0.674 [kJ/kg·K]
+-------------------
+Differences with standard, simplified air
+-----
+Err. in MW = 8.044 [%]
+Err. in R = -7.445 [%]
+Err. in cp = -6.922 [%]
+Err. in cv = -6.797 [%]
+```
+
+```{note}
 Notice that, in this case, the molar weight has increased considerably. This makes sense insofar the molar weight of the mixture is a weighted average of the individual weights. The weights of the averaging are the molar fractions and, compared with the standard air composition, the inverted case owns a much larger molar fraction for oxygen than for nitrogen. Hence, the molar weight of the mixture will lie closer to the constituent whose molar fraction is higher (notice that, in case the mixture is equilibrated in its composition, the molar weight (as well as all the other properties) will match the arithmetic averages of the individual components' values). Indeed, the deviation from the standard air's value is of 8%, which is remarkable.
 
 The same reasoning can be applied for the mixture's specific heats. Insofar they constitute weighted averages of the individual constituents' values, they will tend to lie closer to the constituent whose mass-fraction is higher (not the molar one in this case). Given that the specific heat values of $\text{O}_{2}$ are lower than those of $\text{N}_{2}$, the resulting mixture values also lie lower than in the standard case.
 
 The fact that the specific gas constant for the mixture, $R_{\text{mix.}}$, is lower than in the standard case is a consequence of the molar weight being higher. Indeed, the specific gas constant is obtained as a division between the universal gas constant and the molar weight of the mixture.
+```
+
++++
+**End of Test Problem 2**
+:::
 
 (plotting_composition_properties)=
-### Plotting composition-dependent properties
+:::{card} Plotting composition-dependent properties
+
+**Test Problem 3**
+^^^
 
 Now assume that the volumetric composition of the mixture is variable, being possible to change it from 10% to 90% for both components. Obviously, there is a constraint in the values that the volumetric percentages of the constituents can adopt, as they must sum up to 100%: if the volumetric percentage of $\text{O}_{2}$ is of 10%, this means that the one of $\text{N}_{2}$ is of 90%, and _vice versa_.
 
 Plot the composition-dependent mass and molar fractions against the volumetric percentage of $\text{N}_{2}$ present in the mixture, as well as the mixture's molar weight and specific constants.
 
+**Code input:**
 
-```python
+```{code} python
 #####
 ##### Problem-specific data.
 #####
@@ -665,14 +694,19 @@ plt.gca().tick_params(axis='y', colors=colors[1])
 plt.show()
 ```
 
+**Code output**
 
-![png](Gas_mixtures_files/Gas_mixtures_22_0.png)
+```{image} Fig1.svg
+:label: fig1
+:width: 700px
+```
 
+```{image} Fig2.svg
+:label: fig2
+:width: 700px
+```
 
-
-![png](Gas_mixtures_files/Gas_mixtures_22_1.png)
-
-
+```{note}
 Observing the figures above, notice how:
 
 - The molar fractions vary linearly along the considered interval: the molar fraction of $\text{N}_{2}$ increases linearly, and the one of $\text{O}_{2}$ decreases accordingly, thus fulfilling the normalization constraint of adding up to 1.
@@ -680,3 +714,8 @@ Observing the figures above, notice how:
 - The evolution of the mass fractions is slightly different, as they show a slight bending on their linear tendency, resembling more to parabolic shapes. This is due to the fact that the mass fractions are computed by multiplying the molar fractions with the ratio of the molar weight of the constituent to the molar weight of the mixture (see {eq}`eq_frac_relation}). As both the molar fraction and the molar weight of the mixture follow linear trends (as observed in the second figure), a difference in their slopes results in a tendency for the mass fractions that departs slightly from a straight line.
 
 - The mixture constants increase steadily throughout the considered interval, and they do so linearly (the counteracting parabolic trends of the mass fractions entering the computation of the weighted averages for the $c_{p}$ and $c_{v}$ cases cancel each other out, leading to a linear trend instead).
+```
+
++++
+**End of Test Problem 3**
+:::
