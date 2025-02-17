@@ -20,14 +20,13 @@ sys.path.insert(0, os.path.abspath('.'))
 
 extensions = [
     'myst_parser',
-    #'myst_nb',
+    'myst_nb',
     #'sphinxcontrib.jupyter',
     'nbsphinx',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
-    'sphinx.ext.admonition',
     # 'sphinxcontrib.bibtex',
     'jupyter_sphinx',
 ]
@@ -55,6 +54,7 @@ myst_enable_extensions = [
     "amsmath",
     "colon_fence",
     "deflist",
+    "html_admonition",
     "html_image",
 ]
 
