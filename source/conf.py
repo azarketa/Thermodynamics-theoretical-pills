@@ -27,6 +27,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
+    'sphinx.ext.admonition',
     # 'sphinxcontrib.bibtex',
     'jupyter_sphinx',
 ]
