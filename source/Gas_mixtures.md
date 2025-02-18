@@ -315,6 +315,97 @@ And the same can be said about the specific heats that, together with the specif
 (example_problems)=
 ## Example problems: computing properties of mixtures
 
+```{note}
+An underlying idea behind the development of this manual has been the motivation to show the potential of scientific programming languaages for solving engineering problems. Complying with the philosophy of open-source code, it has been decided to show such a potential by providing the programming-based solutions to showcase problems via [Python{sup}`TM`](https://www.python.org/) scripts. The ultimate purpose is to induce the readers of the manual to download either a standard Python interpreter or a popular distribution (the one recommended is the community version of the [Anaconda distribution](https://www.anaconda.com/download)), and to try to reproduce the results shown herein on their own. Furthermore, the readers that decide to give a try to the code-based methodology are also compelled to play with the scripts, modifying the data given in the problem statements and challenging themselves to develop both customised and enhanced versions of the scripts provided.
+```
+
+Whoever has used Python should be familiar with the usual workflow when writing a code script:
+
+- Typically, the first command lines are devoted to **importing the packages** (libraries) that will expectedly be used within the main code blocks.
+- Afterwards, it is usual to define the values of the variables that will be constant along the code. The definition of any variable in a coding block is termed, in programming jargon, as **declaring a variable**, which is why this second step may be termed as **declaring the constants**.
+- Next, the programmer writes down (codifies) all the logic that constitutes the solving procedure of the problem. In other words, it **develops the problem-specific algorithms**, including the **declaration of output variables** that will constitute the outcome of the code for the post-processing stage.
+- The following step is to **run or execute the code**, which may include several iterative steps of debugging in case errors are found during the execution.
+- Finally, the 
+
+A flowchart may serve the purpose of illustrating the above procedure more clearly:
+
+(flowchart_coding)=
+```mermaid
+---
+config:
+  markdownAutoWrap: true
+---
+graph LR
+  A[Importing packages];
+  B[Declaring constants];
+  C[Developing problem-specific algorithms];
+  D[Running the code];
+  E{Errors found?};
+  F[Post-processing];
+  
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  E --> |Yes| C
+  E --> |No| F
+```
+
+The two code blocks shown below correspond, respectively, to the former steps shown in the flowchart. They have been rendered before the problem-specific algorithms developed in the test problems, as they constitute common code blocks for all of them.
+
+:::{card}
+
+**Package-importing code-block**
+^^^
+
+```{code} python
+:linenos:
+    
+#####
+##### Importing packages
+#####
+
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as mpl    
+```
+
++++
+**End of code-block**
+:::
+
+:::{card}
+
+**Constant-variables declaration code-block**
+^^^
+
+```{code} python
+:linenos:
+
+#####
+##### Problem-independent (constant) data.
+#####
+
+# Common (universal) data.
+R_u = 8.31447
+
+# Data for nitrogen.
+MW_N2 = 28
+cp_N2 = 1.039
+cv_N2 = 0.743
+
+# Data for oxygen.
+MW_O2 = 32
+cp_O2 = 0.918
+cv_O2 = 0.658
+```
+
++++
+**End of code-block**
+:::
+
+The code-blocks above are written at the beginning of the scripts or, when using a [Jupyter Notebook](https://jupyter.org/), they can be coded in the first code-cells and run once. The code-blocks shown in the test problems below correspond to problem-specific algorithms, and they refer to the rightmost steps described in the {ref}`previous flowchart <flowchart_coding>`.
+
 (properties_of_air)=
 ### Test problem 1
 
@@ -342,31 +433,6 @@ calculate the mass and molar fractions of air, as well as its molar weight and s
 **Code input:**
 ```{code} python
 :linenos:
-    
-#####
-##### Importing packages
-#####
-
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib as mpl    
-    
-#####
-##### Problem-independent (constant) data.
-#####
-
-# Common (universal) data.
-R_u = 8.31447
-
-# Data for nitrogen.
-MW_N2 = 28
-cp_N2 = 1.039
-cv_N2 = 0.743
-
-# Data for oxygen.
-MW_O2 = 32
-cp_O2 = 0.918
-cv_O2 = 0.658
 
 #####
 ##### Problem-specific data.
