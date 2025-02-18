@@ -23,6 +23,7 @@ extensions = [
     'myst_nb',
     'sphinx_design',
     #'sphinxcontrib.jupyter',
+    'sphinxcontrib.mermaid',
     'nbsphinx',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
