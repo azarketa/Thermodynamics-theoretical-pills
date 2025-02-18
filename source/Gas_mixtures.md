@@ -330,11 +330,7 @@ Whoever has used Python should be familiar with the usual workflow when writing 
 A flowchart may serve the purpose of illustrating the above procedure more clearly:
 
 (flowchart_coding)=
-```mermaid
----
-config:
-  markdownAutoWrap: true
----
+:::{mermaid}
 graph LR
   A[Importing packages];
   B[Declaring constants];
@@ -349,7 +345,7 @@ graph LR
   D --> E
   E --> |Yes| C
   E --> |No| F
-```
+:::
 
 The two code blocks shown below correspond, respectively, to the former steps shown in the flowchart. They have been rendered before the problem-specific algorithms developed in the test problems, as they constitute common code blocks for all of them.
 
