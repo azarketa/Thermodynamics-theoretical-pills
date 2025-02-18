@@ -405,7 +405,7 @@ The code-blocks above are written at the beginning of the scripts or, when using
 (properties_of_air)=
 ### Test problem 1
 
-:::{card} 
+::::{card} 
 
 **Computing the properties of air**
 ^^^
@@ -426,7 +426,11 @@ Assuming air at atmospheric pressure and 300 K to be composed of 79% of $\text{N
 
 calculate the mass and molar fractions of air, as well as its molar weight and specific heats (consider that the mixture behaves as an ideal gas). Compare the computed data with the data provided in tables for the nitrogen-oxygen mixture tabulated as "_Air_".
 
-**Code input:**
+:::{card}
+
+**Input code-block:**
+^^^
+
 ```{code} python
 :linenos:
 
@@ -504,7 +508,14 @@ print(f"Err. in cp = {np.round(delta_cp, 3)} [%]")
 print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 ```
 
++++
+**End of input code-block**
+:::
+
+:::{card}
+
 **Code output:**
+^^^
 
     Mass and molar fractions correctly computed
     -----
@@ -527,6 +538,10 @@ print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
     Err. in R = 0.452 [%]
     Err. in cp = 0.578 [%]
     Err. in cv = 0.723 [%]
+    
++++
+**End of code output**
+:::
 
 ```{note}
 As observed, the calculation of molar and mass fractions does not pose any difficulties. Neither does the computation of the mixture properties, although certain differences are observed when comparing the obtained values with tabulated data. The sources of those errors may be traced down to two main factors:
@@ -538,19 +553,22 @@ As observed, the calculation of molar and mass fractions does not pose any diffi
 
 +++
 **End of Test Problem 1**
-:::
+::::
 
 (inverted_air)=
 ### Test problem 2
 
-:::{card} 
+::::{card} 
 
 **Computing the properties of inverted air**
 ^^^
 
 Assume the same thermodynamic scenario as in the {ref}`previous problem <properties_of_air>`, but inverting the volume percentages of the constituents. Calculate the molar and mass fractions of this mixture, termed as "_inverted air_" herein, as well as its mixture properties. Compare them to the results obtained previously.
 
-**Code input:**
+:::{card}
+
+**Input code-block:**
+^^^
 
 ```{code} python
 :linenos:
@@ -618,7 +636,14 @@ print(f"Err. in cp = {np.round(delta_cp, 3)} [%]")
 print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
 ```
 
++++
+**End of input code-block**
+:::
+
+:::{card}
+
 **Code output:**
+^^^
 
     Mass and molar fractions correctly computed
     -----
@@ -641,6 +666,10 @@ print(f"Err. in cv = {np.round(delta_cv, 3)} [%]")
     Err. in R = -7.445 [%]
     Err. in cp = -6.922 [%]
     Err. in cv = -6.797 [%]
+    
++++
+**End of code output**
+:::    
 
 ```{note}
 Notice that, in this case, the molar weight has increased considerably. This makes sense insofar the molar weight of the mixture is a weighted average of the individual weights. The weights of the averaging are the molar fractions and, compared with the standard air composition, the inverted case owns a much larger molar fraction for oxygen than for nitrogen. Hence, the molar weight of the mixture will lie closer to the constituent whose molar fraction is higher (notice that, in case the mixture is equilibrated in its composition, the molar weight (as well as all the other properties) will match the arithmetic averages of the individual components' values). Indeed, the deviation from the standard air's value is of 8%, which is remarkable.
@@ -652,12 +681,12 @@ The fact that the specific gas constant for the mixture, $R_{\text{mix.}}$, is l
 
 +++
 **End of Test Problem 2**
-:::
+::::
 
 (plotting_composition_properties)=
 ### Test Problem 3
 
-:::{card} 
+::::{card} 
 
 **Plotting composition-dependent properties**
 ^^^
@@ -666,7 +695,10 @@ Now assume that the volumetric composition of the mixture is variable, being pos
 
 Plot the composition-dependent mass and molar fractions against the volumetric percentage of $\text{N}_{2}$ present in the mixture, as well as the mixture's molar weight and specific constants.
 
-**Code input:**
+:::{card}
+
+**Input code-block:**
+^^^
 
 ```{code} python
 #####
@@ -759,7 +791,14 @@ plt.gca().tick_params(axis='y', colors=colors[1])
 plt.show()
 ```
 
++++
+**End of input code-block**
+:::
+
+:::{card}
+
 **Code output**
+^^^
 
 (fig_1)=
 ```{image} Fig1.svg
@@ -770,6 +809,10 @@ plt.show()
 ```{image} Fig2.svg
 :width: 700px
 ```
+
++++
+**End of code output**
+:::
 
 ```{note}
 Observing the figures above, notice how:
@@ -783,4 +826,4 @@ Observing the figures above, notice how:
 
 +++
 **End of Test Problem 3**
-:::
+::::
