@@ -28,7 +28,7 @@ Those two expressions constitute the first descriptive characters of mixtures. T
 ```{math}
 
 \begin{equation*}
-\displaystyle{x_{i} = \frac{m_{i}}{m_{\text{mix.}}} \ [-] \hspace{5mm}} \text{and} \hspace{5mm} \displaystyle{y_{i} = \frac{N_{i}}{N_{\text{mix.}}} \ [-]} \ .
+    \displaystyle{x_{i} = \frac{m_{i}}{m_{\text{mix.}}} \ [-] \hspace{5mm}} \text{and} \hspace{5mm} \displaystyle{y_{i} = \frac{N_{i}}{N_{\text{mix.}}} \ [-]} \ .
 \end{equation*}
 ```
 
@@ -59,9 +59,7 @@ The **mixture-specific gas constant** is obtained from its definition, minding t
 ```{math}
 :label: eq_R_mixture
 
-
     \displaystyle{R_{\text{mix.}} = \frac{\text{R}_{\text{u}}}{\text{MW}_{\text{mix.}}} \ [\text{kJ}/(\text{kg}{\cdot}\text{K})] .}
-
 ```
 
 Two final relationships may be of practical use. From the definition of the molar weight for the mixture, it is possible to relate it to the mass fractions, instead of considering the molar ones:
@@ -69,9 +67,7 @@ Two final relationships may be of practical use. From the definition of the mola
 ```{math}
 :label: eq_molweight_mixture_massfrac
 
-
     \displaystyle{\text{MW}_{\text{mix.}}=\frac{m_{\text{mix.}}}{N_{\text{mix.}}}=\frac{m_{\text{mix.}}}{\sum_{i=1}^{k}\frac{m_{i}}{\text{MW}_{i}}} = \frac{1}{\sum_{i=1}^{k}\frac{m_{i}}{(m_{\text{mix.}}\text{MW}_{i})}} = \frac{1}{\sum_{i=1}^{k}\frac{x_{i}}{\text{MW}_{i}}} \ [\text{kg}/\text{kmol}]}.
-
 ```
 
 The fact that $\text{MW}_{\text{mix.}}$ can be written in terms of either $x_{i}$ or $y_{i}$ indicates that the two fractions (molar and mass) are related. Indeed, such a relationship can be obtained from the definition of the molar fraction, considering that the mass can be expressed as the product of the molar weight and the number of moles. Thus:
@@ -79,9 +75,7 @@ The fact that $\text{MW}_{\text{mix.}}$ can be written in terms of either $x_{i}
 ```{math}
 :label: eq_frac_relation
 
-
     \displaystyle{x_{i}=\frac{m_{i}}{m_{\text{mix.}}}=\frac{N_{i}\text{MW}_{i}}{N_{\text{mix.}}\text{MW}_{\text{mix.}}}=y_{i}\frac{\text{MW}_{i}}{\text{MW}_{\text{mix.}}} \ [-]}.
-
 ```
 
 (pvt_behaviour)=
@@ -92,9 +86,7 @@ Ideal gases constituted by pure substances are known to behave as such under two
 ```{math}
 :label: eq_ideal_gas_conditions
 
-
     \lim_{P\to0}P \hspace{2mm} \& \hspace{2mm} \lim_{T\to\infty}T \hspace{2mm} \implies \hspace{2mm} \text{ideal-gas model.}
-
 ```
 
 Under such conditions, the most simple state-equation model that is known to relate the stable thermodynamic equilibrium properties of a gas corresponds to the well-known expression:
@@ -102,9 +94,7 @@ Under such conditions, the most simple state-equation model that is known to rel
 ```{math}
 :label: eq_ideal_gas_state_equation
 
-
     Pv=R_{\text{gas}}T \ [\text{kJ}/\text{kg}].
-
 ```
 
 Notice that {eq}`eq_ideal_gas_state_equation`, insofar it relates the properties $P$, $v$ and $T$ with each other, codifies the $P-v-T$ relation of a substance. The information it provides is equivalent to the one gathered in tabular form for substances other than ideal gases, such as water. The upshot is that, whereas an easy mathematical expression cannot be found for the latter substances, the tabulated data can also be interpreted as codifying a sort of discretized $P-v-T$ relationship. Either with substances that can be modeled as ideal gases, or with those that manifest such a broader behaviour that must be asserted by other means, the two models employed (ideal-gas state-equation in the former; $P-v-T$ diagrams in the latter) are of the form $f(P, v, T)=0$. That is: they represent homogeneous functions of three variables (whichever complicated) in which every point of the surface represents a state of thermodynamic equilibrium. In fact, that's what the stable-state principle claims in the case of simple systems: it suffices with two independent intensive thermodynamic variables for fixing the overall (equilibrium) thermodynamic state of a system. 
@@ -138,9 +128,7 @@ Fortunately, it turns out that the answer to the last question is affirmative, a
     ```{math}
     :label: eq_Daltons_law
     
-    
         \text{Dalton's law:} \hspace{5mm}  P_{\text{mix.}} = \sum_{i=1}^{k}P_{i}\left(T_{\text{mix.}}, V_{\text{mix.}}\right) \ [\text{Pa}].
-    
     ```
 
 - **Amagat's law of additive volumes:** _the volume of a gas mixture is equal to the sum of the volumes each gas would occupy **if it existed alone at the mixture temperature and pressure**_.
@@ -148,9 +136,7 @@ Fortunately, it turns out that the answer to the last question is affirmative, a
     ```{math}
     :label: eq_Amagats_law
     
-    
         \text{Amagat's law:} \hspace{5mm}  V_{\text{mix.}} = \sum_{i=1}^{k}V_{i}\left(T_{\text{mix.}}, P_{\text{mix.}}\right) \ [\text{m}^{3}].
-    
     ```
 
 Equations {eq}`eq_Daltons_law` and {eq}`eq_Amagats_law` may sound intuitive due to their knowledge from previous courses on Physics and Chemistry, but they do not own a readily interpretable physical basis on their own. The fact that the contributions of individual pressures and volumes sum up to the overall pressure and volume of the mixture is far from being a straightforward idea; in fact, the validity of such laws has been sanctioned by means of empirical observations and, thus, they heavily rely on laboratory experiments. What's more: under the scope of the present course on Thermodynamics, and insofar the basic model being assumed is the ideal-gas one, the relationships {eq}`eq_Daltons_law` and {eq}`eq_Amagats_law` may be said to hold exactly. But it is noteworthy that they do so under the exclusive assumptions made in {eq}`eq_ideal_gas_mixture_state_equation`. Thus, although describing and modeling real gases lies out of the scope of the present course, it is necessary to state that the mentioned laws are **merely approximate** in the latter case, mainly due to the intermolecular forces acting upon the dissimilar molecules comprised in the mixture.
@@ -184,9 +170,7 @@ Therefore, for ideal-gas mixtures exclusively:
 ```{math}
 :label: eq_partial_pressures_volumes_moles
 
-
     \frac{P_{i}}{P_{\text{mix.}}} = \frac{V_{i}}{V_{\text{mix.}}} = \frac{N_{i}}{N_{\text{mix.}}} = y_{i} \ [-] \ .
-
 ```
 
 The terminology, in this case, changes a little. Instead of using the terms **pressure component** and **volume component**, the quantities $P_{i}=y_{i}P_{\text{mix.}}$ and $V_{i}=y_{i}V_{\text{mix.}}$ that can be derived from {eq}`eq_partial_pressures_volumes_moles` are called **partial pressure** and **partial volume** of constituent $i$. It is noteworthy that, when assuming an ideal-gas behaviour for the mixture, Dalton's and Amagat's laws provide the same relative information about the constituents. In other words: the relationships between the overall properties and the individual ones are independent of the empirical operations considered, which constitutes an experimental oddity itself. In fact, it is known that, for real gases, Amagat's law provides more accurate results than Dalton's law. Such differences, however, do not ensue when the ideal-gas simplification is made.
@@ -205,25 +189,19 @@ The relationships for the extensive properties are straighforward to obtain. Ind
 ```{math}
 :label: eq_internal_energy_mixture
 
-
     U_{\text{mix.}} = \sum_{i=1}^{k}U_{i} = \sum_{i=1}^{k}m_{i}u_{i} = \sum_{i=1}^{k}N_{i}\overline{u}_{i} \ [\text{kJ}] \ ,
-
 ```
 
 ```{math}
 :label: eq_enthalpy_mixture
 
-
     H_{\text{mix.}} = \sum_{i=1}^{k}H_{i} = \sum_{i=1}^{k}m_{i}h_{i} = \sum_{i=1}^{k}N_{i}\overline{h}_{i} \ [\text{kJ}] \ ,
-
 ```
 
 ```{math}
 :label: eq_entropy_mixture
 
-
     S_{\text{mix.}} = \sum_{i=1}^{k}S_{i} = \sum_{i=1}^{k}m_{i}s_{i} = \sum_{i=1}^{k}N_{i}\overline{s}_{i} \ [\text{kJ}/\text{K}] \ .
-
 ```
 
 Notice that three expressions are given for each of the extensive properties considered above.
@@ -239,25 +217,19 @@ The expressions in {eq}`eq_internal_energy_mixture`, {eq}`eq_enthalpy_mixture` a
 ```{math}
 :label: eq_internal_energy_difference_mixture
 
-
     \Delta{}U_{\text{mix.}} = \sum_{i=1}^{k}\Delta{}U_{i} = \sum_{i=1}^{k}m_{i}\Delta{}u_{i} = \sum_{i=1}^{k}N_{i}\Delta{}\overline{u}_{i} \ [\text{kJ}] \ ,
-
 ```
 
 ```{math}
 :label: eq_enthalpy_difference_mixture
 
-
     \Delta{}H_{\text{mix.}} = \sum_{i=1}^{k}\Delta{}H_{i} = \sum_{i=1}^{k}m_{i}\Delta{}h_{i} = \sum_{i=1}^{k}N_{i}\Delta{}\overline{h}_{i} \ [\text{kJ}] \ ,
-
 ```
 
 ```{math}
 :label: eq_entropy_difference_mixture
 
-
     \Delta{}S_{\text{mix.}} = \sum_{i=1}^{k}\Delta{}S_{i} = \sum_{i=1}^{k}m_{i}\Delta{}s_{i} = \sum_{i=1}^{k}N_{i}\Delta{}\overline{s}_{i} \ [\text{kJ}/\text{K}] \ .
-
 ```
 
 The approach is rather different when considering **intensive properties**, although it does not depart much from the averaging scheme presented in {eq}`eq_molweight_mixture`, i.e.: the intensive properties of the mixture are obtained either by mass-averaging the specific properties of each constituent (via mass fractions) or, alternatively, by molar-averaging the molar properties of each constituent (via molar fractions). Thus:
@@ -265,25 +237,19 @@ The approach is rather different when considering **intensive properties**, alth
 ```{math}
 :label: eq_specific_molar_internal_energy_mixture
 
-
     u_{\text{mix.}} = \sum_{i=1}^{k}x_{i}u_{i} \ [\text{kJ}/\text{kg}] \hspace{2mm} \text{;} \hspace{2mm} \overline{u}_{\text{mix.}} = \sum_{i=1}^{k}y_{i}\overline{u}_{i} \ [\text{kJ}/\text{kmol}] \ ,
-
 ```
 
 ```{math}
 :label: eq_specific_molar_enthalpy_mixture
 
-
     h_{\text{mix.}} = \sum_{i=1}^{k}x_{i}h_{i} \ [\text{kJ}/\text{kg}] \hspace{2mm} \text{;} \hspace{2mm} \overline{h}_{\text{mix.}} = \sum_{i=1}^{k}y_{i}\overline{h}_{i} \ [\text{kJ}/\text{kmol}] \ ,
-
 ```
 
 ```{math}
 :label: eq_specific_molar_entropy_mixture
 
-
     s_{\text{mix.}} = \sum_{i=1}^{k}x_{i}s_{i} \ [\text{kJ}/\text{kg}] \hspace{2mm} \text{;} \hspace{2mm} \overline{s}_{\text{mix.}} = \sum_{i=1}^{k}y_{i}\overline{s}_{i} \ [\text{kJ}/\text{kmol}{\cdot}\text{K}] \ .
-
 ```
 
 And the same can be said about the specific heats that, together with the specific mixture constant defined in {eq}`eq_R_mixture`, close the description of the thermodynamic properties of ideal gas mixtures.
@@ -291,17 +257,13 @@ And the same can be said about the specific heats that, together with the specif
 ```{math}
 :label: eq_cv_mixture
 
-
     c_{v,\text{mix.}} = \sum_{i=1}^{k}x_{i}c_{v,i} \ [\text{kJ}/\text{kg}{\cdot}\text{K}] \hspace{2mm} \text{;} \hspace{2mm} \overline{c}_{v,\text{mix.}} = \sum_{i=1}^{k}y_{i}\overline{c}_{v,i} \ [\text{kJ}/\text{kmol}{\cdot}\text{K}]
-
 ```
 
 ```{math}
 :label: eq_cp_mixture
 
-
     c_{p,\text{mix.}} = \sum_{i=1}^{k}x_{i}c_{p,i} \ [\text{kJ}/\text{kg}{\cdot}\text{K}] \hspace{2mm} \text{;} \hspace{2mm} \overline{c}_{p,\text{mix.}} = \sum_{i=1}^{k}y_{i}\overline{c}_{p,i} \ [\text{kJ}/\text{kmol}{\cdot}\text{K}]
-
 ```
 
 (example_problems)=
@@ -793,12 +755,12 @@ plt.show()
 ^^^
 
 (fig_1)=
-```{image} Fig1.svg
+```{image} Fig1.png
 :width: 700px
 ```
 
 (fig_2)=
-```{image} Fig2.svg
+```{image} Fig2.png
 :width: 700px
 ```
 
@@ -819,3 +781,8 @@ Observing the figures above, notice how:
 +++
 **End of Test Problem 3**
 ::::
+
+
+```python
+
+```
