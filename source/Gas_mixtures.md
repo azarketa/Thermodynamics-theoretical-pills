@@ -25,12 +25,11 @@ Regardless of the standpoint considered, the total number of moles and the toal 
 
 Those two expressions constitute the first descriptive characters of mixtures. They **relate mixture properties** (mass and amount of matter) **to their constituents**. This description can be complemented if the **mass fractions** ($x_{i}$) and **molar fractions** ($y_{i}$) are defined. If the total amount of matter and total mass are properties of the overall mixture, the mentioned fractions correspond to each of the individual components, i.e. they serve the purpose of giving **normalized information** (understood as mixture-relative) about the constituents. Again, mathematically:
 
-```{math}
-
+$$
 \begin{equation*}
-    \displaystyle{x_{i} = \frac{m_{i}}{m_{\text{mix.}}} \ [-] \hspace{5mm}} \text{and} \hspace{5mm} \displaystyle{y_{i} = \frac{N_{i}}{N_{\text{mix.}}} \ [-]} \ .
+\displaystyle{x_{i} = \frac{m_{i}}{m_{\text{mix.}}} \ [-] \hspace{5mm}} \text{and} \hspace{5mm} \displaystyle{y_{i} = \frac{N_{i}}{N_{\text{mix.}}} \ [-]} \ .
 \end{equation*}
-```
+$$
 
 Notice that, in the equations above, the subindex $i$ stands for a **generic individual component** of the mixture, and that it is assumed that the mixture itself is constituted by a number $k$ of constituents (with $k\geq1$). The fact that the mass and molar fractions are normalized can be shown by dividing the two sides of the expressions in {eq}`eq_total_mass_moles` by $m_{\text{mix.}}$ and $N_{\text{mix.}}$, respectively:
 
@@ -279,7 +278,7 @@ Whoever has used Python should be familiar with the usual workflow when writing 
 - Afterwards, it is usual to define the values of the variables that will be constant along the code. The definition of any variable in a coding block is termed, in programming jargon, as **declaring a variable**, which is why this second step may be termed as **declaring the constants**.
 - Next, the programmer writes down (codifies) all the logic that constitutes the solving procedure of the problem. In other words, it **develops the problem-specific algorithms**, including the **declaration of output variables** that will constitute the outcome of the code for the post-processing stage.
 - The following step is to **run or execute the code**, which may include several iterative steps of debugging in case errors are found during the execution.
-- Finally, the 
+- Finally, the results are **post-processed and shown in the format specified by the user** (direct result display, figures...).
 
 A flowchart may serve the purpose of illustrating the above procedure more clearly:
 
@@ -755,12 +754,12 @@ plt.show()
 ^^^
 
 (fig_1)=
-```{image} Fig1.png
+```{image} Fig1.svg
 :width: 700px
 ```
 
 (fig_2)=
-```{image} Fig2.png
+```{image} Fig2.svg
 :width: 700px
 ```
 
