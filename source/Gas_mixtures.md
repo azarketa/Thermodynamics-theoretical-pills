@@ -780,8 +780,3 @@ Observing the figures above, notice how:
 +++
 **End of Test Problem 3**
 ::::
-
-
-```python
-
-```
