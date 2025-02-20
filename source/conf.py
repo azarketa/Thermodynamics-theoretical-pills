@@ -61,7 +61,7 @@ myst_enable_extensions = [
     "html_image",
 ]
 
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
-}
+#source_suffix = {
+#    '.rst': 'restructuredtext',
+#    '.md': 'markdown',
+#}
