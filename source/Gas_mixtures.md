@@ -148,19 +148,13 @@ Notice that, as {eq}`eq_Daltons_law` and {eq}`eq_Amagats_law` are not obtained b
 
 Instead, if the theoretical standpoint is restricted to ideal-gases, it turns possible to go further when it comes to the relationships between the component pressures and volumes (i.e. $P_{i}$ and $V_{i}$) and the overall pressure and volume (that is, $P_{\text{mix.}}$ and $V_{\text{mix.}}$). Indeed, one may write the following expressions for the pressure and volume fractions:
 
-```{math}
-
 \begin{equation*}
     \displaystyle{\frac{P_{i}\left(T_{\text{mix.}}, V_{\text{mix.}}\right)}{P_{\text{mix.}}} = \frac{N_{i}\text{R}_{\text{u}}T_{\text{mix.}}/V_{\text{mix.}}}{N_{\text{mix.}}\text{R}_{\text{u}}T_{\text{mix.}}/V_{\text{mix.}}} = \frac{N_{i}}{N_{\text{mix.}}} = y_{i} \ [-] \ ,}
 \end{equation*}
-```
-
-```{math}
 
 \begin{equation*}
     \displaystyle{\frac{V_{i}\left(T_{\text{mix.}}, P_{\text{mix.}}\right)}{V_{\text{mix.}}} = \frac{N_{i}\text{R}_{\text{u}}T_{\text{mix.}}/P_{\text{mix.}}}{N_{\text{mix.}}\text{R}_{\text{u}}T_{\text{mix.}}/P_{\text{mix.}}} = \frac{N_{i}}{N_{\text{mix.}}} = y_{i} \ [-] \ .}
 \end{equation*}
-```
 
 Therefore, for ideal-gas mixtures exclusively:
 
