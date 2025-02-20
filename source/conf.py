@@ -35,7 +35,7 @@ extensions = [
 ]
 
 # Configure MathJax for equation numbering and cross-references
-# mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
+mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -61,7 +61,7 @@ myst_enable_extensions = [
     "html_image",
 ]
 
-#source_suffix = {
-#    '.rst': 'restructuredtext',
-#    '.md': 'markdown',
-#}
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
