@@ -29,7 +29,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.imgconverter',
-    # 'sphinx.ext.mathjax',
+    'sphinx.ext.mathjax',
     # 'sphinxcontrib.bibtex',
     'jupyter_sphinx',
 ]
