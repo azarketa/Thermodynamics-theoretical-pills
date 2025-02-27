@@ -646,6 +646,8 @@ Plot the composition-dependent mass and molar fractions against the volumetric p
 ^^^
 
 ```{code} python
+:linenos:
+
 #####
 ##### Problem-specific data.
 #####
