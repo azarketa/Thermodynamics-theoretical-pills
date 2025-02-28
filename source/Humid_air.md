@@ -37,17 +37,13 @@ Notice that, when specifying the value of $c_{p}$ above, its units have been ref
 ```{math}
 :label: eq_enthalpy_dry_air
 
-\begin{equation}
-    \displaystyle{h_{\text{dry air}} = c_{p}\left(T - T_{0}\right) = c_{p}T = \left(1.005 \ \text{kJ}/\left(\text{kg}^{\circ}\text{C}\right)\right)T \ [\text{kJ}/\text{kg}]}
-\end{equation}
+\displaystyle{h_{\text{dry air}} = c_{p}\left(T - T_{0}\right) = c_{p}T = \left(1.005 \ \text{kJ}/\left(\text{kg}^{\circ}\text{C}\right)\right)T \ [\text{kJ}/\text{kg}]}
 ```
 
 ```{math}
 :label: eq_delta_enthalpy_dry_air
 
-\begin{equation}
-    \displaystyle{\Delta{}h_{\text{dry air}} = c_{p}\Delta{}T = \left(1.005 \ \text{kJ}/\left(\text{kg}^{\circ}\text{C}\right)\right)\Delta{}T \ [\text{kJ}/\text{kg}]}
-\end{equation}
+\displaystyle{\Delta{}h_{\text{dry air}} = c_{p}\Delta{}T = \left(1.005 \ \text{kJ}/\left(\text{kg}^{\circ}\text{C}\right)\right)\Delta{}T \ [\text{kJ}/\text{kg}]}
 ```
 
 The dry air description given above, as well as the equations {eq}`eq_enthalpy_dry_air` and {eq}`eq_delta_enthalpy_dry_air`, are the simplest ones possibly conceivable. As such, they constitute an approximate (though a powerful) tool for modeling the two main constituents of the mixture being analysed. However, a trivial question arises: **if dry air can be modeled as a perfect gas, can the same be done with water vapor?** That would certainly ease the treatment of the mixture. But, as long as the term **vapor** refers to a gas whose temperature lies below the critical point, and if that condition goes in parallel with a non-negligible possibility of observing condensation during thermodynamic processes, it seems contradictory to state that water vapor can be treated as an ideal-gas. Obviously, making such an assumption is not prohibited, as long as it is recognised that the resultant model will not be as accurate as treating the vapor as a real substance, with its properties being determined by the empirical $P-v-T$ relations.
@@ -57,9 +53,7 @@ However, **how large would the error be if, instead of using the $P-v-T$ tables,
 ```{math}
 :label: eq_dalton_atmospheric_air
 
-\begin{equation}
-    P = P_{\text{a}} + P_{\text{v}} \ [\text{kPa}].
-\end{equation}
+P = P_{\text{a}} + P_{\text{v}} \ [\text{kPa}].
 ```
 
 It is remarked that, in the equation {eq}`eq_dalton_atmospheric_air` above, the $P_{\text{v}}$ term represents **the pressure that water vapor would exert if it existed alone at the temperature and volume of atmospheric air**; accordingly, it is called the **vapor pressure**.
@@ -71,9 +65,7 @@ Such a calculation can be simplified greatly by noticing that, in the empirical 
 ```{math}
 :label: eq_vapor_enthalpy_approx
 
-\begin{equation}
-    h_{\text{v}}\left(T, \text{low} \ P\right) \cong h_{\text{g}}\left(T\right) \ [\text{kJ}/\text{kg}].
-\end{equation}
+h_{\text{v}}\left(T, \text{low} \ P\right) \cong h_{\text{g}}\left(T\right) \ [\text{kJ}/\text{kg}].
 ```
 
 Equation {eq}`eq_vapor_enthalpy_approx` can be simplified even further, as it is possible to break down the $h_{\text{g}}\left(T\right)$ term by referring it to the baseline temperature of $0 \ ^{\circ}\text{C}$ employed for the dry air constituent above. Thus, it can be checked that the specific enthalpy of water vapor at the reference temperature being considered is of $2500.9 \ \text{kJ}/\text{kg}$, a value that is readable from the tables. Besides, the dependence of the enthalpy on temperature is taken into account by noticing that the average $c_{p}$ value of wtaer vapor in the $[-10, 50]^{\circ}\text{C}$ range is of $1.82 \ \text{kJ}/\left(\text{kg}^{\circ}\text{C}\right)$. Hence:
@@ -81,9 +73,7 @@ Equation {eq}`eq_vapor_enthalpy_approx` can be simplified even further, as it is
 ```{math}
 :label: eq_vapor_enthalpy_approx_numbers
 
-\begin{equation}
-    h_{\text{g}}\left(T\right) \cong 2500.9 + 1.82T \ [\text{kJ}/\text{kg}] \hspace{2mm} ; \hspace{2mm} T \ \text{in} \ ^{\circ}\text{C}.
-\end{equation}
+h_{\text{g}}\left(T\right) \cong 2500.9 + 1.82T \ [\text{kJ}/\text{kg}] \hspace{2mm} ; \hspace{2mm} T \ \text{in} \ ^{\circ}\text{C}.
 ```
 
 (summarising_model)=
@@ -110,9 +100,7 @@ It turns out that there are two main properties that desribe such an amount. The
 ```{math}
 :label: eq_specific_humidity
 
-\begin{equation}
-    \omega = \frac{m_{\text{v}}}{m_{\text{a}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right].
-\end{equation}
+\omega = \frac{m_{\text{v}}}{m_{\text{a}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right].
 ```
 
 If the ideal (perfect) gas model is assumed for both constituents (i.e. dry air and water vapor), then equation {eq}`eq_specific_humidity` can be developed further, yielding:
@@ -120,9 +108,7 @@ If the ideal (perfect) gas model is assumed for both constituents (i.e. dry air 
 ```{math}
 :label: eq_specific_humidity_pres_ratio
 
-\begin{equation}
-    \omega = \frac{m_{\text{v}}}{m_{\text{a}}} = \frac{P_{\text{v}}V/R_{\text{v}}T}{P_{\text{a}}V/R_{\text{a}}T} = \frac{P_{\text{v}}/R_{\text{v}}}{P_{\text{a}}/R_{\text{a}}} = 0.622\frac{P_{\text{v}}}{P_{\text{a}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
-\end{equation}
+\omega = \frac{m_{\text{v}}}{m_{\text{a}}} = \frac{P_{\text{v}}V/R_{\text{v}}T}{P_{\text{a}}V/R_{\text{a}}T} = \frac{P_{\text{v}}/R_{\text{v}}}{P_{\text{a}}/R_{\text{a}}} = 0.622\frac{P_{\text{v}}}{P_{\text{a}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
 ```
 
 where the last equality comes from the fact that the ratio of specific-gas constants results in a constant value, given that $R_{\text{a}}$ and $R_{\text{v}}$ do not vary, i.e. $R_{\text{a}}/R_{\text{v}}=0.622$. Using Dalton's law of additive pressures expressed in equation {eq}`eq_dalton_atmospheric_air`:
@@ -130,9 +116,7 @@ where the last equality comes from the fact that the ratio of specific-gas const
 ```{math}
 :label: eq_specific_humidity_pres_ratio_dalton
 
-\begin{equation}
-    \omega = \frac{0.622P_{\text{v}}}{P - P_{\text{v}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
-\end{equation}
+\omega = \frac{0.622P_{\text{v}}}{P - P_{\text{v}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
 ```
 
 where $P$ in {eq}`eq_specific_humidity_pres_ratio_dalton` stands for the total pressure of the mixture, or the pressure measured by a barometer (easily determined in comparison to the partial pressures).
@@ -146,9 +130,7 @@ But more important than the amount of moisture content hold by atmospheric air a
 ```{math}
 :label: eq_relative_humidity
 
-\begin{equation}
-    \phi = \frac{m_{\text{v}}}{m_{\text{g}}}=\frac{P_{\text{v}}V/R_{\text{v}}T}{P_{\text{g}}V/R_{\text{v}}T}=\frac{P_{\text{v}}}{P_{\text{g}}} \ [-],
-\end{equation}
+\phi = \frac{m_{\text{v}}}{m_{\text{g}}}=\frac{P_{\text{v}}V/R_{\text{v}}T}{P_{\text{g}}V/R_{\text{v}}T}=\frac{P_{\text{v}}}{P_{\text{g}}} \ [-],
 ```
 
 where, as stated before:
@@ -156,9 +138,7 @@ where, as stated before:
 ```{math}
 :label: eq_saturation_pressure
 
-\begin{equation}
-    P_{\text{g}} = P_{\text{sat.}@T} \ [\text{kPa}].
-\end{equation}
+P_{\text{g}} = P_{\text{sat.}@T} \ [\text{kPa}].
 ```
 
 If equations {eq}`eq_specific_humidity_pres_ratio_dalton` and {eq}`eq_relative_humidity` are combined, $\omega$ and $\phi$ can be expressed in terms of each other:
@@ -166,17 +146,13 @@ If equations {eq}`eq_specific_humidity_pres_ratio_dalton` and {eq}`eq_relative_h
 ```{math}
 :label: eq_phi_terms_omega
 
-\begin{equation}
-    \phi = \frac{\omega{}P}{\left(0.622 + \omega\right)P_{\text{g}}} \ [-],
-\end{equation}
+\phi = \frac{\omega{}P}{\left(0.622 + \omega\right)P_{\text{g}}} \ [-],
 ```
 
 ```{math}
 :label: eq_omega_terms_phi
 
-\begin{equation}
-    \omega = \frac{0.622\phi{}P_{\text{g}}}{P - \phi{}P_{\text{g}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right].
-\end{equation}
+\omega = \frac{0.622\phi{}P_{\text{g}}}{P - \phi{}P_{\text{g}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right].
 ```
 
 Notice that, although the specific humidity does not show any restriction with respect to the values it can adopt (in principle), the relative humidity is a normalized parameter, i.e. its values fall in the range $\phi\in\left[0, 1\right]$. A value of $\phi=0$ stands for dry air, whereas $\phi=1$ represents saturated air. Likewise, and as stated before, the relative humidity depends on the temperature at which the atmospheric air is specified to be, due to the fact that the saturation pressure of the water depends on such a temperature. As such, it is noteworthy that a shift in temperature may leave the specific humidity unchanged, but that the relative humidity will vary accordingly.
@@ -186,9 +162,7 @@ Having presented the definitions of the two main humidities employed for specify
 ```{math}
 :label: eq_extensive_enthalpy_atmospheric_air
 
-\begin{equation}
-    H = H_{\text{a}} + H_{\text{v}} = m_{\text{a}}h_{\text{a}} + m_{\text{v}}h_{\text{v}} \ [\text{kJ}].
-\end{equation}
+H = H_{\text{a}} + H_{\text{v}} = m_{\text{a}}h_{\text{a}} + m_{\text{v}}h_{\text{v}} \ [\text{kJ}].
 ```
 
 In usual practical applications, though, the amount of dry air in the air-water mixture remains constant, and it is the amount of water the magnitude that varies. For that reason, it is convenient to express the enthalpy values **per unit mass of dry air**, instead of doing it per unit mass of air-water mixture. This can be done by expressing equation {eq}`eq_extensive_enthalpy_atmospheric_air` in intensive terms, which is achieved via dividing the expression by $m_{\text{a}}$:
@@ -196,9 +170,7 @@ In usual practical applications, though, the amount of dry air in the air-water 
 ```{math}
 :label: eq_intensive_enthalpy_atmospheric_air
 
-\begin{equation}
-    h = \frac{H}{m_{\text{a}}} = h_{\text{a}} + \frac{m_{\text{v}}}{m_{\text{a}}}h_{\text{v}} = h_{\text{a}} + \omega{}h_{\text{v}} \cong h_{\text{a}} + \omega{}h_{\text{g}} \ \left[\frac{\text{kJ}}{\text{kg dry air}}\right],
-\end{equation}
+h = \frac{H}{m_{\text{a}}} = h_{\text{a}} + \frac{m_{\text{v}}}{m_{\text{a}}}h_{\text{v}} = h_{\text{a}} + \omega{}h_{\text{v}} \cong h_{\text{a}} + \omega{}h_{\text{g}} \ \left[\frac{\text{kJ}}{\text{kg dry air}}\right],
 ```
 
 where the last equality (i.e. symbolised as $\cong$) results from the fact that $h_{\text{v}} \cong h_{\text{g}}$.
@@ -224,9 +196,8 @@ The procedure described above corresponds to a set of operations that, given an 
 
 ```{math}
 :label: eq_dew_point_temperature
-\begin{equation}
-    T_{\text{dp}} = T_{\text{sat.}@P_{\text{v}}} \ [^{\circ}\text{C}].
-\end{equation}
+
+T_{\text{dp}} = T_{\text{sat.}@P_{\text{v}}} \ [^{\circ}\text{C}].
 ```
 
 (adiabatic_saturation_and_wet_bulb)=
@@ -263,9 +234,7 @@ The mass flow rate of dry air remains constant
 ```{math}
 :label: eq_mass_cons_air_adsat
 
-\begin{equation}
-    \dot{m}_{\text{a}_{1}} = \dot{m}_{\text{a}_{2}} = \dot{m}_{\text{a}} \ [\text{kg}/\text{s}]
-\end{equation}
+\dot{m}_{\text{a}_{1}} = \dot{m}_{\text{a}_{2}} = \dot{m}_{\text{a}} \ [\text{kg}/\text{s}]
 ```
 
 The mass flow rate of vapor in the air increases by an amount equal to the rate of evaporation $\dot{m}_{\text{f}}$.
@@ -273,9 +242,7 @@ The mass flow rate of vapor in the air increases by an amount equal to the rate 
 ```{math}
 :label: eq_mass_cons_water_adsat
 
-\begin{equation}
-    \dot{m}_{\text{w}_{1}} + \dot{m}_{\text{f}} = \dot{m}_{\text{w}_{2}} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{a}}\omega_{1} + \dot{m}_{\text{f}} = \dot{m}_{\text{a}}\omega_{2} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{f}} = \dot{m}_{\text{a}}\left(\omega_{2} - \omega_{1}\right) \ [\text{kg}/\text{s}]
-\end{equation}
+\dot{m}_{\text{w}_{1}} + \dot{m}_{\text{f}} = \dot{m}_{\text{w}_{2}} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{a}}\omega_{1} + \dot{m}_{\text{f}} = \dot{m}_{\text{a}}\omega_{2} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{f}} = \dot{m}_{\text{a}}\left(\omega_{2} - \omega_{1}\right) \ [\text{kg}/\text{s}]
 ```
 
 <center> <b>Energy balance:</b> </center>
@@ -286,9 +253,7 @@ There are no heat and work interactions $\left(\dot{Q}=\dot{W}=0\right)$, and th
 ```{math}
 :label: eq_energy_cons_adsat
 
-\begin{equation}
-    \Delta\dot{H}=0 \hspace{2mm} \implies \hspace{2mm} \dot{H}_{\text{in}} = \dot{H}_{\text{out}} \hspace{2mm} \implies \hspace{2mm} \dot{H}_{1} + \dot{H}_{\text{f}} = \dot{H}_{2} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{a}}h_{1} + \dot{m}_{\text{f}}h_{\text{f}_{2}} = \dot{m}_{\text{a}}h_{2} \ [\text{kJ}].
-\end{equation}
+\Delta\dot{H}=0 \hspace{2mm} \implies \hspace{2mm} \dot{H}_{\text{in}} = \dot{H}_{\text{out}} \hspace{2mm} \implies \hspace{2mm} \dot{H}_{1} + \dot{H}_{\text{f}} = \dot{H}_{2} \hspace{2mm} \implies \hspace{2mm} \dot{m}_{\text{a}}h_{1} + \dot{m}_{\text{f}}h_{\text{f}_{2}} = \dot{m}_{\text{a}}h_{2} \ [\text{kJ}].
 ```
 
 Combining {eq}`eq_mass_cons_water_adsat` and {eq}`eq_energy_cons_adsat` above:
@@ -296,9 +261,7 @@ Combining {eq}`eq_mass_cons_water_adsat` and {eq}`eq_energy_cons_adsat` above:
 ```{math}
 :label: eq_energy_cons_spec_adsat
 
-\begin{equation}
-    \dot{m}_{\text{a}}h_{1} + \dot{m}_{\text{a}}\left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = \dot{m}_{\text{a}}h_{2} \hspace{2mm} \overset{/\dot{m}_{\text{a}}}{\implies} \hspace{2mm} h_{1} + \left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = h_{2} \ [\text{kJ}/\text{kg}].
-\end{equation}
+\dot{m}_{\text{a}}h_{1} + \dot{m}_{\text{a}}\left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = \dot{m}_{\text{a}}h_{2} \hspace{2mm} \overset{/\dot{m}_{\text{a}}}{\implies} \hspace{2mm} h_{1} + \left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = h_{2} \ [\text{kJ}/\text{kg}].
 ```
 
 Assuming that a prefect-gas model is applicable to the dry air, so that its enthalpy can be referenced to a $0 \ ^{\circ}\text{C}$ temperature by means of $h_{\text{a}}|_{@T}=c_{p}T$, {eq}`eq_energy_cons_spec_adsat` adopts the form:
@@ -306,9 +269,7 @@ Assuming that a prefect-gas model is applicable to the dry air, so that its enth
 ```{math}
 :label: eq_energy_cons_spec_enthalpy_adsat
 
-\begin{equation}
-    \left(c_{p}T_{1} + \omega{}h_{\text{g}_{1}}\right) + \left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = \left(c_{p}T_{2} + \omega_{2}h_{\text{g}_{2}}\right) \ [\text{kJ}/\text{kg}].
-\end{equation}
+\left(c_{p}T_{1} + \omega{}h_{\text{g}_{1}}\right) + \left(\omega_{2} - \omega_{1}\right)h_{\text{f}_{2}} = \left(c_{p}T_{2} + \omega_{2}h_{\text{g}_{2}}\right) \ [\text{kJ}/\text{kg}].
 ```
 
 The specific humidity at the inlet, $\omega_{1}$, can be obtained from {eq}`eq_energy_cons_spec_enthalpy_adsat`:
@@ -316,9 +277,7 @@ The specific humidity at the inlet, $\omega_{1}$, can be obtained from {eq}`eq_e
 ```{math}
 :label: eq_specific_humidity_adsat
 
-\begin{equation}
-    \omega_{1} = \frac{c_{p}\left(T_{2} - T_{1}\right) + \omega_{2}h_{\text{fg}_{2}}}{h_{\text{g}_{1}} - h_{\text{f}_{2}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
-\end{equation}
+\omega_{1} = \frac{c_{p}\left(T_{2} - T_{1}\right) + \omega_{2}h_{\text{fg}_{2}}}{h_{\text{g}_{1}} - h_{\text{f}_{2}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right],
 ```
 
 where:
@@ -329,9 +288,7 @@ where:
 ```{math}
 :label: eq_specific_humidity_exit_adsat
 
-\begin{equation}
-    \omega_{2} = \frac{0.622P_{\text{g}_{2}}}{P_{2} - P_{\text{g}_{2}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right]
-\end{equation}
+\omega_{2} = \frac{0.622P_{\text{g}_{2}}}{P_{2} - P_{\text{g}_{2}}} \ \left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right]
 ```
 
 Thus, the above procedure allows calculating the specific humidity $\omega_{1}$ (and, consequently, also the relative humidity $\phi_{1}$) by measuring the pressure and temperature at the inlet and outlet of the channel. That's the reason why these type of channels are called **adiabatic saturators**.
@@ -347,6 +304,3 @@ As occurs with the dew-point determination, the process of adiabatic saturation 
 - The spraying mechanism to achieve such a saturation may turn too complex to design.
 
 A more practical (and, indeed, employed) approach for determining the humidity of the air/water mixture is by a so-called **wet-bulb thermometer**. These type of devices are similar to the conventional dry-bulb thermometers, but they show the particularity of having their bulb covered with a cotton wick saturated with water. Air is then blown over the wick, and part of the water present in the cotton is evaporated in {ref}`a process identical to the one occurring in an adiabatic saturator <adiabatic_saturation_process>`. In fact, the air/water mixture located in the immediate surroundings of the wick can be assumed to be in a state of saturation. Again, evaporating the water requires energy and, as a result of such an extraction, the temperature of the water drops. This temperature difference constitutes the driving force for the heat transfer between air and water. After a while, the heat loss due to evaporation equals the heat gain from the air, and the temperature of the water stabilises at a given value. Such a temperature is called the **wet-bulb tmeperature**, and is symbolysed by $T_{\text{wb}}$. As mentioned, its easy measurement turns it into the most employed parameter in applications such as air-conditioning.
-
-(psychrometric_chart)=
-## The psychrometric chart
