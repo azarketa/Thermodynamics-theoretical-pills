@@ -1,4 +1,8 @@
-# CLASSICAL VS QUANTUM
+(sec_from_quantum_to_analyticity)=
+# FROM QUANTUM TO ANALYTICITY
+
+(subsec_classical_vs_quantum)=
+## CLASSICAL VS QUANTUM
 
 **FROM CLASSICAL TO QUANTUM MECHANICS: WHY A NEW FRAMEWORK?**
 
@@ -32,7 +36,8 @@ Thus, the “state space” of classical mechanics (phase space) is insufficient
 This new structure is the **Hilbert space**, which replaces classical phase space as the fundamental arena for microstates.
 
 
-# HILBERT SPACES AS THE LANGUAGE OF QUANTUM MECHANICS
+(subsec_hilbert_spaces_as_language_of_quantum_mechanics)=
+## HILBERT SPACES AS THE LANGUAGE OF QUANTUM MECHANICS
 
 **WHY ARE HILBERT SPACES NECESSARY?**
 
@@ -519,8 +524,8 @@ In short: “trace-class” is the mathematical guarantee that the **“sum over
 
 ::::
 
-(sec_link_to_thermodynamics)=
-# LINK TO THERMODYNAMICS
+(subsec_link_to_thermodynamics)=
+## LINK TO THERMODYNAMICS
 
 **WHY THERMODYNAMICS IS NEEDED**
 
@@ -676,8 +681,8 @@ Quantum mechanics enriches this picture by adding features absent in classical m
 
 In short: thermodynamics exists because direct microscopic descriptions are intractable. Classical mechanics provides phase space and probability distributions as the basis for ensembles. Quantum mechanics provides Hilbert space and density operators. In both cases, the goal is the same: to capture the macroscopic laws of nature through statistical descriptions of many-particle systems.
 
-(sec_rationale_derivation_microcanonical_ensemble)=
-# RATIONALE AND DERIVATION OF THE MICROCANONICAL ENSEMBLE
+(subsec_rationale_derivation_microcanonical_ensemble)=
+## RATIONALE AND DERIVATION OF THE MICROCANONICAL ENSEMBLE
 
 **WHY DE MICROCANONICAL ENSEMBLE?**
 
@@ -2308,8 +2313,8 @@ In the microcanonical ensemble, the quantum outer products $|E_n\rangle\langle E
 If you want, we can now use this microcanonical foundation to *derive* the canonical distribution by carving out a small subsystem and treating the remainder as a large “bath”—you’ll see the Boltzmann weight $e^{-\beta E}$ fall out in one line from the microcanonical counting of the bath’s states.
 
 
-(sec_rationale_derivation_canonical_ensemble)=
-# RATIONALE AND DERIVATION OF THE CANONICAL ENSEMBLE
+(subsec_rationale_derivation_canonical_ensemble)=
+## RATIONALE AND DERIVATION OF THE CANONICAL ENSEMBLE
 
 **RATIONALE (WHAT WE'RE TRYING TO DESCRIBE)**
 
@@ -2738,8 +2743,8 @@ Think of it like two “views” of the same data:
 
 ::::
 
-(sec_analyticity_of_entropy)=
-# ANALYTICITY OF ENTROPY
+(subsec_analyticity_of_entropy)=
+## ANALYTICITY OF ENTROPY
 
 **WHAT NEEDS TO BE SHOWN**
 
@@ -3440,8 +3445,8 @@ So the triplet $(T,V,N)$ is not arbitrary: it encodes the **boundary conditions*
 
 ::::
 
-(sec_what_analyticity_implies)=
-# WHAT ANALYTICITY IMPLIES
+(subsec_what_analyticity_implies)=
+## WHAT ANALYTICITY IMPLIES
 
 1. **MONOTONICITY**
 
@@ -3490,8 +3495,8 @@ So the triplet $(T,V,N)$ is not arbitrary: it encodes the **boundary conditions*
 
 ![02](Figs/02_E_of_S.svg)
 
-(sec_when_analyticity_breaks)=
-# WHEN ANALYTICITY BREAKS...
+(subsec_when_analyticity_breaks)=
+## WHEN ANALYTICITY BREAKS...
 
 **FINITE SYSTEMS: ALWAYS ANALYTIC**
 
