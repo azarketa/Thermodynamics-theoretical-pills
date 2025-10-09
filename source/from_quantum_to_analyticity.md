@@ -3541,7 +3541,7 @@ So the triplet $(T,V,N)$ is not arbitrary: it encodes the **boundary conditions*
 * If $s(\varepsilon)$ is **strictly concave** (curves downward, no flat parts), then for each $\beta$ there is a **unique $\varepsilon^\star(\beta)$** solving
 
   $$
-  \frac{1}{k},\frac{\partial s}{\partial \varepsilon}(\varepsilon^\star) = \beta.
+  \frac{1}{k}\frac{\partial s}{\partial \varepsilon}(\varepsilon^\star) = \beta.
   $$
   
 * In that case, the Legendre map $\varepsilon \leftrightarrow \beta$ is **invertible and analytic**, so the Legendre transform is unique.
