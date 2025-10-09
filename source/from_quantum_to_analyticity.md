@@ -936,14 +936,14 @@ The quantum analogue of Liouville’s theorem is the **von Neumann equation** $i
     * In the **classical case**, entropy is
   
       $$
-      S[\rho] = -k \int \rho(q,p),\ln \rho(q,p),d\Gamma,
+      S[\rho] = -k \int \rho(q,p)\ln \rho(q,p),d\Gamma,
       $$
   
       subject to $\rho\geq 0$, $\int\rho,d\Gamma=1$, and the condition that $\rho$ vanishes outside $H(q,p)=E$ (or the thin shell $E\le H \le E+\Delta$).
     * In the **quantum case**, entropy is the von Neumann entropy
   
       $$
-      S[\rho] = -k,\mathrm{Tr}(\rho\ln \rho),
+      S[\rho] = -k\mathrm{Tr}(\rho\ln \rho),
       $$
   
       with $\rho$ positive semidefinite, $\mathrm{Tr}\rho=1$, and $\rho$ supported only on the eigenspace of $H$ with eigenvalue in $[E,E+\Delta]$.
