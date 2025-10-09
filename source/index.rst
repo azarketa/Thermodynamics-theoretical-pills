@@ -3,12 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Thermodynamics: theoretical pills
+From quantum to analyticity
 ==================================================
 
 .. toctree::
    :maxdepth: 4
    :caption: Contents:
    
-   Gas_mixtures
-   Humid_air
+   from_quantum_to_analyticity
