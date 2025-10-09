@@ -3029,10 +3029,12 @@ $$
   * $\varepsilon(\beta)=-\partial_\beta \phi$ is analytic and strictly monotone,
   * it has an analytic inverse $\beta(\varepsilon)$ (inverse function theorem),
   * and
+
     $$
     \frac{s(\varepsilon,\rho)}{k}
     = \beta(\varepsilon)\varepsilon - \phi(\beta(\varepsilon), \rho)
     $$
+
     is **real-analytic** in ( \varepsilon ) and **concave** ($s''(\varepsilon) = -k/ \phi''(\beta(\varepsilon)) < 0 $).
 
 * If $\phi$ is only **convex** (not strict) or loses analyticity (thermodynamic limit with phase coexistence), then
@@ -3047,10 +3049,12 @@ $$
 * Canonical partition function: $Z_N(\beta,V)$.
 * Free energy: $F_N = -\tfrac{1}{\beta}\ln Z_N$.
 * Because $F_N \sim O(N)$, define the **free energy density**:
+
   $$
   f(\beta,\rho) = \lim_{N\to\infty}\frac{F_N}{N}
   = -\frac{1}{\beta}\lim_{N\to\infty}\frac{1}{N}\ln Z_N.
   $$
+  
 * The expression $\phi_N = \frac{1}{N}\ln Z_N$ is just the **dimensionless version**, which has a nice Legendre-transform relation with entropy density.
 * $\phi(\beta,\rho)$ is analytic and strictly convex in $\beta$; $s(\varepsilon,\rho)$ is analytic and concave in $\varepsilon$.
 * *Analytic + strict convex* $\Rightarrow$ *analytic + concave* after Legendre; mere convexity $\Rightarrow$ *concave* but possibly non-analytic.

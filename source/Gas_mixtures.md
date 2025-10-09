@@ -179,8 +179,8 @@ The relationships for the extensive properties are straighforward to obtain. Ind
 
 ```{math}
 :label: eq_internal_energy_mixture
-
     U_{\text{mix.}} = \sum_{i=1}^{k}U_{i} = \sum_{i=1}^{k}m_{i}u_{i} = \sum_{i=1}^{k}N_{i}\overline{u}_{i} \ [\text{kJ}] \ ,
+```
 ```
 
 ```{math}

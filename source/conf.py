@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "THERMODYNAMICS: ADVANCED NOTES"
+project = 'Thermodynamics: theoretical pills'
 copyright = '2025, TEFLU'
 author = 'TEFLU'
 

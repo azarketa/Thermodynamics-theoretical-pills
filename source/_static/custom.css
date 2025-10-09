@@ -1,5 +1,0 @@
-/* Allow wrapping in all table cells */
-table.docutils td {
-  white-space: normal !important;
-  word-break: break-word;
-}
