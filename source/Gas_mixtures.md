@@ -179,8 +179,8 @@ The relationships for the extensive properties are straighforward to obtain. Ind
 
 ```{math}
 :label: eq_internal_energy_mixture
+
     U_{\text{mix.}} = \sum_{i=1}^{k}U_{i} = \sum_{i=1}^{k}m_{i}u_{i} = \sum_{i=1}^{k}N_{i}\overline{u}_{i} \ [\text{kJ}] \ ,
-```
 ```
 
 ```{math}
@@ -748,14 +748,10 @@ plt.show()
 ^^^
 
 (fig_1)=
-```{image} Fig1.svg
-:width: 700px
-```
+![01](1_fundamentals_figs/Fig1.svg)
 
 (fig_2)=
-```{image} Fig2.svg
-:width: 700px
-```
+![02](1_fundamentals_figs/Fig2.svg)
 
 +++
 **End of code output**

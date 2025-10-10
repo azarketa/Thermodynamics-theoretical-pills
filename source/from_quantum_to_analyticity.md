@@ -1,8 +1,8 @@
 (sec_from_quantum_to_analyticity)=
-# FROM QUANTUM TO ANALYTICITY
+## FROM QUANTUM TO ANALYTICITY
 
 (subsec_classical_vs_quantum)=
-## CLASSICAL VS QUANTUM
+### CLASSICAL VS QUANTUM
 
 **FROM CLASSICAL TO QUANTUM MECHANICS: WHY A NEW FRAMEWORK?**
 
@@ -37,7 +37,7 @@ This new structure is the **Hilbert space**, which replaces classical phase spac
 
 
 (subsec_hilbert_spaces_as_language_of_quantum_mechanics)=
-## HILBERT SPACES AS THE LANGUAGE OF QUANTUM MECHANICS
+### HILBERT SPACES AS THE LANGUAGE OF QUANTUM MECHANICS
 
 **WHY ARE HILBERT SPACES NECESSARY?**
 
@@ -130,7 +130,7 @@ Thus, Hilbert space is indispensable for **quantum statistical mechanics**.
 In **classical mechanics**, the state of an $N$-particle system at time $t$ is given by the collection of positions and momenta:
 
 $$
-(\mathbf{q},\mathbf{p}) = (q_1,\dots,q_N,,p_1,\dots,p_N).
+(\mathbf{q},\mathbf{p}) = (q_1,\dots,q_N,p_1,\dots,p_N).
 $$
 
 The **phase space** $\Gamma$ is the $2N$-dimensional manifold spanned by these variables:
@@ -215,7 +215,7 @@ $$
    The symplectic structure gives you a way to define the Poisson bracket:
 
    $$
-   {f,g} = \omega(X_f,X_g),
+   \{f,g\} = \omega(X_f,X_g),
    $$
 
    where $X_f$ is the Hamiltonian vector field associated to $f$.
@@ -289,7 +289,7 @@ So the quantum structure is:
     There is a **quantization map**: replace Poisson brackets by commutators:
     
     $$
-    {f,g} \quad \longrightarrow \quad \frac{1}{i\hbar}[A,B].
+    \{f,g\} \quad \longrightarrow \quad \frac{1}{i\hbar}[A,B].
     $$
 
 * **Geometry**
@@ -328,7 +328,7 @@ Thus the mathematical framework of Hilbert space is needed to capture the essent
 | **Pure state** | A single point $(\mathbf q,\mathbf p)\in \Gamma$ | A ray $ \psi\rangle\in \mathcal H$ (vector modulo global phase) |
 | **Mixed state** | Probability density $\rho(\mathbf q,\mathbf p)$ on $\Gamma$, $\rho\ge0$, $\int \rho{}d\Gamma=1$ | Density operator $\rho$ on $\mathcal H$, $\rho\ge0$, $\mathrm{Tr}\rho=1$ |
 | **Observables** | Smooth real functions $f:\Gamma\to\mathbb R$ | Self-adjoint (Hermitian) operators $A=A^\dagger$ on $\mathcal H$ |
-| **Algebra** | Poisson bracket:  ${f,g}=\sum_i \Big(\frac{\partial f}{\partial q_i}\frac{\partial g}{\partial p_i}-\frac{\partial f}{\partial p_i}\frac{\partial g}{\partial q_i}\Big)$ | Commutator: $[A,B]=AB-BA$ with correspondence ${f,g}\leftrightarrow\tfrac{1}{i\hbar}[A,B]$ |
+| **Algebra** | Poisson bracket:  $\{f,g\}=\sum_i \Big(\frac{\partial f}{\partial q_i}\frac{\partial g}{\partial p_i}-\frac{\partial f}{\partial p_i}\frac{\partial g}{\partial q_i}\Big)$ | Commutator: $[A,B]=AB-BA$ with correspondence $\{f,g\}\leftrightarrow\tfrac{1}{i\hbar}[A,B]$ |
 | **Dynamics** | Hamilton’s equations: $\dot q_i={q_i,H}\dot p_i={p_i,H}$ | Schrödinger equation: $i\hbar \frac{d}{dt} \psi(t)\rangle=H \psi(t)\rangle$ or Heisenberg eq.: $\dot A=\tfrac{i}{\hbar}[H,A]$ |
 | **Geometry** | Symplectic manifold $(\Gamma,\omega)$ with $\omega=\sum_i dq_i\wedge dp_i$ | Complex Hilbert space with inner product $\langle\phi \psi\rangle$ (probability amplitudes) |
 | **Expectation values** | Ensemble average: $\langle f\rangle = \int_\Gamma f(\mathbf q,\mathbf p)\rho(\mathbf q,\mathbf p),d\Gamma$ | Quantum average: $\langle A\rangle = \mathrm{Tr}(\rho A)$ |
@@ -525,7 +525,7 @@ In short: “trace-class” is the mathematical guarantee that the **“sum over
 ::::
 
 (subsec_link_to_thermodynamics)=
-## LINK TO THERMODYNAMICS
+### LINK TO THERMODYNAMICS
 
 **WHY THERMODYNAMICS IS NEEDED**
 
@@ -682,7 +682,7 @@ Quantum mechanics enriches this picture by adding features absent in classical m
 In short: thermodynamics exists because direct microscopic descriptions are intractable. Classical mechanics provides phase space and probability distributions as the basis for ensembles. Quantum mechanics provides Hilbert space and density operators. In both cases, the goal is the same: to capture the macroscopic laws of nature through statistical descriptions of many-particle systems.
 
 (subsec_rationale_derivation_microcanonical_ensemble)=
-## RATIONALE AND DERIVATION OF THE MICROCANONICAL ENSEMBLE
+### RATIONALE AND DERIVATION OF THE MICROCANONICAL ENSEMBLE
 
 **WHY DE MICROCANONICAL ENSEMBLE?**
 
@@ -896,7 +896,7 @@ Let’s analyze what this evolution preserves:
     In particular, the von Neumann entropy
 
     $$
-    S[\rho] = -k,\mathrm{Tr}(\rho \ln \rho)
+    S[\rho] = -k\mathrm{Tr}(\rho \ln \rho)
     $$
 
     is constant under time evolution, because it depends only on the eigenvalues of $\rho$.
@@ -936,10 +936,10 @@ The quantum analogue of Liouville’s theorem is the **von Neumann equation** $i
     * In the **classical case**, entropy is
   
       $$
-      S[\rho] = -k \int \rho(q,p)\ln \rho(q,p),d\Gamma,
+      S[\rho] = -k \int \rho(q,p)\ln \rho(q,p)d\Gamma,
       $$
   
-      subject to $\rho\geq 0$, $\int\rho,d\Gamma=1$, and the condition that $\rho$ vanishes outside $H(q,p)=E$ (or the thin shell $E\le H \le E+\Delta$).
+      subject to $\rho\geq 0$, $\int\rho{}d\Gamma=1$, and the condition that $\rho$ vanishes outside $H(q,p)=E$ (or the thin shell $E\le H \le E+\Delta$).
     * In the **quantum case**, entropy is the von Neumann entropy
   
       $$
@@ -1328,7 +1328,7 @@ In short: the microcanonical ensemble is uniform on the energy shell because (1)
     
     $$
     \rho_{\text{mc}}(\mathbf q,\mathbf p) =
-    \frac{1}{\Omega(E,\Delta)} , \chi_{\mathcal R(E,\Delta)}(\mathbf q,\mathbf p).
+    \frac{1}{\Omega(E,\Delta)} \chi_{\mathcal R(E,\Delta)}(\mathbf q,\mathbf p).
     $$
     
     * The factor $\chi$ enforces that states outside the shell get zero probability.
@@ -1391,7 +1391,7 @@ In short: the microcanonical ensemble is uniform on the energy shell because (1)
       $$
       \boxed{
       \langle f\rangle_{\text{mc}}
-      =\frac{1}{\omega(E,V,N)}\int f(\mathbf q,\mathbf p),\delta\big(E-H(\mathbf q,\mathbf p)\big) d^{3N}q d^{3N}p}.
+      =\frac{1}{\omega(E,V,N)}\int f(\mathbf q,\mathbf p)\delta\big(E-H(\mathbf q,\mathbf p)\big) d^{3N}q d^{3N}p}.
       $$
  
       Interpretation: **uniform average over all allowed microstates**, either as a thin-shell volume average or as a surface average over $H=E$ (with the natural surface measure induced by the $\delta$). For macroscopic systems the two coincide.
@@ -1948,7 +1948,7 @@ These only hold because **energy, volume, and particle number are extensive vari
     Using the von Neumann entropy:
   
     $$
-    S[\rho] = -k,\mathrm{Tr}(\rho\ln\rho).
+    S[\rho] = -k\mathrm{Tr}(\rho\ln\rho).
     $$
     
     For $\rho_{\text{mc}}$:
@@ -2029,7 +2029,7 @@ Here, $|E_n\rangle \langle E_n|$ is not an inner product.
 How does this operator act? On any state $|\psi\rangle$,
 
 $$
-(|E_n\rangle\langle E_n|),|\psi\rangle = |E_n\rangle \langle E_n|\psi\rangle.
+(|E_n\rangle\langle E_n|) |\psi\rangle = |E_n\rangle \langle E_n|\psi\rangle.
 $$
 
 So it projects $|\psi\rangle$ onto the direction $|E_n\rangle$.
@@ -2239,13 +2239,13 @@ Here, the **outer products** $|E_n\rangle\langle E_n|$ build up the projector, a
 * Probability density (normalized):
 
   $$
-  \rho_{\text{mc}}(q,p) = \frac{1}{\Omega(E,\Delta)},\chi_{\mathcal R(E,\Delta)}(q,p).
+  \rho_{\text{mc}}(q,p) = \frac{1}{\Omega(E,\Delta)} \chi_{\mathcal R(E,\Delta)}(q,p).
   $$
 
 * Expectation value:
 
   $$
-  \langle f \rangle = \int f(q,p), \rho_{\text{mc}}(q,p), d\Gamma.
+  \langle f \rangle = \int f(q,p) \rho_{\text{mc}}(q,p) d\Gamma.
   $$
 
 Here, the **characteristic function** $\chi_{\mathcal R}$ plays the same role as the projector $\Pi_{E,\Delta}$, and the **phase-space integral** plays the role of the trace.
@@ -2314,7 +2314,7 @@ If you want, we can now use this microcanonical foundation to *derive* the canon
 
 
 (subsec_rationale_derivation_canonical_ensemble)=
-## RATIONALE AND DERIVATION OF THE CANONICAL ENSEMBLE
+### RATIONALE AND DERIVATION OF THE CANONICAL ENSEMBLE
 
 **RATIONALE (WHAT WE'RE TRYING TO DESCRIBE)**
 
@@ -2730,7 +2730,7 @@ Think of it like two “views” of the same data:
 * **Formula:**
 
   $$
-  Z(\beta) = \int_0^\infty \omega(E), e^{-\beta E}, dE.
+  Z(\beta) = \int_0^\infty \omega(E) e^{-\beta E} dE.
   $$
 
 * **Meaning:** The canonical partition function is the **Laplace transform** of the microcanonical density of states.
@@ -2744,7 +2744,7 @@ Think of it like two “views” of the same data:
 ::::
 
 (subsec_analyticity_of_entropy)=
-## ANALYTICITY OF ENTROPY
+### ANALYTICITY OF ENTROPY
 
 **WHAT NEEDS TO BE SHOWN**
 
@@ -3013,7 +3013,7 @@ Taking the convex conjugate gives
 
 $$
 \frac{s(\varepsilon,\rho)}{k}
-=\inf_{\beta>0}\big[\beta,\varepsilon-\phi(\beta,\rho)\big].
+=\inf_{\beta>0}\big[\beta\varepsilon-\phi(\beta,\rho)\big].
 $$
 
 ---
@@ -3262,7 +3262,7 @@ $$
 Change integration variable from $E$ to $\varepsilon = E/N$:
 
 $$
-Z_N(\beta) = \int_0^\infty dE , e^{S_N(E)/k - \beta E}
+Z_N(\beta) = \int_0^\infty dE e^{S_N(E)/k - \beta E}
 \approx N \int_0^\infty d\varepsilon \exp{}\Big\{ N \Big[ \tfrac{s(\varepsilon)}{k} - \beta \varepsilon \Big] \Big\}.
 $$
 
@@ -3446,7 +3446,7 @@ So the triplet $(T,V,N)$ is not arbitrary: it encodes the **boundary conditions*
 ::::
 
 (subsec_what_analyticity_implies)=
-## WHAT ANALYTICITY IMPLIES
+### WHAT ANALYTICITY IMPLIES
 
 1. **MONOTONICITY**
 
@@ -3478,7 +3478,7 @@ So the triplet $(T,V,N)$ is not arbitrary: it encodes the **boundary conditions*
     * As $E$ grows, the slope $S'(E)=1/T$ decreases (temperature increases), so the curve **flattens** progressively.
     * In the limit $E\to\infty$, $S(E)$ typically grows like $\ln E$ or a power of $E$, so the curve rises without bound but ever more slowly.
 
-![01](Figs/01_S_of_E.svg)
+![01](7_advanced_notes_figs/01_S_of_E.svg)
 
 ---
 
@@ -3493,10 +3493,10 @@ So the triplet $(T,V,N)$ is not arbitrary: it encodes the **boundary conditions*
   so $E(S)$ is **increasing** (slope $T>0$) and **convex** (curvature $\ge 0$).
 * Geometrically: the curve bends **upward**, tangents lie **below** the graph, and the slope $T$ increases with $S$.
 
-![02](Figs/02_E_of_S.svg)
+![02](7_advanced_notes_figs/02_E_of_S.svg)
 
 (subsec_when_analyticity_breaks)=
-## WHEN ANALYTICITY BREAKS...
+### WHEN ANALYTICITY BREAKS...
 
 **FINITE SYSTEMS: ALWAYS ANALYTIC**
 
@@ -3668,7 +3668,7 @@ In **non-equilibrium thermodynamics**, the neat apparatus we built (entropy as a
 * $s(\varepsilon)$: still strictly concave, but higher derivatives diverge at $\varepsilon_c$.
 * $\phi(\beta)$: smooth but higher derivatives (e.g. $\phi''$) diverge, so analyticity breaks at higher order.
 
-![03](Figs/03_first_order_phase_transition.svg)
+![03](7_advanced_notes_figs/03_first_order_phase_transition.svg)
 
 * **Left (microcanonical entropy $s(\varepsilon)$):** the curve is concave but develops a **linear segment** → slope $1/T$ constant across an energy interval. This means multiple energies correspond to the same temperature → phase coexistence.
 

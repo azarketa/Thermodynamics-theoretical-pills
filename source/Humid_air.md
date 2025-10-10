@@ -304,3 +304,10 @@ As occurs with the dew-point determination, the process of adiabatic saturation 
 - The spraying mechanism to achieve such a saturation may turn too complex to design.
 
 A more practical (and, indeed, employed) approach for determining the humidity of the air/water mixture is by a so-called **wet-bulb thermometer**. These type of devices are similar to the conventional dry-bulb thermometers, but they show the particularity of having their bulb covered with a cotton wick saturated with water. Air is then blown over the wick, and part of the water present in the cotton is evaporated in {ref}`a process identical to the one occurring in an adiabatic saturator <adiabatic_saturation_process>`. In fact, the air/water mixture located in the immediate surroundings of the wick can be assumed to be in a state of saturation. Again, evaporating the water requires energy and, as a result of such an extraction, the temperature of the water drops. This temperature difference constitutes the driving force for the heat transfer between air and water. After a while, the heat loss due to evaporation equals the heat gain from the air, and the temperature of the water stabilises at a given value. Such a temperature is called the **wet-bulb tmeperature**, and is symbolysed by $T_{\text{wb}}$. As mentioned, its easy measurement turns it into the most employed parameter in applications such as air-conditioning.
+
+(psychrometric_chart)=
+## The psychrometric chart
+
+As occurs with any other simple system constituted by a gas mixture, **two independent intensive properties** are enough for determining the thermodynamic state of atmospheric air. Once again, that's what the stable equilibrium state principle (or, shortly said, the **state principle**) asserts; in any of such states, the rest of the properties are related to the chosen two by univocal relationships, which allows determining them once that two of those independent intensive variables are specified.
+
+The dimensioning of typical systems involving atmoshperic air, such as **air-conditioning** devices, may require a number of calculations that become cumbersome fast enough. 
