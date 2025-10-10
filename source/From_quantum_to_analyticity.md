@@ -92,7 +92,9 @@ It is **complete** in the norm $|\psi|=\sqrt{\langle \psi|\psi\rangle}$.
 
 1. $\mathbb{C}^2$ for spin-$\tfrac12$ systems, with basis ${|\uparrow\rangle,|\downarrow\rangle}$.
 2. $L^2(\mathbb{R})$: all square-integrable functions $\psi(x)$, with
+
    $$\langle \phi|\psi\rangle = \int_{-\infty}^{\infty} \overline{\phi(x)}\psi(x),dx.$$
+   
 3. Fock space: tensor products of one-particle Hilbert spaces, symmetrized (bosons) or antisymmetrized (fermions).
 
 ---
@@ -357,6 +359,7 @@ $$
 It takes an operator $A$ and outputs a scalar (real if $A$ is Hermitian).
 
 Definition in finite dimension: if $A$ is a $d\times d$ matrix,
+
 $$
 \mathrm{Tr}(A) = \sum_{i=1}^d A_{ii}.
 $$
@@ -379,13 +382,17 @@ It is not “meant” to preserve metrics, but rather it preserves **invariants 
 Here’s where the jump happens from “just math” to “physical necessity”:
 
 * In **classical probability**, expectations are
+
   $$
   \langle f \rangle = \sum_i p_i f(i).
   $$
+  
 * In **quantum mechanics**, states are operators $\rho$, and observables are operators $O$. The only way to reproduce the classical expectation in all bases and remain consistent with unitary symmetries is to define
+
   $$
   \langle O \rangle = \mathrm{Tr}(\rho O).
   $$
+
   This is not an arbitrary choice: Gleason’s theorem shows that any non-contextual probability assignment in Hilbert space must have this form.
 
 Thus the trace becomes the **mathematical mechanism** for implementing ensemble averages in a basis-independent way.
@@ -1574,6 +1581,7 @@ In short: the microcanonical ensemble is uniform on the energy shell because (1)
         :class: tip
       
         **Setup.** Subsystems $A,B$ can exchange volume via a movable piston, but $E_A,E_B,N_A,N_B$ are each fixed. Constraint: $V=V_A+V_B$. Total entropy
+      
         $$
         S_{\text{tot}}(V_A)=S_A(E_A,V_A,N_A)+S_B(E_B,V-V_A,N_B).
         $$
@@ -1872,6 +1880,7 @@ These only hold because **energy, volume, and particle number are extensive vari
 
     * We have a system described by a Hilbert space $\mathcal H$ and Hamiltonian operator $H$.
     * $H$ has eigenstates $|E_n\rangle$ with eigenvalues $E_n$:
+
       $$
       H |E_n\rangle = E_n |E_n\rangle.
       $$
@@ -2376,10 +2385,7 @@ We want to show in detail why the probability for $S$ to have energy $\varepsilo
 ---
 
 **Step 1. Composite system microcanonical probability.**
-    The composite $S+B$ is isolated at $E_{\text{tot}}$. Probability that $S$ has energy $\varepsilon$ is proportional to the number of states of $B$ with energy $E_{\text{tot}}-\varepsilon$:
-    $$
-    P(E_S=\varepsilon)\ \propto\ \Omega_B(E_{\text{tot}}-\varepsilon).
-    $$
+    The composite $S+B$ is isolated at $E_{\text{tot}}$. Probability that $S$ has energy $\varepsilon$ is proportional to the number of states of $B$ with energy $E_{\text{tot}}-\varepsilon$: $P(E_S=\varepsilon)\ \propto\ \Omega_B(E_{\text{tot}}-\varepsilon).$
 
 ---
 
@@ -2400,7 +2406,7 @@ Perform a Taylor expansion around $E_{\text{tot}}$:
 
 $$
 \ln \Omega_B(E_{\text{tot}}-\varepsilon) = \ln \Omega_B(E_{\text{tot}}) \left(\frac{\partial \ln \Omega_B}{\partial E}\right)_{E_{\text{tot}}}\varepsilon - \tfrac12 \left(\frac{\partial^2 \ln \Omega_B}{\partial E^2}\right)_{E_{\text{tot}}}\varepsilon^2 + \cdots.
-  $$
+$$
 
 ---
 
