@@ -107,7 +107,9 @@ Hilbert space is the **arena of possibilities**, just like phase space in classi
 * **Observables:** self-adjoint operators $H,X,P,S_i$, with real spectra.
 * **Spectral theorem:** $H = \sum_i E_i |E_i\rangle\langle E_i|$ (discrete) or $H=\int E|E\rangle\langle E|,dE$ (continuous).
 * **Completeness and measurement:** any state decomposes into a basis
+
   $$|\psi\rangle=\sum_i c_i|E_i\rangle,\qquad \sum_i|c_i|^2=1.$$
+
   Coefficients give probabilities of measurement outcomes.
 
 ---
