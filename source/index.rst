@@ -12,4 +12,4 @@ Thermodynamics: theoretical pills
    
    Gas_mixtures
    Humid_air
-   from_quantum_to_analyticity
+   From_quantum_to_analyticity

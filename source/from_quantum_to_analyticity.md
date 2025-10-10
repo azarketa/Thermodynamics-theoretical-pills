@@ -47,7 +47,9 @@ The need for Hilbert spaces arises from a set of **experimental facts** and **co
    Experiments such as the double-slit show that a system can be in a state that is a combination of two possibilities.
 
    * If a particle can go through slit A ($|\psi_A\rangle$) or slit B ($|\psi_B\rangle$), then the most general state is
+
      $$|\psi\rangle = \alpha|\psi_A\rangle + \beta|\psi_B\rangle.$$
+     
    * This requires the set of physical states to form a **vector space**.
 
 2. **Complex phases matter.**
@@ -55,19 +57,21 @@ The need for Hilbert spaces arises from a set of **experimental facts** and **co
 
 3. **Probabilities come from amplitudes.**
    In classical mechanics, probability is attached directly to microstates. In quantum mechanics, the **Born rule** states:
+
    $$P_{\psi\to\phi} = |\langle \phi|\psi\rangle|^2.$$
+
    This requires a **positive-definite inner product**.
 
-4. **Observables must yield real outcomes.**
+5. **Observables must yield real outcomes.**
    This requires **self-adjoint operators** on the space, whose eigenvalues are real.
 
-5. **Infinite-dimensional necessity.**
+6. **Infinite-dimensional necessity.**
 
    * The CCR $[X,P]=i\hbar I$ cannot be realized in finite dimension.
    * Many systems have infinite spectra (harmonic oscillator, hydrogen atom).
    * Continuous observables (position, momentum) require continuous bases.
 
-6. **Completeness.**
+7. **Completeness.**
    Approximations (e.g. Fourier expansions) must converge to valid states. This requires the space to be **complete** under the induced norm.
 
 Together, these imply that the correct framework is a **complex, infinite-dimensional, complete inner-product space**: a Hilbert space.
