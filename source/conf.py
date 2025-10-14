@@ -28,7 +28,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
     'sphinx.ext.imgconverter',
-    'spinx_hoverxref',
+    'sphinx_hoverxref',
     'sphinxcontrib.jquery'
 ]
 
