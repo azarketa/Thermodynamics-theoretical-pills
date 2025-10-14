@@ -27,8 +27,13 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
-    'sphinx.ext.imgconverter'
+    'sphinx.ext.imgconverter',
+    'spinx_hoverxref',
+    'sphinxcontrib.jquery'
 ]
+
+# Make formal refs hoverable without changing markup.
+hoverxref_auto_ref = True
 
 # Configure MathJax for equation numbering and cross-references
 # mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
