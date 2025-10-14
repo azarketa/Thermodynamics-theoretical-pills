@@ -10,7 +10,7 @@ Thermodynamics: theoretical pills
    :maxdepth: 4
    :caption: Introduction:
    
-   Introduction <Introduction>
+   What is this cousre about? <What_is_this_course_about>
 
 .. toctree::
    :maxdepth: 4
