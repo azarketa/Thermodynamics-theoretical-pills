@@ -8,6 +8,10 @@ Thermodynamics: theoretical pills
 
 .. toctree::
    :maxdepth: 4
+   :caption: Introduction:
+
+.. toctree::
+   :maxdepth: 4
    :caption: Fundamentals:
    
    Gas mixtures <Gas_mixtures>
