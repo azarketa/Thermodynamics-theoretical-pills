@@ -8,8 +8,13 @@ Thermodynamics: theoretical pills
 
 .. toctree::
    :maxdepth: 4
-   :caption: Contents:
+   :caption: Fundamentals:
    
-   Gas_mixtures
-   Humid_air
-   From_quantum_to_analyticity
+   Gas mixtures <Gas_mixtures>
+   Humid air <Humid_air>
+   
+.. toctree::
+   :maxdepth: 4
+   :caption: Advanced topics
+   
+   From quantum to analyticity <From_quantum_to_analyticity>
