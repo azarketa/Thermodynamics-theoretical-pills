@@ -5,3 +5,4 @@ sphinx-design
 sphinxcontrib-mermaid
 nbsphinx
 jupyter_sphinx
+sphinx-hoverxref
