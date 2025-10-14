@@ -9,6 +9,8 @@ Thermodynamics: theoretical pills
 .. toctree::
    :maxdepth: 4
    :caption: Introduction:
+   
+   Introduction <Introduction>
 
 .. toctree::
    :maxdepth: 4
