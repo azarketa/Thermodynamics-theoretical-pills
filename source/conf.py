@@ -28,8 +28,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
     'sphinx.ext.imgconverter',
-    'sphinx_hoverxref',
-    'sphinxcontrib.jquery'
+    'hoverxref.extension'
 ]
 
 # Make formal refs hoverable without changing markup.
