@@ -33,6 +33,9 @@ extensions = [
 
 # Make formal refs hoverable without changing markup.
 hoverxref_auto_ref = True
+hoverxref_roles = ["eq"]                # add others like "numref" if you want
+hoverxref_role_types = {"eq": "tooltip"}
+hoverxref_mathjax = True                # re-render MathJax inside the tooltip
 
 # Configure MathJax for equation numbering and cross-references
 # mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
