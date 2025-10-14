@@ -15,6 +15,6 @@ Thermodynamics: theoretical pills
    
 .. toctree::
    :maxdepth: 4
-   :caption: Advanced topics
+   :caption: Advanced topics:
    
    From quantum to analyticity <From_quantum_to_analyticity>
