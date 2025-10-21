@@ -46,7 +46,7 @@ $P$ = pressure $[\text{Pa}]$,
 $V$ = volume $[\text{m}^3]$,
 $n$ = amount of substance $[\text{mol}]$,
 $T$ = temperature $[\text{K}]$,
-and $R_u$ = universal gas constant $8.314,[\text{J}/(\text{mol}!\cdot!\text{K})]$.
+and $R_u$ = universal gas constant $8.314,[\text{J}/(\text{mol}{\cdot}\text{K})]$.
 
 The **specific gas constant** $R$ is defined as
 
@@ -73,8 +73,8 @@ Pv = RT
 where $v = V/m$ is the **specific volume** $[\text{m}^3/\text{kg}]$.
 
 :::{admonition} Note: Connection with the state postulate
-This relation links the three **intensive properties** $p$, $v$, and $T$ identified in {ref}`in the previous section<sec_characterization_substances>`.
-It satisfies the generic state condition {ref}`eq_general_state_equation`.
+This relation links the three **intensive properties** $p$, $v$, and $T$ identified in {ref}`in the previous section <sec_characterization_substances>`.
+It satisfies the generic state condition {ref}`expressed before <eq_general_state_equation>`.
 :::
 
 ---
@@ -101,7 +101,7 @@ Several equations of state have been developed to capture these deviations:
 
   :::{math}
   :label: eq_van_der_waals
-  \left(P + a\frac{1}{v^2}\right)(v - b) = R,T
+  \left(P + a\frac{1}{v^2}\right)(v - b) = RT
   :::
 
   where $a$ and $b$ are empirical constants depending on the gas.
