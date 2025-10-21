@@ -93,7 +93,7 @@ In practice, these principles are indispensable for:
 * **Aerospace and fluid mechanics:** understanding energy exchange in motion.
 
 :::{admonition} Important: what Thermodynamics imposes
-:class: important
+:class: warning
 Thermodynamics tells us not how the world moves, but how far it *can* move.
 It defines the boundaries of possibility for every process in nature — physical, chemical, biological, or technological.
 :::
@@ -116,7 +116,7 @@ Through this perspective, we develop the ability to:
 This approach is essential for modern engineering, where every design — from a small battery to a massive power plant — must balance performance, sustainability, and fundamental physical constraints.
 
 :::{admonition} Important: how Thermodynamics shapes our reasoning 
-:class: important
+:class: warning
 To master thermodynamics is to understand the laws that no system in the universe can escape.
 It reveals the cost of change, the limits of efficiency, and the reason why perfection — complete reversibility — is impossible.
 :::

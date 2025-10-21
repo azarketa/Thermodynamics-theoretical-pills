@@ -88,10 +88,9 @@ Because our aim is to understand and model engineering systems, we introduce sev
    This contrasts with the **microscopic conception**, used in *statistical thermodynamics*, which explains the same laws in terms of molecular behavior.
 
 :::{admonition} Important: Classical vs. microscopic viewpoints
-:class: important
+:class: warning
 Classical thermodynamics describes **macroscopic behavior** using measurable properties (pressure, temperature, volume, etc.) without referring to the microscopic structure of matter.
 Statistical or microscopic thermodynamics explains *why* those macroscopic laws emerge.
-For a deeper insight into the microscopic perspective, see *“Statistical Physics” (Berkeley Series)*, freely available online.
 :::
 
 ---
@@ -120,7 +119,7 @@ This classification reflects which kinds of interactions — energy and/or mass 
    * Example: a fluid stream in a pipe, a compressor, or a turbine.
 
 :::{admonition} Important: Classification by boundary interaction
-:class: important
+:class: warning
 The essential difference lies in what can cross the boundary. We can name $E_{\text{sys.}}$ the total energy of the system, and $m_{\text{sys.}}$ the mass contained in it. Their variations are represented by the $\Delta$ symbol, i.e. $\Delta E_{\text{sys.}}$ and $\Delta m_{\text{sys.}}$. The different types of boundaries are constraied by different interaction modes: 
 
 * **Isolated:**  no energy, no mass → $\Delta E_{\text{sys.}} = 0$, $\Delta m_{\text{sys.}} = 0$
@@ -199,7 +198,7 @@ The basic elements of thermodynamic analysis are now in place:
 * The **simplifications** that focus our study on mechanical and thermal phenomena, mainly in **fluid systems** treated as **continuous media**.
 
 :::{admonition} Important: Essence of the macroscopic approach
-:class: important
+:class: warning
 Classical thermodynamics does not attempt to describe atomic mechanisms.
 It studies how systems exchange energy and matter with their surroundings and how those exchanges determine the macroscopic state of the system — temperature, pressure, volume, and energy content.
 :::
