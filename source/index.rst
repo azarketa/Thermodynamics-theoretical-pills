@@ -19,6 +19,7 @@ Thermodynamics: theoretical pills
    Systems, surroundings and boundaries <Systems_surroundings_boundaries>
    Magnitudes and propreties <Magnitudes_and_properties>
    Equilibrium, temperature scales and processes <Equilibrium_temperature_processes>
+   Characterization of substances <Characterization_of_substances>
    Gas mixtures <Gas_mixtures>
    Humid air <Humid_air>
    
