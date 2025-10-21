@@ -7,10 +7,10 @@ Thermodynamics: theoretical pills
 ==================================================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :caption: Introduction:
    
-   What is this cousre about? <Introduction>
+   What is this course about? <Introduction>
 
 .. toctree::
    :maxdepth: 4
@@ -23,5 +23,3 @@ Thermodynamics: theoretical pills
 .. toctree::
    :maxdepth: 4
    :caption: Advanced topics:
-   
-   From quantum to analyticity <From_quantum_to_analyticity>
