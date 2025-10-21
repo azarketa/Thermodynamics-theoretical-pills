@@ -1,3 +1,6 @@
+(sec_characterization_of_substances)=
+## Characterization of Substances
+
 Once the basic concepts of {ref}`equilibrium, temperature scales and processes<sec_equilibrium_temperature_processes>` have been established,
 the next step is to understand how these notions apply to the **real materials** that make up thermodynamic systems.
 Every system consists of *substances*, and the task of Thermodynamics is to characterize their states and transformations.
