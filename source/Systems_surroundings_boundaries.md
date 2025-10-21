@@ -1,6 +1,11 @@
+Thermodynamics begins by defining *what* we are studying and *how* we separate it from the rest of the universe.
+This section establishes the fundamental language for that task: **systems**, their **boundaries**, and the **surroundings** that interact with them.
+We will learn how to classify systems according to the exchanges that occur across their boundaries,
+and how boundary properties themselves determine the type of thermodynamic interaction possible — mass, heat, or work.
+
 ## Systems, Surroundings, and Boundaries
 
-Thermodynamic analysis always begins by deciding what part of the physical world we want to study.
+Thermodynamic analysis always starts by deciding what part of the physical world we want to study.
 This portion is called the **system**, and it is the central object of thermodynamic reasoning.
 
 A **system** is any defined region of space or quantity of matter that we isolate — physically or conceptually — to study how it behaves under given conditions.
@@ -143,6 +148,14 @@ To describe the physical nature of boundaries more precisely, thermodynamics use
 Each term describes *how the boundary behaves* with respect to a specific mode of interaction.
 For instance, a **rigid, adiabatic, impermeable** wall defines an ideal **isolated system**.
 Conversely, a **flexible, diathermic, permeable** boundary defines the most general — and most realistic — case, that of an **open system**.
+With the notions developed so far, we can conceive a combined table that establishes the relationships between the conceptual boundary types and the physical realizations they either allow or constrain.
+
+| **System Type** | $\Delta E_{\text{sys.}}$ | $\Delta m_{\text{sys.}}$ | **Boundary — Mass** |   **Boundary — Heat**   | **Boundary — Work** |
+| :-------------- | :----------------------: | :----------------------: | :-----------------: | :---------------------: | :-----------------: |
+| **Isolated**    |           $= 0$          |           $= 0$          |     Impermeable     |        Adiabatic        |        Rigid        |
+| **Closed**      |         $\neq 0$         |           $= 0$          |     Impermeable     | Diathermic or Adiabatic |  Flexible or Rigid  |
+| **Open**        |         $\neq 0$         |         $\neq 0$         |      Permeable      | Diathermic or Adiabatic |  Flexible or Rigid  |
+
 :::
 
 ---
