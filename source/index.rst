@@ -16,6 +16,7 @@ Thermodynamics: theoretical pills
    :maxdepth: 4
    :caption: Fundamentals:
    
+   Systems, surroundings and boundaries <Systems_surroundings_boundaries>
    Gas mixtures <Gas_mixtures>
    Humid air <Humid_air>
    
