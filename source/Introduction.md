@@ -24,6 +24,7 @@ The next section begins to answer these questions, by exploring the **nature and
 
 ---
 
+(sec_nature_and_scope_of_thermodynamics)=
 ## The Nature and Scope of Thermodynamics
 
 Thermodynamics is the science of **energy, change, and equilibrium**.
@@ -65,6 +66,7 @@ Together, they describe not only how much energy changes, but how **useful** tha
 
 ---
 
+(sec_why_thermodynamics_matters)=
 ## Why Thermodynamics Matters
 
 The relevance of thermodynamics extends far beyond heat and engines.
@@ -100,6 +102,7 @@ It defines the boundaries of possibility for every process in nature — physica
 
 ---
 
+(sec_purpose_of_studying_thermodynamics)=
 ## The Purpose of Studying Thermodynamics
 
 To study thermodynamics is to learn how to **think in terms of energy** rather than mechanisms.
@@ -127,18 +130,21 @@ It reveals the cost of change, the limits of efficiency, and the reason why perf
 Thermodynamics exists at multiple levels of abstraction, each building upon the same fundamental principles but addressing different questions and scales.
 This hierarchy reveals the richness and universality of the theory.
 
+(subsec_engineering_and_applied_thermodynamics)=
 ### Engineering and Applied Thermodynamics
 
 This is the **practical** domain where thermodynamic principles are used to analyze and design real systems.
 It treats matter as continuous and focuses on macroscopic quantities — pressure, temperature, enthalpy, entropy, and efficiency.
 It provides the basis for mechanical, chemical, and environmental engineering, where energy conversion and utilization are the core concerns.
 
+(subsec_classical_thermodynamics)=
 ### Classical (Macroscopic) Thermodynamics
 
 The **axiomatic** form of thermodynamics, built upon postulates and measurable properties.
 It defines **state functions** ($U$, $H$, $S$, etc.), classifies processes as **reversible** or **irreversible**, and describes equilibrium as the most stable state of an isolated system.
 It does not rely on molecular detail — it is a phenomenological science, dealing directly with observable quantities.
 
+(subsec_statistical_thermodynamics)=
 ### Statistical Thermodynamics
 
 The **microscopic foundation** of thermodynamics.
@@ -147,6 +153,7 @@ Entropy becomes a measure of **probability**, expressed as $S = k_B \ln \Omega$.
 Here, the Second Law arises naturally as systems evolve toward the **most probable distribution** of energy states.
 This level explains *why* the macroscopic laws hold true.
 
+(subsec_quantum_thermodynamics)=
 ### Quantum Thermodynamics
 
 At the quantum scale, thermodynamics merges with quantum mechanics.
@@ -154,6 +161,7 @@ Energy exchange becomes quantized, and phenomena such as coherence and entanglem
 This domain explores **quantum engines**, **microscopic refrigerators**, and the relationship between **information and energy**.
 Even here, the same two laws persist: energy is conserved, and entropy never decreases.
 
+(subsec_a_universal_framework)=
 ### A universal framework
 
 Across all these levels, the message remains the same:
@@ -170,11 +178,13 @@ Every process, regardless of its complexity or scale, obeys these principles.
 
 ---
 
+(sec_course_outline)=
 ## Course Outline
 
 The course develops progressively — from the **foundations of thermodynamic reasoning** to the **analysis of canonical thermal cycles** that underpin real energy-conversion systems.
 Each block introduces a self-contained set of principles while remaining grounded in measurable quantities and engineering interpretation.
 
+(subsec_fundamentals)=
 ### Fundamentals (Foundational Block)
 
 This first block builds the conceptual and mathematical tools required to analyze any thermodynamic system, regardless of its nature or scale.
@@ -223,6 +233,7 @@ This first block builds the conceptual and mathematical tools required to analyz
 This foundation supports every subsequent cycle analysis.
 :::
 
+(subsec_gas_cycles)=
 ### Gas Cycles (Power and Propulsion Archetypes)
 
 This block applies the laws of thermodynamics to *continuous-flow* systems working primarily with gases as the working medium.
@@ -263,6 +274,7 @@ It explores both *idealized* cycles (as baselines) and *realistic* configuration
 The *Brayton framework* provides the conceptual link between stationary and mobile (propulsive) systems.
 :::
 
+(subsec_ICREs)=
 ### ICREs — Internal Combustion Reciprocating Engines
 
 This block examines **reciprocating systems** where combustion occurs *inside* the working chamber.
@@ -295,6 +307,7 @@ They are modeled as **air-standard cycles**, providing idealized references for 
 Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same First and Second Law constraints.
 :::
 
+(subsec_steam_cycles)=
 ### Steam Cycles (Vapor Power Plants)
 
 This block focuses on **vapor cycles**, where the working substance undergoes *phase change* as part of the energy-conversion process.

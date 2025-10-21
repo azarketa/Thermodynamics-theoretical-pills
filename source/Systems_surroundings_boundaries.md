@@ -3,6 +3,7 @@ This section establishes the fundamental language for that task: **systems**, th
 We will learn how to classify systems according to the exchanges that occur across their boundaries,
 and how boundary properties themselves determine the type of thermodynamic interaction possible — mass, heat, or work.
 
+(sec_systems_surroundings_boundaries)=
 ## Systems, Surroundings, and Boundaries
 
 Thermodynamic analysis always starts by deciding what part of the physical world we want to study.
@@ -14,6 +15,7 @@ These three ideas — system, surroundings, and boundary — make up the minimal
 
 ---
 
+(subsec_defining_the_system)=
 ### Defining the System
 
 To carry out a thermodynamic analysis, the first step is to decide **what the system actually is**.
@@ -29,6 +31,7 @@ The definition of “system” is both **functional** and **operational**, not i
 
 ---
 
+(subsec_boundaries_and_environment)=
 ### Boundaries and Environment
 
 Once the system is defined, we conceptually surround it with an **imaginary surface** that separates it from everything else.
@@ -50,6 +53,7 @@ Thermodynamics works precisely because such a separation can always be defined.
 
 ---
 
+(subsec_the_role_of_interactions)=
 ### The Role of Interactions
 
 Thermodynamics focuses on **changes that occur within a system** — changes in temperature, pressure, volume, or internal energy.
@@ -71,6 +75,7 @@ If you can identify what crosses the boundary, you can apply thermodynamics.
 
 ---
 
+(subsec_simplifications_and_the_macroscopic_conception)=
 ### Simplifications and the Macroscopic Conception
 
 Because our aim is to understand and model engineering systems, we introduce several **simplifications** that make the analysis tractable and meaningful.
@@ -95,6 +100,7 @@ Statistical or microscopic thermodynamics explains *why* those macroscopic laws 
 
 ---
 
+(subsec_types_of_systems)=
 ### Types of Systems
 
 Depending on what the boundary allows to cross, we classify systems as **isolated**, **closed**, or **open**.
@@ -137,6 +143,7 @@ So, as a tabular-form summary:
 
 ---
 
+(subsec_terminology_of_boundary_behavior)=
 ### Terminology of Boundary Behavior
 
 To describe the physical nature of boundaries more precisely, thermodynamics uses a simple and systematic terminology:
@@ -164,6 +171,7 @@ With the notions developed so far, we can conceive a combined table that establi
 
 ---
 
+(subsec_fluid_systems_and_the_coninuum_hypothesis)=
 ### Fluid Systems and the Continuum Hypothesis
 
 Although thermodynamics applies to solids, liquids, and gases, engineering practice concentrates on **fluids**, because they are the working media in almost all energy systems — turbines, compressors, engines, pumps, condensers, and heat exchangers.
@@ -173,9 +181,10 @@ we assume that a fluid can be treated as a continuous medium in which properties
 
 Mathematically, we consider that within a small representative volume large enough to contain many molecules but small compared to the whole system,
 
-$$
+:::{math}
+:label: eq_continuum_hypothesis_exps
 \rho(\mathbf{x}) ; T(\mathbf{x}) ; P(\mathbf{x})
-$$
+:::
 
 are well-defined, continuous functions.
 
@@ -187,6 +196,7 @@ It allows us to define macroscopic fields, apply differential relations, and tre
 
 ---
 
+(subsec_systems_surroundings_boundaries_conceptual_closure)=
 ### Conceptual Closure
 
 The basic elements of thermodynamic analysis are now in place:
