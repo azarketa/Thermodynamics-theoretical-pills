@@ -21,6 +21,7 @@ Thermodynamics: theoretical pills
    Magnitudes and propreties <Magnitudes_and_properties>
    Equilibrium, temperature scales and processes <Equilibrium_temperature_processes>
    Characterization of substances <Characterization_of_substances>
+   Ideal and real gases <Ideal_and_real_gases>
    Gas mixtures <Gas_mixtures>
    Humid air <Humid_air>
    
