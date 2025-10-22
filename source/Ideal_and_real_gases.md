@@ -272,6 +272,7 @@ The following models are considered:
 3. Redlich–Kwong
 4. Peng–Robinson
 5. Virial (first-order approximation)
+6. Virial (second-order approximation)
 
 ---
 
@@ -287,6 +288,8 @@ The following models are considered:
 | Critical temperature   |                   $T_c$                   |              $304.2 \ \text{K}$              |
 | Critical pressure      |                   $P_c$                   |         $7.38\times10^6 \ \text{Pa}$         |
 | Acentric factor        |                  $\omega$                 |                   $0.225$                  |
+| **2nd Virial coefficient** (at $300 \ \text{K}$) | $B$ | $-121.5\times10^{-6} \ \text{m}^3/\text{mol}$ |
+| **3rd Virial coefficient** (at $300 \ \text{K}$) | $C$ |  $5.2\times10^{-9} \ \text{m}^6/\text{mol}^2$ |
 
 ---
 
@@ -374,11 +377,8 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     ---
     
     * **Virial Equation (First-Order Approximation)**
-    
-        Using $B(300 \ \text{K}) \approx -60\times10^{-6} \ \text{m}^3/\text{mol}$ for $\text{CO}_2$:
         
         (eq_example_virial)=
-
         $$
         \boxed{P = \frac{R_u{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{} \ \text{Pa}} \ ,
         $$
@@ -386,6 +386,24 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
         $$
         \boxed{Z = 1 + \frac{B}{V_m} = 0.994} \ .
         $$
+
+   ---
+
+   * **Virial Equation (Second-Order Approximation)**
+
+        (eq_example_virial2)=
+        $$
+        \frac{C}{V_m^{2}} = \frac{5.2\times10^{-9}}{(0.01)^2} = 5.2\times10^{-5},
+        $$
+        
+        $$
+        \boxed{Z = 1 - 0.01215 + 5.2\times10^{-5} = 0.98790} \ ,
+        $$
+        
+        $$
+        \boxed{P = \frac{R_u{}T}{V_m}{}Z \approx 2.4642\times10^{5}{}\text{Pa}} \ .
+        $$
+
 
 ---
 
@@ -403,6 +421,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     | Redlich–Kwong   | $2.20{\times}10^5$ | 0.885 | 0.0298 |     −2.2     |
     | Peng–Robinson   | $2.25{\times}10^5$ | 0.905 | 0.0305 |      0.0     |
     | Virial (1-term) | $2.47{\times}10^5$ | 0.994 | 0.0335 |     +9.8     |
+    | Virial (2-term) | $2.4642{\times}10^5$ | 0.98790 | 0.0334 | +9.5 |
 
 ---
 
@@ -417,11 +436,20 @@ The **van der Waals model** underestimates it slightly, as it overcorrects for c
 **Redlich–Kwong** and **Peng–Robinson** capture both repulsion and attraction more accurately, with the latter providing the best agreement.
 
 Finally, the **Virial model** nearly reproduces the ideal-gas prediction — a clear indication that it is reliable mainly at low pressures, where intermolecular forces become negligible.
+
+The one-term Virial approximation reduces the ideal-gas pressure only slightly (to $Z{}\approx{}0.988$), still **overestimating** by $\sim 9.5%$ vs **Peng–Robinson**.
+
+Adding the **third virial term** changes $Z$ by only $5.2\times10^{-5}$, so the two-term Virial approximation is practically identical here.
+
+Near-critical curvature of the $P$–$v$–$T$ surface is captured much better by **cubic EOS** (Redlich-Kwong/Peng-Robinson) than by **low-order Virial truncations**.
+
+Takeaway: Use **Virial** at low–moderate pressures (large $v$); prefer **Peng-Robinson** (or Redlich-Kwong) as density rises or when phase-equilibrium fidelity matters.
 :::
 
 +++
 END OF WORKED EXAMPLE
 ::::
+
 
 ---
 
