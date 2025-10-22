@@ -214,6 +214,7 @@ At moderate densities, the first few terms suffice to capture real-gas deviation
 
 :::{admonition} Note: Connection with cubic equations
 :class: note, dropdown
+
 Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$.
 Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
 
