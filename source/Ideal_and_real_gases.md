@@ -212,7 +212,7 @@ each corresponding to increasingly complex molecular interactions:
 At large $v$ (low density), the higher-order terms vanish, and the ideal gas law is recovered.
 At moderate densities, the first few terms suffice to capture real-gas deviations.
 
-::::{admonition} Note: Connection with cubic equations
+:::{admonition} Note: Connection with cubic equations
 :class: note, dropdown
 Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$.
 Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
@@ -236,8 +236,7 @@ This **first-order Virial approximation** provides a convenient correction for r
 The truncated Virial expansion is accurate at **low to moderate pressures**, where intermolecular interactions are limited to short-range effects.
 
 At higher pressures or near the critical point, cubic equations such as Peng–Robinson offer better accuracy and thermodynamic consistency.
-
-::::
+:::
 
 :::{admonition} The Meaning and Origin of the Word *Virial*
 :class: note, dropdown
@@ -254,7 +253,7 @@ So the term *Virial* refers to the “force-energy content” (*vis*) of a syste
 ---
 
 ::::{card}
-**WORKED EXAMPLE — Pressure and Compressibility of $\text{CO}_2$ at $300,\text{K}$**
+**WORKED EXAMPLE — Pressure and Compressibility of $\text{CO}_2$ at $300 \ \text{K}$**
 ^^^
 
 We aim to determine the **pressure** and the **compressibility factor** $Z$ for **carbon dioxide** under specified thermodynamic conditions, using both **ideal** and **real gas models**.
