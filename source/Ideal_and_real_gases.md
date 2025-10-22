@@ -20,7 +20,7 @@ The **ideal gas model** rests on two simplifying postulates:
    Intermolecular attractions and repulsions are disregarded. This is reasonable at **high temperatures**, where kinetic energy dominates.
 
 :::{admonition} Important: Validity of the ideal gas approximation
-:class: important, dropdown
+:class: warning
 The ideal gas model describes gases under the limit of low density and high temperature, where molecular interactions vanish.
 In this regime, all gases behave similarly, regardless of their chemical nature.
 :::
@@ -43,7 +43,7 @@ where
 * $V$ is the volume ($\text{m}^3$),
 * $n$ is the amount of substance ($\text{mol}$),
 * $T$ is the absolute temperature ($\text{K}$), and
-* $R_u = 8.314,[\text{J}/(\text{mol}!\cdot!\text{K})]$ is the universal gas constant.
+* $R_u = 8.314 \ [\text{J}/(\text{mol}\cdot\text{K})]$ is the universal gas constant.
 
 The **specific gas constant** $R$ is
 
@@ -70,7 +70,7 @@ where $v = V/m$ is the specific volume ($\text{m}^3/\text{kg}$).
 
 :::{admonition} Note: relation to the state postulate
 :class: note, dropdown
-The relation $P{}v = R{}T$ connects the three intensive variables introduced in {ref}`the previous section <sec_characterization_substances>` and is a particular realization of {ref}`the generic state equation <eq_general_state_equation>`.
+The relation $P{}v = R{}T$ connects the three intensive variables introduced in {ref}`the previous section <sec_characterization_substances>` and is a particular realization of {ref}`the generic state relation <eq_general_state_equation>`.
 :::
 
 ---
@@ -123,13 +123,13 @@ When data for various gases are plotted in terms of the reduced variables $(T_r,
 ### Classical and Modern Real-Gas Models
 
 While $Z$ serves as an excellent descriptor of real-gas behavior, we still need **explicit equations** linking $P$, $v$, and $T$ to calculate states and processes.
-To this end, several **semi-empirical equations of state (EOS)** have been developed. These equations modify the ideal gas law by including corrective terms
+To this end, several **semi-empirical EOS** have been developed. These equations modify the ideal gas law by including corrective terms
 for **finite molecular volume** and **intermolecular attractions**.
 
 :::{admonition} Note: Why cubic equations appear
 :class: note, dropdown
 When the ideal gas law is corrected by one term proportional to $1/v^2$ (to model attractions) and another that subtracts a finite volume $b$ (to model repulsions),
-the resulting expression becomes **cubic in specific volume** $v$. That is why most classical equations of state — van der Waals, Redlich–Kwong, Peng–Robinson —
+the resulting expression becomes **cubic in specific volume** $v$. That is why most classical EOS — van der Waals, Redlich–Kwong, Peng–Robinson —
 belong to the family of **cubic EOS**. They are the simplest algebraic forms capable of reproducing the experimentally observed S-shaped $P$–$v$ curves
 near phase transitions while remaining solvable in closed form.
 :::
@@ -193,9 +193,9 @@ for cross-comparison and connection to theoretical expansions.
 ---
 
 (subsec_virial_equation)=
-### The Virial Equation of State
+### The Virial EOS
 
-Although cubic models offer practical engineering correlations, a more fundamental theoretical approach emerges from **statistical mechanics**, where the pressure of a gas is expanded in powers of density. This leads to the **Virial equation of state**, expressed in terms of the compressibility factor:
+Although cubic models offer practical engineering correlations, a more fundamental theoretical approach emerges from **statistical mechanics**, where the pressure of a gas is expanded in powers of density. This leads to the **Virial EOS**, expressed in terms of the compressibility factor:
 
 (eq_virial_expansion)=
 $$
@@ -214,7 +214,7 @@ At moderate densities, the first few terms suffice to capture real-gas deviation
 
 ::::{admonition} Note: Connection with cubic equations
 :class: note, dropdown
-Expanding any cubic equation of state — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$.
+Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$.
 Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
 
 In engineering practice, the series is often truncated after the first correction term:
@@ -250,7 +250,7 @@ The word **“Virial”** comes from the Latin term *vis*, meaning *force* or *s
 in the context of his studies on the mechanical theory of heat. Clausius used the expression *“virialis”* to denote the *energy associated with molecular forces*,
 and from it he formulated what is now known as the **Virial Theorem**.
 
-In essence, the Virial theorem relates the **average kinetic energy** of the molecules in a system to the **average potential energy** arising from their mutual interactions. From this mechanical relationship, Clausius derived a connection between microscopic forces and macroscopic pressure — a link that later gave birth to the **Virial equation of state**, which expresses the pressure of a gas as a power series in density.
+In essence, the Virial theorem relates the **average kinetic energy** of the molecules in a system to the **average potential energy** arising from their mutual interactions. From this mechanical relationship, Clausius derived a connection between microscopic forces and macroscopic pressure — a link that later gave birth to the **Virial EOS**, which expresses the pressure of a gas as a power series in density.
 
 So the term *Virial* refers to the “force-energy content” (*vis*) of a system, not to variance or series expansion. Each coefficient in the Virial equation represents the cumulative effect of molecular forces: two-body, three-body, and higher interactions. Thus, the name emphasizes the mechanical origin of the equation — it is fundamentally a **force-derived** expression of state.
 :::

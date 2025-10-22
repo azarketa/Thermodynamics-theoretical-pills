@@ -71,11 +71,9 @@ For fluid systems, the primary variables are **pressure** ($p$), **specific volu
 ---
 
 (subsec_equation_of_state)=
-### Equation of State
+### Equation of State (EOS)
 
-If any one of the three fundamental variables ($p$, $v$, $T$) can be expressed as a function of the other two,
-the system is fully characterized, and the **state postulate** is satisfied.
-Such a relation is known as the **equation of state**.
+If any one of the three fundamental variables ($p$, $v$, $T$) can be expressed as a function of the other two, the system is fully characterized, and the **state postulate** is satisfied. Such a relation is known as the **equation of state (EOS)**.
 
 (eq_general_state_equation)=
 $$
@@ -100,6 +98,6 @@ thereby connecting the abstract framework of Thermodynamics to experimental data
 * Substances define the physical basis of thermodynamic systems; their composition and phase determine how they behave and transform.
 * The **State Postulate** specifies how many independent variables are required to describe a system completely.
 * For **simple compressible systems**, two independent intensive properties (commonly $p$, $v$, and $T$) are sufficient.
-* Expressing one of these properties as a function of the other two gives the **equation of state**, the mathematical link between measurable quantities.
+* Expressing one of these properties as a function of the other two gives the **EOS**, the mathematical link between measurable quantities.
 * These principles provide the foundation for the study of {ref}`Models of Gases<sec_models_gases>`,
-  where specific functional forms of the equation of state are introduced.
+  where specific functional forms of the EOS are introduced.
