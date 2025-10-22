@@ -48,10 +48,10 @@ If two systems are each in thermal equilibrium with a third system, then they ar
 
 Formally, if system $A$ (at temperature $T_A$) is in equilibrium with system $B$ ($T_B$), and $B$ is in equilibrium with $C$ ($T_C$), then:
 
-:::{math}
-:label: eq_zeroth_law_consequence
+(eq_zeroth_law_consequence)=
+$$
 T_A = T_B \quad \text{and} \quad T_B = T_C \ \Longrightarrow \ T_A = T_C
-:::
+$$
 
 This transitive property implies that temperature is a **well-defined property** independent of system size or composition.
 The Zeroth Law does not define a *numerical scale* for temperature but proves that **temperature is a property that can be measured** — it legitimizes the concept of a **thermometer**.
@@ -89,10 +89,10 @@ Its main advantage lies in its practical range: it gives convenient numbers for 
 The **Kelvin scale** is the **thermodynamic temperature scale**, forming part of the International System (SI).
 It is directly related to the Celsius scale by:
 
-:::{math}
-:label: eq_C_to_K
+(eq_C_to_K)=
+$$
 T\left(\text{K}\right) = T\left(^\circ\text{C}\right) + 273.15
-:::
+$$
 
 William Thomson (Lord Kelvin) deduced the concept of **absolute zero**, the temperature at which molecular motion would theoretically cease.
 This lower limit, $0\ \text{K}$, corresponds to $-273.15\ [^\circ\text{C}]$.

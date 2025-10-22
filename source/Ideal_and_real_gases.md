@@ -36,10 +36,10 @@ Under these limits, all gases tend to exhibit similar thermodynamic behavior, re
 
 The state relation for an ideal gas is expressed by the equation:
 
-:::{math}
-:label: eq_ideal_gas_molar_form
+(eq_ideal_gas_molar_form)=
+$$
 P{\cdot}V = n{\cdot}R_u{\cdot}T \ \Longrightarrow \ PV = nR_uT
-:::
+$$
 
 where
 $P$ = pressure $[\text{Pa}]$,
@@ -50,30 +50,30 @@ and $R_u$ = universal gas constant $8.314,[\text{J}/(\text{mol}{\cdot}\text{K})]
 
 The **specific gas constant** $R$ is defined as
 
-:::{math}
-:label: eq_specific_gas_constant
+(eq_specific_gas_constant)=
+$$
 R = \frac{R_u}{M}
-:::
+$$
 
 where $M$ is the **molar mass** of the gas $[\text{kg}/\text{mol}]$.
 Since $M = m/n$, we can rewrite the ideal gas equation in its **mass-based** form:
 
-:::{math}
-:label: eq_ideal_gas_mass_form
+(eq_ideal_gas_mass_form)=
+$$
 PV = mRT
-:::
+$$
 
 and, dividing by the mass $m$, in its **specific** form:
 
-:::{math}
-:label: eq_ideal_gas_specific_form
+(eq_ideal_gas_specific_form)=
+$$
 Pv = RT
-:::
+$$
 
 where $v = V/m$ is the **specific volume** $[\text{m}^3/\text{kg}]$.
 
 :::{admonition} Note: Connection with the state postulate
-This relation links the three **intensive properties** $p$, $v$, and $T$ identified in {ref}`in the previous section <sec_characterization_substances>`.
+This relation links the three **intensive properties** $p$, $v$, and $T$ identified in {ref}`in the previous section <sec_characterization_of_substances>`.
 It satisfies the generic state condition {ref}`expressed before <eq_general_state_equation>`.
 :::
 
@@ -85,10 +85,10 @@ It satisfies the generic state condition {ref}`expressed before <eq_general_stat
 In real conditions, gases deviate from ideality because **molecules occupy volume** and **interact** through attractive or repulsive forces.
 To quantify such deviations, the **compressibility factor** $Z$ is introduced:
 
-:::{math}
-:label: eq_compressibility_factor
+(eq_compressibility_factor)=
+$$
 Z = \frac{Pv}{RT}
-:::
+$$
 
 For an ideal gas, $Z=1$.
 For real gases, $Z$ differs from unity — being typically **less than 1** near condensation (due to attraction) and **greater than 1** at very high pressures (due to repulsion).
@@ -99,20 +99,20 @@ Several equations of state have been developed to capture these deviations:
 
 * **Van der Waals equation** — introduces corrections for finite molecular size and intermolecular attraction:
 
-  :::{math}
-  :label: eq_van_der_waals
+  (eq_van_der_waals)=
+  $$  
   \left(P + a\frac{1}{v^2}\right)(v - b) = RT
-  :::
+  $$
 
   where $a$ and $b$ are empirical constants depending on the gas.
   The term $a/v^2$ accounts for attractive forces; $b$ represents the excluded molecular volume.
 
 * **Virial equation** — expresses deviations as a power series in $1/v$:
 
-  :::{math}
-  :label: eq_virial_equation
+  (eq_virial_equation)=
+  $$
   \frac{Pv}{RT} = 1 + \frac{B(T)}{v} + \frac{C(T)}{v^2} + \dots
-  :::
+  $$
 
   where $B(T)$, $C(T)$, $\ldots$ are temperature-dependent **virial coefficients**.
   This form is especially useful for experimental data fitting and for gases near the ideal limit.
@@ -152,3 +152,8 @@ Every real gas approaches ideal behavior as pressure → 0 and temperature → �
 
 ---
 
+
+
+```python
+
+```

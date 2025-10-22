@@ -119,11 +119,11 @@ For example, energy per unit mass (specific energy) or per mole (molar energy) a
     The **amount of substance**, measured in moles $[\text{mol}]$, connects macroscopic and molecular descriptions.
     By definition, one mole of any substance contains the same number of entities (atoms, molecules, ions)
     as there are atoms in $0.012\ \text{kg}$ of carbon-12:
-    
-    :::{math}
-    :label: eq_mol_def
+
+    (eq_mol_def)=
+    $$    
     1\ \text{mol} = N_A = 6.022\times10^{23}\ \text{entities}.
-    :::
+    $$
 
     Thus, $1\ \text{mol}$ of $\text{H}_{2}\text{O}$ contains $6.022\times10^{23}$ water molecules.
 
@@ -141,11 +141,11 @@ This makes the mole a natural unit for describing proportionality in reactions a
 * **Definition**
 
     **Pressure ($p$)** is the **normal force per unit area** that a system exerts on its boundaries or on another system:
-    
-    :::{math}
-    :label: eq_pressure_def
+
+    (eq_pressure_def)=
+    $$    
     p = \frac{F_\perp}{A}.
-    :::
+    $$
 
     Although **force** is a vector, **pressure** is a scalar because it acts normal to the surface element.
 
@@ -246,3 +246,8 @@ Thermodynamic temperature scales are founded on equilibrium states, which provid
 * The distinction between extensive and intensive properties defines how system size affects measurable quantities.
 * Pressure and temperature serve as key intensive variables that connect directly to equilibrium and energy exchange.
 * These concepts prepare the ground for the study of equilibrium, temperature scales or processes, as done {ref}`in the next section <sec_equilibrium_temperature_processes>`, where the conditions of balance and transformation between states are formally introduced.
+
+
+```python
+
+```

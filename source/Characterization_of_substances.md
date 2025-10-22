@@ -77,10 +77,10 @@ If any one of the three fundamental variables ($p$, $v$, $T$) can be expressed a
 the system is fully characterized, and the **state postulate** is satisfied.
 Such a relation is known as the **equation of state**.
 
-:::{math}
-:label: eq_general_state_equation
+(eq_general_state_equation)=
+$$
 f(p, v, T) = 0
-:::
+$$
 
 This general expression defines how the thermodynamic properties of a substance are interrelated.
 Specific forms of this function — such as the **model of perfect gases** — will be explored next.
