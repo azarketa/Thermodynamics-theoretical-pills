@@ -231,16 +231,12 @@ $$
 P \approx \frac{R{}T}{v}\left(1 + \frac{B(T)}{v}\right)
 $$
 
-This **first-order Virial approximation** provides a convenient correction
-for real-gas effects at moderate pressures while remaining computationally simple.
+This **first-order Virial approximation** provides a convenient correction for real-gas effects at moderate pressures while remaining computationally simple.
 
-:::{admonition} Tip: Range of applicability
-:class: tip, dropdown
-The truncated Virial expansion is accurate at **low to moderate pressures**,
-where intermolecular interactions are limited to short-range effects.
-At higher pressures or near the critical point, cubic equations such as Peng–Robinson
-offer better accuracy and thermodynamic consistency.
-:::
+The truncated Virial expansion is accurate at **low to moderate pressures**, where intermolecular interactions are limited to short-range effects.
+
+At higher pressures or near the critical point, cubic equations such as Peng–Robinson offer better accuracy and thermodynamic consistency.
+
 ::::
 
 :::{admonition} The Meaning and Origin of the Word *Virial*
@@ -442,8 +438,6 @@ The one-term Virial approximation reduces the ideal-gas pressure only slightly (
 Adding the **third virial term** changes $Z$ by only $5.2\times10^{-5}$, so the two-term Virial approximation is practically identical here.
 
 Near-critical curvature of the $P$–$v$–$T$ surface is captured much better by **cubic EOS** (Redlich-Kwong/Peng-Robinson) than by **low-order Virial truncations**.
-
-Takeaway: Use **Virial** at low–moderate pressures (large $v$); prefer **Peng-Robinson** (or Redlich-Kwong) as density rises or when phase-equilibrium fidelity matters.
 :::
 
 +++
