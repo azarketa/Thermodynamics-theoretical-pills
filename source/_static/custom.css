@@ -1,7 +1,3 @@
 /* hide back-ref list after each bib entry */
 .backrefs { font-size: 0; }
 .backrefs:after { font-size: initial; content: "\00a0"; }
-
-.admonition.dropdown:not(.toggle-open) > :not(.admonition-title) {
-  display: none !important;  /* ensures MathJax blocks don't leak layout */
-}
