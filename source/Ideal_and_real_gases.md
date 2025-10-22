@@ -219,9 +219,22 @@ Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson �
 In engineering practice, the series is often truncated after the first correction term:
 
 (eq_virial_first_order)=
-$$
+```math
 Z \approx 1 + \frac{B(T)}{v}
-$$
+```
+
+Substituting into the ideal gas law yields:
+
+(eq_virial_pressure_correction)=
+```math
+P \approx \frac{R{}T}{v}\left(1 + \frac{B(T)}{v}\right)
+```
+
+This **first-order Virial approximation** provides a convenient correction for real-gas effects at moderate pressures while remaining computationally simple.
+
+The truncated Virial expansion is accurate at **low to moderate pressures**, where intermolecular interactions are limited to short-range effects.
+
+At higher pressures or near the critical point, cubic equations such as Peng–Robinson offer better accuracy and thermodynamic consistency.
 :::
 
 :::{admonition} Note: The Meaning and Origin of the Word *Virial*
@@ -428,7 +441,6 @@ Near-critical curvature of the $P$–$v$–$T$ surface is captured much better b
 +++
 END OF WORKED EXAMPLE
 ::::
-
 
 ---
 
