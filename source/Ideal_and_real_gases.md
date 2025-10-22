@@ -277,11 +277,11 @@ The following models are considered:
 | Temperature            |                    $T$                    |               $300 \ \text{K}$               |
 | Molar volume           |                   $V_m$                   |        $0.01 \ \text{m}^3/\text{mol}$        |
 | Universal gas constant |                   $R_u$                   | $8.314 \ \text{J}/(\text{mol}\cdot\text{K})$ |
-| $a$ (vdW–RK–PR)        |                    $a$                    | $0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2$ |
-| $b$ (vdW–RK–PR)        |                    $b$                    | $4.27\times10^{-5} \ \text{m}^3/\text{mol}$ |
-| Critical temperature   |                   $T_c$                   |              $304.2 \ \text{K}$              |
-| Critical pressure      |                   $P_c$                   |         $7.38\times10^6 \ \text{Pa}$         |
-| Acentric factor        |                  $\omega$                 |                   $0.225$                  |
+| $a$ (vdW–RK–PR){cite}`weast1972handbook`        |                    $a$                    | $0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2$ |
+| $b$ (vdW–RK–PR){cite}`weast1972handbook`        |                    $b$                    | $4.27\times10^{-5} \ \text{m}^3/\text{mol}$ |
+| Critical temperature{cite}`weast1972handbook`   |                   $T_c$                   |              $304.2 \ \text{K}$              |
+| Critical pressure{cite}`weast1972handbook`      |                   $P_c$                   |         $7.38\times10^6 \ \text{Pa}$         |
+| Acentric factor{cite}`weast1972handbook`        |                  $\omega$                 |                   $0.225$                  |
 | **2nd Virial coefficient** (at $300 \ \text{K}$){cite}`mit_virial` | $B$ | $-121.5\times10^{-6} \ \text{m}^3/\text{mol}$ |
 | **3rd Virial coefficient** (at $300 \ \text{K}$){cite}`mit_virial` | $C$ |  $5.2\times10^{-9} \ \text{m}^6/\text{mol}^2$ |
 
