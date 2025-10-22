@@ -209,8 +209,7 @@ each corresponding to increasingly complex molecular interactions:
 * $C(T)$ — three-body interactions,
 * $D(T)$ — four-body and higher effects.
 
-At large $v$ (low density), the higher-order terms vanish, and the ideal gas law is recovered.
-At moderate densities, the first few terms suffice to capture real-gas deviations.
+At large $v$ (low density), the higher-order terms vanish, and the ideal gas law is recovered. At moderate densities, the first few terms suffice to capture real-gas deviations.
 
 :::{admonition} Note: Connection with cubic equations
 :class: note, dropdown
