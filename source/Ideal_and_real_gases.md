@@ -215,6 +215,13 @@ At large $v$ (low density), the higher-order terms vanish, and the ideal gas law
 :class: note, dropdown
 
 Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$. Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
+
+In engineering practice, the series is often truncated after the first correction term:
+
+(eq_virial_first_order)=
+$$
+Z \approx 1 + \frac{B(T)}{v}
+$$
 :::
 
 :::{admonition} Note: The Meaning and Origin of the Word *Virial*
