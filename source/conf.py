@@ -21,6 +21,7 @@ sys.path.insert(0, os.path.abspath('.'))
 extensions = [
     'myst_nb',
     'sphinx_design',
+    'sphinx_togglebutton',
     'sphinxcontrib.mermaid',
     'nbsphinx',
     'sphinx.ext.autodoc',
@@ -56,6 +57,18 @@ myst_enable_extensions = [
     "amsmath",
     "colon_fence",
     "deflist",
+    "tasklist",
+    "substitution",
     "html_admonition",
     "html_image",
 ]
+
+# Tell togglebutton which elements should collapse
+togglebutton_selector = (
+    ".admonition.dropdown, "        # MyST admonitions with :class: dropdown
+    "details.dropdown"              # (if you also use <details> via MyST)
+)
+
+# Optional: start them open/closed, show an icon, etc.
+togglebutton_hint = "Click to expand"
+togglebutton_hint_none = False
