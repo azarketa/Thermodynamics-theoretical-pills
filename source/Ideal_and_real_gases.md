@@ -241,10 +241,9 @@ where intermolecular interactions are limited to short-range effects.
 At higher pressures or near the critical point, cubic equations such as Peng–Robinson
 offer better accuracy and thermodynamic consistency.
 :::
-
 ::::
 
-:::{note} The Meaning and Origin of the Word *Virial*
+:::{admonition} The Meaning and Origin of the Word *Virial*
 :class: note, dropdown
 
 The word **“Virial”** comes from the Latin term *vis*, meaning *force* or *strength*. It was first introduced by the German physicist **Rudolf Clausius** in 1870

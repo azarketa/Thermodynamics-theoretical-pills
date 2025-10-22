@@ -70,5 +70,5 @@ togglebutton_selector = (
 )
 
 # Optional: start them open/closed, show an icon, etc.
-togglebutton_hint = "Click to expand"
+# togglebutton_hint = "Click to expand"
 togglebutton_hint_none = False
