@@ -46,7 +46,7 @@ To understand its position among the physical sciences, it is useful to compare 
   Thermodynamics does not describe trajectories or molecular mechanisms — it sets the **boundaries of the possible**.
 
 :::{admonition} Note: why Thermodynamics constraints other disciplines
-:class: note
+:class: note, dropdown
 Thermodynamics provides the **energetic framework** that mechanics and chemistry must obey.
 Every physical process — whether mechanical motion or chemical reaction — must satisfy the same fundamental laws of energy conservation and entropy growth.
 :::
@@ -125,7 +125,7 @@ It reveals the cost of change, the limits of efficiency, and the reason why perf
 :::
 
 :::{admonition} Note: a broader view — Thermodynamics as a hierarchical and universal framework
-:class: note
+:class: note, dropdown
 
 Thermodynamics exists at multiple levels of abstraction, each building upon the same fundamental principles but addressing different questions and scales.
 This hierarchy reveals the richness and universality of the theory.
@@ -228,7 +228,8 @@ This first block builds the conceptual and mathematical tools required to analyz
   Provides a unified framework for quantifying the *quality* of energy and losses across systems.
 
 :::{admonition} Note: a summary of the Fundamentals outline
-:class: note
+:class: note, dropdown
+
 **Central idea:** The fundamentals establish a language — systems, states, energy forms, entropy, and exergy — that enables any real process or device to be expressed as a structured balance of *quantities* and *inefficiencies*.
 This foundation supports every subsequent cycle analysis.
 :::
@@ -269,7 +270,8 @@ It explores both *idealized* cycles (as baselines) and *realistic* configuration
   Explains pressure mismatch and efficiency trends in propulsion contexts.
 
 :::{admonition} Note: a summary of the Gas Cycles outline
-:class: note
+:class: note, dropdown
+
 **Central idea:** Gas cycles translate thermodynamic principles into continuous-flow processes where energy is converted mainly by compression and expansion.
 The *Brayton framework* provides the conceptual link between stationary and mobile (propulsive) systems.
 :::
@@ -302,7 +304,8 @@ They are modeled as **air-standard cycles**, providing idealized references for 
   Introduces simple correction factors or empirical performance coefficients used in practical assessments.
 
 :::{admonition} Note: a summary of the ICREs outline
-:class: note
+:class: note, dropdown
+
 **Central idea:** ICRE analysis connects ideal cyclic reasoning with real engine behavior.
 Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same First and Second Law constraints.
 :::
@@ -349,15 +352,17 @@ It establishes the link between heat addition, expansion, condensation, and rege
   Emphasizes overall efficiency gains through energy cascading and waste-heat utilization.
 
 :::{admonition} Note: a summary of the Steam Cycles outline
-:class: note
+:class: note, dropdown
+
 **Central idea:** Steam and vapor cycles illustrate thermodynamics in its most practical form — turning heat into mechanical power within real technological and environmental constraints.
 Through condensation, regeneration, and combination with gas cycles, they demonstrate how every joule of energy is progressively degraded but still *governed* by the same universal laws.
 :::
 
 ---
 
-:::{admonition} Note: a summary of the course
-:class: note
+:::{admonition} Important: a summary of the course
+:class: warning
+
 **Overall progression.**
 
 1. The **Fundamentals** block provides the language of systems, energy, and entropy.

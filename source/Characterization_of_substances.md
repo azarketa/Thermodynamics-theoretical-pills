@@ -31,6 +31,7 @@ The **phase** of a substance refers to a spatial region where its physical prope
 In thermodynamics, *phase changes* always imply *state changes* — the two notions are considered synonymous.
 
 :::{admonition} Note: Phases as thermodynamic domains
+:class: note, dropdown
 A *phase* defines a region of physical uniformity in both composition and properties.
 When a substance changes phase, its thermodynamic state changes discontinuously.
 :::
@@ -43,14 +44,9 @@ Although Thermodynamics can describe any phase of any substance, the emphasis he
 ### State Postulate
 
 The study of thermodynamic systems aims to describe their equilibrium states through measurable properties.
-The central question is:
+The central question is: **how many independent properties are required to define the state of a system?** This is answered by the **State Postulate**, formulated by Kline and Köenig back in 1957:
 
-> How many independent properties are required to define the state of a system?
-
-This is answered by the **State Postulate**, formulated by Kline and Köenig back in 1957:
-
-:::{admonition} Important: The State Postulate
-:class: warning
+:::{epigraph}
 The equilibrium state of a system is completely specified when $n + 1$ independent thermodynamic variables are known,
 where $n$ is the number of independent ways to perform quasi-static, reversible work on the system.
 :::
@@ -61,9 +57,13 @@ In practice:
 * A **simple system** is one that allows reversible work in **only one way** (e.g. by changing its volume).
 * Systems capable of multiple kinds of work (electrical, elastic, magnetic, etc.) are **compound systems**, but these can often be divided into simple subsystems whose only reversible work is of the compression/expansion type.
 
-> Consequently, **simple compressible systems** — the main focus of this course — require only **two independent properties** to define their equilibrium state.
+:::{admonition} Important: Corollary of the State Postulate
+:class: warning
+**Simple compressible systems** — the main focus of this course — require only **two independent properties** to define their equilibrium state.
+:::
 
 :::{admonition} Note: Independent variables
+:class: note, dropdown
 The properties chosen to describe a state must be *intensive* (independent of system size and geometry) and *mutually independent*.
 For fluid systems, the primary variables are **pressure** ($p$), **specific volume** ($v = 1/\rho$), and **temperature** ($T$).
 :::
@@ -86,6 +86,7 @@ This general expression defines how the thermodynamic properties of a substance 
 Specific forms of this function — such as the **model of perfect gases** — will be explored next.
 
 :::{admonition} Tip: Why equations of state matter
+:class: tip, dropdown
 Equations of state provide the bridge between theory and measurable reality.
 They make it possible to compute one property (e.g. pressure) from others (e.g. temperature and volume),
 thereby connecting the abstract framework of Thermodynamics to experimental data.
@@ -102,6 +103,3 @@ thereby connecting the abstract framework of Thermodynamics to experimental data
 * Expressing one of these properties as a function of the other two gives the **equation of state**, the mathematical link between measurable quantities.
 * These principles provide the foundation for the study of {ref}`Models of Gases<sec_models_gases>`,
   where specific functional forms of the equation of state are introduced.
-
----
-

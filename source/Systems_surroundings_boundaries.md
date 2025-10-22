@@ -46,7 +46,7 @@ Everything outside that surface is the **surroundings**.
 The combination of the system and its surroundings is known as the **thermodynamic universe** — the entire domain involved in a process.
 
 :::{admonition} Note: Boundaries can be real or imaginary
-:class: note
+:class: note, dropdown
 A boundary does not have to be a tangible surface. It can be purely conceptual — an abstract division that helps us track what crosses between the system and its environment.
 Thermodynamics works precisely because such a separation can always be defined.
 :::
@@ -68,7 +68,7 @@ we are not concerned with every microscopic event inside, only with the *inputs*
 * By observing those exchanges, we can infer the internal evolution of the system.
 
 :::{admonition} Tip: Treat the system as a "black box"
-:class: tip
+:class: tip, dropdown
 By focusing on boundary interactions — not inner mechanisms — thermodynamics can analyze extremely complex systems (reactors, turbines, biological cells) using the same universal laws.
 If you can identify what crosses the boundary, you can apply thermodynamics.
 :::
@@ -155,7 +155,7 @@ To describe the physical nature of boundaries more precisely, thermodynamics use
 | **Work** | Rigid | Flexible |
 
 :::{admonition} Note: Meaning of boundary descriptors
-:class: note
+:class: note, dropdown
 Each term describes *how the boundary behaves* with respect to a specific mode of interaction.
 For instance, a **rigid, adiabatic, impermeable** wall defines an ideal **isolated system**.
 Conversely, a **flexible, diathermic, permeable** boundary defines the most general — and most realistic — case, that of an **open system**.
@@ -181,15 +181,15 @@ we assume that a fluid can be treated as a continuous medium in which properties
 
 Mathematically, we consider that within a small representative volume large enough to contain many molecules but small compared to the whole system,
 
-:::{math}
-:label: eq_continuum_hypothesis_exps
+(eq_continuum_hypothesis_exps)=
+$$
 \rho(\mathbf{x}) ; T(\mathbf{x}) ; P(\mathbf{x})
-:::
+$$
 
 are well-defined, continuous functions.
 
 :::{admonition} Tip: The continuum hypothesis as a bridge
-:class: tip
+:class: tip, dropdown
 The continuum approximation is what links thermodynamics with fluid mechanics.
 It allows us to define macroscopic fields, apply differential relations, and treat real gases and liquids as continuous media obeying the same conservation principles.
 :::

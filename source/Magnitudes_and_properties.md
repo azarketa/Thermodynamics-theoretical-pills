@@ -18,6 +18,7 @@ A valid measurement unit must satisfy three essential conditions:
 3. It must be **reproducible**, so that any laboratory can realize it.
 
 :::{admonition} Note: Magnitudes vs. units
+:class: note, dropdown
 A magnitude expresses *what* we measure (e.g., energy or pressure); a unit expresses *how* we measure it (joule, pascal).
 Thermodynamics requires both to describe the state of a system quantitatively.
 :::
@@ -49,6 +50,7 @@ From these fundamental ones, many other **derived magnitudes** can be built:
 | Power ($\dot{W}$)     | —              | watt                     | $[\text{W}] = [\text{J}/\text{s}]$                   |
 
 :::{admonition} Tip: Dimensional reasoning
+:class: tip, dropdown
 Knowing how derived units depend on the fundamental ones allows quick error checks and conversion between magnitudes.
 Dimensional consistency is a built-in verification of physical correctness.
 :::
@@ -94,6 +96,7 @@ The resulting quantities are densities, specific magnitudes, or molar magnitudes
 | Amount $n$ $[\text{mol}]$   | Volume $V$ $[\text{m}^{3}]$ | Molar volume $v_m$               | $v_m = V/n$        | $[\text{m}^{3}/\text{mol}]$ |
 
 :::{admonition} Tip: Normalization by reference quantity
+:class: tip, dropdown
 Relating an extensive magnitude to a reference (mass, volume, or mole) allows property comparison among different systems.
 For example, energy per unit mass (specific energy) or per mole (molar energy) are standard thermodynamic descriptors.
 :::
@@ -128,6 +131,7 @@ For example, energy per unit mass (specific energy) or per mole (molar energy) a
     Thus, $1\ \text{mol}$ of $\text{H}_{2}\text{O}$ contains $6.022\times10^{23}$ water molecules.
 
 :::{admonition} Note: Why the mole matters
+:class: note, dropdown
 Many physical and chemical processes scale with the **number of particles**, not their mass.
 At the same temperature and pressure, one mole of any gas occupies the same volume, regardless of its molecular mass.
 This makes the mole a natural unit for describing proportionality in reactions and equations of state.
@@ -193,6 +197,7 @@ Thus, we distinguish four related quantities:
 | **Vacuum pressure**             | $p_\text{vac} = p_\text{atm} - p_\text{abs}$                | Vacuum gauge                 |
 
 :::{admonition} Tip: Understanding what the gauge shows
+:class: tip, dropdown
 Pressure gauges and manometers report the **difference** from the current atmospheric value.
 When a tire reads “2 bar,” it means 2 bar *above* ambient, not 2 bar absolute.
 :::
@@ -232,6 +237,7 @@ The establishment of such procedures leads directly to the notion of **thermodyn
 a condition where no net macroscopic changes occur and temperature is uniform throughout the system.
 
 :::{admonition} Note: Why equilibrium matters
+:class: note, dropdown
 Defining temperature requires that the system be at equilibrium; otherwise, local variations prevent consistent measurement.
 Thermodynamic temperature scales are founded on equilibrium states, which provide reproducible reference conditions.
 :::

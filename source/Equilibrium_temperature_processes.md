@@ -57,6 +57,7 @@ This transitive property implies that temperature is a **well-defined property**
 The Zeroth Law does not define a *numerical scale* for temperature but proves that **temperature is a property that can be measured** — it legitimizes the concept of a **thermometer**.
 
 :::{admonition} Note: Empirical meaning of temperature
+:class: note, dropdown
 Temperature is the property that determines whether two systems are in thermal equilibrium.
 If no heat flow occurs between them when placed in contact, they share the same temperature.
 :::
@@ -106,6 +107,7 @@ This universality makes the Kelvin scale the foundation for scientific and engin
 :::
 
 :::{admonition} Tip: Units and notation
+:class: tip, dropdown
 The unit of thermodynamic temperature is the **Kelvin** ($[\text{K}]$), not “degree Kelvin.”
 The symbol $^\circ$ is used only for the Celsius scale.
 :::
@@ -146,6 +148,7 @@ Empirically:
 * $\tau$ decreases with **boundary surface area** ($A$); larger surfaces allow faster exchange.
 
 :::{admonition} Tip: Interpreting relaxation time
+:class: tip, dropdown
 A large bath takes longer to heat up because of its larger volume,
 but increasing the heating surface reduces the time needed to reach equilibrium.
 :::
