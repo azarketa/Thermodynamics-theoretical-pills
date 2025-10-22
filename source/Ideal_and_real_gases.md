@@ -263,7 +263,7 @@ So the term *Virial* refers to the “force-energy content” (*vis*) of a syste
 
 We aim to determine the **pressure** and the **compressibility factor** $Z$ for **carbon dioxide** under specified thermodynamic conditions, using both **ideal** and **real gas models**.
 
-The gas occupies a **molar volume** of $V_m = 0.01,\text{m}^3/\text{mol}$ and is held at a **temperature** of $T = 300,\text{K}$. This corresponds to a near-critical condition for $\text{CO}_2$, making it a meaningful case for evaluating model fidelity.
+The gas occupies a **molar volume** of $V_m = 0.01 \ \text{m}^3/\text{mol}$ and is held at a **temperature** of $T = 300 \ \text{K}$. This corresponds to a near-critical condition for $\text{CO}_2$, making it a meaningful case for evaluating model fidelity.
 
 The following models are considered:
 
@@ -282,8 +282,8 @@ The following models are considered:
 | Temperature            |                    $T$                    |               $300 \ \text{K}$               |
 | Molar volume           |                   $V_m$                   |        $0.01 \ \text{m}^3/\text{mol}$        |
 | Universal gas constant |                   $R_u$                   | $8.314 \ \text{J}/(\text{mol}\cdot\text{K})$ |
-| $a$ (vdW–RK–PR)        |     $0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2$    |                                            |
-| $b$ (vdW–RK–PR)        | $4.27\times10^{-5} \ \text{m}^3/\text{mol}$ |                                            |
+| $a$ (vdW–RK–PR)        |                    $a$                    | $0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2$ |
+| $b$ (vdW–RK–PR)        |                    $b$                    | $4.27\times10^{-5} \ \text{m}^3/\text{mol}$ |
 | Critical temperature   |                   $T_c$                   |              $304.2 \ \text{K}$              |
 | Critical pressure      |                   $P_c$                   |         $7.38\times10^6 \ \text{Pa}$         |
 | Acentric factor        |                  $\omega$                 |                   $0.225$                  |
@@ -309,7 +309,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     
     (eq_example_ideal_gas)=
     $$
-    P = \frac{R_u{}T}{V_m} = 2.49\times10^{5},\text{Pa},
+    P = \frac{R_u{}T}{V_m} = 2.49\times10^{5} \ \text{Pa},
     $$
     
     $$
