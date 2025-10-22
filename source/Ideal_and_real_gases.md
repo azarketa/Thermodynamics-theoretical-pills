@@ -307,82 +307,85 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
 
     * **Ideal Gas Model**
     
-    (eq_example_ideal_gas)=
-    $$
-    P = \frac{R_u{}T}{V_m} = 2.49\times10^{5} \ \text{Pa},
-    $$
-    
-    $$
-    Z = \frac{P{}V_m}{R_u{}T} = 1.000.
-    $$
+        (eq_example_ideal_gas)=
+        $$
+        \boxed{P = \frac{R_u{}T}{V_m} = 2.49\times10^{5} \ \text{Pa}} \ ,
+        $$
+        
+        $$
+        \boxed{Z = \frac{P{}V_m}{R_u{}T} = 1.000} \ .
+        $$
 
     ---
 
     * **van der Waals Equation**
     
-    (eq_example_vdw)=
-    $$
-    P = \frac{R_u{}T}{V_m - b} - a{}\frac{1}{V_m^2}
-    = 2.13\times10^{5} \ \text{Pa},
-    $$
-    
-    $$
-    Z = \frac{P{}V_m}{R_u{}T} = 0.857.
-    $$
+        (eq_example_vdw)=
+        $$
+        \boxed{P = \frac{R_u{}T}{V_m - b} - a{}\frac{1}{V_m^2}
+        = 2.13\times10^{5} \ \text{Pa}} \ ,
+        $$
+        
+        $$
+        \boxed{Z = \frac{P{}V_m}{R_u{}T} = 0.857} \ .
+        $$
 
     ---
    
     * **Redlich–Kwong Equation**
     
-    (eq_example_rk)=
-    $$
-    P = \frac{R_u{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m(V_m + b)} = 2.20\times10^{5} \ \text{Pa},
-    $$
-    
-    $$
-    Z = 0.885.
-    $$
+        (eq_example_rk)=
+        $$
+        \boxed{P = \frac{R_u{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m(V_m + b)} = 2.20\times10^{5} \ \text{Pa}} \ ,
+        $$
+        
+        $$
+        \boxed{Z = 0.885} \ .
+        $$
 
     ---
    
     * **Peng–Robinson Equation**
     
-    (eq_example_pr)=
-    $$
-    P =
-    \frac{R_u{}T}{V_m - b} = \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)},
-    $$
-    
-    where:
-    
-    $$
-    \alpha(T) = [1 + \kappa(1 - \sqrt{T/T_c})]^2,
-    \qquad
-    \kappa = 0.37464 + 1.54226\omega - 0.26992\omega^2.
-    $$
-    
-    Numerically:
-    
-    $$
-    P = 2.25\times10^{5} \ \text{Pa},
-    \qquad
-    Z = 0.905.
-    $$
+        (eq_example_pr)=
+        $$
+        P =
+        \frac{R_u{}T}{V_m - b} = \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)},
+        $$
+        
+        where:
+        
+        $$
+        \alpha(T) = [1 + \kappa(1 - \sqrt{T/T_c})]^2,
+        \qquad
+        \kappa = 0.37464 + 1.54226\omega - 0.26992\omega^2.
+        $$
+        
+        Numerically:
+        
+        $$
+        \boxed{P = 2.25\times10^{5} \ \text{Pa}} \ ,
+        $$
+      
+        $$
+        \boxed{Z = 0.905} \ .
+        $$
 
     ---
     
     * **Virial Equation (First-Order Approximation)**
     
-    Using $B(300 \ \text{K}) \approx -60\times10^{-6} \ \text{m}^3/\text{mol}$ for $\text{CO}_2$:
-    
-    (eq_example_virial)=
-    $$
-    P = \frac{R_u{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{} \ \text{Pa},
-    $$
-    
-    $$
-    Z = 1 + \frac{B}{V_m} = 0.994.
-    $$
+        Using $B(300 \ \text{K}) \approx -60\times10^{-6} \ \text{m}^3/\text{mol}$ for $\text{CO}_2$:
+        
+        (eq_example_virial)=
+
+        $$
+        \boxed{P = \frac{R_u{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{} \ \text{Pa}} \ ,
+        $$
+        
+        $$
+        \boxed{Z = 1 + \frac{B}{V_m} = 0.994} \ .
+        $$
 
 ---
 
