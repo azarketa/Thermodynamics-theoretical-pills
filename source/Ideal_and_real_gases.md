@@ -211,6 +211,12 @@ each corresponding to increasingly complex molecular interactions:
 
 At large $v$ (low density), the higher-order terms vanish, and the ideal gas law is recovered. At moderate densities, the first few terms suffice to capture real-gas deviations.
 
+:::{admonition} Note: Connection with cubic equations
+:class: note, dropdown
+
+Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$. Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
+:::
+
 :::{admonition} Note: The Meaning and Origin of the Word *Virial*
 :class: note, dropdown
 
@@ -221,33 +227,6 @@ and from it he formulated what is now known as the **Virial Theorem**.
 In essence, the Virial theorem relates the **average kinetic energy** of the molecules in a system to the **average potential energy** arising from their mutual interactions. From this mechanical relationship, Clausius derived a connection between microscopic forces and macroscopic pressure — a link that later gave birth to the **Virial EOS**, which expresses the pressure of a gas as a power series in density.
 
 So the term *Virial* refers to the “force-energy content” (*vis*) of a system, not to variance or series expansion. Each coefficient in the Virial equation represents the cumulative effect of molecular forces: two-body, three-body, and higher interactions. Thus, the name emphasizes the mechanical origin of the equation — it is fundamentally a **force-derived** expression of state.
-:::
-
-:::{admonition} Note: Connection with cubic equations
-:class: note, dropdown
-
-Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$.
-Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
-
-In engineering practice, the series is often truncated after the first correction term:
-
-(eq_virial_first_order)=
-$$
-Z \approx 1 + \frac{B(T)}{v}
-$$
-
-Substituting into the ideal gas law yields:
-
-(eq_virial_pressure_correction)=
-$$
-P \approx \frac{R{}T}{v}\left(1 + \frac{B(T)}{v}\right)
-$$
-
-This **first-order Virial approximation** provides a convenient correction for real-gas effects at moderate pressures while remaining computationally simple.
-
-The truncated Virial expansion is accurate at **low to moderate pressures**, where intermolecular interactions are limited to short-range effects.
-
-At higher pressures or near the critical point, cubic equations such as Peng–Robinson offer better accuracy and thermodynamic consistency.
 :::
 
 ---
