@@ -47,8 +47,8 @@ To understand its position among the physical sciences, it is useful to compare 
 
 :::{admonition} Note: why Thermodynamics constraints other disciplines
 :class: note, dropdown
-Thermodynamics provides the **energetic framework** that mechanics and chemistry must obey.
-Every physical process — whether mechanical motion or chemical reaction — must satisfy the same fundamental laws of energy conservation and entropy growth.
+Thermodynamics provides the **energetic framework** that mechanics, chemistry or any other discipline must obey.
+Every physical process — whether mechanical motion, chemical reaction or any generic transformation whatsoever — must satisfy the same fundamental laws of energy conservation and entropy growth.
 :::
 
 In essence, thermodynamics concerns itself with three questions fundamental to all processes:
