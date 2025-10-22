@@ -23,6 +23,7 @@ extensions = [
     'sphinx_design',
     'sphinx_togglebutton',
     'sphinxcontrib.mermaid',
+    'sphinxcontrib.bibtex',
     'nbsphinx',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
@@ -72,3 +73,10 @@ togglebutton_selector = (
 # Optional: start them open/closed, show an icon, etc.
 togglebutton_hint = ""
 togglebutton_hint_none = True
+
+# Point to your .bib file(s)
+bibtex_bibfiles = ["references.bib"]
+
+# (optional) Formatting settings
+bibtex_default_style = "unsrt"
+bibtex_reference_style = "author_year"

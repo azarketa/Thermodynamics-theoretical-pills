@@ -219,16 +219,16 @@ Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson �
 In engineering practice, the series is often truncated after the first correction term:
 
 (eq_virial_first_order)=
-```math
+$$
 Z \approx 1 + \frac{B(T)}{v}
-```
+$$
 
 Substituting into the ideal gas law yields:
 
 (eq_virial_pressure_correction)=
-```math
+$$
 P \approx \frac{R{}T}{v}\left(1 + \frac{B(T)}{v}\right)
-```
+$$
 
 This **first-order Virial approximation** provides a convenient correction for real-gas effects at moderate pressures while remaining computationally simple.
 
@@ -282,8 +282,8 @@ The following models are considered:
 | Critical temperature   |                   $T_c$                   |              $304.2 \ \text{K}$              |
 | Critical pressure      |                   $P_c$                   |         $7.38\times10^6 \ \text{Pa}$         |
 | Acentric factor        |                  $\omega$                 |                   $0.225$                  |
-| **2nd Virial coefficient** (at $300 \ \text{K}$) | $B$ | $-121.5\times10^{-6} \ \text{m}^3/\text{mol}$ |
-| **3rd Virial coefficient** (at $300 \ \text{K}$) | $C$ |  $5.2\times10^{-9} \ \text{m}^6/\text{mol}^2$ |
+| **2nd Virial coefficient** (at $300 \ \text{K}$){cite}`mit_virial` | $B$ | $-121.5\times10^{-6} \ \text{m}^3/\text{mol}$ |
+| **3rd Virial coefficient** (at $300 \ \text{K}$){cite}`mit_virial` | $C$ |  $5.2\times10^{-9} \ \text{m}^6/\text{mol}^2$ |
 
 ---
 
@@ -451,3 +451,10 @@ END OF WORKED EXAMPLE
 * **Real-gas** behavior requires corrections for finite size and interactions — via {ref}`van der Waals <eq_vanderwaals>`, {ref}`Redlich–Kwong <eq_redlich_kwong>`, {ref}`Virial <eq_virial_equation>`, and {ref}`Peng–Robinson <eq_peng_robinson>`.
 * For broad engineering conditions, **Peng–Robinson** typically offers the best accuracy–simplicity balance; **Redlich–Kwong** is a solid lighter-weight alternative.
 * Truncated **virial** forms remain valuable for dilute gases but are not the most accurate at moderate densities or near phase boundaries.
+
+---
+
+(subsec_references_ideal_and_real_gases)=
+### References
+```bibliography references.bib
+```
