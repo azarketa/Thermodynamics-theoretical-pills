@@ -1,0 +1,3 @@
+/* hide back-ref list after each bib entry */
+.backrefs { font-size: 0; }
+.backrefs:after { font-size: initial; content: "\00a0"; }
