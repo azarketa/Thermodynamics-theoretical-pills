@@ -323,7 +323,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     (eq_example_vdw)=
     $$
     P = \frac{R_u{}T}{V_m - b} - a{}\frac{1}{V_m^2}
-    = 2.13\times10^{5},\text{Pa},
+    = 2.13\times10^{5} \ \text{Pa},
     $$
     
     $$
@@ -336,7 +336,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     
     (eq_example_rk)=
     $$
-    P = \frac{R_u{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m(V_m + b)} = 2.20\times10^{5}\text{Pa},
+    P = \frac{R_u{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m(V_m + b)} = 2.20\times10^{5} \ \text{Pa},
     $$
     
     $$
@@ -358,13 +358,13 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     $$
     \alpha(T) = [1 + \kappa(1 - \sqrt{T/T_c})]^2,
     \qquad
-    \kappa = 0.37464 + 1.54226,\omega - 0.26992,\omega^2.
+    \kappa = 0.37464 + 1.54226\omega - 0.26992\omega^2.
     $$
     
     Numerically:
     
     $$
-    P = 2.25\times10^{5},\text{Pa},
+    P = 2.25\times10^{5} \ \text{Pa},
     \qquad
     Z = 0.905.
     $$
@@ -377,7 +377,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     
     (eq_example_virial)=
     $$
-    P = \frac{R_u{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{}\text{Pa},
+    P = \frac{R_u{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{} \ \text{Pa},
     $$
     
     $$
