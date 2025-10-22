@@ -1,13 +1,13 @@
 (sec_pvt_diagrams)=
-## P-v-T Diagrams
+## $P-v-T$ Diagrams
 
 Thermodynamic states of a pure substance can be described by the **triad of variables** $P$, $v$, and $T$.
-These quantities are linked by the **equation of state** $f(P, v, T)=0$, which defines the thermodynamic surface of the substance in a three-dimensional space.
+These quantities are linked by the {ref}`**state relation** <eq_general_state_equation>`, which defines the thermodynamic surface of the substance in a three-dimensional space.
 Understanding how this surface behaves is essential for visualizing **phase changes** and **process paths** in real systems.
 
 Mathematically, a single-variable function $y=f(x)$ is represented as a curve on the $x$–$y$ plane.
 If, instead, the function depends on two independent variables, $z=f(x, y)$, its graphical representation is a **surface** in three-dimensional space.
-In the same way, the P-v-T relation defines a surface: each point on this surface represents an equilibrium state of the substance.
+In the same way, the $P-v$-T relation defines a surface: each point on this surface represents an equilibrium state of the substance.
 
 A **quasi-static process**—a slow, reversible evolution between equilibrium states—traces a continuous **curve** along this surface.
 The shape of this surface, and its projections on coordinate planes, provides insight into phase behavior.
@@ -15,7 +15,7 @@ The shape of this surface, and its projections on coordinate planes, provides in
 ---
 
 (subsec_tv_projection)=
-### The T-v Projection
+### The $T-v$ Projection
 
 Let us examine a simple and familiar system: a **piston–cylinder** filled with liquid water at atmospheric pressure ($P \approx 101 \ \text{kPa}$) and at an initial temperature of $20^{\circ}\text{C}$.
 The system is slowly heated by a thermal source such as a small burner.
@@ -40,7 +40,7 @@ The system is slowly heated by a thermal source such as a small burner.
    If heating continues beyond the saturated vapor state, the temperature rises above the saturation temperature.
    The vapor expands, the piston ascends further, and the gas approximately follows {ref}`the ideal-gas law <eq_ideal_gas_specific_form>`. The fluid in this region is the **superheated vapor**.
 
-:::{admonition} Important: Key observations in the T-v diagram
+:::{admonition} Important: Key observations in the $T-v$ diagram
 :class: warning
 
 * The **specific volume** of liquid water remains nearly constant until boiling begins.
@@ -51,7 +51,7 @@ The system is slowly heated by a thermal source such as a small burner.
 ---
 
 (subsec_completing_tv_projection)=
-### Completing the T-v Projection
+### Completing the $T-v$ Projection
 
 Repeating the experiment at different pressures reveals that:
 
@@ -63,14 +63,6 @@ This leads to two major conclusions:
 1. The **saturation temperature**, $T_{\text{sat}}$, **depends on pressure**.
 
    Higher pressures correspond to higher saturation temperatures.
-
-   :::{admonition} Note: Pressure cookers and high-altitude boiling
-   :class: note, dropdown
-
-   * In a **pressure cooker**, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above $100,^{\circ}\text{C}$ and thus cook food faster.
-   * On the other hand, atop **Mount Everest**, where $P_{\text{atm}} \approx 34,\text{kPa}$, water boils at about $86,^{\circ}\text{C}$.
-   * At roughly $19{,}000,\text{m}$ (the **Armstrong line**), where the atmospheric pressure equals the vapor pressure of water at body temperature ($36,^{\circ}\text{C}$), the human body’s liquids would begin to boil without pressurization.
-     :::
 
 2. The **volume change** during vaporization becomes smaller at higher $P$ and $T$, eventually vanishing at a unique point known as the **critical point**.
 
@@ -86,36 +78,47 @@ This leads to two major conclusions:
     
     Supercritical fluids exhibit properties intermediate between those of gases and liquids and are used in specialized applications such as solvent extraction and supercritical drying.
 
+:::{admonition} Note: Pressure cookers and high-altitude boiling
+:class: note, dropdown
+
+* In a **pressure cooker**, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above $100,^{\circ}\text{C}$ and thus cook food faster.
+* On the other hand, atop **Mount Everest**, where $P_{\text{atm}} \approx 34,\text{kPa}$, water boils at about $86,^{\circ}\text{C}$.
+* At roughly $19{,}000,\text{m}$ (the **Armstrong line**), where the atmospheric pressure equals the vapor pressure of water at body temperature ($36,^{\circ}\text{C}$), the human body’s liquids would begin to boil without pressurization.
+
+:::
+
 ---
 
 (subsec_simplified_tv_projection)=
-### The Simplified T-v Diagram
+### The Simplified $T-v$ Diagram
 
 If we plot all saturation points for both liquid and vapor and connect them, we obtain the **saturation line**, which forms an **inverted bell**.
-The T-v diagram can then be divided into distinct regions:
+The $T-v$ diagram can then be divided into distinct regions:
 
 * **Inside the bell:** the **two-phase region** (liquid–vapor mixture).
 * **To the left:** the **subcooled liquid** region.
 * **To the right:** the **superheated vapor** region.
 * **Above the bell:** the **supercritical region**.
 
-This simplified T-v diagram is a cornerstone of thermodynamic visualization — a compact map showing how matter transitions between its main phases.
+This simplified $T-v$ diagram is a cornerstone of thermodynamic visualization — a compact map showing how matter transitions between its main phases.
 
 ---
 
 (subsec_pv_projection)=
-### The P-v Projection
+### The $P-v$ Projection
 
-To complement the T-v view, consider the same piston–cylinder system but now **maintain constant temperature** while varying pressure.
+To complement the $T-v$ view, consider the same piston–cylinder system but now **maintain constant temperature** while varying pressure.
 
 By applying or removing weights on the piston, the external pressure is changed, while heat exchange with the thermal bath keeps the temperature fixed.
-The resulting **P-v diagram** shows similar features to the T-v projection:
+The resulting **P-v diagram** shows similar features to the $T-v$ projection:
 
 * As pressure decreases at constant $T$, the liquid begins to vaporize once $P_{\text{sat}}$ is reached.
 * At higher pressures, condensation occurs.
-* Both transformations trace a **horizontal phase-change line** on the P-v diagram.
+* Both transformations trace a **horizontal phase-change line** on the $P-v$ diagram.
 
-:::{admonition} Note: Comparison between T-v and P-v diagrams
+The bell-shaped envelope again separates the single-phase regions from the two-phase mixture.
+
+:::{admonition} Note: Comparison between $T-v$ and $P-v$ diagrams
 :class: note, dropdown
 
 * In the **liquid region**, specific volume varies little with $T$ or $P$.
@@ -123,14 +126,12 @@ The resulting **P-v diagram** shows similar features to the T-v projection:
 * Phase change appears as a horizontal line in both projections.
 :::
 
-The bell-shaped envelope again separates the single-phase regions from the two-phase mixture.
-
 ---
 
 (subsec_extending_pv_projection)=
-### Extending the P-v Projection
+### Extending the $P-v$ Projection
 
-When extended to include the solid phase, the P-v diagram displays additional features:
+When extended to include the solid phase, the $P-v$ diagram displays additional features:
 
 * **Substances that contract on freezing** (most materials) show a vertical solid–liquid transition line, since $v$ decreases sharply upon solidification.
 * **Substances that expand on freezing** (like water) exhibit a slanted line: the solid phase has slightly greater specific volume than the liquid.
@@ -151,9 +152,9 @@ At still lower pressures, other transitions appear:
 
 (subsec_pt_projection)=
 
-### The P-T Projection (Phase Diagram)
+### The $P-T$ Projection (Phase Diagram)
 
-The **P-T diagram**, or **phase diagram**, presents the phase boundaries more compactly.
+The **$P-T$ diagram**, or **phase diagram**, presents the phase boundaries more compactly.
 It displays the three fundamental lines:
 
 * **Sublimation line** (solid–vapor equilibrium),
@@ -205,7 +206,7 @@ In the two-phase region, all other properties can be expressed as mass-weighted 
 (subsec_error_tv_diagram)=
 ### Departure from Ideal-Gas Behavior
 
-In the **T-v diagram**, the deviation of real vapor behavior from the ideal gas law increases as we approach the **triple point**.
+In the **$T-v$ diagram**, the deviation of real vapor behavior from the ideal gas law increases as we approach the **triple point**.
 At low pressures and high temperatures, gases behave nearly ideally because their specific volume is large, making intermolecular forces negligible.
 However, near saturation or condensation conditions, deviations become significant, and the use of **real-gas models** becomes essential.
 
@@ -221,7 +222,7 @@ This is the regime where **compressibility factors** and **cubic equations of st
 (subsec_conceptual_closure_pvt)=
 ### Conceptual Closure
 
-* The **P-v-T surface** represents the complete state space of a substance.
+* The **$P-v-T$ surface** represents the complete state space of a substance.
 * **Projections** on coordinate planes ($T-v$, $P-v$, $P-T$) reveal the mechanisms of phase change and critical behavior.
 * The **saturation line** forms an inverted bell that delineates subcooled, two-phase, and superheated regions.
 * **Critical and triple points** define the limits of coexistence among phases.
