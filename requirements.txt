@@ -3,6 +3,7 @@ myst-nb
 sphinx-rtd-theme
 sphinx-design
 sphinxcontrib-mermaid
+sphinxcontrib-bibtex
 nbsphinx
 jupyter_sphinx
 sphinx-hoverxref
