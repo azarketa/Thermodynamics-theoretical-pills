@@ -456,5 +456,5 @@ END OF WORKED EXAMPLE
 
 (subsec_references_ideal_and_real_gases)=
 ### References
-```bibliography references.bib
-```
+```{bibliography}
+:filter: docname in docnames
