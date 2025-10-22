@@ -2,7 +2,7 @@
 ## $P-v-T$ Diagrams
 
 Thermodynamic states of a pure substance can be described by the **triad of variables** $P$, $v$, and $T$.
-These quantities are linked by the {ref}`**state relation** <eq_general_state_equation>`, which defines the thermodynamic surface of the substance in a three-dimensional space.
+These quantities are linked by the {ref}`state relation <eq_general_state_equation>`, which defines the thermodynamic surface of the substance in a three-dimensional space.
 Understanding how this surface behaves is essential for visualizing **phase changes** and **process paths** in real systems.
 
 Mathematically, a single-variable function $y=f(x)$ is represented as a curve on the $x$–$y$ plane.
@@ -227,3 +227,8 @@ This is the regime where **compressibility factors** and **cubic equations of st
 * The **saturation line** forms an inverted bell that delineates subcooled, two-phase, and superheated regions.
 * **Critical and triple points** define the limits of coexistence among phases.
 * Understanding these diagrams is fundamental for interpreting thermodynamic cycles and energy conversion processes.
+
+
+```python
+
+```
