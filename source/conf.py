@@ -43,6 +43,17 @@ hoverxref_mathjax = True                # re-render MathJax inside the tooltip
 # mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
 mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 
+# Sphinx + MathJax v3: auto-number AMS equations and use labels as IDs
+mathjax3_config = {
+    "tex": {
+        "tags": "ams",         # "none", "ams", or "all"
+        "useLabelIds": True,   # use \label or directive labels as anchor IDs
+    }
+}
+
+# Optional: number all displayed math regardless of \begin{equation}
+math_number_all = True
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

@@ -137,6 +137,8 @@ Note that the molar and mass quantities show a different nomenclature. If $\phi$
 **WORKED EXAMPLE — mixture properties of standard air**
 ^^^
 
+**Problem statement**
+
 Air is a common mixture that usually described as having a volumetric composition of $21 \ %$ $\text{O}_{2}$ and $79 \ %$ $\text{N}_{2}$. The molar weights of those components can be obtained from standard chemical tables, as well as the values for the universal gas constant ($\text{R}_{\text{u}}$) and the specific heat constants of the components at particular temperatures. Assuming that the system being analyzed is composed of standard air at a temperature of $25 \ ^{\circ}\text{C}$, calculate its effective molar weight, as well as its specific heat constants, and compare them to the standard tabulated values.
 
 **Synthesis**
@@ -149,7 +151,7 @@ Air is a common mixture that usually described as having a volumetric compositio
 
 ---
 
-**Problem Data**{cite}`2015Cengel`
+**Problem data**{cite}`2015Cengel`
 
 | Quantity                                    |                  Symbol                  | Value                                                                                                  |
 | :------------------------------------------ | :--------------------------------------: | :----------------------------------------------------------------------------------------------------- |
@@ -216,7 +218,9 @@ Air is a common mixture that usually described as having a volumetric compositio
     $$
     \boxed{R_{\text{air}} = 288.195\ \text{J kg}^{-1}\text{K}^{-1}},\quad
     \boxed{c_{p_{\text{air}}} = 1.011 \ \text{kJ kg}^{-1}\text{K}^{-1}},
-    \\[10pt]
+    $$
+
+    $$
     \boxed{c_{v_{\text{air}}} = 0.723 \ \text{kJ kg}^{-1}\text{K}^{-1}},\quad
     \boxed{\gamma_{\text{air}} = 1.3986}
     $$

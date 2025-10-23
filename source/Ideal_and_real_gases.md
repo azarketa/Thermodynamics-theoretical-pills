@@ -255,9 +255,9 @@ So the term *Virial* refers to the “force-energy content” (*vis*) of a syste
 **WORKED EXAMPLE — pressure and compressibility of $\text{CO}_2$ at $300 \ \text{K}$**
 ^^^
 
-We aim to determine the **pressure** and the **compressibility factor** $Z$ for **carbon dioxide** under specified thermodynamic conditions, using both **ideal** and **real gas models**.
+**Problem statement**
 
-The gas occupies a **molar volume** of $V_m = 0.01 \ \text{m}^3/\text{mol}$ and is held at a **temperature** of $T = 300 \ \text{K}$. This corresponds to a near-critical condition for $\text{CO}_2$, making it a meaningful case for evaluating model fidelity.
+Determine the **pressure** and the **compressibility factor** $Z$ for **carbon dioxide** under specified thermodynamic conditions, using both **ideal** and **real gas models**. The gas occupies a **molar volume** of $V_m = 0.01 \ \text{m}^3/\text{mol}$ and is held at a **temperature** of $T = 300 \ \text{K}$. This corresponds to a near-critical condition for $\text{CO}_2$, making it a meaningful case for evaluating model fidelity.
 
 The following models are considered:
 
@@ -268,22 +268,26 @@ The following models are considered:
 5. Virial (first-order approximation)
 6. Virial (second-order approximation)
 
+**Synthesis**
+
+Different gas models are applied for computing the pressure of a mole of $\text{CO}_{2}$ that occupies a $0.01 \ \text{m}^{3}$ volume at a temperature of $T = 300 \ \text{K}$.
+
 ---
 
-**Problem Data**
+**Problem data**{cite}`weast1972handbook; mit_virial`
 
 | Quantity               |                   Symbol                  |                    Value                   |
 | :--------------------- | :---------------------------------------: | :----------------------------------------: |
 | Temperature            |                    $T$                    |               $300 \ \text{K}$               |
 | Molar volume           |                   $V_m$                   |        $0.01 \ \text{m}^3/\text{mol}$        |
 | Universal gas constant |                   $R_u$                   | $8.314 \ \text{J}/(\text{mol}\cdot\text{K})$ |
-| $a$ (vdW–RK–PR){cite}`weast1972handbook`        |                    $a$                    | $0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2$ |
-| $b$ (vdW–RK–PR){cite}`weast1972handbook`        |                    $b$                    | $4.27\times10^{-5} \ \text{m}^3/\text{mol}$ |
-| Critical temperature{cite}`weast1972handbook`   |                   $T_c$                   |              $304.2 \ \text{K}$              |
-| Critical pressure{cite}`weast1972handbook`      |                   $P_c$                   |         $7.38\times10^6 \ \text{Pa}$         |
-| Acentric factor{cite}`weast1972handbook`        |                  $\omega$                 |                   $0.225$                  |
-| **2nd Virial coefficient** (at $300 \ \text{K}$){cite}`mit_virial` | $B$ | $-121.5\times10^{-6} \ \text{m}^3/\text{mol}$ |
-| **3rd Virial coefficient** (at $300 \ \text{K}$){cite}`mit_virial` | $C$ |  $5.2\times10^{-9} \ \text{m}^6/\text{mol}^2$ |
+| $a$ (vdW–RK–PR)        |                    $a$                    | $0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2$ |
+| $b$ (vdW–RK–PR)        |                    $b$                    | $4.27\times10^{-5} \ \text{m}^3/\text{mol}$ |
+| Critical temperature   |                   $T_c$                   |              $304.2 \ \text{K}$              |
+| Critical pressure      |                   $P_c$                   |         $7.38\times10^6 \ \text{Pa}$         |
+| Acentric factor        |                  $\omega$                 |                   $0.225$                  |
+| **2nd Virial coefficient** (at $300 \ \text{K}$) | $B$ | $-121.5\times10^{-6} \ \text{m}^3/\text{mol}$ |
+| **3rd Virial coefficient** (at $300 \ \text{K}$) | $C$ |  $5.2\times10^{-9} \ \text{m}^6/\text{mol}^2$ |
 
 ---
 
