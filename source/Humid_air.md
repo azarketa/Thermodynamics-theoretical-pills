@@ -262,6 +262,7 @@ $$
         |    70    |      31.15     |
 
         Interpolating between $60 \ {\circ}\text{C}$ and $65 \ {\circ}\text{C}$:
+  
         $$
         T_{dp,70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
         $$
@@ -323,6 +324,7 @@ $$
     * **Dew-point temperature:**
 
         Here,
+  
         $$p_v = 0.75 \times p_{ws}(20^\circ\text{C}) = 1.754\ \text{kPa}.$$
         
         From tables{cite}`2015Cengel`:
@@ -333,6 +335,7 @@ $$
         |    20    |      2.339     |
 
         Interpolating between $15 \ ^{\circ}\text{C}$ and $20 \ ^{\circ}\text{C}$:
+  
         $$
         T_{dp,20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
         $$
