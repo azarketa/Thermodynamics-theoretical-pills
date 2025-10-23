@@ -1,12 +1,16 @@
-Thermodynamics deals with **physical systems** and their measurable characteristics.
-To describe any fluid, we need to know *which quantities* define its behavior and *how* those quantities are measured.
-This section introduces the **magnitudes** and **properties** that allow us to characterize fluids in macroscopic terms,
-laying the groundwork for later laws and state relations.
+```python
+
+```
+
+(sec_magnitudes_and_properties)=
+## Magnitudes and properties
+
+Thermodynamics deals with **physical systems** and their measurable characteristics. To describe any fluid, we need to know *which quantities* define its behavior and *how* those quantities are measured. This section introduces the **magnitudes** and **properties** that allow us to characterize fluids in macroscopic terms, laying the groundwork for later laws and state relations.
 
 ---
 
 (subsec_physical_magnitudes_units)=
-## Physical Magnitudes and Measurement Units
+## Physical magnitudes and measurement units
 
 A **magnitude** is any measurable physical quantity associated with a system — such as mass, volume, temperature, or pressure.
 Every magnitude must be accompanied by a **measurement unit**, which serves as a fixed reference.
@@ -17,7 +21,7 @@ A valid measurement unit must satisfy three essential conditions:
 2. It must be **universal**, applicable under all physical conditions.
 3. It must be **reproducible**, so that any laboratory can realize it.
 
-:::{admonition} Note: Magnitudes vs. units
+:::{admonition} Note: magnitudes vs. units
 :class: note, dropdown
 A magnitude expresses *what* we measure (e.g., energy or pressure); a unit expresses *how* we measure it (joule, pascal).
 Thermodynamics requires both to describe the state of a system quantitatively.
@@ -49,7 +53,7 @@ From these fundamental ones, many other **derived magnitudes** can be built:
 | Energy ($E$)          | —              | joule                    | $[\text{J}] = [\text{N}\cdot\text{m}]$               |
 | Power ($\dot{W}$)     | —              | watt                     | $[\text{W}] = [\text{J}/\text{s}]$                   |
 
-:::{admonition} Tip: Dimensional reasoning
+:::{admonition} Tip: dimensional reasoning
 :class: tip, dropdown
 Knowing how derived units depend on the fundamental ones allows quick error checks and conversion between magnitudes.
 Dimensional consistency is a built-in verification of physical correctness.
@@ -58,7 +62,7 @@ Dimensional consistency is a built-in verification of physical correctness.
 ---
 
 (subsec_extensive_intensive_properties)=
-### Extensive and Intensive Properties
+### Extensive and intensive properties
 
 Thermodynamic properties can be grouped according to how they depend on the system’s size.
 
@@ -73,7 +77,7 @@ Thermodynamic properties can be grouped according to how they depend on the syst
 * **Intensive properties** are *independent* of system size; they remain unchanged when subsystems are combined.
   Examples: **pressure** ($p$), **temperature** ($T$), **density** ($\rho$).
 
-:::{admonition} Important: Additivity vs. independence
+:::{admonition} Important: additivity vs. independence
 :class: warning
 Extensive properties describe *quantities of substance*; intensive properties describe *conditions of substance*.
 Thermodynamics relates them through ratios such as “per mass,” “per volume,” or “per mole,” which convert extensives into intensives.
@@ -82,7 +86,7 @@ Thermodynamics relates them through ratios such as “per mass,” “per volume
 ---
 
 (subsec_conversion_extensive_intensive)=
-### From Extensive to Intensive: Reference Conversions
+### From extensive to intensive: reference conversions
 
 Extensive magnitudes can be turned into intensive ones by dividing them by a **reference extensive**:
 volume, mass, or amount of substance.
@@ -95,7 +99,7 @@ The resulting quantities are densities, specific magnitudes, or molar magnitudes
 | Mass $m$ $[\text{kg}]$      | Volume $V$ $[\text{m}^{3}]$ | Specific volume $v$              | $v = V/m = 1/\rho$ | $[\text{m}^{3}/\text{kg}]$  |
 | Amount $n$ $[\text{mol}]$   | Volume $V$ $[\text{m}^{3}]$ | Molar volume $v_m$               | $v_m = V/n$        | $[\text{m}^{3}/\text{mol}]$ |
 
-:::{admonition} Tip: Normalization by reference quantity
+:::{admonition} Tip: normalization by reference quantity
 :class: tip, dropdown
 Relating an extensive magnitude to a reference (mass, volume, or mole) allows property comparison among different systems.
 For example, energy per unit mass (specific energy) or per mole (molar energy) are standard thermodynamic descriptors.
@@ -104,7 +108,7 @@ For example, energy per unit mass (specific energy) or per mole (molar energy) a
 ---
 
 (subsec_measurable_fundamental_properties)=
-### Measurable Fundamental Properties
+### Measurable fundamental properties
 
 * **Volume**
 
@@ -130,7 +134,7 @@ For example, energy per unit mass (specific energy) or per mole (molar energy) a
 
     Thus, $1\ \text{mol}$ of $\text{H}_{2}\text{O}$ contains $6.022\times10^{23}$ water molecules.
 
-:::{admonition} Note: Why the mole matters
+:::{admonition} Note: why the mole matters
 :class: note, dropdown
 Many physical and chemical processes scale with the **number of particles**, not their mass.
 At the same temperature and pressure, one mole of any gas occupies the same volume, regardless of its molecular mass.
@@ -140,7 +144,7 @@ This makes the mole a natural unit for describing proportionality in reactions a
 ---
 
 (subsec_pressure)=
-### Complex Measurable Properties: Pressure
+### Complex measurable properties: pressure
 
 * **Definition**
 
@@ -174,8 +178,8 @@ This makes the mole a natural unit for describing proportionality in reactions a
     | millimetre of mercury          | $[\text{mmHg}]$ or $[\text{torr}]$ |           $133.3$ $\text{Pa}$          | Manometry and medicine        |
     | kilogram per square centimetre |     $[\text{kg}/\text{cm}^{2}]$     | $\approx 9.81\times10^{4}$ $\text{Pa}$ | Legacy (non-SI) unit          |
 
-:::{admonition} Important: Interpretation of 1 atm
-:class: warning
+:::{admonition} Tip: interpretation of 1 atm
+:class: tip, dropdown
 At sea level, atmospheric pressure equals approximately $1.013\times10^{5}$ $\text{Pa}$.
 This corresponds to the weight of an air column of mass about $200$ $\text{kg}$ pressing on the area of an outstretched human hand ($\approx0.02\ \text{m}^{2}$).
 We do not feel this load because internal body pressure counterbalances it; only *pressure differences* are perceptible.
@@ -184,7 +188,7 @@ We do not feel this load because internal body pressure counterbalances it; only
 ---
 
 (subsec_local_relative_pressures)=
-### Local and Relative Pressure Measurements
+### Local and relative pressure measurements
 
 When measuring pressure, what instruments record is often the **difference** between the local pressure and the surrounding atmospheric one.
 Thus, we distinguish four related quantities:
@@ -196,7 +200,7 @@ Thus, we distinguish four related quantities:
 | **Gauge (manometric) pressure** | $p_\text{man} = p_\text{abs} - p_\text{atm}$                | Manometer                    |
 | **Vacuum pressure**             | $p_\text{vac} = p_\text{atm} - p_\text{abs}$                | Vacuum gauge                 |
 
-:::{admonition} Tip: Understanding what the gauge shows
+:::{admonition} Tip: understanding what the gauge shows
 :class: tip, dropdown
 Pressure gauges and manometers report the **difference** from the current atmospheric value.
 When a tire reads “2 bar,” it means 2 bar *above* ambient, not 2 bar absolute.
@@ -205,10 +209,10 @@ When a tire reads “2 bar,” it means 2 bar *above* ambient, not 2 bar absolut
 ---
 
 (subsec_complex_measurable_properties_temperature)=
-### Complex Measurable Properties: Temperature
+### Complex measurable properties: temperature
 
 (subsubsec_microscopic_macroscopic_temperature)=
-#### Microscopic and Macroscopic Perspectives
+#### Microscopic and macroscopic perspectives
 
 From the **microscopic** viewpoint, temperature measures the **average kinetic energy** of particles:
 the higher their mean velocity, the higher the temperature.
@@ -216,7 +220,7 @@ This parallels the notion of microscopic pressure as the collective effect of co
 
 From the **macroscopic** standpoint, temperature is a **state variable** that indicates the degree of thermal equilibrium between systems.
 
-:::{admonition} Important: Intensive nature of temperature
+:::{admonition} Important: intensive nature of temperature
 :class: warning
 Unlike extensive quantities such as mass or energy, **temperature is an intensive property** — it does not add up.
 Combining two bodies of water at $100\ ^\circ\text{C}$ does not yield $200\ ^\circ\text{C}$;
@@ -226,7 +230,7 @@ the final temperature lies between them, depending on heat capacities and masses
 ---
 
 (subsubsec_operational_definition_temperature)=
-#### Operational Definition
+#### Operational definition
 
 Because temperature cannot be measured by simple addition or direct comparison, two requirements are needed:
 
@@ -236,7 +240,7 @@ Because temperature cannot be measured by simple addition or direct comparison, 
 The establishment of such procedures leads directly to the notion of **thermodynamic equilibrium**,
 a condition where no net macroscopic changes occur and temperature is uniform throughout the system.
 
-:::{admonition} Note: Why equilibrium matters
+:::{admonition} Note: why equilibrium matters
 :class: note, dropdown
 Defining temperature requires that the system be at equilibrium; otherwise, local variations prevent consistent measurement.
 Thermodynamic temperature scales are founded on equilibrium states, which provide reproducible reference conditions.
@@ -245,15 +249,10 @@ Thermodynamic temperature scales are founded on equilibrium states, which provid
 ---
 
 (subsec_conceptual_closure_magnitudes_properties)=
-### Conceptual Closure
+### Conceptual closure
 
 * Magnitudes and properties provide the measurable framework for describing thermodynamic systems.
 * Fundamental and derived quantities, together with their units, form the basis of all thermodynamic analysis.
 * The distinction between extensive and intensive properties defines how system size affects measurable quantities.
 * Pressure and temperature serve as key intensive variables that connect directly to equilibrium and energy exchange.
 * These concepts prepare the ground for the study of equilibrium, temperature scales or processes, as done {ref}`in the next section <sec_equilibrium_temperature_processes>`, where the conditions of balance and transformation between states are formally introduced.
-
-
-```python
-
-```

@@ -1,25 +1,19 @@
+(sec_systems_surroundings_boundaries)=
+## Systems, surroundings, and boundaries
+
 Thermodynamics begins by defining *what* we are studying and *how* we separate it from the rest of the universe.
 This section establishes the fundamental language for that task: **systems**, their **boundaries**, and the **surroundings** that interact with them.
 We will learn how to classify systems according to the exchanges that occur across their boundaries,
 and how boundary properties themselves determine the type of thermodynamic interaction possible — mass, heat, or work.
 
-(sec_systems_surroundings_boundaries)=
-## Systems, Surroundings, and Boundaries
-
-Thermodynamic analysis always starts by deciding what part of the physical world we want to study.
-This portion is called the **system**, and it is the central object of thermodynamic reasoning.
-
-A **system** is any defined region of space or quantity of matter that we isolate — physically or conceptually — to study how it behaves under given conditions.
-Everything external to it is called the **surroundings**, and the surface that separates them is called the **boundary**.
-These three ideas — system, surroundings, and boundary — make up the minimal vocabulary of thermodynamics.
-
 ---
 
 (subsec_defining_the_system)=
-### Defining the System
+### Defining the system
 
-To carry out a thermodynamic analysis, the first step is to decide **what the system actually is**.
-This choice depends entirely on the question we want to answer.
+Thermodynamic analysis always starts by deciding what part of the physical world we want to study. This portion is called the **system**, and it is the central object of thermodynamic reasoning.
+
+To carry out a thermodynamic analysis, the first step is to decide **what the system actually is**. A **system** is any defined region of space or quantity of matter that we isolate — physically or conceptually — to study how it behaves under given conditions. This choice depends entirely on the question we want to answer.
 
 * If we want to know **how the temperature of a classroom changes** during a lesson, the system is **the air contained within the room**.
 * If we want to know **how a freezer cools**, the system is **the air or refrigerant inside the freezer cavity**.
@@ -32,10 +26,9 @@ The definition of “system” is both **functional** and **operational**, not i
 ---
 
 (subsec_boundaries_and_environment)=
-### Boundaries and Environment
+### Boundaries and environment
 
-Once the system is defined, we conceptually surround it with an **imaginary surface** that separates it from everything else.
-This surface is the **boundary**, and it determines what can or cannot cross between the system and its surroundings.
+Once the system is defined, we conceptually surround it with an **imaginary surface** that separates it from everything else. Everything external to the system is called the **surroundings**, and the surface that separates them is called the **boundary**. This boundary determines what can or cannot cross between the system and its surroundings.
 
 * For the air in a room → **walls, windows, and objects** inside form the boundary.
 * For the freezer → the **insulated box and door** act as the boundary.
@@ -45,7 +38,7 @@ This surface is the **boundary**, and it determines what can or cannot cross bet
 Everything outside that surface is the **surroundings**.
 The combination of the system and its surroundings is known as the **thermodynamic universe** — the entire domain involved in a process.
 
-:::{admonition} Note: Boundaries can be real or imaginary
+:::{admonition} Note: boundaries can be real or imaginary
 :class: note, dropdown
 A boundary does not have to be a tangible surface. It can be purely conceptual — an abstract division that helps us track what crosses between the system and its environment.
 Thermodynamics works precisely because such a separation can always be defined.
@@ -54,7 +47,7 @@ Thermodynamics works precisely because such a separation can always be defined.
 ---
 
 (subsec_the_role_of_interactions)=
-### The Role of Interactions
+### The role of interactions
 
 Thermodynamics focuses on **changes that occur within a system** — changes in temperature, pressure, volume, or internal energy.
 But those changes exist *only* because of interactions with the surroundings.
@@ -67,7 +60,7 @@ we are not concerned with every microscopic event inside, only with the *inputs*
 * We only need to quantify what **enters and leaves** as heat, work, or mass.
 * By observing those exchanges, we can infer the internal evolution of the system.
 
-:::{admonition} Tip: Treat the system as a "black box"
+:::{admonition} Tip: treat the system as a "black box"
 :class: tip, dropdown
 By focusing on boundary interactions — not inner mechanisms — thermodynamics can analyze extremely complex systems (reactors, turbines, biological cells) using the same universal laws.
 If you can identify what crosses the boundary, you can apply thermodynamics.
@@ -76,7 +69,7 @@ If you can identify what crosses the boundary, you can apply thermodynamics.
 ---
 
 (subsec_simplifications_and_the_macroscopic_conception)=
-### Simplifications and the Macroscopic Conception
+### Simplifications and the macroscopic conception
 
 Because our aim is to understand and model engineering systems, we introduce several **simplifications** that make the analysis tractable and meaningful.
 
@@ -92,7 +85,7 @@ Because our aim is to understand and model engineering systems, we introduce sev
    we are interested in the *average* or *overall* behavior of systems rather than their atomic details.
    This contrasts with the **microscopic conception**, used in *statistical thermodynamics*, which explains the same laws in terms of molecular behavior.
 
-:::{admonition} Important: Classical vs. microscopic viewpoints
+:::{admonition} Important: classical vs. microscopic viewpoints
 :class: warning
 Classical thermodynamics describes **macroscopic behavior** using measurable properties (pressure, temperature, volume, etc.) without referring to the microscopic structure of matter.
 Statistical or microscopic thermodynamics explains *why* those macroscopic laws emerge.
@@ -101,7 +94,7 @@ Statistical or microscopic thermodynamics explains *why* those macroscopic laws 
 ---
 
 (subsec_types_of_systems)=
-### Types of Systems
+### Types of systems
 
 Depending on what the boundary allows to cross, we classify systems as **isolated**, **closed**, or **open**.
 This classification reflects which kinds of interactions — energy and/or mass — are possible with the surroundings.
@@ -124,7 +117,7 @@ This classification reflects which kinds of interactions — energy and/or mass 
    * Boundaries may be *flexible*, *diathermic*, or *permeable* depending on the specific process.
    * Example: a fluid stream in a pipe, a compressor, or a turbine.
 
-:::{admonition} Important: Classification by boundary interaction
+:::{admonition} Important: classification by boundary interaction
 :class: warning
 The essential difference lies in what can cross the boundary. We can name $E_{\text{sys.}}$ the total energy of the system, and $m_{\text{sys.}}$ the mass contained in it. Their variations are represented by the $\Delta$ symbol, i.e. $\Delta E_{\text{sys.}}$ and $\Delta m_{\text{sys.}}$. The different types of boundaries are constraied by different interaction modes: 
 
@@ -144,7 +137,7 @@ So, as a tabular-form summary:
 ---
 
 (subsec_terminology_of_boundary_behavior)=
-### Terminology of Boundary Behavior
+### Terminology of boundary behavior
 
 To describe the physical nature of boundaries more precisely, thermodynamics uses a simple and systematic terminology:
 
@@ -154,7 +147,7 @@ To describe the physical nature of boundaries more precisely, thermodynamics use
 | **Heat** | Adiabatic | Diathermic |
 | **Work** | Rigid | Flexible |
 
-:::{admonition} Note: Meaning of boundary descriptors
+:::{admonition} Note: meaning of boundary descriptors
 :class: note, dropdown
 Each term describes *how the boundary behaves* with respect to a specific mode of interaction.
 For instance, a **rigid, adiabatic, impermeable** wall defines an ideal **isolated system**.
@@ -172,7 +165,7 @@ With the notions developed so far, we can conceive a combined table that establi
 ---
 
 (subsec_fluid_systems_and_the_coninuum_hypothesis)=
-### Fluid Systems and the Continuum Hypothesis
+### Fluid systems and the continuum hypothesis
 
 Although thermodynamics applies to solids, liquids, and gases, engineering practice concentrates on **fluids**, because they are the working media in almost all energy systems — turbines, compressors, engines, pumps, condensers, and heat exchangers.
 
@@ -188,7 +181,7 @@ $$
 
 are well-defined, continuous functions.
 
-:::{admonition} Tip: The continuum hypothesis as a bridge
+:::{admonition} Tip: the continuum hypothesis as a bridge
 :class: tip, dropdown
 The continuum approximation is what links thermodynamics with fluid mechanics.
 It allows us to define macroscopic fields, apply differential relations, and treat real gases and liquids as continuous media obeying the same conservation principles.
@@ -197,7 +190,7 @@ It allows us to define macroscopic fields, apply differential relations, and tre
 ---
 
 (subsec_systems_surroundings_boundaries_conceptual_closure)=
-### Conceptual Closure
+### Conceptual closure
 
 The basic elements of thermodynamic analysis are now in place:
 
@@ -207,7 +200,7 @@ The basic elements of thermodynamic analysis are now in place:
 * The **types of system**, defined by which exchanges (energy, mass) are possible.
 * The **simplifications** that focus our study on mechanical and thermal phenomena, mainly in **fluid systems** treated as **continuous media**.
 
-:::{admonition} Important: Essence of the macroscopic approach
+:::{admonition} Important: essence of the macroscopic approach
 :class: warning
 Classical thermodynamics does not attempt to describe atomic mechanisms.
 It studies how systems exchange energy and matter with their surroundings and how those exchanges determine the macroscopic state of the system — temperature, pressure, volume, and energy content.

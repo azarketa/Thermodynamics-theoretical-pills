@@ -1,8 +1,7 @@
 (subsec_what_is_this_course_about)=
-## What Is This Course About?
+## What is this course about?
 
-This course, **Thermal and Fluids Engineering**, may be viewed in essence as a course on *Applied Thermodynamics*.
-That is, it takes the broad, conceptual framework of thermodynamics and translates it into a tool for understanding, modeling, and predicting how physical systems behave under change.
+This course, **Thermal and Fluids Engineering**, may be viewed in essence as a course on *Applied Thermodynamics*. That is, it takes the broad, conceptual framework of thermodynamics and translates it into a tool for understanding, modeling, and predicting how physical systems behave under change.
 
 Applied thermodynamics does not merely involve formulas or machines — it is a *way of reasoning* about the world.
 It asks us to see every phenomenon as part of a wider order governed by a small set of universal principles.
@@ -25,11 +24,9 @@ The next section begins to answer these questions, by exploring the **nature and
 ---
 
 (sec_nature_and_scope_of_thermodynamics)=
-## The Nature and Scope of Thermodynamics
+## The nature and scope of thermodynamics
 
-Thermodynamics is the science of **energy, change, and equilibrium**.
-It explains how energy can be stored, transferred, and transformed, and it establishes the **limits** that constrain every natural or engineered process.
-Its laws are empirical but universal — they apply to any physical system, regardless of its composition or scale.
+Thermodynamics is the science of **energy, change, and equilibrium**. It explains how energy can be stored, transferred, and transformed, and it establishes the **limits** that constrain every natural or engineered process. Its laws are empirical but universal — they apply to any physical system, regardless of its composition or scale.
 
 To understand its position among the physical sciences, it is useful to compare it with its closest relatives:
 
@@ -45,10 +42,10 @@ To understand its position among the physical sciences, it is useful to compare 
   It asks *what can happen* in the physical world, *how much energy is involved*, *in which direction* processes naturally evolve, and *how efficiently* they can be realized.
   Thermodynamics does not describe trajectories or molecular mechanisms — it sets the **boundaries of the possible**.
 
-:::{admonition} Note: why Thermodynamics constraints other disciplines
+:::{admonition} Note: why thermodynamics constrains other disciplines
 :class: note, dropdown
 Thermodynamics provides the **energetic framework** that mechanics, chemistry or any other discipline must obey.
-Every physical process — whether mechanical motion, chemical reaction or any generic transformation whatsoever — must satisfy the same fundamental laws of energy conservation and entropy growth.
+Every physical process — whether mechanical motion, chemical reaction or any generic transformation whatsoever — must satisfy the same fundamental laws of **energy conservation** and **entropy growth**.
 :::
 
 In essence, thermodynamics concerns itself with three questions fundamental to all processes:
@@ -67,7 +64,7 @@ Together, they describe not only how much energy changes, but how **useful** tha
 ---
 
 (sec_why_thermodynamics_matters)=
-## Why Thermodynamics Matters
+## Why thermodynamics matters
 
 The relevance of thermodynamics extends far beyond heat and engines.
 It underpins all phenomena involving **energy flow**, from the microscopic scale of molecular interactions to the grand scale of planetary and cosmic evolution.
@@ -94,8 +91,8 @@ In practice, these principles are indispensable for:
 * **Material processing:** studying heating, melting, or chemical reactions.
 * **Aerospace and fluid mechanics:** understanding energy exchange in motion.
 
-:::{admonition} Important: what Thermodynamics imposes
-:class: warning
+:::{admonition} Important: what thermodynamics imposes
+:class: important
 Thermodynamics tells us not how the world moves, but how far it *can* move.
 It defines the boundaries of possibility for every process in nature — physical, chemical, biological, or technological.
 :::
@@ -103,7 +100,7 @@ It defines the boundaries of possibility for every process in nature — physica
 ---
 
 (sec_purpose_of_studying_thermodynamics)=
-## The Purpose of Studying Thermodynamics
+## The purpose of studying thermodynamics
 
 To study thermodynamics is to learn how to **think in terms of energy** rather than mechanisms.
 It teaches us to step back from specific forces or materials and focus on the **balance**, **transformation**, and **degradation** of energy itself.
@@ -118,43 +115,43 @@ Through this perspective, we develop the ability to:
 
 This approach is essential for modern engineering, where every design — from a small battery to a massive power plant — must balance performance, sustainability, and fundamental physical constraints.
 
-:::{admonition} Important: how Thermodynamics shapes our reasoning 
-:class: warning
+:::{admonition} Important: how thermodynamics shapes our reasoning
+:class: important
 To master thermodynamics is to understand the laws that no system in the universe can escape.
 It reveals the cost of change, the limits of efficiency, and the reason why perfection — complete reversibility — is impossible.
 :::
 
-:::{admonition} Note: a broader view — Thermodynamics as a hierarchical and universal framework
+:::{admonition} Note: a broader view — thermodynamics as a hierarchical and universal framework
 :class: note, dropdown
 
 Thermodynamics exists at multiple levels of abstraction, each building upon the same fundamental principles but addressing different questions and scales.
 This hierarchy reveals the richness and universality of the theory.
 
 (subsec_engineering_and_applied_thermodynamics)=
-### Engineering and Applied Thermodynamics
+### Engineering and applied thermodynamics
 
 This is the **practical** domain where thermodynamic principles are used to analyze and design real systems.
 It treats matter as continuous and focuses on macroscopic quantities — pressure, temperature, enthalpy, entropy, and efficiency.
 It provides the basis for mechanical, chemical, and environmental engineering, where energy conversion and utilization are the core concerns.
 
 (subsec_classical_thermodynamics)=
-### Classical (Macroscopic) Thermodynamics
+### Classical (macroscopic) thermodynamics
 
 The **axiomatic** form of thermodynamics, built upon postulates and measurable properties.
 It defines **state functions** ($U$, $H$, $S$, etc.), classifies processes as **reversible** or **irreversible**, and describes equilibrium as the most stable state of an isolated system.
 It does not rely on molecular detail — it is a phenomenological science, dealing directly with observable quantities.
 
 (subsec_statistical_thermodynamics)=
-### Statistical Thermodynamics
+### Statistical thermodynamics
 
 The **microscopic foundation** of thermodynamics.
 It connects macroscopic laws to the statistical behavior of molecules.
-Entropy becomes a measure of **probability**, expressed as $S = k_B \ln \Omega$.
+Entropy becomes a measure of **probability**, expressed as $S{}={}k_B{}\ln{}\Omega$.
 Here, the Second Law arises naturally as systems evolve toward the **most probable distribution** of energy states.
 This level explains *why* the macroscopic laws hold true.
 
 (subsec_quantum_thermodynamics)=
-### Quantum Thermodynamics
+### Quantum thermodynamics
 
 At the quantum scale, thermodynamics merges with quantum mechanics.
 Energy exchange becomes quantized, and phenomena such as coherence and entanglement modify how we interpret heat, work, and entropy.
@@ -179,13 +176,13 @@ Every process, regardless of its complexity or scale, obeys these principles.
 ---
 
 (sec_course_outline)=
-## Course Outline
+## Course outline
 
 The course develops progressively — from the **foundations of thermodynamic reasoning** to the **analysis of canonical thermal cycles** that underpin real energy-conversion systems.
 Each block introduces a self-contained set of principles while remaining grounded in measurable quantities and engineering interpretation.
 
 (subsec_fundamentals)=
-### Fundamentals (Foundational Block)
+### Fundamentals (foundational block)
 
 This first block builds the conceptual and mathematical tools required to analyze any thermodynamic system, regardless of its nature or scale.
 
@@ -205,26 +202,26 @@ This first block builds the conceptual and mathematical tools required to analyz
   * *Pure substances*: phase-change behavior, $P$–$v$–$T$ diagrams, saturation dome, critical point, subcooled liquid, and superheated vapor.
   * *Mixtures and atmospheric air*: composition variables, mixture rules, and the idea of *psychrometric properties* (humidity, specific humidity, enthalpy of moist air).
 
-* **Interactions: Work and Heat**
+* **Interactions: work and heat**
   Defines *work* and *heat* as energy in transit, associated respectively with *organized* and *disorganized* molecular motion.
   Emphasizes sign conventions and path dependence; includes mechanical (shaft, boundary, electrical) and flow work examples.
 
-* **First Law of Thermodynamics**
+* **First law of thermodynamics**
 
-  * *Closed systems*: internal energy change as the net balance between heat added and work done, $\Delta U = Q - W$.
+  * *Closed systems*: internal energy change as the net balance between heat added and work done, $\Delta U{}={}Q{}-{}W$.
     Introduces special processes — isochoric, isobaric, isothermal, adiabatic — and their energy implications.
   * *Open systems*: steady-flow energy equation (SFEE), showing the interplay between enthalpy, kinetic, and potential energies.
     Canonical devices: **turbine**, **compressor/pump**, **nozzle/diffuser**, **heat exchanger**, **mixing chamber**, **throttling valve**.
     Each device type is studied under simplifying assumptions that reveal its characteristic energy conversion.
 
-* **Second Law of Thermodynamics**
+* **Second law of thermodynamics**
   Introduces the concepts of *directionality* and *limitation*.
   States the **Kelvin–Planck** and **Clausius** formulations; defines *entropy* as a property whose change quantifies irreversibility.
   Establishes *entropy balance*, *reversible* vs. *irreversible* processes, and device efficiencies (isentropic and overall).
 
-* **Exergy and Irreversibility**
+* **Exergy and irreversibility**
   Combines the first and second laws to express the *useful portion of energy* relative to an environment (the *dead state*).
-  Defines *flow exergy*, *non-flow exergy*, and *exergy destruction* $I = T_0 S_{\text{gen}}$.
+  Defines *flow exergy*, *non-flow exergy*, and *exergy destruction* $I{}={}T_0 S_{\text{gen}}$.
   Provides a unified framework for quantifying the *quality* of energy and losses across systems.
 
 :::{admonition} Note: a summary of the Fundamentals outline
@@ -235,7 +232,7 @@ This foundation supports every subsequent cycle analysis.
 :::
 
 (subsec_gas_cycles)=
-### Gas Cycles (Power and Propulsion Archetypes)
+### Gas cycles (power and propulsion Archetypes)
 
 This block applies the laws of thermodynamics to *continuous-flow* systems working primarily with gases as the working medium.
 It explores both *idealized* cycles (as baselines) and *realistic* configurations (with losses and efficiencies).
@@ -249,27 +246,27 @@ It explores both *idealized* cycles (as baselines) and *realistic* configuration
   Presents the diversity of gas cycles: simple, regenerated, intercooled, reheat, and combined forms.
   Discusses where each appears — e.g., **power generation**, **aerospace propulsion**, **industrial turbines**.
 
-* **Brayton Cycle (Ideal)**
+* **Brayton cycle (Ideal)**
   Describes the sequence *compression → heat addition → expansion → heat rejection*.
   Develops relations for efficiency as a function of pressure ratio and temperature limits; explains the back-work ratio concept.
 
-* **Real Brayton Cycles**
+* **Real Brayton cycles**
   Introduces *isentropic efficiencies* for compressor and turbine, *pressure drops* in combustion and heat exchange, and *regenerator effectiveness*.
   Examines performance sensitivity and practical optimization (pressure ratio, turbine inlet temperature).
 
-* **Stationary Gas Turbines**
+* **Stationary gas turbines**
   Discusses design trade-offs, part-load behavior, and regeneration/reheat effects.
   Highlights the distinction between *simple* and *complex* configurations (industrial vs. aeroderivative turbines).
 
-* **Aircraft Propulsion Systems**
+* **Aircraft propulsion systems**
   Introduces turbojet, turbofan, and turboprop engines; explains *thrust* and *specific fuel consumption* qualitatively.
   Shows how bypass ratio and exhaust velocity shape efficiency and noise.
 
-* **Nozzles and Diffusers**
+* **Nozzles and diffusers**
   Reviews isentropic expansion/compression; defines *choked flow*, *Mach number effects*, and *gross thrust* concepts.
   Explains pressure mismatch and efficiency trends in propulsion contexts.
 
-:::{admonition} Note: a summary of the Gas Cycles outline
+:::{admonition} Note: a summary of the gas cycles outline
 :class: note, dropdown
 
 **Central idea:** Gas cycles translate thermodynamic principles into continuous-flow processes where energy is converted mainly by compression and expansion.
@@ -290,16 +287,16 @@ They are modeled as **air-standard cycles**, providing idealized references for 
   Differentiates **spark-ignition (SI)** and **compression-ignition (CI)** systems, noting their ignition methods, fuel types, and efficiency characteristics.
   Discusses aspiration modes: naturally aspirated vs. turbocharged.
 
-* **Otto Cycle (SI archetype)**
+* **Otto cycle (SI archetype)**
   Describes its four processes: isentropic compression, constant-volume heat addition, isentropic expansion, and constant-volume heat rejection.
   Explains how *compression ratio* governs efficiency and performance limits (knock onset, material constraints).
 
-* **Diesel Cycle (CI archetype)**
+* **Diesel cycle (CI archetype)**
   Similar to Otto but with *constant-pressure* heat addition.
   Explores *cutoff ratio* and its influence on efficiency.
   Compares Diesel and Otto cycles at equivalent compression ratios; clarifies why Diesels can operate at higher efficiencies.
 
-* **Loss Models (Qualitative)**
+* **Loss models (Qualitative)**
   Recognizes deviations from the ideal: heat transfer, finite combustion duration, friction, pumping losses, and incomplete expansion.
   Introduces simple correction factors or empirical performance coefficients used in practical assessments.
 
@@ -307,11 +304,11 @@ They are modeled as **air-standard cycles**, providing idealized references for 
 :class: note, dropdown
 
 **Central idea:** ICRE analysis connects ideal cyclic reasoning with real engine behavior.
-Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same First and Second Law constraints.
+Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same **First Law** and **Second Law** constraints.
 :::
 
 (subsec_steam_cycles)=
-### Steam Cycles (Vapor Power Plants)
+### Steam cycles (vapor power plants)
 
 This block focuses on **vapor cycles**, where the working substance undergoes *phase change* as part of the energy-conversion process.
 It establishes the link between heat addition, expansion, condensation, and regeneration in systems that power much of modern electricity generation.
@@ -324,18 +321,18 @@ It establishes the link between heat addition, expansion, condensation, and rege
   Covers **Rankine-type** cycles for electric power, **industrial cogeneration** systems, and **heat recovery** schemes.
   Notes where vapor cycles dominate (utility plants, process steam, combined cycles).
 
-* **Rankine Cycle (Ideal)**
+* **Rankine cycle (Ideal)**
   Describes its four principal stages: *pumping (liquid pressurization)*, *boiling (heat addition)*, *expansion (turbine)*, and *condensation (heat rejection)*.
   Relates efficiency to the mean temperature of heat addition and the condenser pressure.
   Introduces *T–s* and *h–s* diagrams as diagnostic tools.
 
-* **Cycle Enhancements**
+* **Cycle enhancements**
 
   * *Reheat*: improves dryness at turbine exit and slightly increases efficiency.
   * *Regeneration*: raises feedwater temperature to reduce irreversibility.
   * *Superheat*: increases average temperature of heat addition.
 
-* **Thermal Power Plants**
+* **Thermal power plants**
   Discusses typical layouts: boiler, turbine train, condenser, cooling system.
   Notes environmental constraints and cooling methods (wet, dry, hybrid).
 
@@ -343,15 +340,15 @@ It establishes the link between heat addition, expansion, condensation, and rege
   Explains how extraction/condensing or back-pressure turbines supply both power and useful heat.
   Introduces trade-offs between electrical and thermal outputs.
 
-* **Organic Rankine Cycle (ORC)**
+* **Organic Rankine cycle (ORC)**
   Describes use of organic fluids for low-temperature heat sources.
   Introduces qualitative working-fluid classification (dry, isentropic, wet) and matching to heat-source levels.
 
-* **Dual and Combined Cycles**
+* **Dual and combined cycles**
   Presents *topping–bottoming* concepts, where high-temperature gas cycles drive low-temperature steam or ORC subsystems.
   Emphasizes overall efficiency gains through energy cascading and waste-heat utilization.
 
-:::{admonition} Note: a summary of the Steam Cycles outline
+:::{admonition} Note: a summary of the steam cycles outline
 :class: note, dropdown
 
 **Central idea:** Steam and vapor cycles illustrate thermodynamics in its most practical form — turning heat into mechanical power within real technological and environmental constraints.
@@ -361,7 +358,7 @@ Through condensation, regeneration, and combination with gas cycles, they demons
 ---
 
 :::{admonition} Important: a summary of the course
-:class: warning
+:class: important
 
 **Overall progression.**
 
@@ -372,9 +369,9 @@ Through condensation, regeneration, and combination with gas cycles, they demons
 
 Across all blocks, the same analytical pillars stand:
 
-* Conservation of energy (First Law).
-* Directionality and limitation (Second Law).
-* Quality and degradation of energy (Exergy).
+* **Conservation of energy (First Law).**
+* **Directionality and limitation (Second Law).**
+* **Quality and degradation of energy (Exergy).**
 
 Together they form a coherent view of **Applied Thermodynamics** — from first principles to interconnected energy systems.
 :::

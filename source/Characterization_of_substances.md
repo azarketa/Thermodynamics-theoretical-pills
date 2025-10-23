@@ -1,5 +1,5 @@
 (sec_characterization_of_substances)=
-## Characterization of Substances
+## Characterization of substances
 
 Once the basic concepts of {ref}`equilibrium, temperature scales and processes<sec_equilibrium_temperature_processes>` have been established,
 the next step is to understand how these notions apply to the **real materials** that make up thermodynamic systems.
@@ -13,7 +13,7 @@ The key questions are:
 ---
 
 (subsec_classification_substances)=
-### Classification of Substances
+### Classification of substances
 
 Substances are categorized according to their **chemical composition** and **homogeneity**.
 
@@ -30,7 +30,7 @@ Substances are categorized according to their **chemical composition** and **hom
 The **phase** of a substance refers to a spatial region where its physical properties are uniform.
 In thermodynamics, *phase changes* always imply *state changes* — the two notions are considered synonymous.
 
-:::{admonition} Note: Phases as thermodynamic domains
+:::{admonition} Note: phases as thermodynamic domains
 :class: note, dropdown
 A *phase* defines a region of physical uniformity in both composition and properties.
 When a substance changes phase, its thermodynamic state changes discontinuously.
@@ -41,7 +41,7 @@ Although Thermodynamics can describe any phase of any substance, the emphasis he
 ---
 
 (subsec_state_postulate)=
-### State Postulate
+### State postulate
 
 The study of thermodynamic systems aims to describe their equilibrium states through measurable properties.
 The central question is: **how many independent properties are required to define the state of a system?** This is answered by the **State Postulate**, formulated by Kline and Köenig back in 1957:
@@ -57,12 +57,12 @@ In practice:
 * A **simple system** is one that allows reversible work in **only one way** (e.g. by changing its volume).
 * Systems capable of multiple kinds of work (electrical, elastic, magnetic, etc.) are **compound systems**, but these can often be divided into simple subsystems whose only reversible work is of the compression/expansion type.
 
-:::{admonition} Important: Corollary of the State Postulate
+:::{admonition} Important: corollary of the state postulate
 :class: warning
 **Simple compressible systems** — the main focus of this course — require only **two independent properties** to define their equilibrium state.
 :::
 
-:::{admonition} Note: Independent variables
+:::{admonition} Note: independent variables
 :class: note, dropdown
 The properties chosen to describe a state must be *intensive* (independent of system size and geometry) and *mutually independent*.
 For fluid systems, the primary variables are **pressure** ($p$), **specific volume** ($v = 1/\rho$), and **temperature** ($T$).
@@ -71,7 +71,7 @@ For fluid systems, the primary variables are **pressure** ($p$), **specific volu
 ---
 
 (subsec_equation_of_state)=
-### Equation of State (EOS)
+### Equation of state (EOS)
 
 If any one of the three fundamental variables ($p$, $v$, $T$) can be expressed as a function of the other two, the system is fully characterized, and the **state postulate** is satisfied. Such a relation is known as the **equation of state (EOS)**.
 
@@ -83,7 +83,7 @@ $$
 This general expression defines how the thermodynamic properties of a substance are interrelated.
 Specific forms of this function — such as the **model of perfect gases** — will be explored next.
 
-:::{admonition} Tip: Why equations of state matter
+:::{admonition} Tip: why equations of state matter
 :class: tip, dropdown
 Equations of state provide the bridge between theory and measurable reality.
 They make it possible to compute one property (e.g. pressure) from others (e.g. temperature and volume),
@@ -93,7 +93,7 @@ thereby connecting the abstract framework of Thermodynamics to experimental data
 ---
 
 (subsec_conceptual_closure_characterization_substances)=
-### Conceptual Closure
+### Conceptual closure
 
 * Substances define the physical basis of thermodynamic systems; their composition and phase determine how they behave and transform.
 * The **State Postulate** specifies how many independent variables are required to describe a system completely.
