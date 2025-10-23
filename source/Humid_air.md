@@ -22,13 +22,13 @@ This is, in essence, the objective of **psychrometry** — the study of the ther
 (subsec_air_{\text{v}}apor_pressure_and_enthalpy)=
 ### Air–vapor mixture: pressure and enthalpy under ideal-gas assumptions
 
-Under typical atmospheric conditions, air temperature ranges approximately from $-10^{\circ}\mathrm{C}$ to $50^{\circ}\mathrm{C}$.
+Under typical atmospheric conditions, air temperature ranges approximately from $-10 \ ^{\circ}\mathrm{C}$ to $50 \ ^{\circ}\mathrm{C}$.
 Within this range, **dry air** can safely be modeled as an ideal gas with a nearly constant specific heat:
 
 (eq_cp_dry_air)=
 $$c_p{}={}1.005 \ [\mathrm{kJ/kg\cdot K}]$$
 
-Taking a reference temperature of $0^{\circ}\mathrm{C}$, the **enthalpy** of dry air is given by:
+Taking a reference temperature of $0 \ ^{\circ}\mathrm{C}$, the **enthalpy** of dry air is given by:
 
 (eq_h_dry_air)=
 $$h{}={}c_p{}T$$
@@ -43,20 +43,20 @@ If both **air** and **water vapor** are treated as ideal gases, then, according 
 (eq_dalton_air_{\text{v}}apor)=
 $$P{}={}P_a{}+{}P_{\text{v}}$$
 
-In the $T$–$s$ diagram of water, lines of constant enthalpy and constant temperature overlap below $50^{\circ}\mathrm{C}$, confirming that enthalpy depends primarily on temperature in this range. Therefore, the enthalpy of water vapor in air may be taken as that of **saturated vapor at the same temperature**:
+In the $T$–$s$ diagram of water, lines of constant enthalpy and constant temperature overlap below $50 \ ^{\circ}\mathrm{C}$, confirming that enthalpy depends primarily on temperature in this range. Therefore, the enthalpy of water vapor in air may be taken as that of **saturated vapor at the same temperature**:
 
 (eq_hv_hg_relation)=
 $$h_{\text{v}}(T,\text{low }P) \simeq h_g(T)$$
 
-Given that the enthalpy of saturated water vapor at $0^{\circ}\mathrm{C}$ is $2500.9\ \mathrm{kJ/kg}$ and that its average specific heat is $c_p{}={}1.82\ \mathrm{kJ/kg\cdot K}$, one may write:
+Given that the enthalpy of saturated water vapor at $0 \ ^{\circ}\mathrm{C}$ is $2500.9\ \mathrm{kJ/kg}$ and that its average specific heat is $c_p{}={}1.82\ \mathrm{kJ/kg\cdot K}$, one may write:
 
 (eq_hg_approximation)=
-$$h_g(T) \simeq h_g(0^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ [\mathrm{kJ/kg}]$$
+$$h_g(T) \simeq h_g(0 \ ^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ [\mathrm{kJ/kg}]$$
 
 :::{admonition} Note: ideal-gas assumption for water vapor
 :class: note, dropdown
 
-Treating water vapor as an ideal gas implies a small accuracy loss, but it is negligible under typical atmospheric conditions. At $50^{\circ}\mathrm{C}$, the saturation pressure of water is $12.3\ \mathrm{kPa}$. Below this pressure, water vapor behaves as an **ideal gas** with an error below $0.2%$, even in saturated states.
+Treating water vapor as an ideal gas implies a small accuracy loss, but it is negligible under typical atmospheric conditions. At $50 \ ^{\circ}\mathrm{C}$, the saturation pressure of water is $12.3 \ \mathrm{kPa}$. Below this pressure, water vapor behaves as an **ideal gas** with an error below $0.2%$, even in saturated states.
 Thus, water vapor enthalpy depends **only on temperature**, $h_{\text{v}}{}={}h(T)$.
 :::
 
