@@ -149,15 +149,15 @@ Air is a common mixture that usually described as having a volumetric compositio
 
 ---
 
-**Problem Data**
+**Problem Data**{cite}`2015Cengel`
 
 | Quantity                                    |                  Symbol                  | Value                                                                                                  |
 | :------------------------------------------ | :--------------------------------------: | :----------------------------------------------------------------------------------------------------- |
 | Mole fractions                              |   $\left(y_{\mathrm{O_2}}, \ y_{\mathrm{N_2}}\right)$   | $\left(0.21, \ 0.79\right)$                                                                                          |
-| Molar masses{cite}`2015Cengel`                                |   $\left(\text{MW}_{\mathrm{O_2}}, \ \text{MW}_{\mathrm{N_2}}\right)$   | $\left(31.998, \ 28.0134\right) \ \text{g/mol}$                                                                       |
-| Universal gas constant{cite}`2015Cengel`                      |                   $R_u$                  | $8.314462618 \ \text{J mol}^{-1}\text{K}^{-1}$                                                          |
-| Component $\overline{c_{p}}$ at $25^\circ\text{C}${cite}`2015Cengel` | $\left(\overline{c_{p}}_{\mathrm{O_2}}, \ \overline{c_{p}}_{\mathrm{N_2}}\right)$ | $\left(29.355, \ 29.124\right) \ \text{J mol}^{-1}\text{K}^{-1}$                                                      |
-| Reference standard air (tabulated){cite}`2015Cengel` | $\left(\text{MW}_{\text{air}_{\text{tb}}}, \ R_{\text{air}_{\text{tb}}}, \ c_{p_{\text{air}_{\text{tb}}}}, \ c_{v_{\text{air}_{\text{tb}}}}, \ \gamma_{\text{air}_{\text{tb}}}\right)$ | $\left(28.965, \ 287.058, \ 1005, \ 718, \ 1.400\right)$ |
+| Molar masses                                |   $\left(\text{MW}_{\mathrm{O_2}}, \ \text{MW}_{\mathrm{N_2}}\right)$   | $\left(31.998, \ 28.0134\right) \ \text{g/mol}$                                                                       |
+| Universal gas constant                      |                   $R_u$                  | $8.314462618 \ \text{J mol}^{-1}\text{K}^{-1}$                                                          |
+| Component $\overline{c_{p}}$ at $25^\circ\text{C}$ | $\left(\overline{c_{p}}_{\mathrm{O_2}}, \ \overline{c_{p}}_{\mathrm{N_2}}\right)$ | $\left(29.355, \ 29.124\right) \ \text{J mol}^{-1}\text{K}^{-1}$                                                      |
+| Reference standard air (tabulated) | $\left(\text{MW}_{\text{air}_{\text{tb}}}, \ R_{\text{air}_{\text{tb}}}, \ c_{p_{\text{air}_{\text{tb}}}}, \ c_{v_{\text{air}_{\text{tb}}}}, \ \gamma_{\text{air}_{\text{tb}}}\right)$ | $\left(28.965, \ 287.058, \ 1005, \ 718, \ 1.400\right)$ |
 
 ---
 
@@ -215,7 +215,8 @@ Air is a common mixture that usually described as having a volumetric compositio
 
     $$
     \boxed{R_{\text{air}} = 288.195\ \text{J kg}^{-1}\text{K}^{-1}},\quad
-    \boxed{c_{p_{\text{air}}} = 1.011 \ \text{kJ kg}^{-1}\text{K}^{-1}},\quad
+    \boxed{c_{p_{\text{air}}} = 1.011 \ \text{kJ kg}^{-1}\text{K}^{-1}},
+    \\[10pt]
     \boxed{c_{v_{\text{air}}} = 0.723 \ \text{kJ kg}^{-1}\text{K}^{-1}},\quad
     \boxed{\gamma_{\text{air}} = 1.3986}
     $$
@@ -248,14 +249,13 @@ Including minor species (e.g., $\sim0.93 \ \% \ \text{Ar}$) and using high-preci
 END OF WORKED EXAMPLE
 ::::
 
-
 ---
 
 (subsec_conceptual_closure_gas_mixtures)=
 ### Conceptual Closure
 
 * {ref}`Mass and molar fractions <eq_mass_molar_fractions>` serve as the cornerstone of mixture analysis. Their {ref}`normalization constraint <eq_normalization_mass_molar>` guarantees a complete composition description.
-* {ref}`Dalton’s law of pressures <eq_dalton_law>`) and {ref}`Amagat’s law of volumes <eq_amagat_law>` establish the additive behavior of ideal mixtures for pressure and volume.
+* {ref}`Dalton’s law of pressures <eq_dalton_law>` and {ref}`Amagat’s law of volumes <eq_amagat_law>` establish the additive behavior of ideal mixtures for pressure and volume.
 * Both **partial pressures** and **partial volumes** {ref}`scale with the molar fraction <eq_y_relation>`, which explains its central role in mixture formulations.
 * **Property evaluation** follows the same additive logic: specific heats (in their {ref}`molar <eq_molar_specific_heats>` and {ref}`mass <eq_mass_specific_heats>` formulations), {ref}`molar mass <eq_mixture_molar_mass>`, and {ref}`gas constant <eq_mixture_gas_constant>` are all weighted averages.
 * **State-property variations** such as {ref}`internal energy <eq_state_property_changes>`, {ref}`enthalpy <eq_enthalpy_change_mixture>` and {ref}`entropy <eq_entropy_change_mixture>` are mass-weighted sums, extending the same principle to energy and entropy analysis.
