@@ -22,8 +22,7 @@ Thermodynamics: theoretical pills
    Equilibrium, temperature scales and processes <Equilibrium_temperature_processes>
    Characterization of substances <Characterization_of_substances>
    Ideal and real gases <Ideal_and_real_gases>
-   $P-v-T$ diagrams <P-v-T_diagrams>
-   Gas mixtures <Gas_mixtures>
+   $P-v-T$ diagrams <P-v-T_diagrams>   
    Humid air <Humid_air>
    
 .. toctree::
