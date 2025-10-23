@@ -253,7 +253,7 @@ $$
         p_{ws}(T_{dp}) = p_v = 23.4\ \text{kPa}.
         $$
 
-        From standard steam tables:
+        From standard steam tables{cite}`2015Cengel`:
         
         | $T$ $[^{\circ}\text{C}]$ | $p_{ws}$ $[\text{kPa}]$ |
         | :------: | :------------: |
@@ -325,7 +325,7 @@ $$
         Here,
         $$p_v = 0.75 \times p_{ws}(20^\circ\text{C}) = 1.754\ \text{kPa}.$$
         
-        From tables:
+        From tables{cite}`2015Cengel`:
 
         | $T$ $[^{\circ}\text{C}]$ | $p_{ws}$ $[\text{kPa}]$ |
         | :------: | :------------: |
