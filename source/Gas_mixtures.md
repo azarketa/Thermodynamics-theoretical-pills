@@ -95,7 +95,7 @@ $$c_{p,\text{mixture}}{}={} \sum_{i=1}^{k} x_i{}c_{p,i} \qquad\text{and}\qquad c
 Similarly, the **molar mass** of the mixture—representing the equivalent mass per kilomole of mixture—is obtained through the molar-fraction-weighted sum of the molar masses of the components:
 
 (eq_mixture_molar_mass)=
-$$\overline{\text{MW}}_{\text{mixture}}{}={} \sum_{i=1}^{k} y_i{}\overline{\text{MW}}_i$$
+$$\text{MW}_{\text{mixture}}{}={} \sum_{i=1}^{k} y_i{}\text{MW}_i$$
 
 The **gas constant of the mixture**, in turn, is obtained by performing a mass-fraction-weighted sum of the individual gas constants:
 

@@ -1,7 +1,3 @@
-```python
-
-```
-
 (sec_magnitudes_and_properties)=
 ## Magnitudes and properties
 
@@ -40,7 +36,7 @@ In thermodynamics, we commonly employ five of them:
 | Length                    |     $L$    |     metre     |    $[\text{m}]$   |
 | Time                      |     $t$    |     second    |    $[\text{s}]$   |
 | Mass                      |     $m$    |    kilogram   |   $[\text{kg}]$   |
-| Temperature               |     $T$    |     kelvin    |    $[\text{K}]$   |
+| Temperature               |     $T$    |     Kelvin    |    $[\text{K}]$   |
 | Amount of substance       |     $n$    |      mole     |   $[\text{mol}]$  |
 
 From these fundamental ones, many other **derived magnitudes** can be built:
@@ -48,10 +44,10 @@ From these fundamental ones, many other **derived magnitudes** can be built:
 | **Derived Magnitude** | **Definition** | **SI Unit**              | **Unit Expression**                                  |
 | :-------------------- | :------------- | :----------------------- | :--------------------------------------------------- |
 | Density ($\rho$)      | $\rho = m/V$   | kilogram per cubic metre | $[\text{kg}/\text{m}^{3}]$                           |
-| Force ($F$)           | $F = m , a$    | newton                   | $[\text{N}] = [\text{kg}\cdot\text{m}/\text{s}^{2}]$ |
-| Pressure ($p$)        | $p = F/A$      | pascal                   | $[\text{Pa}] = [\text{N}/\text{m}^{2}]$              |
-| Energy ($E$)          | —              | joule                    | $[\text{J}] = [\text{N}\cdot\text{m}]$               |
-| Power ($\dot{W}$)     | —              | watt                     | $[\text{W}] = [\text{J}/\text{s}]$                   |
+| Force ($F$)           | $F = m{\cdot}a$    | Newton                   | $[\text{N}] = [\text{kg}\cdot\text{m}/\text{s}^{2}]$ |
+| Pressure ($p$)        | $p = F/A$      | Pascal                   | $[\text{Pa}] = [\text{N}/\text{m}^{2}]$              |
+| Energy ($E$)          | —              | Joule                    | $[\text{J}] = [\text{N}\cdot\text{m}]$               |
+| Power ($\dot{W}$)     | —              | Watt                     | $[\text{W}] = [\text{J}/\text{s}]$                   |
 
 :::{admonition} Tip: dimensional reasoning
 :class: tip, dropdown
