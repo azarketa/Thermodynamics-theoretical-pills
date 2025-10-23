@@ -274,7 +274,7 @@ Different gas models are applied for computing the pressure of a mole of $\text{
 
 ---
 
-**Problem data**{cite}`weast1972handbook; mit_virial`
+**Problem data**{cite}`weast1972handbook, mit_virial`
 
 | Quantity               |                   Symbol                  |                    Value                   |
 | :--------------------- | :---------------------------------------: | :----------------------------------------: |
