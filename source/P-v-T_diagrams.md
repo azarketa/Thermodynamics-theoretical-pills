@@ -81,9 +81,9 @@ This leads to two major conclusions:
 :::{admonition} Note: Pressure cookers and high-altitude boiling
 :class: note, dropdown
 
-* In a **pressure cooker**, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above $100,^{\circ}\text{C}$ and thus cook food faster.
-* On the other hand, atop **Mount Everest**, where $P_{\text{atm}} \approx 34,\text{kPa}$, water boils at about $86,^{\circ}\text{C}$.
-* At roughly $19{,}000,\text{m}$ (the **Armstrong line**), where the atmospheric pressure equals the vapor pressure of water at body temperature ($36,^{\circ}\text{C}$), the human body’s liquids would begin to boil without pressurization.
+* In a **pressure cooker**, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above $100 \ ^{\circ}\text{C}$ and thus cook food faster.
+* On the other hand, atop **Mount Everest**, where $P_{\text{atm}} \approx 34 \ \text{kPa}$, water boils at about $86 \ ^{\circ}\text{C}$.
+* At roughly $19,000 \ \text{m}$ (the **Armstrong line**), where the atmospheric pressure equals the vapor pressure of water at body temperature ($36 \ ^{\circ}\text{C}$), the human body’s liquids would begin to boil without pressurization.
 
 :::
 
