@@ -1,5 +1,5 @@
 (sec_models_gases)=
-## Ideal and Real Gases
+## Ideal and real Gases
 
 Modeling gases is one of the key aspects of Thermodynamics. Gases differ by composition and molecular structure — air, carbon monoxide, hydrogen, methane, butane, or ethanol vapor all behave differently.
 However, under suitable conditions, all gases exhibit comparable patterns that can be captured through mathematical models.
@@ -9,7 +9,7 @@ This section first develops the **ideal gas model**, valid at low pressures and 
 ---
 
 (subsec_ideal_gas_assumptions)=
-### Assumptions of the Ideal Gas Model
+### Assumptions of the ideal gas model
 
 The **ideal gas model** rests on two simplifying postulates:
 
@@ -19,7 +19,7 @@ The **ideal gas model** rests on two simplifying postulates:
 2. **Negligible intermolecular forces.**
    Intermolecular attractions and repulsions are disregarded. This is reasonable at **high temperatures**, where kinetic energy dominates.
 
-:::{admonition} Important: Validity of the ideal gas approximation
+:::{admonition} Important: validity of the ideal gas approximation
 :class: warning
 The ideal gas model describes gases under the limit of low density and high temperature, where molecular interactions vanish.
 In this regime, all gases behave similarly, regardless of their chemical nature.
@@ -28,7 +28,7 @@ In this regime, all gases behave similarly, regardless of their chemical nature.
 ---
 
 (subsec_ideal_gas_equation)=
-### The Ideal Gas Equation
+### The ideal gas equation
 
 The relationship among pressure, volume, temperature, and amount of substance is expressed by the **ideal gas law**.
 
@@ -76,7 +76,7 @@ The relation $P{}v = R{}T$ connects the three intensive variables introduced in 
 ---
 
 (subsec_real_gases)=
-### Real Gases and Deviations from Ideal Behavior
+### Real gases and deviations from ideal behavior
 
 When gases are compressed or cooled, their behavior departs from that predicted by the ideal gas law. These deviations occur because real molecules **occupy finite space** and **exert forces** on each other — effects neglected in the ideal model. To quantify such departures, we introduce the **compressibility factor**:
 
@@ -87,7 +87,7 @@ $$
 
 For an ideal gas, $Z = 1$. If $Z < 1$, attractive interactions dominate; if $Z > 1$, repulsive effects prevail. The compressibility factor thus provides a compact, dimensionless measure of real-gas deviation.
 
-:::{admonition} Note: The meaning of $Z$
+:::{admonition} Note: the meaning of $Z$
 :class: note, dropdown
 The compressibility factor $Z$ quantifies how far a real gas deviates from the ideal law under a given combination of $P$ and $T$.
 Plotting $Z$ versus $P$ for several gases at various temperatures reveals a common trend —
@@ -97,7 +97,7 @@ they all approach $Z=1$ at low pressure, showing that ideal-gas behavior is the 
 ---
 
 (subsec_reduced_variables)=
-### Critical Properties and Reduced Variables
+### Critical properties and reduced variables
 
 Experimental studies show that every substance exhibits a **critical point** beyond which the distinction between liquid and vapor disappears. This point is defined by three characteristic magnitudes: the **critical pressure** $P_c$, **critical temperature** $T_c$, and **critical specific volume** $v_c$.
 
@@ -112,7 +112,7 @@ $$
 
 Expressing thermodynamic relationships in terms of $(T_r, P_r, v_r)$ makes the behavior of different gases **comparable on a universal basis**, which is the essence of the **law of corresponding states**.
 
-:::{admonition} Tip: Law of Corresponding States
+:::{admonition} Tip: law of corresponding states
 :class: tip, dropdown
 When data for various gases are plotted in terms of the reduced variables $(T_r, P_r, v_r)$, their compressibility curves collapse onto nearly the same surface. This empirical observation implies that the thermodynamic behavior of gases is fundamentally governed by non-dimensional ratios, not by their absolute properties.
 :::
@@ -120,13 +120,13 @@ When data for various gases are plotted in terms of the reduced variables $(T_r,
 ---
 
 (subsec_cubic_models)=
-### Classical and Modern Real-Gas Models
+### Classical and modern real gas models
 
 While $Z$ serves as an excellent descriptor of real-gas behavior, we still need **explicit equations** linking $P$, $v$, and $T$ to calculate states and processes.
 To this end, several **semi-empirical EOS** have been developed. These equations modify the ideal gas law by including corrective terms
 for **finite molecular volume** and **intermolecular attractions**.
 
-:::{admonition} Note: Why cubic equations appear
+:::{admonition} Note: why cubic equations appear
 :class: note, dropdown
 When the ideal gas law is corrected by one term proportional to $1/v^2$ (to model attractions) and another that subtracts a finite volume $b$ (to model repulsions),
 the resulting expression becomes **cubic in specific volume** $v$. That is why most classical EOS — van der Waals, Redlich–Kwong, Peng–Robinson —
@@ -179,7 +179,7 @@ near phase transitions while remaining solvable in closed form.
   The Peng–Robinson model is particularly effective for calculating vapor–liquid equilibria
   and is widely used in engineering thermodynamics.
 
-:::{admonition} Note: Comparative accuracy
+:::{admonition} Note: comparative accuracy
 :class: note, dropdown
 
 * **van der Waals** — qualitative but oversimplified.
@@ -211,7 +211,7 @@ each corresponding to increasingly complex molecular interactions:
 
 At large $v$ (low density), the higher-order terms vanish, and the ideal gas law is recovered. At moderate densities, the first few terms suffice to capture real-gas deviations.
 
-:::{admonition} Note: Connection with cubic equations
+:::{admonition} Note: connection with cubic equations
 :class: note, dropdown
 
 Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($P_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$. Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
@@ -237,7 +237,7 @@ The truncated Virial expansion is accurate at **low to moderate pressures**, whe
 At higher pressures or near the critical point, cubic equations such as Peng–Robinson offer better accuracy and thermodynamic consistency.
 :::
 
-:::{admonition} Note: The Meaning and Origin of the Word *Virial*
+:::{admonition} Note: the meaning and origin of the word *Virial*
 :class: note, dropdown
 
 The word **“Virial”** comes from the Latin term *vis*, meaning *force* or *strength*. It was first introduced by the German physicist **Rudolf Clausius** in 1870
@@ -252,7 +252,7 @@ So the term *Virial* refers to the “force-energy content” (*vis*) of a syste
 ---
 
 ::::{card}
-**WORKED EXAMPLE — Pressure and Compressibility of $\text{CO}_2$ at $300 \ \text{K}$**
+**WORKED EXAMPLE — pressure and compressibility of $\text{CO}_2$ at $300 \ \text{K}$**
 ^^^
 
 We aim to determine the **pressure** and the **compressibility factor** $Z$ for **carbon dioxide** under specified thermodynamic conditions, using both **ideal** and **real gas models**.
@@ -419,7 +419,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
 
 ---
 
-:::{admonition} Tip: Interpretation
+:::{admonition} Tip: interpretation of results
 :class: tip, dropdown
 At $T_r \approx 0.99$, $\text{CO}_2$ lies close to its critical region.
 
@@ -445,7 +445,7 @@ END OF WORKED EXAMPLE
 ---
 
 (subsec_conceptual_closure_gases)=
-### Conceptual Closure
+### Conceptual closure
 
 * The **ideal gas law** ($P{}v = R{}T$) describes the low-density limit and satisfies {ref}`the generic state relation <eq_general_state_equation>`.
 * **Real-gas** behavior requires corrections for finite size and interactions — via {ref}`van der Waals <eq_vanderwaals>`, {ref}`Redlich–Kwong <eq_redlich_kwong>`, {ref}`Virial <eq_virial_equation>`, and {ref}`Peng–Robinson <eq_peng_robinson>`.
