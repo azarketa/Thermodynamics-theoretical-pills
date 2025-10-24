@@ -182,8 +182,8 @@ Two conditions for the same room of volume $5\times3\times2\ \text{m}^3$ are to 
 | Absolute pressure              |             $P$            | $101.325 \ \text{Pa}$                                                     |
 | Relative humidity (both cases) |           $\phi$           | $0.75$                                                                     |
 | Temperatures                   |         $\left(T_1, \ T_2\right)$         | $\left(70 \ ^\circ\text{C}=343.15 \ \text{K}, \ 20 \ ^\circ\text{C}=293.15 \ \text{K}\right)$ |
-| Saturation vapor pressure      | $p_{ws}(70^\circ\text{C})$ | $\approx 31.2 \ \text{kPa}$                                                 |
-| Saturation vapor pressure      | $p_{ws}(20^\circ\text{C})$ | $\approx 2.339 \ \text{kPa}$                                                |
+| Saturation vapor pressure      | $p_{\text{g}}(70^\circ\text{C})$ | $\approx 31.2 \ \text{kPa}$                                                 |
+| Saturation vapor pressure      | $p_{\text{g}}(20^\circ\text{C})$ | $\approx 2.339 \ \text{kPa}$                                                |
 | Gas constants                  |        $\left(R_{\text{a}}, \ R_{\text{v}}\right)$       | $\left(287.058, \ 461.5\right) \ \text{J}{}\text{kg}^{-1}\text{K}^{-1}$                    |
 
 ---
@@ -195,13 +195,13 @@ We treat humid air as an ideal binary mixture (dry air + water vapor). For each 
 1. **Partial pressures**
 
 $$
-p_{\text{v}}=\phi{}p_{ws}, \qquad p_{\text{a}}=P-p_{\text{v}} .
+p_{\text{v}}=\phi{}p_{\text{g}}, \qquad p_{\text{a}}=P-p_{\text{v}} .
 $$
 
 2. **Humidity ratio**
 
 $$
-w=0.62198{}\frac{p_{\text{v}}}{P-p_{\text{v}}}\quad [\text{kg}_{v}/\text{kg}_{\text{a}}].
+w=0.62198{}\frac{p_{\text{v}}}{P-p_{\text{v}}}\quad [\text{kg}_{\text{v}}/\text{kg}_{\text{a}}].
 $$
 
 3. **Masses in the room**
@@ -235,7 +235,7 @@ $$
         $$
         
         $$
-        \boxed{w_{70}=0.1868\ \text{kg}_{v}/\text{kg}_{\text{a}}}.
+        \boxed{w_{70}=0.1868\ \text{kg}_{\text{v}}/\text{kg}_{\text{a}}}.
         $$
 
     * **Masses in the room:**
@@ -255,8 +255,8 @@ $$
         $$
         
         $$
-        \boxed{m_{da,70} = 23.73 \ \text{kg}},\quad
-        \boxed{m_{v,70} = 4.433 \ \text{kg}},\quad
+        \boxed{m_{\text{a},70} = 23.73 \ \text{kg}},\quad
+        \boxed{m_{\text{v},70} = 4.433 \ \text{kg}},\quad
         \boxed{m_{\text{tot},70} = 28.17\ \text{kg}}.
         $$
   
@@ -265,12 +265,12 @@ $$
         The **dew point** is the temperature at which the *saturation pressure* equals this vapor pressure:
 
         $$
-        p_{ws}(T_{dp}) = p_{\text{v}} = 23.4\ \text{kPa}.
+        p_{\text{g}}(T_{dp}) = p_{\text{v}} = 23.4\ \text{kPa}.
         $$
 
         From standard steam tables{cite}`2015Cengel`:
         
-        | $T$ $[^{\circ}\text{C}]$ | $p_{ws}$ $[\text{kPa}]$ |
+        | $T$ $[^{\circ}\text{C}]$ | $p_{\text{g}}$ $[\text{kPa}]$ |
         | :------: | :------------: |
         |    60    |      19.94     |
         |    65    |      25.04     |
@@ -311,7 +311,7 @@ $$
         $$
         
         $$
-        \boxed{w_{20} = 0.01096\ \text{kg}_{v}/\text{kg}_{\text{a}}}.
+        \boxed{w_{20} = 0.01096\ \text{kg}_{\text{v}}/\text{kg}_{\text{a}}}.
         $$
 
     * **Masses in the room:**
@@ -331,8 +331,8 @@ $$
         $$
         
         $$
-        \boxed{m_{da,20} = 35.50 \ \text{kg}},\quad
-        \boxed{m_{v,20} = 0.389 \ \text{kg}},\quad
+        \boxed{m_{\text{a},20} = 35.50 \ \text{kg}},\quad
+        \boxed{m_{\text{v},20} = 0.389 \ \text{kg}},\quad
         \boxed{m_{\text{tot},20} = 35.89\ \text{kg}}.
         $$
 
@@ -340,11 +340,11 @@ $$
 
         Here,
   
-        $$p_{\text{v}} = 0.75 \times p_{ws}(20^\circ\text{C}) = 1.754\ \text{kPa}.$$
+        $$p_{\text{v}} = 0.75 \times p_{\text{g}}(20^\circ\text{C}) = 1.754\ \text{kPa}.$$
         
         From tables{cite}`2015Cengel`:
 
-        | $T$ $[^{\circ}\text{C}]$ | $p_{ws}$ $[\text{kPa}]$ |
+        | $T$ $[^{\circ}\text{C}]$ | $p_{\text{g}}$ $[\text{kPa}]$ |
         | :------: | :------------: |
         |    15    |      1.705     |
         |    20    |      2.339     |
@@ -363,7 +363,7 @@ $$
 
 3. **Comparative table**
 
-| Case | $T$ $[^{\circ}\text{C}]$ | $\phi$ $[–]$ | $p_{\text{v}}$ $[\text{kPa}]$ | $p_{\text{a}}$ $[\text{kPa}]$ | $w$ $[\text{kg}_{v}/\text{kg}_{\text{a}}]$ | $m_{\text{a}}$ $[\text{kg}]$ | $m_{\text{v}}$ $[\text{kg}]$ | $m_{\text{tot}}$ $[\text{kg}]$ | $T_{dp}$ $[^{\circ}\text{C}]$ |
+| Case | $T$ $[^{\circ}\text{C}]$ | $\phi$ $[–]$ | $p_{\text{v}}$ $[\text{kPa}]$ | $p_{\text{a}}$ $[\text{kPa}]$ | $w$ $[\text{kg}_{\text{v}}/\text{kg}_{\text{a}}]$ | $m_{\text{a}}$ $[\text{kg}]$ | $m_{\text{v}}$ $[\text{kg}]$ | $m_{\text{tot}}$ $[\text{kg}]$ | $T_{dp}$ $[^{\circ}\text{C}]$ |
 | :------------------------------------ | :------: | :--------: | :---------: | :------------: | :--------------------: | ------------: | ---------: | ----------------------: | :------: |
 | **Nominal operation** | $70$ | $0.75$ | $23.4$  | $77.93$ | $0.1868$ | $23.73$ | $4.433$ | $28.17$ | $63.4$ |
 | **Sauna off** | $20$ | $0.75$ | $1.754$ | $99.57$ | $0.01096$ | $35.50$ | $0.389$ | $35.89$ | $15.4$ |
