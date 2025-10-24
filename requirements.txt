@@ -8,3 +8,4 @@ nbsphinx
 jupyter_sphinx
 sphinx-hoverxref
 sphinx-togglebutton
+cancel
