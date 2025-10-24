@@ -65,11 +65,11 @@ Thus, water vapor enthalpy depends **only on temperature**, $h_{\text{v}}{}={}h(
 
 The expression for {ref}`the enthalpy variation of dry air <eq_h_dry_air>` shows, apparently, that the enthalpy at a given thermodynamic state can be computed **in absolute terms**. Thermodynamics, however, does not provide any means of calculating absolute energetic values, but **differences of energies** (or enthalpies, or entropies). Indeed, as the reference temperature is set at $0 \ ^{\circ}\text{C}$, and there is a **linear relationship** between $^{\circ}\text{C}$ and $K$ (a temperature difference of $X \ ^{\circ}\text{C}$ is the same as a difference of $X \ \text{K}$), it is possible to **drop the reference temperature** term from the expression. Formally, though, the expression should have read:
 
-$$\Delta{}h_{0\to{}i}={}c_p{}(T_{i} - \xcancel{T_{0}})\left[^{\circ}\text{C}\right]$$
+$$\Delta{}h_{0\to{}i}={}c_p{}(T_{i} - \cancel{T_{0}})\left[^{\circ}\text{C}\right]$$
 
 Then the rigorous expression for the {ref}`enthalpy change between arbitrary initial and final states <eq_delta_h_dry_air>` would be:
 
-$$\Delta{}h_{i\to{}f} = c_p{}\left(\Delta{}T_{0\to{}f} - \Delta{}T_{0\to{}i}\right) = c_p{}\left(T_{f} - \xcancel{T_{0}} - \left(T_{i} - \xcancel{T_{0}}\right)\right) = c_p\left(T_{f} - T_{i}\right) = c_p\Delta{}T_{i\to{}f}$$
+$$\Delta{}h_{i\to{}f} = c_p{}\left(\Delta{}T_{0\to{}f} - \Delta{}T_{0\to{}i}\right) = c_p{}\left(T_{f} - \cancel{T_{0}} - \left(T_{i} - \cancel{T_{0}}\right)\right) = c_p\left(T_{f} - T_{i}\right) = c_p\Delta{}T_{i\to{}f}$$
 
 :::
 
@@ -412,8 +412,3 @@ END OF WORKED EXAMPLE
 ### References
 ```{bibliography}
 :filter: docname in docnames
-
-
-```python
-
-```
