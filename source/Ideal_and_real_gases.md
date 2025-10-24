@@ -423,23 +423,22 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
 
 ---
 
-:::{admonition} Tip: interpretation of results
+:::{admonition} Tip: interpretation
 :class: tip, dropdown
+
 At $T_r \approx 0.99$, $\text{CO}_2$ lies close to its critical region.
 
-The **ideal gas model** overestimates pressure by about 10 %, since it neglects molecular attractions.
+* The **ideal gas model** overestimates pressure by about 10 %, since it neglects molecular attractions.
 
-The **van der Waals model** underestimates it slightly, as it overcorrects for cohesion.
+* The **van der Waals model** underestimates it slightly, as it overcorrects for cohesion.
 
-**Redlich–Kwong** and **Peng–Robinson** capture both repulsion and attraction more accurately, with the latter providing the best agreement.
+* **Redlich–Kwong** and **Peng–Robinson** capture both repulsion and attraction more accurately, with the latter providing the best agreement.
 
-Finally, the **Virial model** nearly reproduces the ideal-gas prediction — a clear indication that it is reliable mainly at low pressures, where intermolecular forces become negligible.
+* Finally, the **Virial model** nearly reproduces the ideal-gas prediction — a clear indication that it is reliable mainly at low pressures, where intermolecular forces become negligible.
 
-The one-term Virial approximation reduces the ideal-gas pressure only slightly (to $Z{}\approx{}0.988$), still **overestimating** by $\sim 9.5%$ vs **Peng–Robinson**.
+* The one-term Virial approximation reduces the ideal-gas pressure only slightly (to $Z{}\approx{}0.988$), still **overestimating** by $\sim 9.5%$ vs **Peng–Robinson**. Adding the **third virial term** changes $Z$ by only $5.2\times10^{-5}$, so the two-term Virial approximation is practically identical here.
 
-Adding the **third virial term** changes $Z$ by only $5.2\times10^{-5}$, so the two-term Virial approximation is practically identical here.
-
-Near-critical curvature of the $P$–$v$–$T$ surface is captured much better by **cubic EOS** (Redlich-Kwong/Peng-Robinson) than by **low-order Virial truncations**.
+* Near-critical curvature of the $P$–$v$–$T$ surface is captured much better by **cubic EOS** (Redlich-Kwong/Peng-Robinson) than by **low-order Virial truncations**.
 :::
 
 +++

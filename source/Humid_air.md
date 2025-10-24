@@ -5,7 +5,7 @@ Humid air is ordinary atmospheric air that carries a variable amount of water va
 
 Psychrometry focuses on a few core ideas: how much vapor the air contains (its **moisture content**), how that compares with the maximum it *could* contain at the same temperature (its **relative humidity**), how the **pressure** splits between dry air and vapor (via partial pressures), and how to compute **enthalpy** on a clear reference basis (usually per unit mass of dry air). These concepts provide a compact, practical language for problems in comfort, drying, cooling, dehumidification, and atmospheric processes.
 
-(subsec_air_{\text{v}}apor_mixture_atmospheric_air)=
+(subsec_air_vapor_mixture_atmospheric_air)=
 ### Air–vapor mixture: atmospheric air
 
 Air is composed mainly of nitrogen and oxygen, and to a lesser extent, other gases such as argon and carbon dioxide. This composition corresponds to **dry air**, which does not contain any water vapor.
@@ -19,7 +19,7 @@ This is, in essence, the objective of **psychrometry** — the study of the ther
 
 ---
 
-(subsec_air_{\text{v}}apor_pressure_and_enthalpy)=
+(subsec_air_vapor_pressure_and_enthalpy)=
 ### Air–vapor mixture: pressure and enthalpy under ideal-gas assumptions
 
 Under typical atmospheric conditions, air temperature ranges approximately from $-10 \ ^{\circ}\mathrm{C}$ to $50 \ ^{\circ}\mathrm{C}$.
@@ -36,7 +36,7 @@ $$h{}={}c_p{}T$$
 and the **enthalpy variation** between two states by:
 
 (eq_delta_h_dry_air)=
-$$\Delta h{}={}c_p{}\Delta T$$
+$$\Delta{}h_{i\to{}f}={}c_p{}\Delta{}T_{i\to{}f}$$
 
 If both **air** and **water vapor** are treated as ideal gases, then, according to **Dalton’s law of partial pressures**, the total pressure is the sum of the individual partial pressures:
 
@@ -58,6 +58,19 @@ $$h_g(T) \simeq h_g(0 \ ^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ [
 
 Treating water vapor as an ideal gas implies a small accuracy loss, but it is negligible under typical atmospheric conditions. At $50 \ ^{\circ}\mathrm{C}$, the saturation pressure of water is $12.3 \ \mathrm{kPa}$. Below this pressure, water vapor behaves as an **ideal gas** with an error below $0.2%$, even in saturated states.
 Thus, water vapor enthalpy depends **only on temperature**, $h_{\text{v}}{}={}h(T)$.
+:::
+
+:::{admonition} Note: the temperature reference for enthalpy calculation
+:class: note, dropdown
+
+The expression for {ref}`the enthalpy variation of dry air <eq_h_dry_air>` shows, apparently, that the enthalpy at a given thermodynamic state can be computed **in absolute terms**. Thermodynamics, however, does not provide any means of calculating absolute energetic values, but **differences of energies** (or enthalpies, or entropies). Indeed, as the reference temperature is set at $0 \ ^{\circ}\text{C}$, and there is a **linear relationship** between $^{\circ}\text{C}$ and $K$ (a temperature difference of $X \ ^{\circ}\text{C}$ is the same as a difference of $X \ \text{K}$), it is possible to **drop the reference temperature** term from the expression. Formally, though, the expression should have read:
+
+$$\Delta{}h_{0\to{}i}={}c_p{}(T_{i} - \xcancel{T_{0}})\left[^{\circ}\text{C}\right]$$
+
+Then the rigorous expression for the {ref}`enthalpy change between arbitrary initial and final states <eq_delta_h_dry_air>` would be:
+
+$$\Delta{}h_{i\to{}f} = c_p{}\left(\Delta{}T_{0\to{}f} - \Delta{}T_{0\to{}i}\right) = c_p{}\left(T_{f} - \xcancel{T_{0}} - \left(T_{i} - \xcancel{T_{0}}\right)\right) = c_p\left(T_{f} - T_{i}\right) = c_p\Delta{}T_{i\to{}f}$$
+
 :::
 
 :::{admonition} Tip: approximate evaluation of humid-air enthalpy
@@ -150,7 +163,7 @@ The dew point reflects the **actual moisture content** of air: higher $T_{\text{
 
 **Problem statement**
 
-A sauna room is $5 \ \text{m}$ wide, $3 \ \text{m}$ deep and $2 \ \text{m}$ high. An ambient conditions transmitter device is housed inside, providing the combined reading of absolute pressure, temperature and relative humidity. Under nominal operation conditions of the sauna, the device shows an absolute pressure of $1 \ \text{atm}$, a temperature of $70 \ ^{\circ}\text{C}$, and a relative humidity of $75 \ \%$. Calculate the specific humidity, as well as the total air and water contents in the room. Compare such values to the case in which the sauna is off and its temperature drops (keeping the other variables constant) until reaching equilibrium with the quiescent environment, which is at $20 \ ^{\circ}\text{C}$. Likewise, calculate and compare the dew-point temperatures of the system at both operation conditions.
+A sauna room is $5 \ \text{m}$ wide, $3 \ \text{m}$ deep and $2 \ \text{m}$ high. An ambient conditions transmitter device is housed inside, providing the combined reading of absolute pressure, temperature and relative humidity. Under nominal operation conditions of the sauna, the device shows an absolute pressure of $1 \ \text{atm}$, a temperature of $70 \ ^{\circ}\text{C}$, and a relative humidity of $75 \ \%$. Calculate the specific humidity, as well as the total air and water contents in the room. Compare such values to the case in which the sauna is off and its temperature drops (keeping the other variables constant) until reaching equilibrium with the quiescent environment, which is at $20 \ ^{\circ}\text{C}$. Likewise, calculate and compare the dew-point temperatures of the system at both operation conditions. Discuss the results.
 
 **Synthesis**
 
@@ -358,22 +371,24 @@ $$
 
 ---
 
-:::{admonition} Tip: interpretation
+4. **Discussion of results**
+
+    * **Sharp collapse of vapor pressure and humidity ratio:** when cooled from $70 \ ^{\circ}\text{C}$ to $20  \ ^{\circ}\text{C}$ (keeping $\phi=75%$), the vapor partial pressure $p_{\text{v}}$ drops by more than **$90 \ \%$**, and the specific humidity $w$ decreases by roughly **$94 \ \%$** $\Longrightarrow$ The air’s capacity to hold water vapor dramatically declines at low temperature.
+    
+    * **Substantial reduction in vapor mass.**
+       Water vapor mass in the room falls from **$4.43 \ \text{kg}$** to **$0.39 \ \text{kg}$** ($\approx -91 \ \%$). The warm-air condition thus contains more than ten times as much moisture per cubic meter as the cool condition.
+    
+    * **Increase in total and dry-air mass.**
+       Cooling at constant pressure and volume increases the gas density, so $m_{\text{a}}$ rises by **$\approx 50 \ \%$**, and total moist-air mass by **$\approx 27 \ \%$**.
+    
+    * **Drop in the dew-point temperature.**
+        In the **hot sauna**, the dew point is extremely high ($\approx 63 \ ^{\circ}\text{C}$), meaning condensation will occur on any surface below this temperature — practically all metallic or glass elements near room boundaries. In the **cooled condition**, the dew point drops to $\approx 15 \ ^{\circ}\text{C}$, consistent with typical indoor humidity levels. The $48 \ ^{\circ}\text{C}$ difference in dew points reflects the **strong exponential dependence** of vapor pressure on temperature — the essence of why saunas maintain such dense, moisture-rich atmospheres.
+
+---
+
+:::{admonition} Tip: physical implication of real cooling
 :class: tip, dropdown
-
-* **Sharp collapse of vapor pressure and humidity ratio:** when cooled from $70 \ ^{\circ}\text{C}$ to $20  \ ^{\circ}\text{C}$ (keeping $\phi=75%$), the vapor partial pressure $p_{\text{v}}$ drops by more than **$90 \ \%$**, and the specific humidity $w$ decreases by roughly **$94 \ \%$** $\Longrightarrow$ The air’s capacity to hold water vapor dramatically declines at low temperature.
-
-* **Substantial reduction in vapor mass.**
-   Water vapor mass in the room falls from **$4.43 \ \text{kg}$** to **$0.39 \ \text{kg}$** ($\approx -91 \ \%$). The warm-air condition thus contains more than ten times as much moisture per cubic meter as the cool condition.
-
-* **Increase in total and dry-air mass.**
-   Cooling at constant pressure and volume increases the gas density, so $m_{\text{a}}$ rises by **$\approx 50 \ \%$**, and total moist-air mass by **$\approx 27 \ \%$**.
-
-* **Drop in the dew-point temperature.**
-    In the **hot sauna**, the dew point is extremely high ($\approx 63 \ ^{\circ}\text{C}$), meaning condensation will occur on any surface below this temperature — practically all metallic or glass elements near room boundaries. In the **cooled condition**, the dew point drops to $\approx 15 \ ^{\circ}\text{C}$, consistent with typical indoor humidity levels. The $48 \ ^{\circ}\text{C}$ difference in dew points reflects the **strong exponential dependence** of vapor pressure on temperature — the essence of why saunas maintain such dense, moisture-rich atmospheres.
-
-* **Physical implication for real cooling.**
-   In practice, if the $70 \ ^{\circ}\text{C}$ air were cooled in a closed volume without dehumidification, most of the water vapor could not remain in the gaseous phase; about **$4 \ \text{kg}$** of liquid water would **condense** on walls and benches to re-establish saturation at low temperature.
+In practice, if the $70 \ ^{\circ}\text{C}$ air were cooled in a closed volume without dehumidification, most of the water vapor could not remain in the gaseous phase; about **$4 \ \text{kg}$** of liquid water would **condense** on walls and benches to re-establish saturation at low temperature.
 :::
 
 +++
@@ -397,3 +412,8 @@ END OF WORKED EXAMPLE
 ### References
 ```{bibliography}
 :filter: docname in docnames
+
+
+```python
+
+```

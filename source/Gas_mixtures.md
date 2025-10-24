@@ -40,9 +40,9 @@ Both are fundamental when converting between molar and mass-based quantities in 
 ---
 
 (subsec_pvt_behaviour_ideal_mixtures)=
-### P-v-T behaviour of mixtures of ideal gases
+### $P-v-T$ behaviour of mixtures of ideal gases
 
-The definitions of $x_i$ and $y_i$ become particularly relevant when describing the pressure–volume–temperature ($P$–$v$–$T$) behavior of mixtures that obey the **ideal gas law**. When gases behave ideally, two empirical relations—**Dalton’s law** and **Amagat’s law**—connect the overall properties of the mixture to those of its individual components.
+The definitions of $x_i$ and $y_i$ become particularly relevant when describing the pressure–volume–temperature ($P–v–T$) behavior of mixtures that obey the **ideal gas law**. When gases behave ideally, two empirical relations—**Dalton’s law** and **Amagat’s law**—connect the overall properties of the mixture to those of its individual components.
 
 (eq_dalton_law)=
 $$P_{\text{total}}{}={} \sum_{i=1}^{k} P_i(T_{\text{total}}, V_{\text{total}})$$
@@ -85,12 +85,12 @@ Once the $P$–$v$–$T$ relations for ideal mixtures are established, the same 
 For the **specific molar heats** (expressed in $[\mathrm{J/mol\cdot K}]$), each property of the mixture is the molar-fraction-weighted sum of the corresponding properties of the individual gases:
 
 (eq_molar_specific_heats)=
-$$\overline{c}_{p,\text{mixture}}{}={} \sum_{i=1}^{k} y_i{}\overline{c}_{p,i} \qquad\text{and}\qquad \overline{c}_{v,\text{mixture}}{}={} \sum_{i=1}^{k} y_i{}\overline{c}_{v,i}$$
+$$\overline{c_{p}}_{\text{mixture}}{}={} \sum_{i=1}^{k} y_i{}\overline{c_{p}}_{i} \qquad\text{and}\qquad \overline{c_{v}}_{\text{mixture}}{}={} \sum_{i=1}^{k} y_i{}\overline{c_{v}}_{i}$$
 
 When specific heats are expressed on a **mass basis** (in $[\mathrm{J/kg\cdot K}]$), the weighting must be performed with the **mass fractions** instead:
 
 (eq_mass_specific_heats)=
-$$c_{p,\text{mixture}}{}={} \sum_{i=1}^{k} x_i{}c_{p,i} \qquad\text{and}\qquad c_{v,\text{mixture}}{}={} \sum_{i=1}^{k} x_i{}c_{v,i}$$
+$$c_{p_{\text{mixture}}}{}={} \sum_{i=1}^{k} x_i{}c_{p_{i}} \qquad\text{and}\qquad c_{v_{\text{mixture}}}{}={} \sum_{i=1}^{k} x_i{}c_{v_{i}}$$
 
 Similarly, the **molar mass** of the mixture—representing the equivalent mass per kilomole of mixture—is obtained through the molar-fraction-weighted sum of the molar masses of the components:
 
@@ -102,16 +102,16 @@ The **gas constant of the mixture**, in turn, is obtained by performing a mass-f
 (eq_mixture_gas_constant)=
 $$R_{\text{mixture}}{}={} \sum_{i=1}^{k} x_i{}R_i$$
 
-Finally, the **state properties** of the mixture and their **variations** (such as internal energy, enthalpy, and entropy) are expressed as the mass-weighted sums of the corresponding specific state properties of each component:
+Finally, the **state properties** of the mixture and their **variations** between generic initial ($i$) and final ($f$) states (such as internal energy, enthalpy, and entropy) are expressed as the mass-weighted sums of the corresponding specific state properties of each component:
 
 (eq_state_property_changes)=
-$$\Delta U_{\text{mixture}}{}={} \sum_{i=1}^{k} m_i{}\Delta u_i$$
+$$\Delta{}{U_{\text{mixture}}}_{_{i\to{}f}} = \sum_{i=1}^{k} m_i{}{\Delta{}u_i}_{_{i\to{}f}}$$
 
 (eq_enthalpy_change_mixture)=
-$$\Delta H_{\text{mixture}}{}={} \sum_{i=1}^{k} m_i{}\Delta h_i$$
+$$\Delta{}{H_{\text{mixture}}}_{_{i\to{}f}} = \sum_{i=1}^{k} m_i{}{\Delta{}h_i}_{_{i\to{}f}}$$
 
 (eq_entropy_change_mixture)=
-$$\Delta S_{\text{mixture}}{}={} \sum_{i=1}^{k} m_i{}\Delta s_i$$
+$$\Delta{}{S_{\text{mixture}}}_{_{i\to{}f}} = \sum_{i=1}^{k} m_i{}{\Delta{}s_i}_{_{i\to{}f}}$$
 
 :::{admonition} Note: validity of additivity
 :class: note, dropdown
