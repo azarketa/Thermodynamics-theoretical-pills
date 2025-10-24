@@ -6,7 +6,7 @@ Thermodynamics deals with **physical systems** and their measurable characterist
 ---
 
 (subsec_physical_magnitudes_units)=
-## Physical magnitudes and measurement units
+### Physical magnitudes and measurement units
 
 A **magnitude** is any measurable physical quantity associated with a system — such as mass, volume, temperature, or pressure.
 Every magnitude must be accompanied by a **measurement unit**, which serves as a fixed reference.

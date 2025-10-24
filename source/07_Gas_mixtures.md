@@ -256,7 +256,7 @@ END OF WORKED EXAMPLE
 ---
 
 (subsec_conceptual_closure_gas_mixtures)=
-### Conceptual Closure
+### Conceptual closure
 
 * {ref}`Mass and molar fractions <eq_mass_molar_fractions>` serve as the cornerstone of mixture analysis. Their {ref}`normalization constraint <eq_normalization_mass_molar>` guarantees a complete composition description.
 * {ref}`Dalton’s law of pressures <eq_dalton_law>` and {ref}`Amagat’s law of volumes <eq_amagat_law>` establish the additive behavior of ideal mixtures for pressure and volume.
