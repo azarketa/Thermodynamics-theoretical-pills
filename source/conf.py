@@ -92,3 +92,5 @@ bibtex_bibfiles = ["references.bib"]
 # (optional) Formatting settings
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
+
+latex_elements = {"preamble": r"\usepackage{cancel}"}
