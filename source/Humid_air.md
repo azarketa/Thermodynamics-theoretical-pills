@@ -201,7 +201,7 @@ $$
 2. **Humidity ratio**
 
 $$
-w=0.62198{}\frac{p_{\text{v}}}{P-p_{\text{v}}}\quad [\text{kg}_{\text{v}}/\text{kg}_{\text{a}}].
+\omega = 0.62198{}\frac{p_{\text{v}}}{P-p_{\text{v}}}\quad [\text{kg}_{\text{v}}/\text{kg}_{\text{a}}].
 $$
 
 3. **Masses in the room**
