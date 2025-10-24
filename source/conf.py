@@ -48,7 +48,6 @@ mathjax3_config = {
     "tex": {
         "tags": "ams",         # "none", "ams", or "all"
         "useLabelIds": True,   # use \label or directive labels as anchor IDs
-        "packages": {"[+]": ["cancel"]},
     }
 }
 
@@ -92,5 +91,3 @@ bibtex_bibfiles = ["references.bib"]
 # (optional) Formatting settings
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
-
-latex_elements = {"preamble": r"\usepackage{cancel}"}
