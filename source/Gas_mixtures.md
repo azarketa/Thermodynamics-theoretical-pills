@@ -139,11 +139,11 @@ Note that the molar and mass quantities show a different nomenclature. If $\phi$
 
 **Problem statement**
 
-Air is a common mixture that usually described as having a volumetric composition of $21 \ %$ $\text{O}_{2}$ and $79 \ %$ $\text{N}_{2}$. The molar weights of those components can be obtained from standard chemical tables, as well as the values for the universal gas constant ($\text{R}_{\text{u}}$) and the specific heat constants of the components at particular temperatures. Assuming that the system being analyzed is composed of standard air at a temperature of $25 \ ^{\circ}\text{C}$, calculate its effective molar weight, as well as its specific heat constants, and compare them to the standard tabulated values.
+Air is a common mixture that usually described as having a volumetric composition of $21 \ \%$ $\text{O}_{2}$ and $79 \ \%$ $\text{N}_{2}$. The molar weights of those components can be obtained from standard chemical tables, as well as the values for the universal gas constant ($\text{R}_{\text{u}}$) and the specific heat constants of the components at particular temperatures. Assuming that the system being analyzed is composed of standard air at a temperature of $25 \ ^{\circ}\text{C}$, calculate its effective molar weight, as well as its specific heat constants, and compare them to the standard tabulated values.
 
 **Synthesis**
 
-“Standard air” is modeled as an ideal gas **mixture** with **mole fractions** $y_{\mathrm{O_2}}=0.21$, $y_{\mathrm{N_2}}=0.79$ at $T=25 \ ^\circ\text{C}$, and the following magnitudes are computed:
+“Standard air” is modeled as an ideal gas **mixture** with **mole fractions** $y_{\mathrm{O_2}} = 0.21$, $y_{\mathrm{N_2}}=0.79$ at $T=25 \ ^\circ\text{C}$, and the following magnitudes are computed:
 
 * **Effective molar mass**, $\text{MW}_{\text{air}}$,
 * **Mixture** $\overline{c_{p}}_{\text{air}}$ and $\overline{c_{v}}_{\text{air}}$ (molar basis), then **mass-based** $c_{p_{\text{air}}}$, $c_{v_{\text{air}}}$, $R_{\text{air}}$, and $\gamma_{\text{air}}=c_{p_{\text{air}}}/c_{v_{\text{air}}}$,
@@ -231,11 +231,11 @@ Air is a common mixture that usually described as having a volumetric compositio
 
 | Property  | Present calculations | Tabulated |  Rel. diff |
 | :-------------------------- | --------: | --------: | ---------: |
-| $\text{MW} \ [\text{g}/\text{mol}]$                    |  $28.850$ |  $28.965$ | $-0.40\ %$ |
-| $R_{\text{air}} \ [\text{J kg}^{-1}K^{-1}]$            | $288.195$ | $287.058$ | $+0.40\ %$ |
-| $c_{p_{\text{air}}} \ [\text{kJ kg}^{-1}K^{-1}]$       | $1.011$ |    $1.005$ | $+0.61\ %$ |
-| $c_{v_{\text{air}}} \ [\text{J kg}^{-1}K^{-1}]$        |  $0.723$ |     $0.718$ | $+0.69\ %$ |
-| $\gamma_{\text{air}} \ [–]$                            |  $1.3986$ |   $1.400$ | $-0.10\ %$ |
+| $\text{MW} \ [\text{g}/\text{mol}]$                    |  $28.850$ |  $28.965$ | $-0.40 \ \%$ |
+| $R_{\text{air}} \ [\text{J kg}^{-1}K^{-1}]$            | $288.195$ | $287.058$ | $+0.40 \ \%$ |
+| $c_{p_{\text{air}}} \ [\text{kJ kg}^{-1}K^{-1}]$       | $1.011$ |    $1.005$ | $+0.61 \ \%$ |
+| $c_{v_{\text{air}}} \ [\text{J kg}^{-1}K^{-1}]$        |  $0.723$ |     $0.718$ | $+0.69 \ \%$ |
+| $\gamma_{\text{air}} \ [–]$                            |  $1.3986$ |   $1.400$ | $-0.10 \ \%$ |
 
 ---
 
