@@ -408,6 +408,187 @@ In **physics** texts, however, the opposite sign for work is sometimes used ($W 
 Always confirm the sign convention in use before comparing equations or results from different sources.
 :::
 
+::::{card}
+**WORKED EXAMPLE — boundary work of $\text{N}_2$ under different processes**
+^^^
+
+**Problem statement**
+
+A closed system contains **1 kg of nitrogen gas ($\text{N}_2$)** initially at a pressure of $P_1 = 100 \ \text{kPa}$ and a temperature of $T_1 = 300 \ \text{K}$.
+Whenever the considered process allows it, the gas expands **quasi-statically** until its **final volume doubles** ($V_2 = 2V_1$).
+
+The process is analyzed under different conditions — **isochoric**, **isobaric**, **isothermal**, **adiabatic**, and **polytropic** — to determine the **boundary work** done by the gas in each case. For the most generic case, assume a polytropic index of $n = 1.2$.
+
+Assume ideal-gas behavior throughout and compare the resulting work magnitudes.
+
+---
+
+**Synthesis**
+
+The boundary work is defined as:
+
+$$
+W_{1\to2} = \int_{V_1}^{V_2} P \mathrm{d}V.
+$$
+
+For an ideal gas, $PV = mRT$, and the functional form of $P(V)$ depends on the **type of process**.
+We apply the appropriate relations for each process and evaluate the corresponding $W_{1\to2}$ values.
+
+---
+
+**Problem data**
+
+| Quantity                           |       Symbol       |                     Value |
+| :--------------------------------- | :----------------: | ------------------------: |
+| Gas                                |          —         |   Nitrogen ($\text{N}_2$) |
+| Gas constant                       |         $R$        | $0.2968 \ \text{kJ/kg·K}$ |
+| Ratio of specific heats            | $\gamma = c_p/c_v$ |                   $1.398$ |
+| Mass                               |         $m$        |           $1 \ \text{kg}$ |
+| Initial pressure                   |        $P_1$       |        $100 \ \text{kPa}$ |
+| Initial temperature                |        $T_1$       |          $300 \ \text{K}$ |
+| Volume ratio                       |      $V_2/V_1$     |                       $2$ |
+| Polytropic exponent                |         $n$        |                     $1.2$ |
+
+---
+
+**Calculations**
+
+For the initial state:
+
+$$
+P_1 V_1 = mRT_1 = (1)(0.2968)(300) = 89.04 \ \text{kJ} = 89.04 \ \text{kPa}{\cdot}\text{m}^3.
+$$
+
+Hence:
+
+$$
+\boxed{V_1 = \dfrac{mRT_1}{P_1} = \dfrac{89.04}{100} = 0.8904 \ \text{m}^3} \ .
+$$
+
+---
+
+1. **Isochoric process** ($V = \text{constant}$)
+
+No change in volume $\Rightarrow \mathrm{d}V = 0$:
+
+$$
+W_{1\to2} = W_{\text{isochoric}} = \int_{V_1}^{V_2} P\mathrm{d}V = 0.
+$$
+
+$$
+\boxed{W_{\text{isochoric}} = 0 \ \text{kJ}}
+$$
+
+---
+
+2. **Isobaric process** ($P = \text{constant}$)
+
+$$
+W_{1\to2} = W_{\text{isobaric}} = P(V_2 - V_1) = 100(0.8904) = 89.0 \ \text{kJ}.
+$$
+
+$$
+\boxed{W_{\text{isobaric}} = 89.0 \ \text{kJ}}
+$$
+
+---
+
+3. **Isothermal process** ($T = \text{constant}$)
+
+$$
+W_{1\to2} = W_{\text{isothermal}} = mRT \ln\left(\frac{V_2}{V_1}\right) = (1)(0.2968)(300)\ln(2) = 61.7 \ \text{kJ}.
+$$
+
+$$
+\boxed{W_{\text{isothermal}} = 61.7 \ \text{kJ}}
+$$
+
+---
+
+4. **Adiabatic process** ($Q = 0$, reversible)
+
+$$
+W_{1\to2} = W_{\text{adiabatic}} \frac{P_2V_2 - P_1V_1}{1 - \gamma}.
+$$
+
+From $PV^\gamma = \text{constant}$:
+
+$$
+\frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\gamma-1} = (0.5)^{0.398} = 0.758,
+\quad T_2 = 0.758(300) = 227.4 \ \text{K}.
+$$
+
+Then:
+
+$$
+W_{\text{adiabatic}} = \frac{mR(T_2 - T_1)}{1 - \gamma}
+= \frac{(1)(0.2968)(227.4 - 300)}{1 - 1.398} = 54.1 \ \text{kJ}.
+$$
+
+$$
+\boxed{W_{\text{adiabatic}} = 54.1 \ \text{kJ}}
+$$
+
+---
+
+5. **Polytropic process** ($PV^n = \text{constant}$, $n = 1.2$)
+
+$$
+W_{1\to2} = W_{\text{polytropic}} = \frac{P_2V_2 - P_1V_1}{1 - n}.
+$$
+
+From the polytropic relation:
+
+$$
+\frac{P_2}{P_1} = \left(\frac{V_1}{V_2}\right)^n = (0.5)^{1.2} = 0.435.
+$$
+
+Thus, $P_2 = 43.5 \ \text{kPa}$, and
+
+$$
+W_{\text{polytropic}} = \frac{(43.5)(2V_1) - (100)(V_1)}{1 - 1.2} = \frac{(87.0 - 100)V_1}{-0.2} = 65.0 \ \text{kJ}.
+$$
+
+$$
+\boxed{W_{\text{polytropic}} = 65.0 \ \text{kJ}}
+$$
+
+---
+
+**Summary of results**
+
+| Process                | Relation                   | $W$ [kJ] | Relative work                    | Comments                                           |
+| :--------------------- | :------------------------- | -------: | :------------------------------- | :------------------------------------------------- |
+| Isochoric              | $V = \text{const.}$        |      0.0 | —                                | No boundary motion → no work.                      |
+| Isobaric               | $P = \text{const.}$        |     89.0 | Highest                          | Largest $P$–$V$ area; constant external pressure.  |
+| Isothermal             | $T = \text{const.}$        |     61.7 | Moderate                         | Heat fully compensates work to keep $T$ constant.  |
+| Adiabatic              | $Q = 0$                    |     54.1 | Lowest (nonzero)                 | Work done at expense of internal energy (cooling). |
+| Polytropic ($n = 1.2$) | $PV^{1.2} = \text{const.}$ |     65.0 | Between isothermal and adiabatic | Partial heat exchange softens the pressure drop.   |
+
+![PV_diagram](1_fundamentals_figs/PV_diagram_worked_example.svg)
+
+---
+
+:::{admonition} Tip — interpretation
+:class: tip, dropdown
+
+For the same expansion ratio ($V_2/V_1 = 2$), the **work output** depends on how the system exchanges heat:
+
+* In **isobaric** expansion, constant pressure yields the largest area under the $P$–$V$ curve.
+* In **isothermal** expansion, pressure falls as $1/V$, giving moderate work.
+* In **polytropic** expansion, a limited heat exchange produces an intermediate path between isothermal and adiabatic.
+* In **adiabatic** expansion, no heat enters — the gas cools, and the pressure drop is steepest, yielding the smallest nonzero work.
+* In **isochoric** processes, there is no boundary motion and no work.
+
+This example shows how the **process path** — not just the endpoints — dictates the mechanical work in thermodynamic transformations.
+
+A deeper interpretation in terms of energy, work and heat interactions may ensue when introducing the $1^{\text{st}}$ law formally.
+:::
+
++++
+END OF WORKED EXAMPLE
+::::
+
 ---
 
 (subsec_conceptual_closure_energy_work_heat)=
