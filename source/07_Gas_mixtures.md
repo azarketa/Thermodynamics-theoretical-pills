@@ -97,21 +97,25 @@ Similarly, the **molar mass** of the mixture—representing the equivalent mass 
 (eq_mixture_molar_mass)=
 $$\text{MW}_{\text{mixture}}{}={} \sum_{i=1}^{k} y_i{}\text{MW}_i$$
 
-The **gas constant of the mixture**, in turn, is obtained by performing a mass-fraction-weighted sum of the individual gas constants:
+Finally, the **gas constant of the mixture**, in turn, is obtained by performing a mass-fraction-weighted sum of the individual gas constants:
 
 (eq_mixture_gas_constant)=
 $$R_{\text{mixture}}{}={} \sum_{i=1}^{k} x_i{}R_i$$
 
-Finally, the **state properties** of the mixture and their **variations** between generic initial ($i$) and final ($f$) states (such as internal energy, enthalpy, and entropy) are expressed as the mass-weighted sums of the corresponding specific state properties of each component:
+Finally, the **extensive properties** of a mixture can be expressed either as the **molar-weighted** or the **mass-weighted** sums of the corresponding molar/specific properties of each component:
 
-(eq_state_property_changes)=
-$$\Delta{}{U_{\text{mixture}}}_{_{i\to{}f}} = \sum_{i=1}^{k} m_i{}{\Delta{}u_i}_{_{i\to{}f}}$$
+$$
+\Phi_{\text{mixture}} = \sum_{i=1}^{k} N_i\overline{\phi}_i = \sum_{i=1}^{k} m_i\phi_i
+$$
 
-(eq_enthalpy_change_mixture)=
-$$\Delta{}{H_{\text{mixture}}}_{_{i\to{}f}} = \sum_{i=1}^{k} m_i{}{\Delta{}h_i}_{_{i\to{}f}}$$
+where
 
-(eq_entropy_change_mixture)=
-$$\Delta{}{S_{\text{mixture}}}_{_{i\to{}f}} = \sum_{i=1}^{k} m_i{}{\Delta{}s_i}_{_{i\to{}f}}$$
+* $\Phi_{\text{mixture}}$ is the total (extensive) property of the mixture,
+* $\overline{\phi}_i$ and $\phi_i$ are the **molar** and **specific** properties, respectively, of component $i$,
+* $N_i$ and $m_i$ are the **moles** and **mass** of that component, and
+* $k$ is the total number of components in the mixture.
+
+This formulation applies to any **extensive quantity** — such as total volume — and ensures that the mixture property reflects the collective contribution of all components, each weighted by its mass fraction.
 
 :::{admonition} Note: validity of additivity
 :class: note, dropdown

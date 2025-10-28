@@ -40,13 +40,13 @@ $$\Delta{}h_{i\to{}f}={}c_p{}\Delta{}T_{i\to{}f}$$
 
 If both **air** and **water vapor** are treated as ideal gases, then, according to **Dalton’s law of partial pressures**, the total pressure is the sum of the individual partial pressures:
 
-(eq_dalton_air_{\text{v}}apor)=
+(eq_dalton_air_vapor)=
 $$P{}={}P_a{}+{}P_{\text{v}}$$
 
 In the $T$–$s$ diagram of water, lines of constant enthalpy and constant temperature overlap below $50 \ ^{\circ}\mathrm{C}$, confirming that enthalpy depends primarily on temperature in this range. Therefore, the enthalpy of water vapor in air may be taken as that of **saturated vapor at the same temperature**:
 
 (eq_hv_hg_relation)=
-$$h_{\text{v}}(T,\text{low }P) \simeq h_g(T)$$
+$$h_{\text{v}}(T, \text{low }P) \simeq h_g(T)$$
 
 Given that the enthalpy of saturated water vapor at $0 \ ^{\circ}\mathrm{C}$ is $2500.9\ \mathrm{kJ/kg}$ and that its average specific heat is $c_p{}={}1.82\ \mathrm{kJ/kg\cdot K}$, one may write:
 
