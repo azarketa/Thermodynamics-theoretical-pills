@@ -436,13 +436,13 @@ We apply the appropriate relations for each process and evaluate the correspondi
 
 ---
 
-**Problem data**
+**Problem data**{cite}`2015Cengel`
 
 | Quantity                           |       Symbol       |                     Value |
 | :--------------------------------- | :----------------: | ------------------------: |
 | Gas                                |          —         |   Nitrogen ($\text{N}_2$) |
 | Gas constant                       |         $R$        | $0.2968 \ \text{kJ/kg·K}$ |
-| Ratio of specific heats            | $\gamma = c_p/c_v$ |                   $1.398$ |
+| Ratio of specific heats            | $\gamma = c_p/c_v$ |                     $1.4$ |
 | Mass                               |         $m$        |           $1 \ \text{kg}$ |
 | Initial pressure                   |        $P_1$       |        $100 \ \text{kPa}$ |
 | Initial temperature                |        $T_1$       |          $300 \ \text{K}$ |
@@ -514,7 +514,7 @@ $$
 From $PV^\gamma = \text{constant}$:
 
 $$
-\frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\gamma-1} = (0.5)^{0.398} = 0.758,
+\frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\gamma-1} = (0.5)^{0.4} = 0.758,
 \quad T_2 = 0.758(300) = 227.4 \ \text{K}.
 $$
 
@@ -522,7 +522,7 @@ Then:
 
 $$
 W_{\text{adiabatic}} = \frac{mR(T_2 - T_1)}{1 - \gamma}
-= \frac{(1)(0.2968)(227.4 - 300)}{1 - 1.398} = 54.1 \ \text{kJ}.
+= \frac{(1)(0.2968)(227.4 - 300)}{1 - 1.4} = 53.9 \ \text{kJ}.
 $$
 
 $$
@@ -562,7 +562,7 @@ $$
 | Isochoric              | $V = \text{const.}$        |      0.0 | —                                | No boundary motion → no work.                      |
 | Isobaric               | $P = \text{const.}$        |     89.0 | Highest                          | Largest $P$–$V$ area; constant external pressure.  |
 | Isothermal             | $T = \text{const.}$        |     61.7 | Moderate                         | Heat fully compensates work to keep $T$ constant.  |
-| Adiabatic              | $Q = 0$                    |     54.1 | Lowest (nonzero)                 | Work done at expense of internal energy (cooling). |
+| Adiabatic              | $Q = 0$                    |     53.9 | Lowest (nonzero)                 | Work done at expense of internal energy (cooling). |
 | Polytropic ($n = 1.2$) | $PV^{1.2} = \text{const.}$ |     65.0 | Between isothermal and adiabatic | Partial heat exchange softens the pressure drop.   |
 
 ---
@@ -608,3 +608,10 @@ To relate these transfers consistently, thermodynamics adopts clear **sign conve
 * $Q > 0$ when heat is **added** to the system (heating), and $Q < 0$ when **released** (cooling).
 
 On the **$P$–$V$ diagram**, areas represent **work**, while on the **$T$–$s$ diagram**, they represent **heat** for reversible processes. Both views complement each other: one expresses **mechanical** energy exchange, the other **thermal**, offering a complete picture of energy transfer between a system and its surroundings.
+
+---
+
+(subsec_references_ideal_and_real_gases)=
+### References
+```{bibliography}
+:filter: docname in docnames
