@@ -565,6 +565,12 @@ $$
 | Adiabatic              | $Q = 0$                    |     54.1 | Lowest (nonzero)                 | Work done at expense of internal energy (cooling). |
 | Polytropic ($n = 1.2$) | $PV^{1.2} = \text{const.}$ |     65.0 | Between isothermal and adiabatic | Partial heat exchange softens the pressure drop.   |
 
+---
+
+**Visualization**
+
+For the current system, the above processes look as follows when plotted in a $P-V$ diagram. As observed, the comments made before can be correlated with the shapes of the curves.
+
 ![PV_diagram](1_fundamentals_figs/PV_diagram_worked_example.svg)
 
 ---
@@ -572,7 +578,7 @@ $$
 :::{admonition} Tip — interpretation
 :class: tip, dropdown
 
-For the same expansion ratio ($V_2/V_1 = 2$), the **work output** depends on how the system exchanges heat:
+A detailed interpretation in terms of energy, work and heat interactions may ensue when introducing the $1^{\text{st}}$ law formally. However, some preliminary hints can be provided so far. For the same expansion ratio ($V_2/V_1 = 2$), the **work output** depends on how the system exchanges heat:
 
 * In **isobaric** expansion, constant pressure yields the largest area under the $P$–$V$ curve.
 * In **isothermal** expansion, pressure falls as $1/V$, giving moderate work.
@@ -581,8 +587,6 @@ For the same expansion ratio ($V_2/V_1 = 2$), the **work output** depends on how
 * In **isochoric** processes, there is no boundary motion and no work.
 
 This example shows how the **process path** — not just the endpoints — dictates the mechanical work in thermodynamic transformations.
-
-A deeper interpretation in terms of energy, work and heat interactions may ensue when introducing the $1^{\text{st}}$ law formally.
 :::
 
 +++
