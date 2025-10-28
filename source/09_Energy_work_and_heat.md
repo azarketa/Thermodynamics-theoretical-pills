@@ -608,8 +608,3 @@ To relate these transfers consistently, thermodynamics adopts clear **sign conve
 * $Q > 0$ when heat is **added** to the system (heating), and $Q < 0$ when **released** (cooling).
 
 On the **$P$–$V$ diagram**, areas represent **work**, while on the **$T$–$s$ diagram**, they represent **heat** for reversible processes. Both views complement each other: one expresses **mechanical** energy exchange, the other **thermal**, offering a complete picture of energy transfer between a system and its surroundings.
-
-
-```python
-
-```
