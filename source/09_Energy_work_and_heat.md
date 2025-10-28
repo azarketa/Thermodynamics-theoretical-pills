@@ -22,7 +22,7 @@ Although the $1^{\text{st}}$ law will be stated in its mathematical, application
 * Let it evolve between two generic end states, $S_{1}$ and $S_{2}$.
 * It is always possible to define a magnitude, called energy ($E$), such that its difference $E_{2} - E_{1}$ does not depend on the way in which the evolution between the end states is carried out. In other words: the energy variation **is independent from the process path**.
 
-A physical magnitude whose changes between states depend exclusively on the values that it adopts at such states its called a **physical property**. Thus, the formal statement of the $1^{\text{st}}$ law **establishes the energy magnitude as a state property**.
+A physical magnitude whose changes between states depend exclusively on the values that it adopts at such states is called a **physical property**. Thus, the formal statement of the $1^{\text{st}}$ law **establishes the energy magnitude as a state property**.
 :::
 
 ---
@@ -30,11 +30,11 @@ A physical magnitude whose changes between states depend exclusively on the valu
 (subsec_state_properties_process_magnitudes_and_reference_states)=
 ### State properties, process magnitudes and reference states
 
-Energy being a **state property** means that its variations between states depend only on the values it takes at those states, not on how the process is carried out. In contrast, a magnitude whose value depends on the way in which the transformation occurs is called a **process magnitude**. Such magnitudes quantify how a system exchanges energy with its surroundings, rather than how much energy it possesses at a given state.
+The fact that energy constitutes a **state property** means that its variations between states depend only on the values it takes at those states, not on how the process is carried out. In contrast, a magnitude whose value depends on the way in which the transformation occurs is called a **process magnitude**. Such magnitudes quantify how a system exchanges energy with its surroundings, rather than how much energy it possesses at a given state.
 
 State properties and process magnitudes refer to physical quantities that are fundamentally different. It is therefore important to distinguish them not only conceptually but also symbolically:
 
-* A **state property** $\phi$
+* A **state property** $\phi$:
 
   * Describes a **thermodynamic state** and has a well-defined value at equilibrium.
   * Its change between two states depends only on those states and not on the path:
@@ -63,7 +63,7 @@ State properties and process magnitudes refer to physical quantities that are fu
      
         Since $\phi$ is a **state property**, $\mathrm{d}\phi$ is an **exact differential**, and its integral depends only on the endpoints. For one-dimensional dependencies, the **differential operator** expresses the local rate of change of $\phi(x)$, while the **integral** gives the total variation between states.
 
-* A **process magnitude** $\psi$
+* A **process magnitude** $\psi$:
 
   * Quantifies how a transformation occurs between two states (the mechanism by which the system changes).
   * Its infinitesimal form is represented by an **inexact differential**, $\delta\psi$, because its integral depends on the **path** taken by the process:
@@ -360,7 +360,7 @@ These forms are essential for steady-flow systems and cyclic processes, where en
 {ref}`As mentioned before <subsec_work_simple_compressible_systems>`, the {ref}`infinitesimal expression for work <eq_flow_work_diff>` is a **general relation** that can take either **positive** or **negative** values depending on the **sign of the volume change** (i.e. $\pm\mathrm{d}V$):
 
 * If $\mathrm{d}V > 0$, the system **expands** and performs **positive work** on its surroundings — energy leaves the system as mechanical output.
-* If $\mathrm{d}V < 0$, the system **is compressed**, and **negative work** is done *by* the system — equivalently, work is done *on* the system*,* meaning mechanical energy enters it.
+* If $\mathrm{d}V < 0$, the system **is compressed**, and **negative work** is done *by* the system — equivalently, work is done *on* the system, meaning mechanical energy enters it.
 
 On a $P$–$V$ diagram, this corresponds to the **area under the process curve**:
 
@@ -374,12 +374,15 @@ Likewise, heat is also a **process magnitude** whose sign depends on the **direc
 
 In this convention, **positive $Q$** denotes *heating* (energy received by the system), whereas **negative $Q$** denotes *cooling* (energy released to the surroundings).
 
+:::{admonition} Important: sign convention summary
+:class: warning
 | **Interaction type**   | **Physical meaning**            | **Energy flow direction**  | **Sign convention** |
 | :--------------------- | :------------------------------ | :------------------------- | :-----------------: |
 | **Work (by system)**   | Expansion or mechanical output  | From system → surroundings |      $W > 0$      |
 | **Work (on system)**   | Compression or mechanical input | From surroundings → system |      $W < 0$      |
 | **Heat (to system)**   | Heating                         | From surroundings → system |      $Q > 0$      |
 | **Heat (from system)** | Cooling                         | From system → surroundings |      $Q < 0$      |
+:::
 
 :::{admonition} Note — graphical correspondence between heat and work
 :class: note, dropdown
