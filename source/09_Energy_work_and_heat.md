@@ -8,7 +8,7 @@ Thermodynamic systems do not remain motionless; they experience **processes** th
 (subsec_notion_of_energy)=
 ### Notion of energy
 
-Thermodynamics is built around the concept of **energy conservation**. The familiar phrase — *“energy is neither created nor destroyed, but transformed”* — captures the essence of the {ref}`$1^{\text{st}}$ law <sec_first_law_closed_systems>`. Yet, energy is not a tangible object: it is an **abstract bookkeeping quantity** that links different forms of motion, interaction, and transformation.
+Thermodynamics is built around the concept of **energy conservation**. The familiar phrase — *“energy is neither created nor destroyed, but transformed”* — captures the essence of the $1^{\text{st}}$ law, as explained {ref}`further on<sec_first_law_closed_systems>`. Yet, energy is not a tangible object: it is an **abstract bookkeeping quantity** that links different forms of motion, interaction, and transformation.
 
 In every process, energy may appear in diverse forms — mechanical, thermal, chemical, electrical — but the **total** always remains constant. What changes is its **distribution** among those forms.
 
@@ -571,7 +571,7 @@ $$
 
 For the current system, the above processes look as follows when plotted in a $P-V$ diagram. As observed, the comments made before can be correlated with the shapes of the curves.
 
-![PV_diagram](1_fundamentals_figs/PV_diagram_worked_example.svg)
+![PV_diagram](1_fundamentals_figs/PV_diagram_worked_example_mod.svg)
 
 ---
 
@@ -608,3 +608,8 @@ To relate these transfers consistently, thermodynamics adopts clear **sign conve
 * $Q > 0$ when heat is **added** to the system (heating), and $Q < 0$ when **released** (cooling).
 
 On the **$P$–$V$ diagram**, areas represent **work**, while on the **$T$–$s$ diagram**, they represent **heat** for reversible processes. Both views complement each other: one expresses **mechanical** energy exchange, the other **thermal**, offering a complete picture of energy transfer between a system and its surroundings.
+
+
+```python
+
+```
