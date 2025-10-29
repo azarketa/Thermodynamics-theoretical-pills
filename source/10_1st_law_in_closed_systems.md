@@ -1,18 +1,14 @@
 (sec_first_law_closed_systems)=
-## 1st law in closed systems
+## $1^{\text{st}}$ Law in closed systems
 
-Thermodynamics describes how energy moves and changes form within and across systems.
-When dealing with a **closed system**, the **mass remains constant** — no substance crosses the system boundary.
-However, energy can still be transferred in the form of **work** or **heat**.
-This section formulates the **first law of thermodynamics** for such systems, expressing the balance between energy storage and energy transfer.
+So far, we have established that thermodynamics describes how energy moves and changes form within and across systems. When dealing with a **closed system**, the **mass remains constant** — no substance crosses the system boundary. However, energy can still be transferred in the form of **work** or **heat**. This section formulates the **$1^{\text{st}}$ law of thermodynamics** for such systems, expressing the balance between energy storage and energy transfer.
 
 ---
 
 (subsec_energy_balance_closed_system)=
 ### Energy balance for a closed system
 
-A **closed system** exchanges **energy**, but not **mass**, with its surroundings.
-If energy is neither created nor destroyed — only transformed — and the **only transfer modes** are heat and work, the total energy balance is written as:
+A **closed system** exchanges **energy**, but not **mass**, with its surroundings. Or, better expressed: as no mass can cross the boundary of a closed system by definition, the only energetic exchanges that can take place are those associated with non-massive transfers. If, {ref}`as stated previously <sec_energy_work_heat>`, energy is neither created nor destroyed — only transformed — and the **only non-massive transfer modes** are heat and work, the total energy balance is written as:
 
 (eq_first_law_basic)=
 $$
@@ -25,14 +21,21 @@ where:
 * $W$ is the **net work** done *by* the system,
 * $\Delta{}E$ is the **total change in energy** of the system.
 
-:::{admonition} Sign convention for $Q$ and $W$
+:::{admonition} Note: implicit assumptions in the $1^{\text{st}}$ law formulation
 :class: note, dropdown
 
-* If the **system receives heat**, then $Q>0$.
-* If the **system loses heat**, then $Q<0$.
-* If the **system performs work on the surroundings**, $W>0$.
-* If **work is done on the system**, $W<0$.
-  :::
+{ref}`The expression above <eq_first_law_basic>` also assumes, implicitly, that:
+* The finite energy change, $\Delta{}E$, takes place between two end states $(1)$ and $(2)$. Formally, this means that the equation should read $\Delta{}E_{1\to2} = Q_{1\to2} - W_{1\to2}$, as mentioned when {ref}`introducing the $\Delta$ operator <subsec_state_properties_process_magnitudes_and_reference_states>`. However, considering all the formulation that follows as referring to differences between two end states, those subscripts will be dropped for the sake of clarity.
+* The sign convention {ref}`adopted in this course <subsec_the_sign_convention_work_heat>` is coherent with the way in which the heat and work contributions show up in the equation.
+
+| **Type of energetic exchange** | **Description** | **Sign of $Q$ or $W$** | **Effect on system energy ($\Delta E$)** |
+| :-------------------------- | :----------------------------------- | :--------------------: | :--------------------------------------: |
+| **Heat added to system**    | System receives heat (energy inflow) |         $Q > 0$        |              $\Delta E > 0$              |
+| **Heat released by system** | System loses heat (energy outflow)   |         $Q < 0$        |              $\Delta E < 0$              |
+| **Work done by system**     | System performs work on surroundings |         $W > 0$        |              $\Delta E < 0$              |
+| **Work done on system**     | Surroundings perform work on system  |         $W < 0$        |              $\Delta E > 0$              |
+
+:::
 
 The total energy variation of the system may be decomposed into its **macroscopic** and **microscopic** components:
 
@@ -49,10 +52,9 @@ where:
 
 In the absence of **chemical** or **nuclear** reactions, $\Delta U$ represents solely **thermal effects** — that is, variations in the system’s temperature.
 
-:::{admonition} Note — Flow energy and work
+:::{admonition} Note: flow energy and work
 :class: note, dropdown
-In closed systems, **flow energy** ($P,V$) is not stored as part of the system; it represents **boundary work** and therefore appears in $W$.
-The energy forms that remain *contained* within the system are kinetic, potential, and internal.
+{ref}`When presenting the forms of macroscopic energy <subsubsec_macroscopic_energy>`, one of the types specified was the so-called **flow energy** $(PV)$. In closed systems, flow energy is not stored as part of the system; it represents **boundary work** and therefore appears in $W$. The energy forms that remain *contained* within the system are kinetic, potential, and internal.
 :::
 
 ---
