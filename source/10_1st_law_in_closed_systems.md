@@ -229,7 +229,7 @@ The bar chart below compares, for each process, the **work** $W$ and **heat** $Q
 A horizontal dashed line marks $\Delta E$.
 Bars above the line indicate **heat input**, whereas bars below indicate **heat rejection**.
 
-![deltaE\_diagram](1_fundamentals_figs/deltaE_diagram_worked_example_mod.svg)
+![deltaE-diagram](1_fundamentals_figs/deltaE_diagram_worked_example_mod_.svg)
 
 ---
 
