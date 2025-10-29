@@ -41,7 +41,7 @@ The total energy variation of the system may be decomposed into its **macroscopi
 
 (eq_first_law_components)=
 $$
-\Delta{}E{}={} \Delta{}E_k{}+{}\Delta{}E_p{}+{}\cancel{E_{f}}+{}\Delta{}U{}={}Q{}-{}W,
+\Delta{}E{}={} \Delta{}E_k{}+{}\Delta{}E_p{}+{}\Delta{}U{}={}Q{}-{}W,
 $$
 
 where:
@@ -150,12 +150,14 @@ This property-based nature of $H$ is what allows enthalpy, like internal energy,
 
 **Problem statement**
 
-Assume the same system and processes analyzed in {ref}`the previous worked example <card_worked_example_boundary_work>`. Consider that, although each process path differs, the **net change in stored energy** of the system is fixed at
+Assume the same system and processes analyzed in {ref}`the previous worked example <card_worked_example_boundary_work>`.
+Consider that, although each process path differs, the **net change in stored energy** of the system is the same as the **work done in the adiabatic process**, that is:
 
 $$
-\Delta E = +50\ \text{kJ}.
+\Delta E = -W_{\text{adiabatic}} = -53.9\ \text{kJ}.
 $$
 
+The negative sign indicates that the system **loses energy** through expansion work.
 Using the **$1^{\text{st}}$ law of thermodynamics** for a closed system,
 
 $$
@@ -168,14 +170,14 @@ determine the corresponding **heat transfer** $Q$ for each process from the know
 
 **Synthesis**
 
-If $\Delta E$ is constant, the **energy balance** rearranges as
+If $\Delta E$ is fixed at $-53.9\ \text{kJ}$, then:
 
 $$
-Q = \Delta E + W.
+Q = \Delta E + W = -53.9 + W.
 $$
 
-Any difference in the work output implies a compensating difference in the heat input.
-Thus, processes that perform **more work** require **more heat** to achieve the same $\Delta E$.
+Because the system expands in all cases ($W > 0$), part of its stored energy is used as mechanical work.
+To reach the same energy loss in all processes, the required **heat transfer** must adjust accordingly.
 
 ---
 
@@ -183,11 +185,11 @@ Thus, processes that perform **more work** require **more heat** to achieve the 
 
 | Process              |          Relation          | $W$ [kJ] |
 | :------------------- | :------------------------: | -------: |
-| Isochoric            |     $V = \text{const.}$    |      0.0 |
-| Isobaric             |     $P = \text{const.}$    |     89.0 |
-| Isothermal           |     $T = \text{const.}$    |     61.7 |
-| Adiabatic            |           $Q = 0$          |     53.9 |
-| Polytropic ($n=1.2$) | $PV^{1.2} = \text{const.}$ |     65.0 |
+| Isochoric            |     $V = \text{const.}$    |     +0.0 |
+| Isobaric             |     $P = \text{const.}$    |    +89.0 |
+| Isothermal           |     $T = \text{const.}$    |    +61.7 |
+| Adiabatic            |           $Q = 0$          |    +53.9 |
+| Polytropic ($n=1.2$) | $PV^{1.2} = \text{const.}$ |    +65.0 |
 
 ---
 
@@ -196,47 +198,64 @@ Thus, processes that perform **more work** require **more heat** to achieve the 
 For each process,
 
 $$
-Q = \Delta E + W = 50 + W.
+Q = \Delta E + W = -53.9 + W.
 $$
 
-| Process              |         Relation         | $W$ [kJ] | $\Delta E$ [kJ] | $Q$ [kJ] | Interpretation                                       |
-| :------------------- | :----------------------: | -------: | --------------: | -------: | :--------------------------------------------------- |
-| Isochoric            |     $V=\text{const.}$    |      0.0 |             +50 |    +50.0 | No boundary work; all energy from heat input.        |
-| Isobaric             |     $P=\text{const.}$    |     89.0 |             +50 |   +139.0 | Large expansion work; more heat required.            |
-| Isothermal           |     $T=\text{const.}$    |     61.7 |             +50 |   +111.7 | Moderate work and moderate heat input.               |
-| Adiabatic            |           $Q=0$          |     53.9 |             +50 |   +103.9 | Energy increase mostly from work done on the system. |
-| Polytropic ($n=1.2$) | $PV^{1.2}=\text{const.}$ |     65.0 |             +50 |   +115.0 | Intermediate case between isothermal and isobaric.   |
+| Process              |         Relation         | $W$ [kJ] | $\Delta E$ [kJ] | $Q$ [kJ] | Interpretation                                            |
+| :------------------- | :----------------------: | ----- | --------------: | -------: | :-------------------------------------------------------- |
+| Isochoric            |     $V=\text{const.}$    |     +0.0 |           –53.9 |    –53.9 | No work done; all energy loss as heat rejection.          |
+| Isobaric             |     $P=\text{const.}$    |    +89.0 |           –53.9 |    +35.1 | Work output larger than energy loss; requires heat input. |
+| Isothermal           |     $T=\text{const.}$    |    +61.7 |           –53.9 |     +7.8 | Slight heat input compensates the mechanical work.        |
+| Adiabatic            |           $Q=0$          |    +53.9 |           –53.9 |      0.0 | Reference case: all energy loss as expansion work.        |
+| Polytropic ($n=1.2$) | $PV^{1.2}=\text{const.}$ |    +65.0 |           –53.9 |    +11.1 | Intermediate case between adiabatic and isothermal.       |
 
 ---
 
 **Interpretation**
 
-For the same energy increase $\Delta E = +50\ \text{kJ}$, the **heat requirement** depends on how much **mechanical work** is performed.
-Greater work implies greater heat input to maintain the same net energy gain. Notice that the system **expands** at each of the processes, which means that it **looses energy** due to its transfer via mechanical work ($W>0 \implies \Delta E < 0$). Keeping the $\Delta E$ constant requires transferring some energy in the form of heat into the system, i.e. **heating it up** $(Q>0)$. In the particular case in which no work occurs (isochoric case), the entire energy rise comes from heat alone.
+In this example, the **adiabatic case** serves as a reference: all the system’s energy loss manifests as **work output**, with **no heat transfer** ($Q=0$).
+For the other processes, achieving the same net energy decrease ($\Delta E = -53.9\ \text{kJ}$) requires different heat exchanges:
 
-This illustrates that the **$1^{\text{st}}$ law** provides a bookkeeping framework for energy transfer: it does not specify *how* energy flows, but ensures that all exchanges — whether heat or work — are consistently accounted for.
+* In processes with **greater work output** (e.g. isobaric), heat must enter the system to maintain the same overall energy change.
+* In processes with **no work** (isochoric), all energy loss occurs as **heat rejection**.
+
+This illustrates how the $1^{\text{st}}$ law ensures consistency between energy transfers regardless of the process path.
 
 ---
 
 **Visualization**
 
-The bar chart below compares, for each process, the **work** $W$ and **heat** $Q$ contributions that together yield the same total energy increase $\Delta E = +50\ \mathrm{kJ}$. A horizontal dashed line marks $\Delta E$. Processes lying higher above that line require greater total energy input (heat + work).
+The bar chart below compares, for each process, the **work** $W$ and **heat** $Q$ contributions that together yield the same total energy loss $\Delta E = -53.9\ \mathrm{kJ}$.
+A horizontal dashed line marks $\Delta E$.
+Bars above the line indicate **heat input**, whereas bars below indicate **heat rejection**.
 
-![deltaE_diagram](1_fundamentals_figs/deltaE_diagram_worked_example_mod.svg)
+![deltaE\_diagram](1_fundamentals_figs/deltaE_diagram_worked_example_mod.svg)
 
 ---
 
 :::{admonition} Tip: connecting to specific heats
 :class: tip, dropdown
 
-Later, when **specific heats** are introduced, we will express $\Delta U$ and $\Delta H$ in terms of temperature changes under constant-volume and constant-pressure conditions.
-This will make the current results quantitatively predictable from measurable thermal properties.
+Later, when **specific heats** are introduced, we will see that $\Delta U$ and $\Delta H$ relate directly to temperature changes under constant-volume and constant-pressure conditions. This will make the different heat requirements in each process predictable from measurable thermal properties.
+
+However, two limiting cases in this example anticipate the rationale behind specific heats:
+
+* In **isochoric processes**, the system volume is fixed ($\mathrm{d}V=0$), so no work is done ($\delta W=0$).
+  The **entire energy exchange** occurs as heat, $\delta Q = \mathrm{d}U$.
+  This is the physical basis for defining the **specific heat at constant volume**, $c_v$.
+
+* In **adiabatic processes**, the system is perfectly insulated ($\delta Q=0$), so no heat is exchanged.
+  Any energy variation manifests exclusively as **work**, $\mathrm{d}U = -\delta W$.
+  Although adiabaticity does **not define** a heat capacity, it shows the other extreme: a process in which one transfer mode is completely suppressed.
+
+Together, these two constraints — one eliminating work, the other eliminating heat — clarify why specific heats are defined under *controlled, idealized* conditions.
+They isolate the effect of temperature change on a single energy-exchange mechanism, making thermal behavior measurable and comparable across systems.
+
 :::
 
 +++
 END OF WORKED EXAMPLE
 ::::
-
 
 ---
 
