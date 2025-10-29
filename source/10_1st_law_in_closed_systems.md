@@ -150,8 +150,7 @@ This property-based nature of $H$ is what allows enthalpy, like internal energy,
 
 **Problem statement**
 
-A nitrogen system undergoes several thermodynamic processes — isochoric, isobaric, isothermal, adiabatic, and polytropic — all connecting the same initial and final states.
-Although each process path differs, the **net change in stored energy** of the system is fixed at
+Assume the same system and processes analyzed in {ref}`the previous worked example <card_worked_example_boundary_work>`. Consider that, although each process path differs, the **net change in stored energy** of the system is fixed at
 
 $$
 \Delta E = +50\ \text{kJ}.
