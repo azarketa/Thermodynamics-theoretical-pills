@@ -408,6 +408,7 @@ In **physics** texts, however, the opposite sign for work is sometimes used ($W 
 Always confirm the sign convention in use before comparing equations or results from different sources.
 :::
 
+(card_worked_example_boundary_work)=
 ::::{card}
 **WORKED EXAMPLE — boundary work of $\text{N}_2$ under different processes**
 ^^^

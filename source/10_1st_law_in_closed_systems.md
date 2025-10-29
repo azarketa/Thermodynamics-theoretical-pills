@@ -12,7 +12,7 @@ A **closed system** exchanges **energy**, but not **mass**, with its surrounding
 
 (eq_first_law_basic)=
 $$
-\Delta{}E{}={}Q{}-{}W
+\Delta{}E{}={}Q{}-{}W,
 $$
 
 where:
@@ -41,7 +41,7 @@ The total energy variation of the system may be decomposed into its **macroscopi
 
 (eq_first_law_components)=
 $$
-\Delta{}E{}={} \Delta{}E_k{}+{}\Delta{}E_p{}+{}\Delta{}U{}={}Q{}-{}W
+\Delta{}E{}={} \Delta{}E_k{}+{}\Delta{}E_p{}+{}\cancel{E_{f}}+{}\Delta{}U{}={}Q{}-{}W,
 $$
 
 where:
@@ -66,17 +66,24 @@ For most stationary systems (no significant motion or elevation change), kinetic
 
 (eq_first_law_reduced)=
 $$
-\Delta{}U{}={}Q{}-{}W
+\boxed{\Delta{}U{}={}Q{}-{}W} \ .
 $$
 
 This reduced form — widely used in thermodynamics — expresses that **all energy transfers as heat or work** manifest as **changes in internal energy**.
-Thus, if a closed system receives heat or performs work, its **temperature** (and hence its internal energy) will change accordingly.
+Thus, if a closed system receives heat or performs work, its **temperature** (and hence its internal energy) will change accordingly. Its differential form is equally relevant:
 
-:::{admonition} Tip — Interpreting $\Delta U = Q - W$
+(eq_first_law_reduced_diff)=
+$$
+\mathrm{d}U = \delta Q - \delta W \ \Rightarrow \ \boxed{\mathrm{d}U = \delta Q - P\mathrm{d}V} \ .
+$$
+
+:::{admonition} Tip: interpreting $\Delta U = Q - W$
 :class: tip, dropdown
 
-* When $Q>W$, the system’s **internal energy increases** (it warms up).
-* When $W>Q$, the system’s **internal energy decreases** (it cools down).
+* When $Q>W$, the system’s **internal energy increases** (it warms up). Heating overcomes the work done by the system.
+* When $-Q>-W$, the system's **internal energy decreases** (it cools down). Cooling overcomes the work done upon the system.
+* When $W>Q$, the system’s **internal energy decreases** (it cools down). The work done by the system overcomes heating.
+* When $-W>-Q$, the system's **internal energy increases** (it warms down). The work done upon the system overcomes cooling.
   This intuitive balance helps identify the direction of energy flow in simple processes.
   :::
 
@@ -89,7 +96,7 @@ The combination of internal energy and the flow term, $PV$, appears so often tha
 
 (eq_enthalpy_def)=
 $$
-H{}={}U{}+{}PV
+\boxed{H{}={}U{}+{}PV} \ .
 $$
 
 The **enthalpy**, $H$, represents the **total useful energy** of a fluid, combining the *thermal capacity to perform work* (through $U$) and the *flow capacity* ($PV$).
@@ -99,34 +106,145 @@ Differentiating the definition of $H$:
 
 (eq_differential_enthalpy)=
 $$
-\mathrm{d}H{}={} \mathrm{d}U{}+{}P\mathrm{d}V{}+{}V\mathrm{d}P
+\mathrm{d}H{}={} \mathrm{d}U{}+{}P\mathrm{d}V{}+{}V\mathrm{d}P.
 $$
 
-Substituting the **first law differential form**, $\mathrm{d}U{}={} \delta Q{}-{}P,\mathrm{d}V$, into this expression gives:
+Substituting the **$1^{\text{st}}$ law in its differential form**, $\mathrm{d}U{}={} \delta Q{}-{}P\mathrm{d}V$, into this expression gives:
 
 (eq_heat_enthalpy_relation1)=
 $$
-\delta Q{}={} \mathrm{d}H{}-{}V\mathrm{d}P
+\mathrm{d}H = \delta{}Q - P\mathrm{d}V + P\mathrm{d}V + V\mathrm{d}P \ \Rightarrow \ \boxed{\delta Q{}={} \mathrm{d}H{}-{}V\mathrm{d}P} \ .
 $$
 
 This relation provides a direct link between **heat transfer** and **enthalpy change**, highlighting how $P$ and $V$ variations affect the overall heat exchange.
 
-For processes at **constant pressure**, the last term disappears:
+:::{admonition} Note: why defining enthalpy in closed systems makes sense
+:class: note, dropdown
 
-(eq_heat_const_p)=
+In a **closed system**, no mass crosses the boundary, so the term $PV$ does **not** represent energy stored within the system — it belongs to the **boundary work** term in the $1^{\text{st}}$ law's differential expression,
+
 $$
-\delta Q_p{}={} \mathrm{d}H
+\mathrm{d}U = \delta Q - \delta W = \delta Q - P\mathrm{d}V.
 $$
 
-which means the **heat transferred at constant pressure** equals the **change in enthalpy** of the system.
+However, the {ref}`definition of enthalpy <eq_enthalpy_def>` remains useful even for closed systems.
+This is because, when differentiating $H$, the derivative of the product $PV$ {ref}`introduces two contributions <eq_differential_enthalpy>` showing that, although $P\mathrm{d}V$ already appears in the energy balance, the additional term $V\mathrm{d}P$ allows the pressure dependence of the system’s energy to be expressed more compactly.
+
+Defining $H$ as $U + PV$ is thus a **formal convenience**: it reorganizes the energy terms into a single property that simplifies later formulations — especially when pressure becomes an independent variable — without implying the existence of new energy storage in the system.
+:::
+
+:::{admonition} Note: on enthalpy as a thermodynamic property
+:class: note, dropdown
+
+Since **enthalpy** is defined as a specific combination of {ref}`two state properties <eq_enthalpy_def>`, it is itself a **state property**.
+Both internal energy $U$ and the product $PV$ depend only on the **thermodynamic state** — that is, on measurable variables such as pressure, volume, and temperature — not on the path taken between states.
+
+Consequently, the {ref}`differential of enthalpy <eq_differential_enthalpy>` is an **exact differential**, meaning that changes in $H$ between two states depend solely on the endpoints and not on the intermediate process.
+
+This property-based nature of $H$ is what allows enthalpy, like internal energy, to appear directly in state equations and thermodynamic tables.
+:::
+
+::::{card}
+**WORKED EXAMPLE — Energy balance under different processes (applied)**
+^^^
+
+**Problem statement**
+
+A nitrogen system undergoes several thermodynamic processes — isochoric, isobaric, isothermal, adiabatic, and polytropic — all connecting the same initial and final states.
+Although each process path differs, the **net change in stored energy** of the system is fixed at
+
+$$
+\Delta E = +50\ \text{kJ}.
+$$
+
+Using the **$1^{\text{st}}$ law of thermodynamics** for a closed system,
+
+$$
+\Delta E = Q - W,
+$$
+
+determine the corresponding **heat transfer** $Q$ for each process from the known work term $W$.
+
+---
+
+**Synthesis**
+
+If $\Delta E$ is constant, the **energy balance** rearranges as
+
+$$
+Q = \Delta E + W.
+$$
+
+Any difference in the work output implies a compensating difference in the heat input.
+Thus, processes that perform **more work** require **more heat** to achieve the same $\Delta E$.
+
+---
+
+**Problem data**
+
+| Process              |          Relation          | $W$ [kJ] |
+| :------------------- | :------------------------: | -------: |
+| Isochoric            |     $V = \text{const.}$    |      0.0 |
+| Isobaric             |     $P = \text{const.}$    |     89.0 |
+| Isothermal           |     $T = \text{const.}$    |     61.7 |
+| Adiabatic            |           $Q = 0$          |     53.9 |
+| Polytropic ($n=1.2$) | $PV^{1.2} = \text{const.}$ |     65.0 |
+
+---
+
+**Calculations**
+
+For each process,
+
+$$
+Q = \Delta E + W = 50 + W.
+$$
+
+| Process              |         Relation         | $W$ [kJ] | $\Delta E$ [kJ] | $Q$ [kJ] | Interpretation                                       |
+| :------------------- | :----------------------: | -------: | --------------: | -------: | :--------------------------------------------------- |
+| Isochoric            |     $V=\text{const.}$    |      0.0 |             +50 |    +50.0 | No boundary work; all energy from heat input.        |
+| Isobaric             |     $P=\text{const.}$    |     89.0 |             +50 |   +139.0 | Large expansion work; more heat required.            |
+| Isothermal           |     $T=\text{const.}$    |     61.7 |             +50 |   +111.7 | Moderate work and moderate heat input.               |
+| Adiabatic            |           $Q=0$          |     53.9 |             +50 |   +103.9 | Energy increase mostly from work done on the system. |
+| Polytropic ($n=1.2$) | $PV^{1.2}=\text{const.}$ |     65.0 |             +50 |   +115.0 | Intermediate case between isothermal and isobaric.   |
+
+---
+
+**Interpretation**
+
+For the same energy increase $\Delta E = +50\ \text{kJ}$, the **heat requirement** depends on how much **mechanical work** is performed.
+Greater work implies greater heat input to maintain the same net energy gain. Notice that the system **expands** at each of the processes, which means that it **looses energy** due to its transfer via mechanical work ($W>0 \implies \Delta E < 0$). Keeping the $\Delta E$ constant requires transferring some energy in the form of heat into the system, i.e. **heating it up** $(Q>0)$. In the particular case in which no work occurs (isochoric case), the entire energy rise comes from heat alone.
+
+This illustrates that the **$1^{\text{st}}$ law** provides a bookkeeping framework for energy transfer: it does not specify *how* energy flows, but ensures that all exchanges — whether heat or work — are consistently accounted for.
+
+---
+
+**Visualization**
+
+The bar chart below compares, for each process, the **work** $W$ and **heat** $Q$ contributions that together yield the same total energy increase $\Delta E = +50\ \mathrm{kJ}$. A horizontal dashed line marks $\Delta E$. Processes lying higher above that line require greater total energy input (heat + work).
+
+![deltaE_diagram](1_fundamentals_figs/deltaE_diagram_worked_example_mod.svg)
+
+---
+
+:::{admonition} Tip: connecting to specific heats
+:class: tip, dropdown
+
+Later, when **specific heats** are introduced, we will express $\Delta U$ and $\Delta H$ in terms of temperature changes under constant-volume and constant-pressure conditions.
+This will make the current results quantitatively predictable from measurable thermal properties.
+:::
+
++++
+END OF WORKED EXAMPLE
+::::
+
 
 ---
 
 (subsec_conceptual_closure_firstlaw_closed)=
 ### Conceptual closure
 * A **closed system** exchanges energy but **not mass** with its surroundings.
-* The **first law** expresses the **conservation of energy** between internal storage and transfer:
+* The **$1^{\text{st}}$ law** expresses the **energy balance** between internal storage and transfer:
   $\Delta E{}={}Q{}-{}W$.
 * When kinetic and potential effects are negligible, the simplified form $\Delta U{}={}Q{}-{}W$ suffices.
 * The **enthalpy**, $H{}={}U{}+{}PV$, naturally emerges when dealing with processes at constant pressure or in open-system extensions.
-* Under constant-pressure conditions, **heat transfer equals the enthalpy change**, $\delta Q_p{}={} \mathrm{d}H$.
