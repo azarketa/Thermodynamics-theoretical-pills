@@ -83,16 +83,16 @@ Thus, if a closed system receives heat or performs work, its **temperature** (an
 ---
 
 (subsec_first_law_enthalpy)=
-### First law: particularization with enthalpy
+### $1^{\text{st}}$ law: particularization with enthalpy
 
-The combination of internal energy and the flow term, $P,V$, appears so often that it is defined as a separate thermodynamic property — the **enthalpy**:
+The combination of internal energy and the flow term, $PV$, appears so often that it is defined as a separate thermodynamic property — the **enthalpy**:
 
 (eq_enthalpy_def)=
 $$
 H{}={}U{}+{}PV
 $$
 
-The **enthalpy**, $H$, represents the **total useful energy** of a fluid, combining the *thermal capacity to perform work* (through $U$) and the *flow capacity* ($P,V$).
+The **enthalpy**, $H$, represents the **total useful energy** of a fluid, combining the *thermal capacity to perform work* (through $U$) and the *flow capacity* ($PV$).
 While internal energy $U$ tracks temperature-related effects, enthalpy incorporates both **temperature** and **pressure** effects, making it a more practical measure in processes involving fluids and flow.
 
 Differentiating the definition of $H$:
@@ -119,17 +119,6 @@ $$
 $$
 
 which means the **heat transferred at constant pressure** equals the **change in enthalpy** of the system.
-
-:::{admonition} Note — Heat capacity at constant pressure
-:class: note, dropdown
-At constant pressure, the specific heat $c_p$ is defined as:
-
-$$
-c_p{}={} \left(\frac{\partial h}{\partial T}\right)_P
-$$
-
-so that $\delta q_p{}={}c_p\mathrm{d}T$ and, in finite form, $\Delta h{}={}c_p\Delta T$ for ideal gases.
-:::
 
 ---
 
