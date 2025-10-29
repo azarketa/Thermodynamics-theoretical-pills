@@ -90,10 +90,10 @@ These conventions vary across disciplines but share the same goal: simplifying e
 
 The distinction between **state properties** and **process magnitudes** can be compactly summarized as follows:
 
-| **Type of magnitude** | **Symbol** | **Infinitesimal change** | **Finite change** | **Path dependence** | **Differential type** | **Physical meaning**                                                                |
+| **Type of magnitude** | **Symbol(s)** | **Infinitesimal change** | **Finite change** | **Path dependence** | **Differential type** | **Physical meaning**                                                                |
 | :-------------------- | :--------: | :----------------------: | :---------------------------------------------------------------------------: | :-----------------: | :-------------------: | :---------------------------------------------------------------------------------- |
 | **State property**    |   $\phi$   |     $\mathrm{d}\phi$     | $\Delta\phi_{1\to2} = \displaystyle\int_1^2 \mathrm{d}\phi = \phi_2 - \phi_1$ |   **Independent**   |       **Exact**       | Quantifies the *state* of the system; depends only on its equilibrium condition.    |
-| **Process magnitude** |   $\psi$   |       $\delta\psi$       |               $\Psi_{1\to2} = \displaystyle\int_1^2 \delta\psi$               |    **Dependent**    |      **Inexact**      | Quantifies the *mode of change* between states; depends on the transformation path. |
+| **Process magnitude** |   $\psi$, $\Psi$   |       $\delta\psi$       |               $\Psi_{1\to2} = \displaystyle\int_1^2 \delta\psi$               |    **Dependent**    |      **Inexact**      | Quantifies the *mode of change* between states; depends on the transformation path. |
 :::
 
 :::{admonition} Note: the dummy operators
@@ -310,7 +310,7 @@ These cases show that the work done depends on **how** the system moves between 
 
 :::
 
-:::{admonition} Note — etymology of “polytropic”
+:::{admonition} Note: etymology of “polytropic”
 :class: note, dropdown
 The word **“polytropic”** comes from the Greek *poly* (πολύ, “many”) and *tropos* (τρόπος, “way” or “manner”). It literally means “many ways,” reflecting that a polytropic process can occur in **many possible manners** depending on the exponent $n$, each representing a distinct mode of energy exchange between pressure and volume.
 :::
@@ -401,7 +401,7 @@ Thus, the **area under the curve** on a $T$–$s$ diagram corresponds to the **h
 This makes the $T$–$s$ diagram a direct visual analogue of the $P$–$V$ one: both express **energy transfer as geometric area**, but through **different modes** — mechanical in the $P$–$V$ plane and thermal in the $T$–$s$ plane. Together, they provide a unified picture of how systems exchange energy via work and heat.
 :::
 
-:::{admonition} Note — consistency of sign conventions
+:::{admonition} Note: consistency of sign conventions
 :class: note, dropdown
 The convention $W > 0$ for work done **by** the system and $Q > 0$ for heat **added to** the system is standard in **engineering thermodynamics**.
 In **physics** texts, however, the opposite sign for work is sometimes used ($W > 0$) for work done **on** the system).
@@ -441,7 +441,7 @@ We apply the appropriate relations for each process and evaluate the correspondi
 | Quantity                           |       Symbol       |                     Value |
 | :--------------------------------- | :----------------: | ------------------------: |
 | Gas                                |          —         |   Nitrogen ($\text{N}_2$) |
-| Gas constant                       |         $R$        | $0.2968 \ \text{kJ/kg·K}$ |
+| Gas constant                       |         $R$        | $0.2968 \ \text{kJ}/\text{kg}{\cdot}\text{K}$ |
 | Ratio of specific heats            | $\gamma = c_p/c_v$ |                     $1.4$ |
 | Mass                               |         $m$        |           $1 \ \text{kg}$ |
 | Initial pressure                   |        $P_1$       |        $100 \ \text{kPa}$ |
@@ -575,7 +575,7 @@ For the current system, the above processes look as follows when plotted in a $P
 
 ---
 
-:::{admonition} Tip — interpretation
+:::{admonition} Tip: interpretation
 :class: tip, dropdown
 
 A detailed interpretation in terms of energy, work and heat interactions may ensue when introducing the $1^{\text{st}}$ law formally. However, some preliminary hints can be provided so far. For the same expansion ratio ($V_2/V_1 = 2$), the **work output** depends on how the system exchanges heat:
