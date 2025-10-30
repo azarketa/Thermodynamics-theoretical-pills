@@ -17,26 +17,31 @@ The shape of this surface, and its projections on coordinate planes, provides in
 (subsec_tv_projection)=
 ### The $T-v$ projection
 
-Let us examine a simple and familiar system: a **piston–cylinder** filled with liquid water at atmospheric pressure ($P \approx 101 \ \text{kPa}$) and at an initial temperature of $20^{\circ}\text{C}$.
+Let us examine a simple and familiar system: a **piston–cylinder** filled with liquid water at atmospheric pressure ($P \approx 101 \ \text{kPa}$) and at an initial temperature of $20 \ ^{\circ}\text{C}$.
 The system is slowly heated by a thermal source such as a small burner.
 
 1. **Heating the liquid:**
+
    As heat is supplied, the temperature of the water increases. The piston remains nearly still, showing that the liquid’s **specific volume** varies very little with temperature.
 
 2. **Approaching saturation:**
-   When the temperature reaches $100^{\circ}\text{C}$ (at this pressure), the liquid becomes **saturated**. Any further addition of heat now initiates a **phase change**—the formation of vapor.
-   The water at this point is called **saturated liquid**, while the earlier state (below $100^{\circ}\text{C}$) is **subcooled** or **compressed liquid**.
+
+    When the temperature reaches $100 \ ^{\circ}\text{C}$ (at this pressure), the liquid becomes **saturated**. Any further addition of heat now initiates a **phase change**—the formation of vapor.
+   The water at this point is called **saturated liquid**, while the earlier state (below $100 \ ^{\circ}\text{C}$) is **subcooled** or **compressed liquid**.
 
 3. **Phase change:**
+
    As the vapor forms, the piston begins to move upward. The temperature and pressure remain constant during the change, but the **specific volume** increases sharply.
    During this process, both liquid and vapor coexist — this is the **saturated liquid–vapor mixture**.
    Each intermediate state corresponds to a given fraction of vaporized mass, quantified by the **quality** $x$, defined later in this section.
 
 4. **Saturated vapor:**
+
    When the last droplet of liquid evaporates, the system consists entirely of **saturated vapor**.
    Removing heat from this state would reverse the process, leading to **condensation**.
 
 5. **Superheated vapor:**
+
    If heating continues beyond the saturated vapor state, the temperature rises above the saturation temperature.
    The vapor expands, the piston ascends further, and the gas approximately follows {ref}`the ideal-gas law <eq_ideal_gas_specific_form>`. The fluid in this region is the **superheated vapor**.
 
@@ -73,7 +78,7 @@ This leads to two major conclusions:
 
     (eq_critical_magnitudes_water)=
     $$
-    T_{\text{cr}} = 373.95^{\circ}\text{C}, \quad P_{\text{cr}} = 22.06\text{MPa}
+    T_{\text{cr}} = 373.95 \ ^{\circ}\text{C}, \quad P_{\text{cr}} = 22.06\text{MPa}
     $$
     
     Supercritical fluids exhibit properties intermediate between those of gases and liquids and are used in specialized applications such as solvent extraction and supercritical drying.
@@ -110,7 +115,7 @@ This simplified $T-v$ diagram is a cornerstone of thermodynamic visualization �
 To complement the $T-v$ view, consider the same piston–cylinder system but now **maintain constant temperature** while varying pressure.
 
 By applying or removing weights on the piston, the external pressure is changed, while heat exchange with the thermal bath keeps the temperature fixed.
-The resulting **P-v diagram** shows similar features to the $T-v$ projection:
+The resulting **$P-v$ diagram** shows similar features to the $T-v$ projection:
 
 * As pressure decreases at constant $T$, the liquid begins to vaporize once $P_{\text{sat}}$ is reached.
 * At higher pressures, condensation occurs.
@@ -143,7 +148,7 @@ At still lower pressures, other transitions appear:
 
   (eq_triple_point_values_water)=
   $$
-  T_{\text{tr}} = 0.01{^\circ}\text{C}, \quad P_{\text{tr}} = 0.6117 \ \text{kPa}
+  T_{\text{tr}} = 0.01{\ ^\circ}\text{C}, \quad P_{\text{tr}} = 0.6117 \ \text{kPa}
   $$
 
 * The **sublimation process**, a direct transition from solid to vapor (or vice versa) at pressures below $P_{\text{tr}}$.
@@ -200,6 +205,127 @@ $$
 
 This intensive parameter ranges from $x=0$ (saturated liquid) to $x=1$ (saturated vapor).
 In the two-phase region, all other properties can be expressed as mass-weighted averages of their saturated-liquid and saturated-vapor values.
+
+::::{card}
+**WORKED EXAMPLE — locating water states on the $P–v–T$ diagram**
+^^^
+
+**Problem statement**
+
+For each thermodynamic state of **water**, determine the requested properties by locating the state on the $P–v–T$ surface using tabulated data{cite}`2015Cengel`:
+
+1. $P=150~\mathrm{bar}$, $T=693~\mathrm{K}$ ($=420\ ^\circ\mathrm{C}$). Find $v$.
+2. $P=0.5~\mathrm{bar}$, $u=340.49~\mathrm{kJ,kg^{-1}}$. Find $v$ and $T$.
+3. $P=6~\mathrm{bar}$, $x=0.65$. Find $v$ and $T$.
+4. $P=25~\mathrm{bar}$, $v=0.095~\mathrm{m^3,kg^{-1}}$. Find $T$.
+
+---
+
+**Synthesis**
+
+| Case | Given                                                | To find  |
+| :--- | :--------------------------------------------------- | :------- |
+| 1  | $P=150~\mathrm{bar}$, $T=420\ ^\circ\mathrm{C}$        | $v$      |
+| 2  | $P=0.5~\mathrm{bar}$, $u=340.49~\mathrm{kJkg^{-1}}$ | $v$, $T$ |
+| 3  | $P=6~\mathrm{bar}$, $x=0.65$                         | $v$, $T$ |
+| 4  | $P=25~\mathrm{bar}$, $v=0.095~\mathrm{m^3kg^{-1}}$  | $T$      |
+
+---
+
+**Solution strategy**
+
+1. **State check**: at a given $P$ or $T$, compare with saturation properties $(T_\text{sat}(P)$, $P_\text{sat}(T)$; $v_f,v_g$; $u_f,u_g$) to decide **region**: subcooled/compressed liquid, saturated mixture, or superheated vapor.
+2. **Mixture**: if saturated, $T=T_\text{sat}(P)$ and $v=v_f+x(v_g-v_f)$, $u=u_f+x(u_g-u_f)$.
+3. **Superheated / subcooled**: interpolate in the appropriate superheated/compressed tables:
+   $$y(T)=y(T_1)+\dfrac{y_2-y_1}{T_2-T_1}(T-T_1)\quad\text{at fixed }P.$$
+
+---
+
+**Calculations**
+
+1. **$P=150~\mathrm{bar},\ T=420\ ^\circ\mathrm{C}$:**
+
+   * **Check state:**
+
+        $T_\text{sat}(150~\mathrm{bar})\approx 349\ ^\circ\mathrm{C}<420\ ^\circ\mathrm{C}\Rightarrow \boxed{\text{superheated vapor}}$ .
+
+   * **Interpolate:**
+
+        * At $P=150~\mathrm{bar}$ between:
+  
+            * $T_1 = 400\ ^\circ\mathrm{C}$ ,
+            * $v_1 = 0.015671 \ \text{m}^{3}/\text{kg}$ ,
+            * $T_2=450\ ^\circ\mathrm{C}$ ,
+            * $v_1 = 0.01847 \ \text{m}^{3}/\text{kg}$.
+
+        $$
+        v(T)=v_1+\frac{v_2-v_1}{T_2-T_1}(T-T_1)
+        \quad\Rightarrow\quad
+        v=\boxed{0.01679~\text{m}^{3}/\text{kg}} \ (16.79~\text{dm}^{3}/\text{kg}).
+        $$
+
+2. **$P=0.5~\mathrm{bar},\ u=340.49~\text{kJ}/\text{kg}$:**
+
+   * **Check state:**
+
+     $T_\text{sat}(0.5~\mathrm{bar})=81.32\ ^\circ\mathrm{C}$ and $u_f\simeq340.49~\text{kJ}/\text{kg}$.
+     Since $u\approx u_f \Rightarrow \boxed{\text{saturated liquid}}$.
+
+   * **Evaluate:**
+
+     $$T=\boxed{81.32\ ^\circ\mathrm{C}} \ ,\quad v=v_f(P=0.5~\mathrm{bar})=\boxed{0.00103~\text{m}^3/\text{kg}}\ (1.03~\text{dm}^{3}/\text{kg}).$$
+
+3. **$P=6~\mathrm{bar},\ x=0.65$**
+
+   * **Check state:**
+
+     Given quality $x$, the state is on the saturation dome $\Rightarrow \boxed{\text{saturated mixture}}$:
+  
+    $$\text{saturated mixture} \implies T=T_\text{sat}(6~\mathrm{bar})=\boxed{158.83\ ^\circ\mathrm{C}} \ .$$
+
+   * **Mixture relation:**
+
+     Using $v=v_f+x,(v_g-v_f)$ at $P=6~\mathrm{bar}$ with $v_f=0.001091$ and $v_g=0.3156\ \text{m}^{3}/\text{kg}$,
+     $$
+     v=0.001091+0.65(0.3156-0.001091) = \boxed{0.20553~\text{m}^{3}/\text{kg}}\ (205.53~\text{dm}^{3}/\text{kg}).
+     $$
+
+4. **$P=25~\mathrm{bar} \ v=0.095~\text{m}^{3}/\text{kg}$**
+
+   * **Check state:**
+
+     At $25~\mathrm{bar}$, $v_g(P)\approx0.0795~\text{m}^{3}/\text{kg}$.
+     Since $v=0.095>v_g \Rightarrow \boxed{\text{superheated vapor}}$.
+
+   * **Interpolate (at fixed $P=25~\mathrm{bar}$):**
+  
+        * At $P=25~\mathrm{bar}$ between:
+  
+            * $T_1 = 250\ ^\circ\mathrm{C}$ ,
+            * $v_1 = 0.08705 \ \text{m}^{3}/\text{kg}$ ,
+            * $T_2=300\ ^\circ\mathrm{C}$ ,
+            * $v_1 = 0.09894 \ \text{m}^{3}/\text{kg}$.     
+  
+        $$
+        T=T_1+\frac{v-v_1}{v_2-v_1}(T_2-T_1) \Rightarrow T = \boxed{283.43\ ^\circ\mathrm{C}}.
+        $$
+
+---
+
+:::{admonition} Tip: reading the $P–v–T$ surface
+:class: tip
+
+* Fixing $P$ and $T$ (case a) selects an **isobar–isotherm** point; comparing $T$ with $T_\text{sat}(P)$ tells whether the state lies **inside** (mixture) or **outside** (superheated/subcooled) the dome.
+* Fixing $P$ and $u$ (case b) near $u_f$ pins the state to the **saturated liquid** line at $T_\text{sat}(P)$, so $v=v_f(P)$.
+* Specifying $P$ and $x$ (case c) places the state **on the dome** at $T_\text{sat}(P)$, with $v$ a linear blend of $v_f$ and $v_g$.
+* Fixing $P$ and a large $v$ (case d) typically means **superheated vapor**; interpolate in superheated tables to obtain $T$.
+  Together, these patterns show how simple state checks against saturation properties let you navigate the $P$–$v$–$T$ surface quickly and accurately.
+  :::
+
++++
+END OF WORKED EXAMPLE
+::::
+
 
 ---
 
