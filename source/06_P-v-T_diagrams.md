@@ -215,9 +215,9 @@ In the two-phase region, all other properties can be expressed as mass-weighted 
 For each thermodynamic state of **water**, determine the requested properties by locating the state on the $P–v–T$ surface using tabulated data{cite}`2015Cengel`:
 
 1. $P=150~\mathrm{bar}$, $T=693~\mathrm{K}$ ($=420\ ^\circ\mathrm{C}$). Find $v$.
-2. $P=0.5~\mathrm{bar}$, $u=340.49~\mathrm{kJ,kg^{-1}}$. Find $v$ and $T$.
+2. $P=0.5~\mathrm{bar}$, $u=340.49~\text{kJ}/\text{kg}$. Find $v$ and $T$.
 3. $P=6~\mathrm{bar}$, $x=0.65$. Find $v$ and $T$.
-4. $P=25~\mathrm{bar}$, $v=0.095~\mathrm{m^3,kg^{-1}}$. Find $T$.
+4. $P=25~\mathrm{bar}$, $v=0.095~\text{m}^{3}/\text{kg}$. Find $T$.
 
 ---
 
@@ -226,9 +226,9 @@ For each thermodynamic state of **water**, determine the requested properties by
 | Case | Given                                                | To find  |
 | :--- | :--------------------------------------------------- | :------- |
 | 1  | $P=150~\mathrm{bar}$, $T=420\ ^\circ\mathrm{C}$        | $v$      |
-| 2  | $P=0.5~\mathrm{bar}$, $u=340.49~\mathrm{kJkg^{-1}}$ | $v$, $T$ |
+| 2  | $P=0.5~\mathrm{bar}$, $u=340.49~\text{kJ}/\text{kg}$ | $v$, $T$ |
 | 3  | $P=6~\mathrm{bar}$, $x=0.65$                         | $v$, $T$ |
-| 4  | $P=25~\mathrm{bar}$, $v=0.095~\mathrm{m^3kg^{-1}}$  | $T$      |
+| 4  | $P=25~\mathrm{bar}$, $v=0.095~\text{m}^{3}/\text{kg}$  | $T$      |
 
 ---
 
