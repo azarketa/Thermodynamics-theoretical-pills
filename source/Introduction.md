@@ -50,14 +50,14 @@ Every physical process — whether mechanical motion, chemical reaction or any g
 
 In essence, thermodynamics concerns itself with three questions fundamental to all processes:
 
-1. **Feasibility:** Can the process occur?
-2. **Quantity:** How much energy is exchanged or transformed?
-3. **Quality:** How effectively can that energy be converted into useful work?
+1. **Feasibility:** can the process occur?
+2. **Quantity:** how much energy is exchanged or transformed?
+3. **Quality:** how effectively can that energy be converted into useful work?
 
 These questions are answered by two foundational principles:
 
-* The **$1^{\text{st}}$ law of Thermodynamics**, which expresses the **conservation of energy**.
-* The **$2^{\text{nd}}$ law of Thermodynamics**, which introduces **entropy** and defines the **direction** and **limitations** of natural processes.
+* The **$1^{\text{st}}$ law of thermodynamics**, which expresses the **conservation of energy**.
+* The **$2^{\text{nd}}$ law of thermodynamics**, which introduces **entropy** and defines the **direction** and **limitations** of natural processes.
 
 Together, they describe not only how much energy changes, but how **useful** that energy remains after transformation.
 
