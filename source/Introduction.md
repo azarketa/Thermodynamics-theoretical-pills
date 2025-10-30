@@ -56,8 +56,8 @@ In essence, thermodynamics concerns itself with three questions fundamental to a
 
 These questions are answered by two foundational principles:
 
-* The **First Law of Thermodynamics**, which expresses the **conservation of energy**.
-* The **Second Law of Thermodynamics**, which introduces **entropy** and defines the **direction** and **limitations** of natural processes.
+* The **$1^{\text{st}}$ law of Thermodynamics**, which expresses the **conservation of energy**.
+* The **$2^{\text{nd}}$ law of Thermodynamics**, which introduces **entropy** and defines the **direction** and **limitations** of natural processes.
 
 Together, they describe not only how much energy changes, but how **useful** that energy remains after transformation.
 
@@ -147,7 +147,7 @@ It does not rely on molecular detail — it is a phenomenological science, deali
 The **microscopic foundation** of thermodynamics.
 It connects macroscopic laws to the statistical behavior of molecules.
 Entropy becomes a measure of **probability**, expressed as $S{}={}k_B{}\ln{}\Omega$.
-Here, the Second Law arises naturally as systems evolve toward the **most probable distribution** of energy states.
+Here, the $2^{\text{nd}}$ law arises naturally as systems evolve toward the **most probable distribution** of energy states.
 This level explains *why* the macroscopic laws hold true.
 
 (subsec_quantum_thermodynamics)=
@@ -163,8 +163,8 @@ Even here, the same two laws persist: energy is conserved, and entropy never dec
 
 Across all these levels, the message remains the same:
 
-* The **First Law** enforces energy conservation.
-* The **Second Law** introduces direction, irreversibility, and entropy.
+* The **$1^{\text{st}}$ law** enforces energy conservation.
+* The **$2^{\text{nd}}$ law** introduces direction, irreversibility, and entropy.
 * The combination of both defines **exergy**, the measure of how much energy can be usefully converted into work.
 
 Thermodynamics is therefore not just a discipline — it is a **meta-theory** of nature.
@@ -206,7 +206,7 @@ This first block builds the conceptual and mathematical tools required to analyz
   Defines *work* and *heat* as energy in transit, associated respectively with *organized* and *disorganized* molecular motion.
   Emphasizes sign conventions and path dependence; includes mechanical (shaft, boundary, electrical) and flow work examples.
 
-* **First law of thermodynamics**
+* **$1^{\text{st}}$ law of thermodynamics**
 
   * *Closed systems*: internal energy change as the net balance between heat added and work done, $\Delta U{}={}Q{}-{}W$.
     Introduces special processes — isochoric, isobaric, isothermal, adiabatic — and their energy implications.
@@ -214,13 +214,13 @@ This first block builds the conceptual and mathematical tools required to analyz
     Canonical devices: **turbine**, **compressor/pump**, **nozzle/diffuser**, **heat exchanger**, **mixing chamber**, **throttling valve**.
     Each device type is studied under simplifying assumptions that reveal its characteristic energy conversion.
 
-* **Second law of thermodynamics**
+* **$2^{\text{nd}}$ law of thermodynamics**
   Introduces the concepts of *directionality* and *limitation*.
   States the **Kelvin–Planck** and **Clausius** formulations; defines *entropy* as a property whose change quantifies irreversibility.
   Establishes *entropy balance*, *reversible* vs. *irreversible* processes, and device efficiencies (isentropic and overall).
 
 * **Exergy and irreversibility**
-  Combines the first and second laws to express the *useful portion of energy* relative to an environment (the *dead state*).
+  Combines the first and $2^{\text{nd}}$ laws to express the *useful portion of energy* relative to an environment (the *dead state*).
   Defines *flow exergy*, *non-flow exergy*, and *exergy destruction* $I{}={}T_0 S_{\text{gen}}$.
   Provides a unified framework for quantifying the *quality* of energy and losses across systems.
 
@@ -304,7 +304,7 @@ They are modeled as **air-standard cycles**, providing idealized references for 
 :class: note, dropdown
 
 **Central idea:** ICRE analysis connects ideal cyclic reasoning with real engine behavior.
-Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same **First Law** and **Second Law** constraints.
+Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same **$1^{\text{st}}$ law** and **$2^{\text{nd}}$ law** constraints.
 :::
 
 (subsec_steam_cycles)=
@@ -369,8 +369,8 @@ Through condensation, regeneration, and combination with gas cycles, they demons
 
 Across all blocks, the same analytical pillars stand:
 
-* **Conservation of energy (First Law).**
-* **Directionality and limitation (Second Law).**
+* **Conservation of energy ($1^{\text{st}}$ law).**
+* **Directionality and limitation ($2^{\text{nd}}$ law).**
 * **Quality and degradation of energy (Exergy).**
 
 Together they form a coherent view of **Applied Thermodynamics** — from first principles to interconnected energy systems.
