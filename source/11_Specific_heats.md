@@ -403,7 +403,7 @@ Path relations used to obtain $T_2$:
    Volume doubling:
 
    $$
-   Pv=RT \Rightarrow \frac{V_2}{V_1} = \frac{T_2}{T_1} \xRightarrow{V_2=2V_1} \frac{T_2}{T_1}=2
+   Pv=RT \Rightarrow \frac{V_2}{V_1} = \frac{T_2}{T_1}; \ V_{2}=2V_{1} \implies \frac{T_2}{T_1}=2
    $$
 
    $$
@@ -427,13 +427,18 @@ Path relations used to obtain $T_2$:
    Cross‐check via enthalpy:
     
    $$
-   c_p = c_v + R = 0.742 + 0.2968 = 1.0388~\mathrm{\tfrac{kJ}{kg\cdot K}}, \qquad
+   c_p = c_v + R = 0.742 + 0.2968 = 1.0388~\mathrm{\tfrac{kJ}{kg\cdot K}},
+   $$
+   
+   $$
    \Delta T = T_2 - T_1 = 600 - 300 = 300~\mathrm{K}.
    $$
    
    $$
-   \Delta H = m c_p \Delta T = (1)(1.0388)(300) = 311.6~\mathrm{kJ},
-   \quad
+   \Delta H = m c_p \Delta T = (1)(1.0388)(300) = 311.6~\mathrm{kJ} \ \text{or}
+   $$
+   
+   $$
    \Delta H = \Delta U + W = 222.6 + 89.0 = 311.6~\mathrm{kJ}.
    $$
    
