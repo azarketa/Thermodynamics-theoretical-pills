@@ -27,6 +27,7 @@ Thermal and Fluids Engineering: Theoretical Pills
    Humid air <08_Humid_air>
    Energy, work and heat <09_Energy_work_and_heat>
    $1^{\text{st}}$ Law in closed systems <10_1st_law_in_closed_systems>
+   Specific heats <11_Specific_heats>
    
 .. toctree::
    :maxdepth: 4
