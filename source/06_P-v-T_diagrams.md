@@ -237,6 +237,7 @@ For each thermodynamic state of **water**, determine the requested properties by
 1. **State check**: at a given $P$ or $T$, compare with saturation properties $(T_\text{sat}(P)$, $P_\text{sat}(T)$; $v_f,v_g$; $u_f,u_g$) to decide **region**: subcooled/compressed liquid, saturated mixture, or superheated vapor.
 2. **Mixture**: if saturated, $T=T_\text{sat}(P)$ and $v=v_f+x(v_g-v_f)$, $u=u_f+x(u_g-u_f)$.
 3. **Superheated / subcooled**: interpolate in the appropriate superheated/compressed tables:
+
    $$y(T)=y(T_1)+\dfrac{y_2-y_1}{T_2-T_1}(T-T_1)\quad\text{at fixed }P.$$
 
 ---
@@ -286,6 +287,7 @@ For each thermodynamic state of **water**, determine the requested properties by
    * **Mixture relation:**
 
      Using $v=v_f+x,(v_g-v_f)$ at $P=6~\mathrm{bar}$ with $v_f=0.001091$ and $v_g=0.3156\ \text{m}^{3}/\text{kg}$,
+   
      $$
      v=0.001091+0.65(0.3156-0.001091) = \boxed{0.20553~\text{m}^{3}/\text{kg}}\ (205.53~\text{dm}^{3}/\text{kg}).
      $$
@@ -309,6 +311,21 @@ For each thermodynamic state of **water**, determine the requested properties by
         $$
         T=T_1+\frac{v-v_1}{v_2-v_1}(T_2-T_1) \Rightarrow T = \boxed{283.43\ ^\circ\mathrm{C}}.
         $$
+
+---
+
+**Summary and insights**
+
+|   Case  | Phase Region      | Results                                                                                                |
+| :-----: | :---------------- | :----------------------------------------------------------------------------------------------------- |
+| 1 | Superheated vapor | $v = 0.01679~\text{m}^{3}/\text{kg}\ (16.79~\text{dm}^{3}/\text{kg})$                                  |
+| 2 | Saturated liquid  | $T = 81.32~^\circ\text{C},\quad v = 0.00103~\text{m}^{3}/\text{kg}\ (1.03~\text{dm}^{3}/\text{kg})$    |
+| 3 | Saturated mixture | $T = 158.83~^\circ\text{C},\quad v = 0.20553~\text{m}^{3}/\text{kg}\ (205.53~\text{dm}^{3}/\text{kg})$ |
+| 4 | Superheated vapor | $T = 283.43~^\circ\text{C}$                                                                            |
+
+* Comparing given states with **saturation properties** allows immediate phase identification.
+* Mixture states (case c) lie **inside the dome**; subcooled and superheated states (a, b, d) lie **outside** it.
+* Linear interpolation across tabulated data provides accurate intermediate values for both $v$ and $T$.
 
 ---
 

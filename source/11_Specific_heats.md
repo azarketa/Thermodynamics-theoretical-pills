@@ -594,9 +594,13 @@ This example extends the same–$\Delta E$ comparison to **final temperatures** 
 * **Adiabatic, reversible:** here $\Delta E_{\mathrm{mech.}}=0$ is a **result**, not an assumption. The constraints $Q=0$ and $PV^\gamma=\mathrm{const.}$ fix $T_2$, so that $\Delta U=-W$ and $\Delta E=\Delta U$.
 * **Polytropic ($n=1.2$):** intermediate behavior between isothermal and adiabatic. Part of the fixed loss occurs as internal cooling, and the rest as a mechanical‐energy decrease, yielding $T_2$ between the isothermal and adiabatic values.
 
+<br/>
+
 * **Macroscopic insight:**
 
   The sign and magnitude of $\Delta E_{\mathrm{mech.}}$ describe how the system’s **bulk kinetic or potential energy** changes. Large negative values (as in the isobaric case) indicate significant **mechanical energy release** to the surroundings—such as lifting a piston—whereas $\Delta E_{\mathrm{mech.}}=0$ corresponds to a **stationary system** whose energy changes are purely thermal.
+
+<br/>
 
 * **Overall takeaway:**
 
