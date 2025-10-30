@@ -296,6 +296,313 @@ In short:
 The decreasing values of $\gamma$ with the increasing complexity of the molecular structre illustrates how such a complexity broadens the number of energy-storage modes and making the gas more “thermally compliant.” Such a thermal compliance means that the gas can **absorb more energy for a given temperature increase** — in other words, it has more ways to store energy internally (through rotational and vibrational modes). As molecular complexity increases, energy is distributed among more degrees of freedom, so temperature rises less for the same energy input, resulting in a **lower** value of $\gamma$.
 :::
 
+::::{card}
+**WORKED EXAMPLE — final temperatures with a perfect gas model**
+^^^
+
+**Problem statement**
+
+In the two previous worked examples, we have {ref}`calculated the work associated with different processes <card_worked_example_boundary_work>` and {ref}`obtained the required heat input for a fixed net energy change <card_worked_example_energy_balance>`.
+The purpose of this worked example is to determine the **final temperature** of nitrogen ($\mathrm{N_2}$) at the end of those processes, using the **perfect gas model**.
+
+We consider the **same system and initial state** (closed system, $m=1~\mathrm{kg}$ of $\mathrm{N_2}$, $P_1=100~\mathrm{kPa}$, $T_1=300~\mathrm{K}$) and keep the **same net stored‐energy change** as before:
+
+$$
+\Delta E = -53.9~\mathrm{kJ}.
+$$
+
+Caveat: {ref}`mind that, in general <eq_first_law_components>`, $\Delta E \neq \Delta U$. For a closed system,
+
+$$
+\Delta E = \Delta U + \Delta E_{\text{k.}} + \Delta E_{\text{p.}} = \Delta U + \Delta E_{\mathrm{mech.}} = Q - W,
+$$
+
+so the **mechanical‐energy** change $\Delta E_{\mathrm{mech.}} = \Delta E_{\text{k.}} + \Delta E_{\text{p.}}$ must be accounted for.
+
+---
+
+**Synthesis**
+
+Perfect‐gas, constant specific heats:
+
+$$
+c_v = \frac{R}{\gamma-1}, \qquad \Delta U = m c_v (T_2 - T_1).
+$$
+
+With $\Delta E$ fixed and the known $W$ from the boundary‐work example:
+
+$$
+Q = \Delta E + W, \qquad \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U.
+$$
+
+Path relations used to obtain $T_2$:
+* isochoric $V=\mathrm{const.}$ (assume $\Delta E_{\mathrm{mech.}}=0$);
+* isobaric $P=\mathrm{const.}$ with volume doubling ($T_2/T_1=V_2/V_1=2$);
+* isothermal $T=\mathrm{const.}$;
+* adiabatic, reversible $Q=0,\ PV^\gamma=\mathrm{const.}$;
+* polytropic $PV^n=\mathrm{const.}$ with $n=1.2$.
+
+---
+
+**Problem data**
+
+**Constants and initial state**
+
+| Quantity                  |        Symbol        |                            Value |
+| :------------------------ | :------------------: | -------------------------------: |
+| Gas                       |           —          |         Nitrogen, $\mathrm{N_2}$ |
+| Mass                      |          $m$         |                  $1~\mathrm{kg}$ |
+| Initial temperature       |         $T_1$        |                 $300~\mathrm{K}$ |
+| Initial pressure          |         $P_1$        |               $100~\mathrm{kPa}$ |
+| Gas constant              |          $R$         | $0.2968~\mathrm{kJ/(kg\cdot K)}$ |
+| Heat‐capacity ratio       |       $\gamma$       |                            $1.4$ |
+| Specific heat at $V$      | $c_v = R/(\gamma-1)$ |  $0.742~\mathrm{kJ/(kg\cdot K)}$ |
+| Fixed total energy change |      $\Delta E$      |              $-53.9~\mathrm{kJ}$ |
+
+**Work from the boundary‐work example**
+
+| Process                |          Relation          | $W$ [kJ] |
+| :--------------------- | :------------------------: | -------: |
+| Isochoric              |     $V=\mathrm{const.}$    |     +0.0 |
+| Isobaric               |     $P=\mathrm{const.}$    |    +89.0 |
+| Isothermal             |     $T=\mathrm{const.}$    |    +61.7 |
+| Adiabatic (reversible) | $PV^{1.4}=\mathrm{const.}$ |    +53.9 |
+| Polytropic $n=1.2$     | $PV^{1.2}=\mathrm{const.}$ |    +65.0 |
+
+---
+
+**Calculations**
+
+1. **Isochoric**
+
+   $W = 0$.
+   Assume rigid, stationary vessel $\Rightarrow \Delta E_{\mathrm{mech.}} = 0$.
+   Then $\Delta U = \Delta E = -53.9~\mathrm{kJ}$ and:
+
+   $$
+   T_2 = T_1 + \frac{\Delta U}{m c_v}
+   = 300 + \frac{-53.9}{0.742}
+   = 227.4~\mathrm{K}.
+   $$
+
+   $$
+   \boxed{T_2 = 227.4~\mathrm{K}}, \quad
+   \boxed{Q = -53.9~\mathrm{kJ}}, \quad
+   \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
+   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}}
+   $$
+
+---
+
+2. **Isobaric**
+
+   $$
+   W = +89.0~\mathrm{kJ}.
+   $$
+
+   Volume doubling:
+
+   $$
+   Pv=RT \Rightarrow \frac{V_2}{V_1} = \frac{T_2}{T_1} \xRightarrow{V_2=2V_1} \frac{T_2}{T_1}=2
+   $$
+
+   $$
+   \Delta U = m c_v (T_2 - T_1)
+   = (1)(0.742)(300)
+   = +222.6~\mathrm{kJ}.
+   $$
+
+   $$
+   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
+   = -53.9 - 222.6
+   = -276.5~\mathrm{kJ}.
+   $$
+
+   $$
+   Q = \Delta E + W
+   = -53.9 + 89.0
+   = +35.1~\mathrm{kJ}.
+   $$
+
+   Cross‐check via enthalpy:
+    
+   $$
+   c_p = c_v + R = 0.742 + 0.2968 = 1.0388~\mathrm{\tfrac{kJ}{kg\cdot K}}, \qquad
+   \Delta T = T_2 - T_1 = 600 - 300 = 300~\mathrm{K}.
+   $$
+   
+   $$
+   \Delta H = m c_p \Delta T = (1)(1.0388)(300) = 311.6~\mathrm{kJ},
+   \quad
+   \Delta H = \Delta U + W = 222.6 + 89.0 = 311.6~\mathrm{kJ}.
+   $$
+   
+   $$
+   Q = \Delta H + \Delta E_{\mathrm{mech.}}
+   = 311.6 - 276.5
+   = 35.1~\mathrm{kJ} \quad (\text{same result}).
+   $$
+   
+   $$
+   \boxed{T_2 = 600.0~\mathrm{K}}, \quad
+   \boxed{Q = +35.1~\mathrm{kJ}}, \quad
+   \boxed{\Delta U = +222.6~\mathrm{kJ}}, \quad
+   \boxed{\Delta E_{\mathrm{mech.}} = -276.5~\mathrm{kJ}}
+   $$
+
+---
+
+3. **Isothermal**
+
+   $$
+   W = +61.7~\mathrm{kJ}.
+   $$
+
+   Since $T_2 = T_1 = 300.0~\mathrm{K}$,
+   $\Delta U = 0$ and
+
+   $$
+   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
+   = -53.9 - 0
+   = -53.9~\mathrm{kJ}.
+   $$
+
+   $$
+   Q = \Delta E + W
+   = -53.9 + 61.7
+   = +7.8~\mathrm{kJ}.
+   $$
+
+   $$
+   \boxed{T_2 = 300.0~\mathrm{K}}, \quad
+   \boxed{Q = +7.8~\mathrm{kJ}}, \quad
+   \boxed{\Delta U = 0.0~\mathrm{kJ}}, \quad
+   \boxed{\Delta E_{\mathrm{mech.}} = -53.9~\mathrm{kJ}}
+   $$
+
+---
+
+4. **Adiabatic**
+
+   $Q = 0$, and $PV^\gamma = \mathrm{const.}$ with volume doubling:
+
+   $$
+   T_2 = T_1 \left(\frac{V_1}{V_2}\right)^{\gamma-1}
+   = 300(0.5)^{0.4}
+   = 227.4~\mathrm{K}.
+   $$
+
+   $$
+   \Delta U = m c_v (T_2 - T_1)
+   = (1)(0.742)(227.4 - 300)
+   = -53.9~\mathrm{kJ}.
+   $$
+
+   $$
+   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
+   = -53.9 - (-53.9)
+   = 0.0~\mathrm{kJ}.
+   $$
+
+   $$
+   W = Q - \Delta E = 0 - (-53.9) = +53.9~\mathrm{kJ}.
+   $$
+
+   $$
+   \boxed{T_2 = 227.4~\mathrm{K}}, \quad
+   \boxed{Q = 0.0~\mathrm{kJ}}, \quad
+   \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
+   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}}
+   $$
+
+---
+
+5. **Polytropic ($n=1.2$)**
+
+   $$
+   W = +65.0~\mathrm{kJ}.
+   $$
+
+   $$
+   T_2 = T_1 (V_2/V_1)^{1-n}
+   = 300 \cdot 2^{-0.2}
+   = 261.2~\mathrm{K}.
+   $$
+
+   $$
+   \Delta U = m c_v (T_2 - T_1)
+   = (1)(0.742)(261.2 - 300)
+   = -28.8~\mathrm{kJ}.
+   $$
+
+   $$
+   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
+   = -53.9 - (-28.8)
+   = -25.1~\mathrm{kJ}.
+   $$
+
+   $$
+   Q = \Delta E + W
+   = -53.9 + 65.0
+   = +11.1~\mathrm{kJ}.
+   $$
+
+   $$
+   \boxed{T_2 = 261.2~\mathrm{K}}, \quad
+   \boxed{Q = +11.1~\mathrm{kJ}}, \quad
+   \boxed{\Delta U = -28.8~\mathrm{kJ}}, \quad
+   \boxed{\Delta E_{\mathrm{mech.}} = -25.1~\mathrm{kJ}}
+   $$
+
+---
+
+**Summary of results**
+
+| Process              |          Relation          | $W$ [kJ] | $Q$ [kJ] | $T_2$ [K] | $\Delta U$ [kJ] | $\Delta E_{\mathrm{mech.}}$ [kJ] |
+| :------------------- | :------------------------: | -------: | -------: | --------: | --------------: | ------------------------------: |
+| Isochoric            |     $V=\mathrm{const.}$    |     +0.0 |    −53.9 |     227.4 |           −53.9 |                             0.0 |
+| Isobaric             |     $P=\mathrm{const.}$    |    +89.0 |    +35.1 |     600.0 |          +222.6 |                          −276.5 |
+| Isothermal           |     $T=\mathrm{const.}$    |    +61.7 |     +7.8 |     300.0 |             0.0 |                           −53.9 |
+| Adiabatic (rev.)     | $PV^{1.4}=\mathrm{const.}$ |    +53.9 |      0.0 |     227.4 |           −53.9 |                             0.0 |
+| Polytropic ($n=1.2$) | $PV^{1.2}=\mathrm{const.}$ |    +65.0 |    +11.1 |     261.2 |           −28.8 |                           −25.1 |
+
+---
+
+**Visualization**
+
+The bar chart below compares, for each process, the **internal** $U$ and **mechanical** $E_{\text{mech.}}$ variations that together yield the same total energy loss $\Delta E = -53.9\ \mathrm{kJ}$.
+A horizontal dashed line marks $\Delta E$.
+
+![budgetE-diagram](1_fundamentals_figs/energy_budget_diagram_worked_example_mod.svg)
+
+---
+
+:::{admonition} Tip: interpretation
+:class: tip, dropdown
+
+This example extends the same–$\Delta E$ comparison to **final temperatures** under a perfect‐gas model, while explicitly tracking **mechanical‐energy changes**.
+
+* **Energy bookkeeping:** for every path, the first law is satisfied as $\Delta E = \Delta U + \Delta E_{\mathrm{mech.}} = Q - W$. With $\Delta E$ fixed, $Q$ shifts with $W$, and $T_2$ follows from $\Delta U = m c_v \Delta T$.
+* **Isochoric:** by **assumption**, the vessel is rigid and stationary, so $\Delta E_{\mathrm{mech.}}=0$. With $W=0$, the entire energy loss is internal cooling, yielding $T_2=227.4~\mathrm{K}$.
+* **Isobaric:** constant‐pressure expansion doubles the volume. Internal energy rises sharply; to keep the same total loss, the system must **lose mechanical energy**. Macroscopically, this corresponds to the gas doing work that propels a piston upward or raises a weight.
+* **Isothermal:** temperature remains fixed ($\Delta U=0$). The total energy decrease appears as a **loss of mechanical energy**, representing the system’s macroscopic expansion against external resistance.
+* **Adiabatic, reversible:** here $\Delta E_{\mathrm{mech.}}=0$ is a **result**, not an assumption. The constraints $Q=0$ and $PV^\gamma=\mathrm{const.}$ fix $T_2$, so that $\Delta U=-W$ and $\Delta E=\Delta U$.
+* **Polytropic ($n=1.2$):** intermediate behavior between isothermal and adiabatic. Part of the fixed loss occurs as internal cooling, and the rest as a mechanical‐energy decrease, yielding $T_2$ between the isothermal and adiabatic values.
+
+* **Macroscopic insight:**
+
+  The sign and magnitude of $\Delta E_{\mathrm{mech.}}$ describe how the system’s **bulk kinetic or potential energy** changes. Large negative values (as in the isobaric case) indicate significant **mechanical energy release** to the surroundings—such as lifting a piston—whereas $\Delta E_{\mathrm{mech.}}=0$ corresponds to a **stationary system** whose energy changes are purely thermal.
+
+* **Overall takeaway:**
+
+    Even with the same total energy change ($\Delta E=-53.9~\mathrm{kJ}$), each process redistributes the energy differently among $Q$, $W$, $\Delta U$, and $\Delta E_{\mathrm{mech.}}$.
+    The process path determines the **final temperature** and the way thermal and mechanical exchanges balance to satisfy the first law.
+:::
+
++++
+END OF WORKED EXAMPLE
+::::
+
 ---
 
 (subsec_conceptual_closure_specific_heats)=
