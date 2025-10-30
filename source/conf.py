@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Thermodynamics: theoretical pills'
-copyright = '2025, TEFLU'
+project = 'Thermal and Fluids Engineering: Theoretical Pills'
+copyright = '2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU'
 author = 'TEFLU'
 
 # conf.py
@@ -49,6 +49,7 @@ mathjax3_config = {
         "tags": "ams",         # "none", "ams", or "all"
         "useLabelIds": True,   # use \label or directive labels as anchor IDs
         "packages": {"[+]": ["cancel"]},   # <-- enable \cancel
+        "inlineMath": [["$", "$"], ["\\(", "\\)"]],  # allow $...$ too
     }
 }
 
