@@ -279,7 +279,7 @@ For each thermodynamic state of **water**, determine the requested properties by
 
    * **Check state:**
 
-     Given quality $x$, the state is on the saturation dome $\Rightarrow \boxed{\text{saturated mixture}}$:
+     Given quality $x$, the state is on the saturation dome $\Rightarrow \boxed{\text{saturated mixture}}$ :
   
     $$\text{saturated mixture} \implies T=T_\text{sat}(6~\mathrm{bar})=\boxed{158.83\ ^\circ\mathrm{C}} \ .$$
 
@@ -295,7 +295,7 @@ For each thermodynamic state of **water**, determine the requested properties by
    * **Check state:**
 
      At $25~\mathrm{bar}$, $v_g(P)\approx0.0795~\text{m}^{3}/\text{kg}$.
-     Since $v=0.095>v_g \Rightarrow \boxed{\text{superheated vapor}}$.
+     Since $v=0.095>v_g \Rightarrow \boxed{\text{superheated vapor}}$ .
 
    * **Interpolate (at fixed $P=25~\mathrm{bar}$):**
   
