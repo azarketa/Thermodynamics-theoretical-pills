@@ -272,7 +272,7 @@ $$
         The **dew point** is the temperature at which the *saturation pressure* equals this vapor pressure:
 
         $$
-        p_{\text{g}}(T_{dp}) = p_{\text{v}} = 23.4\ \text{kPa}.
+        p_{\text{g}}(T_{\text{dp}}) = p_{\text{v}} = 23.4\ \text{kPa}.
         $$
 
         From standard steam tables{cite}`2015Cengel`:
@@ -287,13 +287,13 @@ $$
   
         $$
         \begin{gather*}
-        T_{dp,70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\[10pt]
+        T_{\text{dp},70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\[10pt]
         = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
         \end{gather*}
         $$
 
         $$
-        \boxed{T_{dp,70} \approx 63.4 \ ^\circ\text{C}}.
+        \boxed{T_{\text{dp},70} \approx 63.4 \ ^\circ\text{C}}.
         $$
   
 ---
@@ -366,20 +366,20 @@ $$
   
         $$
         \begin{gather*}
-        T_{dp,20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\[10pt]
+        T_{\text{dp},20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\[10pt]
         = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
         \end{gather*}
         $$
         
         $$
-        \boxed{T_{dp,20} \approx 15.4 \ ^\circ\text{C}}.
+        \boxed{T_{\text{dp},20} \approx 15.4 \ ^\circ\text{C}}.
         $$
 
 ---
 
 3. **Comparative table**
 
-| Case | $T$ $[^{\circ}\text{C}]$ | $\phi$ $[–]$ | $p_{\text{v}}$ $[\text{kPa}]$ | $p_{\text{a}}$ $[\text{kPa}]$ | $\omega$ $[\text{kg}_{\text{v}}/\text{kg}_{\text{a}}]$ | $m_{\text{a}}$ $[\text{kg}]$ | $m_{\text{v}}$ $[\text{kg}]$ | $m_{\text{tot}}$ $[\text{kg}]$ | $T_{dp}$ $[^{\circ}\text{C}]$ |
+| Case | $T$ $[^{\circ}\text{C}]$ | $\phi$ $[–]$ | $p_{\text{v}}$ $[\text{kPa}]$ | $p_{\text{a}}$ $[\text{kPa}]$ | $\omega$ $[\text{kg}_{\text{v}}/\text{kg}_{\text{a}}]$ | $m_{\text{a}}$ $[\text{kg}]$ | $m_{\text{v}}$ $[\text{kg}]$ | $m_{\text{tot}}$ $[\text{kg}]$ | $T_{\text{dp}}$ $[^{\circ}\text{C}]$ |
 | :------------------------------------ | :------: | :--------: | :---------: | :------------: | :--------------------: | ------------: | ---------: | ----------------------: | :------: |
 | **Nominal operation** | $70$ | $0.75$ | $23.4$  | $77.93$ | $0.1868$ | $23.73$ | $4.433$ | $28.17$ | $63.4$ |
 | **Sauna off** | $20$ | $0.75$ | $1.754$ | $99.57$ | $0.01096$ | $35.50$ | $0.389$ | $35.89$ | $15.4$ |
