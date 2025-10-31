@@ -144,8 +144,9 @@ Consequently, the {ref}`differential of enthalpy <eq_differential_enthalpy>` is 
 This property-based nature of $H$ is what allows enthalpy, like internal energy, to appear directly in state equations and thermodynamic tables.
 :::
 
+(card_worked_example_energy_balance)=
 ::::{card}
-**WORKED EXAMPLE — Energy balance under different processes (applied)**
+**WORKED EXAMPLE — energy balance under different processes (applied)**
 ^^^
 
 **Problem statement**

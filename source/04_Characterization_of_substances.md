@@ -17,12 +17,12 @@ The key questions are:
 
 Substances are categorized according to their **chemical composition** and **homogeneity**.
 
-* **Pure substances** — uniform and invariable chemical composition.
+* **Pure substances**: uniform and invariable chemical composition.
 
   * *Simple*: composed of a single chemical element (e.g. $\text{H}_2$, $\text{O}_2$).
   * *Compound*: composed of more than one element (e.g. $\text{H}_2\text{O}$, $\text{CO}_2$).
 
-* **Mixtures** — physical combinations of two or more pure substances.
+* **Mixtures**: physical combinations of two or more pure substances.
 
   * *Homogeneous mixtures*: uniform composition throughout (e.g. air, aqueous solutions).
   * *Heterogeneous mixtures*: composition varies spatially (e.g. oil and water).

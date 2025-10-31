@@ -19,7 +19,7 @@ It represents a state of **maximum stability** under the given constraints.
 :::
 
 Intuitively, all systems tend toward equilibrium when left undisturbed.
-Mathematically, this natural tendency is described by the **Second Law of Thermodynamics**, which introduces **entropy ($S$)** as the magnitude that quantifies how systems evolve toward equilibrium.
+Mathematically, this natural tendency is described by the **Second law of Thermodynamics**, which introduces **entropy ($S$)** as the magnitude that quantifies how systems evolve toward equilibrium.
 
 To verify whether a system is in equilibrium, we must examine the following aspects:
 
@@ -35,26 +35,26 @@ A system in full equilibrium satisfies all three conditions simultaneously.
 ---
 
 (subsec_zeroth_law)=
-### Zeroth law of Thermodynamics and empirical definition of temperature
+### $0^{\text{th}}$ law of Thermodynamics and empirical definition of temperature
 
-Chronologically, the **Zeroth Law** was formulated after the other laws, but it is **more fundamental** because it allows temperature to be defined as a measurable property.
+Chronologically, the **$0^{\text{th}}$ law** was formulated after the other laws, but it is **more fundamental** because it allows temperature to be defined as a measurable property.
 
 It can be stated as follows:
 
-:::{admonition} Important: the zeroth law
+:::{admonition} Important: the $0^{\text{th}}$ law
 :class: warning
 If two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.
 :::
 
 Formally, if system $A$ (at temperature $T_A$) is in equilibrium with system $B$ ($T_B$), and $B$ is in equilibrium with $C$ ($T_C$), then:
 
-(eq_zeroth_law_consequence)=
+(eq_$0^{\text{th}}$_law_consequence)=
 $$
 T_A = T_B \quad \text{and} \quad T_B = T_C \ \Longrightarrow \ T_A = T_C
 $$
 
 This transitive property implies that temperature is a **well-defined property** independent of system size or composition.
-The Zeroth Law does not define a *numerical scale* for temperature but proves that **temperature is a property that can be measured** — it legitimizes the concept of a **thermometer**.
+The $0^{\text{th}}$ law does not define a *numerical scale* for temperature but proves that **temperature is a property that can be measured** — it legitimizes the concept of a **thermometer**.
 
 :::{admonition} Note: empirical meaning of temperature
 :class: note, dropdown
@@ -67,7 +67,7 @@ If no heat flow occurs between them when placed in contact, they share the same 
 (subsec_temperature_scales)=
 ### Temperature scales
 
-Once the Zeroth Law is established, we can build **temperature scales** as comparative protocols.
+Once the $0^{\text{th}}$ law is established, we can build **temperature scales** as comparative protocols.
 Any reproducible physical phenomenon that varies monotonically with temperature (such as volume of a liquid, resistance of a wire, or pressure of a gas) can serve as a basis for a scale.
 
 The choice of a scale is conventional — multiple temperature scales coexist, though two are dominant in engineering and science.
@@ -97,7 +97,7 @@ $$
 
 William Thomson (Lord Kelvin) deduced the concept of **absolute zero**, the temperature at which molecular motion would theoretically cease.
 This lower limit, $0\ \text{K}$, corresponds to $-273.15\ [^\circ\text{C}]$.
-While absolute zero cannot be reached (as prohibited by quantum mechanics and the Third Law), it provides a universal reference.
+While absolute zero cannot be reached (as prohibited by quantum mechanics and the Third law), it provides a universal reference.
 
 :::{admonition} Important: absolute temperature
 :class: warning
@@ -181,7 +181,7 @@ making it possible to define and integrate its thermodynamic properties.
 ### Conceptual closure
 
 * Equilibrium means absence of macroscopic changes.
-* The Zeroth Law defines temperature as the property indicating thermal equilibrium.
+* The $0^{\text{th}}$ law defines temperature as the property indicating thermal equilibrium.
 * Temperature scales translate this concept into measurable quantities.
 * States describe the condition of a system; processes describe transformations between states.
 * Relaxation time connects dynamics with equilibrium.

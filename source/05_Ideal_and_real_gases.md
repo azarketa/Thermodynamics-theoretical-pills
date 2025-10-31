@@ -1,5 +1,5 @@
 (sec_models_gases)=
-## Ideal and real Gases
+## Ideal and real gases
 
 Modeling gases is one of the key aspects of Thermodynamics. Gases differ by composition and molecular structure — air, carbon monoxide, hydrogen, methane, butane, or ethanol vapor all behave differently.
 However, under suitable conditions, all gases exhibit comparable patterns that can be captured through mathematical models.
@@ -11,13 +11,11 @@ This section first develops the **ideal gas model**, valid at low pressures and 
 (subsec_ideal_gas_assumptions)=
 ### Assumptions of the ideal gas model
 
-The **ideal gas model** rests on two simplifying postulates:
+The **ideal gas model** rests on two simplifying postulates
 
-1. **Negligible molecular volume.**
-   Molecules occupy a negligibly small portion of the total volume. This approximation is sound at **low pressures**.
+1. **Negligible molecular volume:** molecules occupy a negligibly small portion of the total volume. This approximation is sound at **low pressures**.
 
-2. **Negligible intermolecular forces.**
-   Intermolecular attractions and repulsions are disregarded. This is reasonable at **high temperatures**, where kinetic energy dominates.
+2. **Negligible intermolecular forces:** intermolecular attractions and repulsions are disregarded. This is reasonable at **high temperatures**, where kinetic energy dominates.
 
 :::{admonition} Important: validity of the ideal gas approximation
 :class: warning
@@ -34,7 +32,7 @@ The relationship among pressure, volume, temperature, and amount of substance is
 
 (eq_ideal_gas_molar_form)=
 $$
-P{}V = n{}R_u{}T
+P{}V = n{}\text{R}_{\text{u}}{}T
 $$
 
 where
@@ -43,16 +41,16 @@ where
 * $V$ is the volume ($\text{m}^3$),
 * $n$ is the amount of substance ($\text{mol}$),
 * $T$ is the absolute temperature ($\text{K}$), and
-* $R_u = 8.314 \ [\text{J}/(\text{mol}\cdot\text{K})]$ is the universal gas constant.
+* $\text{R}_{\text{u}} = 8.314 \ [\text{J}/(\text{mol}\cdot\text{K})]$ is the universal gas constant.
 
 The **specific gas constant** $R$ is
 
 (eq_specific_gas_constant)=
 $$
-R = \frac{R_u}{M}
+R = \frac{\text{R}_{\text{u}}}{\text{MW}}
 $$
 
-where $M$ is the molar mass ($\text{kg}/\text{mol}$). Since $M = m/n$, the **mass form** follows as
+where $\text{MW}$ is the molecular weight ($\text{kg}/\text{mol}$). Since $\text{MW} = m/n$, the **mass form** follows as
 
 (eq_ideal_gas_mass_form)=
 $$
@@ -140,7 +138,7 @@ near phase transitions while remaining solvable in closed form.
 
   (eq_vanderwaals)=
   $$
-  \bigl(P + a{}\tfrac{n^{2}}{V^{2}}\bigr)\bigl(V - n{}b\bigr) = n{}R_u{}T
+  \bigl(P + a{}\tfrac{n^{2}}{V^{2}}\bigr)\bigl(V - n{}b\bigr) = n{}\text{R}_{\text{u}}{}T
   $$
 
   where:
@@ -156,7 +154,7 @@ near phase transitions while remaining solvable in closed form.
 
   (eq_redlich_kwong)=
   $$
-  P = \frac{R_u{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m{}(V_m + b)}
+  P = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m{}(V_m + b)}
   $$
 
   This model performs well for moderate pressures and high temperatures
@@ -168,7 +166,7 @@ near phase transitions while remaining solvable in closed form.
 
   (eq_peng_robinson)=
   $$
-  P = \frac{R_u{}T}{V_m - b} - \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)}
+  P = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)}
   $$
 
   with:
@@ -261,7 +259,7 @@ Determine the **pressure** and the **compressibility factor** $Z$ for **carbon d
 
 The following models are considered:
 
-1. Ideal Gas
+1. Ideal gas
 2. van der Waals
 3. Redlich–Kwong
 4. Peng–Robinson
@@ -280,7 +278,7 @@ Different gas models are applied for computing the pressure of a mole of $\text{
 | :--------------------- | :---------------------------------------: | :----------------------------------------: |
 | Temperature            |                    $T$                    |               $300 \ \text{K}$               |
 | Molar volume           |                   $V_m$                   |        $0.01 \ \text{m}^3/\text{mol}$        |
-| Universal gas constant |                   $R_u$                   | $8.314 \ \text{J}/(\text{mol}\cdot\text{K})$ |
+| Universal gas constant |                   $\text{R}_{\text{u}}$                   | $8.314 \ \text{J}/(\text{mol}\cdot\text{K})$ |
 | $a$ (vdW–RK–PR)        |                    $a$                    | $0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2$ |
 | $b$ (vdW–RK–PR)        |                    $b$                    | $4.27\times10^{-5} \ \text{m}^3/\text{mol}$ |
 | Critical temperature   |                   $T_c$                   |              $304.2 \ \text{K}$              |
@@ -291,7 +289,7 @@ Different gas models are applied for computing the pressure of a mole of $\text{
 
 ---
 
-1. **Computing Reduced Properties**
+1. **Computing reduced properties**
 
 (eq_example_reduced_props)=
 $$
@@ -306,15 +304,15 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
 
 2. Calculating Model Predictions
 
-    * **Ideal Gas Model**
+    * **Ideal gas model**
     
         (eq_example_ideal_gas)=
         $$
-        \boxed{P = \frac{R_u{}T}{V_m} = 2.49\times10^{5} \ \text{Pa}} \ ,
+        \boxed{P = \frac{\text{R}_{\text{u}}{}T}{V_m} = 2.49\times10^{5} \ \text{Pa}} \ ,
         $$
         
         $$
-        \boxed{Z = \frac{P{}V_m}{R_u{}T} = 1.000} \ .
+        \boxed{Z = \frac{P{}V_m}{\text{R}_{\text{u}}{}T} = 1.000} \ .
         $$
 
     ---
@@ -323,12 +321,12 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     
         (eq_example_vdw)=
         $$
-        \boxed{P = \frac{R_u{}T}{V_m - b} - a{}\frac{1}{V_m^2}
+        \boxed{P = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - a{}\frac{1}{V_m^2}
         = 2.13\times10^{5} \ \text{Pa}} \ ,
         $$
         
         $$
-        \boxed{Z = \frac{P{}V_m}{R_u{}T} = 0.857} \ .
+        \boxed{Z = \frac{P{}V_m}{\text{R}_{\text{u}}{}T} = 0.857} \ .
         $$
 
     ---
@@ -337,7 +335,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
     
         (eq_example_rk)=
         $$
-        \boxed{P = \frac{R_u{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m(V_m + b)} = 2.20\times10^{5} \ \text{Pa}} \ ,
+        \boxed{P = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m(V_m + b)} = 2.20\times10^{5} \ \text{Pa}} \ ,
         $$
         
         $$
@@ -351,7 +349,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
         (eq_example_pr)=
         $$
         P =
-        \frac{R_u{}T}{V_m - b} = \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)},
+        \frac{\text{R}_{\text{u}}{}T}{V_m - b} = \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)},
         $$
         
         where:
@@ -378,7 +376,7 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
         
         (eq_example_virial)=
         $$
-        \boxed{P = \frac{R_u{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{} \ \text{Pa}} \ ,
+        \boxed{P = \frac{\text{R}_{\text{u}}{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{} \ \text{Pa}} \ ,
         $$
         
         $$
@@ -399,13 +397,13 @@ Because $P$ is to be determined, $P_r$ will be evaluated separately for each mod
         $$
         
         $$
-        \boxed{P = \frac{R_u{}T}{V_m}{}Z \approx 2.4642\times10^{5}{}\text{Pa}} \ .
+        \boxed{P = \frac{\text{R}_{\text{u}}{}T}{V_m}{}Z \approx 2.4642\times10^{5}{}\text{Pa}} \ .
         $$
 
 
 ---
 
-3. **Reduced-Pressure Evaluation**
+3. **Reduced-pressure evaluation**
 
     (eq_example_reduced_pressure)=
     $$

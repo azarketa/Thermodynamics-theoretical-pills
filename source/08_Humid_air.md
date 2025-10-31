@@ -22,21 +22,24 @@ This is, in essence, the objective of **psychrometry** — the study of the ther
 (subsec_air_vapor_pressure_and_enthalpy)=
 ### Air–vapor mixture: pressure and enthalpy under ideal-gas assumptions
 
-Under typical atmospheric conditions, air temperature ranges approximately from $-10 \ ^{\circ}\text{C}$ to $50 \ ^{\circ}\text{C}$.
-Within this range, **dry air** can safely be modeled as an ideal gas with a nearly constant specific heat:
+Under typical atmospheric conditions, air temperature ranges approximately from $-10 \ ^{\circ}\text{C}$ to $50 \ ^{\circ}\text{C}$. Within this range, **dry air** behaves very closely to an **ideal gas**. As we shall see, this means that its thermodynamic properties depend almost entirely on temperature. This allows us to introduce a simple, practical link between temperature and energy content through two related quantities: the **specific heat** and the **enthalpy**.
+
+The **specific heat at constant pressure**, $c_p$, acts as a proportionality factor connecting temperature and energy: it indicates how much energy is required, per kilogram of substance, to raise its temperature one Kelvin while the pressure remains constant.
 
 (eq_cp_dry_air)=
-$$c_p{}={}1.005 \ [\mathrm{kJ/kg\cdot K}]$$
+$$c_p = 1.005 \ [\mathrm{kJ/(kg\cdot K)}]$$
 
-Taking a reference temperature of $0 \ ^{\circ}\mathrm{C}$, the **enthalpy** of dry air is given by:
+In this context, the **specific enthalpy** $h$ serves as a convenient measure of the specific energy content of the gas, combining both its internal energy and the energy associated with the pressure it exerts. As occurs with the specific heat, the specific enthalpy of an ideal gas depends only on temperature, making it straightforward to compute.
+
+Taking a reference temperature of $0 \ ^{\circ}\mathrm{C}$, the **specific enthalpy** of dry air can be expressed as
 
 (eq_h_dry_air)=
-$$h{}={}c_p{}T$$
+$$h = c_p T$$
 
-and the **enthalpy variation** between two states by:
+and the corresponding **enthalpy difference** between two states as
 
 (eq_delta_h_dry_air)=
-$$\Delta{}h_{i\to{}f}={}c_p{}\Delta{}T_{i\to{}f}$$
+$$\Delta h_{i\to f} = c_p \Delta T_{i\to f}.$$
 
 If both **air** and **water vapor** are treated as ideal gases, then, according to **Dalton’s law of partial pressures**, the total pressure is the sum of the individual partial pressures:
 
@@ -58,6 +61,7 @@ $$h_g(T) \simeq h_g(0 \ ^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ [
 
 Treating water vapor as an ideal gas implies a small accuracy loss, but it is negligible under typical atmospheric conditions. At $50 \ ^{\circ}\mathrm{C}$, the saturation pressure of water is $12.3 \ \mathrm{kPa}$. Below this pressure, water vapor behaves as an **ideal gas** with an error below $0.2%$, even in saturated states.
 Thus, water vapor enthalpy depends **only on temperature**, $h_{\text{v}}{}={}h(T)$.
+
 :::
 
 :::{admonition} Note: the temperature reference for enthalpy calculation
@@ -231,7 +235,8 @@ $$
     * **Humidity ratio:**
 
         $$
-        \omega = 0.62198{}\frac{23.4}{101.325-23.4} = 0.62198{}\frac{23.4}{77.925} = 0.62198\times 0.3004 = 0.1868.
+        \omega = 0.62198{}\frac{23.4}{101.325-23.4} = \\[10pt]
+        = 0.62198{}\frac{23.4}{77.925} = 0.62198\times 0.3004 = 0.1868.
         $$
         
         $$
@@ -279,7 +284,8 @@ $$
         Interpolating between $60 \ {^\circ}\text{C}$ and $65 \ {^\circ}\text{C}$:
   
         $$
-        T_{dp,70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
+        T_{dp,70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\[10pt]
+        = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
         $$
 
         $$
@@ -307,7 +313,8 @@ $$
     * **Humidity ratio:**
 
         $$
-        \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} = 0.62198{}\frac{1.754}{99.57075} = 0.62198 \times 0.01762 = 0.01096.
+        \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} = \\[10pt]
+        = 0.62198{}\frac{1.754}{99.57075} = 0.62198 \times 0.01762 = 0.01096.
         $$
         
         $$
@@ -352,7 +359,8 @@ $$
         Interpolating between $15 \ ^{\circ}\text{C}$ and $20 \ ^{\circ}\text{C}$:
   
         $$
-        T_{dp,20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
+        T_{dp,20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\[10pt]
+        = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
         $$
         
         $$

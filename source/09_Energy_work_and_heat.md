@@ -350,7 +350,13 @@ $$
 \dot{Q} = \frac{\mathrm{d}Q}{\mathrm{d}t}, \qquad \text{measured in } [\text{J}/\text{s}]\equiv[\text{W}].
 $$
 
-These forms are essential for steady-flow systems and cyclic processes, where energy transfer per unit mass or per unit time is often more informative than total quantities.
+These forms are essential for steady-flow systems, cyclic processes and open systems, where energy transfer per unit mass or per unit time is often more informative than total quantities.
+
+:::{admonition} Note: the Watt, the basic power unit
+:class: note, dropdown
+Notice that the Watt unit $[\text{W}]$ corresponds to the **rate of energy**, i.e. to the energy flow per unit time (per second).
+
+:::
 
 ---
 
@@ -384,7 +390,7 @@ In this convention, **positive $Q$** denotes *heating* (energy received by the s
 | **Heat (from system)** | Cooling                         | From system → surroundings |      $Q < 0$      |
 :::
 
-:::{admonition} Note — graphical correspondence between heat and work
+:::{admonition} Note: graphical correspondence between heat and work
 :class: note, dropdown
 
 The **$T$–$s$ diagram** offers a thermal counterpart to the mechanical interpretation provided by the **$P$–$V$ diagram**. As we shall see further on, while areas on a $P$–$V$ plot represent **work** ($\delta W = P\mathrm{d}V$), areas on a $T$–$s$ diagram represent **heat transfer** during **reversible processes**, since
@@ -527,7 +533,7 @@ W_{\text{adiabatic}} = \frac{mR(T_2 - T_1)}{1 - \gamma}
 $$
 
 $$
-\boxed{W_{\text{adiabatic}} = 54.1 \ \text{kJ}}
+\boxed{W_{\text{adiabatic}} = 53.9 \ \text{kJ}}
 $$
 
 ---
