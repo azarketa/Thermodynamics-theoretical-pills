@@ -96,10 +96,10 @@ Only the energy-related quantities ($u$, $h$) are **state functions**; the heat 
 
 | **Quantity**              | **Expression (infinitesimal form)** | **Always valid?** | **Requires constraint?** | **Constraint type**              |
 | :------------------------ | :---------------------------------- | :---------------: | :----------------------: | :------------------------------- |
-| Internal energy variation | $\mathrm{d}u = c_v\mathrm{d}T$     |         ✅         |             –            | Always valid definition of $c_v$ |
-| Enthalpy variation        | $\mathrm{d}h = c_p\mathrm{d}T$     |         ✅         |             –            | Always valid definition of $c_p$ |
-| Heat transfer (isochoric) | $\delta q_v = c_v\mathrm{d}T$      |         ❌         |             ✅            | $V = \text{constant}$            |
-| Heat transfer (isobaric)  | $\delta q_p = c_p\mathrm{d}T$      |         ❌         |             ✅            | $P = \text{constant}$            |
+| Internal energy variation | $\mathrm{d}u = c_v\mathrm{d}T$     |         Yes         |             No            | Always valid definition of $c_v$ |
+| Enthalpy variation        | $\mathrm{d}h = c_p\mathrm{d}T$     |         Yes         |             No            | Always valid definition of $c_p$ |
+| Heat transfer (isochoric) | $\delta q_v = c_v\mathrm{d}T$      |         No         |             Yes            | $V = \text{constant}$            |
+| Heat transfer (isobaric)  | $\delta q_p = c_p\mathrm{d}T$      |         No         |             Yes            | $P = \text{constant}$            |
 :::
 
 :::{admonition} Note: on the units of specific heats

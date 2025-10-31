@@ -235,10 +235,10 @@ $$
     * **Humidity ratio:**
 
         $$
-        \begin{split}
+        \begin{aligned}
         \omega = 0.62198{}\frac{23.4}{101.325-23.4} = \\
         = 0.62198{}\frac{23.4}{77.925} = 0.62198\times 0.3004 = 0.1868.
-        \end{split}
+        \end{aligned}
         $$
         
         $$
@@ -286,10 +286,10 @@ $$
         Interpolating between $60 \ {^\circ}\text{C}$ and $65 \ {^\circ}\text{C}$:
   
         $$
-        \begin{split}
+        \begin{aligned}
         T_{dp,70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\
         = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
-        \end{split}
+        \end{aligned}
         $$
 
         $$
@@ -317,10 +317,10 @@ $$
     * **Humidity ratio:**
 
         $$
-        \begin{split}
+        \begin{aligned}
         \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} = \\
         = 0.62198{}\frac{1.754}{99.57075} = 0.62198 \times 0.01762 = 0.01096.
-        \end{split}
+        \end{aligned}
         $$
         
         $$
@@ -365,10 +365,10 @@ $$
         Interpolating between $15 \ ^{\circ}\text{C}$ and $20 \ ^{\circ}\text{C}$:
   
         $$
-        \begin{split}
+        \begin{aligned}
         T_{dp,20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\
         = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
-        \end{split}
+        \end{aligned}
         $$
         
         $$
