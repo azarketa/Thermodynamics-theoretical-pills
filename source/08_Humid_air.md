@@ -174,7 +174,7 @@ A sauna room is $5 \ \text{m}$ wide, $3 \ \text{m}$ deep and $2 \ \text{m}$ high
 Two conditions for the same room of volume $5\times3\times2\ \text{m}^3$ are to be evaluated:
 
 * **Nominal operation:** $P=1 \ \text{atm}$, $T=70 \ ^\circ\text{C}$, $\phi=75 \ \%$.
-* **Sauna off (equilibrium with environment):** $P=1\ \text{atm}$, $T=20 \ ^\circ\text{C}$, $\phi=75 \ \%$.
+* **Sauna off (equilibrium with environment):** $p=1\ \text{atm}$, $T=20 \ ^\circ\text{C}$, $\phi=75 \ \%$.
 
 ---
 
@@ -183,7 +183,7 @@ Two conditions for the same room of volume $5\times3\times2\ \text{m}^3$ are to 
 | Quantity                       |           Symbol           | Value                                                                      |
 | :----------------------------- | :------------------------: | :------------------------------------------------------------------------- |
 | Room volume                    |             $V$            | $30 \ \text{m}^3$                                                           |
-| Absolute pressure              |             $P$            | $101.325 \ \text{Pa}$                                                     |
+| Absolute pressure              |             $p$            | $101.325 \ \text{Pa}$                                                     |
 | Relative humidity (both cases) |           $\phi$           | $0.75$                                                                     |
 | Temperatures                   |         $\left(T_1, \ T_2\right)$         | $\left(70 \ ^\circ\text{C}=343.15 \ \text{K}, \ 20 \ ^\circ\text{C}=293.15 \ \text{K}\right)$ |
 | Saturation vapor pressure      | $p_{\text{g}}(70^\circ\text{C})$ | $\approx 31.2 \ \text{kPa}$                                                 |
@@ -199,7 +199,7 @@ We treat humid air as an ideal binary mixture (dry air + water vapor). For each 
 1. **Partial pressures**
 
 $$
-p_{\text{v}}=\phi{}p_{\text{g}}, \qquad p_{\text{a}}=P-p_{\text{v}} .
+p_{\text{v}}=\phi{}p_{\text{g}}, \qquad p_{\text{a}}=p-p_{\text{v}} .
 $$
 
 2. **Humidity ratio**
@@ -235,8 +235,10 @@ $$
     * **Humidity ratio:**
 
         $$
-        \omega = 0.62198{}\frac{23.4}{101.325-23.4} = \\[10pt]
+        \begin{split}
+        \omega = 0.62198{}\frac{23.4}{101.325-23.4} = \\
         = 0.62198{}\frac{23.4}{77.925} = 0.62198\times 0.3004 = 0.1868.
+        \end{split}
         $$
         
         $$
@@ -284,8 +286,10 @@ $$
         Interpolating between $60 \ {^\circ}\text{C}$ and $65 \ {^\circ}\text{C}$:
   
         $$
-        T_{dp,70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\[10pt]
+        \begin{split}
+        T_{dp,70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\
         = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
+        \end{split}
         $$
 
         $$
@@ -313,8 +317,10 @@ $$
     * **Humidity ratio:**
 
         $$
-        \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} = \\[10pt]
+        \begin{split}
+        \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} = \\
         = 0.62198{}\frac{1.754}{99.57075} = 0.62198 \times 0.01762 = 0.01096.
+        \end{split}
         $$
         
         $$
@@ -359,8 +365,10 @@ $$
         Interpolating between $15 \ ^{\circ}\text{C}$ and $20 \ ^{\circ}\text{C}$:
   
         $$
-        T_{dp,20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\[10pt]
+        \begin{split}
+        T_{dp,20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\
         = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
+        \end{split}
         $$
         
         $$
