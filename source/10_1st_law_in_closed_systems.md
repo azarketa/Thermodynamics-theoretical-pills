@@ -25,7 +25,7 @@ where:
 :class: note, dropdown
 
 {ref}`The expression above <eq_first_law_basic>` also assumes, implicitly, that:
-* The finite energy change, $\Delta{}E$, takes place between two end states $(1)$ and $(2)$. Formally, this means that the equation should read $\Delta{}E_{1\to2} = Q_{1\to2} - W_{1\to2}$, as mentioned when {ref}`introducing the $\Delta$ operator <subsec_state_properties_process_magnitudes_and_reference_states>`. However, considering all the formulation that follows as referring to differences between two end states, those subscripts will be dropped for the sake of clarity.
+* The finite energy change, $\Delta{}E$, takes place between two end states $(1)$ and $(2)$. Formally, this means that the equation should read $\Delta{}E_{1\to2} = Q_{1\to2} - W_{1\to2}$, as mentioned when {ref}`introducing the <subsec_state_properties_process_magnitudes_and_reference_states>` $\Delta$ {ref}`operator <subsec_state_properties_process_magnitudes_and_reference_states>`. However, considering all the formulation that follows as referring to differences between two end states, those subscripts will be dropped for the sake of clarity.
 * The sign convention {ref}`adopted in this course <subsec_the_sign_convention_work_heat>` is coherent with the way in which the heat and work contributions show up in the equation.
 
 | **Type of energetic exchange** | **Description** | **Sign of $Q$ or $W$** | **Effect on system energy ($\Delta E$)** |
@@ -83,7 +83,7 @@ $$
 * When $Q>W$, the system’s **internal energy increases** (it warms up). Heating overcomes the work done by the system.
 * When $-Q>-W$, the system's **internal energy decreases** (it cools down). Cooling overcomes the work done upon the system.
 * When $W>Q$, the system’s **internal energy decreases** (it cools down). The work done by the system overcomes heating.
-* When $-W>-Q$, the system's **internal energy increases** (it warms down). The work done upon the system overcomes cooling.
+* When $-W>-Q$, the system's **internal energy increases** (it warms up). The work done upon the system overcomes cooling.
   This intuitive balance helps identify the direction of energy flow in simple processes.
   :::
 
