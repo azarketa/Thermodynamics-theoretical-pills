@@ -110,21 +110,6 @@ $$
 \frac{\mathrm{d}E}{\mathrm{d}t} = \dot Q - \dot W + \sum_{\text{in}} \dot m e_{\text{in}} - \sum_{\text{out}} \dot m e_{\text{out}}.
 $$
 
-The total work rate contains **shaft** and **flow** parts:
-
-(eq_decomposition_work_contributions_open_systems)=
-$$
-\dot W = \dot W_{\text{shaft}} + \dot W_{\text{flow}}, \qquad \dot W_{\text{flow}} = \sum \dot m Pv.
-$$
-
-Substituting and regrouping (moving flow work into the stream energies) gives the **general unsteady open-system form** in internal-energy variables:
-
-(eq_1st_law_open_systems_simplified_ver2)=
-$$
-\frac{\mathrm{d}E}{\mathrm{d}t} =\dot Q - \dot W_{\text{shaft}} +\sum_{\text{in}}\dot m\left(u+P v+\frac{c^2}{2}+g z\right)_{\text{in}}
--\sum_{\text{out}}\dot m\left(u+P v+\frac{c^2}{2}+g z\right)_{\text{out}}.
-$$
-
 ---
 
 (subsec_steady_state_open_systems_internal_energy)=
@@ -141,7 +126,7 @@ Hence,
 
 (eq_1st_law_open_systems_simplified_energy_terms)=
 $$
-\boxed{\dot{Q} - \dot{W}_{\text{shaft}} = \sum_{\text{out}} \dot{m} \left(u + P v + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(u + P v + \frac{c^2}{2} + g z\right)} \ .
+\boxed{\dot{Q} - \dot{W} = \sum_{\text{out}} \dot{m} \left(u + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(u + \frac{c^2}{2} + g z\right)} \ .
 $$
 
 :::{admonition} Important: single inlet–single outlet (specific form)
@@ -151,19 +136,7 @@ With $\dot m_1=\dot m_2=\dot m$ and dividing by $\dot m$,
 
 (eq_1st_law_open_systems_simplified_energy_terms_single_inlet_outlet)=
 $$
-\boxed{q - w_{\text{shaft}} = \big(u_2 + P_2 v_2 - u_1 - P_1 v_1\big) + \frac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)} \ .
-$$
-
-:::
-
-:::{admonition} Note: differential form of the shaft work
-:class: note, dropdown
-
-For reversible steady devices (pumps, compressors, turbines),
-
-(eq_shaft_work_expression)=
-$$
-\delta w_{\text{shaft}} = v(P)\mathrm{d}P, \qquad w_{\text{shaft}} = \int_{P_1}^{P_2} v(P)\mathrm{d}P.
+\boxed{q - w = \big(u_2 - u_1\big) + \frac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)} \ .
 $$
 
 :::
@@ -173,9 +146,24 @@ $$
 (subsec_steady_state_open_systems_enthalpy)=
 ### Steady-state formulation (enthalpy-based)
 
+In most open-system devices, not all the mechanical work results from pushing the fluid through the boundaries. Part of it appears as **useful mechanical power** transmitted through a rotating shaft, as in **turbines**, **compressors**, or **pumps**. This component is called **shaft work**, and together with the **flow work** it makes up the total mechanical interaction across the system boundary. Thus, the total work rate contains **shaft** and **flow** parts:
+
+(eq_decomposition_work_contributions_open_systems)=
+$$
+\dot W = \dot W_{\text{shaft}} + \dot W_{\text{flow}}, \qquad \dot W_{\text{flow}} = \sum \dot m Pv.
+$$
+
+Substituting and regrouping (moving flow work into the stream energies) gives the **general unsteady open-system form** in internal-energy variables:
+
+(eq_1st_law_open_systems_simplified_ver2)=
+$$
+\frac{\mathrm{d}E}{\mathrm{d}t} =\dot Q - \dot W_{\text{shaft}} +\sum_{\text{in}}\dot m\left(u + Pv + \frac{c^2}{2}+g z\right)_{\text{in}}
+-\sum_{\text{out}}\dot m\left(u + Pv + \frac{c^2}{2}+g z\right)_{\text{out}}.
+$$
+
 Since $h \equiv u + P v$, the steady balance becomes
 
-(eq_1st_law_open_systems_enthalpy_terms)
+(eq_1st_law_open_systems_enthalpy_terms)=
 $$
 \boxed{\dot Q - \dot W_{\text{shaft}} = \sum_{\text{out}} \dot m \left(h + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot m \left(h + \frac{c^2}{2} + g z\right)} \ .
 $$
@@ -201,6 +189,18 @@ $$
 | **Work components** | Boundary work only $\int P\mathrm{d}v$ | Shaft work $\int v\mathrm{d}P$ + flow work $(\Delta(Pv))$|
 | **Specific form** | $\displaystyle \Delta{u} + \Delta{e_{\text{k}}} + \Delta{e_{\text{p}}} = q - w$ | $\displaystyle q - w = (u_2 - u_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1) \\ q - w_{\text{shaft}} = (h_2 - h_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$                                                                                   |
 | **Typical examples**  | Piston–cylinder, rigid tank | Compressor, turbine, diffuser, nozzle, heat exchanger, mixer, valve|
+
+:::
+
+:::{admonition} Note: differential form of the shaft work
+:class: note, dropdown
+
+For reversible steady devices (pumps, compressors, turbines),
+
+(eq_shaft_work_expression)=
+$$
+\delta w_{\text{shaft}} = v(P)\mathrm{d}P, \qquad w_{\text{shaft}} = \int_{P_1}^{P_2} v(P)\mathrm{d}P.
+$$
 
 :::
 
