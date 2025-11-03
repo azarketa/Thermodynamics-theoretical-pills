@@ -56,21 +56,21 @@ A steady state does not imply that the **flow is static** — it only means that
 (subsec_flow_work_notion)=
 ### The flow-work notion
 
-In closed systems, work is associated with boundary movement ($P\mathrm{d}V$). In open systems, however, mass crosses the control surface, and a **pressure force** must act to push it through. This required mechanical effort is called **flow work** (or **flow energy**).
+In closed systems, work is associated with boundary movement ($p\mathrm{d}V$). In open systems, however, mass crosses the control surface, and a **pressure force** must act to push it through. This required mechanical effort is called **flow work** (or **flow energy**).
 
 Consider an imaginary piston pushing fluid into the system.
-If the piston face has area $A$, the pressure on the fluid is $P$, and the velocity normal to the surface is $V_\perp=c$, the force and power associated with the inflow are:
+If the piston face has area $A$, the pressure on the fluid is $p$, and the velocity normal to the surface is $V_\perp=c$, the force and power associated with the inflow are:
 
 (eq_flow_work)=
 $$
-F = P A,
+F = p A,
 \qquad
-\dot{W}_\text{flow} = F{\cdot}c = PAc = \dot{m}Pv,
+\dot{W}_\text{flow} = Fc = pAc = \dot{m}(pv),
 $$
 
 where $\dot{m} = \rho{}A{}c$ and $v = 1/\rho$ is the specific volume.
 
-Thus, each mass flow crossing the boundary carries an **associated rate of mechanical work** equal to $Pv$.
+Thus, each mass flow crossing the boundary carries an **associated rate of mechanical work** equal to $pv$.
 
 :::{admonition} Important: physical meaning of flow work
 :class: warning
@@ -86,7 +86,7 @@ It is not an independent form of energy but rather part of the **mechanical work
 We start from the **balance principle**: the **rate of change of energy in the control volume** equals the **rate of energy in** minus the **rate of energy out** (all extensive rates):
 
 (eq_1st_law_open_systems_general)=
-$$ \frac{\mathrm{d}E}{\mathrm{d}t} = \Big(\dot Q_{\text{in}} - \dot W_{\text{in}} + \sum_{\text{in}} \dot m e_{\text{in}}\Big) \Big(\dot Q_{\text{out}} - \dot W_{\text{out}} + \sum_{\text{out}} \dot m e_{\text{out}}\Big),
+$$ \frac{\mathrm{d}E}{\mathrm{d}t} = \Big(\dot Q_{\text{in}} - \dot W_{\text{in}} + \sum_{\text{in}} \dot m e_{\text{in}}\Big) - \Big(\dot Q_{\text{out}} - \dot W_{\text{out}} + \sum_{\text{out}} \dot m e_{\text{out}}\Big),
 $$
 
 where the **specific total energy** of a flowing stream is
@@ -150,18 +150,18 @@ In most open-system devices, not all the mechanical work results from pushing th
 
 (eq_decomposition_work_contributions_open_systems)=
 $$
-\dot W = \dot W_{\text{shaft}} + \dot W_{\text{flow}}, \qquad \dot W_{\text{flow}} = \sum \dot m Pv.
+\dot W = \dot W_{\text{shaft}} + \dot W_{\text{flow}}, \qquad \dot W_{\text{flow}} = \sum \dot m pv.
 $$
 
 Substituting and regrouping (moving flow work into the stream energies) gives the **general unsteady open-system form** in internal-energy variables:
 
 (eq_1st_law_open_systems_simplified_ver2)=
 $$
-\frac{\mathrm{d}E}{\mathrm{d}t} =\dot Q - \dot W_{\text{shaft}} +\sum_{\text{in}}\dot m\left(u + Pv + \frac{c^2}{2}+g z\right)_{\text{in}}
--\sum_{\text{out}}\dot m\left(u + Pv + \frac{c^2}{2}+g z\right)_{\text{out}}.
+\frac{\mathrm{d}E}{\mathrm{d}t} =\dot Q - \dot W_{\text{shaft}} +\sum_{\text{in}}\dot m\left(u + pv + \frac{c^2}{2}+g z\right)_{\text{in}}
+-\sum_{\text{out}}\dot m\left(u + pv + \frac{c^2}{2}+g z\right)_{\text{out}}.
 $$
 
-Since $h \equiv u + P v$, the steady balance becomes
+Since $h \equiv u + p v$, the steady balance becomes
 
 (eq_1st_law_open_systems_enthalpy_terms)=
 $$
@@ -183,11 +183,11 @@ $$
 :::{admonition} Important: comparative formulation of closed and open systems
 :class: warning
 
-| **Formulation** | **Closed system** | **Open system under steady flow (single inlet-outlet when appleis)** |
+| **Formulation** | **Closed system** | **Open system under steady flow (single inlet-outlet when applies)** |
 | :-  | :-  | :- |
-| **General form of the $1^{\text{st}}$ law** | $\displaystyle \Delta{}E = \Delta{U} + \Delta{E_{\text{k}}} + \Delta{E_{\text{p}}} = Q - W$ | $\displaystyle \dot{Q} - \dot{W} = \sum_{\text{out}} \dot{m} \left(u + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(u + \frac{c^2}{2} + g z\right) \\ \dot{Q} - \dot{W}_{\text{shaft}} = \sum_{\text{out}} \dot{m} \left(h + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(h + \frac{c^2}{2} + g z\right)$ |
-| **Work components** | Boundary work only $\int P\mathrm{d}v$ | Shaft work $\int v\mathrm{d}P$ + flow work $(\Delta(Pv))$|
-| **Specific form** | $\displaystyle \Delta{u} + \Delta{e_{\text{k}}} + \Delta{e_{\text{p}}} = q - w$ | $\displaystyle q - w = (u_2 - u_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1) \\ q - w_{\text{shaft}} = (h_2 - h_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$                                                                                   |
+| **General form of the $1^{\text{st}}$ law** | $\displaystyle \Delta{}E = \Delta{U} + \Delta{E_{\text{k}}} + \Delta{E_{\text{p}}} = Q - W$ | $\displaystyle \dot{Q} - \dot{W} = \sum_{\text{out}} \dot{m} \left(u + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(u + \frac{c^2}{2} + g z\right)$ <br/> $\dot{Q} - \dot{W}_{\text{shaft}} = \sum_{\text{out}} \dot{m} \left(h + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(h + \frac{c^2}{2} + g z\right)$ |
+| **Work components** | Boundary work only $\int p\mathrm{d}v$ | Shaft work $\int v\mathrm{d}p$ + flow work $(\Delta(pv))$|
+| **Specific form** | $\displaystyle \Delta{u} + \Delta{e_{\text{k}}} + \Delta{e_{\text{p}}} = q - w$ | $\displaystyle q - w = (u_2 - u_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$ <br/> $q - w_{\text{shaft}} = (h_2 - h_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$ |
 | **Typical examples**  | Piston–cylinder, rigid tank | Compressor, turbine, diffuser, nozzle, heat exchanger, mixer, valve|
 
 :::
@@ -195,11 +195,11 @@ $$
 :::{admonition} Note: differential form of the shaft work
 :class: note, dropdown
 
-For reversible steady devices (pumps, compressors, turbines),
+Due to the {ref}`work decomposition relation <eq_decomposition_work_contributions_open_systems>`, such a relation can be written for differential work-like energy transfers. As $\delta{}w=p\mathrm{d}v$ in simple compressible systems, and $\delta{}w_{\text{flow}}=\mathrm{d}(pv)$
 
 (eq_shaft_work_expression)=
 $$
-\delta w_{\text{shaft}} = v(P)\mathrm{d}P, \qquad w_{\text{shaft}} = \int_{P_1}^{P_2} v(P)\mathrm{d}P.
+\delta{}w = \delta{}w_{\text{shaft}} + \delta{}w_{\text{flow}} \implies p\mathrm{d}v = \delta{}w_{\text{shaft}} + \mathrm{d}(pv) = \delta{}w_{\text{shaft}} + p\mathrm{d}v + v\mathrm{d}p \implies \boxed{\delta{}w_{\text{shaft}} = -v(p)\mathrm{d}p} \ , \qquad \boxed{w_{\text{shaft}} = -\int_{p_1}^{p_2} v(p)\mathrm{d}p} \ .
 $$
 
 :::
@@ -216,4 +216,5 @@ The $1^{\text{st}}$ law for open systems shows how energy conservation applies w
 * **Work types** — The total work divides into **shaft work**, representing useful mechanical power, and **flow work**, representing the energy carried with the mass flow.
 * **Steady operation** — In steady conditions, the heat and shaft work interactions exactly balance the energy changes between the inlet and outlet streams.
 * **Role of enthalpy** — Combining internal energy and flow work into **enthalpy** simplifies open-system analysis, making it easier to express energy balances.
-* **Interpretation** — Energy remains conserved, but in open systems it moves not only as heat or work, but also **with the mass** that continuously flows through the device.
+
+The upshot is that energy remains conserved, but in open systems it moves not only as heat or work, but also **with the mass** that continuously flows through the control volume.
