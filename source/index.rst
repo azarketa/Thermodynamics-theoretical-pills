@@ -12,54 +12,21 @@ Thermal and Fluids Engineering: Theoretical Pills
    :caption: Introduction:
    
    What is this course about? <Introduction>
-
    
-Fundamentals
-============
-
-Basic notions
--------------
-
-- :doc:`01_Systems_surroundings_boundaries`
-- :doc:`02_Magnitudes_and_properties`
-- :doc:`03_Equilibrium_temperature_processes`
-
-Main substance models:
-----------------------
-
-- :doc:`04_Characterization_of_substances`  
-- :doc:`05_Ideal_and_real_gases`
-- :doc:`06_P-v-T_diagrams`
-- :doc:`07_Gas_mixtures`
-- :doc:`08_Humid_air`
-
-
-The $1^{\text{st}}$ Law:
-------------------------
-
-- :doc:`09_Energy_work_and_heat`
-- :doc:`10_1st_law_in_closed_systems`
-- :doc:`11_Specific_heats`
-- :doc:`12_1st_law_in_open_systems`
-- :doc:`13_Canonical_open_systems`
-
-
-
-.. toctree::
-   :hidden:
+.. toctree::   
    :maxdepth: 4
-   
-   01_Systems_surroundings_boundaries
-   02_Magnitudes_and_properties
-   03_Equilibrium_temperature_processes
-   04_Characterization_of_substances
-   05_Ideal_and_real_gases
-   06_P-v-T_diagrams
-   07_Gas_mixtures
-   08_Humid_air
-   09_Energy_work_and_heat
-   10_1st_law_in_closed_systems
-   11_Specific_heats
-   12_1st_law_in_open_systems
-   13_Canonical_open_systems
-   
+   :caption: Fundamentals:
+
+   Systems, surroundings and boundaries <01_Systems_surroundings_boundaries>
+   Magnitudes and properties <02_Magnitudes_and_properties>
+   Equilibrium, temperature and processes <03_Equilibrium_temperature_processes>
+   Characterization of substances <04_Characterization_of_substances>
+   Ideal and real gases <05_Ideal_and_real_gases>
+   $p-v-T$ diagrams <06_P-v-T_diagrams>
+   Gas mixtures <07_Gas_mixtures>
+   Humid air <08_Humid_air>
+   Energy, work and heat <09_Energy_work_and_heat>
+   The $1^{\text{st}}$ Law in closed systems <10_1st_law_in_closed_systems>
+   Specific heats <11_Specific_heats>
+   The $1^{\text{st}}$ Law in closed systems <12_1st_law_in_open_systems>
+   Canonical open systems <13_Canonical_open_systems>
