@@ -17,4 +17,4 @@ Thermal and Fluids Engineering: Theoretical Pills
    :maxdepth: 2
    :caption: Fundamentals:   
    
-   fundamentals/index
+   fundamentals
