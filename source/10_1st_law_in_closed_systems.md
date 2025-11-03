@@ -54,7 +54,7 @@ In the absence of **chemical** or **nuclear** reactions, $\Delta U$ represents s
 
 :::{admonition} Note: flow energy and work
 :class: note, dropdown
-{ref}`When presenting the forms of macroscopic energy <subsubsec_macroscopic_energy>`, one of the types specified was the so-called **flow energy** $(PV)$. In closed systems, flow energy is not stored as part of the system; it represents **boundary work** and therefore appears in $W$. The energy forms that remain *contained* within the system are kinetic, potential, and internal.
+{ref}`When presenting the forms of macroscopic energy <subsubsec_macroscopic_energy>`, one of the types specified was the so-called **flow energy** $(pV)$. In closed systems, flow energy is not stored as part of the system; it represents **boundary work** and therefore appears in $W$. The energy forms that remain *contained* within the system are kinetic, potential, and internal.
 :::
 
 ---
@@ -74,7 +74,7 @@ Thus, if a closed system receives heat or performs work, its **temperature** (an
 
 (eq_first_law_reduced_diff)=
 $$
-\mathrm{d}U = \delta Q - \delta W \ \Rightarrow \ \boxed{\mathrm{d}U = \delta Q - P\mathrm{d}V} \ .
+\mathrm{d}U = \delta Q - \delta W \ \Rightarrow \ \boxed{\mathrm{d}U = \delta Q - p\mathrm{d}V} \ .
 $$
 
 :::{admonition} Tip: interpreting $\Delta U = Q - W$
@@ -92,52 +92,52 @@ $$
 (subsec_first_law_enthalpy)=
 ### $1^{\text{st}}$ law: particularization with enthalpy
 
-The combination of internal energy and the flow term, $PV$, appears so often that it is defined as a separate thermodynamic property — the **enthalpy**:
+The combination of internal energy and the flow term, $pV$, appears so often that it is defined as a separate thermodynamic property — the **enthalpy**:
 
 (eq_enthalpy_def)=
 $$
-\boxed{H{}={}U{}+{}PV} \ .
+\boxed{H{}={}U{}+{}pV} \ .
 $$
 
-The **enthalpy**, $H$, represents the **total useful energy** of a fluid, combining the *thermal capacity to perform work* (through $U$) and the *flow capacity* ($PV$).
+The **enthalpy**, $H$, represents the **total useful energy** of a fluid, combining the *thermal capacity to perform work* (through $U$) and the *flow capacity* ($pV$).
 While internal energy $U$ tracks temperature-related effects, enthalpy incorporates both **temperature** and **pressure** effects, making it a more practical measure in processes involving fluids and flow.
 
 Differentiating the definition of $H$:
 
 (eq_differential_enthalpy)=
 $$
-\mathrm{d}H{}={} \mathrm{d}U{}+{}P\mathrm{d}V{}+{}V\mathrm{d}P.
+\mathrm{d}H{}={} \mathrm{d}U{}+{}p\mathrm{d}V{}+{}V\mathrm{d}p.
 $$
 
-Substituting the **$1^{\text{st}}$ law in its differential form**, $\mathrm{d}U{}={} \delta Q{}-{}P\mathrm{d}V$, into this expression gives:
+Substituting the **$1^{\text{st}}$ law in its differential form**, $\mathrm{d}U{}={} \delta Q{}-{}p\mathrm{d}V$, into this expression gives:
 
 (eq_heat_enthalpy_relation1)=
 $$
-\mathrm{d}H = \delta{}Q - P\mathrm{d}V + P\mathrm{d}V + V\mathrm{d}P \ \Rightarrow \ \boxed{\delta Q{}={} \mathrm{d}H{}-{}V\mathrm{d}P} \ .
+\mathrm{d}H = \delta{}Q - p\mathrm{d}V + p\mathrm{d}V + V\mathrm{d}p \ \Rightarrow \ \boxed{\delta Q{}={} \mathrm{d}H{}-{}V\mathrm{d}p} \ .
 $$
 
-This relation provides a direct link between **heat transfer** and **enthalpy change**, highlighting how $P$ and $V$ variations affect the overall heat exchange.
+This relation provides a direct link between **heat transfer** and **enthalpy change**, highlighting how $p$ and $V$ variations affect the overall heat exchange.
 
 :::{admonition} Note: why defining enthalpy in closed systems makes sense
 :class: note, dropdown
 
-In a **closed system**, no mass crosses the boundary, so the term $PV$ does **not** represent energy stored within the system — it belongs to the **boundary work** term in the $1^{\text{st}}$ law's differential expression,
+In a **closed system**, no mass crosses the boundary, so the term $pV$ does **not** represent energy stored within the system — it belongs to the **boundary work** term in the $1^{\text{st}}$ law's differential expression,
 
 $$
-\mathrm{d}U = \delta Q - \delta W = \delta Q - P\mathrm{d}V.
+\mathrm{d}U = \delta Q - \delta W = \delta Q - p\mathrm{d}V.
 $$
 
 However, the {ref}`definition of enthalpy <eq_enthalpy_def>` remains useful even for closed systems.
-This is because, when differentiating $H$, the derivative of the product $PV$ {ref}`introduces two contributions <eq_differential_enthalpy>` showing that, although $P\mathrm{d}V$ already appears in the energy balance, the additional term $V\mathrm{d}P$ allows the pressure dependence of the system’s energy to be expressed more compactly.
+This is because, when differentiating $H$, the derivative of the product $pV$ {ref}`introduces two contributions <eq_differential_enthalpy>` showing that, although $p\mathrm{d}V$ already appears in the energy balance, the additional term $V\mathrm{d}p$ allows the pressure dependence of the system’s energy to be expressed more compactly.
 
-Defining $H$ as $U + PV$ is thus a **formal convenience**: it reorganizes the energy terms into a single property that simplifies later formulations — especially when pressure becomes an independent variable — without implying the existence of new energy storage in the system.
+Defining $H$ as $U + pV$ is thus a **formal convenience**: it reorganizes the energy terms into a single property that simplifies later formulations — especially when pressure becomes an independent variable — without implying the existence of new energy storage in the system.
 :::
 
 :::{admonition} Note: on enthalpy as a thermodynamic property
 :class: note, dropdown
 
 Since **enthalpy** is defined as a specific combination of {ref}`two state properties <eq_enthalpy_def>`, it is itself a **state property**.
-Both internal energy $U$ and the product $PV$ depend only on the **thermodynamic state** — that is, on measurable variables such as pressure, volume, and temperature — not on the path taken between states.
+Both internal energy $U$ and the product $pV$ depend only on the **thermodynamic state** — that is, on measurable variables such as pressure, volume, and temperature — not on the path taken between states.
 
 Consequently, the {ref}`differential of enthalpy <eq_differential_enthalpy>` is an **exact differential**, meaning that changes in $H$ between two states depend solely on the endpoints and not on the intermediate process.
 
@@ -187,10 +187,10 @@ To reach the same energy loss in all processes, the required **heat transfer** m
 | Process              |          Relation          | $W$ [kJ] |
 | :------------------- | :------------------------: | -------: |
 | Isochoric            |     $V = \text{const.}$    |     +0.0 |
-| Isobaric             |     $P = \text{const.}$    |    +89.0 |
+| Isobaric             |     $p = \text{const.}$    |    +89.0 |
 | Isothermal           |     $T = \text{const.}$    |    +61.7 |
 | Adiabatic            |           $Q = 0$          |    +53.9 |
-| Polytropic ($n=1.2$) | $PV^{1.2} = \text{const.}$ |    +65.0 |
+| Polytropic ($n=1.2$) | $pV^{1.2} = \text{const.}$ |    +65.0 |
 
 ---
 
@@ -205,10 +205,10 @@ $$
 | Process              |         Relation         | $W$ [kJ] | $\Delta E$ [kJ] | $Q$ [kJ] | Interpretation                                            |
 | :------------------- | :----------------------: | ----- | --------------: | -------: | :-------------------------------------------------------- |
 | Isochoric            |     $V=\text{const.}$    |     +0.0 |           –53.9 |    –53.9 | No work done; all energy loss as heat rejection.          |
-| Isobaric             |     $P=\text{const.}$    |    +89.0 |           –53.9 |    +35.1 | Work output larger than energy loss; requires heat input. |
+| Isobaric             |     $p=\text{const.}$    |    +89.0 |           –53.9 |    +35.1 | Work output larger than energy loss; requires heat input. |
 | Isothermal           |     $T=\text{const.}$    |    +61.7 |           –53.9 |     +7.8 | Slight heat input compensates the mechanical work.        |
 | Adiabatic            |           $Q=0$          |    +53.9 |           –53.9 |      0.0 | Reference case: all energy loss as expansion work.        |
-| Polytropic ($n=1.2$) | $PV^{1.2}=\text{const.}$ |    +65.0 |           –53.9 |    +11.1 | Intermediate case between adiabatic and isothermal.       |
+| Polytropic ($n=1.2$) | $pV^{1.2}=\text{const.}$ |    +65.0 |           –53.9 |    +11.1 | Intermediate case between adiabatic and isothermal.       |
 
 ---
 
@@ -266,4 +266,4 @@ END OF WORKED EXAMPLE
 * The **$1^{\text{st}}$ law** expresses the **energy balance** between internal storage and transfer:
   $\Delta E{}={}Q{}-{}W$.
 * When kinetic and potential effects are negligible, the simplified form $\Delta U{}={}Q{}-{}W$ suffices.
-* The **enthalpy**, $H{}={}U{}+{}PV$, naturally emerges when dealing with processes at constant pressure or in open-system extensions.
+* The **enthalpy**, $H{}={}U{}+{}pV$, naturally emerges when dealing with processes at constant pressure or in open-system extensions.

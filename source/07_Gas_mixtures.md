@@ -40,34 +40,34 @@ Both are fundamental when converting between molar and mass-based quantities in 
 ---
 
 (subsec_pvt_behaviour_ideal_mixtures)=
-### $P-v-T$ behaviour of mixtures of ideal gases
+### $p-v-T$ behaviour of mixtures of ideal gases
 
-The definitions of $x_i$ and $y_i$ become particularly relevant when describing the pressure–volume–temperature ($P–v–T$) behavior of mixtures that obey the **ideal gas law**. When gases behave ideally, two empirical relations—**Dalton’s law** and **Amagat’s law**—connect the overall properties of the mixture to those of its individual components.
+The definitions of $x_i$ and $y_i$ become particularly relevant when describing the pressure–volume–temperature ($p–v–T$) behavior of mixtures that obey the **ideal gas law**. When gases behave ideally, two empirical relations—**Dalton’s law** and **Amagat’s law**—connect the overall properties of the mixture to those of its individual components.
 
 (eq_dalton_law)=
-$$P_{\text{total}}{}={} \sum_{i=1}^{k} P_i(T_{\text{total}}, V_{\text{total}})$$
+$$p_{\text{total}}{}={} \sum_{i=1}^{k} p_i(T_{\text{total}}, V_{\text{total}})$$
 
-According to Dalton’s law, the **total pressure** of a mixture equals the sum of the **partial pressures** exerted by each component. Each partial pressure $P_i$ is calculated at the total temperature and total volume of the mixture, i.e., the thermodynamic state shared by all species.
+According to Dalton’s law, the **total pressure** of a mixture equals the sum of the **partial pressures** exerted by each component. Each partial pressure $p_i$ is calculated at the total temperature and total volume of the mixture, i.e., the thermodynamic state shared by all species.
 
 In a parallel manner, **Amagat’s law** applies the same additive principle to volumes:
 
 (eq_amagat_law)=
-$$V_{\text{total}}{}={} \sum_{i=1}^{k} V_i(T_{\text{total}}, P_{\text{total}})$$
+$$V_{\text{total}}{}={} \sum_{i=1}^{k} V_i(T_{\text{total}}, p_{\text{total}})$$
 
 Amagat’s statement reflects that **volume is also an extensive property**, just like mass or moles. It follows that the total volume of the mixture equals the sum of the partial volumes each component would occupy if it alone existed at the mixture’s total pressure and temperature.
 
 Now, introducing the **ideal gas law** for each component, we can establish the link between the ratios of partial and total quantities and the molar fractions. For any component $i$:
 
 (eq_partial_pressure_ratio)=
-$$\frac{P_i(T_{\text{total}}, V_{\text{total}})}{P_{\text{total}}}{}={} \frac{\left(\frac{N_i R_u T_{\text{total}}}{V_{\text{total}}}\right)}{\left(\frac{N_{\text{total}} R_u T_{\text{total}}}{V_{\text{total}}}\right)}{}={} \frac{N_i}{N_{\text{total}}}{}={}y_i$$
+$$\frac{p_i(T_{\text{total}}, V_{\text{total}})}{p_{\text{total}}}{}={} \frac{\left(\frac{N_i R_u T_{\text{total}}}{V_{\text{total}}}\right)}{\left(\frac{N_{\text{total}} R_u T_{\text{total}}}{V_{\text{total}}}\right)}{}={} \frac{N_i}{N_{\text{total}}}{}={}y_i$$
 
 (eq_partial_volume_ratio)=
-$$\frac{V_i(T_{\text{total}}, P_{\text{total}})}{V_{\text{total}}}{}={} \frac{\left(\frac{N_i R_u T_{\text{total}}}{P_{\text{total}}}\right)}{\left(\frac{N_{\text{total}} R_u T_{\text{total}}}{P_{\text{total}}}\right)}{}={} \frac{N_i}{N_{\text{total}}}{}={}y_i$$
+$$\frac{V_i(T_{\text{total}}, p_{\text{total}})}{V_{\text{total}}}{}={} \frac{\left(\frac{N_i R_u T_{\text{total}}}{p_{\text{total}}}\right)}{\left(\frac{N_{\text{total}} R_u T_{\text{total}}}{p_{\text{total}}}\right)}{}={} \frac{N_i}{N_{\text{total}}}{}={}y_i$$
 
 Thus, the ratios of each component’s partial pressure and partial volume to the total mixture values both coincide with the component’s **molar fraction**:
 
 (eq_y_relation)=
-$$\frac{P_i}{P_{\text{total}}}{}={} \frac{V_i}{V_{\text{total}}}{}={} \frac{N_i}{N_{\text{total}}}{}={}y_i$$
+$$\frac{p_i}{p_{\text{total}}}{}={} \frac{V_i}{V_{\text{total}}}{}={} \frac{N_i}{N_{\text{total}}}{}={}y_i$$
 
 :::{admonition} Tip: significance of molar fraction
 :class: tip, dropdown
@@ -80,7 +80,7 @@ The molar fraction directly expresses how each species contributes to the overal
 (subsec_properties_ideal_mixtures)=
 ### Properties of ideal gas mixtures
 
-Once the $P$–$v$–$T$ relations for ideal mixtures are established, the same definitions of molar and mass fractions can be used to describe other thermodynamic properties. The **additivity principle** of extensive properties extends naturally to internal energy, enthalpy, entropy, and specific heats.
+Once the $p$–$v$–$T$ relations for ideal mixtures are established, the same definitions of molar and mass fractions can be used to describe other thermodynamic properties. The **additivity principle** of extensive properties extends naturally to internal energy, enthalpy, entropy, and specific heats.
 
 For the **specific molar heats** (expressed in $[\mathrm{J/mol\cdot K}]$), each property of the mixture is the molar-fraction-weighted sum of the corresponding properties of the individual gases:
 

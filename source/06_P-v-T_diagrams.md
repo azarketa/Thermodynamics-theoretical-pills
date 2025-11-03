@@ -1,13 +1,13 @@
 (sec_pvt_diagrams)=
-## $P-v-T$ diagrams
+## $p-v-T$ diagrams
 
-Thermodynamic states of a pure substance can be described by the **triad of variables** $P$, $v$, and $T$.
+Thermodynamic states of a pure substance can be described by the **triad of variables** $p$, $v$, and $T$.
 These quantities are linked by the {ref}`state relation <eq_general_state_equation>`, which defines the thermodynamic surface of the substance in a three-dimensional space.
 Understanding how this surface behaves is essential for visualizing **phase changes** and **process paths** in real systems.
 
 Mathematically, a single-variable function $y=f(x)$ is represented as a curve on the $x$–$y$ plane.
 If, instead, the function depends on two independent variables, $z=f(x, y)$, its graphical representation is a **surface** in three-dimensional space.
-In the same way, the $P-v$-T relation defines a surface: each point on this surface represents an equilibrium state of the substance.
+In the same way, the $p-v$-T relation defines a surface: each point on this surface represents an equilibrium state of the substance.
 
 A **quasi-static process**—a slow, reversible evolution between equilibrium states—traces a continuous **curve** along this surface.
 The shape of this surface, and its projections on coordinate planes, provides insight into phase behavior.
@@ -17,7 +17,7 @@ The shape of this surface, and its projections on coordinate planes, provides in
 (subsec_tv_projection)=
 ### The $T-v$ projection
 
-Let us examine a simple and familiar system: a **piston–cylinder** filled with liquid water at atmospheric pressure ($P \approx 101 \ \text{kPa}$) and at an initial temperature of $20 \ ^{\circ}\text{C}$.
+Let us examine a simple and familiar system: a **piston–cylinder** filled with liquid water at atmospheric pressure ($p \approx 101 \ \text{kPa}$) and at an initial temperature of $20 \ ^{\circ}\text{C}$.
 The system is slowly heated by a thermal source such as a small burner.
 
 1. **Heating the liquid:**
@@ -49,7 +49,7 @@ The system is slowly heated by a thermal source such as a small burner.
 :class: warning
 
 * The **specific volume** of liquid water remains nearly constant until boiling begins.
-* The **phase change** appears as a **horizontal line** (constant $T$ and $P$).
+* The **phase change** appears as a **horizontal line** (constant $T$ and $p$).
 * The **saturated vapor** region follows gas-like behavior, where $v$ increases markedly with $T$.
 :::
 
@@ -69,7 +69,7 @@ This leads to two major conclusions:
 
    Higher pressures correspond to higher saturation temperatures.
 
-2. The **volume change** during vaporization becomes smaller at higher $P$ and $T$, eventually vanishing at a unique point known as the **critical point**.
+2. The **volume change** during vaporization becomes smaller at higher $p$ and $T$, eventually vanishing at a unique point known as the **critical point**.
 
     At the **critical point**, the saturated liquid and saturated vapor states coincide.
     Beyond this point, no clear distinction exists between liquid and gas — the substance becomes a **supercritical fluid**.
@@ -78,7 +78,7 @@ This leads to two major conclusions:
 
     (eq_critical_magnitudes_water)=
     $$
-    T_{\text{cr}} = 373.95 \ ^{\circ}\text{C}, \quad P_{\text{cr}} = 22.06\text{MPa}
+    T_{\text{cr}} = 373.95 \ ^{\circ}\text{C}, \quad p_{\text{cr}} = 22.06\text{MPa}
     $$
     
     Supercritical fluids exhibit properties intermediate between those of gases and liquids and are used in specialized applications such as solvent extraction and supercritical drying.
@@ -87,7 +87,7 @@ This leads to two major conclusions:
 :class: note, dropdown
 
 * In a **pressure cooker**, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above $100 \ ^{\circ}\text{C}$ and thus cook food faster.
-* On the other hand, atop **Mount Everest**, where $P_{\text{atm}} \approx 34 \ \text{kPa}$, water boils at about $86 \ ^{\circ}\text{C}$.
+* On the other hand, atop **Mount Everest**, where $p_{\text{atm}} \approx 34 \ \text{kPa}$, water boils at about $86 \ ^{\circ}\text{C}$.
 * At roughly $19,000 \ \text{m}$ (the **Armstrong line**), where the atmospheric pressure equals the vapor pressure of water at body temperature ($36 \ ^{\circ}\text{C}$), the human body’s liquids would begin to boil without pressurization.
 
 :::
@@ -110,33 +110,33 @@ This simplified $T-v$ diagram is a cornerstone of thermodynamic visualization �
 ---
 
 (subsec_pv_projection)=
-### The $P-v$ projection
+### The $p-v$ projection
 
 To complement the $T-v$ view, consider the same piston–cylinder system but now **maintain constant temperature** while varying pressure.
 
 By applying or removing weights on the piston, the external pressure is changed, while heat exchange with the thermal bath keeps the temperature fixed.
-The resulting **$P-v$ diagram** shows similar features to the $T-v$ projection:
+The resulting **$p-v$ diagram** shows similar features to the $T-v$ projection:
 
-* As pressure decreases at constant $T$, the liquid begins to vaporize once $P_{\text{sat}}$ is reached.
+* As pressure decreases at constant $T$, the liquid begins to vaporize once $p_{\text{sat}}$ is reached.
 * At higher pressures, condensation occurs.
-* Both transformations trace a **horizontal phase-change line** on the $P-v$ diagram.
+* Both transformations trace a **horizontal phase-change line** on the $p-v$ diagram.
 
 The bell-shaped envelope again separates the single-phase regions from the two-phase mixture.
 
-:::{admonition} Note: comparison between $T-v$ and $P-v$ diagrams
+:::{admonition} Note: comparison between $T-v$ and $p-v$ diagrams
 :class: note, dropdown
 
-* In the **liquid region**, specific volume varies little with $T$ or $P$.
-* In the **vapor region**, $P$ is inversely proportional to $v$ (Boyle–Mariotte law).
+* In the **liquid region**, specific volume varies little with $T$ or $p$.
+* In the **vapor region**, $p$ is inversely proportional to $v$ (Boyle–Mariotte law).
 * Phase change appears as a horizontal line in both projections.
 :::
 
 ---
 
 (subsec_extending_pv_projection)=
-### Extending the $P-v$ projection
+### Extending the $p-v$ projection
 
-When extended to include the solid phase, the $P-v$ diagram displays additional features:
+When extended to include the solid phase, the $p-v$ diagram displays additional features:
 
 * **Substances that contract on freezing** (most materials) show a vertical solid–liquid transition line, since $v$ decreases sharply upon solidification.
 * **Substances that expand on freezing** (like water) exhibit a slanted line: the solid phase has slightly greater specific volume than the liquid.
@@ -148,18 +148,18 @@ At still lower pressures, other transitions appear:
 
   (eq_triple_point_values_water)=
   $$
-  T_{\text{tr}} = 0.01{\ ^\circ}\text{C}, \quad P_{\text{tr}} = 0.6117 \ \text{kPa}
+  T_{\text{tr}} = 0.01{\ ^\circ}\text{C}, \quad p_{\text{tr}} = 0.6117 \ \text{kPa}
   $$
 
-* The **sublimation process**, a direct transition from solid to vapor (or vice versa) at pressures below $P_{\text{tr}}$.
+* The **sublimation process**, a direct transition from solid to vapor (or vice versa) at pressures below $p_{\text{tr}}$.
 
 ---
 
 (subsec_pt_projection)=
 
-### The $P-T$ projection (phase diagram)
+### The $p-T$ projection (phase diagram)
 
-The **$P-T$ diagram**, or **phase diagram**, presents the phase boundaries more compactly.
+The **$p-T$ diagram**, or **phase diagram**, presents the phase boundaries more compactly.
 It displays the three fundamental lines:
 
 * **Sublimation line** (solid–vapor equilibrium),
@@ -177,7 +177,7 @@ The slope of the **fusion line** reveals whether a substance **expands** or **co
 :class: note, dropdown
 
 * **Vertical lines** correspond to isothermal processes (constant $T$).
-* **Horizontal lines** correspond to isobaric processes (constant $P$).
+* **Horizontal lines** correspond to isobaric processes (constant $p$).
 * For example:
 
   * Line I′: isothermal sublimation,
@@ -207,17 +207,17 @@ This intensive parameter ranges from $x=0$ (saturated liquid) to $x=1$ (saturate
 In the two-phase region, all other properties can be expressed as mass-weighted averages of their saturated-liquid and saturated-vapor values.
 
 ::::{card}
-**WORKED EXAMPLE — locating water states on the $P–v–T$ diagram**
+**WORKED EXAMPLE — locating water states on the $p–v–T$ diagram**
 ^^^
 
 **Problem statement**
 
-For each thermodynamic state of **water**, determine the requested properties by locating the state on the $P–v–T$ surface using tabulated data{cite}`2015Cengel`:
+For each thermodynamic state of **water**, determine the requested properties by locating the state on the $p–v–T$ surface using tabulated data{cite}`2015Cengel`:
 
-1. $P=150~\mathrm{bar}$, $T=693~\mathrm{K}$ ($=420\ ^\circ\mathrm{C}$). Find $v$.
-2. $P=0.5~\mathrm{bar}$, $u=340.49~\text{kJ}/\text{kg}$. Find $v$ and $T$.
-3. $P=6~\mathrm{bar}$, $x=0.65$. Find $v$ and $T$.
-4. $P=25~\mathrm{bar}$, $v=0.095~\text{m}^{3}/\text{kg}$. Find $T$.
+1. $p=150~\mathrm{bar}$, $T=693~\mathrm{K}$ ($=420\ ^\circ\mathrm{C}$). Find $v$.
+2. $p=0.5~\mathrm{bar}$, $u=340.49~\text{kJ}/\text{kg}$. Find $v$ and $T$.
+3. $p=6~\mathrm{bar}$, $x=0.65$. Find $v$ and $T$.
+4. $p=25~\mathrm{bar}$, $v=0.095~\text{m}^{3}/\text{kg}$. Find $T$.
 
 ---
 
@@ -225,26 +225,26 @@ For each thermodynamic state of **water**, determine the requested properties by
 
 | Case | Given                                                | To find  |
 | :--- | :--------------------------------------------------- | :------- |
-| 1  | $P=150~\mathrm{bar}$, $T=420\ ^\circ\mathrm{C}$        | $v$      |
-| 2  | $P=0.5~\mathrm{bar}$, $u=340.49~\text{kJ}/\text{kg}$ | $v$, $T$ |
-| 3  | $P=6~\mathrm{bar}$, $x=0.65$                         | $v$, $T$ |
-| 4  | $P=25~\mathrm{bar}$, $v=0.095~\text{m}^{3}/\text{kg}$  | $T$      |
+| 1  | $p=150~\mathrm{bar}$, $T=420\ ^\circ\mathrm{C}$        | $v$      |
+| 2  | $p=0.5~\mathrm{bar}$, $u=340.49~\text{kJ}/\text{kg}$ | $v$, $T$ |
+| 3  | $p=6~\mathrm{bar}$, $x=0.65$                         | $v$, $T$ |
+| 4  | $p=25~\mathrm{bar}$, $v=0.095~\text{m}^{3}/\text{kg}$  | $T$      |
 
 ---
 
 **Solution strategy**
 
-1. **State check**: at a given $P$ or $T$, compare with saturation properties $(T_\text{sat}(P)$, $P_\text{sat}(T)$; $v_f,v_g$; $u_f,u_g$) to decide **region**: subcooled/compressed liquid, saturated mixture, or superheated vapor.
-2. **Mixture**: if saturated, $T=T_\text{sat}(P)$ and $v=v_f+x(v_g-v_f)$, $u=u_f+x(u_g-u_f)$.
+1. **State check**: at a given $p$ or $T$, compare with saturation properties $(T_\text{sat}(p)$, $p_\text{sat}(T)$; $v_f,v_g$; $u_f,u_g$) to decide **region**: subcooled/compressed liquid, saturated mixture, or superheated vapor.
+2. **Mixture**: if saturated, $T=T_\text{sat}(p)$ and $v=v_f+x(v_g-v_f)$, $u=u_f+x(u_g-u_f)$.
 3. **Superheated / subcooled**: interpolate in the appropriate superheated/compressed tables:
 
-   $$y(T)=y(T_1)+\dfrac{y_2-y_1}{T_2-T_1}(T-T_1)\quad\text{at fixed }P.$$
+   $$y(T)=y(T_1)+\dfrac{y_2-y_1}{T_2-T_1}(T-T_1)\quad\text{at fixed }p.$$
 
 ---
 
 **Calculations**
 
-1. **$P=150~\mathrm{bar},\ T=420\ ^\circ\mathrm{C}$:**
+1. **$p=150~\mathrm{bar},\ T=420\ ^\circ\mathrm{C}$:**
 
    * **Check state:**
 
@@ -252,7 +252,7 @@ For each thermodynamic state of **water**, determine the requested properties by
 
    * **Interpolate:**
 
-        * At $P=150~\mathrm{bar}$ between:
+        * At $p=150~\mathrm{bar}$ between:
   
             * $T_1 = 400\ ^\circ\mathrm{C}$ ,
             * $v_1 = 0.015671 \ \text{m}^{3}/\text{kg}$ ,
@@ -265,7 +265,7 @@ For each thermodynamic state of **water**, determine the requested properties by
         v=\boxed{0.01679~\text{m}^{3}/\text{kg}} \ (16.79~\text{dm}^{3}/\text{kg}).
         $$
 
-2. **$P=0.5~\mathrm{bar},\ u=340.49~\text{kJ}/\text{kg}$:**
+2. **$p=0.5~\mathrm{bar},\ u=340.49~\text{kJ}/\text{kg}$:**
 
    * **Check state:**
 
@@ -274,9 +274,9 @@ For each thermodynamic state of **water**, determine the requested properties by
 
    * **Evaluate:**
 
-     $$T=\boxed{81.32\ ^\circ\mathrm{C}} \ ,\quad v=v_f(P=0.5~\mathrm{bar})=\boxed{0.00103~\text{m}^3/\text{kg}}\ (1.03~\text{dm}^{3}/\text{kg}).$$
+     $$T=\boxed{81.32\ ^\circ\mathrm{C}} \ ,\quad v=v_f(p=0.5~\mathrm{bar})=\boxed{0.00103~\text{m}^3/\text{kg}}\ (1.03~\text{dm}^{3}/\text{kg}).$$
 
-3. **$P=6~\mathrm{bar},\ x=0.65$**
+3. **$p=6~\mathrm{bar},\ x=0.65$**
 
    * **Check state:**
 
@@ -286,22 +286,22 @@ For each thermodynamic state of **water**, determine the requested properties by
 
    * **Mixture relation:**
 
-     Using $v=v_f+x,(v_g-v_f)$ at $P=6~\mathrm{bar}$ with $v_f=0.001091$ and $v_g=0.3156\ \text{m}^{3}/\text{kg}$,
+     Using $v=v_f+x,(v_g-v_f)$ at $p=6~\mathrm{bar}$ with $v_f=0.001091$ and $v_g=0.3156\ \text{m}^{3}/\text{kg}$,
    
      $$
      v=0.001091+0.65(0.3156-0.001091) = \boxed{0.20553~\text{m}^{3}/\text{kg}}\ (205.53~\text{dm}^{3}/\text{kg}).
      $$
 
-4. **$P=25~\mathrm{bar} \ v=0.095~\text{m}^{3}/\text{kg}$**
+4. **$p=25~\mathrm{bar} \ v=0.095~\text{m}^{3}/\text{kg}$**
 
    * **Check state:**
 
-     At $25~\mathrm{bar}$, $v_g(P)\approx0.0795~\text{m}^{3}/\text{kg}$.
+     At $25~\mathrm{bar}$, $v_g(p)\approx0.0795~\text{m}^{3}/\text{kg}$.
      Since $v=0.095>v_g \Rightarrow \boxed{\text{superheated vapor}}$ .
 
-   * **Interpolate (at fixed $P=25~\mathrm{bar}$):**
+   * **Interpolate (at fixed $p=25~\mathrm{bar}$):**
   
-        * At $P=25~\mathrm{bar}$ between:
+        * At $p=25~\mathrm{bar}$ between:
   
             * $T_1 = 250\ ^\circ\mathrm{C}$ ,
             * $v_1 = 0.08705 \ \text{m}^{3}/\text{kg}$ ,
@@ -329,14 +329,14 @@ For each thermodynamic state of **water**, determine the requested properties by
 
 ---
 
-:::{admonition} Tip: reading the $P–v–T$ surface
+:::{admonition} Tip: reading the $p–v–T$ surface
 :class: tip
 
-* Fixing $P$ and $T$ (case a) selects an **isobar–isotherm** point; comparing $T$ with $T_\text{sat}(P)$ tells whether the state lies **inside** (mixture) or **outside** (superheated/subcooled) the dome.
-* Fixing $P$ and $u$ (case b) near $u_f$ pins the state to the **saturated liquid** line at $T_\text{sat}(P)$, so $v=v_f(P)$.
-* Specifying $P$ and $x$ (case c) places the state **on the dome** at $T_\text{sat}(P)$, with $v$ a linear blend of $v_f$ and $v_g$.
-* Fixing $P$ and a large $v$ (case d) typically means **superheated vapor**; interpolate in superheated tables to obtain $T$.
-  Together, these patterns show how simple state checks against saturation properties let you navigate the $P$–$v$–$T$ surface quickly and accurately.
+* Fixing $p$ and $T$ (case a) selects an **isobar–isotherm** point; comparing $T$ with $T_\text{sat}(p)$ tells whether the state lies **inside** (mixture) or **outside** (superheated/subcooled) the dome.
+* Fixing $p$ and $u$ (case b) near $u_f$ pins the state to the **saturated liquid** line at $T_\text{sat}(p)$, so $v=v_f(p)$.
+* Specifying $p$ and $x$ (case c) places the state **on the dome** at $T_\text{sat}(p)$, with $v$ a linear blend of $v_f$ and $v_g$.
+* Fixing $p$ and a large $v$ (case d) typically means **superheated vapor**; interpolate in superheated tables to obtain $T$.
+  Together, these patterns show how simple state checks against saturation properties let you navigate the $p$–$v$–$T$ surface quickly and accurately.
   :::
 
 +++
@@ -355,7 +355,7 @@ However, near saturation or condensation conditions, deviations become significa
 
 :::{admonition} Important: region of validity of the ideal gas model
 :class: warning
-The **ideal-gas assumption** holds only when the distance between molecules is large (low $P$, high $T$).
+The **ideal-gas assumption** holds only when the distance between molecules is large (low $p$, high $T$).
 Close to phase boundaries, intermolecular attractions dominate and the ideal-gas model fails.
 This is the regime where **compressibility factors** and **cubic equations of state** become necessary.
 :::
@@ -365,8 +365,8 @@ This is the regime where **compressibility factors** and **cubic equations of st
 (subsec_conceptual_closure_pvt)=
 ### Conceptual closure
 
-* The **$P-v-T$ surface** represents the complete state space of a substance.
-* **Projections** on coordinate planes ($T-v$, $P-v$, $P-T$) reveal the mechanisms of phase change and critical behavior.
+* The **$p-v-T$ surface** represents the complete state space of a substance.
+* **Projections** on coordinate planes ($T-v$, $p-v$, $p-T$) reveal the mechanisms of phase change and critical behavior.
 * The **saturation line** forms an inverted bell that delineates subcooled, two-phase, and superheated regions.
 * **Critical and triple points** define the limits of coexistence among phases.
 * Understanding these diagrams is fundamental for interpreting thermodynamic cycles and energy conversion processes.

@@ -148,9 +148,9 @@ Macroscopic forms of energy depend on the system’s overall motion or position 
 
   (eq_Ef)=
   $$
-  E_f = P V,
+  E_f = p V,
   $$
-  where $P$ is pressure and $V$ is the volume of the moving fluid element.
+  where $p$ is pressure and $V$ is the volume of the moving fluid element.
 
 (subsubsec_microscopic_energy)=
 #### Microscopic energy (disorganized)
@@ -207,35 +207,35 @@ Because one joule is quite small for most engineering problems, it is common to 
 (subsec_work_simple_compressible_systems)=
 ### Notion of work in simple compressible systems
 
-In a **quasi-static (reversible) process**, the system evolves through an uninterrupted series of **equilibrium states**. This means that all intensive properties (such as pressure and temperature) remain well defined at every instant. Because $P$ can be assigned a definite value at each infinitesimal step, the product $P\mathrm{d}V$ is a meaningful quantity, allowing us to express work in **differential form** as:
+In a **quasi-static (reversible) process**, the system evolves through an uninterrupted series of **equilibrium states**. This means that all intensive properties (such as pressure and temperature) remain well defined at every instant. Because $p$ can be assigned a definite value at each infinitesimal step, the product $p\mathrm{d}V$ is a meaningful quantity, allowing us to express work in **differential form** as:
 
 (eq_flow_work_diff)=
 $$
-\delta W = P\mathrm{d}V,
+\delta W = p\mathrm{d}V,
 $$
 
 or, in specific form,
 
 (eq_flow_work_diff_spec)=
 $$
-\delta w = P\mathrm{d}v.
+\delta w = p\mathrm{d}v.
 $$
 
 A simple way to interpret the {ref}`above expression <eq_flow_work_diff>` is to picture the system boundary as a movable wall of area $A$ on which a force $\vec{F}$ acts. If the wall moves by an infinitesimal displacement $\mathrm{d}\vec{x}$, the **elementary work** is the dot product $\vec{F}{\cdot}\mathrm{d}\vec{x}$.
-Since the **pressure** is {ref}`the force per unit area <eq_pressure_def>`, $P = F/A$, the infinitesimal work can be written as
+Since the **pressure** is {ref}`the force per unit area <eq_pressure_def>`, $p = F/A$, the infinitesimal work can be written as
 
 $$
-\delta W = \pm PA\mathrm{d}x,
+\delta W = \pm pA\mathrm{d}x,
 $$
 
 and, as $\pm{}A\mathrm{d}x = \pm\mathrm{d}V$, {ref}`the generic work equation follows <eq_flow_work_diff>`. The interpretation of the positive and negative signs, in accordance to the sign convention adopted for the present course, is given {ref}`in a further section <subsec_the_sign_convention_work_heat>`. Integrating the above expression between two equilibrium states 1 and 2 gives the **total, finite work adscribed to the process**:
 
 (eq_flow_work_int)=
 $$
-W_{1\to2} = \int_{1}^{2} P\mathrm{d}V.
+W_{1\to2} = \int_{1}^{2} p\mathrm{d}V.
 $$
 
-Graphically, this represents the **area under the process curve** in a $P$–$V$ diagram. The form of $P(V)$ determines how this integral is evaluated.
+Graphically, this represents the **area under the process curve** in a $p$–$V$ diagram. The form of $p(V)$ determines how this integral is evaluated.
 
 (subsubsec_typical_process_cases)=
 #### Typical process cases
@@ -245,22 +245,22 @@ Graphically, this represents the **area under the process curve** in a $P$–$V$
   Since $\mathrm{d}V = 0$,
 
   $$
-  W_{1\to2} = \int_{1}^{2} P\mathrm{d}V = 0.
+  W_{1\to2} = \int_{1}^{2} p\mathrm{d}V = 0.
   $$
 
   No boundary work is done — the process occurs at constant volume.
 
-* **Isobaric process** ($P = \text{constant}$):
+* **Isobaric process** ($p = \text{constant}$):
 
   The pressure can be taken outside the integral:
 
   $$
-  W_{1\to2} = P \int_{V_1}^{V_2} \mathrm{d}V = P(V_2 - V_1).
+  W_{1\to2} = p \int_{V_1}^{V_2} \mathrm{d}V = p(V_2 - V_1).
   $$
 
-* **Isothermal ideal-gas process** ($T = \text{constant}$, $P V = n R T$):
+* **Isothermal ideal-gas process** ($T = \text{constant}$, $p V = n R T$):
 
-  Substituting $P = nRT/V$,
+  Substituting $p = nRT/V$,
 
   $$
   W_{1\to2} = nRT \int_{V_1}^{V_2} \frac{\mathrm{d}V}{V}
@@ -270,29 +270,29 @@ Graphically, this represents the **area under the process curve** in a $P$–$V$
 * **Adiabatic ideal-gas process**:
 
   In an adiabatic process, no heat crosses the system boundary — all the energy transfer occurs as work.
-  The pressure and volume are related by the expression $P V^{\gamma} = \text{constant}$, where $\gamma = c_p / c_v$ is the ratio of specific heats.
-  Substituting $P = C/V^{\gamma}$,
+  The pressure and volume are related by the expression $p V^{\gamma} = \text{constant}$, where $\gamma = c_p / c_v$ is the ratio of specific heats.
+  Substituting $p = C/V^{\gamma}$,
 
   $$
   W_{1\to2} = \int_{V_1}^{V_2} C V^{-\gamma}\mathrm{d}V
   = \frac{C}{1 - \gamma}\left(V_2^{1 - \gamma} - V_1^{1 - \gamma}\right)
-  = \frac{P_2 V_2 - P_1 V_1}{1 - \gamma}.
+  = \frac{p_2 V_2 - p_1 V_1}{1 - \gamma}.
   $$
 
 * **Polytropic process**:
 
-    A way of generalizing the particular cases above is by means of the **polytropic relation**, $P V^n = \text{constant}$. Such a relation describes a broad class of processes where the pressure–volume relationship follows a power law. The exponent $n$ indicates how the gas exchanges energy during the transformation:
+    A way of generalizing the particular cases above is by means of the **polytropic relation**, $p V^n = \text{constant}$. Such a relation describes a broad class of processes where the pressure–volume relationship follows a power law. The exponent $n$ indicates how the gas exchanges energy during the transformation:
     
     * For **small $n$**, pressure decreases slowly with volume, meaning more work is produced (similar to isobaric or isothermal expansion).
     * For **large $n$**, pressure drops rapidly, and less work is done (approaching isochoric behavior).
-      Hence, $n$ controls the “path” on the $P$–$V$ plane, bridging different kinds of processes (isothermal, adiabatic, etc.) into a single general model.
+      Hence, $n$ controls the “path” on the $p$–$V$ plane, bridging different kinds of processes (isothermal, adiabatic, etc.) into a single general model.
 
-  Substituting $P = C/V^n$,
+  Substituting $p = C/V^n$,
 
   $$
   W_{1\to2} = \int_{V_1}^{V_2} CV^{-n}\mathrm{d}V
   = \frac{C}{1-n}\left(V_2^{1-n} - V_1^{1-n}\right)
-  = \frac{P_2 V_2 - P_1 V_1}{1 - n}.
+  = \frac{p_2 V_2 - p_1 V_1}{1 - n}.
   $$
 
 These cases show that the work done depends on **how** the system moves between states — that is, on the **path** — rather than on the states themselves.
@@ -303,10 +303,10 @@ These cases show that the work done depends on **how** the system moves between 
 | **Process** | **Constraint / Condition** | **Work expression** | **Interpretation** | **Polytropic index** |
 | :- | :- | :- | :- | :-: |
 | **Isochoric** | $V = \text{constant}$ | $W_{1\to2} = 0$ | No change in volume $\rightarrow$ no boundary work. | $n \to \infty$ |
-| **Isobaric** | $P = \text{constant}$ | $W_{1\to2} = P(V_2 - V_1)$ | Pressure remains constant $\rightarrow$ work equals pressure × volume change. | $n = 0$ |
+| **Isobaric** | $p = \text{constant}$ | $W_{1\to2} = p(V_2 - V_1)$ | Pressure remains constant $\rightarrow$ work equals pressure × volume change. | $n = 0$ |
 | **Isothermal (ideal gas)** | $T = \text{constant}$ | $W_{1\to2} = nRT\ln(V_2/V_1)$ | Temperature fixed $\rightarrow$ work comes entirely from heat exchange. | $n = 1$ |
-| **Adiabatic (ideal gas)**  | $Q = 0$ | $W_{1\to2} = \dfrac{P_2V_2 - P_1V_1}{1 - \gamma}$, where $\gamma = c_p/c_v$ | No heat transfer $\rightarrow$ work equals the change in internal energy. | $n = \gamma$ |
-| **Polytropic** | $P V^n = \text{constant}$, $n \neq 1$ | $W_{1\to2} = \dfrac{P_2V_2 - P_1V_1}{1 - n}$ | Generalized process describing many possible paths between states. |   $n = n$ |
+| **Adiabatic (ideal gas)**  | $Q = 0$ | $W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - \gamma}$, where $\gamma = c_p/c_v$ | No heat transfer $\rightarrow$ work equals the change in internal energy. | $n = \gamma$ |
+| **Polytropic** | $p V^n = \text{constant}$, $n \neq 1$ | $W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - n}$ | Generalized process describing many possible paths between states. |   $n = n$ |
 
 :::
 
@@ -368,7 +368,7 @@ Notice that the Watt unit $[\text{W}]$ corresponds to the **rate of energy**, i.
 * If $\mathrm{d}V > 0$, the system **expands** and performs **positive work** on its surroundings — energy leaves the system as mechanical output.
 * If $\mathrm{d}V < 0$, the system **is compressed**, and **negative work** is done *by* the system — equivalently, work is done *on* the system, meaning mechanical energy enters it.
 
-On a $P$–$V$ diagram, this corresponds to the **area under the process curve**:
+On a $p$–$V$ diagram, this corresponds to the **area under the process curve**:
 
 * **Expansion** (work done *by* the system): area *below* the curve $\rightarrow W > 0$.
 * **Compression** (work done *on* the system): area *above* the curve $\rightarrow W < 0$.
@@ -393,7 +393,7 @@ In this convention, **positive $Q$** denotes *heating* (energy received by the s
 :::{admonition} Note: graphical correspondence between heat and work
 :class: note, dropdown
 
-The **$T$–$s$ diagram** offers a thermal counterpart to the mechanical interpretation provided by the **$P$–$V$ diagram**. As we shall see further on, while areas on a $P$–$V$ plot represent **work** ($\delta W = P\mathrm{d}V$), areas on a $T$–$s$ diagram represent **heat transfer** during **reversible processes**, since
+The **$T$–$s$ diagram** offers a thermal counterpart to the mechanical interpretation provided by the **$p$–$V$ diagram**. As we shall see further on, while areas on a $p$–$V$ plot represent **work** ($\delta W = p\mathrm{d}V$), areas on a $T$–$s$ diagram represent **heat transfer** during **reversible processes**, since
 
 $$
 \delta Q_{\text{rev.}} = T\mathrm{d}s.
@@ -404,7 +404,7 @@ Thus, the **area under the curve** on a $T$–$s$ diagram corresponds to the **h
 * If entropy increases ($\mathrm{d}s > 0$), the system **receives heat** ($Q > 0$).
 * If entropy decreases ($\mathrm{d}s < 0$), the system **rejects heat** ($Q < 0$).
 
-This makes the $T$–$s$ diagram a direct visual analogue of the $P$–$V$ one: both express **energy transfer as geometric area**, but through **different modes** — mechanical in the $P$–$V$ plane and thermal in the $T$–$s$ plane. Together, they provide a unified picture of how systems exchange energy via work and heat.
+This makes the $T$–$s$ diagram a direct visual analogue of the $p$–$V$ one: both express **energy transfer as geometric area**, but through **different modes** — mechanical in the $p$–$V$ plane and thermal in the $T$–$s$ plane. Together, they provide a unified picture of how systems exchange energy via work and heat.
 :::
 
 :::{admonition} Note: consistency of sign conventions
@@ -421,7 +421,7 @@ Always confirm the sign convention in use before comparing equations or results 
 
 **Problem statement**
 
-A closed system contains **1 kg of nitrogen gas ($\text{N}_2$)** initially at a pressure of $P_1 = 100 \ \text{kPa}$ and a temperature of $T_1 = 300 \ \text{K}$.
+A closed system contains **1 kg of nitrogen gas ($\text{N}_2$)** initially at a pressure of $p_1 = 100 \ \text{kPa}$ and a temperature of $T_1 = 300 \ \text{K}$.
 Whenever the considered process allows it, the gas expands **quasi-statically** until its **final volume doubles** ($V_2 = 2V_1$).
 
 The process is analyzed under different conditions — **isochoric**, **isobaric**, **isothermal**, **adiabatic**, and **polytropic** — to determine the **boundary work** done by the gas in each case. For the most generic case, assume a polytropic index of $n = 1.2$.
@@ -435,10 +435,10 @@ Assume ideal-gas behavior throughout and compare the resulting work magnitudes.
 The boundary work is defined as:
 
 $$
-W_{1\to2} = \int_{V_1}^{V_2} P \mathrm{d}V.
+W_{1\to2} = \int_{V_1}^{V_2} p \mathrm{d}V.
 $$
 
-For an ideal gas, $PV = mRT$, and the functional form of $P(V)$ depends on the **type of process**.
+For an ideal gas, $pV = mRT$, and the functional form of $p(V)$ depends on the **type of process**.
 We apply the appropriate relations for each process and evaluate the corresponding $W_{1\to2}$ values.
 
 ---
@@ -451,7 +451,7 @@ We apply the appropriate relations for each process and evaluate the correspondi
 | Gas constant                       |         $R$        | $0.2968 \ \text{kJ}/\text{kg}{\cdot}\text{K}$ |
 | Ratio of specific heats            | $\gamma = c_p/c_v$ |                     $1.4$ |
 | Mass                               |         $m$        |           $1 \ \text{kg}$ |
-| Initial pressure                   |        $P_1$       |        $100 \ \text{kPa}$ |
+| Initial pressure                   |        $p_1$       |        $100 \ \text{kPa}$ |
 | Initial temperature                |        $T_1$       |          $300 \ \text{K}$ |
 | Volume ratio                       |      $V_2/V_1$     |                       $2$ |
 | Polytropic exponent                |         $n$        |                     $1.2$ |
@@ -463,13 +463,13 @@ We apply the appropriate relations for each process and evaluate the correspondi
 For the initial state:
 
 $$
-P_1 V_1 = mRT_1 = (1)(0.2968)(300) = 89.04 \ \text{kJ} = 89.04 \ \text{kPa}{\cdot}\text{m}^3.
+p_1 V_1 = mRT_1 = (1)(0.2968)(300) = 89.04 \ \text{kJ} = 89.04 \ \text{kPa}{\cdot}\text{m}^3.
 $$
 
 Hence:
 
 $$
-\boxed{V_1 = \dfrac{mRT_1}{P_1} = \dfrac{89.04}{100} = 0.8904 \ \text{m}^3} \ .
+\boxed{V_1 = \dfrac{mRT_1}{p_1} = \dfrac{89.04}{100} = 0.8904 \ \text{m}^3} \ .
 $$
 
 ---
@@ -479,7 +479,7 @@ $$
 No change in volume $\Rightarrow \mathrm{d}V = 0$:
 
 $$
-W_{1\to2} = W_{\text{isochoric}} = \int_{V_1}^{V_2} P\mathrm{d}V = 0.
+W_{1\to2} = W_{\text{isochoric}} = \int_{V_1}^{V_2} p\mathrm{d}V = 0.
 $$
 
 $$
@@ -488,10 +488,10 @@ $$
 
 ---
 
-2. **Isobaric process** ($P = \text{constant}$)
+2. **Isobaric process** ($p = \text{constant}$)
 
 $$
-W_{1\to2} = W_{\text{isobaric}} = P(V_2 - V_1) = 100(0.8904) = 89.0 \ \text{kJ}.
+W_{1\to2} = W_{\text{isobaric}} = p(V_2 - V_1) = 100(0.8904) = 89.0 \ \text{kJ}.
 $$
 
 $$
@@ -515,10 +515,10 @@ $$
 4. **Adiabatic process** ($Q = 0$, reversible)
 
 $$
-W_{1\to2} = W_{\text{adiabatic}} \frac{P_2V_2 - P_1V_1}{1 - \gamma}.
+W_{1\to2} = W_{\text{adiabatic}} \frac{p_2V_2 - p_1V_1}{1 - \gamma}.
 $$
 
-From $PV^\gamma = \text{constant}$:
+From $pV^\gamma = \text{constant}$:
 
 $$
 \frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\gamma-1} = (0.5)^{0.4} = 0.758,
@@ -538,19 +538,19 @@ $$
 
 ---
 
-5. **Polytropic process** ($PV^n = \text{constant}$, $n = 1.2$)
+5. **Polytropic process** ($pV^n = \text{constant}$, $n = 1.2$)
 
 $$
-W_{1\to2} = W_{\text{polytropic}} = \frac{P_2V_2 - P_1V_1}{1 - n}.
+W_{1\to2} = W_{\text{polytropic}} = \frac{p_2V_2 - p_1V_1}{1 - n}.
 $$
 
 From the polytropic relation:
 
 $$
-\frac{P_2}{P_1} = \left(\frac{V_1}{V_2}\right)^n = (0.5)^{1.2} = 0.435.
+\frac{p_2}{p_1} = \left(\frac{V_1}{V_2}\right)^n = (0.5)^{1.2} = 0.435.
 $$
 
-Thus, $P_2 = 43.5 \ \text{kPa}$, and
+Thus, $p_2 = 43.5 \ \text{kPa}$, and
 
 $$
 W_{\text{polytropic}} = \frac{(43.5)(2V_1) - (100)(V_1)}{1 - 1.2} = \frac{(87.0 - 100)V_1}{-0.2} = 65.0 \ \text{kJ}.
@@ -567,16 +567,16 @@ $$
 | Process                | Relation                   | $W$ [kJ] | Relative work                    | Comments                                           |
 | :--------------------- | :------------------------- | -------: | :------------------------------- | :------------------------------------------------- |
 | Isochoric              | $V = \text{const.}$        |      0.0 | —                                | No boundary motion → no work.                      |
-| Isobaric               | $P = \text{const.}$        |     89.0 | Highest                          | Largest $P$–$V$ area; constant external pressure.  |
+| Isobaric               | $p = \text{const.}$        |     89.0 | Highest                          | Largest $p$–$V$ area; constant external pressure.  |
 | Isothermal             | $T = \text{const.}$        |     61.7 | Moderate                         | Heat fully compensates work to keep $T$ constant.  |
 | Adiabatic              | $Q = 0$                    |     53.9 | Lowest (nonzero)                 | Work done at expense of internal energy (cooling). |
-| Polytropic ($n = 1.2$) | $PV^{1.2} = \text{const.}$ |     65.0 | Between isothermal and adiabatic | Partial heat exchange softens the pressure drop.   |
+| Polytropic ($n = 1.2$) | $pV^{1.2} = \text{const.}$ |     65.0 | Between isothermal and adiabatic | Partial heat exchange softens the pressure drop.   |
 
 ---
 
 **Visualization**
 
-For the current system, the above processes look as follows when plotted in a $P-V$ diagram. As observed, the comments made before can be correlated with the shapes of the curves.
+For the current system, the above processes look as follows when plotted in a $p-V$ diagram. As observed, the comments made before can be correlated with the shapes of the curves.
 
 ![PV_diagram](1_fundamentals_figs/PV_diagram_worked_example_mod.svg)
 
@@ -587,7 +587,7 @@ For the current system, the above processes look as follows when plotted in a $P
 
 A detailed interpretation in terms of energy, work and heat interactions may ensue when introducing the $1^{\text{st}}$ law formally. However, some preliminary hints can be provided so far. For the same expansion ratio ($V_2/V_1 = 2$), the **work output** depends on how the system exchanges heat:
 
-* In **isobaric** expansion, constant pressure yields the largest area under the $P$–$V$ curve.
+* In **isobaric** expansion, constant pressure yields the largest area under the $p$–$V$ curve.
 * In **isothermal** expansion, pressure falls as $1/V$, giving moderate work.
 * In **polytropic** expansion, a limited heat exchange produces an intermediate path between isothermal and adiabatic.
 * In **adiabatic** expansion, no heat enters — the gas cools, and the pressure drop is steepest, yielding the smallest nonzero work.
@@ -614,7 +614,7 @@ To relate these transfers consistently, thermodynamics adopts clear **sign conve
 * $W > 0$ when work is done **by** the system (expansion), and $W < 0$ when done **on** it (compression).
 * $Q > 0$ when heat is **added** to the system (heating), and $Q < 0$ when **released** (cooling).
 
-On the **$P$–$V$ diagram**, areas represent **work**, while on the **$T$–$s$ diagram**, they represent **heat** for reversible processes. Both views complement each other: one expresses **mechanical** energy exchange, the other **thermal**, offering a complete picture of energy transfer between a system and its surroundings.
+On the **$p$–$V$ diagram**, areas represent **work**, while on the **$T$–$s$ diagram**, they represent **heat** for reversible processes. Both views complement each other: one expresses **mechanical** energy exchange, the other **thermal**, offering a complete picture of energy transfer between a system and its surroundings.
 
 ---
 

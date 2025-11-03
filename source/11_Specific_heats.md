@@ -13,7 +13,7 @@ These cases are not only conceptually simple but also **easy to reproduce in lab
 
 * **Constant volume (isochoric process):**
 
-  This condition can be achieved by enclosing the substance in a **rigid, sealed container**, so that no change in volume can occur ($\mathrm{d}V = 0$).
+  This condition can be achieved by enclosing the substance in a **rigid, sealed container**, so that no change in volume can occur ($\mathrm{d}v = 0$).
   The system cannot perform boundary work, and the expression reduces to
 
   $$
@@ -29,7 +29,7 @@ These cases are not only conceptually simple but also **easy to reproduce in lab
 * **Constant pressure (isobaric process):**
 
   This setup is obtained by allowing the system to expand or contract against a **constant external pressure** — for instance, by using a **piston–cylinder assembly** open to the atmosphere.
-  In this configuration ($\mathrm{d}P = 0$), we can rewrite the $1^{\text{st}}$ law in {ref}`terms of enthalpy <eq_heat_enthalpy_relation1>` and obtain:
+  In this configuration ($\mathrm{d}p = 0$), we can rewrite the $1^{\text{st}}$ law in {ref}`terms of enthalpy <eq_heat_enthalpy_relation1>` and obtain:
 
   $$
   \mathrm{d}H = \delta Q.
@@ -98,8 +98,8 @@ Only the energy-related quantities ($u$, $h$) are **state functions**; the heat 
 | :------------------------ | :---------------------------------- | :---------------: | :----------------------: | :------------------------------- |
 | Internal energy variation | $\mathrm{d}u = c_v\mathrm{d}T$     |         Yes         |             No            | Always valid definition of $c_v$ |
 | Enthalpy variation        | $\mathrm{d}h = c_p\mathrm{d}T$     |         Yes         |             No            | Always valid definition of $c_p$ |
-| Heat transfer (isochoric) | $\delta q_v = c_v\mathrm{d}T$      |         No         |             Yes            | $V = \text{constant}$            |
-| Heat transfer (isobaric)  | $\delta q_p = c_p\mathrm{d}T$      |         No         |             Yes            | $P = \text{constant}$            |
+| Heat transfer (isochoric) | $\delta q_v = c_v\mathrm{d}T$      |         No         |             Yes            | $v = \text{constant}$            |
+| Heat transfer (isobaric)  | $\delta q_p = c_p\mathrm{d}T$      |         No         |             Yes            | $p = \text{constant}$            |
 :::
 
 :::{admonition} Note: on the units of specific heats
@@ -114,12 +114,12 @@ Notice that both $c_p$ and $c_v$ are measured in $[\text{kJ}/(\text{kg}{\cdot}\t
 
 So far, we have recognized two main approaches to describe gas behavior: {ref}`real and ideal gases <subsec_equation_of_state_gases>`.
 In **real gases**, intermolecular forces play an important role, and their influence must be accounted for in the equation of state, which can become quite complex.
-In contrast, **ideal gases** are those in which such forces are neglected and the molecules behave as independent particles. Their behavior is then governed by the simple law $Pv = RT$.
+In contrast, **ideal gases** are those in which such forces are neglected and the molecules behave as independent particles. Their behavior is then governed by the simple law $pv = RT$.
 
 When considering the dependence of specific heats, this distinction becomes even clearer. For **real gases**, the specific heats vary with both **temperature** and **pressure (or volume)**, reflecting the effects of molecular interactions:
 
 $$
-c_v = c_v(T, P), \qquad c_p = c_p(T, P).
+c_v = c_v(T, p), \qquad c_p = c_p(T, p).
 $$
 
 For **ideal gases**, where intermolecular effects are absent, the **internal energy** ($u$) and **enthalpy** ($h$) depend **only on temperature**, and so do their derivatives:
@@ -137,9 +137,9 @@ Yet a further simplification defines the **perfect gas**, a special case of the 
 
 | **Gas type**    | **Dependence of $c_v$, $c_p$**               | **Interactions**                         |            **Equation of state**            |
 | :-------------- | :------------------------------------------- | :--------------------------------------- | :-----------------------------------------: |
-| **Real gas**    | $c_v = c_v(T,P)$, $c_p = c_p(T,P)$           | Intermolecular forces significant        | Non-ideal (e.g. Van der Waals, virial form) |
-| **Ideal gas**   | $c_v = c_v(T)$, $c_p = c_p(T)$               | No interactions; only elastic collisions |                  $Pv = RT$                  |
-| **Perfect gas** | $c_v = \text{const.}$, $c_p = \text{const.}$ | Same assumptions as ideal gas            |                  $Pv = RT$                  |
+| **Real gas**    | $c_v = c_v(T,p)$, $c_p = c_p(T,p)$           | Intermolecular forces significant        | Non-ideal (e.g. van der Waals, virial form) |
+| **Ideal gas**   | $c_v = c_v(T)$, $c_p = c_p(T)$               | No interactions; only elastic collisions |                  $pv = RT$                  |
+| **Perfect gas** | $c_v = \text{const.}$, $c_p = \text{const.}$ | Same assumptions as ideal gas            |                  $pv = RT$                  |
 :::
 
 Thus, every perfect gas is an ideal gas, but not every ideal gas is perfect — and neither are real gases ideal.
@@ -192,10 +192,10 @@ i.e. **the internal energy of an ideal gas depends only on temperature**, not on
 Extending this result to the enthalpy,
 
 $$
-h = u + Pv,
+h = u + pv,
 $$
 
-and using the ideal gas law $Pv = RT \implies Pv=f(T)$, it follows that
+and using the ideal gas law $pv = RT \implies pv=f(T)$, it follows that
 
 $$
 h = h(T),
@@ -252,12 +252,12 @@ $$
 R = c_p - c_v,
 $$
 
-the gas constant represents the **energy required for unit mass (or mole) of gas to expand by unit temperature change at constant pressure**, relative to constant volume — that is, the *energy per unit temperature that goes into $Pv$ (expansion) work* rather than internal energy.
+the gas constant represents the **energy required for unit mass (or mole) of gas to expand by unit temperature change at constant pressure**, relative to constant volume — that is, the *energy per unit temperature that goes into $pv$ (expansion) work* rather than internal energy.
 
-During **isothermal processes**, $\Delta T = 0 \Rightarrow \Delta u = \Delta h = 0$, so the heat transfer $Q$ is entirely converted into **boundary work** $W$. Using the ideal gas law $Pv = RT$, we have:
+During **isothermal processes**, $\Delta T = 0 \Rightarrow \Delta u = \Delta h = 0$, so the heat transfer $Q$ is entirely converted into **boundary work** $W$. Using the ideal gas law $pv = RT$, we have:
 
 $$
-w = q = \int_{v_1}^{v_2} P\mathrm{d}v = RT \ln\frac{v_2}{v_1}.
+w = q = \int_{v_1}^{v_2} p\mathrm{d}v = RT \ln\frac{v_2}{v_1}.
 $$
 
 Hence, while $c_v$ and $c_p$ connect temperature changes to internal energy and enthalpy changes under fixed constraints, **$R$ governs the energy exchange during isothermal transformations** — quantifying how much energy (per unit mass or mole) is transferred as work when an ideal gas expands or compresses *without changing its temperature*.
@@ -266,8 +266,8 @@ In short:
 
 | Process type | Constraint          | Governing relation         | Physical meaning                                        |
 | :----------- | :------------------ | :------------------------- | :------------------------------------------------------ |
-| Isochoric    | $V = \text{const.}$ | $\Delta u = c_v \Delta T$  | Heat changes internal energy only                       |
-| Isobaric     | $P = \text{const.}$ | $\Delta h = c_p \Delta T$  | Heat changes both internal energy and $Pv$ work         |
+| Isochoric    | $v = \text{const.}$ | $\Delta u = c_v \Delta T$  | Heat changes internal energy only                       |
+| Isobaric     | $p = \text{const.}$ | $\Delta h = c_p \Delta T$  | Heat changes both internal energy and $pv$ work         |
 | Isothermal   | $T = \text{const.}$ | $q = w = R T \ln(v_2/v_1)$ | Heat fully converts to work (no $\Delta u$, $\Delta h$) |
 :::
 
@@ -296,7 +296,7 @@ Because $c_p$, $c_v$, and $\gamma$ are **thermodynamic properties**, their value
 The decreasing values of $\gamma$ with the increasing complexity of the molecular structre illustrates how such a complexity broadens the number of energy-storage modes and making the gas more “thermally compliant.” Such a thermal compliance means that the gas can **absorb more energy for a given temperature increase** — in other words, it has more ways to store energy internally (through rotational and vibrational modes). As molecular complexity increases, energy is distributed among more degrees of freedom, so temperature rises less for the same energy input, resulting in a **lower** value of $\gamma$.
 :::
 
-Beyond the ratio $\gamma = c_p / c_v$, it is often convenient to introduce a **generalized specific heat** $c$ to describe **polytropic processes**, where pressure and volume follow $P V^n = \text{constant}$.
+Beyond the ratio $\gamma = c_p / c_v$, it is often convenient to introduce a **generalized specific heat** $c$ to describe **polytropic processes**, where pressure and volume follow $p v^n = \text{constant}$.
 In such processes, the effective heat capacity $c$ links directly to the polytropic exponent $n$ through the relation:
 
 (eq_polytropic_exponent_relation)=
@@ -310,8 +310,8 @@ Intermediate values of $c$ correspond to **polytropic processes** with partial h
 
 | **Process type** | **Condition**       | **Polytropic index** $n$ |  **Effective specific heat** $c$  |
 | :--------------- | :------------------ | :----------------------: | :-------------------------------: |
-| **Isochoric**    | $V = \text{const.}$ |      $n \to \infty$      |             $c = c_v$             |
-| **Isobaric**     | $P = \text{const.}$ |          $n = 0$         |             $c = c_p$             |
+| **Isochoric**    | $v = \text{const.}$ |      $n \to \infty$      |             $c = c_v$             |
+| **Isobaric**     | $p = \text{const.}$ |          $n = 0$         |             $c = c_p$             |
 | **Isothermal**   | $T = \text{const.}$ |          $n = 1$         | $c \to \infty$ (undefined) |
 | **Adiabatic**    | $Q = 0$             |       $n = \gamma$       |              $c = 0$              |
 
@@ -414,7 +414,7 @@ The exponent $n$ thus acts as a **thermodynamic dial** between these limits:
 In the two previous worked examples, we have {ref}`calculated the work associated with different processes <card_worked_example_boundary_work>` and {ref}`obtained the required heat input for a fixed net energy change <card_worked_example_energy_balance>`.
 The purpose of this worked example is to determine the **final temperature** of nitrogen ($\mathrm{N_2}$) at the end of those processes, using the **perfect gas model**. For the polytropic process, calculate the effective heat capacity $c$ as well.
 
-We consider the **same system and initial state** (closed system, $m=1~\mathrm{kg}$ of $\mathrm{N_2}$, $P_1=100~\mathrm{kPa}$, $T_1=300~\mathrm{K}$) and keep the **same net stored‐energy change** as before:
+We consider the **same system and initial state** (closed system, $m=1~\mathrm{kg}$ of $\mathrm{N_2}$, $p_1=100~\mathrm{kPa}$, $T_1=300~\mathrm{K}$) and keep the **same net stored‐energy change** as before:
 
 $$
 \Delta E = -53.9~\mathrm{kJ}.
@@ -445,11 +445,11 @@ Q = \Delta E + W, \qquad \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U.
 $$
 
 Path relations used to obtain $T_2$:
-* isochoric $V=\mathrm{const.}$ (assume $\Delta E_{\mathrm{mech.}}=0$);
-* isobaric $P=\mathrm{const.}$ with volume doubling ($T_2/T_1=V_2/V_1=2$);
+* isochoric $v=\mathrm{const.}$ (assume $\Delta E_{\mathrm{mech.}}=0$);
+* isobaric $p=\mathrm{const.}$ with volume doubling ($T_2/T_1=v_2/v_1=2$);
 * isothermal $T=\mathrm{const.}$;
-* adiabatic, reversible $Q=0,\ PV^\gamma=\mathrm{const.}$;
-* polytropic $PV^n=\mathrm{const.}$ with $n=1.2$.
+* adiabatic, reversible $Q=0,\ pv^\gamma=\mathrm{const.}$;
+* polytropic $pv^n=\mathrm{const.}$ with $n=1.2$.
 
 ---
 
@@ -462,21 +462,21 @@ Path relations used to obtain $T_2$:
 | Gas                       |           —          |         Nitrogen, $\mathrm{N_2}$ |
 | Mass                      |          $m$         |                  $1~\mathrm{kg}$ |
 | Initial temperature       |         $T_1$        |                 $300~\mathrm{K}$ |
-| Initial pressure          |         $P_1$        |               $100~\mathrm{kPa}$ |
+| Initial pressure          |         $p_1$        |               $100~\mathrm{kPa}$ |
 | Gas constant              |          $R$         | $0.2968~\mathrm{kJ/(kg\cdot K)}$ |
 | Heat‐capacity ratio       |       $\gamma$       |                            $1.4$ |
-| Specific heat at $V$      | $c_v = R/(\gamma-1)$ |  $0.742~\mathrm{kJ/(kg\cdot K)}$ |
+| Specific heat at constant $v$      | $c_v = R/(\gamma-1)$ |  $0.742~\mathrm{kJ/(kg\cdot K)}$ |
 | Fixed total energy change |      $\Delta E$      |              $-53.9~\mathrm{kJ}$ |
 
 **Work from the boundary‐work example**
 
 | Process                |          Relation          | $W$ [kJ] |
 | :--------------------- | :------------------------: | -------: |
-| Isochoric              |     $V=\mathrm{const.}$    |     +0.0 |
-| Isobaric               |     $P=\mathrm{const.}$    |    +89.0 |
+| Isochoric              |     $v=\mathrm{const.}$    |     +0.0 |
+| Isobaric               |     $p=\mathrm{const.}$    |    +89.0 |
 | Isothermal             |     $T=\mathrm{const.}$    |    +61.7 |
-| Adiabatic (reversible) | $PV^{1.4}=\mathrm{const.}$ |    +53.9 |
-| Polytropic $n=1.2$     | $PV^{1.2}=\mathrm{const.}$ |    +65.0 |
+| Adiabatic (reversible) | $pv^{1.4}=\mathrm{const.}$ |    +53.9 |
+| Polytropic $n=1.2$     | $pv^{1.2}=\mathrm{const.}$ |    +65.0 |
 
 ---
 
@@ -495,10 +495,12 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
+   \begin{gather*}
    \boxed{T_2 = 227.4~\mathrm{K}}, \quad
-   \boxed{Q = -53.9~\mathrm{kJ}}, \quad
+   \boxed{Q = -53.9~\mathrm{kJ}}, \\[10pt]
    \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}}
+   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}} \ .
+   \end{gather*}
    $$
 
 ---
@@ -512,7 +514,7 @@ Path relations used to obtain $T_2$:
    Volume doubling:
 
    $$
-   Pv=RT \Rightarrow \frac{V_2}{V_1} = \frac{T_2}{T_1}; \ V_{2}=2V_{1} \implies \frac{T_2}{T_1}=2
+   pv=RT \Rightarrow \frac{v_2}{v_1} = \frac{T_2}{T_1}; \ v_{2}=2v_{1} \implies \frac{T_2}{T_1}=2
    $$
 
    $$
@@ -558,10 +560,12 @@ Path relations used to obtain $T_2$:
    $$
    
    $$
+   \begin{gather*}
    \boxed{T_2 = 600.0~\mathrm{K}}, \quad
-   \boxed{Q = +35.1~\mathrm{kJ}}, \quad
+   \boxed{Q = +35.1~\mathrm{kJ}}, \\[10pt]
    \boxed{\Delta U = +222.6~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = -276.5~\mathrm{kJ}}
+   \boxed{\Delta E_{\mathrm{mech.}} = -276.5~\mathrm{kJ}} \ .
+   \end{gather*}
    $$
 
 ---
@@ -588,20 +592,22 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
+   \begin{gather*}
    \boxed{T_2 = 300.0~\mathrm{K}}, \quad
-   \boxed{Q = +7.8~\mathrm{kJ}}, \quad
+   \boxed{Q = +7.8~\mathrm{kJ}}, \\[10pt]
    \boxed{\Delta U = 0.0~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = -53.9~\mathrm{kJ}}
+   \boxed{\Delta E_{\mathrm{mech.}} = -53.9~\mathrm{kJ}} \ .
+   \end{gather*}
    $$
 
 ---
 
 4. **Adiabatic**
 
-   $Q = 0$, and $PV^\gamma = \mathrm{const.}$ with volume doubling:
+   $Q = 0$, and $pv^\gamma = \mathrm{const.}$ with volume doubling:
 
    $$
-   T_2 = T_1 \left(\frac{V_1}{V_2}\right)^{\gamma-1}
+   T_2 = T_1 \left(\frac{v_1}{v_2}\right)^{\gamma-1}
    = 300(0.5)^{0.4}
    = 227.4~\mathrm{K}.
    $$
@@ -623,10 +629,12 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
+   \begin{gather*}
    \boxed{T_2 = 227.4~\mathrm{K}}, \quad
-   \boxed{Q = 0.0~\mathrm{kJ}}, \quad
+   \boxed{Q = 0.0~\mathrm{kJ}}, \\[10pt]
    \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}}
+   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}} \ .
+   \end{gather*}
    $$
 
 ---
@@ -638,7 +646,7 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   T_2 = T_1 (V_2/V_1)^{1-n}
+   T_2 = T_1 (v_2/v_1)^{1-n}
    = 300 \cdot 2^{-0.2}
    = 261.2~\mathrm{K}.
    $$
@@ -666,11 +674,13 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
+   \begin{gather*}
    \boxed{T_2 = 261.2~\mathrm{K}}, \quad
    \boxed{Q = +11.1~\mathrm{kJ}}, \quad
-   \boxed{\Delta U = -28.8~\mathrm{kJ}}, \quad
+   \boxed{\Delta U = -28.8~\mathrm{kJ}}, \\[10pt]
    \boxed{\Delta E_{\mathrm{mech.}} = -25.1~\mathrm{kJ}}, \quad
-   \boxed{c = -0.737 \ \text{kJ}/\left(\text{kg}\cdot\text{K}\right)}
+   \boxed{c = -0.737 \ \text{kJ}/\left(\text{kg}\cdot\text{K}\right)} \ .
+   \end{gather*}
    $$
 
 ---
@@ -679,11 +689,11 @@ Path relations used to obtain $T_2$:
 
 | Process              |          Relation          | $W$ [kJ] | $Q$ [kJ] | $T_2$ [K] | $\Delta U$ [kJ] | $\Delta E_{\mathrm{mech.}}$ [kJ] | $c$ [kJ/(kg$\cdot$K)] |
 | :------------------- | :------------------------: | -------: | -------: | --------: | --------------: | ------------------------------: | -----: |
-| Isochoric            |     $V=\mathrm{const.}$    |     +0.0 |    −53.9 |     227.4 |           −53.9 |                             0.0 | 0.743
-| Isobaric             |     $P=\mathrm{const.}$    |    +89.0 |    +35.1 |     600.0 |          +222.6 |                          −276.5 | 1.039
+| Isochoric            |     $v=\mathrm{const.}$    |     +0.0 |    −53.9 |     227.4 |           −53.9 |                             0.0 | 0.743
+| Isobaric             |     $p=\mathrm{const.}$    |    +89.0 |    +35.1 |     600.0 |          +222.6 |                          −276.5 | 1.039
 | Isothermal           |     $T=\mathrm{const.}$    |    +61.7 |     +7.8 |     300.0 |             0.0 |                           −53.9 | $\to \infty$
-| Adiabatic (rev.)     | $PV^{1.4}=\mathrm{const.}$ |    +53.9 |      0.0 |     227.4 |           −53.9 |                             0.0 | 0
-| Polytropic ($n=1.2$) | $PV^{1.2}=\mathrm{const.}$ |    +65.0 |    +11.1 |     261.2 |           −28.8 |                           −25.1 | -0.737
+| Adiabatic (rev.)     | $pv^{1.4}=\mathrm{const.}$ |    +53.9 |      0.0 |     227.4 |           −53.9 |                             0.0 | 0
+| Polytropic ($n=1.2$) | $pv^{1.2}=\mathrm{const.}$ |    +65.0 |    +11.1 |     261.2 |           −28.8 |                           −25.1 | -0.737
 
 ---
 
@@ -705,7 +715,7 @@ This example extends the same–$\Delta E$ comparison to **final temperatures** 
 * **Isochoric:** by **assumption**, the vessel is rigid and stationary, so $\Delta E_{\mathrm{mech.}}=0$. With $W=0$, the entire energy loss is internal cooling, yielding $T_2=227.4~\mathrm{K}$.
 * **Isobaric:** constant‐pressure expansion doubles the volume. Internal energy rises sharply; to keep the same total loss, the system must **lose mechanical energy**. Macroscopically, this corresponds to the gas doing work that propels a piston upward or raises a weight.
 * **Isothermal:** temperature remains fixed ($\Delta U=0$). The total energy decrease appears as a **loss of mechanical energy**, representing the system’s macroscopic expansion against external resistance.
-* **Adiabatic, reversible:** here $\Delta E_{\mathrm{mech.}}=0$ is a **result**, not an assumption. The constraints $Q=0$ and $PV^\gamma=\mathrm{const.}$ fix $T_2$, so that $\Delta U=-W$ and $\Delta E=\Delta U$.
+* **Adiabatic, reversible:** here $\Delta E_{\mathrm{mech.}}=0$ is a **result**, not an assumption. The constraints $Q=0$ and $pv^\gamma=\mathrm{const.}$ fix $T_2$, so that $\Delta U=-W$ and $\Delta E=\Delta U$.
 * **Polytropic ($n=1.2$):** intermediate behavior between isothermal and adiabatic. Part of the fixed loss occurs as internal cooling, and the rest as a mechanical‐energy decrease, yielding $T_2$ between the isothermal and adiabatic values.
 
 <br/>

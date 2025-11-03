@@ -44,12 +44,12 @@ $$\Delta h_{i\to f} = c_p \Delta T_{i\to f}.$$
 If both **air** and **water vapor** are treated as ideal gases, then, according to **Dalton’s law of partial pressures**, the total pressure is the sum of the individual partial pressures:
 
 (eq_dalton_air_vapor)=
-$$P{}={}P_a{}+{}P_{\text{v}}$$
+$$p{}={}p_a{}+{}p_{\text{v}}$$
 
 In the $T$–$s$ diagram of water, lines of constant enthalpy and constant temperature overlap below $50 \ ^{\circ}\mathrm{C}$, confirming that enthalpy depends primarily on temperature in this range. Therefore, the enthalpy of water vapor in air may be taken as that of **saturated vapor at the same temperature**:
 
 (eq_hv_hg_relation)=
-$$h_{\text{v}}(T, \text{low }P) \simeq h_g(T)$$
+$$h_{\text{v}}(T, \text{low }p) \simeq h_g(T)$$
 
 Given that the enthalpy of saturated water vapor at $0 \ ^{\circ}\mathrm{C}$ is $2500.9\ \mathrm{kJ/kg}$ and that its average specific heat is $c_p{}={}1.82\ \mathrm{kJ/kg\cdot K}$, one may write:
 
@@ -93,27 +93,27 @@ The **amount of water vapor** in air can be quantified in several ways. The most
 (eq_specific_humidity)=
 $$
 \omega{}={} \frac{m_{\text{v}}}{m_a}{}={}
-\frac{\left(P_{\text{v}} V / R_{\text{v}} T\right)}{\left(P_a V / R_a T\right)}{}={}
-\frac{(P_{\text{v}}/R_{\text{v}})}{(P_a/R_a)}{}={}
-0.622\frac{P_{\text{v}}}{P_a}
+\frac{\left(p_{\text{v}} V / R_{\text{v}} T\right)}{\left(p_a V / R_a T\right)}{}={}
+\frac{(p_{\text{v}}/R_{\text{v}})}{(p_a/R_a)}{}={}
+0.622\frac{p_{\text{v}}}{p_a}
 \quad\left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right]
 $$
 
 For perfectly dry air ($m_{\text{v}}{}={}0$), $\omega{}={}0$. As more vapor is added, $\omega$ increases until the air reaches **saturation** — the condition where it can hold no additional moisture.
 
-At saturation, any extra water vapor condenses. The specific humidity of **saturated air** at a given temperature and pressure can thus be computed by replacing $P_{\text{v}}$ in {ref}`the specific humidity relation <eq_specific_humidity>` with the **saturation pressure** $P_g$ of water at that temperature.
+At saturation, any extra water vapor condenses. The specific humidity of **saturated air** at a given temperature and pressure can thus be computed by replacing $p_{\text{v}}$ in {ref}`the specific humidity relation <eq_specific_humidity>` with the **saturation pressure** $p_g$ of water at that temperature.
 
 The **relative humidity** $\phi$ compares the actual vapor content to the maximum possible vapor content at the same temperature:
 
 (eq_relative_humidity)=
 $$
 \phi{}={} \frac{m_{\text{v}}}{m_g}{}={}
-\frac{(P_{\text{v}} V / R_{\text{v}} T)}{(P_g V / R_{\text{v}} T)}{}={}
-\frac{P_{\text{v}}}{P_g}
+\frac{(p_{\text{v}} V / R_{\text{v}} T)}{(p_g V / R_{\text{v}} T)}{}={}
+\frac{p_{\text{v}}}{p_g}
 \quad[-]
 $$
 
-where $P_g{}={}P_{\text{sat @ }T}$ is the saturation pressure of water at temperature $T$.
+where $p_g{}={}p_{\text{sat @ }T}$ is the saturation pressure of water at temperature $T$.
 
 For an air–vapor mixture, the **enthalpy** per unit mass of dry air combines the contributions from both components:
 
@@ -150,10 +150,10 @@ During the day, evaporation increases the vapor content of the air. As the tempe
 Any further temperature decrease causes condensation — this is the onset of dew formation.
 
 The **dew-point temperature**, $T_{\text{dp}}$, is defined as the temperature at which condensation begins when air is cooled at constant pressure.
-In thermodynamic terms, it is the **saturation temperature** of water corresponding to the **current vapor pressure** $P_{\text{v}}$ of the mixture:
+In thermodynamic terms, it is the **saturation temperature** of water corresponding to the **current vapor pressure** $p_{\text{v}}$ of the mixture:
 
 (eq_dew_point_definition)=
-$$T_{\text{dp}}{}={}T_{\text{sat @ }P_{\text{v}}}$$
+$$T_{\text{dp}}{}={}T_{\text{sat @ }p_{\text{v}}}$$
 
 :::{admonition} Note: meaning of dew-point temperature
 :class: note, dropdown
@@ -173,7 +173,7 @@ A sauna room is $5 \ \text{m}$ wide, $3 \ \text{m}$ deep and $2 \ \text{m}$ high
 
 Two conditions for the same room of volume $5\times3\times2\ \text{m}^3$ are to be evaluated:
 
-* **Nominal operation:** $P=1 \ \text{atm}$, $T=70 \ ^\circ\text{C}$, $\phi=75 \ \%$.
+* **Nominal operation:** $p=1 \ \text{atm}$, $T=70 \ ^\circ\text{C}$, $\phi=75 \ \%$.
 * **Sauna off (equilibrium with environment):** $p=1\ \text{atm}$, $T=20 \ ^\circ\text{C}$, $\phi=75 \ \%$.
 
 ---
@@ -205,7 +205,7 @@ $$
 2. **Humidity ratio**
 
 $$
-\omega = 0.62198{}\frac{p_{\text{v}}}{P-p_{\text{v}}}\quad [\text{kg}_{\text{v}}/\text{kg}_{\text{a}}].
+\omega = 0.62198{}\frac{p_{\text{v}}}{p-p_{\text{v}}}\quad [\text{kg}_{\text{v}}/\text{kg}_{\text{a}}].
 $$
 
 3. **Masses in the room**
