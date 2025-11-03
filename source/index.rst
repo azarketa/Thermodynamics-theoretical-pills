@@ -15,8 +15,7 @@ Thermal and Fluids Engineering: Theoretical Pills
 
 .. toctree::
    :maxdepth: 4
-   :caption: Fundamentals:
-   :subcaption: A
+   :caption: Fundamentals:   
    
    Systems, surroundings and boundaries <01_Systems_surroundings_boundaries>
    Magnitudes and properties <02_Magnitudes_and_properties>
