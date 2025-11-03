@@ -241,26 +241,6 @@ $$
 
 This simple expression links both specific heats through the gas constant and reveals how much additional energy must be supplied at constant pressure to account for the work of expansion.
 
-The ratio of the two specific heats,
-
-(eq_gamma_def)=
-$$
-\boxed{\gamma = \frac{c_p}{c_v}} \ ,
-$$
-
-is dimensionless and depends on the **molecular structure** of the gas — specifically on the number of active degrees of freedom (translation, rotation, vibration).
-For most real gases, $\gamma$ decreases slightly with temperature as vibrational modes become excited.
-
-| **Gas type**               | **Molecular examples** |                    **Degrees of freedom (approx.)**                   | $\gamma = c_p/c_v$ (typical) {cite}`2015Cengel`|
-| :------------------------- | :--------------------- | :-------------------------------------------------------------------: | :--------------------------: |
-| **Monoatomic**             | $\text{He}$, $\text{Ne}$, $\text{Ar}$             |                            3 translational                            |           1.66–1.67          |
-| **Diatomic**               | $\text{N}_{2}$, $\text{O}_{2}$, $\text{H}_{2}$, Air        |                     3 translational + 2 rotational                    |           1.38–1.41          |
-| **Triatomic (linear)**     | $\text{CO}_{2}$, $\text{N}_{2}\text{O}$               | 3 translational + 2 rotational + (1 vibrational active at higher $T$) |           1.30–1.33          |
-| **Triatomic (non-linear)** | $\text{H}_{2}\text{O}$, $\text{SO}_{2}$               |             3 translational + 3 rotational + (vibrational)            |           1.25–1.29          |
-| **Polyatomic (≥ 4 atoms)** | $\text{CH}_{4}$, $\text{C}_{2}\text{H}_{6}$, $\text{NH}_{3}$         |          3 translational + 3 rotational + several vibrational         |           1.10–1.20          |
-
-Because $c_p$, $c_v$, and $\gamma$ are **thermodynamic properties**, their values depend on the gas type and temperature and are therefore **tabulated** in engineering handbooks and reference sources for practical use {cite}`2015Cengel`
-
 :::{admonition} Note: the role of $R$ in isothermal processes
 :class: note, dropdown
 
@@ -291,9 +271,138 @@ In short:
 | Isothermal   | $T = \text{const.}$ | $q = w = R T \ln(v_2/v_1)$ | Heat fully converts to work (no $\Delta u$, $\Delta h$) |
 :::
 
+The ratio of the two specific heats,
+
+(eq_gamma_def)=
+$$
+\boxed{\gamma = \frac{c_p}{c_v}} \ ,
+$$
+
+is dimensionless and depends on the **molecular structure** of the gas — specifically on the number of active degrees of freedom (translation, rotation, vibration).
+For most real gases, $\gamma$ decreases slightly with temperature as vibrational modes become excited.
+
+| **Gas type**               | **Molecular examples** |                    **Degrees of freedom (approx.)**                   | $\gamma = c_p/c_v$ (typical) {cite}`2015Cengel`|
+| :------------------------- | :--------------------- | :-------------------------------------------------------------------: | :--------------------------: |
+| **Monoatomic**             | $\text{He}$, $\text{Ne}$, $\text{Ar}$             |                            3 translational                            |           1.66–1.67          |
+| **Diatomic**               | $\text{N}_{2}$, $\text{O}_{2}$, $\text{H}_{2}$, Air        |                     3 translational + 2 rotational                    |           1.38–1.41          |
+| **Triatomic (linear)**     | $\text{CO}_{2}$, $\text{N}_{2}\text{O}$               | 3 translational + 2 rotational + (1 vibrational active at higher $T$) |           1.30–1.33          |
+| **Triatomic (non-linear)** | $\text{H}_{2}\text{O}$, $\text{SO}_{2}$               |             3 translational + 3 rotational + (vibrational)            |           1.25–1.29          |
+| **Polyatomic (≥ 4 atoms)** | $\text{CH}_{4}$, $\text{C}_{2}\text{H}_{6}$, $\text{NH}_{3}$         |          3 translational + 3 rotational + several vibrational         |           1.10–1.20          |
+
+Because $c_p$, $c_v$, and $\gamma$ are **thermodynamic properties**, their values depend on the gas type and temperature and are therefore **tabulated** in engineering handbooks and reference sources for practical use {cite}`2015Cengel`
+
 :::{admonition} Note: on the relation between $\gamma$ and the molecular structure
 :class: note, dropdown
 The decreasing values of $\gamma$ with the increasing complexity of the molecular structre illustrates how such a complexity broadens the number of energy-storage modes and making the gas more “thermally compliant.” Such a thermal compliance means that the gas can **absorb more energy for a given temperature increase** — in other words, it has more ways to store energy internally (through rotational and vibrational modes). As molecular complexity increases, energy is distributed among more degrees of freedom, so temperature rises less for the same energy input, resulting in a **lower** value of $\gamma$.
+:::
+
+Beyond the ratio $\gamma = c_p / c_v$, it is often convenient to introduce a **generalized specific heat** $c$ to describe **polytropic processes**, where pressure and volume follow $P V^n = \text{constant}$.
+In such processes, the effective heat capacity $c$ links directly to the polytropic exponent $n$ through the relation:
+
+(eq_polytropic_exponent_relation)=
+$$
+\boxed{n = \frac{c_p - c}{c_v - c}}.
+$$
+
+This expression shows that the value of $n$ — and therefore the thermodynamic character of the process — depends on the relative position of the process-specific heat $c$ between $c_v$ and $c_p$.
+When $c$ approaches $c_v$, the process tends toward isochoric behavior ($n \to \infty$); when $c$ approaches $c_p$, the process becomes isobaric ($n \to 0$).
+Intermediate values of $c$ correspond to **polytropic processes** with partial heat exchange between the system and its surroundings.
+
+| **Process type** | **Condition**       | **Polytropic index** $n$ |  **Effective specific heat** $c$  |
+| :--------------- | :------------------ | :----------------------: | :-------------------------------: |
+| **Isochoric**    | $V = \text{const.}$ |      $n \to \infty$      |             $c = c_v$             |
+| **Isobaric**     | $P = \text{const.}$ |          $n = 0$         |             $c = c_p$             |
+| **Isothermal**   | $T = \text{const.}$ |          $n = 1$         | $c \to \infty$ (undefined) |
+| **Adiabatic**    | $Q = 0$             |       $n = \gamma$       |              $c = 0$              |
+
+:::{admonition} Note: on the derivation of $n=(c_{p} - c)/(c_{v} - c)$
+:class: note, dropdown
+
+For a **simple compressible system**, the infinitesimal form of the first law is:
+
+$$
+\delta q = \mathrm{d}u + p\mathrm{d}v.
+$$
+
+For an **ideal gas**, $\mathrm{d}u = c_v\mathrm{d}T$, and since $p v = R T$, the differential of volume can be expressed as:
+
+$$
+\mathrm{d}v = \frac{R}{p}\mathrm{d}T - \frac{R T}{p^2}\mathrm{d}p.
+$$
+
+Substituting back gives:
+
+$$
+\delta q = c_v\mathrm{d}T + p\left(\frac{R}{p}\mathrm{d}T - \frac{R T}{p^2}\mathrm{d}p\right)
+= (c_v + R)\mathrm{d}T - \frac{R T}{p}\mathrm{d}p.
+$$
+
+Using Mayer’s relation $c_p = c_v + R$, this becomes:
+
+$$
+\delta q = c_p\mathrm{d}T - \frac{R T}{p}\mathrm{d}p.
+$$
+
+In a **polytropic process**, pressure and volume are related by:
+
+$$
+p v^n = \text{constant}.
+$$
+
+Differentiating logarithmically:
+
+$$
+\frac{\mathrm{d}p}{p} = -n\frac{\mathrm{d}v}{v}.
+$$
+
+Since $v = R T / p$, we can also relate $\mathrm{d}p/p$ to $\mathrm{d}T/T$:
+
+$$
+\frac{\mathrm{d}p}{p} = \frac{n}{1 - n}\frac{\mathrm{d}T}{T}.
+$$
+
+Replacing $\mathrm{d}p$ in the previous expression for $\delta q$:
+
+$$
+\delta q = c_p\mathrm{d}T - \frac{R T}{p}\left(\frac{p n}{(1 - n)T}\mathrm{d}T\right)
+= \left[c_p - \frac{n R}{1 - n}\right]\mathrm{d}T.
+$$
+
+Hence, for a polytropic process, the heat exchanged per unit temperature change is:
+
+$$
+\delta q = c\mathrm{d}T, \quad \text{with} \quad c = \frac{c_p - n R}{1 - n}.
+$$
+
+Substituting $R = c_p - c_v$ finally gives:
+
+$$
+c = \frac{c_p - n c_v}{1 - n},
+$$
+
+and rearranging:
+
+$$
+n = \frac{c_p - c}{c_v - c}.
+$$
+
+This expression tells us **how “polytropic” the process is**, i.e., how much of the internal energy change comes from heat exchange vs. work:
+
+* $c$ represents the **effective specific heat** — the amount of heat per unit temperature change for the actual process.
+* $c_p$ and $c_v$ are the two **limiting values**:
+
+  * $c_p$ corresponds to the case where pressure is constant and all $p,\mathrm{d}v$ work is supplied by heat input.
+  * $c_v$ corresponds to no expansion work (constant volume), where all heat goes into raising internal energy.
+
+Between those extremes, the process behaves *partly like both*, depending on how much of the energy supplied (or extracted) goes into expansion/compression work.
+
+The exponent $n$ thus acts as a **thermodynamic dial** between these limits:
+
+* When $c = c_p$ → $n = 0$: constant pressure.
+* When $c = c_v$ → $n \to \infty$: constant volume.
+* When $c = 0$ → $n = \gamma$: adiabatic (no heat exchange).
+* When $c$ tends to infinity → $n = 1$: isothermal (heat input fully compensates the work done).
+
 :::
 
 ::::{card}
@@ -303,7 +412,7 @@ The decreasing values of $\gamma$ with the increasing complexity of the molecula
 **Problem statement**
 
 In the two previous worked examples, we have {ref}`calculated the work associated with different processes <card_worked_example_boundary_work>` and {ref}`obtained the required heat input for a fixed net energy change <card_worked_example_energy_balance>`.
-The purpose of this worked example is to determine the **final temperature** of nitrogen ($\mathrm{N_2}$) at the end of those processes, using the **perfect gas model**.
+The purpose of this worked example is to determine the **final temperature** of nitrogen ($\mathrm{N_2}$) at the end of those processes, using the **perfect gas model**. For the polytropic process, calculate the effective heat capacity $c$ as well.
 
 We consider the **same system and initial state** (closed system, $m=1~\mathrm{kg}$ of $\mathrm{N_2}$, $P_1=100~\mathrm{kPa}$, $T_1=300~\mathrm{K}$) and keep the **same net stored‐energy change** as before:
 
@@ -427,7 +536,7 @@ Path relations used to obtain $T_2$:
    Cross‐check via enthalpy:
     
    $$
-   c_p = c_v + R = 0.742 + 0.2968 = 1.0388~\mathrm{\tfrac{kJ}{kg\cdot K}},
+   c_p = c_v + R = 0.743 + 0.2968 = 1.039~\mathrm{\tfrac{kJ}{kg\cdot K}},
    $$
    
    $$
@@ -435,7 +544,7 @@ Path relations used to obtain $T_2$:
    $$
    
    $$
-   \Delta H = m c_p \Delta T = (1)(1.0388)(300) = 311.6~\mathrm{kJ} \ \text{or}
+   \Delta H = m c_p \Delta T = (1)(1.039)(300) = 311.6~\mathrm{kJ} \ \text{or}
    $$
    
    $$
@@ -499,7 +608,7 @@ Path relations used to obtain $T_2$:
 
    $$
    \Delta U = m c_v (T_2 - T_1)
-   = (1)(0.742)(227.4 - 300)
+   = (1)(0.743)(227.4 - 300)
    = -53.9~\mathrm{kJ}.
    $$
 
@@ -536,7 +645,7 @@ Path relations used to obtain $T_2$:
 
    $$
    \Delta U = m c_v (T_2 - T_1)
-   = (1)(0.742)(261.2 - 300)
+   = (1)(0.743)(261.2 - 300)
    = -28.8~\mathrm{kJ}.
    $$
 
@@ -553,23 +662,28 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
+   c = \frac{c_{p} - nc_{v}}{1 - n} = \frac{1.039 - 1.2{\cdot}0.742}{1 - 1.2} = -0.737 \ \text{kJ}/\left(\text{kg}\cdot\text{K}\right)
+   $$
+
+   $$
    \boxed{T_2 = 261.2~\mathrm{K}}, \quad
    \boxed{Q = +11.1~\mathrm{kJ}}, \quad
    \boxed{\Delta U = -28.8~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = -25.1~\mathrm{kJ}}
+   \boxed{\Delta E_{\mathrm{mech.}} = -25.1~\mathrm{kJ}}, \quad
+   \boxed{c = -0.737 \ \text{kJ}/\left(\text{kg}\cdot\text{K}\right)}
    $$
 
 ---
 
 **Summary of results**
 
-| Process              |          Relation          | $W$ [kJ] | $Q$ [kJ] | $T_2$ [K] | $\Delta U$ [kJ] | $\Delta E_{\mathrm{mech.}}$ [kJ] |
-| :------------------- | :------------------------: | -------: | -------: | --------: | --------------: | ------------------------------: |
-| Isochoric            |     $V=\mathrm{const.}$    |     +0.0 |    −53.9 |     227.4 |           −53.9 |                             0.0 |
-| Isobaric             |     $P=\mathrm{const.}$    |    +89.0 |    +35.1 |     600.0 |          +222.6 |                          −276.5 |
-| Isothermal           |     $T=\mathrm{const.}$    |    +61.7 |     +7.8 |     300.0 |             0.0 |                           −53.9 |
-| Adiabatic (rev.)     | $PV^{1.4}=\mathrm{const.}$ |    +53.9 |      0.0 |     227.4 |           −53.9 |                             0.0 |
-| Polytropic ($n=1.2$) | $PV^{1.2}=\mathrm{const.}$ |    +65.0 |    +11.1 |     261.2 |           −28.8 |                           −25.1 |
+| Process              |          Relation          | $W$ [kJ] | $Q$ [kJ] | $T_2$ [K] | $\Delta U$ [kJ] | $\Delta E_{\mathrm{mech.}}$ [kJ] | $c$ [kJ/(kg$\cdot$K)] |
+| :------------------- | :------------------------: | -------: | -------: | --------: | --------------: | ------------------------------: | -----: |
+| Isochoric            |     $V=\mathrm{const.}$    |     +0.0 |    −53.9 |     227.4 |           −53.9 |                             0.0 | 0.743
+| Isobaric             |     $P=\mathrm{const.}$    |    +89.0 |    +35.1 |     600.0 |          +222.6 |                          −276.5 | 1.039
+| Isothermal           |     $T=\mathrm{const.}$    |    +61.7 |     +7.8 |     300.0 |             0.0 |                           −53.9 | $\to \infty$
+| Adiabatic (rev.)     | $PV^{1.4}=\mathrm{const.}$ |    +53.9 |      0.0 |     227.4 |           −53.9 |                             0.0 | 0
+| Polytropic ($n=1.2$) | $PV^{1.2}=\mathrm{const.}$ |    +65.0 |    +11.1 |     261.2 |           −28.8 |                           −25.1 | -0.737
 
 ---
 
@@ -606,6 +720,23 @@ This example extends the same–$\Delta E$ comparison to **final temperatures** 
 
     Even with the same total energy change ($\Delta E=-53.9~\mathrm{kJ}$), each process redistributes the energy differently among $Q$, $W$, $\Delta U$, and $\Delta E_{\mathrm{mech.}}$.
     The process path determines the **final temperature** and the way thermal and mechanical exchanges balance to satisfy the first law.
+
+<br/>
+
+* **On the negative effective heat**: notice that the $c$ value obtained for the given polytropic index is **negative**.
+
+  * Since $q = c\mathrm{d}T$, the *sign* of $c$ tells how **heat flow ($\delta q$)** and **temperature change ($\mathrm{d}T$)** are related:
+    * If $c > 0$: heat enters the system ($\delta q > 0$) as temperature increases ($\mathrm{d}T > 0$) → the process **absorbs** heat to get hotter.
+    * If $c < 0$: heat enters or leaves the system *while* temperature changes in the opposite direction — for instance, during expansion, **heat enters but the gas cools down**; during compression, **heat leaves but the gas heats up**.
+    * In other words, **a negative effective specific heat means that heat and temperature change have opposite signs** — the heat transfer *partly compensates* the energy exchange produced by work.
+  * When does $c$ become negative? From the relation $c = (c_p - n c_v)/(1 - n)$, $c < 0$ occurs when numerator and denominator have opposite signs — that is, for **polytropic indices $1 < n < \gamma$**.
+    * For $n = 1$, the process is **isothermal** and $c \to \infty$.
+    * For $1 < n < \gamma$, the process is **sub-adiabatic** (or *under-adiabatic*), meaning that **some heat transfer** occurs, but it acts *opposite* to the temperature change.
+    * For $n = \gamma$, the process is **adiabatic**, and $c = 0$.
+    * For $n > \gamma$, both numerator and denominator are negative, making $c > 0$ again.
+  * Hence, **negative $c$ corresponds to sub-adiabatic processes**, where part of the energy transfer through work is offset by heat flow in the opposite direction.
+    During expansion, the gas still cools even though it *absorbs* heat; during compression, it warms up even though it *rejects* heat. This doesn’t violate thermodynamics — it simply reflects that the **work interaction dominates over the heat exchange**. Such behavior is common in controlled expansions, throttling adjustments, or other partially insulated processes where heat and mechanical effects counteract each other.
+
 :::
 
 +++
