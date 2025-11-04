@@ -1,4 +1,7 @@
-This course, **Thermal and Fluids Engineering**, may be viewed in essence as a course on *Applied Thermodynamics*. That is, it takes the broad, conceptual framework of thermodynamics and translates it into a tool for understanding, modeling, and predicting how physical systems behave under change.
+(subsec_purpose_of_the_course)=
+## The purpose of this course
+
+This course, **Thermal and Fluids Engineering**, may be viewed in essence as a course on **Applied Thermodynamics**. That is, it takes the broad, conceptual framework of thermodynamics and translates it into a tool for understanding, modeling, and predicting how physical systems behave under change.
 
 Applied thermodynamics does not merely involve formulas or machines — it is a *way of reasoning* about the world.
 It asks us to see every phenomenon as part of a wider order governed by a small set of universal principles.
