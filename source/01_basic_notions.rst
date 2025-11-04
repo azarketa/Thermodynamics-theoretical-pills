@@ -4,6 +4,7 @@ Basic notions
 
 .. toctree::
    :maxdepth: 3
+   :titlesonly:
 
    Systems, surroundings and boundaries <01_Systems_surroundings_boundaries>
    Magnitudes and properties <02_Magnitudes_and_properties>
