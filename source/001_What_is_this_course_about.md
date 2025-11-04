@@ -25,7 +25,7 @@ The next section begins to answer these questions, by exploring the **nature and
 ---
 
 (subsec_nature_and_scope_of_thermodynamics)=
-## The nature and scope of thermodynamics
+### The nature and scope of thermodynamics
 
 Thermodynamics is the science of **energy, change, and equilibrium**. It explains how energy can be stored, transferred, and transformed, and it establishes the **limits** that constrain every natural or engineered process. Its laws are empirical but universal — they apply to any physical system, regardless of its composition or scale.
 
@@ -65,7 +65,7 @@ Together, they describe not only how much energy changes, but how **useful** tha
 ---
 
 (subsec_why_thermodynamics_matters)=
-## Why thermodynamics matters
+### Why thermodynamics matters
 
 The relevance of thermodynamics extends far beyond heat and engines.
 It underpins all phenomena involving **energy flow**, from the microscopic scale of molecular interactions to the grand scale of planetary and cosmic evolution.
@@ -101,7 +101,7 @@ It defines the boundaries of possibility for every process in nature — physica
 ---
 
 (subsec_purpose_of_studying_thermodynamics)=
-## The purpose of studying thermodynamics
+### The purpose of studying thermodynamics
 
 To study thermodynamics is to learn how to **think in terms of energy** rather than mechanisms.
 It teaches us to step back from specific forces or materials and focus on the **balance**, **transformation**, and **degradation** of energy itself.
@@ -129,21 +129,21 @@ Thermodynamics exists at multiple levels of abstraction, each building upon the 
 This hierarchy reveals the richness and universality of the theory.
 
 (subsubsec_engineering_and_applied_thermodynamics)=
-### Engineering and applied thermodynamics
+#### Engineering and applied thermodynamics
 
 This is the **practical** domain where thermodynamic principles are used to analyze and design real systems.
 It treats matter as continuous and focuses on macroscopic quantities — pressure, temperature, enthalpy, entropy, and efficiency.
 It provides the basis for mechanical, chemical, and environmental engineering, where energy conversion and utilization are the core concerns.
 
 (subsubsec_classical_thermodynamics)=
-### Classical (macroscopic) thermodynamics
+#### Classical (macroscopic) thermodynamics
 
 The **axiomatic** form of thermodynamics, built upon postulates and measurable properties.
 It defines **state functions** ($U$, $H$, $S$, etc.), classifies processes as **reversible** or **irreversible**, and describes equilibrium as the most stable state of an isolated system.
 It does not rely on molecular detail — it is a phenomenological science, dealing directly with observable quantities.
 
 (subsubsec_statistical_thermodynamics)=
-### Statistical thermodynamics
+#### Statistical thermodynamics
 
 The **microscopic foundation** of thermodynamics.
 It connects macroscopic laws to the statistical behavior of molecules.
@@ -152,7 +152,7 @@ Here, the $2^{\text{nd}}$ law arises naturally as systems evolve toward the **mo
 This level explains *why* the macroscopic laws hold true.
 
 (subsubsec_quantum_thermodynamics)=
-### Quantum thermodynamics
+#### Quantum thermodynamics
 
 At the quantum scale, thermodynamics merges with quantum mechanics.
 Energy exchange becomes quantized, and phenomena such as coherence and entanglement modify how we interpret heat, work, and entropy.
@@ -160,7 +160,7 @@ This domain explores **quantum engines**, **microscopic refrigerators**, and the
 Even here, the same two laws persist: energy is conserved, and entropy never decreases.
 
 (subsubsec_a_universal_framework)=
-### A universal framework
+#### A universal framework
 
 Across all these levels, the message remains the same:
 
