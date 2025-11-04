@@ -3,7 +3,7 @@ Thermal and Fluids Engineering: Theoretical Pills
 ==================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :titlesonly:
    :caption: INTRODUCTION
 
@@ -13,6 +13,6 @@ Thermal and Fluids Engineering: Theoretical Pills
 .. toctree::
    :maxdepth: 3
    :titlesonly:
-   :caption: MODULE 1: FUNDAMENTALS
+   :caption: MODULE 1, FUNDAMENTALS
 
    01_Basic_notions   

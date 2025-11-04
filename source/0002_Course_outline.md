@@ -1,4 +1,4 @@
-(sec_course_outline)?
+(sec_course_outline)=
 # Course outline
 
 The course develops progressively — from the **foundations of thermodynamic reasoning** to the **analysis of canonical thermal cycles** that underpin real energy-conversion systems.
