@@ -3,17 +3,17 @@ Thermal and Fluids Engineering: Theoretical Pills
 ==================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
    :caption: Introduction
 
-   001_what_is_this_course_about
-   002_course_outline
+   001_What_is_this_course_about
+   002_Course_outline
 
 .. toctree::
    :maxdepth: 3
    :caption: Module 1: Fundamentals
 
-   01_basic_notions
-   02_main_substance_models
+   01_Basic_notions
+   02_Main_substance_models
    03_1st_law
