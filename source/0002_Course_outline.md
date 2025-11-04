@@ -1,3 +1,6 @@
+(sec_course_outline)?
+# Course outline
+
 The course develops progressively — from the **foundations of thermodynamic reasoning** to the **analysis of canonical thermal cycles** that underpin real energy-conversion systems.
 Each block introduces a self-contained set of principles while remaining grounded in measurable quantities and engineering interpretation.
 
@@ -94,7 +97,7 @@ The *Brayton framework* provides the conceptual link between stationary and mobi
 :::
 
 (subsec_ICREs)=
-## ICREs — Internal Combustion Reciprocating Engines
+## ICREs
 
 This block examines **reciprocating systems** where combustion occurs *inside* the working chamber.
 They are modeled as **air-standard cycles**, providing idealized references for practical engine operation.

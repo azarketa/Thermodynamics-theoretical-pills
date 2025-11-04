@@ -1,5 +1,5 @@
-(subsec_purpose_of_the_course)=
-## The purpose of this course
+(sec_what_is_this_course_about)=
+# What is this course about?
 
 This course, **Thermal and Fluids Engineering**, may be viewed in essence as a course on **Applied Thermodynamics**. That is, it takes the broad, conceptual framework of thermodynamics and translates it into a tool for understanding, modeling, and predicting how physical systems behave under change.
 
