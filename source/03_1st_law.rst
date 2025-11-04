@@ -4,7 +4,6 @@
 
 .. toctree::
    :maxdepth: 3
-   :titlesonly:
 
    Energy, work and heat <09_Energy_work_and_heat>
    1st Law in closed systems <10_1st_law_in_closed_systems>

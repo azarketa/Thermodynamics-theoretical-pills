@@ -3,7 +3,6 @@ Basic notions
 ==============
 
 .. toctree::
-   :titlesonly:
    :maxdepth: 3   
 
    Systems, surroundings and boundaries <01_Systems_surroundings_boundaries>
