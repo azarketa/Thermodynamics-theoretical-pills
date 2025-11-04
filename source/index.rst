@@ -15,6 +15,4 @@ Thermal and Fluids Engineering: Theoretical Pills
    :titlesonly:
    :caption: MODULE 1: FUNDAMENTALS
 
-   01_Basic_notions
-   02_Main_substance_models
-   03_1st_law
+   01_Basic_notions   
