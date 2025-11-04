@@ -6,4 +6,4 @@ Course outline
    :maxdepth: 1
    :titlesonly:
 
-   <002_Course_outline>
+   Course outline <002_Course_outline>

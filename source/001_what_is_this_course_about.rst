@@ -6,4 +6,4 @@ What is this course about?
    :maxdepth: 1
    :titlesonly:
 
-   <001_What_is_this_course_about>   
+   What is this course about? <001_What_is_this_course_about>   
