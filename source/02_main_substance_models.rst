@@ -3,8 +3,7 @@ Main substance models
 =====================
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
+   :maxdepth: 3
 
    Characterization of substances <04_Characterization_of_substances>
    Ideal and real gases <05_Ideal_and_real_gases>

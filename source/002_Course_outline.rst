@@ -3,7 +3,6 @@ Course outline
 ==============
 
 .. toctree::
-   :maxdepth: 1
-   :titlesonly:
+   :maxdepth: 3
 
    Course outline <002_Course_outline>
