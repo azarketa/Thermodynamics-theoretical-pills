@@ -1,6 +1,3 @@
-Basic notions
--------------
-
 .. toctree::
    :maxdepth: 2
    :titlesonly:
@@ -10,9 +7,6 @@ Basic notions
    Magnitudes and properties <02_Magnitudes_and_properties>
    Equilibrium, temperature scales and processes <03_Equilibrium_temperature_processes>
    Energy, work and heat <09_Energy_work_and_heat>
-
-Main substance models
----------------------
 
 .. toctree::
    :maxdepth: 2
@@ -25,13 +19,10 @@ Main substance models
    Gas mixtures <07_Gas_mixtures>
    Humid air <08_Humid_air>
 
-$1^{\text{st}}$ Law
--------
-
 .. toctree::
    :maxdepth: 2
    :titlesonly:
-   :caption: 1st Law
+   :caption: $1^{\text{st}}$ Law
 
    $1^{\text{st}}$ Law in closed systems <10_1st_law_in_closed_systems>
    Specific heats <11_Specific_heats>

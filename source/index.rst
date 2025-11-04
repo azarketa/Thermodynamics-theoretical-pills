@@ -10,7 +10,7 @@ Thermal and Fluids Engineering: Theoretical Pills
    What is this course about? <Introduction>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :titlesonly:
    :caption: Fundamentals
 
