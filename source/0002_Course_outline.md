@@ -2,7 +2,7 @@ The course develops progressively — from the **foundations of thermodynamic re
 Each block introduces a self-contained set of principles while remaining grounded in measurable quantities and engineering interpretation.
 
 (subsec_fundamentals)=
-## Fundamentals (foundational block)
+## Fundamentals
 
 This first block builds the conceptual and mathematical tools required to analyze any thermodynamic system, regardless of its nature or scale.
 
@@ -17,9 +17,9 @@ This first block builds the conceptual and mathematical tools required to analyz
 
 * **Models for substances**
 
-  * *Perfect gas model*: the simplest, linear relation among $P$, $v$, and $T$, valid at low pressures; ideal-gas equation as a working model.
+  * *Perfect gas model*: the simplest, linear relation among $p$, $v$, and $T$, valid at low pressures; ideal-gas equation as a working model.
   * *Real gases*: deviations from ideality via compressibility factors; qualitative view of intermolecular effects.
-  * *Pure substances*: phase-change behavior, $P$–$v$–$T$ diagrams, saturation dome, critical point, subcooled liquid, and superheated vapor.
+  * *Pure substances*: phase-change behavior, $p–v–T$ diagrams, saturation dome, critical point, subcooled liquid, and superheated vapor.
   * *Mixtures and atmospheric air*: composition variables, mixture rules, and the idea of *psychrometric properties* (humidity, specific humidity, enthalpy of moist air).
 
 * **Interactions: work and heat**
@@ -52,7 +52,7 @@ This foundation supports every subsequent cycle analysis.
 :::
 
 (subsec_gas_cycles)=
-## Gas cycles (power and propulsion Archetypes)
+## Gas cycles
 
 This block applies the laws of thermodynamics to *continuous-flow* systems working primarily with gases as the working medium.
 It explores both *idealized* cycles (as baselines) and *realistic* configurations (with losses and efficiencies).
@@ -128,7 +128,7 @@ Through compression, combustion, and expansion, these systems illustrate how che
 :::
 
 (subsec_steam_cycles)=
-## Steam cycles (vapor power plants)
+## Steam cycles
 
 This block focuses on **vapor cycles**, where the working substance undergoes *phase change* as part of the energy-conversion process.
 It establishes the link between heat addition, expansion, condensation, and regeneration in systems that power much of modern electricity generation.
