@@ -10,8 +10,7 @@ Thermal and Fluids Engineering: Theoretical Pills
    Course outline <0002_Course_outline>
    
 .. toctree::
-   :maxdepth: 3
-   :titlesonly:
+   :maxdepth: 3   
    :caption: MODULE 1: FUNDAMENTALS
 
    01_Basic_notions
