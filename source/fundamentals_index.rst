@@ -1,6 +1,5 @@
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
+   :maxdepth: 3
    :caption: Basic notions
 
    Systems, surroundings and boundaries <01_Systems_surroundings_boundaries>
@@ -9,8 +8,7 @@
    Energy, work and heat <09_Energy_work_and_heat>
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
+   :maxdepth: 3
    :caption: Main substance models
 
    Characterization of substances <04_Characterization_of_substances>
@@ -20,8 +18,7 @@
    Humid air <08_Humid_air>
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
+   :maxdepth: 3
    :caption: $1^{\text{st}}$ Law
 
    $1^{\text{st}}$ Law in closed systems <10_1st_law_in_closed_systems>
