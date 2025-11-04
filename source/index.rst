@@ -13,6 +13,6 @@ Thermal and Fluids Engineering: Theoretical Pills
    :maxdepth: 3
    :caption: Fundamentals
 
-   indexes/fundamentals/01_basic_notions/index
-   indexes/fundamentals/02_main_substance_models/index
-   indexes/fundamentals/03_1st_law/index
+   01_basic_notions
+   02_main_substance_models
+   03_first_law
