@@ -11,9 +11,13 @@ To study applied thermodynamics is, therefore, to study *thermodynamics* itself:
 Before we proceed, it is worth pausing to consider some fundamental questions that guide the entire discipline:
 
 * What exactly is **thermodynamics**, in its most general sense?
+
 * Why do its principles seem to govern everything that changes or evolves in nature?
+
 * How does it differ from other branches of physical science, such as mechanics or chemistry?
+
 * What kinds of questions does thermodynamics actually answer — and which ones lie beyond its reach?
+
 * And finally, what makes it so essential to science and to our understanding of the physical world?
 
 The next section begins to answer these questions, by exploring the **nature and scope of thermodynamics** — the framework from which both the applied and theoretical views of the physical world emerge.

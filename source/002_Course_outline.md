@@ -1,8 +1,8 @@
 The course develops progressively — from the **foundations of thermodynamic reasoning** to the **analysis of canonical thermal cycles** that underpin real energy-conversion systems.
 Each block introduces a self-contained set of principles while remaining grounded in measurable quantities and engineering interpretation.
 
-(subsubsec_fundamentals)=
-### Fundamentals (foundational block)
+(subsec_fundamentals)=
+## Fundamentals (foundational block)
 
 This first block builds the conceptual and mathematical tools required to analyze any thermodynamic system, regardless of its nature or scale.
 
@@ -51,8 +51,8 @@ This first block builds the conceptual and mathematical tools required to analyz
 This foundation supports every subsequent cycle analysis.
 :::
 
-(subsubsec_gas_cycles)=
-### Gas cycles (power and propulsion Archetypes)
+(subsec_gas_cycles)=
+## Gas cycles (power and propulsion Archetypes)
 
 This block applies the laws of thermodynamics to *continuous-flow* systems working primarily with gases as the working medium.
 It explores both *idealized* cycles (as baselines) and *realistic* configurations (with losses and efficiencies).
@@ -93,8 +93,8 @@ It explores both *idealized* cycles (as baselines) and *realistic* configuration
 The *Brayton framework* provides the conceptual link between stationary and mobile (propulsive) systems.
 :::
 
-(subsubsec_ICREs)=
-### ICREs — Internal Combustion Reciprocating Engines
+(subsec_ICREs)=
+## ICREs — Internal Combustion Reciprocating Engines
 
 This block examines **reciprocating systems** where combustion occurs *inside* the working chamber.
 They are modeled as **air-standard cycles**, providing idealized references for practical engine operation.
@@ -127,8 +127,8 @@ They are modeled as **air-standard cycles**, providing idealized references for 
 Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same **$1^{\text{st}}$ law** and **$2^{\text{nd}}$ law** constraints.
 :::
 
-(subsubsec_steam_cycles)=
-### Steam cycles (vapor power plants)
+(subsec_steam_cycles)=
+## Steam cycles (vapor power plants)
 
 This block focuses on **vapor cycles**, where the working substance undergoes *phase change* as part of the energy-conversion process.
 It establishes the link between heat addition, expansion, condensation, and regeneration in systems that power much of modern electricity generation.
