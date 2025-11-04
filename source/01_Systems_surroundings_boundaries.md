@@ -1,6 +1,3 @@
-(main_sec_basic_notions)=
-# Basic notions
-
 (sec_systems_surroundings_boundaries)=
 ## Systems, surroundings, and boundaries
 
