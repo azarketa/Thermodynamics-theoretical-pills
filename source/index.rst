@@ -7,8 +7,8 @@ Thermal and Fluids Engineering: Theoretical Pills
    :titlesonly:
    :caption: INTRODUCTION
 
-   001_What_is_this_course_about
-   002_Course_outline
+   What is this course about? <0001_What_is_this_course_about>
+   Course outline <0002_Course_outline>
    
 .. toctree::
    :maxdepth: 3

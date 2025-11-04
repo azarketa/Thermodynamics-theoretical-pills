@@ -1,7 +1,3 @@
-==========================
-What is this course about?
-==========================
-
 (subsec_purpose_of_the_course)=
 ## The purpose of this course
 
