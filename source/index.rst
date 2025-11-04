@@ -11,6 +11,7 @@ Thermal and Fluids Engineering: Theoretical Pills
    
 .. toctree::
    :maxdepth: 3
+   :titlesonly:
    :caption: MODULE 1: FUNDAMENTALS
 
    01_Basic_notions
