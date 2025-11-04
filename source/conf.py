@@ -61,13 +61,6 @@ math_number_all = True
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_theme_options = {
-    # Show full nested sidebar so that Fundamentals -> group -> page is visible
-    'collapse_navigation': False,
-    'navigation_depth': 4,
-    # Keep only titles in the sidebar entries (child pages still show)
-    'titles_only': True,
-}
 html_static_path = ['_static']
 html_css_files = ['custom.css']
 html_js_files = ['custom.js']
