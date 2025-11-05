@@ -1,5 +1,5 @@
 (sec_clausius_inequality_entropy)=
-## Clausius inequality and the definition of entropy
+## Clausius's inequality and the definition of entropy
 
 Up to this point, the **$2^{\text{nd}}$ law** has been formulated for **cyclic devices** — heat engines, refrigerators, and heat pumps — where energy exchange occurs repeatedly between reservoirs.
 However, thermodynamics applies not only to cycles but to **any transformation of state**.
@@ -8,7 +8,7 @@ Just as the **$1^{\text{st}}$ law** expresses energy conservation for all proces
 ---
 
 (subsec_clausius_inequality)=
-### Clausius inequality
+### Clausius's inequality
 
 To generalize the $2^{\text{nd}}$ law, **Rudolf Clausius** proposed a particularly insightful configuration:
 he considered a **reversible heat engine** and a **separate auxiliary system** that absorbs the heat rejected by the engine and uses it to produce additional work.
@@ -56,7 +56,7 @@ $$
 \boxed{\oint \frac{\delta Q}{T} \leq 0.}
 $$
 
-This is the **Clausius inequality**, a general statement of the **$2^{\text{nd}}$ law** applicable to any **cyclic process**.
+This is the **Clausius's inequality**, a general statement of the **$2^{\text{nd}}$ law** applicable to any **cyclic process**.
 
 :::{admonition} Important: physical interpretation of the inequality
 :class: warning
@@ -74,7 +74,7 @@ This conceptual setup is not arbitrary — it is a **thought experiment** design
 By coupling a reversible engine to another system that reuses its rejected heat, Clausius was able to explore whether it would be possible, *in principle*, to build a device that takes heat from a single reservoir and converts it entirely into work — precisely the situation forbidden by the **Kelvin–Planck postulate**.
 
 This construction therefore serves as a **consistency test**: if the resulting combined system ever produces a net positive work while exchanging heat with only one reservoir, the postulate would be violated.
-Hence, the configuration provides a rigorous and didactic way to derive a **quantitative restriction** on all cycles — the **Clausius inequality**.
+Hence, the configuration provides a rigorous and didactic way to derive a **quantitative restriction** on all cycles — the **Clausius's inequality**.
 :::
 
 ---
@@ -82,7 +82,7 @@ Hence, the configuration provides a rigorous and didactic way to derive a **quan
 (subsec_entropy_definition)=
 ### From the cyclic form to a general process: the definition of entropy
 
-The **Clausius inequality** was first derived for cyclic transformations, but its implications reach much further.
+The **Clausius's inequality** was first derived for cyclic transformations, but its implications reach much further.
 If for a reversible cycle the integral
 
 $$
@@ -103,7 +103,7 @@ This new quantity, introduced by Clausius, is called **entropy** ($S$).
 It provides a bridge between the **cycle-based** and **process-based** formulations of the $2^{\text{nd}}$ law.
 Entropy measures both the **thermodynamic state** of a system and the **degree of irreversibility** of a process.
 
-For a real (irreversible) process, the Clausius inequality can then be written in general form as
+For a real (irreversible) process, the Clausius's inequality can then be written in general form as
 
 (eq_entropy_inequality)=
 $$
@@ -126,7 +126,7 @@ where the equality holds only for **reversible** transformations.
 ### Conceptual closure
 
 * The **Clausius configuration** transforms the $2^{\text{nd}}$ law from a qualitative limitation on cyclic devices into a **quantitative principle** valid for all processes.
-* By coupling a reversible engine with another system, Clausius showed that complete heat-to-work conversion would **violate** the $2^{\text{nd}}$ law, leading to the **Clausius inequality**
+* By coupling a reversible engine with another system, Clausius showed that complete heat-to-work conversion would **violate** the $2^{\text{nd}}$ law, leading to the **Clausius's inequality**
 
   $$
   \oint \frac{\delta Q}{T} \le 0.
