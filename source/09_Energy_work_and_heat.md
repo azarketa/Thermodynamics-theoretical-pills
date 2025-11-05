@@ -235,10 +235,12 @@ $$
 W_{1\to2} = \int_{1}^{2} p\mathrm{d}V.
 $$
 
-Graphically, this represents the **area under the process curve** in a $p$–$V$ diagram. The form of $p(V)$ determines how this integral is evaluated.
+Graphically, this represents the **area under the process curve** in a $p–V$ diagram. The form of $p(V)$ determines how this integral is evaluated.
 
-(subsubsec_typical_process_cases)=
-#### Typical process cases
+---
+
+(subsec_typical_process_cases)=
+### Typical process cases
 
 * **Isochoric process** ($V = \text{constant}$):
 
@@ -295,18 +297,26 @@ Graphically, this represents the **area under the process curve** in a $p$–$V$
   = \frac{p_2 V_2 - p_1 V_1}{1 - n}.
   $$
 
+  {ref}`As mentioned above <subsec_work_simple_compressible_systems>`, the work performed by a simple compressible system can be represented by the area under the $p-V$ curve that the $p(V)$ process encloses. The general relation $pV^n = \text{constant}$ describes a particular family of possible curves that can be drawn in the $p-V$ diagram for substances that follow the ideal gas model. Indeed, such a family is the set of **hyperbolic curves**, where the curvature and slope of the curve is determined by the **polytropic index $n$**:
+    
+  * When $n = 1$, the curve is an **equilateral hyperbola**, corresponding to an **isothermal** process for an ideal gas $(pV = \text{constant})$.
+  * When $n = \gamma$, the curve represents an **adiabatic** process, steeper than the isothermal one because no heat exchange occurs.
+  * Other values of $n$ describe intermediate or limiting cases (e.g., $n = 0$ for isobaric, $n \to \infty$ for isochoric).
+  
+  Thus, the **polytropic model** unifies all common thermodynamic paths under a single mathematical expression, with the isothermal and adiabatic transformations appearing as **particular hyperbolas** of this general family.
+
 These cases show that the work done depends on **how** the system moves between states — that is, on the **path** — rather than on the states themselves.
 
 :::{admonition} Important: work expressions for ideal-gas cases
 :class: warning
 
-| **Process** | **Constraint / Condition** | **Work expression** | **Interpretation** | **Polytropic index** |
-| :- | :- | :- | :- | :-: |
-| **Isochoric** | $V = \text{constant}$ | $W_{1\to2} = 0$ | No change in volume $\rightarrow$ no boundary work. | $n \to \infty$ |
-| **Isobaric** | $p = \text{constant}$ | $W_{1\to2} = p(V_2 - V_1)$ | Pressure remains constant $\rightarrow$ work equals pressure × volume change. | $n = 0$ |
-| **Isothermal (ideal gas)** | $T = \text{constant}$ | $W_{1\to2} = nRT\ln(V_2/V_1)$ | Temperature fixed $\rightarrow$ work comes entirely from heat exchange. | $n = 1$ |
-| **Adiabatic (ideal gas)**  | $Q = 0$ | $W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - \gamma}$, where $\gamma = c_p/c_v$ | No heat transfer $\rightarrow$ work equals the change in internal energy. | $n = \gamma$ |
-| **Polytropic** | $p V^n = \text{constant}$, $n \neq 1$ | $W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - n}$ | Generalized process describing many possible paths between states. |   $n = n$ |
+| **Process** | **Constraint / Condition** | **Work expression** | **Interpretation** | **Polytropic index** | Curve shape on $p-V$ diagram |
+| :- | :- | :- | :- | :-: | :-: |
+| **Isochoric** | $V = \text{constant}$ | $W_{1\to2} = 0$ | No change in volume $\rightarrow$ no boundary work. | $n \to \infty$ | Vertical line |
+| **Isobaric** | $p = \text{constant}$ | $W_{1\to2} = p(V_2 - V_1)$ | Pressure remains constant $\rightarrow$ work equals pressure × volume change. | $n = 0$ | Horizontal line |
+| **Isothermal (ideal gas)** | $T = \text{constant}$ | $W_{1\to2} = nRT\ln(V_2/V_1)$ | Temperature fixed $\rightarrow$ work comes entirely from heat exchange. | $n = 1$ | Equilateral hyperbola |
+| **Adiabatic (ideal gas)**  | $Q = 0$ | $W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - \gamma}$, where $\gamma = c_p/c_v$ | No heat transfer $\rightarrow$ work equals the change in internal energy. | $n = \gamma$ | Hyperbola (steeper than equilateral) |
+| **Polytropic** | $p V^n = \text{constant}$, $n \neq 1$ | $W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - n}$ | Generalized process describing many possible paths between states. |   $n = n$ | $n-$modulated hyperbola |
 
 :::
 
@@ -388,23 +398,6 @@ In this convention, **positive $Q$** denotes *heating* (energy received by the s
 | **Work (on system)**   | Compression or mechanical input | From surroundings → system |      $W < 0$      |
 | **Heat (to system)**   | Heating                         | From surroundings → system |      $Q > 0$      |
 | **Heat (from system)** | Cooling                         | From system → surroundings |      $Q < 0$      |
-:::
-
-:::{admonition} Note: graphical correspondence between heat and work
-:class: note, dropdown
-
-The **$T$–$s$ diagram** offers a thermal counterpart to the mechanical interpretation provided by the **$p$–$V$ diagram**. As we shall see further on, while areas on a $p$–$V$ plot represent **work** ($\delta W = p\mathrm{d}V$), areas on a $T$–$s$ diagram represent **heat transfer** during **reversible processes**, since
-
-$$
-\delta Q_{\text{rev.}} = T\mathrm{d}s.
-$$
-
-Thus, the **area under the curve** on a $T$–$s$ diagram corresponds to the **heat exchanged**:
-
-* If entropy increases ($\mathrm{d}s > 0$), the system **receives heat** ($Q > 0$).
-* If entropy decreases ($\mathrm{d}s < 0$), the system **rejects heat** ($Q < 0$).
-
-This makes the $T$–$s$ diagram a direct visual analogue of the $p$–$V$ one: both express **energy transfer as geometric area**, but through **different modes** — mechanical in the $p$–$V$ plane and thermal in the $T$–$s$ plane. Together, they provide a unified picture of how systems exchange energy via work and heat.
 :::
 
 :::{admonition} Note: consistency of sign conventions
@@ -576,7 +569,13 @@ $$
 
 **Visualization**
 
-For the current system, the above processes look as follows when plotted in a $p-V$ diagram. As observed, the comments made before can be correlated with the shapes of the curves.
+For the current system, the above processes look as follows when plotted in a $p-V$ diagram. As observed, the comments made before can be correlated with the shapes of the curves. In particular, it becomes evident that the different processes are represented by a curve that adopts a specific shape in the diagram:
+
+* The **isochoric** process renders a **vertical line**.
+* The **isobaric** process renders a **horizontal line**.
+* The **isothermal** process becomes an **equilateral hyperbola**.
+* The **adiabatic** process is also a hyperbola, but with a **steeper slope and curvature** than the isothermal one, due to $\gamma = 1.4 > 1$.
+* The **polytropic** process renders a hyperbola whose slope and curvature are between those of the isothermal and adiabatic one ($\gamma > n > 1$). These three cases show that the steepness and curvature of the hyperbolas are modulated by the polytropic index $n$.
 
 ![PV_diagram](1_fundamentals_figs/PV_diagram_worked_example_mod.svg)
 
