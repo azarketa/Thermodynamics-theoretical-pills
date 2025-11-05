@@ -240,11 +240,12 @@ For deriving such closed-form relations, we start from the **perfect-gas** diffe
     $$
     
     Rewriting as a state relation,
+
     $$
     \boxed{Tv^{\gamma-1}=\text{const.}}
     $$
 
-2. Using $(T,p)$:
+3. Using $(T,p)$:
 
    $$
    \mathrm{d}s = c_p\frac{\mathrm{d}T}{T} - R\frac{\mathrm{d}p}{p}.
@@ -262,7 +263,7 @@ For deriving such closed-form relations, we start from the **perfect-gas** diffe
     \frac{T_2}{T_1}=\Big(\frac{p_2}{p_1}\Big)^{(\gamma-1)/\gamma} \implies \boxed{Tp^{(1-\gamma)/\gamma}=\text{const.}}
     $$
 
-3. Getting the $(p,v)$ form directly:
+4. Getting the $(p,v)$ form directly:
     
     Starting with
 
@@ -365,12 +366,11 @@ Having defined entropy changes (via the $T\mathrm{d}s$ relations), evaluated the
         T = T_0e^{\frac{s-s_0}{c_p}}\Big(\frac{p}{p_0}\Big)^{R/c_p}
         $$
 
-    * Useful **special cases** (perfect gas):
-    
-    * **Isochoric** ($v=$ const.): $s-s_0=c_v\ln(T/T_0) \implies T=T_0e^{(s-s_0)/c_v}$.
-    * **Isobaric** ($p=$ const.): $s-s_0=c_p\ln(T/T_0) \implies T=T_0e^{(s-s_0)/c_p}$.
-    * **Isothermal** ($T=$ const.): horizontal line.
-    * **Isentropic** ($s=$ const.): vertical line.
+    * Useful **special cases** (perfect gas):    
+        * **Isochoric** ($v=$ const.): $s-s_0=c_v\ln(T/T_0) \implies T=T_0e^{(s-s_0)/c_v}$.
+        * **Isobaric** ($p=$ const.): $s-s_0=c_p\ln(T/T_0) \implies T=T_0e^{(s-s_0)/c_p}$.
+        * **Isothermal** ($T=$ const.): horizontal line.
+        * **Isentropic** ($s=$ const.): vertical line.
 
 * **Using the $T-s$ diagram in practice**
 
