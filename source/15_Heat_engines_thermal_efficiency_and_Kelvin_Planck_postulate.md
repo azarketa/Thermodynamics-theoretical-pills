@@ -50,10 +50,16 @@ As:
 (eq_energetic_balance_heat_engine_ver2)=
 $$
 \begin{gather*}
-Q_{\text{net}} = Q_{\text{in}} - Q_{\text{out}} = Q_{H} - Q_{L} \\[10pt]
-W_{\text{net}} = W_{\text{net,out}} - W_{\text{net,in}} = W_{\text{net,out}} \\[10pt]
-\boxed{Q_H - Q_L = W_{\text{net,out}}}.
+Q_{\text{net}} = Q_{\text{in}} - Q_{\text{out}} = Q_{H} - Q_{L} , \\[10pt]
+W_{\text{net}} = W_{\text{net,out}} - W_{\text{net,in}} = W_{\text{net,out}} , \\[10pt]
 \end{gather*}
+$$
+
+we get:
+
+(eq_energetic_balance_heat_engine_ver3)=
+$$
+\boxed{Q_H - Q_L = W_{\text{net,out}}} \ .
 $$
 
 :::

@@ -97,7 +97,7 @@ Engine A operates between $T_1$ and $T_2$, engine B between $T_2$ and $T_3$, and
 For any reversible heat engine, the thermal efficiency is expressed as
 
 $$
-\eta_{\text{th}} = 1 - \frac{Q_L}{Q_H},
+\eta_{\text{th.}} = 1 - \frac{Q_L}{Q_H},
 $$
 
 where $Q_H$ and $Q_L$ are the heats absorbed and rejected at the high and low temperatures, respectively.
@@ -232,7 +232,6 @@ The next section will therefore develop the concept of **entropy** and derive it
 ---
 
 (subsec_conceptual_closure_carnot)=
-
 ### Conceptual closure
 
 * The **Carnot cycle** represents the *ideal reversible model* of a heat engine and establishes the **upper limit** of thermodynamic performance.

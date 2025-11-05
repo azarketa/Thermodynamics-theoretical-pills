@@ -26,7 +26,7 @@ $$
 Applying the **$1^{\text{st}}$ law** to the whole (engine + cylinder) system yields
 
 $$
-dE_{\text{net}} = \delta Q_R - \delta W_{\text{net}}.
+\mathrm{d}E_{\text{net}} = \delta Q_R - \delta W_{\text{net}}.
 $$
 
 For a **cyclic** combined process, the total energy change is zero ($dE_{\text{net}} = 0$), and therefore
@@ -96,7 +96,7 @@ The **differential form** of that state function is therefore
 
 (eq_entropy_differential)=
 $$
-\boxed{dS = \left(\frac{\delta Q}{T}\right)_{\text{rev}}.}
+\boxed{\mathrm{d}S = \left(\frac{\delta Q}{T}\right)_{\text{rev}}.}
 $$
 
 This new quantity, introduced by Clausius, is called **entropy** ($S$).
@@ -120,12 +120,94 @@ where the equality holds only for **reversible** transformations.
 * For any **irreversible process**, $\Delta S > \int \frac{\delta Q_{\text{irrev}}}{T}$ — meaning that the **entropy of the universe increases**.
   :::
 
+:::{admonition} Note: units of entropy
+:class: note, dropdown
+Mind that, according to the {re}`above equation <eq_entropy_inequality>`, entropy (and specific entropy, i.e. entropy per unit mass) shares the same **dimensional structure** as the quotient of heat and temperature:
+
+$$
+\begin{gather*}
+[S] = \frac{\text{kJ}}{\text{K}}, \\[10pt]
+[s] = \frac{\text{kJ}}{\text{kg}{\cdot}\text{K}}.
+\end{gather*}
+$$
+
+The units of $s$ match those of $c_p$ or $c_v$ — reflecting that both describe **energy per unit mass per unit temperature**.
+:::
+
+---
+
+(subsec_principle_increasing_entropy)=
+### The principle of increasing entropy
+
+Having established **entropy** as a property that quantifies reversible heat transfer, we can now extend its use to **all real processes**.
+The **Clausius inequality** provides the key: it allows comparing any actual (irreversible) transformation with a reversible one between the same two states.
+Through this comparison, the $2^{\text{nd}}$ law reveals a universal rule governing the evolution of entropy in nature — the **principle of increasing entropy**.
+
+Consider a **generic process** between two states, $(1)$ and $(2)$, which may be reversible or irreversible.
+By appending to it an **internally reversible return path** $(2) \rightarrow (1)$, a complete cycle is formed, and the **Clausius inequality** applies:
+
+$$
+\oint \frac{\delta Q}{T} \le 0.
+$$
+
+Expanding the cyclic integral gives
+
+$$
+\int_1^2 \frac{\delta Q}{T} + \int_2^1 \left( \frac{\delta Q}{T} \right)_{\text{rev.}} \le 0,
+$$
+
+and since the second term equals $S_1 - S_2$, we obtain
+
+$$
+S_2 - S_1 \ge \int_1^2 \frac{\delta Q}{T},
+\qquad \text{or equivalently,} \qquad
+\mathrm{d}S \ge \frac{\delta Q}{T}.
+$$
+
+This inequality expresses that, for any real (irreversible) process, the **entropy increase of the system** is greater than the **entropy transferred** through heat alone.
+The total entropy change can therefore be written as
+
+(eq_entropy_generation)=
+$$
+\boxed{\Delta S_{\text{sys.}} = \int_1^2 \frac{\delta Q}{T} + S_{\text{gen.}}},
+\qquad S_{\text{gen.}} \ge 0,
+$$
+
+where $S_{\text{gen}}$ represents the **entropy generated internally** due to irreversibilities.
+For a reversible process, $S_{\text{gen}} = 0$; for an irreversible one, $S_{\text{gen}} > 0$.
+
+In an **isolated system**, no heat or mass crosses the boundary ($\delta Q = 0$), so
+
+$$
+\Delta S_{\text{isolated}} = S_{\text{gen.}} \ge 0.
+$$
+
+Thus, entropy can only **remain constant** (for reversible processes) or **increase** (for irreversible ones).
+Extending this idea to the **thermodynamic universe** — the system and its surroundings together — gives
+
+(eq_entropy_universe)=
+$$
+\boxed{\Delta S_{\text{univ.}} = \Delta S_{\text{sys.}} + \Delta S_{\text{surr.}} = S_{\text{gen.,univ.}} \ge 0.}
+$$
+
+Local decreases in entropy are possible within subsystems, but they must always be offset by greater increases elsewhere, ensuring that the **total entropy of the universe never decreases**.
+
+:::{admonition} Important: physical meaning
+:class: warning
+
+* Entropy is **conserved** only in reversible processes and **created** in irreversible ones.
+* The increase of entropy defines the **natural direction of all processes** and establishes the **thermodynamic arrow of time**.
+* While entropy can decrease locally, the **global balance** (system + surroundings) always satisfies $\Delta S_{\text{univ.}} \ge 0$.
+
+:::
+
 ---
 
 (subsec_conceptual_closure_clausius_entropy)=
 ### Conceptual closure
 
 * The **Clausius configuration** transforms the $2^{\text{nd}}$ law from a qualitative limitation on cyclic devices into a **quantitative principle** valid for all processes.
+
 * By coupling a reversible engine with another system, Clausius showed that complete heat-to-work conversion would **violate** the $2^{\text{nd}}$ law, leading to the **Clausius's inequality**
 
   $$
@@ -135,10 +217,27 @@ where the equality holds only for **reversible** transformations.
 * This relation distinguishes **reversible** ($=$) from **irreversible** ($<$) cycles and reveals that the reversible integral defines a new **state property** — **entropy**:
   
   $$
-  dS = \left( \frac{\delta Q}{T} \right)_{\text{rev}}.
+  \mathrm{d}S = \left( \frac{\delta Q}{T} \right)_{\text{rev.}}.
   $$
   
 * Entropy extends the $2^{\text{nd}}$ law to **any process**, measuring both the **energy distribution** within a system and the **irreversibility** of real transformations.
-* For the **isolated universe**, entropy can only **increase**, expressing the natural direction of all spontaneous change.
 
-In essence, Clausius provided the **universal formulation** of the $2^{\text{nd}}$ law — one that applies not only to cycles, but to **every process in nature**.
+* The **entropy balance**,
+  
+  $$
+  \Delta S_{\text{sys.}} = \int \frac{\delta Q}{T} + S_{\text{gen.}},
+  $$
+
+  distinguishes entropy **transfer** (via heat) from entropy **generation** (via irreversibility).
+  
+* The **principle of increasing entropy** establishes that, for any isolated system or for the universe as a whole,
+
+  $$
+  \Delta S_{\text{univ.}} \ge 0,
+  $$
+
+  expressing the natural direction of all processes.
+  
+* Reversible transformations conserve entropy, while irreversible ones create it — defining both the **limit of ideal performance** and the **thermodynamic arrow of time**.
+
+In summary, the $2^{\text{nd}}$ law attains its most general form: energy remains conserved, but its **quality** — measured by entropy — inevitably **degrades** in every real process.
