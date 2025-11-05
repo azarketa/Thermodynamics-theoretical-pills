@@ -1,9 +1,5 @@
-```python
-
-```
-
 (sec_entropy_variations_Tds_relations)=
-## Calculation of entropy variations and the $Tds$ relations
+## Calculation of entropy variations and the $T\mathrm{d}s$ relations
 
 Having established the **definition of entropy** as $\mathrm{d}S = (\delta Q/T)_{\text{int.,rev.}}$, we now turn to how this property **changes between two equilibrium states**. Quantifying entropy variations is essential because it lets us
 
@@ -16,7 +12,7 @@ To do so, we need relationships that link $\delta Q$ and $T$ to measurable prope
 ---
 
 (subsec_Tds_relations)=
-### Derivation of the $Tds$ relations
+### Derivation of the $T\mathrm{d}s$ relations
 
 We begin with a **closed, stable, internally reversible system**. This configuration isolates the essential thermodynamic mechanisms: since the mass remains constant, only **heat** and **boundary work** cross the boundary.
 
