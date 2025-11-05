@@ -10,3 +10,4 @@
    Refrigeration cycles, COP, and the Clausius postulate <16_Refrigeration_cycles_COP_and_Clausius_postulate>
    Reversible and irreversible processes <17_Reversible_and_irreversible_processes>
    Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale <18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale>
+   Clausius's inequality and the definition of entropy <19_Clausius_inequality_and_definition_of_entropy>
