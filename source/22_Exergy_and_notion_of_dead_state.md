@@ -11,7 +11,7 @@ While energy is conserved, its *usefulness* continuously diminishes as entropy i
 
 Because entropy introduces a **direction to time** — the irreversible “arrow” of natural processes — the first law is a *quantitative* principle, and the second is a *qualitative* one.
 However, these quantities are **incommensurable**:
-energy is measured in **joules [J]**, whereas entropy is expressed in **joules per kelvin [J/K]**.
+energy is measured in **joules $\text{J}$**, whereas entropy is expressed in **joules per Kelvin $\text{J}/\text{K}$**.
 Thus, one cannot directly compare or combine them in their native form.
 
 This raises a key question:
@@ -81,8 +81,8 @@ Even if a device performs no shaft work, as long as it is **not in equilibrium**
 
 Indeed:
 
-* If the system’s **temperature** is greater than that of the environment ($T_f > T_{\text{env}}$), a **heat engine** could, in principle, operate between them to produce work.
-* If its **pressure** is higher than the ambient value ($P_f > P_{\text{env}}$), expansion could yield mechanical energy.
+* If the system’s **temperature** is greater than that of the environment ($T_f > T_{\text{env.}}$), a **heat engine** could, in principle, operate between them to produce work.
+* If its **pressure** is higher than the ambient value ($P_f > P_{\text{env.}}$), expansion could yield mechanical energy.
 * If the system possesses **kinetic**, **potential**, or **chemical energy**, these can likewise be transformed into useful work — for instance, when motion ($c_f > 0$) or elevation ($z_f > 0$) differences exist.
 
 Once all such property differences vanish, the system reaches the **dead state** — full thermodynamic equilibrium with the environment, where no further work can be obtained.
