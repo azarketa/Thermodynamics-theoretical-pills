@@ -94,7 +94,7 @@ The **entropy** and **exergy** balances express the two complementary aspects of
 | **Formulation type** | **Entropy balance** | **Exergy balance** | **Interpretation** |
 | :- | :- | :- | :- |
 | **General form** | $\displaystyle S_{\text{in}} - S_{\text{out}} + S_{\text{gen.}} = \Delta S_{\text{sys.}}$ | $\displaystyle X_{\text{in}} - X_{\text{out}} - X_{\text{dest.}} = \Delta X_{\text{sys.}}$ | Tracks total transfer, storage, and internal generation/destruction. |
-| **Rate form** | $\displaystyle \dot{S}_{\text{in}} - \dot{S}_{\text{out}} + \dot{S}_{\text{gen.}} = \frac{\mathrm{d}S_{\text{syss}}}{\mathrm{d}t}$ | $\displaystyle \dot{X}_{\text{in}} - \dot{X}_{\text{out}} - \dot{X}_{\text{dest.}} = \frac{\mathrm{d}X_{\text{syss}}}{\mathrm{d}t}$ | Expresses the same balance per unit time (rate basis).               |
+| **Rate form** | $\displaystyle \dot{S}_{\text{in}} - \dot{S}_{\text{out}} + \dot{S}_{\text{gen.}} = \frac{\mathrm{d}S_{\text{sys.}}}{\mathrm{d}t}$ | $\displaystyle \dot{X}_{\text{in}} - \dot{X}_{\text{out}} - \dot{X}_{\text{dest.}} = \frac{\mathrm{d}X_{\text{sys.}}}{\mathrm{d}t}$ | Expresses the same balance per unit time (rate basis).               |
 | **Specific (intensive) form** | $\displaystyle s_{\text{in}} - s_{\text{out}} + s_{\text{gen.}} = \Delta s_{\text{sys.}}$ | $\displaystyle x_{\text{in}} - x_{\text{out}} - x_{\text{dest.}} = \Delta x_{\text{sys.}}$ | Entropy or exergy change expressed per unit mass. |
 
 :::{admonition} Note: connection and meaning
