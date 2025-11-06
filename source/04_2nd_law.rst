@@ -12,3 +12,4 @@
    Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale <18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale>
    Clausius's inequality and the definition of entropy <19_Clausius_inequality_and_definition_of_entropy>
    Calculation of entropy variations and the Tds relations <20_Calculation_entropy_variations_Tds_relations>
+   The isentropic efficiency <21_The_isentropic_efficiency>
