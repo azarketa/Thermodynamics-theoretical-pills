@@ -14,7 +14,7 @@ This distinction is best illustrated through a **piston–cylinder system**, the
 
 (eq_work_surr)=
 $$
-\boxed{W_{\text{surr.}} = p_0 (V_2 - V_1)} \qquad [\text{J}]
+\boxed{W_{\text{surr.}} = p_0 (V_2 - V_1)}
 $$
 
 This quantity expresses the **mechanical action of the ambient pressure** upon the boundary.
@@ -23,7 +23,7 @@ The **useful work** is then defined as the **net work** obtained after subtracti
 
 (eq_work_useful)=
 $$
-\boxed{W_u = W - W_{\text{surr.}}} \qquad [\text{J}]
+\boxed{W_u = W - W_{\text{surr.}}}
 $$
 
 This distinction clarifies that:
@@ -51,7 +51,7 @@ The **irreversibility**, $I$, quantifies the **loss of useful work potential** d
 
 (eq_irreversibility)=
 $$
-\boxed{I = W_{\text{rev.,out}} - W_{u,\text{out}}} \qquad [\text{J}]
+\boxed{I = W_{\text{rev.,out}} - W_{u,\text{out}}}
 $$
 
 where the subscript **out** denotes that the quantities refer to **work output**.

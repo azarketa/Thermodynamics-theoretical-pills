@@ -1,15 +1,15 @@
 (sec_exergy_and_dead_state)=
 ## Exergy and the notion of dead state
 
-The **first** and **second laws of thermodynamics** express two fundamental but distinct aspects of all physical transformations.
+The **$1^{\text{st}}$** and **$2^{\text{nd}}$ laws of thermodynamics** express two fundamental but distinct aspects of all physical transformations.
 
-* The **first law** concerns the **quantity of energy**, establishing that energy is conserved — it can neither be created nor destroyed, only transformed.
-* The **second law** concerns the **quality of energy**, stating that every real process generates **entropy**, which remains constant only under perfectly reversible conditions.
+* The **$1^{\text{st}}$ law** concerns the **quantity of energy**, establishing that energy is conserved — it can neither be created nor destroyed, only transformed.
+* The **$2^{\text{nd}}$ law** concerns the **quality of energy**, stating that every real process generates **entropy**, which remains constant only under perfectly reversible conditions.
 
 These two principles together distinguish **how much energy** exists from **how useful** that energy is.
 While energy is conserved, its *usefulness* continuously diminishes as entropy increases.
 
-Because entropy introduces a **direction to time** — the irreversible “arrow” of natural processes — the first law is a *quantitative* principle, and the second is a *qualitative* one.
+Because entropy introduces a **direction to time** — the irreversible “arrow” of natural processes — the $1^{\text{st}}$ law is a *quantitative* principle, and the second is a *qualitative* one.
 However, these quantities are **incommensurable**:
 energy is measured in **joules $\text{J}$**, whereas entropy is expressed in **joules per Kelvin $\text{J}/\text{K}$**.
 Thus, one cannot directly compare or combine them in their native form.
@@ -17,12 +17,12 @@ Thus, one cannot directly compare or combine them in their native form.
 This raises a key question:
 
 :::{epigraph}
-Can the *quality* of energy — as expressed by the second law — be translated into an **energetic measure**?
+Can the *quality* of energy — as expressed by the $2^{\text{nd}}$ law — be translated into an **energetic measure**?
 :::
 
 If so, we could quantify **irreversibilities** in energy terms, assessing how much of the total energy remains *useful* for producing work.
 
-The answer lies in combining the first and second laws.
+The answer lies in combining the $1^{\text{st}}$ and $2^{\text{nd}}$ laws.
 By doing so, we obtain a new quantity — the **exergy** — which measures the **maximum useful work** that can be extracted as a system comes into equilibrium with its environment.
 Exergy is therefore **not an independent principle**, but a **derived property**, a synthesis of both laws that expresses the energetic *value* of energy itself.
 
@@ -61,6 +61,18 @@ Any **irreversibility** within the system or its immediate surroundings reduces 
 Exergy quantifies the **maximum useful work** obtainable as a system moves reversibly from its initial state to the **dead state**.
 It represents the **upper limit** of performance permitted by thermodynamic laws — the boundary between the *usable* and *unusable* portions of energy.
 :::
+
+::::{admonition} Note: exergy and availability
+:class: note, dropdown
+
+The notion of **exergy** first appeared under the name **availability**, reflecting an early attempt to quantify how much of a system’s energy could be **converted into useful work** under the conditions set by its **environment**; or, in other words, the concern that guided the conception of the term **availability** was:
+
+:::{epigraph}
+How much energy can be extracted from a system placed in a given environment?
+:::
+
+The answer depends not only on the system’s internal state but also on that of its surroundings. When the two are in **complete equilibrium** — the **dead state** — no spontaneous processes can occur, and the system’s energy, though present, is **unavailable**. A clear example is the **atmosphere**, which contains immense energy but cannot deliver work as long as it remains uniform. Only when **gradients** of temperature, pressure, or composition exist does the system possess **exergy** — the measurable *potential to produce work*.
+::::
 
 ---
 
