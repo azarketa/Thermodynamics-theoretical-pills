@@ -54,7 +54,7 @@ comparison of both expressions gives the key relation:
 (eq_exergy_destruction_principle)=
 $$
 \boxed{
-\Delta X = - T_0 S_{\text{gen}} \le 0
+\Delta X = - T_0 S_{\text{gen.}} \le 0
 }
 $$
 
@@ -62,7 +62,7 @@ This proves mathematically that **exergy can only decrease** (or remain constant
 
 :::{admonition} Important: the destruction of exergy
 :class: warning
-Entropy is a measure of **energy degradation**; exergy quantifies the **energetic cost** of that degradation. Whenever entropy is generated ($S_{\text{gen}} > 0$), an equivalent amount of exergy is **destroyed** ($X_{\text{dest.}} = T_0 S_{\text{gen.}}$)..Thus, *irreversibility* and *exergy destruction* are two descriptions of the same physical phenomenon — one in entropic terms, the other in energetic ones.
+Entropy is a measure of **energy degradation**; exergy quantifies the **energetic cost** of that degradation. Whenever entropy is generated ($S_{\text{gen.}} > 0$), an equivalent amount of exergy is **destroyed** ($X_{\text{dest.}} = T_0 S_{\text{gen.}}$). Thus, *irreversibility* and *exergy destruction* are two descriptions of the same physical phenomenon — one in entropic terms, the other in energetic ones.
 :::
 
 :::{admonition} Note: relation between entropy and exergy
