@@ -28,6 +28,18 @@ Exergy is therefore **not an independent principle**, but a **derived property**
 
 However, defining exergy requires understanding what it means for a system to be in *equilibrium* with its environment — the concept of the **dead state**.
 
+::::{admonition} Note: exergy and availability
+:class: note, dropdown
+
+The notion of **exergy** first appeared under the name **availability**, reflecting an early attempt to quantify how much of a system’s energy could be **converted into useful work** under the conditions set by its **environment**; or, in other words, the concern that guided the conception of the term **availability** was:
+
+:::{epigraph}
+How much energy can be extracted from a system placed in a given environment?
+:::
+
+The answer depends not only on the system’s internal state but also on that of its surroundings. When the two are in **complete equilibrium** — the **dead state** — no spontaneous processes can occur, and the system’s energy, though present, is **unavailable**. A clear example is the **atmosphere**, which contains immense energy but cannot deliver work as long as it remains uniform. Only when **gradients** of temperature, pressure, or composition exist does the system possess **exergy** — the measurable *potential to produce work*.
+::::
+
 ---
 
 (subsec_dead_state_and_work_potential)=
@@ -61,18 +73,6 @@ Any **irreversibility** within the system or its immediate surroundings reduces 
 Exergy quantifies the **maximum useful work** obtainable as a system moves reversibly from its initial state to the **dead state**.
 It represents the **upper limit** of performance permitted by thermodynamic laws — the boundary between the *usable* and *unusable* portions of energy.
 :::
-
-::::{admonition} Note: exergy and availability
-:class: note, dropdown
-
-The notion of **exergy** first appeared under the name **availability**, reflecting an early attempt to quantify how much of a system’s energy could be **converted into useful work** under the conditions set by its **environment**; or, in other words, the concern that guided the conception of the term **availability** was:
-
-:::{epigraph}
-How much energy can be extracted from a system placed in a given environment?
-:::
-
-The answer depends not only on the system’s internal state but also on that of its surroundings. When the two are in **complete equilibrium** — the **dead state** — no spontaneous processes can occur, and the system’s energy, though present, is **unavailable**. A clear example is the **atmosphere**, which contains immense energy but cannot deliver work as long as it remains uniform. Only when **gradients** of temperature, pressure, or composition exist does the system possess **exergy** — the measurable *potential to produce work*.
-::::
 
 ---
 
