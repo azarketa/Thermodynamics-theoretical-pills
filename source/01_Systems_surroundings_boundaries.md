@@ -117,7 +117,7 @@ This classification reflects which kinds of interactions — energy and/or mass 
    * Boundaries may be *flexible*, *diathermic*, or *permeable* depending on the specific process.
    * Example: a fluid stream in a pipe, a compressor, or a turbine.
 
-:::{admonition} Important: classification by boundary interaction
+::::{admonition} Important: classification by boundary interaction
 :class: warning
 The essential difference lies in what can cross the boundary. We can name $E_{\text{sys.}}$ the total energy of the system, and $m_{\text{sys.}}$ the mass contained in it. Their variations are represented by the $\Delta$ symbol, i.e. $\Delta E_{\text{sys.}}$ and $\Delta m_{\text{sys.}}$. The different types of boundaries are constraied by different interaction modes: 
 
@@ -132,7 +132,16 @@ So, as a tabular-form summary:
 | **Isolated** | $= 0$ | $= 0$ |
 | **Closed** | $\neq 0$ | $= 0$ |
 | **Open** | $\neq 0$ | $\neq 0$ |
+
+The figure below shows the types of boundaries in an illustrative way, attending to the types of interactions with the surroundings.
+
+:::{figure} 1_fundamentals_figs/system_boundary_types.svg
+:name: fig-system-boundaries
+:width: 70%
+:align: center
 :::
+
+::::
 
 ---
 
