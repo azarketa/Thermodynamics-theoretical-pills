@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.44631734"
-     inkscape:cx="414.50328"
-     inkscape:cy="664.32552"
+     inkscape:zoom="0.89263468"
+     inkscape:cx="486.20114"
+     inkscape:cy="612.23254"
      inkscape:window-width="1366"
      inkscape:window-height="697"
      inkscape:window-x="1912"
@@ -336,7 +336,7 @@
          y="174.29182">System C = A + B</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
        x="189.69313"
        y="200.52661"
        id="text20-8"><tspan
@@ -344,41 +344,41 @@
          id="tspan41"
          x="189.69313"
          y="200.52661">(m<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan1">C</tspan> = m<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan8">A</tspan> + m<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan9">B</tspan>,</tspan><tspan
          sodipodi:role="line"
          id="tspan42"
          x="189.69313"
          y="209.34605"> V<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan2">C</tspan> = V<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan7">A</tspan> + V<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan10">B</tspan>,</tspan><tspan
          sodipodi:role="line"
          x="189.69313"
          y="218.16551"
          id="tspan45">T<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan3">C</tspan> ≠ T<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan6">A</tspan> + T<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan11">B</tspan>,</tspan><tspan
          sodipodi:role="line"
          id="tspan44"
          x="189.67726"
          y="226.98495">p<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan4">C</tspan> ≠ p<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan5">A</tspan> + p<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan12">B</tspan>)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
