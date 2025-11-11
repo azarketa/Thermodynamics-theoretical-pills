@@ -139,6 +139,8 @@ The figure below shows the types of boundaries in an illustrative way, attending
 :name: fig-system-boundaries
 :width: 70%
 :align: center
+
+Generic system classification according to the interchange constraints imposed by the boundaries.
 :::
 
 ::::
