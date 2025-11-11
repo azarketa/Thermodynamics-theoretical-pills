@@ -224,12 +224,19 @@ This parallels the notion of microscopic pressure as the collective effect of co
 
 From the **macroscopic** standpoint, temperature is a **state variable** that indicates the degree of thermal equilibrium between systems.
 
-:::{admonition} Important: intensive nature of temperature
+::::{admonition} Important: intensive nature of temperature
 :class: warning
-Unlike extensive quantities such as mass or energy, **temperature is an intensive property** — it does not add up.
-Combining two bodies of water at $100\ ^\circ\text{C}$ does not yield $200\ ^\circ\text{C}$;
-the final temperature lies between them, depending on heat capacities and masses.
-:::
+Unlike extensive quantities such as mass or energy, **temperature is an intensive property** — it does not add up. Combining two bodies of water at $100\ ^\circ\text{C}$ does not yield $200\ ^\circ\text{C}$; the final temperature lies between them, depending on heat capacities and masses.
+
+The figure below illustrates the difference between extensive and intensive properties when combining two systems ($A$ and $B$) which, before joining, show their own masses, volumes, temperatures and pressures. The extensiveness of mass and volume allows to sum them up for getting the mass and volume of the combined system. However, such an additivity is not applicable to temperature and pressure, due to the intensive nature of those magnitudes.
+
+:::{figure} 1_fundamentals_figs/magnitudes_extensivity_intensivity.svg
+:name: magnitudes_extensivity_intensivity
+:width: 30%
+:align: center
+:::  
+
+::::
 
 ---
 
@@ -260,8 +267,3 @@ Thermodynamic temperature scales are founded on equilibrium states, which provid
 * The distinction between extensive and intensive properties defines how system size affects measurable quantities.
 * Pressure and temperature serve as key intensive variables that connect directly to equilibrium and energy exchange.
 * These concepts prepare the ground for the study of equilibrium, temperature scales or processes, as done {ref}`in the next section <sec_equilibrium_temperature_processes>`, where the conditions of balance and transformation between states are formally introduced.
-
-
-```python
-
-```
