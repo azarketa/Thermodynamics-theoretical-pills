@@ -121,9 +121,9 @@ This classification reflects which kinds of interactions — energy and/or mass 
 :class: warning
 The essential difference lies in what can cross the boundary. We can name $E_{\text{sys.}}$ the total energy of the system, and $m_{\text{sys.}}$ the mass contained in it. Their variations are represented by the $\Delta$ symbol, i.e. $\Delta E_{\text{sys.}}$ and $\Delta m_{\text{sys.}}$. The different types of boundaries are constraied by different interaction modes: 
 
-* **Isolated:**  no energy, no mass → $\Delta E_{\text{sys.}} = 0$, $\Delta m_{\text{sys.}} = 0$
-* **Closed:**  energy only → $\Delta E_{\text{sys.}} \neq 0$, $\Delta m_{\text{sys.}} = 0$
-* **Open:**  energy and mass → $\Delta E_{\text{sys.}} \neq 0$, $\Delta m_{\text{sys.}} \neq 0$
+* **Isolated:**  no energy, no mass $\rightarrow \Delta E_{\text{sys.}} = 0$, $\Delta m_{\text{sys.}} = 0$
+* **Closed:**  energy only $\rightarrow \Delta E_{\text{sys.}} \neq 0$, $\Delta m_{\text{sys.}} = 0$
+* **Open:**  energy and mass $\rightarrow \Delta E_{\text{sys.}} \neq 0$, $\Delta m_{\text{sys.}} \neq 0$
 
 So, as a tabular-form summary:
 
