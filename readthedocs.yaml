@@ -1,6 +1,6 @@
 # .readthedocs.yaml
 
-version: 3
+version: 2
 
 # Build PDF
 formats:
