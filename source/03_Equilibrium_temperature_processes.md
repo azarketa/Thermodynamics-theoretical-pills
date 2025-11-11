@@ -47,7 +47,7 @@ It can be stated as follows:
 
 Formally, if system $A$ (at temperature $T_A$) is in equilibrium with system $B$ ($T_B$), and $B$ is in equilibrium with $C$ ($T_C$), then:
 
-(eq_$0^{\text{th}}$_law_consequence)=
+(eq_zeroth_law_consequence)=
 $$
 T_A = T_B \quad \text{and} \quad T_B = T_C \ \Longrightarrow \ T_A = T_C
 $$
