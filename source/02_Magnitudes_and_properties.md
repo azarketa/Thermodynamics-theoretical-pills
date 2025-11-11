@@ -45,7 +45,7 @@ From these fundamental ones, many other **derived magnitudes** can be built:
 | :-------------------- | :------------- | :----------------------- | :--------------------------------------------------- |
 | Density ($\rho$)      | $\rho = m/V$   | kilogram per cubic metre | $\text{kg}/\text{m}^{3}$                           |
 | Force ($F$)           | $F = m{\cdot}a$    | Newton                   | $\text{N} = \text{kg}\cdot\text{m}/\text{s}^{2}$ |
-| Pressure ($p$)        | $p = F/A$      | Pascal                   | $\text{Pa} = text{N}/\text{m}^{2}$              |
+| Pressure ($p$)        | $p = F/A$      | Pascal                   | $\text{Pa} = \text{N}/\text{m}^{2}$              |
 | Energy ($E$)          | —              | Joule                    | $\text{J} = \text{N}\cdot\text{m}$               |
 | Power ($\dot{W}$)     | —              | Watt                     | $\text{W} = \text{J}/\text{s}$                   |
 
@@ -183,7 +183,7 @@ This makes the mole a natural unit for describing proportionality in reactions a
     | atmosphere                     |       $\text{atm}$      |    $1.01325\times10^{5}$ $\text{Pa}$   | Standard sea-level pressure   |
     | bar                            |       $\text{bar}$      |          $10^{5}$ $\text{Pa}$          | Industrial and meteorological |
     | millibar                       |      $\text{mbar}$      |          $10^{2}$ $\text{Pa}$          | Weather data                  |
-    | millimetre of mercury          | $\text{mmHg}]$ or $\text{torr}$ |           $133.3$ $\text{Pa}$          | Manometry and medicine        |
+    | millimetre of mercury          | $\text{mmHg}$ or $\text{torr}$ |           $133.3$ $\text{Pa}$          | Manometry and medicine        |
     | kilogram per square centimetre |     $\text{kg}/\text{cm}^{2}$     | $\approx 9.81\times10^{4}$ $\text{Pa}$ | Legacy (non-SI) unit          |
 
 :::{admonition} Tip: interpretation of 1 atm
