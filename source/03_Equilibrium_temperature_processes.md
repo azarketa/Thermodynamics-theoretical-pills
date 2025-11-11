@@ -41,8 +41,7 @@ Chronologically, the **$0^{\text{th}}$ law** was formulated after the other laws
 
 It can be stated as follows:
 
-:::{admonition} Important: the $0^{\text{th}}$ law
-:class: warning
+:::{epigraph}
 If two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.
 :::
 
