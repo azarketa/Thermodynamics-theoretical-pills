@@ -155,8 +155,10 @@ This makes the mole a natural unit for describing proportionality in reactions a
 
     :::{figure} 1_fundamentals_figs/pressure_definition.svg
     :name: pressure_definition
-    :width: 60%
+    :width: 50%
     :align: center
+
+    Piston-cylinder system showing the force-based pressure definition.
     :::
 
     <br/>
@@ -236,6 +238,8 @@ The figure below illustrates the difference between extensive and intensive prop
 :name: magnitudes_extensivity_intensivity
 :width: 60%
 :align: center
+
+Illustrative example of the extensive and intesive nature of some main thermodynamic magnitudes.
 :::  
 
 ::::
