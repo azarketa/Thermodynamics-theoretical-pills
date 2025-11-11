@@ -3,8 +3,8 @@
 version: 2
 
 # Build PDF
-formats:
-    - pdf
+#formats:
+#    - pdf
     
 build:
     os: ubuntu-24.04
