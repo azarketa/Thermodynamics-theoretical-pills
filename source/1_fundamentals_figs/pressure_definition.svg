@@ -3,8 +3,8 @@
 
 <svg
    width="146.647mm"
-   height="77.750999mm"
-   viewBox="0 0 146.647 77.751"
+   height="67.750999mm"
+   viewBox="0 0 146.647 67.751"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1"
-     inkscape:cx="179"
-     inkscape:cy="190.5"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="366.28131"
+     inkscape:cy="177.4838"
      inkscape:window-width="1366"
      inkscape:window-height="697"
      inkscape:window-x="1912"
@@ -34,9 +34,9 @@
      inkscape:current-layer="layer1" /><defs
      id="defs1"><rect
        x="-23.334524"
-       y="89.095454"
-       width="92.617335"
-       height="40.265577"
+       y="89.095451"
+       width="92.617332"
+       height="40.265575"
        id="rect3" /><marker
        style="overflow:visible"
        id="marker9"
@@ -184,7 +184,7 @@
          sodipodi:role="line"
          id="tspan1"
          style="stroke-width:1"
-         x="117.99824"
+         x="117.99823"
          y="117.91338">F<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan2">⟂</tspan></tspan></text><path
@@ -261,4 +261,4 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,8.7868741,80.769114)"
        id="text2"
-       style="fill:#000000;stroke-width:3.77952756;font-size:26.6666832px;-inkscape-font-specification:'Helvetica, Bold';font-family:Helvetica;word-spacing:-0.03px;letter-spacing:-0.12px;text-align:center;font-weight:bold;white-space:pre;shape-inside:url(#rect3)" /></g></svg>
+       style="font-weight:bold;font-size:26.6667px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.12px;word-spacing:-0.03px;white-space:pre;shape-inside:url(#rect3);fill:#000000;stroke-width:3.77953" /></g></svg>

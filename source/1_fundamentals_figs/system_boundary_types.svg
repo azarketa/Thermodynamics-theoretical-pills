@@ -48,7 +48,7 @@
        miter_limit="4"
        not_jump="false"
        sort_points="true"
-       message="stroke-width:2;stroke-opacity:0.2;fill:#6e6e6f;stroke:#919190" /><inkscape:path-effect
+       message="fill:context-stroke;fill-rule:evenodd;stroke:none" /><inkscape:path-effect
        effect="powerstroke"
        id="path-effect20"
        is_visible="true"
@@ -63,7 +63,7 @@
        miter_limit="4"
        not_jump="false"
        sort_points="true"
-       message="stroke-width:2;stroke-opacity:0.2;fill:#6e6e6f;stroke:#919190" /><inkscape:path-effect
+       message="fill:context-stroke;fill-rule:evenodd;stroke:none" /><inkscape:path-effect
        effect="powerstroke"
        id="path-effect10"
        is_visible="true"
@@ -78,7 +78,7 @@
        miter_limit="4"
        not_jump="false"
        sort_points="true"
-       message="stroke-width:2;stroke-opacity:0.2;fill:#6e6e6f;stroke:#919190" /><inkscape:path-effect
+       message="fill:context-stroke;fill-rule:evenodd;stroke:none" /><inkscape:path-effect
        effect="powerstroke"
        id="path-effect8"
        is_visible="true"
@@ -93,7 +93,7 @@
        miter_limit="4"
        not_jump="false"
        sort_points="true"
-       message="stroke-width:2;stroke-opacity:0.2;fill:#6e6e6f;stroke:#919190" /><marker
+       message="fill:context-stroke;fill-rule:evenodd;stroke:none" /><marker
        style="overflow:visible"
        id="ConcaveTriangle"
        refX="0"
