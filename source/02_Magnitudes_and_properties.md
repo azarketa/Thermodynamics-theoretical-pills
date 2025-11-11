@@ -156,7 +156,7 @@ This makes the mole a natural unit for describing proportionality in reactions a
     :::{figure} 1_fundamentals_figs/pressure_definition.svg
     :name: pressure_definition
     :width: 60%
-    :align: left
+    :align: center
     :::
 
     <br/>
