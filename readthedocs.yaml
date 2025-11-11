@@ -1,10 +1,10 @@
 # .readthedocs.yaml
 
-version: 2
+version: 3
 
 # Build PDF
-# formats:
-#    - pdf
+formats:
+   - pdf
     
 build:
     os: ubuntu-24.04
