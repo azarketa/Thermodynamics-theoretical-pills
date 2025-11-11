@@ -167,9 +167,7 @@ In the specific case of **heat engines**, this general concept becomes the **the
 The conclusions drawn so far — the necessity of two heat reservoirs and the impossibility of completely transforming heat into work — are compactly expressed by the **Kelvin–Planck postulate**, one of the foundational formulations of the $2^{\text{nd}}$ law of thermodynamics.
 
 :::{epigraph}
-:class: theorem
-
-It is impossible to construct a device that operates in a cycle and produces no other effect than the extraction of heat from a single thermal reservoir and its complete conversion into work.
+**It is impossible to construct a device that operates in a cycle and produces no other effect than the extraction of heat from a single thermal reservoir and its complete conversion into work.**
 :::
 
 This statement formalizes the limitation inherent to all heat engines: a **cyclic device** cannot transform into work the entire quantity of heat it absorbs from a single source.

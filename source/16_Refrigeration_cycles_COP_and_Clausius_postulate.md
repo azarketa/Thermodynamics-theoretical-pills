@@ -98,7 +98,7 @@ Refrigeration cycles rely on **forcing heat to move from cold to hot**, a proces
 This restriction is expressed by the **Clausius postulate**, the complementary formulation of the $2^{\text{nd}}$ law:
 
 :::{epigraph}
-No cyclic process can transfer heat from a colder body to a hotter body without consuming external work.
+**No cyclic process can transfer heat from a colder body to a hotter body without consuming external work.**
 :::
 
 The Clausius postulate conveys the same physical limitation as the **Kelvin–Planck** statement but viewed from the opposite perspective:
