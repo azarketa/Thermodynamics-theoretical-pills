@@ -155,9 +155,11 @@ This makes the mole a natural unit for describing proportionality in reactions a
 
     :::{figure} 1_fundamentals_figs/pressure_definition.svg
     :name: pressure_definition
-    :width: 30%
+    :width: 60%
     :align: left
-    :::  
+    :::
+
+    <br/>
 
     Although **force** is a vector, **pressure** is a scalar because it acts normal to the surface element.    
 
@@ -167,7 +169,7 @@ This makes the mole a natural unit for describing proportionality in reactions a
     It is a small unit: a 70 $\text{kg}$ person standing on a $0.3\times0.3\ \text{m}^{2}$ tile exerts
     
     $$
-    p = \frac{m g}{A} = \frac{70\text{kg}\times9.81\text{m}/\text{s}^{2}}{0.09\text{m}^{2}} \approx 8\times10^{3}\text{Pa} = 8 \ \text{kPa}.
+    p = \frac{m g}{A} = \frac{70\text{kg}\times9.81\text{m}/\text{s}^{2}}{0.09\text{m}^{2}} \approx 8\times10^{3} \ \text{Pa} = 8 \ \text{kPa}.
     $$
     
     Hence, larger multiples are used in practice:
@@ -232,7 +234,7 @@ The figure below illustrates the difference between extensive and intensive prop
 
 :::{figure} 1_fundamentals_figs/magnitudes_extensivity_intensivity.svg
 :name: magnitudes_extensivity_intensivity
-:width: 30%
+:width: 60%
 :align: center
 :::  
 
