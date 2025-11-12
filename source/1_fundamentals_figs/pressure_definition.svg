@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.70710678"
-     inkscape:cx="366.28131"
+     inkscape:cx="365.57421"
      inkscape:cy="177.4838"
-     inkscape:window-width="1366"
-     inkscape:window-height="697"
-     inkscape:window-x="1912"
-     inkscape:window-y="296"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs1"><rect
@@ -106,7 +106,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-8.7868741,-80.769114)"><path
-       style="fill:#4c68d9;fill-opacity:1;stroke:#4c68d9;stroke-width:5.34506;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#8080ff;fill-opacity:1;stroke:#8080ff;stroke-width:5.34506;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 276.47875,423.55696 v -97.58073 h 146.37111 146.3711 v 97.58073 97.58074 H 422.84986 276.47875 Z"
        id="path19"
        transform="scale(0.26458333)" /><path

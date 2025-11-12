@@ -55,10 +55,19 @@ $$
 This transitive property implies that temperature is a **well-defined property** independent of system size or composition.
 The $0^{\text{th}}$ law does not define a *numerical scale* for temperature but proves that **temperature is a property that can be measured** — it legitimizes the concept of a **thermometer**.
 
+The schematic illustration below intends to represent the $0^{\text{th}}$ law as explained above. As observed, the conception of such a law enables defining the notion of thermometers.
+
+:::{figure} 1_fundamentals_figs/schematic_zeroth_law.svg
+:name: zeroth_law
+:width: 50%
+:align: center
+
+Schematic representation of the $0^{\text{th}}$ law
+:::
+
 :::{admonition} Note: empirical meaning of temperature
 :class: note, dropdown
-Temperature is the property that determines whether two systems are in thermal equilibrium.
-If no heat flow occurs between them when placed in contact, they share the same temperature.
+Temperature is the **equilibrium state property** that determines whether two systems are in **thermal equilibrium** $\implies$  if two systems are said to be in thermal equilibrium, they **share the same temperature**.
 :::
 
 ---
