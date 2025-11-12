@@ -59,7 +59,7 @@ The schematic illustration below intends to represent the $0^{\text{th}}$ law as
 
 :::{figure} 1_fundamentals_figs/schematic_zeroth_law.svg
 :name: zeroth_law
-:width: 50%
+:width: %
 :align: center
 
 Schematic representation of the $0^{\text{th}}$ law
