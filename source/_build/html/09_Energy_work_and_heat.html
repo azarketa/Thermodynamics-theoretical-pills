@@ -1,0 +1,867 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Energy, work and heat &mdash; Thermal and Fluids Engineering: Theoretical Pills  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css?v=3234e928" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ebdd504" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/hoverxref.js"></script>
+      <script src="_static/js/tooltipster.bundle.min.js"></script>
+      <script src="_static/js/micromodal.min.js"></script>
+      <script>let toggleHintShow = '';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "tags": "ams", "useLabelIds": true, "packages": {"[+]": ["cancel"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="_static/custom.js?v=13520114"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="\(1^{\text{st}}\) Law in closed systems" href="10_1st_law_in_closed_systems.html" />
+    <link rel="prev" title="1st Law" href="03_1st_law.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Thermal and Fluids Engineering: Theoretical Pills
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0001_What_is_this_course_about.html">What is this course about?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0002_Course_outline.html">Course outline</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MODULE 1: FUNDAMENTALS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_Basic_notions.html">Basic notions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Systems_surroundings_boundaries.html">Systems, surroundings and boundaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_Magnitudes_and_properties.html">Magnitudes and properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_Equilibrium_temperature_processes.html">Equilibrium, temperature scales and processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02_Main_substance_models.html">Main substance models</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="04_Characterization_of_substances.html">Characterization of substances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_Ideal_and_real_gases.html">Ideal and real gases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_P-v-T_diagrams.html">p-v-T diagrams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_Gas_mixtures.html">Gas mixtures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_Humid_air.html">Humid air</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="03_1st_law.html">1st Law</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Energy, work and heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_1st_law_in_closed_systems.html">1st Law in closed systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Specific_heats.html">Specific heats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_1st_law_in_open_systems.html">1st Law in open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Canonical_open_systems.html">Canonical open systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="04_2nd_law.html">2nd Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14_Traces_of_2nd_law_heat_reservoirs.html">Traces of the 2nd law and heat reservoirs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_Heat_engines_thermal_efficiency_and_Kelvin_Planck_postulate.html">Heat engines, thermal efficiency, and the Kelvin-Planck postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html">Refrigeration cycles, COP, and the Clausius postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_Reversible_and_irreversible_processes.html">Reversible and irreversible processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale.html">Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Clausius_inequality_and_definition_of_entropy.html">Clausius's inequality and the definition of entropy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_Calculation_entropy_variations_Tds_relations.html">Calculation of entropy variations and the Tds relations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="21_The_isentropic_efficiency.html">The isentropic efficiency</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="05_Combining_laws.html">Combining laws: exergy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="22_Exergy_and_notion_of_dead_state.html">Exergy and the notion of dead state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="23_Useful_work_reversibility_2nd_law_efficiency.html">Useful work, reversibility, and 2nd-law efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="24_Exergy_of_closed_and_open_systems.html">Exergy of closed and open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="25_Principle_decreasing_exergy_and_balance.html">Principle of decreasing exergy; entropy and exergy balances</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thermal and Fluids Engineering: Theoretical Pills</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="03_1st_law.html">1st Law</a></li>
+      <li class="breadcrumb-item active">Energy, work and heat</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/09_Energy_work_and_heat.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="energy-work-and-heat">
+<span id="sec-energy-work-heat"></span><h1>Energy, work and heat<a class="headerlink" href="#energy-work-and-heat" title="Link to this heading"></a></h1>
+<p>Thermodynamic systems do not remain motionless; they experience <strong>processes</strong> that transform or transfer energy. While equilibrium analysis provides a snapshot of a system’s state, <strong>energy and its modes of transfer</strong> describe how systems evolve between states. This section introduces the fundamental notions of <strong>work</strong>, <strong>heat</strong>, and <strong>energy</strong> — the building blocks of the <strong><span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law of thermodynamics</strong>, which states that energy can neither be created nor destroyed, only converted from one form to another.</p>
+<hr class="docutils" />
+<section id="notion-of-energy">
+<span id="subsec-notion-of-energy"></span><h2>Notion of energy<a class="headerlink" href="#notion-of-energy" title="Link to this heading"></a></h2>
+<p>Thermodynamics is built around the concept of <strong>energy conservation</strong>. The familiar phrase — <em>“energy is neither created nor destroyed, but transformed”</em> — captures the essence of the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law, as explained <a class="hxr-hoverxref hxr-tooltip reference internal" href="10_1st_law_in_closed_systems.html#sec-first-law-closed-systems"><span class="std std-ref">further on</span></a>. Yet, energy is not a tangible object: it is an <strong>abstract bookkeeping quantity</strong> that links different forms of motion, interaction, and transformation.</p>
+<p>In every process, energy may appear in diverse forms — mechanical, thermal, chemical, electrical — but the <strong>total</strong> always remains constant. What changes is its <strong>distribution</strong> among those forms.</p>
+<p>Energy is a <strong>state property</strong>. A state property is a magnitude whose value is determined by the thermodynamic state of the system. Or, in other words: thermodynamic states are <strong>described</strong> by state properties. Among all the magnitudes that can be used in such a description, energy deserves a special consideration. Due to its conservative nature, energy variations between thermodynamic states can be related to the ways and processes in which such energy transfers occur. As we shall see, the way in which thermodynamics encodes the different modes of energy transfer adopts its most simplified form in the statement of the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: the abstract notion of the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law</p>
+<p>Although the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law will be stated in its mathematical, application-oriented form in this course, its original conception is more abstract. The conservation of energy is not the proper, formal statement of the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law; rather, it is <strong>one of its consequences</strong>. In its abstract conception, the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law establishes the following:</p>
+<ul class="simple">
+<li><p>Take any thermodynamic system <span class="math notranslate nohighlight">\(S\)</span>.</p></li>
+<li><p>Let it evolve between two generic end states, <span class="math notranslate nohighlight">\(S_{1}\)</span> and <span class="math notranslate nohighlight">\(S_{2}\)</span>.</p></li>
+<li><p>It is always possible to define a magnitude, called energy (<span class="math notranslate nohighlight">\(E\)</span>), such that its difference <span class="math notranslate nohighlight">\(E_{2} - E_{1}\)</span> does not depend on the way in which the evolution between the end states is carried out. In other words: the energy variation <strong>is independent from the process path</strong>.</p></li>
+</ul>
+<p>A physical magnitude whose changes between states depend exclusively on the values that it adopts at such states is called a <strong>physical property</strong>. Thus, the formal statement of the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law <strong>establishes the energy magnitude as a state property</strong>.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="state-properties-process-magnitudes-and-reference-states">
+<span id="subsec-state-properties-process-magnitudes-and-reference-states"></span><h2>State properties, process magnitudes and reference states<a class="headerlink" href="#state-properties-process-magnitudes-and-reference-states" title="Link to this heading"></a></h2>
+<p>The fact that energy constitutes a <strong>state property</strong> means that its variations between states depend only on the values it takes at those states, not on how the process is carried out. In contrast, a magnitude whose value depends on the way in which the transformation occurs is called a <strong>process magnitude</strong>. Such magnitudes quantify how a system exchanges energy with its surroundings, rather than how much energy it possesses at a given state.</p>
+<p>State properties and process magnitudes refer to physical quantities that are fundamentally different. It is therefore important to distinguish them not only conceptually but also symbolically:</p>
+<ul>
+<li><p>A <strong>state property</strong> <span class="math notranslate nohighlight">\(\phi\)</span>:</p>
+<ul>
+<li><p>Describes a <strong>thermodynamic state</strong> and has a well-defined value at equilibrium.</p></li>
+<li><p>Its change between two states depends only on those states and not on the path:</p>
+<ul>
+<li><p>For <strong>infinitesimal changes</strong>, the <strong>differential operator</strong> is used:</p>
+<ul>
+<li><p>In the general, multivariable case (if <span class="math notranslate nohighlight">\(\phi\)</span> depends on a set of parameters <span class="math notranslate nohighlight">\(\left(x_1, x_2, \ldots\right)\)</span>):</p>
+<div class="math notranslate nohighlight">
+\[
+        \mathrm{d}\phi =
+        \left(\frac{\partial \phi}{\partial x_1}\right)\mathrm{d}x_1 +
+        \left(\frac{\partial \phi}{\partial x_2}\right)\mathrm{d}x_2 + \cdots
+        \]</div>
+</li>
+<li><p>If <span class="math notranslate nohighlight">\(\phi = \phi(x)\)</span>, that is, <span class="math notranslate nohighlight">\(\phi\)</span> varies only with one parameter <span class="math notranslate nohighlight">\(x\)</span>, the differential reduces to:</p>
+<div class="math notranslate nohighlight">
+\[
+        \mathrm{d}\phi = \frac{\mathrm{d}\phi}{\mathrm{d}x}\mathrm{d}x.
+        \]</div>
+<p>Integrating between two states 1 and 2 gives the corresponding finite change:</p>
+<div class="math notranslate nohighlight">
+\[
+        \Delta\phi_{1\to2} = \int_{x_1}^{x_2} \frac{\mathrm{d}\phi}{\mathrm{d}x}\mathrm{d}x = \phi_2 - \phi_1.
+        \]</div>
+<p>Since <span class="math notranslate nohighlight">\(\phi\)</span> is a <strong>state property</strong>, <span class="math notranslate nohighlight">\(\mathrm{d}\phi\)</span> is an <strong>exact differential</strong>, and its integral depends only on the endpoints. For one-dimensional dependencies, the <strong>differential operator</strong> expresses the local rate of change of <span class="math notranslate nohighlight">\(\phi(x)\)</span>, while the <strong>integral</strong> gives the total variation between states.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>A <strong>process magnitude</strong> <span class="math notranslate nohighlight">\(\psi\)</span>:</p>
+<ul>
+<li><p>Quantifies how a transformation occurs between two states (the mechanism by which the system changes).</p></li>
+<li><p>Its infinitesimal form is represented by an <strong>inexact differential</strong>, <span class="math notranslate nohighlight">\(\delta\psi\)</span>, because its integral depends on the <strong>path</strong> taken by the process:</p>
+<div class="math notranslate nohighlight">
+\[
+    \Psi_{1\to2} = \int_{1}^{2} \delta\psi,
+    \]</div>
+<p>where the value of <span class="math notranslate nohighlight">\(\Psi_{1\to2}\)</span> changes if the process path changes, even for the same start and end states.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>The purpose of introducing the notations for the differences of state properties and process magnitudes is that thermodynamics cannot determine <strong>absolute energy values</strong>. Energy is defined only through <strong>differences between states</strong>, not by an absolute zero that can be measured experimentally.</p>
+<p>To compare and balance energies (and other properties) consistently, a <strong>reference state</strong> is therefore chosen—typically by setting <span class="math notranslate nohighlight">\(E=0\)</span> at a defined condition. This simplifies calculations without changing the physical meaning; it merely sets the numerical scale.</p>
+<p>Reference states are <strong>conventional</strong>, chosen by <strong>agreement</strong> to simplify analyses. For example:</p>
+<ul class="simple">
+<li><p>Setting <span class="math notranslate nohighlight">\(h_f = 0\)</span> for saturated liquid water at <span class="math notranslate nohighlight">\(0 \ ^\circ\text{C}\)</span> is commonly adopted as the enthalpy reference for the water–steam system.</p></li>
+<li><p>Assigning standard enthalpies of formation at <span class="math notranslate nohighlight">\(298 \ \text{K}\)</span> and <span class="math notranslate nohighlight">\(1 \ \text{bar}\)</span> is standard practice in chemical thermodynamics.</p></li>
+</ul>
+<p>These conventions vary across disciplines but share the same goal: simplifying energy balances and ensuring consistency. Nevertheless, one may define <strong>custom reference states</strong> if a particular problem requires it, as long as all quantities in the analysis remain consistent with the chosen baseline.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: summarizing state properties and process magnitudes</p>
+<p>The distinction between <strong>state properties</strong> and <strong>process magnitudes</strong> can be compactly summarized as follows:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Type of magnitude</strong></p></th>
+<th class="head text-center"><p><strong>Symbol(s)</strong></p></th>
+<th class="head text-center"><p><strong>Infinitesimal change</strong></p></th>
+<th class="head text-center"><p><strong>Finite change</strong></p></th>
+<th class="head text-center"><p><strong>Path dependence</strong></p></th>
+<th class="head text-center"><p><strong>Differential type</strong></p></th>
+<th class="head text-left"><p><strong>Physical meaning</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>State property</strong></p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(\phi\)</span></p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(\mathrm{d}\phi\)</span></p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(\Delta\phi_{1\to2} = \displaystyle\int_1^2 \mathrm{d}\phi = \phi_2 - \phi_1\)</span></p></td>
+<td class="text-center"><p><strong>Independent</strong></p></td>
+<td class="text-center"><p><strong>Exact</strong></p></td>
+<td class="text-left"><p>Quantifies the <em>state</em> of the system; depends only on its equilibrium condition.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Process magnitude</strong></p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(\psi\)</span>, <span class="math notranslate nohighlight">\(\Psi\)</span></p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(\delta\psi\)</span></p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(\Psi_{1\to2} = \displaystyle\int_1^2 \delta\psi\)</span></p></td>
+<td class="text-center"><p><strong>Dependent</strong></p></td>
+<td class="text-center"><p><strong>Inexact</strong></p></td>
+<td class="text-left"><p>Quantifies the <em>mode of change</em> between states; depends on the transformation path.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: the dummy operators</p>
+<p>So far, the variation operators have been written with explicit reference to their endpoints. For a state property change, the expression <span class="math notranslate nohighlight">\(\Delta\phi_{1\to2} = \phi_2 - \phi_1\)</span> simply indicates that we are taking the difference in the property <span class="math notranslate nohighlight">\(\phi\)</span> between state 1 and state 2. Likewise, the value of a process magnitude has been written as <span class="math notranslate nohighlight">\(\Psi_{1\to2}\)</span>, making explicit that the endpoints of the process.</p>
+<p>In many thermodynamic problems, however, the initial and final states are already clear from the context, so it is unnecessary to specify them every time. In such cases, the finite changes can be written more simply as <span class="math notranslate nohighlight">\(\Delta\phi\)</span> or <span class="math notranslate nohighlight">\(\Psi\)</span>, with the endpoints understood.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="types-of-energy">
+<span id="subsec-types-of-energy"></span><h2>Types of energy<a class="headerlink" href="#types-of-energy" title="Link to this heading"></a></h2>
+<p>The <strong>total energy</strong> <span class="math notranslate nohighlight">\(E\)</span> of a system is composed of several distinct contributions:</p>
+<div class="math notranslate nohighlight" id="eq-energy-split">
+\[
+E = U + E_k + E_p + E_f + \cdots
+\]</div>
+<p>where:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(U\)</span> is the <strong>internal energy</strong>,</p></li>
+<li><p><span class="math notranslate nohighlight">\(E_k\)</span> is the <strong>kinetic energy</strong>,</p></li>
+<li><p><span class="math notranslate nohighlight">\(E_p\)</span> is the <strong>potential energy</strong>,</p></li>
+<li><p>and <span class="math notranslate nohighlight">\(E_f\)</span> may represent <strong>flow</strong> or <strong>pressure energy</strong> in control-volume (open system) analysis.</p></li>
+</ul>
+<p>Broadly, we distinguish between <strong>macroscopic</strong> (organized) and <strong>microscopic</strong> (disorganized) forms of energy.</p>
+<section id="macroscopic-energy-organized">
+<span id="subsubsec-macroscopic-energy"></span><h3>Macroscopic energy (organized)<a class="headerlink" href="#macroscopic-energy-organized" title="Link to this heading"></a></h3>
+<p>Macroscopic forms of energy depend on the system’s overall motion or position relative to an external frame of reference.</p>
+<ul>
+<li><p><strong>Kinetic energy</strong> due to motion of the center of mass:</p>
+<div class="math notranslate nohighlight" id="eq-ek">
+\[
+  E_k = \frac{1}{2}mV^2.
+  \]</div>
+</li>
+<li><p><strong>Potential energy</strong> associated with position in a gravitational field:</p>
+<div class="math notranslate nohighlight" id="eq-ep">
+\[
+  E_p = m g (z - z_0).
+  \]</div>
+</li>
+<li><p><strong>Flow (or flow-work) energy</strong>, which quantifies the energy required to push a mass of fluid across a boundary:</p>
+<div class="math notranslate nohighlight" id="eq-ef">
+\[
+  E_f = p V,
+  \]</div>
+<p>where <span class="math notranslate nohighlight">\(p\)</span> is pressure and <span class="math notranslate nohighlight">\(V\)</span> is the volume of the moving fluid element.</p>
+</li>
+</ul>
+</section>
+<section id="microscopic-energy-disorganized">
+<span id="subsubsec-microscopic-energy"></span><h3>Microscopic energy (disorganized)<a class="headerlink" href="#microscopic-energy-disorganized" title="Link to this heading"></a></h3>
+<p>The <strong>microscopic</strong> or <strong>internal energy</strong> <span class="math notranslate nohighlight">\(U\)</span> reflects the chaotic motions and interactions of molecules — their translation, rotation, vibration, and bonding. Unlike macroscopic energy forms, the microscopic ones do not depend on (are not relative to) an external frame of reference.</p>
+<p>As we shall see, changes in <span class="math notranslate nohighlight">\(U\)</span> adopt relatively simple forms in systems without chemical reactions or phase change. In such systems, variations in <span class="math notranslate nohighlight">\(U\)</span> are primarily <strong>thermal</strong> and correlate directly with temperature. The upshot is that the higher the temperature, the greater the internal energy content.</p>
+<p>However, not all internal energy is thermal: chemical, nuclear, and elastic energies may also contribute to the microscopic energy sources.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note — organized vs. disorganized energy</p>
+<p>“Organized” energy (like macroscopic motion or mechanical work) can be <strong>fully converted</strong> into disorganized energy (random molecular motion or thermal energy).
+As we shall see, the reverse transformation is <strong>limited</strong> by the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law of thermodynamics.</p>
+<p>This is why converting mechanical work into heat is easy (e.g., friction), but converting all heat into work (as in engines) is impossible.</p>
+</div>
+<hr class="docutils" />
+</section>
+</section>
+<section id="physical-definition-of-work">
+<span id="subsec-physical-definition-of-work"></span><h2>Physical definition of work<a class="headerlink" href="#physical-definition-of-work" title="Link to this heading"></a></h2>
+<p>At its most fundamental level, <strong>work</strong> is defined as the <strong>transfer of energy</strong> that occurs when a force acts through a displacement. For an infinitesimal element of motion:</p>
+<div class="math notranslate nohighlight" id="eq-work-def">
+\[
+\delta W = \vec{F} \cdot \mathrm{d}\vec{r}.
+\]</div>
+<p>The quantity <span class="math notranslate nohighlight">\(\delta W\)</span> is a <strong>scalar</strong> obtained from the dot product of two vectors, force <span class="math notranslate nohighlight">\(\vec{F}\)</span> and displacement <span class="math notranslate nohighlight">\(\mathrm{d}\vec{r}\)</span>. Its value depends not only on the endpoints but also on the <strong>path</strong> followed between them.</p>
+<p>The unit of work is the joule (<span class="math notranslate nohighlight">\(\text{J}\)</span>), defined as:</p>
+<div class="math notranslate nohighlight" id="eq-joule-unit">
+\[
+1 \ \mathrm{J} = 1 \ \mathrm{N\cdot m}.
+\]</div>
+<p>That is, one joule equals the work done by a force of one newton acting through a displacement of one meter.</p>
+<p>To appreciate the scale of the basic energy-unit (the joule) let’s calculate the following: the mass that would make us expense <span class="math notranslate nohighlight">\(1 \ \text{J}\)</span> of energy when lifting it <span class="math notranslate nohighlight">\(1 \ \text{m}\)</span> against the force of gravity. As <span class="math notranslate nohighlight">\(\delta{}W = 1 \ \text{J}\)</span>, <span class="math notranslate nohighlight">\(\mathrm{d}\vec{r} = 1 \vec{k}\)</span> (assuming that <span class="math notranslate nohighlight">\(\vec{k}\)</span> is the unit vector in the vertical direction) and <span class="math notranslate nohighlight">\(\vec{F} = -m{\cdot}\vec{a} = -m{\cdot}\vec{g} = m{\cdot}|g|\vec{k}\)</span> (the negative sign comes from the fact that, when lifting the mass, we act <strong>against</strong> the force of gravity, which goes in the negative vertical direction):</p>
+<div class="math notranslate nohighlight">
+\[
+1 \ [\text{J}] = m \ [\text{kg}] \ {\cdot} \ |g| \ [\frac{\text{m}}{\text{s}^{2}}] \ {\cdot} \ 1 \ [\text{m}] \ \Longrightarrow |g| \approx 10 \ [\frac{\text{m}}{\text{s}^{2}}] \ \Longrightarrow m \approx \frac{1}{10} \ \text{kg} = 100 \ \text{gr},
+\]</div>
+<p>so the body in question would be a 100-gram mass — a small amount when compared to the daily standards we handle.</p>
+<p>Because one joule is quite small for most engineering problems, it is common to use its multiples such as <strong>kilojoules (kJ)</strong> or <strong>megajoules (MJ)</strong>. For example, one liter of gasoline releases roughly <span class="math notranslate nohighlight">\(34 \ \text{MJ}\)</span> of energy when burned, while a typical human body at rest dissipates about <span class="math notranslate nohighlight">\(100 \ \text{J}\)</span> per second in metabolic work and heat.</p>
+<hr class="docutils" />
+</section>
+<section id="notion-of-work-in-simple-compressible-systems">
+<span id="subsec-work-simple-compressible-systems"></span><h2>Notion of work in simple compressible systems<a class="headerlink" href="#notion-of-work-in-simple-compressible-systems" title="Link to this heading"></a></h2>
+<p>In a <strong>quasi-static (reversible) process</strong>, the system evolves through an uninterrupted series of <strong>equilibrium states</strong>. This means that all intensive properties (such as pressure and temperature) remain well defined at every instant. Because <span class="math notranslate nohighlight">\(p\)</span> can be assigned a definite value at each infinitesimal step, the product <span class="math notranslate nohighlight">\(p\mathrm{d}V\)</span> is a meaningful quantity, allowing us to express work in <strong>differential form</strong> as:</p>
+<div class="math notranslate nohighlight" id="eq-flow-work-diff">
+\[
+\delta W = p\mathrm{d}V,
+\]</div>
+<p>or, in specific form,</p>
+<div class="math notranslate nohighlight" id="eq-flow-work-diff-spec">
+\[
+\delta w = p\mathrm{d}v.
+\]</div>
+<p>A simple way to interpret the <a class="hxr-hoverxref hxr-tooltip reference internal" href="#eq-flow-work-diff"><span class="std std-ref">above expression</span></a> is to picture the system boundary as a movable wall of area <span class="math notranslate nohighlight">\(A\)</span> on which a force <span class="math notranslate nohighlight">\(\vec{F}\)</span> acts. If the wall moves by an infinitesimal displacement <span class="math notranslate nohighlight">\(\mathrm{d}\vec{x}\)</span>, the <strong>elementary work</strong> is the dot product <span class="math notranslate nohighlight">\(\vec{F}{\cdot}\mathrm{d}\vec{x}\)</span>.
+Since the <strong>pressure</strong> is <a class="hxr-hoverxref hxr-tooltip reference internal" href="02_Magnitudes_and_properties.html#eq-pressure-def"><span class="std std-ref">the force per unit area</span></a>, <span class="math notranslate nohighlight">\(p = F/A\)</span>, the infinitesimal work can be written as</p>
+<div class="math notranslate nohighlight">
+\[
+\delta W = \pm pA\mathrm{d}x,
+\]</div>
+<p>and, as <span class="math notranslate nohighlight">\(\pm{}A\mathrm{d}x = \pm\mathrm{d}V\)</span>, <a class="hxr-hoverxref hxr-tooltip reference internal" href="#eq-flow-work-diff"><span class="std std-ref">the generic work equation follows</span></a>. The interpretation of the positive and negative signs, in accordance to the sign convention adopted for the present course, is given <a class="hxr-hoverxref hxr-tooltip reference internal" href="#subsec-the-sign-convention-work-heat"><span class="std std-ref">in a further section</span></a>. Integrating the above expression between two equilibrium states 1 and 2 gives the <strong>total, finite work adscribed to the process</strong>:</p>
+<div class="math notranslate nohighlight" id="eq-flow-work-int">
+\[
+W_{1\to2} = \int_{1}^{2} p\mathrm{d}V.
+\]</div>
+<p>Graphically, this represents the <strong>area under the process curve</strong> in a <span class="math notranslate nohighlight">\(p–V\)</span> diagram. The form of <span class="math notranslate nohighlight">\(p(V)\)</span> determines how this integral is evaluated.</p>
+<hr class="docutils" />
+</section>
+<section id="typical-process-cases">
+<span id="subsec-typical-process-cases"></span><h2>Typical process cases<a class="headerlink" href="#typical-process-cases" title="Link to this heading"></a></h2>
+<ul>
+<li><p><strong>Isochoric process</strong> (<span class="math notranslate nohighlight">\(V = \text{constant}\)</span>):</p>
+<p>Since <span class="math notranslate nohighlight">\(\mathrm{d}V = 0\)</span>,</p>
+<div class="math notranslate nohighlight">
+\[
+  W_{1\to2} = \int_{1}^{2} p\mathrm{d}V = 0.
+  \]</div>
+<p>No boundary work is done — the process occurs at constant volume.</p>
+</li>
+<li><p><strong>Isobaric process</strong> (<span class="math notranslate nohighlight">\(p = \text{constant}\)</span>):</p>
+<p>The pressure can be taken outside the integral:</p>
+<div class="math notranslate nohighlight">
+\[
+  W_{1\to2} = p \int_{V_1}^{V_2} \mathrm{d}V = p(V_2 - V_1).
+  \]</div>
+</li>
+<li><p><strong>Isothermal ideal-gas process</strong> (<span class="math notranslate nohighlight">\(T = \text{constant}\)</span>, <span class="math notranslate nohighlight">\(p V = n R T\)</span>):</p>
+<p>Substituting <span class="math notranslate nohighlight">\(p = nRT/V\)</span>,</p>
+<div class="math notranslate nohighlight">
+\[
+  W_{1\to2} = nRT \int_{V_1}^{V_2} \frac{\mathrm{d}V}{V}
+  = nRT \ln\left(\frac{V_2}{V_1}\right).
+  \]</div>
+</li>
+<li><p><strong>Adiabatic ideal-gas process</strong>:</p>
+<p>In an adiabatic process, no heat crosses the system boundary — all the energy transfer occurs as work.
+The pressure and volume are related by the expression <span class="math notranslate nohighlight">\(p V^{\gamma} = \text{constant}\)</span>, where <span class="math notranslate nohighlight">\(\gamma = c_p / c_v\)</span> is the ratio of specific heats.
+Substituting <span class="math notranslate nohighlight">\(p = C/V^{\gamma}\)</span>,</p>
+<div class="math notranslate nohighlight">
+\[
+  W_{1\to2} = \int_{V_1}^{V_2} C V^{-\gamma}\mathrm{d}V
+  = \frac{C}{1 - \gamma}\left(V_2^{1 - \gamma} - V_1^{1 - \gamma}\right)
+  = \frac{p_2 V_2 - p_1 V_1}{1 - \gamma}.
+  \]</div>
+</li>
+<li><p><strong>Polytropic process</strong>:</p>
+<p>A way of generalizing the particular cases above is by means of the <strong>polytropic relation</strong>, <span class="math notranslate nohighlight">\(p V^n = \text{constant}\)</span>. Such a relation describes a broad class of processes where the pressure–volume relationship follows a power law. The exponent <span class="math notranslate nohighlight">\(n\)</span> indicates how the gas exchanges energy during the transformation:</p>
+<ul class="simple">
+<li><p>For <strong>small <span class="math notranslate nohighlight">\(n\)</span></strong>, pressure decreases slowly with volume, meaning more work is produced (similar to isobaric or isothermal expansion).</p></li>
+<li><p>For <strong>large <span class="math notranslate nohighlight">\(n\)</span></strong>, pressure drops rapidly, and less work is done (approaching isochoric behavior).
+Hence, <span class="math notranslate nohighlight">\(n\)</span> controls the “path” on the <span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(V\)</span> plane, bridging different kinds of processes (isothermal, adiabatic, etc.) into a single general model.</p></li>
+</ul>
+<p>Substituting <span class="math notranslate nohighlight">\(p = C/V^n\)</span>,</p>
+<div class="math notranslate nohighlight">
+\[
+  W_{1\to2} = \int_{V_1}^{V_2} CV^{-n}\mathrm{d}V
+  = \frac{C}{1-n}\left(V_2^{1-n} - V_1^{1-n}\right)
+  = \frac{p_2 V_2 - p_1 V_1}{1 - n}.
+  \]</div>
+<p><a class="hxr-hoverxref hxr-tooltip reference internal" href="#subsec-work-simple-compressible-systems"><span class="std std-ref">As mentioned above</span></a>, the work performed by a simple compressible system can be represented by the area under the <span class="math notranslate nohighlight">\(p-V\)</span> curve that the <span class="math notranslate nohighlight">\(p(V)\)</span> process encloses. The general relation <span class="math notranslate nohighlight">\(pV^n = \text{constant}\)</span> describes a particular family of possible curves that can be drawn in the <span class="math notranslate nohighlight">\(p-V\)</span> diagram for substances that follow the ideal gas model. Indeed, such a family is the set of <strong>hyperbolic curves</strong>, where the curvature and slope of the curve is determined by the <strong>polytropic index <span class="math notranslate nohighlight">\(n\)</span></strong>:</p>
+<ul class="simple">
+<li><p>When <span class="math notranslate nohighlight">\(n = 1\)</span>, the curve is an <strong>equilateral hyperbola</strong>, corresponding to an <strong>isothermal</strong> process for an ideal gas <span class="math notranslate nohighlight">\((pV = \text{constant})\)</span>.</p></li>
+<li><p>When <span class="math notranslate nohighlight">\(n = \gamma\)</span>, the curve represents an <strong>adiabatic</strong> process, steeper than the isothermal one because no heat exchange occurs.</p></li>
+<li><p>Other values of <span class="math notranslate nohighlight">\(n\)</span> describe intermediate or limiting cases (e.g., <span class="math notranslate nohighlight">\(n = 0\)</span> for isobaric, <span class="math notranslate nohighlight">\(n \to \infty\)</span> for isochoric).</p></li>
+</ul>
+<p>Thus, the <strong>polytropic model</strong> unifies all common thermodynamic paths under a single mathematical expression, with the isothermal and adiabatic transformations appearing as <strong>particular hyperbolas</strong> of this general family.</p>
+</li>
+</ul>
+<p>These cases show that the work done depends on <strong>how</strong> the system moves between states — that is, on the <strong>path</strong> — rather than on the states themselves.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: work expressions for ideal-gas cases</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Process</strong></p></th>
+<th class="head text-left"><p><strong>Constraint / Condition</strong></p></th>
+<th class="head text-left"><p><strong>Work expression</strong></p></th>
+<th class="head text-left"><p><strong>Interpretation</strong></p></th>
+<th class="head text-center"><p><strong>Polytropic index</strong></p></th>
+<th class="head text-center"><p>Curve shape on <span class="math notranslate nohighlight">\(p-V\)</span> diagram</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Isochoric</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(V = \text{constant}\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(W_{1\to2} = 0\)</span></p></td>
+<td class="text-left"><p>No change in volume <span class="math notranslate nohighlight">\(\rightarrow\)</span> no boundary work.</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(n \to \infty\)</span></p></td>
+<td class="text-center"><p>Vertical line</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Isobaric</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(p = \text{constant}\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(W_{1\to2} = p(V_2 - V_1)\)</span></p></td>
+<td class="text-left"><p>Pressure remains constant <span class="math notranslate nohighlight">\(\rightarrow\)</span> work equals pressure × volume change.</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(n = 0\)</span></p></td>
+<td class="text-center"><p>Horizontal line</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Isothermal (ideal gas)</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(T = \text{constant}\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(W_{1\to2} = nRT\ln(V_2/V_1)\)</span></p></td>
+<td class="text-left"><p>Temperature fixed <span class="math notranslate nohighlight">\(\rightarrow\)</span> work comes entirely from heat exchange.</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(n = 1\)</span></p></td>
+<td class="text-center"><p>Equilateral hyperbola</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Adiabatic (ideal gas)</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(Q = 0\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - \gamma}\)</span>, where <span class="math notranslate nohighlight">\(\gamma = c_p/c_v\)</span></p></td>
+<td class="text-left"><p>No heat transfer <span class="math notranslate nohighlight">\(\rightarrow\)</span> work equals the change in internal energy.</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(n = \gamma\)</span></p></td>
+<td class="text-center"><p>Hyperbola (steeper than equilateral)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Polytropic</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(p V^n = \text{constant}\)</span>, <span class="math notranslate nohighlight">\(n \neq 1\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(W_{1\to2} = \dfrac{p_2V_2 - p_1V_1}{1 - n}\)</span></p></td>
+<td class="text-left"><p>Generalized process describing many possible paths between states.</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(n = n\)</span></p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(n-\)</span>modulated hyperbola</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: etymology of “polytropic”</p>
+<p>The word <strong>“polytropic”</strong> comes from the Greek <em>poly</em> (πολύ, “many”) and <em>tropos</em> (τρόπος, “way” or “manner”). It literally means “many ways,” reflecting that a polytropic process can occur in <strong>many possible manners</strong> depending on the exponent <span class="math notranslate nohighlight">\(n\)</span>, each representing a distinct mode of energy exchange between pressure and volume.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="notion-of-heat">
+<span id="subsec-heat"></span><h2>Notion of heat<a class="headerlink" href="#notion-of-heat" title="Link to this heading"></a></h2>
+<p>While work results from <strong>organized motion</strong> or <strong>forces acting through displacements</strong>, <strong>heat</strong> results from <strong>random microscopic interactions</strong> driven by temperature differences.</p>
+<p>Energy transfer by heat always proceeds <strong>from higher to lower temperature</strong>. For a differential transfer:</p>
+<div class="math notranslate nohighlight" id="eq-heat-direction">
+\[
+T_\text{hot} &gt; T_\text{cold} \quad \Longrightarrow \quad Q_{\text{hot}\to\text{cold}} &gt; 0.
+\]</div>
+<p>Heat, like work, is <strong>path-dependent</strong> and measured in joules. It is symbolized by <span class="math notranslate nohighlight">\(\delta Q\)</span> for an infinitesimal transfer and by <span class="math notranslate nohighlight">\(Q\)</span> for a finite process. It is a form of energy transfer or energy <em>in transit</em> across the boundary (just like work), not the energy stored within the system. Once absorbed, it contributes to the <strong>internal energy</strong> <span class="math notranslate nohighlight">\(U\)</span> of a closed system or, as we shall see, to the <strong>enthalpy</strong> <span class="math notranslate nohighlight">\(H\)</span> of the fluid in an open system.</p>
+<hr class="docutils" />
+</section>
+<section id="rates-and-specific-forms">
+<span id="subsec-rates-specifics"></span><h2>Rates and specific forms<a class="headerlink" href="#rates-and-specific-forms" title="Link to this heading"></a></h2>
+<p>For practical use, the energy transfer terms are often expressed on a <strong>specific</strong> (per unit mass) basis, or as <strong>rates</strong> (per unit time). As done so far, the specific quantities will be symbolized by the lowercase versions of their extensive counterparts:</p>
+<div class="math notranslate nohighlight">
+\[
+\delta w = \frac{\delta W}{m}, \quad
+\delta q = \frac{\delta Q}{m}, \qquad \text{measured in } [\text{J}/\text{kg}]
+\]</div>
+<p>whereas the rates are symbolized by dotted variables.</p>
+<div class="math notranslate nohighlight">
+\[
+\dot{W} = \frac{\mathrm{d}W}{\mathrm{d}t}, \quad
+\dot{Q} = \frac{\mathrm{d}Q}{\mathrm{d}t}, \qquad \text{measured in } [\text{J}/\text{s}]\equiv[\text{W}].
+\]</div>
+<p>These forms are essential for steady-flow systems, cyclic processes and open systems, where energy transfer per unit mass or per unit time is often more informative than total quantities.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: the Watt, the basic power unit</p>
+<p>Notice that the Watt unit <span class="math notranslate nohighlight">\([\text{W}]\)</span> corresponds to the <strong>rate of energy</strong>, i.e. to the energy flow per unit time (per second).</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="the-sign-convention-for-work-and-heat">
+<span id="subsec-the-sign-convention-work-heat"></span><h2>The sign convention for work and heat<a class="headerlink" href="#the-sign-convention-for-work-and-heat" title="Link to this heading"></a></h2>
+<p><a class="hxr-hoverxref hxr-tooltip reference internal" href="#subsec-work-simple-compressible-systems"><span class="std std-ref">As mentioned before</span></a>, the <a class="hxr-hoverxref hxr-tooltip reference internal" href="#eq-flow-work-diff"><span class="std std-ref">infinitesimal expression for work</span></a> is a <strong>general relation</strong> that can take either <strong>positive</strong> or <strong>negative</strong> values depending on the <strong>sign of the volume change</strong> (i.e. <span class="math notranslate nohighlight">\(\pm\mathrm{d}V\)</span>):</p>
+<ul class="simple">
+<li><p>If <span class="math notranslate nohighlight">\(\mathrm{d}V &gt; 0\)</span>, the system <strong>expands</strong> and performs <strong>positive work</strong> on its surroundings — energy leaves the system as mechanical output.</p></li>
+<li><p>If <span class="math notranslate nohighlight">\(\mathrm{d}V &lt; 0\)</span>, the system <strong>is compressed</strong>, and <strong>negative work</strong> is done <em>by</em> the system — equivalently, work is done <em>on</em> the system, meaning mechanical energy enters it.</p></li>
+</ul>
+<p>On a <span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(V\)</span> diagram, this corresponds to the <strong>area under the process curve</strong>:</p>
+<ul class="simple">
+<li><p><strong>Expansion</strong> (work done <em>by</em> the system): area <em>below</em> the curve <span class="math notranslate nohighlight">\(\rightarrow W &gt; 0\)</span>.</p></li>
+<li><p><strong>Compression</strong> (work done <em>on</em> the system): area <em>above</em> the curve <span class="math notranslate nohighlight">\(\rightarrow W &lt; 0\)</span>.</p></li>
+</ul>
+<p>Likewise, heat is also a <strong>process magnitude</strong> whose sign depends on the <strong>direction of energy flow</strong>. By convention, we define:</p>
+<ul class="simple">
+<li><p><strong>Positive heat</strong> <span class="math notranslate nohighlight">\((Q &gt; 0 )\)</span>: energy enters the system as heat <span class="math notranslate nohighlight">\(\rightarrow\)</span> the system <strong>gains</strong> energy.</p></li>
+<li><p><strong>Negative heat</strong> <span class="math notranslate nohighlight">\(( Q &lt; 0 )\)</span>: energy leaves the system as heat <span class="math notranslate nohighlight">\(\rightarrow\)</span> the system <strong>loses</strong> energy.</p></li>
+</ul>
+<p>In this convention, <strong>positive <span class="math notranslate nohighlight">\(Q\)</span></strong> denotes <em>heating</em> (energy received by the system), whereas <strong>negative <span class="math notranslate nohighlight">\(Q\)</span></strong> denotes <em>cooling</em> (energy released to the surroundings).</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: sign convention summary</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Interaction type</strong></p></th>
+<th class="head text-left"><p><strong>Physical meaning</strong></p></th>
+<th class="head text-left"><p><strong>Energy flow direction</strong></p></th>
+<th class="head text-center"><p><strong>Sign convention</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Work (by system)</strong></p></td>
+<td class="text-left"><p>Expansion or mechanical output</p></td>
+<td class="text-left"><p>From system → surroundings</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(W &gt; 0\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Work (on system)</strong></p></td>
+<td class="text-left"><p>Compression or mechanical input</p></td>
+<td class="text-left"><p>From surroundings → system</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(W &lt; 0\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Heat (to system)</strong></p></td>
+<td class="text-left"><p>Heating</p></td>
+<td class="text-left"><p>From surroundings → system</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(Q &gt; 0\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Heat (from system)</strong></p></td>
+<td class="text-left"><p>Cooling</p></td>
+<td class="text-left"><p>From system → surroundings</p></td>
+<td class="text-center"><p><span class="math notranslate nohighlight">\(Q &lt; 0\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: consistency of sign conventions</p>
+<p>The convention <span class="math notranslate nohighlight">\(W &gt; 0\)</span> for work done <strong>by</strong> the system and <span class="math notranslate nohighlight">\(Q &gt; 0\)</span> for heat <strong>added to</strong> the system is standard in <strong>engineering thermodynamics</strong>.
+In <strong>physics</strong> texts, however, the opposite sign for work is sometimes used (<span class="math notranslate nohighlight">\(W &gt; 0\)</span>) for work done <strong>on</strong> the system).
+Always confirm the sign convention in use before comparing equations or results from different sources.</p>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils" id="card-worked-example-boundary-work">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>WORKED EXAMPLE — boundary work of <span class="math notranslate nohighlight">\(\text{N}_2\)</span> under different processes</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><strong>Problem statement</strong></p>
+<p class="sd-card-text">A closed system contains <strong>1 kg of nitrogen gas (<span class="math notranslate nohighlight">\(\text{N}_2\)</span>)</strong> initially at a pressure of <span class="math notranslate nohighlight">\(p_1 = 100 \ \text{kPa}\)</span> and a temperature of <span class="math notranslate nohighlight">\(T_1 = 300 \ \text{K}\)</span>.
+Whenever the considered process allows it, the gas expands <strong>quasi-statically</strong> until its <strong>final volume doubles</strong> (<span class="math notranslate nohighlight">\(V_2 = 2V_1\)</span>).</p>
+<p class="sd-card-text">The process is analyzed under different conditions — <strong>isochoric</strong>, <strong>isobaric</strong>, <strong>isothermal</strong>, <strong>adiabatic</strong>, and <strong>polytropic</strong> — to determine the <strong>boundary work</strong> done by the gas in each case. For the most generic case, assume a polytropic index of <span class="math notranslate nohighlight">\(n = 1.2\)</span>.</p>
+<p class="sd-card-text">Assume ideal-gas behavior throughout and compare the resulting work magnitudes.</p>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Synthesis</strong></p>
+<p class="sd-card-text">The boundary work is defined as:</p>
+<div class="math notranslate nohighlight">
+\[
+W_{1\to2} = \int_{V_1}^{V_2} p \mathrm{d}V.
+\]</div>
+<p class="sd-card-text">For an ideal gas, <span class="math notranslate nohighlight">\(pV = mRT\)</span>, and the functional form of <span class="math notranslate nohighlight">\(p(V)\)</span> depends on the <strong>type of process</strong>.
+We apply the appropriate relations for each process and evaluate the corresponding <span class="math notranslate nohighlight">\(W_{1\to2}\)</span> values.</p>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Problem data</strong><span id="id1">[<a class="reference internal" href="11_Specific_heats.html#id6" title="Yunus A. Çengel and Michael A. Boles. Thermodynamics: An Engineering Approach. McGraw Hill Education, 2015.">1</a>]</span></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p class="sd-card-text">Quantity</p></th>
+<th class="head text-center"><p class="sd-card-text">Symbol</p></th>
+<th class="head text-right"><p class="sd-card-text">Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Gas</p></td>
+<td class="text-center"><p class="sd-card-text">—</p></td>
+<td class="text-right"><p class="sd-card-text">Nitrogen (<span class="math notranslate nohighlight">\(\text{N}_2\)</span>)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Gas constant</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(R\)</span></p></td>
+<td class="text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(0.2968 \ \text{kJ}/\text{kg}{\cdot}\text{K}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Ratio of specific heats</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(\gamma = c_p/c_v\)</span></p></td>
+<td class="text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(1.4\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Mass</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(m\)</span></p></td>
+<td class="text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(1 \ \text{kg}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Initial pressure</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p_1\)</span></p></td>
+<td class="text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(100 \ \text{kPa}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Initial temperature</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T_1\)</span></p></td>
+<td class="text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(300 \ \text{K}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Volume ratio</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(V_2/V_1\)</span></p></td>
+<td class="text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(2\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Polytropic exponent</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(n\)</span></p></td>
+<td class="text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(1.2\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Calculations</strong></p>
+<p class="sd-card-text">For the initial state:</p>
+<div class="math notranslate nohighlight">
+\[
+p_1 V_1 = mRT_1 = (1)(0.2968)(300) = 89.04 \ \text{kJ} = 89.04 \ \text{kPa}{\cdot}\text{m}^3.
+\]</div>
+<p class="sd-card-text">Hence:</p>
+<div class="math notranslate nohighlight">
+\[
+\boxed{V_1 = \dfrac{mRT_1}{p_1} = \dfrac{89.04}{100} = 0.8904 \ \text{m}^3} \ .
+\]</div>
+<hr class="docutils" />
+<ol class="arabic simple">
+<li><p class="sd-card-text"><strong>Isochoric process</strong> (<span class="math notranslate nohighlight">\(V = \text{constant}\)</span>)</p></li>
+</ol>
+<p class="sd-card-text">No change in volume <span class="math notranslate nohighlight">\(\Rightarrow \mathrm{d}V = 0\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[
+W_{1\to2} = W_{\text{isochoric}} = \int_{V_1}^{V_2} p\mathrm{d}V = 0.
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\boxed{W_{\text{isochoric}} = 0 \ \text{kJ}}
+\]</div>
+<hr class="docutils" />
+<ol class="arabic simple" start="2">
+<li><p class="sd-card-text"><strong>Isobaric process</strong> (<span class="math notranslate nohighlight">\(p = \text{constant}\)</span>)</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[
+W_{1\to2} = W_{\text{isobaric}} = p(V_2 - V_1) = 100(0.8904) = 89.0 \ \text{kJ}.
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\boxed{W_{\text{isobaric}} = 89.0 \ \text{kJ}}
+\]</div>
+<hr class="docutils" />
+<ol class="arabic simple" start="3">
+<li><p class="sd-card-text"><strong>Isothermal process</strong> (<span class="math notranslate nohighlight">\(T = \text{constant}\)</span>)</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[
+W_{1\to2} = W_{\text{isothermal}} = mRT \ln\left(\frac{V_2}{V_1}\right) = (1)(0.2968)(300)\ln(2) = 61.7 \ \text{kJ}.
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\boxed{W_{\text{isothermal}} = 61.7 \ \text{kJ}}
+\]</div>
+<hr class="docutils" />
+<ol class="arabic simple" start="4">
+<li><p class="sd-card-text"><strong>Adiabatic process</strong> (<span class="math notranslate nohighlight">\(Q = 0\)</span>, reversible)</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[
+W_{1\to2} = W_{\text{adiabatic}} \frac{p_2V_2 - p_1V_1}{1 - \gamma}.
+\]</div>
+<p class="sd-card-text">From <span class="math notranslate nohighlight">\(pV^\gamma = \text{constant}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\gamma-1} = (0.5)^{0.4} = 0.758,
+\quad T_2 = 0.758(300) = 227.4 \ \text{K}.
+\]</div>
+<p class="sd-card-text">Then:</p>
+<div class="math notranslate nohighlight">
+\[
+W_{\text{adiabatic}} = \frac{mR(T_2 - T_1)}{1 - \gamma}
+= \frac{(1)(0.2968)(227.4 - 300)}{1 - 1.4} = 53.9 \ \text{kJ}.
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\boxed{W_{\text{adiabatic}} = 53.9 \ \text{kJ}}
+\]</div>
+<hr class="docutils" />
+<ol class="arabic simple" start="5">
+<li><p class="sd-card-text"><strong>Polytropic process</strong> (<span class="math notranslate nohighlight">\(pV^n = \text{constant}\)</span>, <span class="math notranslate nohighlight">\(n = 1.2\)</span>)</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[
+W_{1\to2} = W_{\text{polytropic}} = \frac{p_2V_2 - p_1V_1}{1 - n}.
+\]</div>
+<p class="sd-card-text">From the polytropic relation:</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{p_2}{p_1} = \left(\frac{V_1}{V_2}\right)^n = (0.5)^{1.2} = 0.435.
+\]</div>
+<p class="sd-card-text">Thus, <span class="math notranslate nohighlight">\(p_2 = 43.5 \ \text{kPa}\)</span>, and</p>
+<div class="math notranslate nohighlight">
+\[
+W_{\text{polytropic}} = \frac{(43.5)(2V_1) - (100)(V_1)}{1 - 1.2} = \frac{(87.0 - 100)V_1}{-0.2} = 65.0 \ \text{kJ}.
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\boxed{W_{\text{polytropic}} = 65.0 \ \text{kJ}}
+\]</div>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Summary of results</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p class="sd-card-text">Process</p></th>
+<th class="head text-left"><p class="sd-card-text">Relation</p></th>
+<th class="head text-right"><p class="sd-card-text"><span class="math notranslate nohighlight">\(W\)</span> [kJ]</p></th>
+<th class="head text-left"><p class="sd-card-text">Relative work</p></th>
+<th class="head text-left"><p class="sd-card-text">Comments</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Isochoric</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(V = \text{const.}\)</span></p></td>
+<td class="text-right"><p class="sd-card-text">0.0</p></td>
+<td class="text-left"><p class="sd-card-text">—</p></td>
+<td class="text-left"><p class="sd-card-text">No boundary motion → no work.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Isobaric</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p = \text{const.}\)</span></p></td>
+<td class="text-right"><p class="sd-card-text">89.0</p></td>
+<td class="text-left"><p class="sd-card-text">Highest</p></td>
+<td class="text-left"><p class="sd-card-text">Largest <span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(V\)</span> area; constant external pressure.</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Isothermal</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T = \text{const.}\)</span></p></td>
+<td class="text-right"><p class="sd-card-text">61.7</p></td>
+<td class="text-left"><p class="sd-card-text">Moderate</p></td>
+<td class="text-left"><p class="sd-card-text">Heat fully compensates work to keep <span class="math notranslate nohighlight">\(T\)</span> constant.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Adiabatic</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(Q = 0\)</span></p></td>
+<td class="text-right"><p class="sd-card-text">53.9</p></td>
+<td class="text-left"><p class="sd-card-text">Lowest (nonzero)</p></td>
+<td class="text-left"><p class="sd-card-text">Work done at expense of internal energy (cooling).</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Polytropic (<span class="math notranslate nohighlight">\(n = 1.2\)</span>)</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(pV^{1.2} = \text{const.}\)</span></p></td>
+<td class="text-right"><p class="sd-card-text">65.0</p></td>
+<td class="text-left"><p class="sd-card-text">Between isothermal and adiabatic</p></td>
+<td class="text-left"><p class="sd-card-text">Partial heat exchange softens the pressure drop.</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Visualization</strong></p>
+<p class="sd-card-text">For the current system, the above processes look as follows when plotted in a <span class="math notranslate nohighlight">\(p-V\)</span> diagram. As observed, the comments made before can be correlated with the shapes of the curves. In particular, it becomes evident that the different processes are represented by a curve that adopts a specific shape in the diagram:</p>
+<ul class="simple">
+<li><p class="sd-card-text">The <strong>isochoric</strong> process renders a <strong>vertical line</strong>.</p></li>
+<li><p class="sd-card-text">The <strong>isobaric</strong> process renders a <strong>horizontal line</strong>.</p></li>
+<li><p class="sd-card-text">The <strong>isothermal</strong> process becomes an <strong>equilateral hyperbola</strong>.</p></li>
+<li><p class="sd-card-text">The <strong>adiabatic</strong> process is also a hyperbola, but with a <strong>steeper slope and curvature</strong> than the isothermal one, due to <span class="math notranslate nohighlight">\(\gamma = 1.4 &gt; 1\)</span>.</p></li>
+<li><p class="sd-card-text">The <strong>polytropic</strong> process renders a hyperbola whose slope and curvature are between those of the isothermal and adiabatic one (<span class="math notranslate nohighlight">\(\gamma &gt; n &gt; 1\)</span>). These three cases show that the steepness and curvature of the hyperbolas are modulated by the polytropic index <span class="math notranslate nohighlight">\(n\)</span>.</p></li>
+</ul>
+<p class="sd-card-text"><img alt="PV_diagram" src="_images/PV_diagram_worked_example_mod.svg" /></p>
+<hr class="docutils" />
+<div class="tip dropdown admonition">
+<p class="admonition-title">Tip: interpretation</p>
+<p class="sd-card-text">A detailed interpretation in terms of energy, work and heat interactions may ensue when introducing the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law formally. However, some preliminary hints can be provided so far. For the same expansion ratio (<span class="math notranslate nohighlight">\(V_2/V_1 = 2\)</span>), the <strong>work output</strong> depends on how the system exchanges heat:</p>
+<ul class="simple">
+<li><p class="sd-card-text">In <strong>isobaric</strong> expansion, constant pressure yields the largest area under the <span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(V\)</span> curve.</p></li>
+<li><p class="sd-card-text">In <strong>isothermal</strong> expansion, pressure falls as <span class="math notranslate nohighlight">\(1/V\)</span>, giving moderate work.</p></li>
+<li><p class="sd-card-text">In <strong>polytropic</strong> expansion, a limited heat exchange produces an intermediate path between isothermal and adiabatic.</p></li>
+<li><p class="sd-card-text">In <strong>adiabatic</strong> expansion, no heat enters — the gas cools, and the pressure drop is steepest, yielding the smallest nonzero work.</p></li>
+<li><p class="sd-card-text">In <strong>isochoric</strong> processes, there is no boundary motion and no work.</p></li>
+</ul>
+<p class="sd-card-text">This example shows how the <strong>process path</strong> — not just the endpoints — dictates the mechanical work in thermodynamic transformations.</p>
+</div>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">END OF WORKED EXAMPLE</p>
+</div>
+</div>
+<hr class="docutils" />
+</section>
+<section id="conceptual-closure">
+<span id="subsec-conceptual-closure-energy-work-heat"></span><h2>Conceptual closure<a class="headerlink" href="#conceptual-closure" title="Link to this heading"></a></h2>
+<p><strong>Energy</strong> is a <em>state property</em>: it characterizes the condition of a system and its variations depend only on the initial and final states. <strong>Work</strong> and <strong>heat</strong>, in contrast, are <em>process magnitudes</em>: they describe <strong>how</strong> energy crosses the system boundary — either as organized mechanical action (work) or as disorganized molecular transfer due to temperature difference (heat).</p>
+<p>Work and heat are therefore <strong>complementary</strong>: no system can exchange energy without one or both of them. Their direction and magnitude depend on the process path, not solely on the states.</p>
+<p>To relate these transfers consistently, thermodynamics adopts clear <strong>sign conventions</strong>:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(W &gt; 0\)</span> when work is done <strong>by</strong> the system (expansion), and <span class="math notranslate nohighlight">\(W &lt; 0\)</span> when done <strong>on</strong> it (compression).</p></li>
+<li><p><span class="math notranslate nohighlight">\(Q &gt; 0\)</span> when heat is <strong>added</strong> to the system (heating), and <span class="math notranslate nohighlight">\(Q &lt; 0\)</span> when <strong>released</strong> (cooling).</p></li>
+</ul>
+<p>On the <strong><span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(V\)</span> diagram</strong>, areas represent <strong>work</strong>, while on the <strong><span class="math notranslate nohighlight">\(T\)</span>–<span class="math notranslate nohighlight">\(s\)</span> diagram</strong>, they represent <strong>heat</strong> for reversible processes. Both views complement each other: one expresses <strong>mechanical</strong> energy exchange, the other <strong>thermal</strong>, offering a complete picture of energy transfer between a system and its surroundings.</p>
+<hr class="docutils" />
+</section>
+<section id="references">
+<span id="subsec-references-ideal-and-real-gases"></span><h2>References<a class="headerlink" href="#references" title="Link to this heading"></a></h2>
+<div class="docutils container" id="id2">
+<div role="list" class="citation-list">
+<div class="citation" id="id5" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Yunus A. Çengel and Michael A. Boles. <em>Thermodynamics: An Engineering Approach</em>. McGraw Hill Education, 2015.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="03_1st_law.html" class="btn btn-neutral float-left" title="1st Law" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="10_1st_law_in_closed_systems.html" class="btn btn-neutral float-right" title="\(1^{\text{st}}\) Law in closed systems" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

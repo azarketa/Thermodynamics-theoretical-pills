@@ -1,0 +1,566 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>\(p-v-T\) diagrams &mdash; Thermal and Fluids Engineering: Theoretical Pills  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css?v=3234e928" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ebdd504" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/hoverxref.js"></script>
+      <script src="_static/js/tooltipster.bundle.min.js"></script>
+      <script src="_static/js/micromodal.min.js"></script>
+      <script>let toggleHintShow = '';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "tags": "ams", "useLabelIds": true, "packages": {"[+]": ["cancel"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="_static/custom.js?v=13520114"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Gas mixtures" href="07_Gas_mixtures.html" />
+    <link rel="prev" title="Ideal and real gases" href="05_Ideal_and_real_gases.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Thermal and Fluids Engineering: Theoretical Pills
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0001_What_is_this_course_about.html">What is this course about?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0002_Course_outline.html">Course outline</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MODULE 1: FUNDAMENTALS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_Basic_notions.html">Basic notions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Systems_surroundings_boundaries.html">Systems, surroundings and boundaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_Magnitudes_and_properties.html">Magnitudes and properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_Equilibrium_temperature_processes.html">Equilibrium, temperature scales and processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="02_Main_substance_models.html">Main substance models</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="04_Characterization_of_substances.html">Characterization of substances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_Ideal_and_real_gases.html">Ideal and real gases</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">p-v-T diagrams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_Gas_mixtures.html">Gas mixtures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_Humid_air.html">Humid air</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03_1st_law.html">1st Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="09_Energy_work_and_heat.html">Energy, work and heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_1st_law_in_closed_systems.html">1st Law in closed systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Specific_heats.html">Specific heats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_1st_law_in_open_systems.html">1st Law in open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Canonical_open_systems.html">Canonical open systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="04_2nd_law.html">2nd Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14_Traces_of_2nd_law_heat_reservoirs.html">Traces of the 2nd law and heat reservoirs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_Heat_engines_thermal_efficiency_and_Kelvin_Planck_postulate.html">Heat engines, thermal efficiency, and the Kelvin-Planck postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html">Refrigeration cycles, COP, and the Clausius postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_Reversible_and_irreversible_processes.html">Reversible and irreversible processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale.html">Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Clausius_inequality_and_definition_of_entropy.html">Clausius's inequality and the definition of entropy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_Calculation_entropy_variations_Tds_relations.html">Calculation of entropy variations and the Tds relations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="21_The_isentropic_efficiency.html">The isentropic efficiency</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="05_Combining_laws.html">Combining laws: exergy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="22_Exergy_and_notion_of_dead_state.html">Exergy and the notion of dead state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="23_Useful_work_reversibility_2nd_law_efficiency.html">Useful work, reversibility, and 2nd-law efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="24_Exergy_of_closed_and_open_systems.html">Exergy of closed and open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="25_Principle_decreasing_exergy_and_balance.html">Principle of decreasing exergy; entropy and exergy balances</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thermal and Fluids Engineering: Theoretical Pills</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="02_Main_substance_models.html">Main substance models</a></li>
+      <li class="breadcrumb-item active"><span class="math notranslate nohighlight">\(p-v-T\)</span> diagrams</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/06_P-v-T_diagrams.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="p-v-t-diagrams">
+<span id="sec-pvt-diagrams"></span><h1><span class="math notranslate nohighlight">\(p-v-T\)</span> diagrams<a class="headerlink" href="#p-v-t-diagrams" title="Link to this heading"></a></h1>
+<p>Thermodynamic states of a pure substance can be described by the <strong>triad of variables</strong> <span class="math notranslate nohighlight">\(p\)</span>, <span class="math notranslate nohighlight">\(v\)</span>, and <span class="math notranslate nohighlight">\(T\)</span>.
+These quantities are linked by the <a class="hxr-hoverxref hxr-tooltip reference internal" href="04_Characterization_of_substances.html#eq-general-state-equation"><span class="std std-ref">state relation</span></a>, which defines the thermodynamic surface of the substance in a three-dimensional space.
+Understanding how this surface behaves is essential for visualizing <strong>phase changes</strong> and <strong>process paths</strong> in real systems.</p>
+<p>Mathematically, a single-variable function <span class="math notranslate nohighlight">\(y=f(x)\)</span> is represented as a curve on the <span class="math notranslate nohighlight">\(x\)</span>–<span class="math notranslate nohighlight">\(y\)</span> plane.
+If, instead, the function depends on two independent variables, <span class="math notranslate nohighlight">\(z=f(x, y)\)</span>, its graphical representation is a <strong>surface</strong> in three-dimensional space.
+In the same way, the <span class="math notranslate nohighlight">\(p-v\)</span>-T relation defines a surface: each point on this surface represents an equilibrium state of the substance.</p>
+<p>A <strong>quasi-static process</strong>—a slow, reversible evolution between equilibrium states—traces a continuous <strong>curve</strong> along this surface.
+The shape of this surface, and its projections on coordinate planes, provides insight into phase behavior.</p>
+<hr class="docutils" />
+<section id="the-t-v-projection">
+<span id="subsec-tv-projection"></span><h2>The <span class="math notranslate nohighlight">\(T-v\)</span> projection<a class="headerlink" href="#the-t-v-projection" title="Link to this heading"></a></h2>
+<p>Let us examine a simple and familiar system: a <strong>piston–cylinder</strong> filled with liquid water at atmospheric pressure (<span class="math notranslate nohighlight">\(p \approx 101 \ \text{kPa}\)</span>) and at an initial temperature of <span class="math notranslate nohighlight">\(20 \ ^{\circ}\text{C}\)</span>.
+The system is slowly heated by a thermal source such as a small burner.</p>
+<ol class="arabic">
+<li><p><strong>Heating the liquid:</strong></p>
+<p>As heat is supplied, the temperature of the water increases. The piston remains nearly still, showing that the liquid’s <strong>specific volume</strong> varies very little with temperature.</p>
+</li>
+<li><p><strong>Approaching saturation:</strong></p>
+<p>When the temperature reaches <span class="math notranslate nohighlight">\(100 \ ^{\circ}\text{C}\)</span> (at this pressure), the liquid becomes <strong>saturated</strong>. Any further addition of heat now initiates a <strong>phase change</strong>—the formation of vapor.
+The water at this point is called <strong>saturated liquid</strong>, while the earlier state (below <span class="math notranslate nohighlight">\(100 \ ^{\circ}\text{C}\)</span>) is <strong>subcooled</strong> or <strong>compressed liquid</strong>.</p>
+</li>
+<li><p><strong>Phase change:</strong></p>
+<p>As the vapor forms, the piston begins to move upward. The temperature and pressure remain constant during the change, but the <strong>specific volume</strong> increases sharply.
+During this process, both liquid and vapor coexist — this is the <strong>saturated liquid–vapor mixture</strong>.
+Each intermediate state corresponds to a given fraction of vaporized mass, quantified by the <strong>quality</strong> <span class="math notranslate nohighlight">\(x\)</span>, defined later in this section.</p>
+</li>
+<li><p><strong>Saturated vapor:</strong></p>
+<p>When the last droplet of liquid evaporates, the system consists entirely of <strong>saturated vapor</strong>.
+Removing heat from this state would reverse the process, leading to <strong>condensation</strong>.</p>
+</li>
+<li><p><strong>Superheated vapor:</strong></p>
+<p>If heating continues beyond the saturated vapor state, the temperature rises above the saturation temperature.
+The vapor expands, the piston ascends further, and the gas approximately follows <a class="hxr-hoverxref hxr-tooltip reference internal" href="05_Ideal_and_real_gases.html#eq-ideal-gas-specific-form"><span class="std std-ref">the ideal-gas law</span></a>. The fluid in this region is the <strong>superheated vapor</strong>.</p>
+</li>
+</ol>
+<div class="warning admonition">
+<p class="admonition-title">Important: key observations in the <span class="math notranslate nohighlight">\(T-v\)</span> diagram</p>
+<ul class="simple">
+<li><p>The <strong>specific volume</strong> of liquid water remains nearly constant until boiling begins.</p></li>
+<li><p>The <strong>phase change</strong> appears as a <strong>horizontal line</strong> (constant <span class="math notranslate nohighlight">\(T\)</span> and <span class="math notranslate nohighlight">\(p\)</span>).</p></li>
+<li><p>The <strong>saturated vapor</strong> region follows gas-like behavior, where <span class="math notranslate nohighlight">\(v\)</span> increases markedly with <span class="math notranslate nohighlight">\(T\)</span>.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+</section>
+<section id="completing-the-t-v-projection">
+<span id="subsec-completing-tv-projection"></span><h2>Completing the <span class="math notranslate nohighlight">\(T-v\)</span> projection<a class="headerlink" href="#completing-the-t-v-projection" title="Link to this heading"></a></h2>
+<p>Repeating the experiment at different pressures reveals that:</p>
+<ul class="simple">
+<li><p>At <strong>higher pressures</strong>, the <strong>phase change</strong> occurs at <strong>higher temperatures</strong>.</p></li>
+<li><p>The difference in specific volume between the liquid and vapor phases <strong>decreases</strong> as pressure increases.</p></li>
+</ul>
+<p>This leads to two major conclusions:</p>
+<ol class="arabic">
+<li><p>The <strong>saturation temperature</strong>, <span class="math notranslate nohighlight">\(T_{\text{sat}}\)</span>, <strong>depends on pressure</strong>.</p>
+<p>Higher pressures correspond to higher saturation temperatures.</p>
+</li>
+<li><p>The <strong>volume change</strong> during vaporization becomes smaller at higher <span class="math notranslate nohighlight">\(p\)</span> and <span class="math notranslate nohighlight">\(T\)</span>, eventually vanishing at a unique point known as the <strong>critical point</strong>.</p>
+<p>At the <strong>critical point</strong>, the saturated liquid and saturated vapor states coincide.
+Beyond this point, no clear distinction exists between liquid and gas — the substance becomes a <strong>supercritical fluid</strong>.</p>
+<p>For water:</p>
+<div class="math notranslate nohighlight" id="eq-critical-magnitudes-water">
+\[
+    T_{\text{cr}} = 373.95 \ ^{\circ}\text{C}, \quad p_{\text{cr}} = 22.06\text{MPa}
+    \]</div>
+<p>Supercritical fluids exhibit properties intermediate between those of gases and liquids and are used in specialized applications such as solvent extraction and supercritical drying.</p>
+</li>
+</ol>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: pressure cookers and high-altitude boiling</p>
+<ul class="simple">
+<li><p>In a <strong>pressure cooker</strong>, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above <span class="math notranslate nohighlight">\(100 \ ^{\circ}\text{C}\)</span> and thus cook food faster.</p></li>
+<li><p>On the other hand, atop <strong>Mount Everest</strong>, where <span class="math notranslate nohighlight">\(p_{\text{atm}} \approx 34 \ \text{kPa}\)</span>, water boils at about <span class="math notranslate nohighlight">\(86 \ ^{\circ}\text{C}\)</span>.</p></li>
+<li><p>At roughly <span class="math notranslate nohighlight">\(19,000 \ \text{m}\)</span> (the <strong>Armstrong line</strong>), where the atmospheric pressure equals the vapor pressure of water at body temperature (<span class="math notranslate nohighlight">\(36 \ ^{\circ}\text{C}\)</span>), the human body’s liquids would begin to boil without pressurization.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+</section>
+<section id="the-simplified-t-v-projection">
+<span id="subsec-simplified-tv-projection"></span><h2>The Simplified <span class="math notranslate nohighlight">\(T-v\)</span> projection<a class="headerlink" href="#the-simplified-t-v-projection" title="Link to this heading"></a></h2>
+<p>If we plot all saturation points for both liquid and vapor and connect them, we obtain the <strong>saturation line</strong>, which forms an <strong>inverted bell</strong>.
+The <span class="math notranslate nohighlight">\(T-v\)</span> diagram can then be divided into distinct regions:</p>
+<ul class="simple">
+<li><p><strong>Inside the bell:</strong> the <strong>two-phase region</strong> (liquid–vapor mixture).</p></li>
+<li><p><strong>To the left:</strong> the <strong>subcooled liquid</strong> region.</p></li>
+<li><p><strong>To the right:</strong> the <strong>superheated vapor</strong> region.</p></li>
+<li><p><strong>Above the bell:</strong> the <strong>supercritical region</strong>.</p></li>
+</ul>
+<p>This simplified <span class="math notranslate nohighlight">\(T-v\)</span> diagram is a cornerstone of thermodynamic visualization — a compact map showing how matter transitions between its main phases.</p>
+<hr class="docutils" />
+</section>
+<section id="the-p-v-projection">
+<span id="subsec-pv-projection"></span><h2>The <span class="math notranslate nohighlight">\(p-v\)</span> projection<a class="headerlink" href="#the-p-v-projection" title="Link to this heading"></a></h2>
+<p>To complement the <span class="math notranslate nohighlight">\(T-v\)</span> view, consider the same piston–cylinder system but now <strong>maintain constant temperature</strong> while varying pressure.</p>
+<p>By applying or removing weights on the piston, the external pressure is changed, while heat exchange with the thermal bath keeps the temperature fixed.
+The resulting <strong><span class="math notranslate nohighlight">\(p-v\)</span> diagram</strong> shows similar features to the <span class="math notranslate nohighlight">\(T-v\)</span> projection:</p>
+<ul class="simple">
+<li><p>As pressure decreases at constant <span class="math notranslate nohighlight">\(T\)</span>, the liquid begins to vaporize once <span class="math notranslate nohighlight">\(p_{\text{sat}}\)</span> is reached.</p></li>
+<li><p>At higher pressures, condensation occurs.</p></li>
+<li><p>Both transformations trace a <strong>horizontal phase-change line</strong> on the <span class="math notranslate nohighlight">\(p-v\)</span> diagram.</p></li>
+</ul>
+<p>The bell-shaped envelope again separates the single-phase regions from the two-phase mixture.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: comparison between <span class="math notranslate nohighlight">\(T-v\)</span> and <span class="math notranslate nohighlight">\(p-v\)</span> diagrams</p>
+<ul class="simple">
+<li><p>In the <strong>liquid region</strong>, specific volume varies little with <span class="math notranslate nohighlight">\(T\)</span> or <span class="math notranslate nohighlight">\(p\)</span>.</p></li>
+<li><p>In the <strong>vapor region</strong>, <span class="math notranslate nohighlight">\(p\)</span> is inversely proportional to <span class="math notranslate nohighlight">\(v\)</span> (Boyle–Mariotte law).</p></li>
+<li><p>Phase change appears as a horizontal line in both projections.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+</section>
+<section id="extending-the-p-v-projection">
+<span id="subsec-extending-pv-projection"></span><h2>Extending the <span class="math notranslate nohighlight">\(p-v\)</span> projection<a class="headerlink" href="#extending-the-p-v-projection" title="Link to this heading"></a></h2>
+<p>When extended to include the solid phase, the <span class="math notranslate nohighlight">\(p-v\)</span> diagram displays additional features:</p>
+<ul class="simple">
+<li><p><strong>Substances that contract on freezing</strong> (most materials) show a vertical solid–liquid transition line, since <span class="math notranslate nohighlight">\(v\)</span> decreases sharply upon solidification.</p></li>
+<li><p><strong>Substances that expand on freezing</strong> (like water) exhibit a slanted line: the solid phase has slightly greater specific volume than the liquid.</p></li>
+</ul>
+<p>At still lower pressures, other transitions appear:</p>
+<ul>
+<li><p>The <strong>triple point</strong>, where solid, liquid, and vapor coexist in equilibrium.
+For water:</p>
+<div class="math notranslate nohighlight" id="eq-triple-point-values-water">
+\[
+  T_{\text{tr}} = 0.01{\ ^\circ}\text{C}, \quad p_{\text{tr}} = 0.6117 \ \text{kPa}
+  \]</div>
+</li>
+<li><p>The <strong>sublimation process</strong>, a direct transition from solid to vapor (or vice versa) at pressures below <span class="math notranslate nohighlight">\(p_{\text{tr}}\)</span>.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="the-p-t-projection-phase-diagram">
+<span id="subsec-pt-projection"></span><h2>The <span class="math notranslate nohighlight">\(p-T\)</span> projection (phase diagram)<a class="headerlink" href="#the-p-t-projection-phase-diagram" title="Link to this heading"></a></h2>
+<p>The <strong><span class="math notranslate nohighlight">\(p-T\)</span> diagram</strong>, or <strong>phase diagram</strong>, presents the phase boundaries more compactly.
+It displays the three fundamental lines:</p>
+<ul class="simple">
+<li><p><strong>Sublimation line</strong> (solid–vapor equilibrium),</p></li>
+<li><p><strong>Fusion line</strong> (solid–liquid equilibrium), and</p></li>
+<li><p><strong>Vaporization line</strong> (liquid–vapor equilibrium).</p></li>
+</ul>
+<p>These three lines converge at the <strong>triple point</strong>, which appears as a single point on this projection.</p>
+<p>The slope of the <strong>fusion line</strong> reveals whether a substance <strong>expands</strong> or <strong>contracts</strong> upon freezing:</p>
+<ul class="simple">
+<li><p>Positive slope: volume decreases upon solidification (most substances).</p></li>
+<li><p>Negative slope: volume increases (water).</p></li>
+</ul>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: interpretation of process lines</p>
+<ul class="simple">
+<li><p><strong>Vertical lines</strong> correspond to isothermal processes (constant <span class="math notranslate nohighlight">\(T\)</span>).</p></li>
+<li><p><strong>Horizontal lines</strong> correspond to isobaric processes (constant <span class="math notranslate nohighlight">\(p\)</span>).</p></li>
+<li><p>For example:</p>
+<ul>
+<li><p>Line I′: isothermal sublimation,</p></li>
+<li><p>Line I″: isothermal fusion,</p></li>
+<li><p>Line I‴: isothermal evaporation,</p></li>
+<li><p>Line I: isobaric sublimation,</p></li>
+<li><p>Line II: isobaric fusion,</p></li>
+<li><p>Line III: isobaric evaporation.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+</section>
+<section id="the-evaporation-process-and-vapor-quality">
+<span id="subsec-evaporation-process"></span><h2>The evaporation process and vapor quality<a class="headerlink" href="#the-evaporation-process-and-vapor-quality" title="Link to this heading"></a></h2>
+<p>Evaporation plays a central role in many engineering systems — from <strong>boilers</strong> and <strong>heat exchangers</strong> to <strong>thermal power plants</strong>.
+During evaporation, the liquid–vapor mixture is often modeled as <strong>homogeneous</strong>, which greatly simplifies analysis.</p>
+<p>The degree of vaporization is quantified by the <strong>vapor quality</strong>, <span class="math notranslate nohighlight">\(x\)</span>, defined as:</p>
+<div class="math notranslate nohighlight" id="eq-quality-definition">
+\[
+x = \frac{m_{\text{vapor}}}{m_{\text{liquid}} + m_{\text{vapor}}}
+\]</div>
+<p>This intensive parameter ranges from <span class="math notranslate nohighlight">\(x=0\)</span> (saturated liquid) to <span class="math notranslate nohighlight">\(x=1\)</span> (saturated vapor).
+In the two-phase region, all other properties can be expressed as mass-weighted averages of their saturated-liquid and saturated-vapor values.</p>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>WORKED EXAMPLE — locating water states on the <span class="math notranslate nohighlight">\(p–v–T\)</span> diagram</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><strong>Problem statement</strong></p>
+<p class="sd-card-text">For each thermodynamic state of <strong>water</strong>, determine the requested properties by locating the state on the <span class="math notranslate nohighlight">\(p–v–T\)</span> surface using tabulated data<span id="id1">[<a class="reference internal" href="11_Specific_heats.html#id6" title="Yunus A. Çengel and Michael A. Boles. Thermodynamics: An Engineering Approach. McGraw Hill Education, 2015.">1</a>]</span>:</p>
+<ol class="arabic simple">
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=150~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(T=693~\mathrm{K}\)</span> (<span class="math notranslate nohighlight">\(=420\ ^\circ\mathrm{C}\)</span>). Find <span class="math notranslate nohighlight">\(v\)</span>.</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=0.5~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(u=340.49~\text{kJ}/\text{kg}\)</span>. Find <span class="math notranslate nohighlight">\(v\)</span> and <span class="math notranslate nohighlight">\(T\)</span>.</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=6~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(x=0.65\)</span>. Find <span class="math notranslate nohighlight">\(v\)</span> and <span class="math notranslate nohighlight">\(T\)</span>.</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=25~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(v=0.095~\text{m}^{3}/\text{kg}\)</span>. Find <span class="math notranslate nohighlight">\(T\)</span>.</p></li>
+</ol>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Synthesis</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p class="sd-card-text">Case</p></th>
+<th class="head text-left"><p class="sd-card-text">Given</p></th>
+<th class="head text-left"><p class="sd-card-text">To find</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">1</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=150~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(T=420\ ^\circ\mathrm{C}\)</span></p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(v\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">2</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=0.5~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(u=340.49~\text{kJ}/\text{kg}\)</span></p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(v\)</span>, <span class="math notranslate nohighlight">\(T\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">3</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=6~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(x=0.65\)</span></p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(v\)</span>, <span class="math notranslate nohighlight">\(T\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">4</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p=25~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(v=0.095~\text{m}^{3}/\text{kg}\)</span></p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Solution strategy</strong></p>
+<ol class="arabic">
+<li><p class="sd-card-text"><strong>State check</strong>: at a given <span class="math notranslate nohighlight">\(p\)</span> or <span class="math notranslate nohighlight">\(T\)</span>, compare with saturation properties <span class="math notranslate nohighlight">\((T_\text{sat}(p)\)</span>, <span class="math notranslate nohighlight">\(p_\text{sat}(T)\)</span>; <span class="math notranslate nohighlight">\(v_f,v_g\)</span>; <span class="math notranslate nohighlight">\(u_f,u_g\)</span>) to decide <strong>region</strong>: subcooled/compressed liquid, saturated mixture, or superheated vapor.</p></li>
+<li><p class="sd-card-text"><strong>Mixture</strong>: if saturated, <span class="math notranslate nohighlight">\(T=T_\text{sat}(p)\)</span> and <span class="math notranslate nohighlight">\(v=v_f+x(v_g-v_f)\)</span>, <span class="math notranslate nohighlight">\(u=u_f+x(u_g-u_f)\)</span>.</p></li>
+<li><p class="sd-card-text"><strong>Superheated / subcooled</strong>: interpolate in the appropriate superheated/compressed tables:</p>
+<div class="math notranslate nohighlight">
+\[y(T)=y(T_1)+\dfrac{y_2-y_1}{T_2-T_1}(T-T_1)\quad\text{at fixed }p.\]</div>
+</li>
+</ol>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Calculations</strong></p>
+<ol class="arabic">
+<li><p class="sd-card-text"><strong><span class="math notranslate nohighlight">\(p=150~\mathrm{bar},\ T=420\ ^\circ\mathrm{C}\)</span>:</strong></p>
+<ul>
+<li><p class="sd-card-text"><strong>Check state:</strong></p>
+<p class="sd-card-text"><span class="math notranslate nohighlight">\(T_\text{sat}(150~\mathrm{bar})\approx 349\ ^\circ\mathrm{C}&lt;420\ ^\circ\mathrm{C}\Rightarrow \boxed{\text{superheated vapor}}\)</span> .</p>
+</li>
+<li><p class="sd-card-text"><strong>Interpolate:</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">At <span class="math notranslate nohighlight">\(p=150~\mathrm{bar}\)</span> between:</p>
+<ul>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(T_1 = 400\ ^\circ\mathrm{C}\)</span> ,</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(v_1 = 0.015671 \ \text{m}^{3}/\text{kg}\)</span> ,</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(T_2=450\ ^\circ\mathrm{C}\)</span> ,</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(v_1 = 0.01847 \ \text{m}^{3}/\text{kg}\)</span>.</p></li>
+</ul>
+</li>
+</ul>
+<div class="math notranslate nohighlight">
+\[
+        v(T)=v_1+\frac{v_2-v_1}{T_2-T_1}(T-T_1)
+        \quad\Rightarrow\quad
+        v=\boxed{0.01679~\text{m}^{3}/\text{kg}} \ (16.79~\text{dm}^{3}/\text{kg}).
+        \]</div>
+</li>
+</ul>
+</li>
+<li><p class="sd-card-text"><strong><span class="math notranslate nohighlight">\(p=0.5~\mathrm{bar},\ u=340.49~\text{kJ}/\text{kg}\)</span>:</strong></p>
+<ul>
+<li><p class="sd-card-text"><strong>Check state:</strong></p>
+<p class="sd-card-text"><span class="math notranslate nohighlight">\(T_\text{sat}(0.5~\mathrm{bar})=81.32\ ^\circ\mathrm{C}\)</span> and <span class="math notranslate nohighlight">\(u_f\simeq340.49~\text{kJ}/\text{kg}\)</span>.
+Since <span class="math notranslate nohighlight">\(u\approx u_f \Rightarrow \boxed{\text{saturated liquid}}\)</span>.</p>
+</li>
+<li><p class="sd-card-text"><strong>Evaluate:</strong></p>
+<div class="math notranslate nohighlight">
+\[T=\boxed{81.32\ ^\circ\mathrm{C}} \ ,\quad v=v_f(p=0.5~\mathrm{bar})=\boxed{0.00103~\text{m}^3/\text{kg}}\ (1.03~\text{dm}^{3}/\text{kg}).\]</div>
+</li>
+</ul>
+</li>
+<li><p class="sd-card-text"><strong><span class="math notranslate nohighlight">\(p=6~\mathrm{bar},\ x=0.65\)</span></strong></p>
+<ul>
+<li><p class="sd-card-text"><strong>Check state:</strong></p>
+<p class="sd-card-text">Given quality <span class="math notranslate nohighlight">\(x\)</span>, the state is on the saturation dome <span class="math notranslate nohighlight">\(\Rightarrow \boxed{\text{saturated mixture}}\)</span> :</p>
+</li>
+</ul>
+<div class="math notranslate nohighlight">
+\[\text{saturated mixture} \implies T=T_\text{sat}(6~\mathrm{bar})=\boxed{158.83\ ^\circ\mathrm{C}} \ .\]</div>
+<ul>
+<li><p class="sd-card-text"><strong>Mixture relation:</strong></p>
+<p class="sd-card-text">Using <span class="math notranslate nohighlight">\(v=v_f+x,(v_g-v_f)\)</span> at <span class="math notranslate nohighlight">\(p=6~\mathrm{bar}\)</span> with <span class="math notranslate nohighlight">\(v_f=0.001091\)</span> and <span class="math notranslate nohighlight">\(v_g=0.3156\ \text{m}^{3}/\text{kg}\)</span>,</p>
+<div class="math notranslate nohighlight">
+\[
+     v=0.001091+0.65(0.3156-0.001091) = \boxed{0.20553~\text{m}^{3}/\text{kg}}\ (205.53~\text{dm}^{3}/\text{kg}).
+     \]</div>
+</li>
+</ul>
+</li>
+<li><p class="sd-card-text"><strong><span class="math notranslate nohighlight">\(p=25~\mathrm{bar} \ v=0.095~\text{m}^{3}/\text{kg}\)</span></strong></p>
+<ul>
+<li><p class="sd-card-text"><strong>Check state:</strong></p>
+<p class="sd-card-text">At <span class="math notranslate nohighlight">\(25~\mathrm{bar}\)</span>, <span class="math notranslate nohighlight">\(v_g(p)\approx0.0795~\text{m}^{3}/\text{kg}\)</span>.
+Since <span class="math notranslate nohighlight">\(v=0.095&gt;v_g \Rightarrow \boxed{\text{superheated vapor}}\)</span> .</p>
+</li>
+<li><p class="sd-card-text"><strong>Interpolate (at fixed <span class="math notranslate nohighlight">\(p=25~\mathrm{bar}\)</span>):</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">At <span class="math notranslate nohighlight">\(p=25~\mathrm{bar}\)</span> between:</p>
+<ul>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(T_1 = 250\ ^\circ\mathrm{C}\)</span> ,</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(v_1 = 0.08705 \ \text{m}^{3}/\text{kg}\)</span> ,</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(T_2=300\ ^\circ\mathrm{C}\)</span> ,</p></li>
+<li><p class="sd-card-text"><span class="math notranslate nohighlight">\(v_1 = 0.09894 \ \text{m}^{3}/\text{kg}\)</span>.</p></li>
+</ul>
+</li>
+</ul>
+<div class="math notranslate nohighlight">
+\[
+        T=T_1+\frac{v-v_1}{v_2-v_1}(T_2-T_1) \Rightarrow T = \boxed{283.43\ ^\circ\mathrm{C}}.
+        \]</div>
+</li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Summary and insights</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p class="sd-card-text">Case</p></th>
+<th class="head text-left"><p class="sd-card-text">Phase Region</p></th>
+<th class="head text-left"><p class="sd-card-text">Results</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p class="sd-card-text">1</p></td>
+<td class="text-left"><p class="sd-card-text">Superheated vapor</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(v = 0.01679~\text{m}^{3}/\text{kg}\ (16.79~\text{dm}^{3}/\text{kg})\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p class="sd-card-text">2</p></td>
+<td class="text-left"><p class="sd-card-text">Saturated liquid</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T = 81.32~^\circ\text{C},\quad v = 0.00103~\text{m}^{3}/\text{kg}\ (1.03~\text{dm}^{3}/\text{kg})\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p class="sd-card-text">3</p></td>
+<td class="text-left"><p class="sd-card-text">Saturated mixture</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T = 158.83~^\circ\text{C},\quad v = 0.20553~\text{m}^{3}/\text{kg}\ (205.53~\text{dm}^{3}/\text{kg})\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p class="sd-card-text">4</p></td>
+<td class="text-left"><p class="sd-card-text">Superheated vapor</p></td>
+<td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T = 283.43~^\circ\text{C}\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p class="sd-card-text">Comparing given states with <strong>saturation properties</strong> allows immediate phase identification.</p></li>
+<li><p class="sd-card-text">Mixture states (case c) lie <strong>inside the dome</strong>; subcooled and superheated states (a, b, d) lie <strong>outside</strong> it.</p></li>
+<li><p class="sd-card-text">Linear interpolation across tabulated data provides accurate intermediate values for both <span class="math notranslate nohighlight">\(v\)</span> and <span class="math notranslate nohighlight">\(T\)</span>.</p></li>
+</ul>
+<hr class="docutils" />
+<div class="tip admonition">
+<p class="admonition-title">Tip: reading the <span class="math notranslate nohighlight">\(p–v–T\)</span> surface</p>
+<ul class="simple">
+<li><p class="sd-card-text">Fixing <span class="math notranslate nohighlight">\(p\)</span> and <span class="math notranslate nohighlight">\(T\)</span> (case a) selects an <strong>isobar–isotherm</strong> point; comparing <span class="math notranslate nohighlight">\(T\)</span> with <span class="math notranslate nohighlight">\(T_\text{sat}(p)\)</span> tells whether the state lies <strong>inside</strong> (mixture) or <strong>outside</strong> (superheated/subcooled) the dome.</p></li>
+<li><p class="sd-card-text">Fixing <span class="math notranslate nohighlight">\(p\)</span> and <span class="math notranslate nohighlight">\(u\)</span> (case b) near <span class="math notranslate nohighlight">\(u_f\)</span> pins the state to the <strong>saturated liquid</strong> line at <span class="math notranslate nohighlight">\(T_\text{sat}(p)\)</span>, so <span class="math notranslate nohighlight">\(v=v_f(p)\)</span>.</p></li>
+<li><p class="sd-card-text">Specifying <span class="math notranslate nohighlight">\(p\)</span> and <span class="math notranslate nohighlight">\(x\)</span> (case c) places the state <strong>on the dome</strong> at <span class="math notranslate nohighlight">\(T_\text{sat}(p)\)</span>, with <span class="math notranslate nohighlight">\(v\)</span> a linear blend of <span class="math notranslate nohighlight">\(v_f\)</span> and <span class="math notranslate nohighlight">\(v_g\)</span>.</p></li>
+<li><p class="sd-card-text">Fixing <span class="math notranslate nohighlight">\(p\)</span> and a large <span class="math notranslate nohighlight">\(v\)</span> (case d) typically means <strong>superheated vapor</strong>; interpolate in superheated tables to obtain <span class="math notranslate nohighlight">\(T\)</span>.
+Together, these patterns show how simple state checks against saturation properties let you navigate the <span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(v\)</span>–<span class="math notranslate nohighlight">\(T\)</span> surface quickly and accurately.</p></li>
+</ul>
+</div>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">END OF WORKED EXAMPLE</p>
+</div>
+</div>
+<hr class="docutils" />
+</section>
+<section id="departure-from-ideal-gas-behavior">
+<span id="subsec-error-tv-diagram"></span><h2>Departure from ideal gas behavior<a class="headerlink" href="#departure-from-ideal-gas-behavior" title="Link to this heading"></a></h2>
+<p>In the <strong><span class="math notranslate nohighlight">\(T-v\)</span> diagram</strong>, the deviation of real vapor behavior from the ideal gas law increases as we approach the <strong>triple point</strong>.
+At low pressures and high temperatures, gases behave nearly ideally because their specific volume is large, making intermolecular forces negligible.
+However, near saturation or condensation conditions, deviations become significant, and the use of <strong>real-gas models</strong> becomes essential.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: region of validity of the ideal gas model</p>
+<p>The <strong>ideal-gas assumption</strong> holds only when the distance between molecules is large (low <span class="math notranslate nohighlight">\(p\)</span>, high <span class="math notranslate nohighlight">\(T\)</span>).
+Close to phase boundaries, intermolecular attractions dominate and the ideal-gas model fails.
+This is the regime where <strong>compressibility factors</strong> and <strong>cubic equations of state</strong> become necessary.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="conceptual-closure">
+<span id="subsec-conceptual-closure-pvt"></span><h2>Conceptual closure<a class="headerlink" href="#conceptual-closure" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>The <strong><span class="math notranslate nohighlight">\(p-v-T\)</span> surface</strong> represents the complete state space of a substance.</p></li>
+<li><p><strong>Projections</strong> on coordinate planes (<span class="math notranslate nohighlight">\(T-v\)</span>, <span class="math notranslate nohighlight">\(p-v\)</span>, <span class="math notranslate nohighlight">\(p-T\)</span>) reveal the mechanisms of phase change and critical behavior.</p></li>
+<li><p>The <strong>saturation line</strong> forms an inverted bell that delineates subcooled, two-phase, and superheated regions.</p></li>
+<li><p><strong>Critical and triple points</strong> define the limits of coexistence among phases.</p></li>
+<li><p>Understanding these diagrams is fundamental for interpreting thermodynamic cycles and energy conversion processes.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="05_Ideal_and_real_gases.html" class="btn btn-neutral float-left" title="Ideal and real gases" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="07_Gas_mixtures.html" class="btn btn-neutral float-right" title="Gas mixtures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

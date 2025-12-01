@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heat engines, thermal efficiency, and the Kelvin–Planck postulate &mdash; Thermal and Fluids Engineering: Theoretical Pills  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css?v=3234e928" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ebdd504" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/hoverxref.js"></script>
+      <script src="_static/js/tooltipster.bundle.min.js"></script>
+      <script src="_static/js/micromodal.min.js"></script>
+      <script>let toggleHintShow = '';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "tags": "ams", "useLabelIds": true, "packages": {"[+]": ["cancel"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="_static/custom.js?v=13520114"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Refrigeration cycles, COP, and the Clausius postulate" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html" />
+    <link rel="prev" title="Traces of the \(2^{\text{nd}}\) law" href="14_Traces_of_2nd_law_heat_reservoirs.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Thermal and Fluids Engineering: Theoretical Pills
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0001_What_is_this_course_about.html">What is this course about?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0002_Course_outline.html">Course outline</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MODULE 1: FUNDAMENTALS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_Basic_notions.html">Basic notions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Systems_surroundings_boundaries.html">Systems, surroundings and boundaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_Magnitudes_and_properties.html">Magnitudes and properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_Equilibrium_temperature_processes.html">Equilibrium, temperature scales and processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02_Main_substance_models.html">Main substance models</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="04_Characterization_of_substances.html">Characterization of substances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_Ideal_and_real_gases.html">Ideal and real gases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_P-v-T_diagrams.html">p-v-T diagrams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_Gas_mixtures.html">Gas mixtures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_Humid_air.html">Humid air</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03_1st_law.html">1st Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="09_Energy_work_and_heat.html">Energy, work and heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_1st_law_in_closed_systems.html">1st Law in closed systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Specific_heats.html">Specific heats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_1st_law_in_open_systems.html">1st Law in open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Canonical_open_systems.html">Canonical open systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="04_2nd_law.html">2nd Law</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="14_Traces_of_2nd_law_heat_reservoirs.html">Traces of the 2nd law and heat reservoirs</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Heat engines, thermal efficiency, and the Kelvin-Planck postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html">Refrigeration cycles, COP, and the Clausius postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_Reversible_and_irreversible_processes.html">Reversible and irreversible processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale.html">Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Clausius_inequality_and_definition_of_entropy.html">Clausius's inequality and the definition of entropy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_Calculation_entropy_variations_Tds_relations.html">Calculation of entropy variations and the Tds relations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="21_The_isentropic_efficiency.html">The isentropic efficiency</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="05_Combining_laws.html">Combining laws: exergy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="22_Exergy_and_notion_of_dead_state.html">Exergy and the notion of dead state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="23_Useful_work_reversibility_2nd_law_efficiency.html">Useful work, reversibility, and 2nd-law efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="24_Exergy_of_closed_and_open_systems.html">Exergy of closed and open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="25_Principle_decreasing_exergy_and_balance.html">Principle of decreasing exergy; entropy and exergy balances</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thermal and Fluids Engineering: Theoretical Pills</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="04_2nd_law.html">2nd Law</a></li>
+      <li class="breadcrumb-item active">Heat engines, thermal efficiency, and the Kelvin–Planck postulate</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/15_Heat_engines_thermal_efficiency_and_Kelvin_Planck_postulate.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="heat-engines-thermal-efficiency-and-the-kelvinplanck-postulate">
+<span id="sec-heat-engines-efficiency-kelvin-planck"></span><h1>Heat engines, thermal efficiency, and the Kelvin–Planck postulate<a class="headerlink" href="#heat-engines-thermal-efficiency-and-the-kelvinplanck-postulate" title="Link to this heading"></a></h1>
+<p>The preceding discussion showed that many natural processes, while fully consistent with the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law, occur only in <strong>one direction</strong>.
+This observation revealed the existence of a deeper restriction — the <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law</strong> — which governs the <em>directionality</em> and <em>degradation</em> of energy transformations.</p>
+<p>One of the clearest manifestations of this limitation arises when <strong>heat</strong> is used as a means to produce <strong>work</strong>.
+Although work can be entirely transformed into heat, the inverse transformation — the complete conversion of heat into work — is <strong>never observed</strong>.
+To analyze this limitation quantitatively, we introduce the concept of <strong>heat engines</strong>, the devices through which such transformations take place cyclically.</p>
+<p>It is through the study of these engines that the <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law</strong> was first formalized, and that its practical consequences — notably, the <strong>Kelvin–Planck postulate</strong> — became evident.</p>
+<hr class="docutils" />
+<section id="heat-engines-transforming-heat-into-work">
+<span id="subsec-heat-engines-definition"></span><h2>Heat engines: transforming heat into work<a class="headerlink" href="#heat-engines-transforming-heat-into-work" title="Link to this heading"></a></h2>
+<p>It is easy to transform <strong>work into heat</strong>.
+For example, stirring a glass of water with a spoon warms it: the mechanical work applied through friction is converted into internal energy, raising the temperature of the fluid.
+Such transformations — from work to heat — are straightforward and complete.</p>
+<p>However, the <strong>reverse process</strong> is not possible in its entirety: one cannot convert all the <strong>absorbed heat</strong> into <strong>mechanical work</strong>.
+To transform part of the heat into work in a <strong>cyclic and controlled manner</strong>, we require special devices known as <strong>heat engines</strong>.</p>
+<p>Despite their many technological forms — internal‐combustion engines, steam turbines, gas turbines, or power plants — all heat engines share the same <strong>conceptual scheme</strong>:</p>
+<ol class="arabic simple">
+<li><p>They <strong>absorb heat</strong> from a <strong>high-temperature thermal reservoir</strong>. We will address this heat as <span class="math notranslate nohighlight">\(Q_{H}\)</span>.</p></li>
+<li><p>They <strong>convert part of that heat into mechanical work</strong>. Such a work will correpsond to the net work output from the system, i.e. <span class="math notranslate nohighlight">\(W_{\text{net,out}}\)</span>.</p></li>
+<li><p>They <strong>reject the remaining heat</strong> to a <strong>low-temperature reservoir</strong>. We will symbolize it as <span class="math notranslate nohighlight">\(Q_L\)</span>.</p></li>
+<li><p>They operate <strong>cyclically</strong>, returning their working fluid to its initial state after each cycle.</p></li>
+</ol>
+<div class="warning admonition">
+<p class="admonition-title">Important: the cyclic condition</p>
+<p>Because a heat engine returns to its initial thermodynamic state after each cycle, its <strong>net change in energy</strong> is zero:</p>
+<div class="math notranslate nohighlight">
+\[
+\Delta E_{\text{cycle}} = 0.
+\]</div>
+<p>The only energetic transfers occurring in the heat-engine system are <span class="math notranslate nohighlight">\(Q_{H}\)</span>, <span class="math notranslate nohighlight">\(Q_{L}\)</span> and <span class="math notranslate nohighlight">\(W_{\text{net,out}}\)</span>. Consequently, by the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law:</p>
+<div class="math notranslate nohighlight" id="eq-energetic-balance-heat-engine-ver1">
+\[
+\Delta E_{\text{cycle}} = 0 = Q_{\text{net}} - W_{\text{net}}
+\]</div>
+<p>As:</p>
+<div class="math notranslate nohighlight" id="eq-energetic-balance-heat-engine-ver2">
+\[\begin{split}
+\begin{gather*}
+Q_{\text{net}} = Q_{\text{in}} - Q_{\text{out}} = Q_{H} - Q_{L} , \\[10pt]
+W_{\text{net}} = W_{\text{net,out}} - W_{\text{net,in}} = W_{\text{net,out}} , \\[10pt]
+\end{gather*}
+\end{split}\]</div>
+<p>we get:</p>
+<div class="math notranslate nohighlight" id="eq-energetic-balance-heat-engine-ver3">
+\[
+\boxed{Q_H - Q_L = W_{\text{net,out}}} \ .
+\]</div>
+</div>
+<hr class="docutils" />
+</section>
+<section id="why-total-conversion-of-heat-into-work-is-impossible">
+<span id="subsec-impossibility-of-total-conversion"></span><h2>Why total conversion of heat into work is impossible<a class="headerlink" href="#why-total-conversion-of-heat-into-work-is-impossible" title="Link to this heading"></a></h2>
+<p>In the previous discussion, we established that a <strong>heat engine</strong> operates cyclically, exchanging energy with its surroundings in three distinct ways:</p>
+<ul class="simple">
+<li><p>it <strong>absorbs heat</strong> from a high-temperature reservoir,</p></li>
+<li><p>it <strong>produces work</strong>,</p></li>
+<li><p>and <strong>rejects heat</strong> to a lower-temperature reservoir.</p></li>
+</ul>
+<p>This cyclic structure is essential, because the working substance must return to its initial thermodynamic state after each cycle.</p>
+<p>Let us now ask whether the rejection of heat is truly unavoidable.</p>
+<blockquote class="epigraph">
+<div><p>Could one, in principle, design a cyclic process in which <em>all</em> the absorbed heat is transformed into work, leaving no remainder to be expelled?</p>
+</div></blockquote>
+<p>Imagine an idealized system that receives a finite amount of heat <span class="math notranslate nohighlight">\(Q_H\)</span> from a high-temperature source and delivers a certain amount of work <span class="math notranslate nohighlight">\(W_{\text{out}}\)</span> to the surroundings — for instance, by lifting a weight or moving a load. If the process is to be <strong>cyclic</strong>, the system must end exactly as it began: same temperature, same internal energy, same configuration. By the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law, the total energy balance over a complete cycle reads</p>
+<div class="math notranslate nohighlight">
+\[
+Q_{\text{net}} = W_{\text{net,out}},
+\]</div>
+<p>so that, for a hypothetical complete conversion of heat into work,</p>
+<div class="math notranslate nohighlight">
+\[
+Q_H = W_{\text{net,out}}, \qquad Q_L = 0.
+\]</div>
+<p>However, to return to its initial state, the system must release any internal energy gained during the transformation. This requires a <strong>reverse flow of heat</strong> from the system back to its surroundings. If the surroundings are at the same temperature as the source, such a transfer would imply heat flowing <em>spontaneously from a colder to a hotter body</em> — a violation of the observed direction of natural processes.</p>
+<p>Hence, it is <strong>impossible</strong> for a cyclic device to restore its initial state while converting the entirety of the absorbed heat into work. To close the cycle, a portion of the input heat must be <strong>rejected</strong> to another body at a <strong>lower temperature</strong>, ensuring that heat flows in the natural direction (from hot to cold). This expelled fraction <span class="math notranslate nohighlight">\(Q_L\)</span> constitutes the part of energy that has become <strong>degraded</strong> — still present, but no longer available for producing work.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: a toy example with a piston-cylinder system</p>
+<p>A <strong>piston–cylinder</strong> arrangement provides a simple, tangible example of the general reasoning above.
+Suppose the cylinder contains a gas initially at <span class="math notranslate nohighlight">\(30 \ ^{\circ}\mathrm{C}\)</span> and is placed in contact with a <strong>hot reservoir</strong> at <span class="math notranslate nohighlight">\(100 \ ^{\circ}\mathrm{C}\)</span>.
+During expansion, the gas absorbs <strong><span class="math notranslate nohighlight">\(100 \ \text{kJ}\)</span></strong> of heat and performs <strong><span class="math notranslate nohighlight">\(15 \ \text{kJ}\)</span></strong> of work by lifting a weight.</p>
+<p>Even if the process is ideal — frictionless, quasi-static, and perfectly reversible — the gas becomes warmer than it started: not all absorbed heat becomes work; part increases its internal energy.
+To <strong>close the cycle</strong>, the gas must cool back to <span class="math notranslate nohighlight">\(30 \ ^{\circ}\mathrm{C}\)</span>, restoring its initial state.
+But this requires releasing the excess <strong><span class="math notranslate nohighlight">\(85 \ \text{kJ}\)</span></strong> of energy to a <strong>colder reservoir</strong> (below <span class="math notranslate nohighlight">\(30 \ ^{\circ}\mathrm{C}\)</span>), since heat cannot flow spontaneously from a cooler body to a hotter one.</p>
+<p>Thus, even in this idealized case, <strong>part of the absorbed heat must be rejected</strong> — precisely as the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law dictates. The remaining <span class="math notranslate nohighlight">\(Q_L = 85 \text{kJ}\)</span> represents <strong>degraded energy</strong>, unavailable for conversion into work.</p>
+<div class="math notranslate nohighlight">
+\[
+Q_H = 100~\text{kJ}, \quad W_{\text{out}} = 15~\text{kJ}, \quad Q_L = 85~\text{kJ}.
+\]</div>
+<p>This example illustrates in concrete form the <strong>general limitation</strong> just discussed: no cyclic process — no matter how ideal — can transform all the absorbed heat into mechanical work.</p>
+</div>
+<div class="warning admonition">
+<p class="admonition-title">Important: <span class="math notranslate nohighlight">\(Q_{L}\)</span> as a thermodynamic necessity</p>
+<p>Every heat engine must <strong>reject a portion of its absorbed heat</strong> to a reservoir at lower temperature. This rejection is not a technical flaw but a <strong>fundamental thermodynamic necessity</strong>, expressing the directionality of energy transformations and marking the direct manifestation of the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="thermal-efficiency">
+<span id="subsec-efficiency-heat-engines"></span><h2>Thermal efficiency<a class="headerlink" href="#thermal-efficiency" title="Link to this heading"></a></h2>
+<p>The notion of <strong>thermal efficiency</strong> is meaningful only for systems that behave as <strong>heat engines</strong> — that is, devices operating <strong>cyclically</strong> while exchanging heat with <strong>two thermal reservoirs</strong> at different temperatures. Such engines absorb energy as heat from the <strong>high-temperature source</strong>, convert part of it into <strong>mechanical work</strong>, and reject the remainder to the <strong>low-temperature sink</strong> to complete the cycle. The <strong>thermal efficiency</strong> (<span class="math notranslate nohighlight">\(\eta\)</span>) quantifies this <strong>conversion capability</strong> by comparing the useful output (net work) to the energy input (heat absorbed from the hot source).</p>
+<div class="math notranslate nohighlight" id="eq-efficiency-def">
+\[
+\eta_{\text{th.}} = \frac{W_{\text{net,out}}}{Q_H}.
+\]</div>
+<p>From the <strong>cyclic energy balance</strong> of any engine, the total work output equals the difference between the heat absorbed (<span class="math notranslate nohighlight">\(Q_H\)</span>) and the heat rejected (<span class="math notranslate nohighlight">\(Q_L\)</span>):</p>
+<div class="math notranslate nohighlight" id="eq-efficiency-substitution">
+\[
+\eta_{\text{th.}} = \frac{Q_H - Q_L}{Q_H} = 1 - \frac{Q_L}{Q_H}.
+\]</div>
+<p>This simple relation expresses a fundamental limitation: only the portion of heat that is <em>not rejected</em> can be converted into work. The efficiency therefore depends on the ratio between the heats exchanged with the high- and low-temperature reservoirs.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: the generalized notion of efficiency</p>
+<p><strong>Efficiency</strong>, in its most general sense, expresses the <strong>ratio between what a process yields and what it consumes</strong> — that is, the useful effect obtained relative to the energy (or resource) required to produce it.
+It serves as a <strong>measure of performance</strong>: the closer this ratio is to unity, the more effectively the process converts its input into the intended output.</p>
+<p>This abstract notion applies to any transformation — mechanical, electrical, thermal, or otherwise — and provides a common language for comparing how well different systems use energy.</p>
+<p>In the specific case of <strong>heat engines</strong>, this general concept becomes the <strong>thermal efficiency</strong>, where the useful output is the <em>work produced</em> and the cost is the <em>heat absorbed</em> from the high-temperature source.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="the-kelvinplanck-postulate">
+<span id="subsec-kelvin-planck-postulate"></span><h2>The Kelvin–Planck postulate<a class="headerlink" href="#the-kelvinplanck-postulate" title="Link to this heading"></a></h2>
+<p>The conclusions drawn so far — the necessity of two heat reservoirs and the impossibility of completely transforming heat into work — are compactly expressed by the <strong>Kelvin–Planck postulate</strong>, one of the foundational formulations of the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law of thermodynamics.</p>
+<blockquote class="epigraph">
+<div><p><strong>It is impossible to construct a device that operates in a cycle and produces no other effect than the extraction of heat from a single thermal reservoir and its complete conversion into work.</strong></p>
+</div></blockquote>
+<p>This statement formalizes the limitation inherent to all heat engines: a <strong>cyclic device</strong> cannot transform into work the entire quantity of heat it absorbs from a single source.
+Part of that energy must always be rejected as heat to a lower-temperature sink.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: implications of the Kelvin–Planck statement</p>
+<p>The Kelvin–Planck postulate establishes several fundamental consequences:</p>
+<ul class="simple">
+<li><p>Even though a process that converts all absorbed heat into work <strong>could satisfy the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law</strong>, it <strong>violates</strong> the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law.</p></li>
+<li><p>A true heat engine must exchange heat with <strong>two reservoirs</strong> at different temperatures — one from which heat is absorbed (<span class="math notranslate nohighlight">\(Q_H\)</span>) and another to which part of that energy is rejected (<span class="math notranslate nohighlight">\(Q_L\)</span>).</p></li>
+<li><p>The <strong>thermal efficiency</strong> of such an engine, <span class="math notranslate nohighlight">\(\eta_{\text{th.}} = 1 - Q_L/Q_H\)</span>, is therefore always <strong>less than unity</strong>, i.e. <span class="math notranslate nohighlight">\(\eta_{\text{th.}} &lt; 1\)</span>.</p></li>
+<li><p>The smaller the temperature difference between reservoirs, the lower the achievable efficiency. Increasing this temperature gap improves performance, but <strong>no finite difference can yield <span class="math notranslate nohighlight">\(\eta = 1\)</span></strong>.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+</section>
+<section id="conceptual-closure">
+<span id="subsec-conceptual-closure-heat-engines"></span><h2>Conceptual closure<a class="headerlink" href="#conceptual-closure" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>A <strong>heat engine</strong> is a cyclic system that transforms part of the heat absorbed from a <strong>hot reservoir</strong> into <strong>useful work</strong>, rejecting the rest to a <strong>cold reservoir</strong> to close the cycle.</p></li>
+<li><p>The <strong>thermal efficiency</strong> <span class="math notranslate nohighlight">\(\eta_{\text{th.}} = 1 - Q_L/Q_H\)</span> expresses the fraction of the heat input that becomes work, setting a <strong>quantitative measure</strong> of the conversion limit.</p></li>
+<li><p>The <strong>Kelvin–Planck postulate</strong> expresses the <strong>qualitative boundary</strong>: total conversion of heat into work in a cyclic process is <strong>impossible</strong>.</p></li>
+<li><p>This limitation arises because <strong>heat transfer is inherently directional</strong> — it flows naturally from hot to cold, and any cyclic conversion requires this asymmetry.</p></li>
+<li><p>The rejected heat <span class="math notranslate nohighlight">\(Q_L\)</span> constitutes <strong>degraded energy</strong>, an inevitable consequence of the loss of energy quality during transformation.</p></li>
+</ul>
+<p>In essence, the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law introduces a <strong>hierarchy of energy quality</strong>: while all forms of energy are equivalent in amount (as stated by the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law), not all are <strong>equally convertible</strong>.
+It establishes a fundamental <strong>limit to the efficiency of all cyclic processes</strong>, defining the directional nature of real thermodynamic transformations.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="14_Traces_of_2nd_law_heat_reservoirs.html" class="btn btn-neutral float-left" title="Traces of the \(2^{\text{nd}}\) law" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html" class="btn btn-neutral float-right" title="Refrigeration cycles, COP, and the Clausius postulate" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exergy and the notion of dead state &mdash; Thermal and Fluids Engineering: Theoretical Pills  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css?v=3234e928" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ebdd504" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/hoverxref.js"></script>
+      <script src="_static/js/tooltipster.bundle.min.js"></script>
+      <script src="_static/js/micromodal.min.js"></script>
+      <script>let toggleHintShow = '';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "tags": "ams", "useLabelIds": true, "packages": {"[+]": ["cancel"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="_static/custom.js?v=13520114"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Useful work, reversibility, and \(2^{\text{nd}}\)-law efficiency" href="23_Useful_work_reversibility_2nd_law_efficiency.html" />
+    <link rel="prev" title="Combining laws: exergy" href="05_Combining_laws.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Thermal and Fluids Engineering: Theoretical Pills
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0001_What_is_this_course_about.html">What is this course about?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0002_Course_outline.html">Course outline</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MODULE 1: FUNDAMENTALS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_Basic_notions.html">Basic notions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Systems_surroundings_boundaries.html">Systems, surroundings and boundaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_Magnitudes_and_properties.html">Magnitudes and properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_Equilibrium_temperature_processes.html">Equilibrium, temperature scales and processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02_Main_substance_models.html">Main substance models</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="04_Characterization_of_substances.html">Characterization of substances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_Ideal_and_real_gases.html">Ideal and real gases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_P-v-T_diagrams.html">p-v-T diagrams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_Gas_mixtures.html">Gas mixtures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_Humid_air.html">Humid air</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03_1st_law.html">1st Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="09_Energy_work_and_heat.html">Energy, work and heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_1st_law_in_closed_systems.html">1st Law in closed systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Specific_heats.html">Specific heats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_1st_law_in_open_systems.html">1st Law in open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Canonical_open_systems.html">Canonical open systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="04_2nd_law.html">2nd Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14_Traces_of_2nd_law_heat_reservoirs.html">Traces of the 2nd law and heat reservoirs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_Heat_engines_thermal_efficiency_and_Kelvin_Planck_postulate.html">Heat engines, thermal efficiency, and the Kelvin-Planck postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html">Refrigeration cycles, COP, and the Clausius postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_Reversible_and_irreversible_processes.html">Reversible and irreversible processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale.html">Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Clausius_inequality_and_definition_of_entropy.html">Clausius's inequality and the definition of entropy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_Calculation_entropy_variations_Tds_relations.html">Calculation of entropy variations and the Tds relations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="21_The_isentropic_efficiency.html">The isentropic efficiency</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="05_Combining_laws.html">Combining laws: exergy</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Exergy and the notion of dead state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="23_Useful_work_reversibility_2nd_law_efficiency.html">Useful work, reversibility, and 2nd-law efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="24_Exergy_of_closed_and_open_systems.html">Exergy of closed and open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="25_Principle_decreasing_exergy_and_balance.html">Principle of decreasing exergy; entropy and exergy balances</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thermal and Fluids Engineering: Theoretical Pills</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="05_Combining_laws.html">Combining laws: exergy</a></li>
+      <li class="breadcrumb-item active">Exergy and the notion of dead state</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/22_Exergy_and_notion_of_dead_state.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="exergy-and-the-notion-of-dead-state">
+<span id="sec-exergy-and-dead-state"></span><h1>Exergy and the notion of dead state<a class="headerlink" href="#exergy-and-the-notion-of-dead-state" title="Link to this heading"></a></h1>
+<p>The <strong><span class="math notranslate nohighlight">\(1^{\text{st}}\)</span></strong> and <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> laws of thermodynamics</strong> express two fundamental but distinct aspects of all physical transformations.</p>
+<ul class="simple">
+<li><p>The <strong><span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law</strong> concerns the <strong>quantity of energy</strong>, establishing that energy is conserved — it can neither be created nor destroyed, only transformed.</p></li>
+<li><p>The <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law</strong> concerns the <strong>quality of energy</strong>, stating that every real process generates <strong>entropy</strong>, which remains constant only under perfectly reversible conditions.</p></li>
+</ul>
+<p>These two principles together distinguish <strong>how much energy</strong> exists from <strong>how useful</strong> that energy is.
+While energy is conserved, its <em>usefulness</em> continuously diminishes as entropy increases.</p>
+<p>Because entropy introduces a <strong>direction to time</strong> — the irreversible “arrow” of natural processes — the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law is a <em>quantitative</em> principle, and the second is a <em>qualitative</em> one.
+However, these quantities are <strong>incommensurable</strong>:
+energy is measured in <strong>joules <span class="math notranslate nohighlight">\(\text{J}\)</span></strong>, whereas entropy is expressed in <strong>joules per Kelvin <span class="math notranslate nohighlight">\(\text{J}/\text{K}\)</span></strong>.
+Thus, one cannot directly compare or combine them in their native form.</p>
+<p>This raises a key question:</p>
+<blockquote class="epigraph">
+<div><p>Can the <em>quality</em> of energy — as expressed by the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law — be translated into an <strong>energetic measure</strong>?</p>
+</div></blockquote>
+<p>If so, we could quantify <strong>irreversibilities</strong> in energy terms, assessing how much of the total energy remains <em>useful</em> for producing work.</p>
+<p>The answer lies in combining the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> and <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> laws.
+By doing so, we obtain a new quantity — the <strong>exergy</strong> — which measures the <strong>maximum useful work</strong> that can be extracted as a system comes into equilibrium with its environment.
+Exergy is therefore <strong>not an independent principle</strong>, but a <strong>derived property</strong>, a synthesis of both laws that expresses the energetic <em>value</em> of energy itself.</p>
+<p>However, defining exergy requires understanding what it means for a system to be in <em>equilibrium</em> with its environment — the concept of the <strong>dead state</strong>.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: exergy and availability</p>
+<p>The notion of <strong>exergy</strong> first appeared under the name <strong>availability</strong>, reflecting an early attempt to quantify how much of a system’s energy could be <strong>converted into useful work</strong> under the conditions set by its <strong>environment</strong>; or, in other words, the concern that guided the conception of the term <strong>availability</strong> was:</p>
+<blockquote class="epigraph">
+<div><p>How much energy can be extracted from a system placed in a given environment?</p>
+</div></blockquote>
+<p>The answer depends not only on the system’s internal state but also on that of its surroundings. When the two are in <strong>complete equilibrium</strong> — the <strong>dead state</strong> — no spontaneous processes can occur, and the system’s energy, though present, is <strong>unavailable</strong>. A clear example is the <strong>atmosphere</strong>, which contains immense energy but cannot deliver work as long as it remains uniform. Only when <strong>gradients</strong> of temperature, pressure, or composition exist does the system possess <strong>exergy</strong> — the measurable <em>potential to produce work</em>.</p>
+</div>
+<hr class="docutils" />
+<section id="the-dead-state-and-work-potential">
+<span id="subsec-dead-state-and-work-potential"></span><h2>The dead state and work potential<a class="headerlink" href="#the-dead-state-and-work-potential" title="Link to this heading"></a></h2>
+<p>A system is said to be in its <strong>dead state</strong> when it is in <strong>complete thermodynamic equilibrium with the environment</strong> — that is, when no gradients of temperature, pressure, or chemical potential exist between them.
+At that point, <strong>no more work</strong> can be extracted from the system.</p>
+<p>The <strong>atmosphere</strong> illustrates this well: although it contains an immense amount of energy, a device in equilibrium with it cannot extract any work, since there are no property differences to exploit.
+To generate work, a system must first be <strong>out of equilibrium</strong> — having a higher temperature, pressure, or some other potential difference relative to its surroundings.</p>
+<p>Hence, extracting energy from a system effectively means extracting <strong>organized, useful energy</strong> — that which can perform <strong>mechanical work</strong>.
+The <strong>maximum work</strong> obtainable as a system passes from a given <em>initial state</em> to the <em>dead state</em> is called its <strong>work potential</strong>.</p>
+<p>Formally, since work is a <strong>path function</strong>, one may write:</p>
+<div class="math notranslate nohighlight">
+\[
+W = f(\text{initial state}, \text{process path}, \text{final state})
+\]</div>
+<p>In an <strong>exergetic analysis</strong>:</p>
+<ul class="simple">
+<li><p>The <strong>initial state</strong> is given and fixed.</p></li>
+<li><p>The <strong>final state</strong> corresponds to the <strong>dead state</strong>, where equilibrium with the environment is achieved.</p></li>
+<li><p>The <strong>process path</strong> is assumed <strong>reversible</strong>, since only reversible transformations yield <strong>maximum work</strong>.</p></li>
+</ul>
+<p>Any <strong>irreversibility</strong> within the system or its immediate surroundings reduces this theoretical maximum, resulting in <strong>exergy destruction</strong>.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: meaning of exergy</p>
+<p>Exergy quantifies the <strong>maximum useful work</strong> obtainable as a system moves reversibly from its initial state to the <strong>dead state</strong>.
+It represents the <strong>upper limit</strong> of performance permitted by thermodynamic laws — the boundary between the <em>usable</em> and <em>unusable</em> portions of energy.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="boundaries-irreversibilities-and-final-considerations-on-the-dead-state">
+<span id="subsec-boundaries-and-dead-state-considerations"></span><h2>Boundaries, irreversibilities, and final considerations on the dead state<a class="headerlink" href="#boundaries-irreversibilities-and-final-considerations-on-the-dead-state" title="Link to this heading"></a></h2>
+<p>When studying <strong>exergy</strong>, it is essential to define precisely what is meant by the <strong>system</strong>, its <strong>surroundings</strong>, and its <strong>environment</strong>, since these distinctions determine <strong>where irreversibilities occur</strong> and <strong>how work potential is lost</strong>.</p>
+<ul class="simple">
+<li><p>The <strong>surroundings</strong> comprise everything outside the system’s boundary.</p></li>
+<li><p>The <strong>immediate surroundings</strong> are the portion of those surroundings directly affected by the process — where gradients of temperature, pressure, or velocity exist.</p></li>
+<li><p>The <strong>environment</strong> refers to the large, unaffected reservoir that defines the <strong>reference conditions</strong> for the <strong>dead state</strong>.</p></li>
+</ul>
+<p>Irreversibilities appear both <strong>within the system</strong> and in its <strong>immediate surroundings</strong>, where finite differences in temperature or pressure drive transfers of heat or mass.
+It is in these regions of non-equilibrium that <strong>entropy generation</strong> and, consequently, <strong>exergy destruction</strong> take place.</p>
+<p>The concept of <strong>exergy</strong> extends beyond systems that directly produce mechanical work.
+Even if a device performs no shaft work, as long as it is <strong>not in equilibrium</strong> with its environment, it possesses a <strong>potential to do work</strong> — a stored capacity for useful energy conversion.</p>
+<p>Indeed:</p>
+<ul class="simple">
+<li><p>If the system’s <strong>temperature</strong> is greater than that of the environment (<span class="math notranslate nohighlight">\(T_f &gt; T_{\text{env.}}\)</span>), a <strong>heat engine</strong> could, in principle, operate between them to produce work.</p></li>
+<li><p>If its <strong>pressure</strong> is higher than the ambient value (<span class="math notranslate nohighlight">\(P_f &gt; P_{\text{env.}}\)</span>), expansion could yield mechanical energy.</p></li>
+<li><p>If the system possesses <strong>kinetic</strong>, <strong>potential</strong>, or <strong>chemical energy</strong>, these can likewise be transformed into useful work — for instance, when motion (<span class="math notranslate nohighlight">\(c_f &gt; 0\)</span>) or elevation (<span class="math notranslate nohighlight">\(z_f &gt; 0\)</span>) differences exist.</p></li>
+</ul>
+<p>Once all such property differences vanish, the system reaches the <strong>dead state</strong> — full thermodynamic equilibrium with the environment, where no further work can be obtained.
+The <strong>reversible process</strong> that brings a system from its initial condition to this equilibrium defines the <strong>maximum useful work</strong> it can deliver, that is, its <strong>exergy</strong>.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: the role of the dead state</p>
+<p>The <strong>dead state</strong> serves as the universal <strong>reference condition</strong> for all exergy evaluations.
+At this state, no gradients remain, no process can occur spontaneously, and no work can be extracted.
+Exergy therefore measures how far a system stands from equilibrium — and quantifies the <strong>work potential</strong> lost as it approaches that state.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="conceptual-closure">
+<span id="subsec-conceptual-closure-exergy"></span><h2>Conceptual closure<a class="headerlink" href="#conceptual-closure" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Exergy</strong> bridges the two laws of thermodynamics, expressing the quality of energy in <strong>energetic terms</strong>.</p></li>
+<li><p>The <strong>dead state</strong> defines the condition of <strong>complete equilibrium</strong> with the environment — where all potential for work has vanished.</p></li>
+<li><p>The <strong>maximum reversible work</strong> obtainable between an initial state and the dead state is the system’s <strong>exergy</strong>.</p></li>
+<li><p><strong>Irreversibilities</strong> reduce this maximum, representing <strong>exergy destruction</strong> or <strong>loss of work potential</strong>.</p></li>
+<li><p>Exergy thus provides a <strong>quantitative measure</strong> of how the degradation of energy quality translates into <strong>energetic inefficiency</strong> — closing the conceptual link between the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> and <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> laws.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="05_Combining_laws.html" class="btn btn-neutral float-left" title="Combining laws: exergy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="23_Useful_work_reversibility_2nd_law_efficiency.html" class="btn btn-neutral float-right" title="Useful work, reversibility, and \(2^{\text{nd}}\)-law efficiency" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

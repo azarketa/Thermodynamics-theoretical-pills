@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Useful work, reversibility, and \(2^{\text{nd}}\)-law efficiency &mdash; Thermal and Fluids Engineering: Theoretical Pills  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css?v=3234e928" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ebdd504" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/hoverxref.js"></script>
+      <script src="_static/js/tooltipster.bundle.min.js"></script>
+      <script src="_static/js/micromodal.min.js"></script>
+      <script>let toggleHintShow = '';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "tags": "ams", "useLabelIds": true, "packages": {"[+]": ["cancel"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="_static/custom.js?v=13520114"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Exergy of closed and open systems" href="24_Exergy_of_closed_and_open_systems.html" />
+    <link rel="prev" title="Exergy and the notion of dead state" href="22_Exergy_and_notion_of_dead_state.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Thermal and Fluids Engineering: Theoretical Pills
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0001_What_is_this_course_about.html">What is this course about?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0002_Course_outline.html">Course outline</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MODULE 1: FUNDAMENTALS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_Basic_notions.html">Basic notions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Systems_surroundings_boundaries.html">Systems, surroundings and boundaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_Magnitudes_and_properties.html">Magnitudes and properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_Equilibrium_temperature_processes.html">Equilibrium, temperature scales and processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02_Main_substance_models.html">Main substance models</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="04_Characterization_of_substances.html">Characterization of substances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_Ideal_and_real_gases.html">Ideal and real gases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_P-v-T_diagrams.html">p-v-T diagrams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_Gas_mixtures.html">Gas mixtures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_Humid_air.html">Humid air</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03_1st_law.html">1st Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="09_Energy_work_and_heat.html">Energy, work and heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_1st_law_in_closed_systems.html">1st Law in closed systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Specific_heats.html">Specific heats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_1st_law_in_open_systems.html">1st Law in open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Canonical_open_systems.html">Canonical open systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="04_2nd_law.html">2nd Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14_Traces_of_2nd_law_heat_reservoirs.html">Traces of the 2nd law and heat reservoirs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_Heat_engines_thermal_efficiency_and_Kelvin_Planck_postulate.html">Heat engines, thermal efficiency, and the Kelvin-Planck postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html">Refrigeration cycles, COP, and the Clausius postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_Reversible_and_irreversible_processes.html">Reversible and irreversible processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale.html">Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Clausius_inequality_and_definition_of_entropy.html">Clausius's inequality and the definition of entropy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_Calculation_entropy_variations_Tds_relations.html">Calculation of entropy variations and the Tds relations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="21_The_isentropic_efficiency.html">The isentropic efficiency</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="05_Combining_laws.html">Combining laws: exergy</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="22_Exergy_and_notion_of_dead_state.html">Exergy and the notion of dead state</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Useful work, reversibility, and 2nd-law efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="24_Exergy_of_closed_and_open_systems.html">Exergy of closed and open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="25_Principle_decreasing_exergy_and_balance.html">Principle of decreasing exergy; entropy and exergy balances</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thermal and Fluids Engineering: Theoretical Pills</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="05_Combining_laws.html">Combining laws: exergy</a></li>
+      <li class="breadcrumb-item active">Useful work, reversibility, and <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/23_Useful_work_reversibility_2nd_law_efficiency.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="useful-work-reversibility-and-2-text-nd-law-efficiency">
+<span id="sec-useful-work-reversibility-efficiency"></span><h1>Useful work, reversibility, and <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency<a class="headerlink" href="#useful-work-reversibility-and-2-text-nd-law-efficiency" title="Link to this heading"></a></h1>
+<p>Having clarified the notions of <strong>dead state</strong>, <strong>surroundings</strong>, and <strong>work potential</strong>, we can now introduce the <strong>work-related quantities</strong> that serve as a bridge toward the <strong>definition of exergy</strong>. These magnitudes connect the <strong>energy exchanges</strong> of a system with the <strong>quality</strong> of those exchanges, showing how <em>irreversibilities</em> reduce the amount of <em>useful</em> work that can be obtained.</p>
+<hr class="docutils" />
+<section id="surroundings-work-and-useful-work">
+<span id="subsec-surroundings-and-useful-work"></span><h2>Surroundings work and useful work<a class="headerlink" href="#surroundings-work-and-useful-work" title="Link to this heading"></a></h2>
+<p>The notions of <strong>surroundings work</strong> and <strong>useful work</strong> are introduced to separate the <strong>total mechanical work</strong> exerted at a system’s boundary from the <strong>portion that represents usable energy</strong>. Whenever a system interacts mechanically with its environment, part of the boundary work simply counteracts the <strong>ambient (atmospheric) pressure</strong>, maintaining equilibrium with the surroundings. Only the remaining part — the <strong>useful work</strong> — effectively contributes to changing the system’s energetic state and, therefore, to its <strong>exergy</strong> or <strong>work potential</strong>.</p>
+<p>This distinction is best illustrated through a <strong>piston–cylinder system</strong>, the simplest and most representative configuration for mechanical interaction. The <strong>piston face</strong> is exposed to the <strong>atmosphere</strong>, which acts as the <strong>surroundings</strong> exerting a constant pressure <span class="math notranslate nohighlight">\(p_0\)</span>. When the system’s volume changes from <span class="math notranslate nohighlight">\(V_1\)</span> to <span class="math notranslate nohighlight">\(V_2\)</span>, the surroundings perform <strong>mechanical work</strong> on the system corresponding to this environmental pressure, expressed as</p>
+<div class="math notranslate nohighlight" id="eq-work-surr">
+\[
+\boxed{W_{\text{surr.}} = p_0 (V_2 - V_1)}
+\]</div>
+<p>This quantity expresses the <strong>mechanical action of the ambient pressure</strong> upon the boundary.</p>
+<p>The <strong>useful work</strong> is then defined as the <strong>net work</strong> obtained after subtracting this unavoidable environmental contribution from the total boundary work <span class="math notranslate nohighlight">\(W\)</span>:</p>
+<div class="math notranslate nohighlight" id="eq-work-useful">
+\[
+\boxed{W_u = W - W_{\text{surr.}}}
+\]</div>
+<p>This distinction clarifies that:</p>
+<ul class="simple">
+<li><p>For an <strong>expanding system</strong>, the surroundings work acts as a <strong>resisting force</strong> that must be overcome — it <strong>reduces</strong> the useful work output.</p></li>
+<li><p>For a <strong>compressing system</strong>, the surroundings work assists compression — it <strong>reduces</strong> the required external work input.</p></li>
+</ul>
+<p>Hence, <span class="math notranslate nohighlight">\(W_u\)</span> represents the <strong>effective mechanical energy</strong> that remains available for use once the environmental pressure effects are discounted.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: boundary work in open systems</p>
+<p>In <strong>open systems</strong>, where mass crosses the control surface, the concept of boundary work appears implicitly as <strong>flow work</strong>, defined per unit mass as <span class="math notranslate nohighlight">\(p v\)</span>.
+Each fluid element must “push” the surrounding fluid as it enters or leaves the control volume, and this mechanical effect is already included in the <strong>enthalpy</strong> term <span class="math notranslate nohighlight">\(h = u + p v\)</span>.
+Thus, the distinction between <strong>total</strong> and <strong>useful</strong> work remains valid — but it is embedded within the definition of enthalpy rather than appearing explicitly as <span class="math notranslate nohighlight">\(p_0(V_2 - V_1)\)</span>.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="reversible-work-and-irreversibility">
+<span id="subsec-reversible-work-and-irreversibility"></span><h2>Reversible work and irreversibility<a class="headerlink" href="#reversible-work-and-irreversibility" title="Link to this heading"></a></h2>
+<p>Among all possible transformations between two given states, the <strong>reversible process</strong> yields the <strong>maximum possible useful work</strong> (or requires the <strong>minimum input work</strong>). This defines the <strong>reversible work</strong>, <span class="math notranslate nohighlight">\(W_{\text{rev.,out}}\)</span>.</p>
+<p>The <strong>irreversibility</strong>, <span class="math notranslate nohighlight">\(I\)</span>, quantifies the <strong>loss of useful work potential</strong> due to the presence of dissipative effects. It is therefore expressed as</p>
+<div class="math notranslate nohighlight" id="eq-irreversibility">
+\[
+\boxed{I = W_{\text{rev.,out}} - W_{u,\text{out}}}
+\]</div>
+<p>where the subscript <strong>out</strong> denotes that the quantities refer to <strong>work output</strong>.</p>
+<p>In real systems, <span class="math notranslate nohighlight">\(I &gt; 0\)</span>, and only in the <strong>ideal reversible limit</strong> does <span class="math notranslate nohighlight">\(I = 0\)</span>, indicating no loss of work potential.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: distinction in the use of the term <em>irreversibility</em></p>
+<p>The word <strong>irreversibility</strong> is used in two related senses:</p>
+<ul class="simple">
+<li><p>Qualitatively, it refers to the <strong>presence of dissipative effects</strong> (such as friction, finite temperature differences, or mixing) that prevent a process from being reversible.</p></li>
+<li><p>Quantitatively, it designates the <strong>magnitude <span class="math notranslate nohighlight">\(I\)</span></strong>, which measures the <strong>energetic equivalent</strong> of those effects — the <em>work potential destroyed</em> because of entropy generation.</p></li>
+</ul>
+<p>Although both meanings are connected, the first is descriptive, while the second is <strong>numerical</strong> and <strong>measurable</strong> in joules.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="text-nd-law-efficiency-and-the-measure-of-energy-quality">
+<span id="subsec-second-law-efficiency"></span><h2><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency and the measure of energy quality<a class="headerlink" href="#text-nd-law-efficiency-and-the-measure-of-energy-quality" title="Link to this heading"></a></h2>
+<p>The <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</strong>, also called <strong>rational efficiency</strong>, complements the <strong>thermal efficiency</strong> by taking into account not only the <strong>quantity</strong> but also the <strong>quality</strong> of the energy exchanged. While the <strong><span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law</strong> concerns itself with conservation of energy, the <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law</strong> evaluates <em>how effectively</em> that energy can be converted into useful work.</p>
+<p>To grasp this idea, imagine two heat engines operating under different temperature ranges but yielding the <strong>same thermal efficiency</strong>. Although their energy ratios (<span class="math notranslate nohighlight">\(W/Q_H\)</span>) are equal, their <strong>thermodynamic contexts</strong> differ: the engine operating between a smaller temperature difference works under less favorable conditions. When compared with the <strong>reversible (Carnot) limit</strong> corresponding to each temperature range, the engine that operates effectively under the more restrictive temperature difference shows a <strong>higher <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</strong>, since it comes <strong>closer to its own ideal limit</strong>.</p>
+<p>Hence, the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency expresses how effectively a device approaches its <strong>reversible benchmark</strong>, regardless of the absolute temperature levels involved. Formally, for a heat engine:</p>
+<div class="math notranslate nohighlight" id="eq-eta-ii-engines">
+\[
+\boxed{\eta_{II} = \frac{\eta_{\text{th.}}}{\eta_{\text{th.,rev.}}}}
+\]</div>
+<p>To illustrate this quantitatively, consider two heat engines, <strong>A</strong> and <strong>B</strong>, each with a <strong>thermal efficiency</strong> of <span class="math notranslate nohighlight">\(\eta_{\text{th.}} = 0.30\)</span>. Engine <strong>A</strong> operates between <span class="math notranslate nohighlight">\(T_H = 600\ \text{K}\)</span> and <span class="math notranslate nohighlight">\(T_L = 300\ \text{K}\)</span>, while engine <strong>B</strong> operates between <span class="math notranslate nohighlight">\(T_H = 1000\ \text{K}\)</span> and <span class="math notranslate nohighlight">\(T_L = 300\ \text{K}\)</span>.</p>
+<p>Their <strong>reversible (Carnot) efficiencies</strong> are:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{gather*}
+\eta_{\text{th.,rev.,A}} = 1 - \frac{300}{600} = 0.50, \\[10pt]
+\eta_{\text{th.,rev.,B}} = 1 - \frac{300}{1000} = 0.70.
+\end{gather*}
+\end{split}\]</div>
+<p>Accordingly, their <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiencies</strong> are:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{gather*}
+\eta_{II,\text{A}} = \frac{0.30}{0.50} = 0.60, \\[10pt]
+\eta_{II,\text{B}} = \frac{0.30}{0.70} \approx 0.43.
+\end{gather*}
+\end{split}\]</div>
+<p>Although both engines transform the same <em>fraction</em> of heat into work, engine <strong>A</strong> achieves its performance <strong>under less favorable conditions</strong> and thus operates <strong>closer to its reversible limit</strong>. This shows that <span class="math notranslate nohighlight">\(\eta_{II}\)</span> measures not just <em>how much</em> energy is converted, but <em>how well</em> the system performs relative to its theoretical potential.</p>
+<p>In general, depending on the system’s purpose, this efficiency can be expressed as:</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: general definitions of <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Device type</strong></p></th>
+<th class="head text-left"><p><strong>Definition</strong></p></th>
+<th class="head text-left"><p><strong>Interpretation</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Work-producing device</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \eta_{II} = \frac{\eta_{\text{th.}}}{\eta_{\text{th.,rev.}}} = \frac{W_u}{W_{\text{rev.}}}\)</span></p></td>
+<td class="text-left"><p>Fraction of maximum work actually obtained</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Work-consuming device</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \eta_{II} = \frac{\eta_{\text{th.}}}{\eta_{\text{th.,rev.}}} = \frac{W_{\text{rev.}}}{W_u}\)</span></p></td>
+<td class="text-left"><p>Fractional closeness to the reversible minimum input</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Refrigerator / heat pump</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \eta_{II} = \frac{\text{COP}}{\text{COP}_{\text{rev.}}} = \frac{\text{COP}}{\text{COP}_{\text{rev.}}}\)</span></p></td>
+<td class="text-left"><p>Fraction of ideal performance achieved</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: interpreting the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</p>
+<p>The <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</strong> may also be viewed as a measure of the <strong>room for improvement</strong> of a real system. A value of <span class="math notranslate nohighlight">\(\eta_{II}\)</span> close to 1 indicates that the process already operates <strong>near its reversible limit</strong>, leaving little potential for enhancement. Conversely, a low <span class="math notranslate nohighlight">\(\eta_{II}\)</span> reveals a <strong>large gap</strong> between actual and ideal performance, quantifying the <strong>scope for reducing irreversibilities</strong> and <strong>improving energy quality</strong> within the device.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="comparison-of-efficiencies-defined-so-far">
+<span id="subsec-efficiency-comparison"></span><h2>Comparison of efficiencies defined so far<a class="headerlink" href="#comparison-of-efficiencies-defined-so-far" title="Link to this heading"></a></h2>
+<p>At this stage, several <strong>efficiency measures</strong> have been introduced, each addressing a <strong>different dimension of performance</strong> and grounded in distinct principles:</p>
+<ul class="simple">
+<li><p><strong>Thermal efficiency</strong>, <span class="math notranslate nohighlight">\(\eta_{\text{th.}}\)</span>, quantifies the <strong>fraction of input heat converted to work</strong>—the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span>-law (energy-balance) view for heat engines.</p></li>
+<li><p><strong>Carnot efficiency</strong>, <span class="math notranslate nohighlight">\(\eta_{\text{Carnot}}=\eta_{\text{th.,rev.}}\)</span>, is the <strong>thermal efficiency of a reversible heat engine</strong>; it is the <strong>maximum possible</strong> <span class="math notranslate nohighlight">\(\eta_{\text{th.}}\)</span> achievable between <span class="math notranslate nohighlight">\(T_H\)</span> and <span class="math notranslate nohighlight">\(T_L\)</span>, hence a <strong>particular (reversible) case</strong> of thermal efficiency.</p></li>
+<li><p><strong>Isentropic efficiency</strong>, <span class="math notranslate nohighlight">\(\eta_{\text{is.}}\)</span>, compares an <strong>actual process</strong> to its <strong>adiabatic + reversible</strong> (isentropic) counterpart— a <strong>device-specific</strong> measure for compressors, turbines, and nozzles.</p></li>
+<li><p><strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</strong>, <span class="math notranslate nohighlight">\(\eta_{II}\)</span>, compares <strong>actual performance</strong> to the <strong>reversible limit</strong> (Carnot or equivalent), merging <strong>energy quantity</strong> and <strong>energy quality</strong> in one nondimensional indicator.</p></li>
+</ul>
+<div class="warning admonition">
+<p class="admonition-title">Important: summary and comparison of efficiency types</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Efficiency type</strong></p></th>
+<th class="head text-left"><p><strong>Definition / ratio</strong></p></th>
+<th class="head text-left"><p><strong>Ideal reference</strong></p></th>
+<th class="head text-left"><p><strong>Physical meaning</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Thermal efficiency</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \eta_{\text{th.}} = \frac{W_{\text{out}}}{Q_{\text{in}}} = 1 - \frac{Q_L}{Q_H}\)</span></p></td>
+<td class="text-left"><p>None (energy-balance based)</p></td>
+<td class="text-left"><p>Measures energy conversion according to the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law (quantity only)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Carnot efficiency</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \eta_{\text{Carnot}}=\eta_{\text{th.,rev.}} = 1 - \frac{T_L}{T_H}\)</span></p></td>
+<td class="text-left"><p>Itself</p></td>
+<td class="text-left"><p>Measures maximum achievable energy conversion according to the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law (quantity only)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Isentropic efficiency</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \eta_{\text{is.}} = \frac{(\Delta h)_{\text{s}}}{(\Delta h)_{\text{a}}}\)</span> or equivalent, depending on the process</p></td>
+<td class="text-left"><p>Ideal adiabatic + reversible (isentropic) process</p></td>
+<td class="text-left"><p>Device-specific comparison of real vs. isentropic performance</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \eta_{II} = \frac{\eta_{\text{th.}}}{\eta_{\text{th.,rev.}}}\)</span></p></td>
+<td class="text-left"><p>Reversible (Carnot or general) limit</p></td>
+<td class="text-left"><p>Considers both energy quantity and quality — proximity to the reversible bound</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+</section>
+<section id="conceptual-closure">
+<span id="subsec-conceptual-closure-useful-work"></span><h2>Conceptual closure<a class="headerlink" href="#conceptual-closure" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Surroundings work</strong> isolates the mechanical effect of ambient pressure.</p></li>
+<li><p><strong>Useful work</strong> measures the effective mechanical contribution after discounting that environmental effect.</p></li>
+<li><p><strong>Reversible work</strong> represents the theoretical upper limit of usefulness; <strong>irreversibility</strong> measures how much of that potential is lost.</p></li>
+<li><p>The <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span>-law efficiency</strong> generalizes this idea into a nondimensional indicator, linking the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> and <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> laws.</p></li>
+<li><p>Together, these concepts establish the foundation for the next step: the definition of <strong>exergy</strong> as the unified measure of <em>usable energy</em> — the maximum useful work a system can deliver as it comes into equilibrium with its environment.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="22_Exergy_and_notion_of_dead_state.html" class="btn btn-neutral float-left" title="Exergy and the notion of dead state" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="24_Exergy_of_closed_and_open_systems.html" class="btn btn-neutral float-right" title="Exergy of closed and open systems" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

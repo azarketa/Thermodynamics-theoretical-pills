@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Principle of decreasing exergy; entropy and exergy balances &mdash; Thermal and Fluids Engineering: Theoretical Pills  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css?v=3234e928" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ebdd504" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/hoverxref.js"></script>
+      <script src="_static/js/tooltipster.bundle.min.js"></script>
+      <script src="_static/js/micromodal.min.js"></script>
+      <script>let toggleHintShow = '';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "tags": "ams", "useLabelIds": true, "packages": {"[+]": ["cancel"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="_static/custom.js?v=13520114"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Exergy of closed and open systems" href="24_Exergy_of_closed_and_open_systems.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Thermal and Fluids Engineering: Theoretical Pills
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0001_What_is_this_course_about.html">What is this course about?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0002_Course_outline.html">Course outline</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MODULE 1: FUNDAMENTALS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_Basic_notions.html">Basic notions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Systems_surroundings_boundaries.html">Systems, surroundings and boundaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_Magnitudes_and_properties.html">Magnitudes and properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_Equilibrium_temperature_processes.html">Equilibrium, temperature scales and processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02_Main_substance_models.html">Main substance models</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="04_Characterization_of_substances.html">Characterization of substances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_Ideal_and_real_gases.html">Ideal and real gases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_P-v-T_diagrams.html">p-v-T diagrams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_Gas_mixtures.html">Gas mixtures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_Humid_air.html">Humid air</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03_1st_law.html">1st Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="09_Energy_work_and_heat.html">Energy, work and heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_1st_law_in_closed_systems.html">1st Law in closed systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Specific_heats.html">Specific heats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_1st_law_in_open_systems.html">1st Law in open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Canonical_open_systems.html">Canonical open systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="04_2nd_law.html">2nd Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14_Traces_of_2nd_law_heat_reservoirs.html">Traces of the 2nd law and heat reservoirs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_Heat_engines_thermal_efficiency_and_Kelvin_Planck_postulate.html">Heat engines, thermal efficiency, and the Kelvin-Planck postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html">Refrigeration cycles, COP, and the Clausius postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_Reversible_and_irreversible_processes.html">Reversible and irreversible processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale.html">Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Clausius_inequality_and_definition_of_entropy.html">Clausius's inequality and the definition of entropy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_Calculation_entropy_variations_Tds_relations.html">Calculation of entropy variations and the Tds relations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="21_The_isentropic_efficiency.html">The isentropic efficiency</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="05_Combining_laws.html">Combining laws: exergy</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="22_Exergy_and_notion_of_dead_state.html">Exergy and the notion of dead state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="23_Useful_work_reversibility_2nd_law_efficiency.html">Useful work, reversibility, and 2nd-law efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="24_Exergy_of_closed_and_open_systems.html">Exergy of closed and open systems</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Principle of decreasing exergy; entropy and exergy balances</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thermal and Fluids Engineering: Theoretical Pills</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="05_Combining_laws.html">Combining laws: exergy</a></li>
+      <li class="breadcrumb-item active">Principle of decreasing exergy; entropy and exergy balances</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/25_Principle_decreasing_exergy_and_balance.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="principle-of-decreasing-exergy-entropy-and-exergy-balances">
+<span id="sec-exergy-destruction"></span><h1>Principle of decreasing exergy; entropy and exergy balances<a class="headerlink" href="#principle-of-decreasing-exergy-entropy-and-exergy-balances" title="Link to this heading"></a></h1>
+<p>Exergy, as a quantity derived from the <strong><span class="math notranslate nohighlight">\(1^{\text{st}}\)</span></strong> and <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> laws</strong>, inherits their physical meaning:
+the first ensures <strong>energy conservation</strong>, while the second imposes <strong>quality degradation</strong> through <strong>entropy generation</strong>.
+Accordingly, one may state a complementary <strong>principle of decreasing exergy</strong>, which mirrors the principle of increasing entropy.</p>
+<p>While <strong>entropy</strong> measures the <em>irreversible dispersal of energy</em>, <strong>exergy</strong> quantifies the <em>loss of its usefulness</em> — that is, the energetic value destroyed by irreversibility.
+Just as <em>entropy is always generated and never destroyed</em>, <em>exergy is always destroyed and never generated</em>.</p>
+<hr class="docutils" />
+<section id="derivation-for-an-isolated-system">
+<span id="subsec-isolated-exergy-destruction"></span><h2>Derivation for an isolated system<a class="headerlink" href="#derivation-for-an-isolated-system" title="Link to this heading"></a></h2>
+<p>The principle may be demonstrated by considering an <strong>isolated system</strong>, one that <strong>exchanges neither energy nor mass</strong> with its surroundings. In practice, this can be interpreted as the <strong>combined system + environment</strong>, often referred to as the <strong>thermodynamic universe</strong> — the ultimate isolated system.</p>
+<p>For such a composite, <strong>no external boundary interactions</strong> exist. Any mechanical or thermal exchange between the system and the environment becomes <strong>internal</strong> to the overall isolated whole. In particular, the <strong>ambient pressure work</strong> term <span class="math notranslate nohighlight">\(p_0(V_2 - V_1)\)</span>, which appears when analyzing the system <em>alone</em>, now vanishes from the global balance because the work <strong>done by the system</strong> on the environment is <strong>exactly balanced</strong> by the opposite work <strong>done by the environment</strong> on the system. Hence, their effects <strong>cancel out</strong>, leaving only the total internal energy change of the combined universe.</p>
+<p>Accordingly, the <strong><span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law</strong> for the isolated composite reads:</p>
+<div class="math notranslate nohighlight" id="eq-first-law-isolated">
+\[
+E_{\text{in}} - E_{\text{out}} = \Delta E_{\text{sys.}} = 0
+\quad \Rightarrow \quad
+E_2 - E_1 = 0
+\]</div>
+<p>The <strong><span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law</strong>, applied to the same system, gives:</p>
+<div class="math notranslate nohighlight" id="eq-second-law-isolated">
+\[
+S_{\text{in}} - S_{\text{out}} + S_{\text{gen.}} = \Delta S_{\text{sys.}}
+\quad \Rightarrow \quad
+S_{\text{gen.}} = S_2 - S_1
+\]</div>
+<p>Multiplying the second law by the environmental temperature <span class="math notranslate nohighlight">\(T_0\)</span> and subtracting it from the first law yields:</p>
+<div class="math notranslate nohighlight" id="eq-combined-laws-isolated">
+\[
+T_0 S_{\text{gen.}} = (E_2 - E_1) - T_0 (S_2 - S_1)
+\]</div>
+<p>Recalling that the <strong>change in exergy</strong> is defined as</p>
+<div class="math notranslate nohighlight" id="eq-exergy-change-general">
+\[
+\Delta X = X_2 - X_1 = (E_2 - E_1) - T_0 (S_2 - S_1),
+\]</div>
+<p>comparison of both expressions gives the key relation:</p>
+<div class="math notranslate nohighlight" id="eq-exergy-destruction-principle">
+\[
+\boxed{
+\Delta X = - T_0 S_{\text{gen.}} \le 0
+}
+\]</div>
+<p>This proves mathematically that <strong>exergy can only decrease</strong> (or remain constant in reversible processes), establishing the <strong>principle of decreasing exergy</strong>.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important: the destruction of exergy</p>
+<p>Entropy is a measure of <strong>energy degradation</strong>; exergy quantifies the <strong>energetic cost</strong> of that degradation. Whenever entropy is generated (<span class="math notranslate nohighlight">\(S_{\text{gen.}} &gt; 0\)</span>), an equivalent amount of exergy is <strong>destroyed</strong> (<span class="math notranslate nohighlight">\(X_{\text{dest.}} = T_0 S_{\text{gen.}}\)</span>). Thus, <em>irreversibility</em> and <em>exergy destruction</em> are two descriptions of the same physical phenomenon — one in entropic terms, the other in energetic ones.</p>
+</div>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: relation between entropy and exergy</p>
+<p>The <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law, written in terms of <strong>entropy generation</strong>, establishes whether a process is <em>reversible</em>, <em>irreversible</em>, or <em>impossible</em>.
+When combined with the <span class="math notranslate nohighlight">\(1^{\text{st}}\)</span> law, the same classification can be expressed in <strong>energetic (exergy)</strong> terms, as summarized below:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Criterion</strong></p></th>
+<th class="head text-left"><p><strong>Generated entropy</strong> <span class="math notranslate nohighlight">\(S_{\text{gen.}}\)</span></p></th>
+<th class="head text-center"><p><strong>Destroyed exergy</strong> <span class="math notranslate nohighlight">\(X_{\text{dest.}}\)</span></p></th>
+<th class="head text-left"><p><strong>Process type</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><span class="math notranslate nohighlight">\(&gt; 0\)</span></p></td>
+<td class="text-left"><p>Positive</p></td>
+<td class="text-center"><p>Positive</p></td>
+<td class="text-left"><p><strong>Irreversible</strong></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><span class="math notranslate nohighlight">\(= 0\)</span></p></td>
+<td class="text-left"><p>Zero</p></td>
+<td class="text-center"><p>Zero</p></td>
+<td class="text-left"><p><strong>Reversible</strong></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><span class="math notranslate nohighlight">\(&lt; 0\)</span></p></td>
+<td class="text-left"><p>Negative</p></td>
+<td class="text-center"><p>Negative</p></td>
+<td class="text-left"><p><strong>Impossible</strong></p></td>
+</tr>
+</tbody>
+</table>
+<p>Thus, <strong>entropy generation</strong> and <strong>exergy destruction</strong> are <em>two sides of the same phenomenon</em>:
+entropy quantifies the <em>disorder increase</em>, while exergy quantifies the <em>useful-energy loss</em> associated with it.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="entropy-and-exergy-balance-forms">
+<span id="subsec-entropy-exergy-balance-forms"></span><h2>Entropy and exergy balance forms<a class="headerlink" href="#entropy-and-exergy-balance-forms" title="Link to this heading"></a></h2>
+<p>The <strong>entropy</strong> and <strong>exergy</strong> balances express the two complementary aspects of the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law:</p>
+<ul class="simple">
+<li><p>The <strong>entropy balance</strong> describes how <em>entropy is transferred and generated</em> within a system — a <strong>qualitative measure</strong> of irreversibility.</p></li>
+<li><p>The <strong>exergy balance</strong> describes how <em>useful energy (work potential)</em> is transferred and destroyed — a <strong>quantitative measure</strong> of that same irreversibility.</p></li>
+</ul>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p><strong>Formulation type</strong></p></th>
+<th class="head text-left"><p><strong>Entropy balance</strong></p></th>
+<th class="head text-left"><p><strong>Exergy balance</strong></p></th>
+<th class="head text-left"><p><strong>Interpretation</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>General form</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle S_{\text{in}} - S_{\text{out}} + S_{\text{gen.}} = \Delta S_{\text{sys.}}\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle X_{\text{in}} - X_{\text{out}} - X_{\text{dest.}} = \Delta X_{\text{sys.}}\)</span></p></td>
+<td class="text-left"><p>Tracks total transfer, storage, and internal generation/destruction.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Rate form</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \dot{S}_{\text{in}} - \dot{S}_{\text{out}} + \dot{S}_{\text{gen.}} = \frac{\mathrm{d}S_{\text{sys.}}}{\mathrm{d}t}\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle \dot{X}_{\text{in}} - \dot{X}_{\text{out}} - \dot{X}_{\text{dest.}} = \frac{\mathrm{d}X_{\text{sys.}}}{\mathrm{d}t}\)</span></p></td>
+<td class="text-left"><p>Expresses the same balance per unit time (rate basis).</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Specific (intensive) form</strong></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle s_{\text{in}} - s_{\text{out}} + s_{\text{gen.}} = \Delta s_{\text{sys.}}\)</span></p></td>
+<td class="text-left"><p><span class="math notranslate nohighlight">\(\displaystyle x_{\text{in}} - x_{\text{out}} - x_{\text{dest.}} = \Delta x_{\text{sys.}}\)</span></p></td>
+<td class="text-left"><p>Entropy or exergy change expressed per unit mass.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: connection and meaning</p>
+<ul class="simple">
+<li><p><strong>Entropy generation</strong> <span class="math notranslate nohighlight">\(S_{\text{gen.}}\)</span> measures the <em>degree of irreversibility</em> in entropic terms.</p></li>
+<li><p><strong>Exergy destruction</strong> <span class="math notranslate nohighlight">\(X_{\text{dest.}} = T_0 S_{\text{gen}}\)</span> translates that irreversibility into <em>energy-quality loss</em>.</p></li>
+<li><p>For <strong>reversible processes</strong>, <span class="math notranslate nohighlight">\(S_{\text{gen.}} = 0\)</span> and <span class="math notranslate nohighlight">\(X_{\text{dest.}} = 0\)</span>.</p></li>
+<li><p>For <strong>irreversible processes</strong>, both terms are positive.</p></li>
+<li><p>Both balances apply to <strong>closed</strong> and <strong>open systems</strong>, provided that the proper expressions for entropy and exergy transfers are used.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+</section>
+<section id="conceptual-closure">
+<span id="subsec-conceptual-closure-exergy"></span><h2>Conceptual closure<a class="headerlink" href="#conceptual-closure" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>The <strong>principle of decreasing exergy</strong> complements the <strong>principle of increasing entropy</strong>: while entropy quantifies the <em>degradation of energy quality</em>, exergy quantifies the <em>loss of useful work potential</em> that accompanies it.</p></li>
+<li><p>In <strong>reversible processes</strong>, entropy generation is null and <strong>no exergy is destroyed</strong> (<span class="math notranslate nohighlight">\(S_{\text{gen.}} = 0 \implies X_{\text{dest.}} = 0\)</span>). In <strong>irreversible processes</strong>, entropy generation is positive and <strong>exergy decreases</strong> (<span class="math notranslate nohighlight">\(S_{\text{gen.}} &gt; 0 \implies \Delta X &lt; 0\)</span>).</p></li>
+<li><p>The <strong>exergy balance</strong> extends the logic of the <strong>energy balance</strong> by explicitly incorporating irreversibility through the destruction term <span class="math notranslate nohighlight">\(T_0 S_{\text{gen.}}\)</span>. It therefore provides a <strong>quantitative measure of the penalty</strong> imposed by the <span class="math notranslate nohighlight">\(2^{\text{nd}}\)</span> law.</p></li>
+<li><p>Entropy and exergy represent <strong>two complementary views</strong> of the same physical limitation: entropy focuses on <strong>direction and feasibility</strong>, whereas exergy focuses on <strong>usefulness and performance</strong>.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="24_Exergy_of_closed_and_open_systems.html" class="btn btn-neutral float-left" title="Exergy of closed and open systems" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

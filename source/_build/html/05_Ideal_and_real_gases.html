@@ -1,0 +1,656 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ideal and real gases &mdash; Thermal and Fluids Engineering: Theoretical Pills  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css?v=3234e928" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ebdd504" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/js/hoverxref.js"></script>
+      <script src="_static/js/tooltipster.bundle.min.js"></script>
+      <script src="_static/js/micromodal.min.js"></script>
+      <script>let toggleHintShow = '';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script>var togglebuttonSelector = '.admonition.dropdown, details.dropdown';</script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "tags": "ams", "useLabelIds": true, "packages": {"[+]": ["cancel"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="_static/custom.js?v=13520114"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="\(p-v-T\) diagrams" href="06_P-v-T_diagrams.html" />
+    <link rel="prev" title="Characterization of substances" href="04_Characterization_of_substances.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Thermal and Fluids Engineering: Theoretical Pills
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="0001_What_is_this_course_about.html">What is this course about?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0002_Course_outline.html">Course outline</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MODULE 1: FUNDAMENTALS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_Basic_notions.html">Basic notions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="01_Systems_surroundings_boundaries.html">Systems, surroundings and boundaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_Magnitudes_and_properties.html">Magnitudes and properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_Equilibrium_temperature_processes.html">Equilibrium, temperature scales and processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="02_Main_substance_models.html">Main substance models</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="04_Characterization_of_substances.html">Characterization of substances</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Ideal and real gases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_P-v-T_diagrams.html">p-v-T diagrams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07_Gas_mixtures.html">Gas mixtures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_Humid_air.html">Humid air</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03_1st_law.html">1st Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="09_Energy_work_and_heat.html">Energy, work and heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="10_1st_law_in_closed_systems.html">1st Law in closed systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11_Specific_heats.html">Specific heats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_1st_law_in_open_systems.html">1st Law in open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_Canonical_open_systems.html">Canonical open systems</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="04_2nd_law.html">2nd Law</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14_Traces_of_2nd_law_heat_reservoirs.html">Traces of the 2nd law and heat reservoirs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_Heat_engines_thermal_efficiency_and_Kelvin_Planck_postulate.html">Heat engines, thermal efficiency, and the Kelvin-Planck postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_Refrigeration_cycles_COP_and_Clausius_postulate.html">Refrigeration cycles, COP, and the Clausius postulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_Reversible_and_irreversible_processes.html">Reversible and irreversible processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_Carnot_cycles_Carnot_postulates_and_thermodynamic_scale.html">Carnot cycles, Carnot's postulates, and the thermodynamic temperature scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Clausius_inequality_and_definition_of_entropy.html">Clausius's inequality and the definition of entropy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_Calculation_entropy_variations_Tds_relations.html">Calculation of entropy variations and the Tds relations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="21_The_isentropic_efficiency.html">The isentropic efficiency</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="05_Combining_laws.html">Combining laws: exergy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="22_Exergy_and_notion_of_dead_state.html">Exergy and the notion of dead state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="23_Useful_work_reversibility_2nd_law_efficiency.html">Useful work, reversibility, and 2nd-law efficiency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="24_Exergy_of_closed_and_open_systems.html">Exergy of closed and open systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="25_Principle_decreasing_exergy_and_balance.html">Principle of decreasing exergy; entropy and exergy balances</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Thermal and Fluids Engineering: Theoretical Pills</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="02_Main_substance_models.html">Main substance models</a></li>
+      <li class="breadcrumb-item active">Ideal and real gases</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/05_Ideal_and_real_gases.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="sec-models-gases">
+<span id="ideal-and-real-gases"></span><h1>Ideal and real gases<a class="headerlink" href="#sec-models-gases" title="Link to this heading"></a></h1>
+<p>Modeling gases is one of the key aspects of Thermodynamics. Gases differ by composition and molecular structure — air, carbon monoxide, hydrogen, methane, butane, or ethanol vapor all behave differently.
+However, under suitable conditions, all gases exhibit comparable patterns that can be captured through mathematical models.</p>
+<p>This section first develops the <strong>ideal gas model</strong>, valid at low pressures and high temperatures, and then introduces <strong>real-gas models</strong> that extend predictive accuracy under dense or cold conditions. A quantitative example illustrates their differences. The intensive variables used here connect directly to <span class="xref std std-ref">the previous section</span>, and the final forms satisfy <span class="xref std std-ref">the general state relation eq_general_state_equation</span>.</p>
+<hr class="docutils" />
+<section id="assumptions-of-the-ideal-gas-model">
+<span id="subsec-ideal-gas-assumptions"></span><h2>Assumptions of the ideal gas model<a class="headerlink" href="#assumptions-of-the-ideal-gas-model" title="Link to this heading"></a></h2>
+<p>The <strong>ideal gas model</strong> rests on two simplifying postulates</p>
+<ol class="arabic simple">
+<li><p><strong>Negligible molecular volume:</strong> molecules occupy a negligibly small portion of the total volume. This approximation is sound at <strong>low pressures</strong>.</p></li>
+<li><p><strong>Negligible intermolecular forces:</strong> intermolecular attractions and repulsions are disregarded. This is reasonable at <strong>high temperatures</strong>, where kinetic energy dominates.</p></li>
+</ol>
+<div class="warning admonition">
+<p class="admonition-title">Important: validity of the ideal gas approximation</p>
+<p>The ideal gas model describes gases under the limit of low density and high temperature, where molecular interactions vanish.
+In this regime, all gases behave similarly, regardless of their chemical nature.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="the-ideal-gas-equation">
+<span id="subsec-ideal-gas-equation"></span><h2>The ideal gas equation<a class="headerlink" href="#the-ideal-gas-equation" title="Link to this heading"></a></h2>
+<p>The relationship among pressure, volume, temperature, and amount of substance is expressed by the <strong>ideal gas law</strong>.</p>
+<div class="math notranslate nohighlight" id="eq-ideal-gas-molar-form">
+\[
+p{}V = n{}\text{R}_{\text{u}}{}T
+\]</div>
+<p>where</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(p\)</span> is the absolute pressure (<span class="math notranslate nohighlight">\(\text{Pa}\)</span>),</p></li>
+<li><p><span class="math notranslate nohighlight">\(V\)</span> is the volume (<span class="math notranslate nohighlight">\(\text{m}^3\)</span>),</p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> is the amount of substance (<span class="math notranslate nohighlight">\(\text{mol}\)</span>),</p></li>
+<li><p><span class="math notranslate nohighlight">\(T\)</span> is the absolute temperature (<span class="math notranslate nohighlight">\(\text{K}\)</span>), and</p></li>
+<li><p><span class="math notranslate nohighlight">\(\text{R}_{\text{u}} = 8.314 \ [\text{J}/(\text{mol}\cdot\text{K})]\)</span> is the universal gas constant.</p></li>
+</ul>
+<p>The <strong>specific gas constant</strong> <span class="math notranslate nohighlight">\(R\)</span> is</p>
+<div class="math notranslate nohighlight" id="eq-specific-gas-constant">
+\[
+R = \frac{\text{R}_{\text{u}}}{\text{MW}}
+\]</div>
+<p>where <span class="math notranslate nohighlight">\(\text{MW}\)</span> is the molecular weight (<span class="math notranslate nohighlight">\(\text{kg}/\text{mol}\)</span>). Since <span class="math notranslate nohighlight">\(\text{MW} = m/n\)</span>, the <strong>mass form</strong> follows as</p>
+<div class="math notranslate nohighlight" id="eq-ideal-gas-mass-form">
+\[
+p{}V = m{}R{}T
+\]</div>
+<p>Dividing by mass <span class="math notranslate nohighlight">\(m\)</span> yields the <strong>specific form</strong></p>
+<div class="math notranslate nohighlight" id="eq-ideal-gas-specific-form">
+\[
+p{}v = R{}T
+\]</div>
+<p>where <span class="math notranslate nohighlight">\(v = V/m\)</span> is the specific volume (<span class="math notranslate nohighlight">\(\text{m}^3/\text{kg}\)</span>).</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: relation to the state postulate</p>
+<p>The relation <span class="math notranslate nohighlight">\(p{}v = R{}T\)</span> connects the three intensive variables introduced in <span class="xref std std-ref">the previous section</span> and is a particular realization of <a class="hxr-hoverxref hxr-tooltip reference internal" href="04_Characterization_of_substances.html#eq-general-state-equation"><span class="std std-ref">the generic state relation</span></a>.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="real-gases-and-deviations-from-ideal-behavior">
+<span id="subsec-real-gases"></span><h2>Real gases and deviations from ideal behavior<a class="headerlink" href="#real-gases-and-deviations-from-ideal-behavior" title="Link to this heading"></a></h2>
+<p>When gases are compressed or cooled, their behavior departs from that predicted by the ideal gas law. These deviations occur because real molecules <strong>occupy finite space</strong> and <strong>exert forces</strong> on each other — effects neglected in the ideal model. To quantify such departures, we introduce the <strong>compressibility factor</strong>:</p>
+<div class="math notranslate nohighlight" id="eq-compressibility-factor">
+\[
+Z = \frac{p{}v}{R{}T}
+\]</div>
+<p>For an ideal gas, <span class="math notranslate nohighlight">\(Z = 1\)</span>. If <span class="math notranslate nohighlight">\(Z &lt; 1\)</span>, attractive interactions dominate; if <span class="math notranslate nohighlight">\(Z &gt; 1\)</span>, repulsive effects prevail. The compressibility factor thus provides a compact, dimensionless measure of real-gas deviation.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: the meaning of <span class="math notranslate nohighlight">\(Z\)</span></p>
+<p>The compressibility factor <span class="math notranslate nohighlight">\(Z\)</span> quantifies how far a real gas deviates from the ideal law under a given combination of <span class="math notranslate nohighlight">\(p\)</span> and <span class="math notranslate nohighlight">\(T\)</span>.
+Plotting <span class="math notranslate nohighlight">\(Z\)</span> versus <span class="math notranslate nohighlight">\(p\)</span> for several gases at various temperatures reveals a common trend —
+they all approach <span class="math notranslate nohighlight">\(Z=1\)</span> at low pressure, showing that ideal-gas behavior is the limiting case of real gases.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="critical-properties-and-reduced-variables">
+<span id="subsec-reduced-variables"></span><h2>Critical properties and reduced variables<a class="headerlink" href="#critical-properties-and-reduced-variables" title="Link to this heading"></a></h2>
+<p>Experimental studies show that every substance exhibits a <strong>critical point</strong> beyond which the distinction between liquid and vapor disappears. This point is defined by three characteristic magnitudes: the <strong>critical pressure</strong> <span class="math notranslate nohighlight">\(p_c\)</span>, <strong>critical temperature</strong> <span class="math notranslate nohighlight">\(T_c\)</span>, and <strong>critical specific volume</strong> <span class="math notranslate nohighlight">\(v_c\)</span>.</p>
+<p>These values are experimentally measurable and provide a natural reference frame for comparing substances.
+Although the detailed meaning of “critical point” will be addressed later,
+we can already define the <strong>reduced variables</strong>:</p>
+<div class="math notranslate nohighlight" id="eq-reduced-variables">
+\[
+T_r = \frac{T}{T_c}, \qquad p_r = \frac{p}{p_c}, \qquad v_r = \frac{v}{v_c}
+\]</div>
+<p>Expressing thermodynamic relationships in terms of <span class="math notranslate nohighlight">\((T_r, p_r, v_r)\)</span> makes the behavior of different gases <strong>comparable on a universal basis</strong>, which is the essence of the <strong>law of corresponding states</strong>.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Tip: law of corresponding states</p>
+<p>When data for various gases are plotted in terms of the reduced variables <span class="math notranslate nohighlight">\((T_r, p_r, v_r)\)</span>, their compressibility curves collapse onto nearly the same surface. This empirical observation implies that the thermodynamic behavior of gases is fundamentally governed by non-dimensional ratios, not by their absolute properties.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="classical-and-modern-real-gas-models">
+<span id="subsec-cubic-models"></span><h2>Classical and modern real gas models<a class="headerlink" href="#classical-and-modern-real-gas-models" title="Link to this heading"></a></h2>
+<p>While <span class="math notranslate nohighlight">\(Z\)</span> serves as an excellent descriptor of real-gas behavior, we still need <strong>explicit equations</strong> linking <span class="math notranslate nohighlight">\(p\)</span>, <span class="math notranslate nohighlight">\(v\)</span>, and <span class="math notranslate nohighlight">\(T\)</span> to calculate states and processes.
+To this end, several <strong>semi-empirical EOS</strong> have been developed. These equations modify the ideal gas law by including corrective terms
+for <strong>finite molecular volume</strong> and <strong>intermolecular attractions</strong>.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: why cubic equations appear</p>
+<p>When the ideal gas law is corrected by one term proportional to <span class="math notranslate nohighlight">\(1/v^2\)</span> (to model attractions) and another that subtracts a finite volume <span class="math notranslate nohighlight">\(b\)</span> (to model repulsions),
+the resulting expression becomes <strong>cubic in specific volume</strong> <span class="math notranslate nohighlight">\(v\)</span>. That is why most classical EOS — van der Waals, Redlich–Kwong, Peng–Robinson —
+belong to the family of <strong>cubic EOS</strong>. They are the simplest algebraic forms capable of reproducing the experimentally observed S-shaped <span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(v\)</span> curves
+near phase transitions while remaining solvable in closed form.</p>
+</div>
+<ul>
+<li><p><strong>The van der Waals Equation</strong></p>
+<p>The first equation introducing both types of molecular corrections:</p>
+<div class="math notranslate nohighlight" id="eq-vanderwaals">
+\[
+  \bigl(p + a{}\tfrac{n^{2}}{V^{2}}\bigr)\bigl(V - n{}b\bigr) = n{}\text{R}_{\text{u}}{}T
+  \]</div>
+<p>where:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(a\)</span> corrects for <em>intermolecular attractions</em>,</p></li>
+<li><p><span class="math notranslate nohighlight">\(b\)</span> corrects for <em>finite molecular size</em>.</p></li>
+</ul>
+<p>When <span class="math notranslate nohighlight">\(a = b = 0\)</span>, the ideal gas law is recovered.</p>
+</li>
+<li><p><strong>The Redlich–Kwong Equation</strong></p>
+<p>An improvement introducing a temperature-dependent attraction term:</p>
+<div class="math notranslate nohighlight" id="eq-redlich-kwong">
+\[
+  p = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m{}(V_m + b)}
+  \]</div>
+<p>This model performs well for moderate pressures and high temperatures
+and remains algebraically simple.</p>
+</li>
+<li><p><strong>The Peng–Robinson Equation</strong></p>
+<p>Developed to improve accuracy near the critical and liquid regions:</p>
+<div class="math notranslate nohighlight" id="eq-peng-robinson">
+\[
+  p = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)}
+  \]</div>
+<p>with:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\alpha(T) = [1 + \kappa(1 - \sqrt{T/T_c})]^2\)</span>,</p></li>
+<li><p><span class="math notranslate nohighlight">\(\kappa = 0.37464 + 1.54226\omega - 0.26992\omega^2\)</span>,</p></li>
+<li><p>and <span class="math notranslate nohighlight">\(\omega\)</span> the <strong>acentric factor</strong> of the gas.</p></li>
+</ul>
+<p>The Peng–Robinson model is particularly effective for calculating vapor–liquid equilibria
+and is widely used in engineering thermodynamics.</p>
+</li>
+</ul>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: comparative accuracy</p>
+<ul class="simple">
+<li><p><strong>van der Waals</strong> — qualitative but oversimplified.</p></li>
+<li><p><strong>Redlich–Kwong</strong> — improved temperature behavior, moderate accuracy.</p></li>
+<li><p><strong>Peng–Robinson</strong> — high accuracy across vapor–liquid regions and near the critical point.</p></li>
+</ul>
+<p>Each of these equations can later be expressed in terms of the compressibility factor <span class="math notranslate nohighlight">\(Z\)</span>
+for cross-comparison and connection to theoretical expansions.</p>
+</div>
+<hr class="docutils" />
+</section>
+<section id="the-virial-eos">
+<span id="subsec-virial-equation"></span><h2>The Virial EOS<a class="headerlink" href="#the-virial-eos" title="Link to this heading"></a></h2>
+<p>Although cubic models offer practical engineering correlations, a more fundamental theoretical approach emerges from <strong>statistical mechanics</strong>, where the pressure of a gas is expanded in powers of density. This leads to the <strong>Virial EOS</strong>, expressed in terms of the compressibility factor:</p>
+<div class="math notranslate nohighlight" id="eq-virial-expansion">
+\[
+Z = 1 + \frac{B(T)}{v} + \frac{C(T)}{v^{2}} + \frac{D(T)}{v^{3}} + \cdots
+\]</div>
+<p>The coefficients <span class="math notranslate nohighlight">\(B(T)\)</span>, <span class="math notranslate nohighlight">\(C(T)\)</span>, and <span class="math notranslate nohighlight">\(D(T)\)</span> are known as the <strong>Virial coefficients</strong>,
+each corresponding to increasingly complex molecular interactions:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(B(T)\)</span> — pairwise interactions,</p></li>
+<li><p><span class="math notranslate nohighlight">\(C(T)\)</span> — three-body interactions,</p></li>
+<li><p><span class="math notranslate nohighlight">\(D(T)\)</span> — four-body and higher effects.</p></li>
+</ul>
+<p>At large <span class="math notranslate nohighlight">\(v\)</span> (low density), the higher-order terms vanish, and the ideal gas law is recovered. At moderate densities, the first few terms suffice to capture real-gas deviations.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: connection with cubic equations</p>
+<p>Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures (<span class="math notranslate nohighlight">\(p_r \ll 1\)</span>) or large specific volumes yields a <strong>Virial-type series</strong>. In that limit, the constants <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> from those cubic models can be expressed in terms of the Virial coefficients <span class="math notranslate nohighlight">\(B(T)\)</span> and <span class="math notranslate nohighlight">\(C(T)\)</span>. Therefore, the Virial equation represents the <strong>universal low-pressure limit</strong> of all real-gas models.</p>
+<p>In engineering practice, the series is often truncated after the first correction term:</p>
+<div class="math notranslate nohighlight" id="eq-virial-first-order">
+\[
+Z \approx 1 + \frac{B(T)}{v}
+\]</div>
+<p>Substituting into the ideal gas law yields:</p>
+<div class="math notranslate nohighlight" id="eq-virial-pressure-correction">
+\[
+p \approx \frac{R{}T}{v}\left(1 + \frac{B(T)}{v}\right)
+\]</div>
+<p>This <strong>first-order Virial approximation</strong> provides a convenient correction for real-gas effects at moderate pressures while remaining computationally simple.</p>
+<p>The truncated Virial expansion is accurate at <strong>low to moderate pressures</strong>, where intermolecular interactions are limited to short-range effects.</p>
+<p>At higher pressures or near the critical point, cubic equations such as Peng–Robinson offer better accuracy and thermodynamic consistency.</p>
+</div>
+<div class="note dropdown admonition">
+<p class="admonition-title">Note: the meaning and origin of the word <em>Virial</em></p>
+<p>The word <strong>“Virial”</strong> comes from the Latin term <em>vis</em>, meaning <em>force</em> or <em>strength</em>. It was first introduced by the German physicist <strong>Rudolf Clausius</strong> in 1870
+in the context of his studies on the mechanical theory of heat. Clausius used the expression <em>“virialis”</em> to denote the <em>energy associated with molecular forces</em>,
+and from it he formulated what is now known as the <strong>Virial Theorem</strong>.</p>
+<p>In essence, the Virial theorem relates the <strong>average kinetic energy</strong> of the molecules in a system to the <strong>average potential energy</strong> arising from their mutual interactions. From this mechanical relationship, Clausius derived a connection between microscopic forces and macroscopic pressure — a link that later gave birth to the <strong>Virial EOS</strong>, which expresses the pressure of a gas as a power series in density.</p>
+<p>So the term <em>Virial</em> refers to the “force-energy content” (<em>vis</em>) of a system, not to variance or series expansion. Each coefficient in the Virial equation represents the cumulative effect of molecular forces: two-body, three-body, and higher interactions. Thus, the name emphasizes the mechanical origin of the equation — it is fundamentally a <strong>force-derived</strong> expression of state.</p>
+</div>
+<hr class="docutils" />
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>WORKED EXAMPLE — pressure and compressibility of <span class="math notranslate nohighlight">\(\text{CO}_2\)</span> at <span class="math notranslate nohighlight">\(300 \ \text{K}\)</span></strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><strong>Problem statement</strong></p>
+<p class="sd-card-text">Determine the <strong>pressure</strong> and the <strong>compressibility factor</strong> <span class="math notranslate nohighlight">\(Z\)</span> for <strong>carbon dioxide</strong> under specified thermodynamic conditions, using both <strong>ideal</strong> and <strong>real gas models</strong>. The gas occupies a <strong>molar volume</strong> of <span class="math notranslate nohighlight">\(V_m = 0.01 \ \text{m}^3/\text{mol}\)</span> and is held at a <strong>temperature</strong> of <span class="math notranslate nohighlight">\(T = 300 \ \text{K}\)</span>. This corresponds to a near-critical condition for <span class="math notranslate nohighlight">\(\text{CO}_2\)</span>, making it a meaningful case for evaluating model fidelity.</p>
+<p class="sd-card-text">The following models are considered:</p>
+<ol class="arabic simple">
+<li><p class="sd-card-text">Ideal gas</p></li>
+<li><p class="sd-card-text">van der Waals</p></li>
+<li><p class="sd-card-text">Redlich–Kwong</p></li>
+<li><p class="sd-card-text">Peng–Robinson</p></li>
+<li><p class="sd-card-text">Virial (first-order approximation)</p></li>
+<li><p class="sd-card-text">Virial (second-order approximation)</p></li>
+</ol>
+<p class="sd-card-text"><strong>Synthesis</strong></p>
+<p class="sd-card-text">Different gas models are applied for computing the pressure of a mole of <span class="math notranslate nohighlight">\(\text{CO}_{2}\)</span> that occupies a <span class="math notranslate nohighlight">\(0.01 \ \text{m}^{3}\)</span> volume at a temperature of <span class="math notranslate nohighlight">\(T = 300 \ \text{K}\)</span>.</p>
+<hr class="docutils" />
+<p class="sd-card-text"><strong>Problem data</strong><span id="id1">[<a class="reference internal" href="#id4" title="R.C. Weast and Chemical Rubber Company. Handbook of Chemistry and Physics: A Ready-reference Book of Chemical and Physical Data. CRC handbook series. The Company, 1972. URL: https://books.google.es/books?id=vyvdSAAACAAJ.">1</a>, <a class="reference internal" href="#id3" title="Massachussets Institute of Technology. 4i. pressure-volume-temperature relationships of gases: virial coefficients. https://web.mit.edu/8.13/8.13c/references-fall/aip/aip-handbook-section4i.pdf, 1972.">2</a>]</span></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p class="sd-card-text">Quantity</p></th>
+<th class="head text-center"><p class="sd-card-text">Symbol</p></th>
+<th class="head text-center"><p class="sd-card-text">Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Temperature</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(300 \ \text{K}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Molar volume</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(V_m\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(0.01 \ \text{m}^3/\text{mol}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Universal gas constant</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(\text{R}_{\text{u}}\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(8.314 \ \text{J}/(\text{mol}\cdot\text{K})\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(a\)</span> (vdW–RK–PR)</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(a\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(0.364 \ \text{Pa}{\cdot}\text{m}^6/\text{mol}^2\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><span class="math notranslate nohighlight">\(b\)</span> (vdW–RK–PR)</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(b\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(4.27\times10^{-5} \ \text{m}^3/\text{mol}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Critical temperature</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(T_c\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(304.2 \ \text{K}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Critical pressure</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p_c\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(7.38\times10^6 \ \text{Pa}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Acentric factor</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(\omega\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(0.225\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text"><strong>2nd Virial coefficient</strong> (at <span class="math notranslate nohighlight">\(300 \ \text{K}\)</span>)</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(B\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(-121.5\times10^{-6} \ \text{m}^3/\text{mol}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text"><strong>3rd Virial coefficient</strong> (at <span class="math notranslate nohighlight">\(300 \ \text{K}\)</span>)</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(C\)</span></p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(5.2\times10^{-9} \ \text{m}^6/\text{mol}^2\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<ol class="arabic simple">
+<li><p class="sd-card-text"><strong>Computing reduced properties</strong></p></li>
+</ol>
+<div class="math notranslate nohighlight" id="eq-example-reduced-props">
+\[
+T_r = \frac{T}{T_c} = 0.986,
+\qquad
+p_r = \frac{p}{p_c}.
+\]</div>
+<p class="sd-card-text">Because <span class="math notranslate nohighlight">\(p\)</span> is to be determined, <span class="math notranslate nohighlight">\(p_r\)</span> will be evaluated separately for each model.</p>
+<hr class="docutils" />
+<ol class="arabic" start="2">
+<li><p class="sd-card-text">Calculating model predictions</p>
+<ul>
+<li><p class="sd-card-text"><strong>Ideal gas model</strong></p>
+<div class="math notranslate nohighlight" id="eq-example-ideal-gas">
+\[
+        \boxed{p = \frac{\text{R}_{\text{u}}{}T}{V_m} = 2.49\times10^{5} \ \text{Pa}} \ ,
+        \]</div>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{Z = \frac{p{}V_m}{\text{R}_{\text{u}}{}T} = 1.000} \ .
+        \]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p class="sd-card-text"><strong>van der Waals equation</strong></p>
+<div class="math notranslate nohighlight" id="eq-example-vdw">
+\[
+        \boxed{p = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - a{}\frac{1}{V_m^2}
+        = 2.13\times10^{5} \ \text{Pa}} \ ,
+        \]</div>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{Z = \frac{p{}V_m}{\text{R}_{\text{u}}{}T} = 0.857} \ .
+        \]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p class="sd-card-text"><strong>Redlich–Kwong equation</strong></p>
+<div class="math notranslate nohighlight" id="eq-example-rk">
+\[
+        \boxed{p = \frac{\text{R}_{\text{u}}{}T}{V_m - b} - \frac{a}{T^{1/2}{}V_m(V_m + b)} = 2.20\times10^{5} \ \text{Pa}} \ ,
+        \]</div>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{Z = 0.885} \ .
+        \]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p class="sd-card-text"><strong>Peng–Robinson equation</strong></p>
+<div class="math notranslate nohighlight" id="eq-example-pr">
+\[
+        p =
+        \frac{\text{R}_{\text{u}}{}T}{V_m - b} = \frac{a\alpha(T)}{V_m(V_m + b) + b(V_m - b)},
+        \]</div>
+<p class="sd-card-text">where:</p>
+<div class="math notranslate nohighlight">
+\[
+        \alpha(T) = [1 + \kappa(1 - \sqrt{T/T_c})]^2,
+        \qquad
+        \kappa = 0.37464 + 1.54226\omega - 0.26992\omega^2.
+        \]</div>
+<p class="sd-card-text">Numerically:</p>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{p = 2.25\times10^{5} \ \text{Pa}} \ ,
+        \]</div>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{Z = 0.905} \ .
+        \]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p class="sd-card-text"><strong>Virial equation (first-order approximation)</strong></p>
+<div class="math notranslate nohighlight" id="eq-example-virial">
+\[
+        \boxed{p = \frac{\text{R}_{\text{u}}{}T}{V_m}{}\left(1 + \frac{B}{V_m}\right) = 2.47\times10^{5}{} \ \text{Pa}} \ ,
+        \]</div>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{Z = 1 + \frac{B}{V_m} = 0.994} \ .
+        \]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p class="sd-card-text"><strong>Virial equation (second-order approximation)</strong></p>
+<div class="math notranslate nohighlight" id="eq-example-virial2">
+\[
+        \frac{C}{V_m^{2}} = \frac{5.2\times10^{-9}}{(0.01)^2} = 5.2\times10^{-5},
+        \]</div>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{Z = 1 - 0.01215 + 5.2\times10^{-5} = 0.98790} \ ,
+        \]</div>
+<div class="math notranslate nohighlight">
+\[
+        \boxed{p = \frac{\text{R}_{\text{u}}{}T}{V_m}{}Z \approx 2.4642\times10^{5}{}\text{Pa}} \ .
+        \]</div>
+</li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+<ol class="arabic" start="3">
+<li><p class="sd-card-text"><strong>Reduced-pressure evaluation</strong></p>
+<div class="math notranslate nohighlight" id="eq-example-reduced-pressure">
+\[
+    p_r = \frac{p}{p_c}.
+    \]</div>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p class="sd-card-text">Model</p></th>
+<th class="head text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p\)</span> [<span class="math notranslate nohighlight">\(\text{Pa}\)</span>]</p></th>
+<th class="head text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(Z\)</span></p></th>
+<th class="head text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(p_r\)</span></p></th>
+<th class="head text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(\Delta{}p\)</span> [%] vs Peng-Robinson</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Ideal gas</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(2.49{\times}10^5\)</span></p></td>
+<td class="text-center"><p class="sd-card-text">1.000</p></td>
+<td class="text-center"><p class="sd-card-text">0.0337</p></td>
+<td class="text-center"><p class="sd-card-text">+10.7</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">van der Waals</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(2.13{\times}10^5\)</span></p></td>
+<td class="text-center"><p class="sd-card-text">0.857</p></td>
+<td class="text-center"><p class="sd-card-text">0.0288</p></td>
+<td class="text-center"><p class="sd-card-text">−5.3</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Redlich–Kwong</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(2.20{\times}10^5\)</span></p></td>
+<td class="text-center"><p class="sd-card-text">0.885</p></td>
+<td class="text-center"><p class="sd-card-text">0.0298</p></td>
+<td class="text-center"><p class="sd-card-text">−2.2</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Peng–Robinson</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(2.25{\times}10^5\)</span></p></td>
+<td class="text-center"><p class="sd-card-text">0.905</p></td>
+<td class="text-center"><p class="sd-card-text">0.0305</p></td>
+<td class="text-center"><p class="sd-card-text">0.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p class="sd-card-text">Virial (1-term)</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(2.47{\times}10^5\)</span></p></td>
+<td class="text-center"><p class="sd-card-text">0.994</p></td>
+<td class="text-center"><p class="sd-card-text">0.0335</p></td>
+<td class="text-center"><p class="sd-card-text">+9.8</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p class="sd-card-text">Virial (2-term)</p></td>
+<td class="text-center"><p class="sd-card-text"><span class="math notranslate nohighlight">\(2.4642{\times}10^5\)</span></p></td>
+<td class="text-center"><p class="sd-card-text">0.98790</p></td>
+<td class="text-center"><p class="sd-card-text">0.0334</p></td>
+<td class="text-center"><p class="sd-card-text">+9.5</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<hr class="docutils" />
+<div class="tip dropdown admonition">
+<p class="admonition-title">Tip: interpretation</p>
+<p class="sd-card-text">At <span class="math notranslate nohighlight">\(T_r \approx 0.99\)</span>, <span class="math notranslate nohighlight">\(\text{CO}_2\)</span> lies close to its critical region.</p>
+<ul class="simple">
+<li><p class="sd-card-text">The <strong>ideal gas model</strong> overestimates pressure by about 10 %, since it neglects molecular attractions.</p></li>
+<li><p class="sd-card-text">The <strong>van der Waals model</strong> underestimates it slightly, as it overcorrects for cohesion.</p></li>
+<li><p class="sd-card-text"><strong>Redlich–Kwong</strong> and <strong>Peng–Robinson</strong> capture both repulsion and attraction more accurately, with the latter providing the best agreement.</p></li>
+<li><p class="sd-card-text">Finally, the <strong>Virial model</strong> nearly reproduces the ideal-gas prediction — a clear indication that it is reliable mainly at low pressures, where intermolecular forces become negligible.</p></li>
+<li><p class="sd-card-text">The one-term Virial approximation reduces the ideal-gas pressure only slightly (to <span class="math notranslate nohighlight">\(Z{}\approx{}0.988\)</span>), still <strong>overestimating</strong> by <span class="math notranslate nohighlight">\(\sim 9.5%\)</span> vs <strong>Peng–Robinson</strong>. Adding the <strong>third virial term</strong> changes <span class="math notranslate nohighlight">\(Z\)</span> by only <span class="math notranslate nohighlight">\(5.2\times10^{-5}\)</span>, so the two-term Virial approximation is practically identical here.</p></li>
+<li><p class="sd-card-text">Near-critical curvature of the <span class="math notranslate nohighlight">\(p\)</span>–<span class="math notranslate nohighlight">\(v\)</span>–<span class="math notranslate nohighlight">\(T\)</span> surface is captured much better by <strong>cubic EOS</strong> (Redlich-Kwong/Peng-Robinson) than by <strong>low-order Virial truncations</strong>.</p></li>
+</ul>
+</div>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">END OF WORKED EXAMPLE</p>
+</div>
+</div>
+<hr class="docutils" />
+</section>
+<section id="conceptual-closure">
+<span id="subsec-conceptual-closure-gases"></span><h2>Conceptual closure<a class="headerlink" href="#conceptual-closure" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>The <strong>ideal gas law</strong> (<span class="math notranslate nohighlight">\(p{}v = R{}T\)</span>) describes the low-density limit and satisfies <a class="hxr-hoverxref hxr-tooltip reference internal" href="04_Characterization_of_substances.html#eq-general-state-equation"><span class="std std-ref">the generic state relation</span></a>.</p></li>
+<li><p><strong>Real-gas</strong> behavior requires corrections for finite size and interactions — via <a class="hxr-hoverxref hxr-tooltip reference internal" href="#eq-vanderwaals"><span class="std std-ref">van der Waals</span></a>, <a class="hxr-hoverxref hxr-tooltip reference internal" href="#eq-redlich-kwong"><span class="std std-ref">Redlich–Kwong</span></a>, <span class="xref std std-ref">Virial</span>, and <a class="hxr-hoverxref hxr-tooltip reference internal" href="#eq-peng-robinson"><span class="std std-ref">Peng–Robinson</span></a>.</p></li>
+<li><p>For broad engineering conditions, <strong>Peng–Robinson</strong> typically offers the best accuracy–simplicity balance; <strong>Redlich–Kwong</strong> is a solid lighter-weight alternative.</p></li>
+<li><p>Truncated <strong>virial</strong> forms remain valuable for dilute gases but are not the most accurate at moderate densities or near phase boundaries.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="references">
+<span id="subsec-references-ideal-and-real-gases"></span><h2>References<a class="headerlink" href="#references" title="Link to this heading"></a></h2>
+<div class="docutils container" id="id2">
+<div role="list" class="citation-list">
+<div class="citation" id="id4" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>R.C. Weast and Chemical Rubber Company. <em>Handbook of Chemistry and Physics: A Ready-reference Book of Chemical and Physical Data</em>. CRC handbook series. The Company, 1972. URL: <a class="reference external" href="https://books.google.es/books?id=vyvdSAAACAAJ">https://books.google.es/books?id=vyvdSAAACAAJ</a>.</p>
+</div>
+<div class="citation" id="id3" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">2</a><span class="fn-bracket">]</span></span>
+<p>Massachussets Institute of Technology. 4i. pressure-volume-temperature relationships of gases: virial coefficients. <a class="reference external" href="https://web.mit.edu/8.13/8.13c/references-fall/aip/aip-handbook-section4i.pdf">https://web.mit.edu/8.13/8.13c/references-fall/aip/aip-handbook-section4i.pdf</a>, 1972.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="04_Characterization_of_substances.html" class="btn btn-neutral float-left" title="Characterization of substances" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="06_P-v-T_diagrams.html" class="btn btn-neutral float-right" title="\(p-v-T\) diagrams" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Mondragon Goi Eskola Politeknikoa (MGEP), TEFLU.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
