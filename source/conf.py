@@ -96,6 +96,11 @@ togglebutton_hint_none = True
 # Point to your .bib file(s)
 bibtex_bibfiles = ["references.bib"]
 
-# (optional) Formatting settings
+# Formatting settings
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
+
+# LaTeX settings.
+latex_elements = {
+    "tocdepth": "2"
+}
