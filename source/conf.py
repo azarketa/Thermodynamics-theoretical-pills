@@ -30,7 +30,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
     # 'sphinx.ext.imgconverter',
-    "sphinxcontrib.cairosvgconverter"
+    "sphinxcontrib.cairosvgconverter",
     'hoverxref.extension'
 ]
 
