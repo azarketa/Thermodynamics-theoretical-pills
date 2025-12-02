@@ -100,6 +100,7 @@ bibtex_bibfiles = ["references.bib"]
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
 
+
 # LaTeX settings.
 latex_elements = {
     "tocdepth": "2"
