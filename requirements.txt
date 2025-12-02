@@ -8,3 +8,5 @@ nbsphinx
 jupyter_sphinx
 sphinx-hoverxref
 sphinx-togglebutton
+sphinxcontrib-svg2pdfconverter
+sphinxcontrib.inkscapeconverter

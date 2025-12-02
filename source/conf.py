@@ -29,7 +29,8 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
-    'sphinx.ext.imgconverter',
+    # 'sphinx.ext.imgconverter',
+    "sphinxcontrib.inkscapeconverter",
     'hoverxref.extension'
 ]
 
