@@ -133,8 +133,8 @@ latex_elements = {
           % --- NEW: logo in the header, outer side each page ---
           % LO = Left header, Odd pages   (so logo on left of odd pages)
           % RE = Right header, Even pages (so logo on right of even pages)
-          \fancyhead[LO]{\includegraphics[height=0.9cm]{_static/MGEP_logo.svg}}%
-          \fancyhead[RE]{\includegraphics[height=0.9cm]{_static/MGEP_logo.svg}}%
+          \fancyhead[LO]{{\scalebox{0.25}{\includegraphics{_static/MGEP_logo.pdf}}}}%
+          \fancyhead[RE]{{\scalebox{0.25}{\includegraphics{_static/MGEP_logo.pdf}}}}%
 
           \renewcommand{\headrulewidth}{0.4pt}%
           \renewcommand{\footrulewidth}{0.4pt}%
@@ -186,7 +186,7 @@ latex_documents = [
     ("index",
      "teflu.tex",
      "Thermal and Fluids Engineering: Theoretical Pills",
-     "Mondragon Higher Polytechnic School, TEFLU",
+     "Mondragon Goi Eskola Politeknikoa, TEFLU",
      "manual",
      False),
 ]
