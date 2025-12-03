@@ -508,12 +508,15 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{gather}
+   \begin{equation*}
    \boxed{T_2 = 227.4~\mathrm{K}}, \quad
-   \boxed{Q = -53.9~\mathrm{kJ}}, \\[10pt]
+   \boxed{Q = -53.9~\mathrm{kJ}},
+   \end{equation*}
+   $$
+
+   $$
    \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
    \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}} \ .
-   \end{gather}
    $$
 
 ---
@@ -573,12 +576,15 @@ Path relations used to obtain $T_2$:
    $$
    
    $$
-   \begin{gather}
+   \begin{equation*}
    \boxed{T_2 = 600.0~\mathrm{K}}, \quad
-   \boxed{Q = +35.1~\mathrm{kJ}}, \\[10pt]
+   \boxed{Q = +35.1~\mathrm{kJ}},   
+   \end{equation*}
+   $$
+
+   $$
    \boxed{\Delta U = +222.6~\mathrm{kJ}}, \quad
    \boxed{\Delta E_{\mathrm{mech.}} = -276.5~\mathrm{kJ}} \ .
-   \end{gather}
    $$
 
 ---
@@ -605,12 +611,15 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{gather}
+   \begin{equation*}
    \boxed{T_2 = 300.0~\mathrm{K}}, \quad
-   \boxed{Q = +7.8~\mathrm{kJ}}, \\[10pt]
+   \boxed{Q = +7.8~\mathrm{kJ}},
+   \end{equation*}
+   $$
+
+   $$
    \boxed{\Delta U = 0.0~\mathrm{kJ}}, \quad
    \boxed{\Delta E_{\mathrm{mech.}} = -53.9~\mathrm{kJ}} \ .
-   \end{gather}
    $$
 
 ---
@@ -642,12 +651,15 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{gather}
+   \begin{equation*}
    \boxed{T_2 = 227.4~\mathrm{K}}, \quad
-   \boxed{Q = 0.0~\mathrm{kJ}}, \\[10pt]
+   \boxed{Q = 0.0~\mathrm{kJ}},
+   \end{equation*}
+   $$
+
+   $$
    \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
    \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}} \ .
-   \end{gather}
    $$
 
 ---
@@ -687,13 +699,16 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{gather}
+   \begin{equation*}
    \boxed{T_2 = 261.2~\mathrm{K}}, \quad
    \boxed{Q = +11.1~\mathrm{kJ}}, \quad
-   \boxed{\Delta U = -28.8~\mathrm{kJ}}, \\[10pt]
+   \boxed{\Delta U = -28.8~\mathrm{kJ}},
+   \end{equation*}
+   $$
+
+   $$
    \boxed{\Delta E_{\mathrm{mech.}} = -25.1~\mathrm{kJ}}, \quad
    \boxed{c = -0.737 \ \text{kJ}/\left(\text{kg}\cdot\text{K}\right)} \ .
-   \end{gather}
    $$
 
 ---

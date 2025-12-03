@@ -233,20 +233,23 @@ $$
         $$
         
         $$
-        \boxed{p_{\text{v}} = 23.4 \ \text{kPa}}, \qquad \boxed{p_{\text{a}}=77.925\ \text{kPa}}.
+        \boxed{p_{\text{v}} = 23.4 \ \text{kPa}}, \qquad \boxed{p_{\text{a}}=77.925 \ \text{kPa}}.
         $$
 
     * **Humidity ratio:**
 
         $$
-        \begin{gather}
-        \omega = 0.62198{}\frac{23.4}{101.325-23.4} = \\[10pt]
+        \begin{equation*}
+        \omega = 0.62198{}\frac{23.4}{101.325-23.4} =
+        \end{equation*}
+        $$
+
+        $$
         = 0.62198{}\frac{23.4}{77.925} = 0.62198\times 0.3004 = 0.1868.
-        \end{gather}
         $$
         
         $$
-        \boxed{\omega_{70} = 0.1868\ \text{kg}_{\text{v}}/\text{kg}_{\text{a}}}.
+        \boxed{\omega_{70} = 0.1868 \ \text{kg}_{\text{v}}/\text{kg}_{\text{a}}}.
         $$
 
     * **Masses in the room:**
@@ -290,10 +293,13 @@ $$
         Interpolating between $60 \ {^\circ}\text{C}$ and $65 \ {^\circ}\text{C}$:
   
         $$
-        \begin{gather}
-        T_{\text{dp},70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\[10pt]
+        \begin{equation*}
+        T_{\text{dp},70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} =        
+        \end{equation*}
+        $$
+
+        $$
         = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
-        \end{gather}
         $$
 
         $$
@@ -321,10 +327,13 @@ $$
     * **Humidity ratio:**
 
         $$
-        \begin{gather}
-        \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} = \\[10pt]
+        \begin{equation*}
+        \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} =        
+        \end{equation*}
+        $$
+
+        $$
         = 0.62198{}\frac{1.754}{99.57075} = 0.62198 \times 0.01762 = 0.01096.
-        \end{gather}
         $$
         
         $$
@@ -369,12 +378,15 @@ $$
         Interpolating between $15 \ ^{\circ}\text{C}$ and $20 \ ^{\circ}\text{C}$:
   
         $$
-        \begin{gather}
-        T_{\text{dp},20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\[10pt]
-        = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
-        \end{gather}
+        \begin{equation*}
+        T_{\text{dp},20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} =        
+        \end{equation*}
         $$
-        
+
+        $$
+        = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
+        $$
+
         $$
         \boxed{T_{\text{dp},20} \approx 15.4 \ ^\circ\text{C}}.
         $$

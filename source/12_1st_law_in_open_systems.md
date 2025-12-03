@@ -208,10 +208,13 @@ Due to the {ref}`work decomposition relation <eq_decomposition_work_contribution
 
 (eq_shaft_work_expression)=
 $$
-\begin{gather*}
-\delta{}w = \delta{}w_{\text{shaft}} + \delta{}w_{\text{flow}} \implies p\mathrm{d}v = \delta{}w_{\text{shaft}} + \mathrm{d}(pv) = \delta{}w_{\text{shaft}} + p\mathrm{d}v + v\mathrm{d}p \implies\\[10pt]
+\begin{equation*}
+\delta{}w = \delta{}w_{\text{shaft}} + \delta{}w_{\text{flow}} \implies p\mathrm{d}v = \delta{}w_{\text{shaft}} + \mathrm{d}(pv) = \delta{}w_{\text{shaft}} + p\mathrm{d}v + v\mathrm{d}p \implies
+\end{equation*}
+$$
+
+$$
 \implies \boxed{\delta{}w_{\text{shaft}} = -v(p)\mathrm{d}p} \ , \qquad \boxed{w_{\text{shaft}} = -\int_{p_1}^{p_2} v(p)\mathrm{d}p} \ .
-\end{gather*}
 $$
 
 :::

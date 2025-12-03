@@ -93,19 +93,25 @@ To illustrate this quantitatively, consider two heat engines, **A** and **B**, e
 Their **reversible (Carnot) efficiencies** are:
 
 $$
-\begin{gather*}
-\eta_{\text{th.,rev.,A}} = 1 - \frac{300}{600} = 0.50, \\[10pt]
+\begin{equation*}
+\eta_{\text{th.,rev.,A}} = 1 - \frac{300}{600} = 0.50,
+\end{equation*}
+$$
+
+$$
 \eta_{\text{th.,rev.,B}} = 1 - \frac{300}{1000} = 0.70.
-\end{gather*}
 $$
 
 Accordingly, their **$2^{\text{nd}}$-law efficiencies** are:
 
 $$
-\begin{gather*}
-\eta_{II,\text{A}} = \frac{0.30}{0.50} = 0.60, \\[10pt]
+\begin{equation*}
+\eta_{II,\text{A}} = \frac{0.30}{0.50} = 0.60,
+\end{equation*}
+$$
+
+$$
 \eta_{II,\text{B}} = \frac{0.30}{0.70} \approx 0.43.
-\end{gather*}
 $$
 
 Although both engines transform the same *fraction* of heat into work, engine **A** achieves its performance **under less favorable conditions** and thus operates **closer to its reversible limit**. This shows that $\eta_{II}$ measures not just *how much* energy is converted, but *how well* the system performs relative to its theoretical potential.
