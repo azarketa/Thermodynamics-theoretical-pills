@@ -56,16 +56,18 @@ Given that the enthalpy of saturated water vapor at $0 \ ^{\circ}\mathrm{C}$ is 
 (eq_hg_approximation)=
 $$h_g(T) \simeq h_g(0 \ ^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ [\mathrm{kJ/kg}]$$
 
-:::{note} Note: ideal-gas assumption for water vapor
-:class: dropdown
+:::{note}
+
+**IDEAL-GAS ASSUMPTION FOR WATER VAPOR**
 
 Treating water vapor as an ideal gas implies a small accuracy loss, but it is negligible under typical atmospheric conditions. At $50 \ ^{\circ}\mathrm{C}$, the saturation pressure of water is $12.3 \ \mathrm{kPa}$. Below this pressure, water vapor behaves as an **ideal gas** with an error below $0.2%$, even in saturated states.
 Thus, water vapor enthalpy depends **only on temperature**, $h_{\text{v}}{}={}h(T)$.
 
 :::
 
-:::{note} Note: the temperature reference for enthalpy calculation
-:class: dropdown
+:::{note}
+
+**THE TEMPERATURE REFERENCE FOR ENTHALPY CALCULATION**
 
 The expression for {ref}`the enthalpy variation of dry air <eq_h_dry_air>` shows, apparently, that the enthalpy at a given thermodynamic state can be computed **in absolute terms**. Thermodynamics, however, does not provide any means of calculating absolute energetic values, but **differences of energies** (or enthalpies, or entropies). Indeed, as the reference temperature is set at $0 \ ^{\circ}\text{C}$, and there is a **linear relationship** between $^{\circ}\text{C}$ and $K$ (a temperature difference of $X \ ^{\circ}\text{C}$ is the same as a difference of $X \ \text{K}$), it is possible to **drop the reference temperature** term from the expression. Formally, though, the expression should have read:
 
@@ -77,8 +79,9 @@ $$\Delta{}h_{i\to{}f} = c_p{}\left(\Delta{}T_{0\to{}f} - \Delta{}T_{0\to{}i}\rig
 
 :::
 
-:::{tip} Tip: approximate evaluation of humid-air enthalpy
-:class: dropdown
+:::{tip}
+
+**APPROXIMATE EVALUATION OF HUMID-AIR ENTHALPY**
 
 When performing psychrometric calculations, use {ref}`dry-air enthalpy <eq_h_dry_air>` for the dry portion and {ref}`water-vapor enthalpy <eq_hg_approximation>` for the vapor portion. Both can be combined later to express the total enthalpy of humid air per unit mass of dry air.
 :::
@@ -125,14 +128,18 @@ and, dividing by $m_a$:
 (eq_specific_enthalpy_humid_air)=
 $$h{}={}h_a{}+{}\frac{m_{\text{v}}}{m_a}{}h_{\text{v}}{}={}h_a{}+{}\omega{}h_{\text{v}} \quad [\mathrm{kJ/kg_{dry,air}}]$$
 
-:::{note} Note: reference basis for humid-air properties
-:class: dropdown
+:::{note}
+
+**REFERENCE BASIS FOR HUMID-AIR PROPERTIES**
 
 In psychrometric calculations, properties are commonly expressed **per kilogram of dry air** rather than per kilogram of total mixture.
 This simplifies comparisons, since $m_a$ remains constant while $m_{\text{v}}$ varies with humidity and temperature.
 :::
 
-:::{warning} Important: physical meaning of relative humidity
+:::{important}
+
+**PHYSICAL MEANING OF RELATIVE HUMIDITY**
+
 The relative humidity $\phi$ ranges from 0 (dry air) to 1 (saturated air).
 As temperature increases, the capacity of air to hold water vapor grows, so $\phi$ changes even when $\omega$ (the actual vapor content) remains constant.
 :::
@@ -154,12 +161,14 @@ In thermodynamic terms, it is the **saturation temperature** of water correspond
 $$T_{\text{dp}}{}={}T_{\text{sat @ }p_{\text{v}}}$$
 
 :::{note} Note: meaning of dew-point temperature
-:class: dropdown
+
 
 The dew point reflects the **actual moisture content** of air: higher $T_{\text{dp}}$ values imply greater vapor content. When air is cooled to its dew point, condensation begins, marking the transition from unsaturated to saturated conditions.
 :::
 
-::::{important} **WORKED EXAMPLE - water and air contents in a sauna**
+::::{important}
+
+**WORKED EXAMPLE - WATER AND AIR CONTENTS IN A SAUNA**
 
 **Problem statement**
 
@@ -398,8 +407,10 @@ $$
 
 ---
 
-:::{tip} Tip: physical implication of real cooling
-:class: dropdown
+:::{tip}
+
+**PHYSICAL IMPLICATION OF REAL COOLING**
+
 In practice, if the $70 \ ^{\circ}\text{C}$ air were cooled in a closed volume without dehumidification, most of the water vapor could not remain in the gaseous phase; about **$4 \ \text{kg}$** of liquid water would **condense** on walls and benches to re-establish saturation at low temperature.
 :::
 

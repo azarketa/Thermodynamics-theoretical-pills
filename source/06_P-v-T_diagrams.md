@@ -45,7 +45,9 @@ The system is slowly heated by a thermal source such as a small burner.
    If heating continues beyond the saturated vapor state, the temperature rises above the saturation temperature.
    The vapor expands, the piston ascends further, and the gas approximately follows {ref}`the ideal-gas law <eq_ideal_gas_specific_form>`. The fluid in this region is the **superheated vapor**.
 
-:::{warning} Important: key observations in the $T-v$ diagram
+:::{important}
+
+**KEY OBSERVATIONS IN THE $T-v$ DIAGRAM**
 
 * The **specific volume** of liquid water remains nearly constant until boiling begins.
 * The **phase change** appears as a **horizontal line** (constant $T$ and $p$).
@@ -82,8 +84,9 @@ This leads to two major conclusions:
     
     Supercritical fluids exhibit properties intermediate between those of gases and liquids and are used in specialized applications such as solvent extraction and supercritical drying.
 
-:::{note} Note: pressure cookers and high-altitude boiling
-:class: dropdown
+:::{note}
+
+**PRESSURE COOKERS AND HIGH-ALTITUDE BOILING**
 
 * In a **pressure cooker**, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above $100 \ ^{\circ}\text{C}$ and thus cook food faster.
 * On the other hand, atop **Mount Everest**, where $p_{\text{atm}} \approx 34 \ \text{kPa}$, water boils at about $86 \ ^{\circ}\text{C}$.
@@ -122,8 +125,9 @@ The resulting **$p-v$ diagram** shows similar features to the $T-v$ projection:
 
 The bell-shaped envelope again separates the single-phase regions from the two-phase mixture.
 
-:::{note} Note: comparison between $T-v$ and $p-v$ diagrams
-:class: dropdown
+:::{note}
+
+**COMPARISON BETWEEN $T-v$ AND $p-v$ DIAGRAMS**
 
 * In the **liquid region**, specific volume varies little with $T$ or $p$.
 * In the **vapor region**, $p$ is inversely proportional to $v$ (Boyle–Mariotte law).
@@ -155,7 +159,6 @@ At still lower pressures, other transitions appear:
 ---
 
 (subsec_pt_projection)=
-
 ### The $p-T$ projection (phase diagram)
 
 The **$p-T$ diagram**, or **phase diagram**, presents the phase boundaries more compactly.
@@ -172,8 +175,9 @@ The slope of the **fusion line** reveals whether a substance **expands** or **co
 * Positive slope: volume decreases upon solidification (most substances).
 * Negative slope: volume increases (water).
 
-:::{note} Note: interpretation of process lines
-:class: dropdown
+:::{note}
+
+**INTERPRETATION OF PROCESS LINES**
 
 * **Vertical lines** correspond to isothermal processes (constant $T$).
 * **Horizontal lines** correspond to isobaric processes (constant $p$).
@@ -205,7 +209,9 @@ $$
 This intensive parameter ranges from $x=0$ (saturated liquid) to $x=1$ (saturated vapor).
 In the two-phase region, all other properties can be expressed as mass-weighted averages of their saturated-liquid and saturated-vapor values.
 
-::::{important} **WORKED EXAMPLE — locating water states on the $p–v–T$ diagram**
+::::{important}
+
+**WORKED EXAMPLE — LOCATING WATER STATES ON THE $p–v–T$ DIAGRAM**
 
 **Problem statement**
 
@@ -326,8 +332,9 @@ For each thermodynamic state of **water**, determine the requested properties by
 
 ---
 
-:::{tip} Tip: reading the $p–v–T$ surface
-:class: dropdown 
+:::{tip}
+ 
+**READING THE $p-v-T$ SURFACE**
 
 * Fixing $p$ and $T$ (case a) selects an **isobar–isotherm** point; comparing $T$ with $T_\text{sat}(p)$ tells whether the state lies **inside** (mixture) or **outside** (superheated/subcooled) the dome.
 * Fixing $p$ and $u$ (case b) near $u_f$ pins the state to the **saturated liquid** line at $T_\text{sat}(p)$, so $v=v_f(p)$.
@@ -337,7 +344,6 @@ For each thermodynamic state of **water**, determine the requested properties by
   :::
 
 ::::
-
 
 ---
 

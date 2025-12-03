@@ -47,7 +47,6 @@ To understand its position among the physical sciences, it is useful to compare 
   Thermodynamics does not describe trajectories or molecular mechanisms — it sets the **boundaries of the possible**.
 
 :::{note}
-:class: dropdown
 
 **WHY THERMODYNAMICS CONSTRAINS OTHER DISCIPLINES**
 
@@ -133,7 +132,7 @@ It reveals the cost of change, the limits of efficiency, and the reason why perf
 :::
 
 :::{note}
-:class: dropdown
+
 
 **A BROADER VIEW — THERMODYNAMICS AS A HIERARCHICAL AND UNIVERSAL FRAMEWORK**
 

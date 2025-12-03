@@ -105,20 +105,6 @@ latex_engine = "xelatex"
 # LaTeX settings.
 latex_elements = {
     
-    "preamble": r"""
-        \usepackage{graphicx}
-        
-        % Save original macro
-        \let\origSphinxSection\sphinxsection
-
-        % Redefine it with custom spacing
-        \renewcommand{\sphinxsection}[2]{
-          \vspace*{1.2em}       % space BEFORE the section title
-          \origSphinxSection{#1}{#2}
-          \vspace{0.2em}        % space AFTER the section title
-        } 
-        """,
-    
     "tableofcontents": r"""
         \begingroup
           \setcounter{tocdepth}{1} % 0=chapter, 1=section, 2=subsection, ...
@@ -149,7 +135,7 @@ latex_elements = {
     
     # Optional: paper size, base font size
     "papersize": "a4paper",
-    "pointsize": "11pt",    
+    "pointsize": "10pt",    
 }
 
 latex_documents = [

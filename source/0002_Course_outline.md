@@ -48,7 +48,6 @@ This first block builds the conceptual and mathematical tools required to analyz
   Provides a unified framework for quantifying the *quality* of energy and losses across systems.
 
 :::{note}
-:class: dropdown
 
 **A SUMMARY OF THE FUNDAMENTALS OUTLINE**
 
@@ -92,7 +91,6 @@ It explores both *idealized* cycles (as baselines) and *realistic* configuration
   Explains pressure mismatch and efficiency trends in propulsion contexts.
 
 :::{note}
-:class: dropdown
 
 **A SUMMARY OF THE GAS CYCLES OUTLINE**
 
@@ -128,7 +126,6 @@ They are modeled as **air-standard cycles**, providing idealized references for 
   Introduces simple correction factors or empirical performance coefficients used in practical assessments.
 
 :::{note}
-:class: dropdown
 
 **A SUMMARY OF THE ICRES OUTLINE**
 
@@ -178,7 +175,6 @@ It establishes the link between heat addition, expansion, condensation, and rege
   Emphasizes overall efficiency gains through energy cascading and waste-heat utilization.
 
 :::{note}
-:class: dropdown
 
 **A SUMMARY OF THE STEAM CYCLES OUTLINE**
 
