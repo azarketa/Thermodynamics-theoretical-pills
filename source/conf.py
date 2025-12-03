@@ -105,7 +105,13 @@ latex_engine = "xelatex"
 # LaTeX settings.
 latex_elements = {
 
-    "tocdepth": "2",
+    "preamble": r"""
+        % Start every \section on a new page
+        \let\origsection\section
+        \renewcommand{\section}{\clearpage\origsection}
+    """,
+
+    "tocdepth": "1",
     
     "sphinxsetup": r"""
         % note / hint / important / tip (the “light” boxes)
@@ -118,7 +124,7 @@ latex_elements = {
         tipborder=0.8pt,
 
         % warning / danger / … (the “heavy” boxes)
-        warningBgColor={RGB}{255,250,230},
+        warningBgColor={RGB}{255,237,204},
         warningBorderColor={RGB}{220,160,0},
         warningborder=1pt,
     """,    

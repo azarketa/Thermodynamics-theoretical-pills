@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.63118804"
-     inkscape:cx="170.31375"
+     inkscape:cx="171.1059"
      inkscape:cy="328.74514"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -65,121 +65,123 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-27.875806,-27.889246)">
-    <path
-       style="fill:#de8787;stroke:#de8787;stroke-width:1.12028;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 31.419162,78.443203 V 59.813054 l 9.848789,-7.305479 9.848789,-7.305479 h 18.608495 18.608492 l -0.0763,18.886453 -0.07629,18.886455 -9.48503,7.045556 -9.485029,7.045555 -18.895959,0.0036 -18.895957,0.0036 z"
-       id="path18" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 69.339321,97.802722 89.102472,83.13954"
-       id="path6" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 69.339323,59.349875 89.102465,44.686693"
-       id="path6-4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 30.886476,59.349875 50.649619,44.686693"
-       id="path6-4-4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 30.886476,97.802724 50.649619,83.139541"
-       id="path6-4-47" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 30.886476,59.349875 H 69.339324"
-       id="path11" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 50.649623,44.686691 H 89.102471"
-       id="path11-0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 31.033162,97.704271 H 69.48601"
-       id="path11-05" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 50.502933,83.237994 H 88.955781"
-       id="path11-3" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 69.486009,97.704268 V 59.349875"
-       id="path12" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 88.955781,83.237992 V 44.68669"
-       id="path13" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 30.886476,97.802723 V 59.349875"
-       id="path14" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 50.649618,83.139541 V 44.68669"
-       id="path15" />
-    <path
-       style="fill:#8080ff;stroke:#8080ff;stroke-width:1.12028;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 120.41712,78.4432 V 59.813052 l 9.84879,-7.305479 9.84879,-7.305479 h 18.60849 18.60849 l -0.0763,18.886453 -0.0763,18.886455 -9.48503,7.045555 -9.48503,7.045556 -18.89596,0.004 -18.89595,0.004 z"
-       id="path18-5" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 158.33728,97.802723 178.10043,83.139538"
-       id="path6-9" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 158.33728,59.349873 178.10042,44.686691"
-       id="path6-4-46" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 119.88443,59.349873 139.64757,44.686691"
-       id="path6-4-4-9" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 119.88443,97.802723 139.64757,83.139539"
-       id="path6-4-47-0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 119.88443,59.349873 h 38.45285"
-       id="path11-1" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 139.64758,44.686689 h 38.45285"
-       id="path11-0-4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 120.03112,97.704273 h 38.45284"
-       id="path11-05-0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 139.50089,83.237992 h 38.45285"
-       id="path11-3-2" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 158.48396,97.704263 V 59.349873"
-       id="path12-0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 177.95374,83.23799 V 44.686688"
-       id="path13-4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 119.88443,97.802723 V 59.349873"
-       id="path14-4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 139.64757,83.139539 V 44.686688"
-       id="path15-5" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="51.972969"
-       y="110.78438"
-       id="text20"><tspan
-         sodipodi:role="line"
-         id="tspan20"
-         style="stroke-width:1"
-         x="51.957092"
-         y="110.78438">(m<tspan
+    <g
+       id="g1">
+      <path
+         style="fill:#de8787;stroke:#de8787;stroke-width:1.12028;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 31.419162,78.443203 V 59.813054 l 9.848789,-7.305479 9.848789,-7.305479 h 18.608495 18.608492 l -0.0763,18.886453 -0.07629,18.886455 -9.48503,7.045556 -9.485029,7.045555 -18.895959,0.0036 -18.895957,0.0036 z"
+         id="path18" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 69.339321,97.802722 89.102472,83.13954"
+         id="path6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 69.339323,59.349875 89.102465,44.686693"
+         id="path6-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 30.886476,59.349875 50.649619,44.686693"
+         id="path6-4-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 30.886476,97.802724 50.649619,83.139541"
+         id="path6-4-47" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 30.886476,59.349875 H 69.339324"
+         id="path11" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 50.649623,44.686691 H 89.102471"
+         id="path11-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 31.033162,97.704271 H 69.48601"
+         id="path11-05" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 50.502933,83.237994 H 88.955781"
+         id="path11-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 69.486009,97.704268 V 59.349875"
+         id="path12" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 88.955781,83.237992 V 44.68669"
+         id="path13" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 30.886476,97.802723 V 59.349875"
+         id="path14" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 50.649618,83.139541 V 44.68669"
+         id="path15" />
+      <path
+         style="fill:#8080ff;stroke:#8080ff;stroke-width:1.12028;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 120.41712,78.4432 V 59.813052 l 9.84879,-7.305479 9.84879,-7.305479 h 18.60849 18.60849 l -0.0763,18.886453 -0.0763,18.886455 -9.48503,7.045555 -9.48503,7.045556 -18.89596,0.004 -18.89595,0.004 z"
+         id="path18-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 158.33728,97.802723 178.10043,83.139538"
+         id="path6-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 158.33728,59.349873 178.10042,44.686691"
+         id="path6-4-46" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 119.88443,59.349873 139.64757,44.686691"
+         id="path6-4-4-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 119.88443,97.802723 139.64757,83.139539"
+         id="path6-4-47-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 119.88443,59.349873 h 38.45285"
+         id="path11-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 139.64758,44.686689 h 38.45285"
+         id="path11-0-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 120.03112,97.704273 h 38.45284"
+         id="path11-05-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 139.50089,83.237992 h 38.45285"
+         id="path11-3-2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 158.48396,97.704263 V 59.349873"
+         id="path12-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 177.95374,83.23799 V 44.686688"
+         id="path13-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 119.88443,97.802723 V 59.349873"
+         id="path14-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 139.64757,83.139539 V 44.686688"
+         id="path15-5" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         x="51.972969"
+         y="110.78438"
+         id="text20"><tspan
+           sodipodi:role="line"
+           id="tspan20"
+           style="stroke-width:1"
+           x="51.957092"
+           y="110.78438">(m<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan22">A</tspan>, V<tspan
    style="font-size:65%;baseline-shift:sub"
@@ -188,17 +190,17 @@
    id="tspan24">A</tspan>, p<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan23">A</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="143.99815"
-       y="110.78438"
-       id="text20-1"><tspan
-         sodipodi:role="line"
-         id="tspan20-8"
-         style="stroke-width:1"
-         x="143.98228"
-         y="110.78438">(m<tspan
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         x="143.99815"
+         y="110.78438"
+         id="text20-1"><tspan
+           sodipodi:role="line"
+           id="tspan20-8"
+           style="stroke-width:1"
+           x="143.98228"
+           y="110.78438">(m<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan22-3">B</tspan>, V<tspan
    style="font-size:65%;baseline-shift:sub"
@@ -207,194 +209,195 @@
    id="tspan24-9">B</tspan>, p<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan23-0">B</tspan>)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="59.82811"
-       y="33.115459"
-       id="text25"><tspan
-         sodipodi:role="line"
-         id="tspan25"
-         style="stroke-width:1"
-         x="59.812237"
-         y="33.115459">System A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="148.94836"
-       y="33.115459"
-       id="text25-2"><tspan
-         sodipodi:role="line"
-         id="tspan25-4"
-         style="stroke-width:1"
-         x="148.9325"
-         y="33.115459">System B</tspan></text>
-    <path
-       style="fill:#b3b3b3;stroke:#b3b3b3;stroke-width:1.58431;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 56.697973,219.05854 v -18.5975 l 9.699191,-7.18226 9.699194,-7.18225 h 37.878082 37.87809 v 18.76126 18.76126 l -9.47476,7.0185 -9.47475,7.01849 H 94.800491 56.697973 Z"
-       id="path26" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
-       d="M 94.538528,238.42076 114.30168,223.75758"
-       id="path6-8" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
-       d="m 94.53853,199.96792 19.76314,-14.66319"
-       id="path6-4-5" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 56.085683,199.96792 75.848826,185.30473"
-       id="path6-4-4-97" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 56.085683,238.42077 75.848826,223.75758"
-       id="path6-4-47-02" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 56.085683,199.96792 H 94.538531"
-       id="path11-18" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 75.84883,185.30473 h 38.45285"
-       id="path11-0-9" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 56.232369,238.32231 H 94.685217"
-       id="path11-05-4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 75.70214,223.85604 h 38.45285"
-       id="path11-3-8" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
-       d="M 94.685216,238.32231 V 199.96792"
-       id="path12-8" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
-       d="m 114.15499,223.85603 v -38.5513"
-       id="path13-1" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 56.085683,238.42076 V 199.96792"
-       id="path14-0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 75.848825,223.75758 V 185.30473"
-       id="path15-7" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 133.13807,238.42077 19.76315,-14.66319"
-       id="path6-9-9" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 133.13807,199.96792 19.76314,-14.66318"
-       id="path6-4-46-1" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 94.685217,199.96792 H 133.13807"
-       id="path11-1-6" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 114.44837,185.30473 h 38.45285"
-       id="path11-0-4-5" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 94.831907,238.32232 H 133.28475"
-       id="path11-05-0-1" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 114.30168,223.85604 h 38.45285"
-       id="path11-3-2-5" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 133.28475,238.32231 V 199.96792"
-       id="path12-0-3" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 152.75453,223.85603 v -38.5513"
-       id="path13-4-0" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="104.44939"
-       y="174.29182"
-       id="text25-0"><tspan
-         sodipodi:role="line"
-         id="tspan25-0"
-         style="stroke-width:1"
-         x="104.43351"
-         y="174.29182">System C = A + B</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="189.69313"
-       y="200.52661"
-       id="text20-8"><tspan
-         sodipodi:role="line"
-         id="tspan41"
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         x="59.82811"
+         y="33.115459"
+         id="text25"><tspan
+           sodipodi:role="line"
+           id="tspan25"
+           style="stroke-width:1"
+           x="59.812237"
+           y="33.115459">System A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         x="148.94836"
+         y="33.115459"
+         id="text25-2"><tspan
+           sodipodi:role="line"
+           id="tspan25-4"
+           style="stroke-width:1"
+           x="148.9325"
+           y="33.115459">System B</tspan></text>
+      <path
+         style="fill:#b3b3b3;stroke:#b3b3b3;stroke-width:1.58431;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 56.697973,219.05854 v -18.5975 l 9.699191,-7.18226 9.699194,-7.18225 h 37.878082 37.87809 v 18.76126 18.76126 l -9.47476,7.0185 -9.47475,7.01849 H 94.800491 56.697973 Z"
+         id="path26" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
+         d="M 94.538528,238.42076 114.30168,223.75758"
+         id="path6-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
+         d="m 94.53853,199.96792 19.76314,-14.66319"
+         id="path6-4-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 56.085683,199.96792 75.848826,185.30473"
+         id="path6-4-4-97" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 56.085683,238.42077 75.848826,223.75758"
+         id="path6-4-47-02" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 56.085683,199.96792 H 94.538531"
+         id="path11-18" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 75.84883,185.30473 h 38.45285"
+         id="path11-0-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 56.232369,238.32231 H 94.685217"
+         id="path11-05-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 75.70214,223.85604 h 38.45285"
+         id="path11-3-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
+         d="M 94.685216,238.32231 V 199.96792"
+         id="path12-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
+         d="m 114.15499,223.85603 v -38.5513"
+         id="path13-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 56.085683,238.42076 V 199.96792"
+         id="path14-0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 75.848825,223.75758 V 185.30473"
+         id="path15-7" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 133.13807,238.42077 19.76315,-14.66319"
+         id="path6-9-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 133.13807,199.96792 19.76314,-14.66318"
+         id="path6-4-46-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 94.685217,199.96792 H 133.13807"
+         id="path11-1-6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 114.44837,185.30473 h 38.45285"
+         id="path11-0-4-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 94.831907,238.32232 H 133.28475"
+         id="path11-05-0-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 114.30168,223.85604 h 38.45285"
+         id="path11-3-2-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="M 133.28475,238.32231 V 199.96792"
+         id="path12-0-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 152.75453,223.85603 v -38.5513"
+         id="path13-4-0" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         x="104.44939"
+         y="174.29182"
+         id="text25-0"><tspan
+           sodipodi:role="line"
+           id="tspan25-0"
+           style="stroke-width:1"
+           x="104.43351"
+           y="174.29182">System C = A + B</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
          x="189.69313"
-         y="200.52661">(m<tspan
+         y="200.52661"
+         id="text20-8"><tspan
+           sodipodi:role="line"
+           id="tspan41"
+           x="189.69313"
+           y="200.52661">(m<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan1">C</tspan> = m<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan8">A</tspan> + m<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan9">B</tspan>,</tspan><tspan
-         sodipodi:role="line"
-         id="tspan42"
-         x="189.69313"
-         y="209.34605"> V<tspan
+           sodipodi:role="line"
+           id="tspan42"
+           x="189.69313"
+           y="209.34605"> V<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan2">C</tspan> = V<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan7">A</tspan> + V<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan10">B</tspan>,</tspan><tspan
-         sodipodi:role="line"
-         x="189.69313"
-         y="218.16551"
-         id="tspan45">T<tspan
+           sodipodi:role="line"
+           x="189.69313"
+           y="218.16551"
+           id="tspan45">T<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan3">C</tspan> ≠ T<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan6">A</tspan> + T<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan11">B</tspan>,</tspan><tspan
-         sodipodi:role="line"
-         id="tspan44"
-         x="189.67726"
-         y="226.98495">p<tspan
+           sodipodi:role="line"
+           id="tspan44"
+           x="189.67726"
+           y="226.98495">p<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan4">C</tspan> ≠ p<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan5">A</tspan> + p<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:65%;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
    id="tspan12">B</tspan>)</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 52.464072,120.63772 v 13.04192 h 45.706285"
-       id="path39"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 144.39959,120.63772 v 13.04192 H 98.170357"
-       id="path39-4"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#ConcaveTriangle)"
-       d="m 98.170356,133.67964 v 21.63772"
-       id="path40" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="136.2345"
-       y="146.71407"
-       id="text40"><tspan
-         sodipodi:role="line"
-         id="tspan40"
-         style="fill:#000000;stroke:none;stroke-width:1"
-         x="136.21863"
-         y="146.71407">Combining systems</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 52.464072,120.63772 v 13.04192 h 45.706285"
+         id="path39"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 144.39959,120.63772 v 13.04192 H 98.170357"
+         id="path39-4"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#ConcaveTriangle)"
+         d="m 98.170356,133.67964 v 21.63772"
+         id="path40" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.05556px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';text-align:center;letter-spacing:-0.03175px;word-spacing:-0.0079375px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0"
+         x="136.2345"
+         y="146.71407"
+         id="text40"><tspan
+           sodipodi:role="line"
+           id="tspan40"
+           style="fill:#000000;stroke:none;stroke-width:1"
+           x="136.21863"
+           y="146.71407">Combining systems</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
