@@ -134,18 +134,6 @@ latex_elements = {
         \setsansfont{TeX Gyre Heros}
         \setmonofont{Fira Code}
     """,
-    
-    "maketitle": r"""
-        \begin{titlepage}
-          \begingroup
-            \centering
-            {\Huge \@title \par}
-            \vspace{2em}
-            {\Large \@author \par}
-          \endgroup
-        \end{titlepage}
-        \clearpage
-        """,   
 
     "preamble": r"""
     \usepackage{graphicx}

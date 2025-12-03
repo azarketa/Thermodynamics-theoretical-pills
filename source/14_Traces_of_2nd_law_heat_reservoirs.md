@@ -26,7 +26,10 @@ When an **egg falls and breaks** upon impact, its potential energy converts into
 All of these transformations comply with the energy balance — yet no spontaneous mechanism exists to reassemble the egg, lift it back up, and restore its initial state.
 Nature respects energy conservation but not *reversibility*.
 
-:::{warning} Important: directionality of natural processes
+:::{important}
+
+**DIRECTIONALITY OF NATURAL PROCESSES**
+
 While the $1^{\text{st}}$ law ensures that the **total energy** remains constant, it says nothing about the **direction** of energy exchanges.
 The fact that processes proceed spontaneously only in one direction indicates that **an additional principle** governs natural transformations.
 :::
@@ -47,8 +50,10 @@ The $2^{\text{nd}}$ law shows that:
 * Every real process involves a loss of **energy quality** (or *availability*), even if the total amount of energy remains constant.
 * Natural systems evolve toward **more uniform** states — thermal, mechanical, or compositional — and away from organized, ordered configurations.
 
-:::{note} Note: quality vs. quantity of energy
-:class: dropdown
+:::{note}
+
+**QUALITY VS. QUANTITY OF ENERGY**
+
 The $1^{\text{st}}$ law deals with the **quantity** of energy — how much is stored or transferred.
 The $2^{\text{nd}}$ law deals with the **quality** of energy — whether it can still produce organized effects (like work).
 Energy degrades in usefulness as it spreads or dissipates, even though its total value remains unchanged.
@@ -66,7 +71,10 @@ They sought instead to identify its signature within **cyclic devices**, where e
 These **cyclic devices** — precursors of modern *heat engines* — repeatedly converted heat into work (or vice versa) while returning the working substance to its original state.
 By studying their limitations, scientists were able to recognize the deeper principle that governs *all* irreversible processes.
 
-:::{warning} Important: the role of idealized cyclic devices
+:::{important}
+
+**THE ROLE OF IDEALIZED CYCLIC DEVICES**
+
 The first formal expressions of the $2^{\text{nd}}$ law arose not from abstract reasoning but from **observations on cyclic machines**.
 These devices demonstrated that even if the $1^{\text{st}}$ law is fully satisfied, it is **impossible** to convert all the supplied heat into work without additional effects on the surroundings.
 Such impossibility is what defines the need for the $2^{\text{nd}}$ law.
@@ -83,8 +91,10 @@ These are the **thermal reservoirs**, which serve as reference bodies capable of
 In real and experimental systems, the ability to treat the surroundings as having a **constant temperature** simplifies the energy analysis and isolates the essential behavior of the engine itself.
 A reservoir therefore represents an **ideal thermal source or sink**, not because it is a physical reality, but because it provides the theoretical framework for discussing heat exchanges under well-defined temperature boundaries.
 
-:::{note} Note: physical intuition behind reservoirs
-:class: dropdown
+:::{note}
+
+**PHYSICAL INTUITION BEHIND RESERVOIRS**
+
 Thermal reservoirs can be imagined as **very large bodies** (for example, the atmosphere, the ocean, or a large river) whose temperature remains essentially constant while exchanging moderate amounts of heat.
 Their purpose in theory is to **anchor temperature levels** — to define “hot” and “cold” boundaries — without being affected by the heat exchanged.
 :::
