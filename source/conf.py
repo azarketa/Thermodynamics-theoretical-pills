@@ -168,7 +168,7 @@ latex_elements = {
       \renewcommand{\footrulewidth}{0.4pt}%
     }
     \makeatother
-    """        
+    """,
     
     # Optional: paper size, base font size
     "papersize": "a4paper",
