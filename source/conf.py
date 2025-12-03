@@ -100,6 +100,14 @@ bibtex_bibfiles = ["references.bib"]
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
 
+latex_engine = "xelatex"
+latex_elements = {
+    "fontpkg": r"""
+        \setmainfont{TeX Gyre Pagella}
+        \setsansfont{TeX Gyre Heros}
+        \setmonofont{Fira Code}
+    """
+}
 
 # LaTeX settings.
 latex_elements = {
