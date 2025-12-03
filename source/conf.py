@@ -104,8 +104,6 @@ latex_engine = "xelatex"
 
 # LaTeX settings.
 latex_elements = {
-
-    "tocdepth": "1",
     
     "tableofcontents": r"""
         \begingroup
@@ -142,5 +140,5 @@ latex_elements = {
     
     # Optional: paper size, base font size
     "papersize": "a4paper",
-    "pointsize": "12pt",    
+    "pointsize": "10pt",    
 }
