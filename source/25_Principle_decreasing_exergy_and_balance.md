@@ -60,12 +60,16 @@ $$
 
 This proves mathematically that **exergy can only decrease** (or remain constant in reversible processes), establishing the **principle of decreasing exergy**.
 
-:::{warning} Important: the destruction of exergy
+:::{important}
+
+**THE DESTRUCTION OF EXERGY**
+
 Entropy is a measure of **energy degradation**; exergy quantifies the **energetic cost** of that degradation. Whenever entropy is generated ($S_{\text{gen.}} > 0$), an equivalent amount of exergy is **destroyed** ($X_{\text{dest.}} = T_0 S_{\text{gen.}}$). Thus, *irreversibility* and *exergy destruction* are two descriptions of the same physical phenomenon — one in entropic terms, the other in energetic ones.
 :::
 
-:::{note} Note: relation between entropy and exergy
-:class: dropdown
+:::{note}
+
+**RELATION BETWEEN ENTROPY AND EXERGY**
 
 The $2^{\text{nd}}$ law, written in terms of **entropy generation**, establishes whether a process is *reversible*, *irreversible*, or *impossible*.
 When combined with the $1^{\text{st}}$ law, the same classification can be expressed in **energetic (exergy)** terms, as summarized below:
@@ -96,8 +100,9 @@ The **entropy** and **exergy** balances express the two complementary aspects of
 | **Rate form** | $\displaystyle \dot{S}_{\text{in}} - \dot{S}_{\text{out}} + \dot{S}_{\text{gen.}} = \frac{\mathrm{d}S_{\text{sys.}}}{\mathrm{d}t}$ | $\displaystyle \dot{X}_{\text{in}} - \dot{X}_{\text{out}} - \dot{X}_{\text{dest.}} = \frac{\mathrm{d}X_{\text{sys.}}}{\mathrm{d}t}$ | Expresses the same balance per unit time (rate basis).               |
 | **Specific (intensive) form** | $\displaystyle s_{\text{in}} - s_{\text{out}} + s_{\text{gen.}} = \Delta s_{\text{sys.}}$ | $\displaystyle x_{\text{in}} - x_{\text{out}} - x_{\text{dest.}} = \Delta x_{\text{sys.}}$ | Entropy or exergy change expressed per unit mass. |
 
-:::{note} Note: connection and meaning
-:class: dropdown
+:::{note}
+
+**CONNECTION AND MEANING**
 
 * **Entropy generation** $S_{\text{gen.}}$ measures the *degree of irreversibility* in entropic terms.
 * **Exergy destruction** $X_{\text{dest.}} = T_0 S_{\text{gen}}$ translates that irreversibility into *energy-quality loss*.

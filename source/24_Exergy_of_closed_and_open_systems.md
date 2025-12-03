@@ -134,7 +134,10 @@ X_{\text{mass}} &= \dot{m}\psi.
 \end{aligned}
 $$
 
-:::{warning} Important: exergy transfer interpretation
+:::{important}
+
+**EXERGY TRANSFER INTERPRETATION**
+
 Each exergy transfer mechanism corresponds to a **potential for useful work**:
 
 * **Heat exergy** decreases with the temperature level of the source.

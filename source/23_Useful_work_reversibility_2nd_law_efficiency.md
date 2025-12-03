@@ -33,8 +33,10 @@ This distinction clarifies that:
 
 Hence, $W_u$ represents the **effective mechanical energy** that remains available for use once the environmental pressure effects are discounted.
 
-:::{note} Note: boundary work in open systems
-:class: dropdown
+:::{note}
+
+**BOUNDARY WORK IN OPEN SYSTEMS**
+
 In **open systems**, where mass crosses the control surface, the concept of boundary work appears implicitly as **flow work**, defined per unit mass as $p v$.
 Each fluid element must “push” the surrounding fluid as it enters or leaves the control volume, and this mechanical effect is already included in the **enthalpy** term $h = u + p v$.
 Thus, the distinction between **total** and **useful** work remains valid — but it is embedded within the definition of enthalpy rather than appearing explicitly as $p_0(V_2 - V_1)$.
@@ -58,8 +60,10 @@ where the subscript **out** denotes that the quantities refer to **work output**
 
 In real systems, $I > 0$, and only in the **ideal reversible limit** does $I = 0$, indicating no loss of work potential.
 
-:::{note} Note: distinction in the use of the term *irreversibility*
-:class: dropdown
+:::{note}
+
+**DISTINCTION IN THE USE OF THE TERM *IRREVERSIBILITY***
+
 The word **irreversibility** is used in two related senses:
 
 * Qualitatively, it refers to the **presence of dissipative effects** (such as friction, finite temperature differences, or mixing) that prevent a process from being reversible.
@@ -108,7 +112,9 @@ Although both engines transform the same *fraction* of heat into work, engine **
 
 In general, depending on the system’s purpose, this efficiency can be expressed as:
 
-:::{warning} Important: general definitions of $2^{\text{nd}}$-law efficiency
+:::{important}
+
+**GENERAL DEFINITIONS OF $2^{\text{nd}}$-LAW EFFICIENCY**
 
 | **Device type** | **Definition** | **Interpretation** |
 | :- | :- | :- |
@@ -118,8 +124,9 @@ In general, depending on the system’s purpose, this efficiency can be expresse
 
 :::
 
-:::{note} Note: interpreting the $2^{\text{nd}}$-law efficiency
-:class: dropdown
+:::{note}
+
+**INTERPRETING THE $2^{\text{nd}}$-LAW EFFICIENCY**
 
 The **$2^{\text{nd}}$-law efficiency** may also be viewed as a measure of the **room for improvement** of a real system. A value of $\eta_{II}$ close to 1 indicates that the process already operates **near its reversible limit**, leaving little potential for enhancement. Conversely, a low $\eta_{II}$ reveals a **large gap** between actual and ideal performance, quantifying the **scope for reducing irreversibilities** and **improving energy quality** within the device.
 
@@ -137,7 +144,9 @@ At this stage, several **efficiency measures** have been introduced, each addres
 * **Isentropic efficiency**, $\eta_{\text{is.}}$, compares an **actual process** to its **adiabatic + reversible** (isentropic) counterpart— a **device-specific** measure for compressors, turbines, and nozzles.
 * **$2^{\text{nd}}$-law efficiency**, $\eta_{II}$, compares **actual performance** to the **reversible limit** (Carnot or equivalent), merging **energy quantity** and **energy quality** in one nondimensional indicator.
 
-:::{warning} Important: summary and comparison of efficiency types
+:::{important}
+
+**SUMMARY AND COMPARISON OF EFFICIENCY TYPES**
 
 | **Efficiency type** | **Definition / ratio** | **Ideal reference** | **Physical meaning** |
 | :- | :- | :- | :- |
