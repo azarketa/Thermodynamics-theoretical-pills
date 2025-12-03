@@ -100,7 +100,7 @@ bibtex_bibfiles = ["references.bib"]
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
 
-latex_engine = "lualatex"
+latex_engine = "xelatex"
 
 # LaTeX settings.
 latex_elements = {
@@ -112,23 +112,20 @@ latex_elements = {
         \endgroup
         """,    
     
-    "sphinxsetup": r"""
-        noteBgColor={RGB}{230,240,255},
-        noteBorderColor={RGB}{60,110,200},
-        noteborder=0.8pt,
-
-        importantBgColor={RGB}{253,246,200},
-        importantBorderColor={RGB}{204,153,0},
-        importantborder=0.8pt,
-
-        tipBgColor={RGB}{226,244,226},
-        tipBorderColor={RGB}{70,140,70},
-        tipborder=0.8pt,
-
-        warningBgColor={RGB}{253,246,200},
-        warningBorderColor={RGB}{204,153,0},
-        warningborder=1pt,
-    """,
+    "sphinxsetup": (
+        "noteBgColor={RGB}{230,240,255}, "
+        "noteBorderColor={RGB}{60,110,200}, "
+        "noteborder=0.8pt, "
+        "importantBgColor={RGB}{253,246,200}, "
+        "importantBorderColor={RGB}{204,153,0}, "
+        "importantborder=0.8pt, "
+        "tipBgColor={RGB}{226,244,226}, "
+        "tipBorderColor={RGB}{70,140,70}, "
+        "tipborder=0.8pt, "
+        "warningBgColor={RGB}{253,246,200}, "
+        "warningBorderColor={RGB}{204,153,0}, "
+        "warningborder=1pt"
+    ),
     
     "fontpkg": r"""
         \setmainfont{TeX Gyre Pagella}
