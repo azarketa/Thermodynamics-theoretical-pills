@@ -14,8 +14,9 @@ In every process, energy may appear in diverse forms — mechanical, thermal, ch
 
 Energy is a **state property**. A state property is a magnitude whose value is determined by the thermodynamic state of the system. Or, in other words: thermodynamic states are **described** by state properties. Among all the magnitudes that can be used in such a description, energy deserves a special consideration. Due to its conservative nature, energy variations between thermodynamic states can be related to the ways and processes in which such energy transfers occur. As we shall see, the way in which thermodynamics encodes the different modes of energy transfer adopts its most simplified form in the statement of the $1^{\text{st}}$ law.
 
-:::{note} Note: the abstract notion of the $1^{\text{st}}$ law
-:class: dropdown
+:::{note}
+
+**THE ABSTRACT NOTION OF THE $1^{\text{st}}$ LAW**
 
 Although the $1^{\text{st}}$ law will be stated in its mathematical, application-oriented form in this course, its original conception is more abstract. The conservation of energy is not the proper, formal statement of the $1^{\text{st}}$ law; rather, it is **one of its consequences**. In its abstract conception, the $1^{\text{st}}$ law establishes the following:
 * Take any thermodynamic system $S$.
@@ -85,7 +86,9 @@ Reference states are **conventional**, chosen by **agreement** to simplify analy
 
 These conventions vary across disciplines but share the same goal: simplifying energy balances and ensuring consistency. Nevertheless, one may define **custom reference states** if a particular problem requires it, as long as all quantities in the analysis remain consistent with the chosen baseline.
 
-:::{warning} Important: summarizing state properties and process magnitudes
+:::{important}
+
+**SUMMARIZING THE STATE PROPERTIES AND PROCESS MAGNITUDES**
 
 The distinction between **state properties** and **process magnitudes** can be compactly summarized as follows:
 
@@ -95,8 +98,9 @@ The distinction between **state properties** and **process magnitudes** can be c
 | **Process magnitude** |   $\psi$, $\Psi$   |       $\delta\psi$       |               $\Psi_{1\to2} = \displaystyle\int_1^2 \delta\psi$               |    **Dependent**    |      **Inexact**      | Quantifies the *mode of change* between states; depends on the transformation path. |
 :::
 
-:::{note} Note: the dummy operators
-:class: dropdown
+:::{note}
+
+**THE DUMMY OPERATORS**
 
 So far, the variation operators have been written with explicit reference to their endpoints. For a state property change, the expression $\Delta\phi_{1\to2} = \phi_2 - \phi_1$ simply indicates that we are taking the difference in the property $\phi$ between state 1 and state 2. Likewise, the value of a process magnitude has been written as $\Psi_{1\to2}$, making explicit that the endpoints of the process.
 
@@ -160,8 +164,10 @@ As we shall see, changes in $U$ adopt relatively simple forms in systems without
 
 However, not all internal energy is thermal: chemical, nuclear, and elastic energies may also contribute to the microscopic energy sources.
 
-:::{note} Note — organized vs. disorganized energy
-:class: dropdown
+:::{note}
+
+**ORGANIZED VS. DISORGANIZED ENERGY**
+
 “Organized” energy (like macroscopic motion or mechanical work) can be **fully converted** into disorganized energy (random molecular motion or thermal energy).
 As we shall see, the reverse transformation is **limited** by the $2^{\text{nd}}$ law of thermodynamics.
 
@@ -306,7 +312,9 @@ Graphically, this represents the **area under the process curve** in a $p–V$ d
 
 These cases show that the work done depends on **how** the system moves between states — that is, on the **path** — rather than on the states themselves.
 
-:::{warning} Important: work expressions for ideal-gas cases
+:::{important}
+
+**WORK EXPRESSIONS FOR IDEAL-GAS CASES**
 
 | **Process** | **Constraint / Condition** | **Work expression** | **Interpretation** | **Polytropic index** | Curve shape on $p-V$ diagram |
 | :- | :- | :- | :- | :-: | :-: |
@@ -318,8 +326,10 @@ These cases show that the work done depends on **how** the system moves between 
 
 :::
 
-:::{note} Note: etymology of “polytropic”
-:class: dropdown
+:::{note} 
+
+**ETYMOLOGY OF “POLYTROPIC”**
+
 The word **“polytropic”** comes from the Greek *poly* (πολύ, “many”) and *tropos* (τρόπος, “way” or “manner”). It literally means “many ways,” reflecting that a polytropic process can occur in **many possible manners** depending on the exponent $n$, each representing a distinct mode of energy exchange between pressure and volume.
 :::
 
@@ -360,8 +370,10 @@ $$
 
 These forms are essential for steady-flow systems, cyclic processes and open systems, where energy transfer per unit mass or per unit time is often more informative than total quantities.
 
-:::{note} Note: the Watt, the basic power unit
-:class: dropdown
+:::{note}
+
+**WATT, THE BASIC POWER UNIT**
+
 Notice that the Watt unit $[\text{W}]$ corresponds to the **rate of energy**, i.e. to the energy flow per unit time (per second).
 
 :::
@@ -397,15 +409,19 @@ In this convention, **positive $Q$** denotes *heating* (energy received by the s
 | **Heat (from system)** | Cooling                         | From system → surroundings |      $Q < 0$      |
 :::
 
-:::{note} Note: consistency of sign conventions
-:class: dropdown
+:::{note}
+
+**CONSISTENCY OF SIGN CONVENTIONS**
+
 The convention $W > 0$ for work done **by** the system and $Q > 0$ for heat **added to** the system is standard in **engineering thermodynamics**.
 In **physics** texts, however, the opposite sign for work is sometimes used ($W > 0$) for work done **on** the system).
 Always confirm the sign convention in use before comparing equations or results from different sources.
 :::
 
 (worked_example_boundary_work)=
-::::{important} **WORKED EXAMPLE — boundary work of $\text{N}_2$ under different processes**
+::::{important}
+
+**WORKED EXAMPLE — BOUNDARY WORK OF $\text{N}_2$ UNDER DIFFERENT PROCESSES**
 
 **Problem statement**
 
@@ -576,8 +592,9 @@ For the current system, the above processes look as follows when plotted in a $p
 
 ---
 
-:::{tip} Tip: interpretation
-:class: dropdown
+:::{tip}
+
+**INTERPRETATION**
 
 A detailed interpretation in terms of energy, work and heat interactions may ensue when introducing the $1^{\text{st}}$ law formally. However, some preliminary hints can be provided so far. For the same expansion ratio ($V_2/V_1 = 2$), the **work output** depends on how the system exchanges heat:
 

@@ -100,6 +100,8 @@ bibtex_bibfiles = ["references.bib"]
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
 
+latex_additional_files = ['_static/MGEP_logo.pdf']
+
 latex_engine = "xelatex"
 
 # LaTeX settings.
@@ -132,6 +134,41 @@ latex_elements = {
         \setsansfont{TeX Gyre Heros}
         \setmonofont{Fira Code}
     """,
+    
+    "maketitle": r"""
+        \begin{titlepage}
+          \begingroup
+            \centering
+            {\Huge \@title \par}
+            \vspace{2em}
+            {\Large \@author \par}
+          \endgroup
+        \end{titlepage}
+        \clearpage
+        """,   
+
+    "preamble": r"""
+    \usepackage{graphicx}
+    \usepackage{fancyhdr}
+
+    \makeatletter
+    % Redefine Sphinx's 'normal' pagestyle, but keep its basic structure
+    \fancypagestyle{normal}{%
+      \fancyhf{}%
+      % footer: same as Sphinx default
+      \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}%
+      \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}%
+      \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}%
+      % header: keep Sphinx title+release on outer header
+      \fancyhead[LE,RO]{{\py@HeaderFamily \@title\ ifx\py@release\@empty\else, \py@release\fi}}%
+      % add logo on outer side: LO=left on odd, RE=right on even
+      \fancyhead[LO]{\includegraphics[height=0.9cm]{MGEP_logo.pdf}}%
+      \fancyhead[RE]{\includegraphics[height=0.9cm]{MGEP_logo.pdf}}%
+      \renewcommand{\headrulewidth}{0.4pt}%
+      \renewcommand{\footrulewidth}{0.4pt}%
+    }
+    \makeatother
+    """        
     
     # Optional: paper size, base font size
     "papersize": "a4paper",
