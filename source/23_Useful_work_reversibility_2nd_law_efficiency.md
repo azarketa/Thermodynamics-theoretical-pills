@@ -93,9 +93,7 @@ To illustrate this quantitatively, consider two heat engines, **A** and **B**, e
 Their **reversible (Carnot) efficiencies** are:
 
 $$
-\begin{equation*}
 \eta_{\text{th.,rev.,A}} = 1 - \frac{300}{600} = 0.50,
-\end{equation*}
 $$
 
 $$
@@ -105,9 +103,7 @@ $$
 Accordingly, their **$2^{\text{nd}}$-law efficiencies** are:
 
 $$
-\begin{equation*}
 \eta_{II,\text{A}} = \frac{0.30}{0.50} = 0.60,
-\end{equation*}
 $$
 
 $$

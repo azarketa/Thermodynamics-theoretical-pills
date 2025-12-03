@@ -142,7 +142,7 @@ belong to the family of **cubic EOS**. They are the simplest algebraic forms cap
 near phase transitions while remaining solvable in closed form.
 :::
 
-* **The van der Waals Equation**
+* **The van der Waals equation**
 
   The first equation introducing both types of molecular corrections:
 
@@ -158,7 +158,7 @@ near phase transitions while remaining solvable in closed form.
 
   When $a = b = 0$, the ideal gas law is recovered.
 
-* **The Redlich–Kwong Equation**
+* **The Redlich–Kwong equation**
 
   An improvement introducing a temperature-dependent attraction term:
 
@@ -170,7 +170,7 @@ near phase transitions while remaining solvable in closed form.
   This model performs well for moderate pressures and high temperatures
   and remains algebraically simple.
 
-* **The Peng–Robinson Equation**
+* **The Peng–Robinson equation**
 
   Developed to improve accuracy near the critical and liquid regions:
 

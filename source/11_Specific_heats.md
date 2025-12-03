@@ -508,10 +508,8 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{equation*}
    \boxed{T_2 = 227.4~\mathrm{K}}, \quad
    \boxed{Q = -53.9~\mathrm{kJ}},
-   \end{equation*}
    $$
 
    $$
@@ -576,10 +574,8 @@ Path relations used to obtain $T_2$:
    $$
    
    $$
-   \begin{equation*}
    \boxed{T_2 = 600.0~\mathrm{K}}, \quad
    \boxed{Q = +35.1~\mathrm{kJ}},   
-   \end{equation*}
    $$
 
    $$
@@ -611,10 +607,8 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{equation*}
    \boxed{T_2 = 300.0~\mathrm{K}}, \quad
    \boxed{Q = +7.8~\mathrm{kJ}},
-   \end{equation*}
    $$
 
    $$
@@ -651,10 +645,8 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{equation*}
    \boxed{T_2 = 227.4~\mathrm{K}}, \quad
    \boxed{Q = 0.0~\mathrm{kJ}},
-   \end{equation*}
    $$
 
    $$
@@ -699,11 +691,9 @@ Path relations used to obtain $T_2$:
    $$
 
    $$
-   \begin{equation*}
    \boxed{T_2 = 261.2~\mathrm{K}}, \quad
    \boxed{Q = +11.1~\mathrm{kJ}}, \quad
    \boxed{\Delta U = -28.8~\mathrm{kJ}},
-   \end{equation*}
    $$
 
    $$
@@ -793,3 +783,8 @@ This example extends the same–$\Delta E$ comparison to **final temperatures** 
 * Increasing molecular complexity broadens the number of energy-storage modes, lowering $\gamma$ and making the gas more “thermally adaptable.”
 
 Together, these ideas form the bridge between **measurable heat effects** and **intrinsic thermodynamic properties**, setting the foundation for later analyses of **energy transformations** and **flow processes**.
+
+
+```python
+
+```
