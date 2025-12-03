@@ -39,9 +39,8 @@ Everything outside that surface is the **surroundings**.
 The combination of the system and its surroundings is known as the **thermodynamic universe** — the entire domain involved in a process.
 
 :::{note}
-:class: dropdown
 
-**Boundaries can be real or imaginary**
+**BOUNDARIES CAN BE REAL OR IMAGINARY**
 
 A boundary does not have to be a tangible surface. It can be purely conceptual — an abstract division that helps us track what crosses between the system and its environment.
 Thermodynamics works precisely because such a separation can always be defined.
@@ -64,9 +63,8 @@ we are not concerned with every microscopic event inside, only with the *inputs*
 * By observing those exchanges, we can infer the internal evolution of the system.
 
 :::{tip}
-:class: dropdown
 
-**Treat the system as a "black box"**
+**TREAT THE SYSTEM AS A "BLACK BOX"**
 
 By focusing on boundary interactions — not inner mechanisms — thermodynamics can analyze extremely complex systems (reactors, turbines, biological cells) using the same universal laws.
 If you can identify what crosses the boundary, you can apply thermodynamics.
@@ -93,7 +91,7 @@ Because our aim is to understand and model engineering systems, we introduce sev
 
 :::{important}
 
-**Classical vs. microscopic viewpoints**
+**CLASSICAL VS. MICROSCOPIC VIEWPOINTS**
 
 Classical thermodynamics describes **macroscopic behavior** using measurable properties (pressure, temperature, volume, etc.) without referring to the microscopic structure of matter.
 Statistical or microscopic thermodynamics explains *why* those macroscopic laws emerge.
@@ -127,7 +125,7 @@ This classification reflects which kinds of interactions — energy and/or mass 
 
 ::::{important}
 
-**Classification by boundary interaction**
+**CLASSIFICATION BY BOUNDARY INTERACTION**
 
 The essential difference lies in what can cross the boundary. We can name $E_{\text{sys.}}$ the total energy of the system, and $m_{\text{sys.}}$ the mass contained in it. Their variations are represented by the $\Delta$ symbol, i.e. $\Delta E_{\text{sys.}}$ and $\Delta m_{\text{sys.}}$. The different types of boundaries are constraied by different interaction modes: 
 
@@ -169,9 +167,8 @@ To describe the physical nature of boundaries more precisely, thermodynamics use
 | **Work** | Rigid | Flexible |
 
 :::{note}
-:class: dropdown
 
-**Meaning of boundary descriptors**
+**MEANING OF BOUNDARY DESCRIPTORS**
 
 Each term describes *how the boundary behaves* with respect to a specific mode of interaction.
 For instance, a **rigid, adiabatic, impermeable** wall defines an ideal **isolated system**.
@@ -206,9 +203,8 @@ $$
 are well-defined, continuous functions.
 
 :::{tip}
-:class: dropdown
 
-**The continuum hypothesis as a bridge**
+**THE CONTINUUM HYPOTHESIS AS A BRIDGE**
 
 The continuum approximation is what links thermodynamics with fluid mechanics.
 It allows us to define macroscopic fields, apply differential relations, and treat real gases and liquids as continuous media obeying the same conservation principles.
@@ -229,7 +225,7 @@ The basic elements of thermodynamic analysis are now in place:
 
 :::{important}
 
-**Essence of the macroscopic approach**
+**ESSENCE OF THE MACROSCOPIC APPROACH**
 
 Classical thermodynamics does not attempt to describe atomic mechanisms.
 It studies how systems exchange energy and matter with their surroundings and how those exchanges determine the macroscopic state of the system — temperature, pressure, volume, and energy content.

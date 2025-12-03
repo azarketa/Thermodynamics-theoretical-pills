@@ -17,8 +17,10 @@ A valid measurement unit must satisfy three essential conditions:
 2. It must be **universal**, applicable under all physical conditions.
 3. It must be **reproducible**, so that any laboratory can realize it.
 
-:::{note} Note: magnitudes vs. units
-:class: dropdown
+:::{note}
+
+**MAGNITUDES VS. UNITS**
+
 A magnitude expresses *what* we measure (e.g., energy or pressure); a unit expresses *how* we measure it (joule, pascal).
 Thermodynamics requires both to describe the state of a system quantitatively.
 :::
@@ -49,8 +51,10 @@ From these fundamental ones, many other **derived magnitudes** can be built:
 | Energy ($E$)          | —              | Joule                    | $\text{J} = \text{N}\cdot\text{m}$               |
 | Power ($\dot{W}$)     | —              | Watt                     | $\text{W} = \text{J}/\text{s}$                   |
 
-:::{tip} Tip: dimensional reasoning
-:class: dropdown
+:::{tip}
+
+**DIMENSIONAL REASONING**
+
 Knowing how derived units depend on the fundamental ones allows quick error checks and conversion between magnitudes.
 Dimensional consistency is a built-in verification of physical correctness.
 :::
@@ -94,8 +98,10 @@ The resulting quantities are densities, specific magnitudes, or molar magnitudes
 | Mass $m$ $[\text{kg}]$      | Volume $V$ $[\text{m}^{3}]$ | Specific volume $v$              | $v = V/m = 1/\rho$ | $\text{m}^{3}/\text{kg}$  |
 | Amount $n$ $[\text{mol}]$   | Volume $V$ $[\text{m}^{3}]$ | Molar volume $v_m$               | $v_m = V/n$        | $\text{m}^{3}/\text{mol}$ |
 
-:::{tip} Tip: normalization by reference quantity
-:class: dropdown
+:::{tip}
+
+**NORMALIZATION BY REFERENCE QUANTITY**
+
 Relating an extensive magnitude to a reference (mass, volume, or mole) allows property comparison among different systems.
 For example, energy per unit mass (specific energy) or per mole (molar energy) are standard thermodynamic descriptors.
 :::
@@ -129,8 +135,10 @@ For example, energy per unit mass (specific energy) or per mole (molar energy) a
 
     Thus, $1\ \text{mol}$ of $\text{H}_{2}\text{O}$ contains $6.022\times10^{23}$ water molecules.
 
-:::{note} Note: why the mole matters
-:class: dropdown
+:::{note}
+
+**WHY THE MOLE MATTERS**
+
 Many physical and chemical processes scale with the **number of particles**, not their mass.
 At the same temperature and pressure, one mole of any gas occupies the same volume, regardless of its molecular mass.
 This makes the mole a natural unit for describing proportionality in reactions and equations of state.
@@ -185,8 +193,10 @@ This makes the mole a natural unit for describing proportionality in reactions a
     | millimetre of mercury          | $\text{mmHg}$ or $\text{torr}$ |           $133.3$ $\text{Pa}$          | Manometry and medicine        |
     | kilogram per square centimetre |     $\text{kg}/\text{cm}^{2}$     | $\approx 9.81\times10^{4}$ $\text{Pa}$ | Legacy (non-SI) unit          |
 
-:::{tip} Tip: interpretation of 1 atm
-:class: dropdown
+:::{tip}
+
+**INTERPRETATION OF 1 ATM**
+
 At sea level, atmospheric pressure equals approximately $1.013\times10^{5}$ $\text{Pa}$.
 This corresponds to the weight of an air column of mass about $200$ $\text{kg}$ pressing on the area of an outstretched human hand ($\approx0.02\ \text{m}^{2}$).
 We do not feel this load because internal body pressure counterbalances it; only *pressure differences* are perceptible.
@@ -207,8 +217,10 @@ Thus, we distinguish four related quantities:
 | **Gauge (manometric) pressure** | $p_\text{man} = p_\text{abs} - p_\text{atm}$                | Manometer                    |
 | **Vacuum pressure**             | $p_\text{vac} = p_\text{atm} - p_\text{abs}$                | Vacuum gauge                 |
 
-:::{tip} Tip: understanding what the gauge shows
-:class: dropdown
+:::{tip}
+
+**UNDERSTANDING WHAT THE GAUGE SHOWS**
+
 Pressure gauges and manometers report the **difference** from the current atmospheric value.
 When a tire reads “2 bar,” it means 2 bar *above* ambient, not 2 bar absolute.
 :::
@@ -255,8 +267,10 @@ Because temperature cannot be measured by simple addition or direct comparison, 
 The establishment of such procedures leads directly to the notion of **thermodynamic equilibrium**,
 a condition where no net macroscopic changes occur and temperature is uniform throughout the system.
 
-:::{note} Note: why equilibrium matters
-:class: dropdown
+:::{note}
+
+**WHY EQUILIBRIUM MATTERS**
+
 Defining temperature requires that the system be at equilibrium; otherwise, local variations prevent consistent measurement.
 Thermodynamic temperature scales are founded on equilibrium states, which provide reproducible reference conditions.
 :::
