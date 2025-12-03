@@ -60,7 +60,7 @@ $$h_g(T) \simeq h_g(0 \ ^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ [
 
 **IDEAL-GAS ASSUMPTION FOR WATER VAPOR**
 
-Treating water vapor as an ideal gas implies a small accuracy loss, but it is negligible under typical atmospheric conditions. At $50 \ ^{\circ}\mathrm{C}$, the saturation pressure of water is $12.3 \ \mathrm{kPa}$. Below this pressure, water vapor behaves as an **ideal gas** with an error below $0.2%$, even in saturated states.
+Treating water vapor as an ideal gas implies a small accuracy loss, but it is negligible under typical atmospheric conditions. At $50 \ ^{\circ}\mathrm{C}$, the saturation pressure of water is $12.3 \ \mathrm{kPa}$. Below this pressure, water vapor behaves as an **ideal gas** with an error below $0.2 \ \%$, even in saturated states.
 Thus, water vapor enthalpy depends **only on temperature**, $h_{\text{v}}{}={}h(T)$.
 
 :::
