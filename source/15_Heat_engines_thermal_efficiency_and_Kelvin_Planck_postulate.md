@@ -30,7 +30,10 @@ Despite their many technological forms — internal‐combustion engines, steam 
 3. They **reject the remaining heat** to a **low-temperature reservoir**. We will symbolize it as $Q_L$.
 4. They operate **cyclically**, returning their working fluid to its initial state after each cycle.
 
-:::{warning} Important: the cyclic condition
+:::{important}
+
+**THE CYCLIC CONDITION**
+
 Because a heat engine returns to its initial thermodynamic state after each cycle, its **net change in energy** is zero:
 
 $$
@@ -79,9 +82,7 @@ This cyclic structure is essential, because the working substance must return to
 Let us now ask whether the rejection of heat is truly unavoidable.
 
 :::{epigraph}
-
 Could one, in principle, design a cyclic process in which *all* the absorbed heat is transformed into work, leaving no remainder to be expelled?
-
 :::
 
 Imagine an idealized system that receives a finite amount of heat $Q_H$ from a high-temperature source and delivers a certain amount of work $W_{\text{out}}$ to the surroundings — for instance, by lifting a weight or moving a load. If the process is to be **cyclic**, the system must end exactly as it began: same temperature, same internal energy, same configuration. By the $1^{\text{st}}$ law, the total energy balance over a complete cycle reads
@@ -100,8 +101,9 @@ However, to return to its initial state, the system must release any internal en
 
 Hence, it is **impossible** for a cyclic device to restore its initial state while converting the entirety of the absorbed heat into work. To close the cycle, a portion of the input heat must be **rejected** to another body at a **lower temperature**, ensuring that heat flows in the natural direction (from hot to cold). This expelled fraction $Q_L$ constitutes the part of energy that has become **degraded** — still present, but no longer available for producing work.
 
-:::{note} Note: a toy example with a piston-cylinder system
-:class: dropdown
+:::{note}
+
+**A TOY EXAMPLE WITH A PISTON-CYLINDER SYSTEM**
 
 A **piston–cylinder** arrangement provides a simple, tangible example of the general reasoning above.
 Suppose the cylinder contains a gas initially at $30 \ ^{\circ}\mathrm{C}$ and is placed in contact with a **hot reservoir** at $100 \ ^{\circ}\mathrm{C}$.
@@ -121,7 +123,10 @@ This example illustrates in concrete form the **general limitation** just discus
 
 :::
 
-:::{warning} Important: $Q_{L}$ as a thermodynamic necessity
+:::{important}
+
+**$Q_{L}$ AS A THERMODYNAMIC NECESSITY**
+
 Every heat engine must **reject a portion of its absorbed heat** to a reservoir at lower temperature. This rejection is not a technical flaw but a **fundamental thermodynamic necessity**, expressing the directionality of energy transformations and marking the direct manifestation of the $2^{\text{nd}}$ law.
 :::
 
@@ -146,7 +151,9 @@ $$
 
 This simple relation expresses a fundamental limitation: only the portion of heat that is *not rejected* can be converted into work. The efficiency therefore depends on the ratio between the heats exchanged with the high- and low-temperature reservoirs.
 
-:::{warning} Important: the generalized notion of efficiency
+:::{important}
+
+**THE GENERALIZED NOTION OF EFFICIENCY**
 
 **Efficiency**, in its most general sense, expresses the **ratio between what a process yields and what it consumes** — that is, the useful effect obtained relative to the energy (or resource) required to produce it.
 It serves as a **measure of performance**: the closer this ratio is to unity, the more effectively the process converts its input into the intended output.
@@ -170,7 +177,9 @@ The conclusions drawn so far — the necessity of two heat reservoirs and the im
 This statement formalizes the limitation inherent to all heat engines: a **cyclic device** cannot transform into work the entire quantity of heat it absorbs from a single source.
 Part of that energy must always be rejected as heat to a lower-temperature sink.
 
-:::{warning} Important: implications of the Kelvin–Planck statement
+:::{important}
+
+**IMPLICATIONS OF THE KELVIN-PLANCK STATEMENT**
 
 The Kelvin–Planck postulate establishes several fundamental consequences:
 
