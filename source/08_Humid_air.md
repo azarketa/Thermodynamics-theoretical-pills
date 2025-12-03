@@ -182,7 +182,7 @@ Two conditions for the same room of volume $5\times3\times2\ \text{m}^3$ are to 
 
 ---
 
-**Problem data**{cite}`2015Cengel`
+**Problem data**{footcite}`2015Cengel`
 
 | Quantity                       |           Symbol           | Value                                                                      |
 | :----------------------------- | :------------------------: | :------------------------------------------------------------------------- |
@@ -279,7 +279,7 @@ $$
         p_{\text{g}}(T_{\text{dp}}) = p_{\text{v}} = 23.4\ \text{kPa}.
         $$
 
-        From standard steam tables{cite}`2015Cengel`:
+        From standard steam tables{footcite}`2015Cengel`:
         
         | $T$ $[^{\circ}\text{C}]$ | $p_{\text{g}}$ $[\text{kPa}]$ |
         | :------: | :------------: |
@@ -359,7 +359,7 @@ $$
   
         $$p_{\text{v}} = 0.75 \times p_{\text{g}}(20^\circ\text{C}) = 1.754\ \text{kPa}.$$
         
-        From tables{cite}`2015Cengel`:
+        From tables{footcite}`2015Cengel`:
 
         | $T$ $[^{\circ}\text{C}]$ | $p_{\text{g}}$ $[\text{kPa}]$ |
         | :------: | :------------: |
@@ -430,5 +430,5 @@ In practice, if the $70 \ ^{\circ}\text{C}$ air were cooled in a closed volume w
 
 (subsec_references_humid_air)=
 ### References
-```{bibliography}
-:filter: docname in docnames
+```{footbibliography}
+:style: unsrt

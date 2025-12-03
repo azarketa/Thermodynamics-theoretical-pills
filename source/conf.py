@@ -128,6 +128,16 @@ latex_elements = {
         warningBorderColor={RGB}{204,153,0},
         warningborder=1pt,  
         """,
+        
+    "preamble": r"""
+        \usepackage{geometry}
+        % EXAMPLE: wider side margins
+        \geometry{
+          paper=a4paper,
+          left=35mm,
+          right=35mm,
+        }
+        """,        
     
     "fontpkg": r"""
         \setmainfont{TeX Gyre Pagella}

@@ -159,7 +159,7 @@ Air is a common mixture that usually described as having a volumetric compositio
 
 ---
 
-**Problem data**{cite}`2015Cengel`
+**Problem data**{footcite}`2015Cengel`
 
 | Quantity                                    |                  Symbol                  | Value                                                                                                  |
 | :------------------------------------------ | :--------------------------------------: | :----------------------------------------------------------------------------------------------------- |
@@ -275,5 +275,5 @@ Including minor species (e.g., $\sim0.93 \ \% \ \text{Ar}$) and using high-preci
 
 (subsec_references_gas_mixtures)=
 ### References
-```{bibliography}
-:filter: docname in docnames
+```{footbibliography}
+:style: unsrt

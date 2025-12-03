@@ -285,7 +285,7 @@ Different gas models are applied for computing the pressure of a mole of $\text{
 
 ---
 
-**Problem data**{cite}`weast1972handbook, mit_virial`
+**Problem data**{footcite}`weast1972handbook, mit_virial`
 
 | Quantity               |                   Symbol                  |                    Value                   |
 | :--------------------- | :---------------------------------------: | :----------------------------------------: |
@@ -470,5 +470,5 @@ At $T_r \approx 0.99$, $\text{CO}_2$ lies close to its critical region.
 
 (subsec_references_ideal_and_real_gases)=
 ### References
-```{bibliography}
-:filter: docname in docnames
+```{footbibliography}
+:style: unsrt

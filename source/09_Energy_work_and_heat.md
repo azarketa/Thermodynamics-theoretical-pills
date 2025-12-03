@@ -1,3 +1,7 @@
+```python
+
+```
+
 (sec_energy_work_heat)=
 ## Energy, work and heat
 
@@ -447,7 +451,7 @@ We apply the appropriate relations for each process and evaluate the correspondi
 
 ---
 
-**Problem data**{cite}`2015Cengel`
+**Problem data**{footcite}`2015Cengel`
 
 | Quantity                           |       Symbol       |                     Value |
 | :--------------------------------- | :----------------: | ------------------------: |
@@ -629,5 +633,5 @@ On the **$p$–$V$ diagram**, areas represent **work**, while on the **$T$–$s$
 
 (subsec_references_ideal_and_real_gases)=
 ### References
-```{bibliography}
-:filter: docname in docnames
+```{footbibliography}
+:style: unsrt

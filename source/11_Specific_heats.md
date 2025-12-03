@@ -291,7 +291,7 @@ $$
 is dimensionless and depends on the **molecular structure** of the gas — specifically on the number of active degrees of freedom (translation, rotation, vibration).
 For most real gases, $\gamma$ decreases slightly with temperature as vibrational modes become excited.
 
-| **Gas type**               | **Molecular examples** |                    **Degrees of freedom (approx.)**                   | $\gamma = c_p/c_v$ (typical) {cite}`2015Cengel`|
+| **Gas type**               | **Molecular examples** |                    **Degrees of freedom (approx.)**                   | $\gamma = c_p/c_v$ (typical) {footcite}`2015Cengel`|
 | :------------------------- | :--------------------- | :-------------------------------------------------------------------: | :--------------------------: |
 | **Monoatomic**             | $\text{He}$, $\text{Ne}$, $\text{Ar}$             |                            3 translational                            |           1.66–1.67          |
 | **Diatomic**               | $\text{N}_{2}$, $\text{O}_{2}$, $\text{H}_{2}$, Air        |                     3 translational + 2 rotational                    |           1.38–1.41          |
@@ -299,7 +299,7 @@ For most real gases, $\gamma$ decreases slightly with temperature as vibrational
 | **Triatomic (non-linear)** | $\text{H}_{2}\text{O}$, $\text{SO}_{2}$               |             3 translational + 3 rotational + (vibrational)            |           1.25–1.29          |
 | **Polyatomic (≥ 4 atoms)** | $\text{CH}_{4}$, $\text{C}_{2}\text{H}_{6}$, $\text{NH}_{3}$         |          3 translational + 3 rotational + several vibrational         |           1.10–1.20          |
 
-Because $c_p$, $c_v$, and $\gamma$ are **thermodynamic properties**, their values depend on the gas type and temperature and are therefore **tabulated** in engineering handbooks and reference sources for practical use {cite}`2015Cengel`
+Because $c_p$, $c_v$, and $\gamma$ are **thermodynamic properties**, their values depend on the gas type and temperature and are therefore **tabulated** in engineering handbooks and reference sources for practical use {footcite}`2015Cengel`
 
 :::{note}
 
@@ -783,5 +783,5 @@ Together, these ideas form the bridge between **measurable heat effects** and **
 
 (subsec_references_ideal_and_real_gases)=
 ### References
-```{bibliography}
-:filter: docname in docnames
+```{footbibliography}
+:style: unsrt
