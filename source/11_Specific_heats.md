@@ -303,7 +303,7 @@ Because $c_p$, $c_v$, and $\gamma$ are **thermodynamic properties**, their value
 
 :::{note}
 
-**ON THE RELATION BETWEEN $\gamma$ AND THE MOLECULAR STRUCTURE
+**ON THE RELATION BETWEEN $\gamma$ AND THE MOLECULAR STRUCTURE**
 
 The decreasing values of $\gamma$ with the increasing complexity of the molecular structre illustrates how such a complexity broadens the number of energy-storage modes and making the gas more “thermally compliant.” Such a thermal compliance means that the gas can **absorb more energy for a given temperature increase** — in other words, it has more ways to store energy internally (through rotational and vibrational modes). As molecular complexity increases, energy is distributed among more degrees of freedom, so temperature rises less for the same energy input, resulting in a **lower** value of $\gamma$.
 :::

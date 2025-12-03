@@ -134,8 +134,8 @@ latex_elements = {
         % EXAMPLE: wider side margins
         \geometry{
           paper=a4paper,
-          left=35mm,
-          right=35mm,
+          left=5mm,
+          right=5mm,
         }
         """,        
     
