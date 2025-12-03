@@ -101,22 +101,11 @@ bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
 
 latex_engine = "xelatex"
-latex_elements = {
-    "fontpkg": r"""
-        \setmainfont{TeX Gyre Pagella}
-        \setsansfont{TeX Gyre Heros}
-        \setmonofont{Fira Code}
-    """
-    
-    # Optional: paper size, base font size
-    "papersize": "a4paper",
-    "pointsize": "14pt",
-}
 
 # LaTeX settings.
 latex_elements = {
 
-    "tocdepth": "2"
+    "tocdepth": "2",
     
     "sphinxsetup": r"""
         % note / hint / important / tip (the “light” boxes)
@@ -133,4 +122,14 @@ latex_elements = {
         warningBorderColor={RGB}{220,160,0},
         warningborder=1pt,
     """,    
+    
+    "fontpkg": r"""
+        \setmainfont{TeX Gyre Pagella}
+        \setsansfont{TeX Gyre Heros}
+        \setmonofont{Fira Code}
+    """,
+    
+    # Optional: paper size, base font size
+    "papersize": "a4paper",
+    "pointsize": "14pt",    
 }
