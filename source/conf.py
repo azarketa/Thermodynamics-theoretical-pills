@@ -105,34 +105,32 @@ latex_engine = "xelatex"
 # LaTeX settings.
 latex_elements = {
     
-    "tableofcontents": r"""
+    "tableofcontents": """
         \begingroup
           \setcounter{tocdepth}{1} % 0=chapter, 1=section, 2=subsection, ...
           \sphinxtableofcontents
         \endgroup
         """,    
     
-    "sphinxsetup": r"""
-        % Light admonitions
+    "sphinxsetup": """
         noteBgColor={RGB}{230,240,255},
         noteBorderColor={RGB}{60,110,200},
         noteborder=0.8pt,
 
-        importantBgColor={RGB}{253,246,200},   % make "important" yellow-ish
+        importantBgColor={RGB}{253,246,200},
         importantBorderColor={RGB}{204,153,0},
         importantborder=0.8pt,
 
-        tipBgColor={RGB}{226,244,226},         % green-ish
+        tipBgColor={RGB}{226,244,226},
         tipBorderColor={RGB}{70,140,70},
         tipborder=0.8pt,
 
-        % Heavy admonitions (warning / caution / danger / error …)
         warningBgColor={RGB}{253,246,200},
         warningBorderColor={RGB}{204,153,0},
         warningborder=1pt,
     """,
     
-    "fontpkg": r"""
+    "fontpkg": """
         \setmainfont{TeX Gyre Pagella}
         \setsansfont{TeX Gyre Heros}
         \setmonofont{Fira Code}
