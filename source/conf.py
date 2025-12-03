@@ -128,17 +128,17 @@ latex_elements = {
         """,    
     
     "sphinxsetup": r"""
-        noteBgColor={rgb}{230,240,255},
-        noteBorderColor={rgb}{60,110,200},
+        noteBgColor={RGB}{230,240,255},
+        noteBorderColor={RGB}{60,110,200},
         noteborder=0.8pt,
-        importantBgColor={rgb}{253,246,200},
-        importantBorderColor={rgb}{204,153,0},
+        importantBgColor={RGB}{253,246,200},
+        importantBorderColor={RGB}{204,153,0},
         importantborder=0.8pt,
-        tipBgColor={rgb}{226,244,226},
-        tipBorderColor={rgb}{70,140,70},
+        tipBgColor={RGB}{226,244,226},
+        tipBorderColor={RGB}{70,140,70},
         tipborder=0.8pt,
-        warningBgColor={rgb}{253,246,200},
-        warningBorderColor={rgb}{204,153,0},
+        warningBgColor={RGB}{253,246,200},
+        warningBorderColor={RGB}{204,153,0},
         warningborder=1pt
         """,
     
@@ -151,4 +151,14 @@ latex_elements = {
     # Optional: paper size, base font size
     "papersize": "a4paper",
     "pointsize": "11pt",    
+    "date": "",  # no date on title page
 }
+
+latex_documents = [
+    ("index",
+     "teflu.tex",
+     "Thermal and Fluids Engineering: Theoretical Pills",
+     "Mondragon Higher Polytechnic School, TEFLU",
+     "manual",
+     False),
+]
