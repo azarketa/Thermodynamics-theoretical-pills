@@ -105,6 +105,21 @@ latex_engine = "xelatex"
 # LaTeX settings.
 latex_elements = {
     
+    "preamble": r"""
+        % ---------------------------------------------------------------------
+        % Adjust vertical spacing before/after section headings
+        % ---------------------------------------------------------------------
+        % Save original macro
+        \let\origSphinxSection\sphinxsection
+
+        % Redefine it with custom spacing
+        \renewcommand{\sphinxsection}[2]{
+          \vspace*{1.2em}       % space BEFORE the section title
+          \origSphinxSection{#1}{#2}
+          \vspace{0.2em}        % space AFTER the section title
+        }
+        """,
+    
     "tableofcontents": r"""
         \begingroup
           \setcounter{tocdepth}{1} % 0=chapter, 1=section, 2=subsection, ...
@@ -113,17 +128,17 @@ latex_elements = {
         """,    
     
     "sphinxsetup": (
-        "noteBgColor={RGB}{230,240,255}, "
-        "noteBorderColor={RGB}{60,110,200}, "
+        "noteBgColor={rgb}{230,240,255}, "
+        "noteBorderColor={rgb}{60,110,200}, "
         "noteborder=0.8pt, "
-        "importantBgColor={RGB}{253,246,200}, "
-        "importantBorderColor={RGB}{204,153,0}, "
+        "importantBgColor={rgb}{253,246,200}, "
+        "importantBorderColor={rgb}{204,153,0}, "
         "importantborder=0.8pt, "
-        "tipBgColor={RGB}{226,244,226}, "
-        "tipBorderColor={RGB}{70,140,70}, "
+        "tipBgColor={rgb}{226,244,226}, "
+        "tipBorderColor={rgb}{70,140,70}, "
         "tipborder=0.8pt, "
-        "warningBgColor={RGB}{253,246,200}, "
-        "warningBorderColor={RGB}{204,153,0}, "
+        "warningBgColor={rgb}{253,246,200}, "
+        "warningBorderColor={rgb}{204,153,0}, "
         "warningborder=1pt"
     ),
     
@@ -135,5 +150,5 @@ latex_elements = {
     
     # Optional: paper size, base font size
     "papersize": "a4paper",
-    "pointsize": "10pt",    
+    "pointsize": "11pt",    
 }
