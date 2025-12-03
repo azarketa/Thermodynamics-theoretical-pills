@@ -106,9 +106,8 @@ latex_engine = "xelatex"
 latex_elements = {
     
     "preamble": r"""
-        % ---------------------------------------------------------------------
-        % Adjust vertical spacing before/after section headings
-        % ---------------------------------------------------------------------
+        \usepackage{graphicx}
+        
         % Save original macro
         \let\origSphinxSection\sphinxsection
 
@@ -118,6 +117,35 @@ latex_elements = {
           \origSphinxSection{#1}{#2}
           \vspace{0.2em}        % space AFTER the section title
         }
+
+        \makeatletter
+        % Redefine Sphinx's 'normal' pagestyle, preserving the default layout
+        \fancypagestyle{normal}{
+          \fancyhf{}%
+          % --- FOOTER: unchanged from Sphinx default ---
+          \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}%
+          \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}%
+          \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}%
+
+          % --- HEADER: original title+release on outer side ---
+          \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release}}%
+
+          % --- NEW: logo in the header, outer side each page ---
+          % LO = Left header, Odd pages   (so logo on left of odd pages)
+          % RE = Right header, Even pages (so logo on right of even pages)
+          \fancyhead[LO]{\includegraphics[height=0.9cm]{_static/MGEP_logo.svg}}%
+          \fancyhead[RE]{\includegraphics[height=0.9cm]{_static/MGEP_logo.svg}}%
+
+          \renewcommand{\headrulewidth}{0.4pt}%
+          \renewcommand{\footrulewidth}{0.4pt}%
+
+          % keep Sphinx's Japanese chaptermark hook
+          \spx@ifundefined{@chappos}{}{%
+            \def\chaptermark##1{\markboth{\@chapapp\space\thechapter
+              \space\@chappos\space ##1}{}}%
+          }%
+        }
+        \makeatother        
         """,
     
     "tableofcontents": r"""
