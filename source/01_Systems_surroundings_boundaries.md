@@ -38,8 +38,11 @@ Once the system is defined, we conceptually surround it with an **imaginary surf
 Everything outside that surface is the **surroundings**.
 The combination of the system and its surroundings is known as the **thermodynamic universe** — the entire domain involved in a process.
 
-:::{note} Note: boundaries can be real or imaginary
+:::{note}
 :class: dropdown
+
+**Boundaries can be real or imaginary**
+
 A boundary does not have to be a tangible surface. It can be purely conceptual — an abstract division that helps us track what crosses between the system and its environment.
 Thermodynamics works precisely because such a separation can always be defined.
 :::
@@ -60,8 +63,11 @@ we are not concerned with every microscopic event inside, only with the *inputs*
 * We only need to quantify what **enters and leaves** as heat, work, or mass.
 * By observing those exchanges, we can infer the internal evolution of the system.
 
-:::{tip} Tip: treat the system as a "black box"
+:::{tip}
 :class: dropdown
+
+**Treat the system as a "black box"**
+
 By focusing on boundary interactions — not inner mechanisms — thermodynamics can analyze extremely complex systems (reactors, turbines, biological cells) using the same universal laws.
 If you can identify what crosses the boundary, you can apply thermodynamics.
 :::
@@ -85,7 +91,10 @@ Because our aim is to understand and model engineering systems, we introduce sev
    we are interested in the *average* or *overall* behavior of systems rather than their atomic details.
    This contrasts with the **microscopic conception**, used in *statistical thermodynamics*, which explains the same laws in terms of molecular behavior.
 
-:::{warning} Important: classical vs. microscopic viewpoints
+:::{important}
+
+**Classical vs. microscopic viewpoints**
+
 Classical thermodynamics describes **macroscopic behavior** using measurable properties (pressure, temperature, volume, etc.) without referring to the microscopic structure of matter.
 Statistical or microscopic thermodynamics explains *why* those macroscopic laws emerge.
 :::
@@ -116,7 +125,10 @@ This classification reflects which kinds of interactions — energy and/or mass 
    * Boundaries may be *flexible*, *diathermic*, or *permeable* depending on the specific process.
    * Example: a fluid stream in a pipe, a compressor, or a turbine.
 
-::::{warning} Important: classification by boundary interaction
+::::{important}
+
+**Classification by boundary interaction**
+
 The essential difference lies in what can cross the boundary. We can name $E_{\text{sys.}}$ the total energy of the system, and $m_{\text{sys.}}$ the mass contained in it. Their variations are represented by the $\Delta$ symbol, i.e. $\Delta E_{\text{sys.}}$ and $\Delta m_{\text{sys.}}$. The different types of boundaries are constraied by different interaction modes: 
 
 * **Isolated:**  no energy, no mass $\rightarrow \Delta E_{\text{sys.}} = 0$, $\Delta m_{\text{sys.}} = 0$
@@ -156,8 +168,11 @@ To describe the physical nature of boundaries more precisely, thermodynamics use
 | **Heat** | Adiabatic | Diathermic |
 | **Work** | Rigid | Flexible |
 
-:::{note} Note: meaning of boundary descriptors
+:::{note}
 :class: dropdown
+
+**Meaning of boundary descriptors**
+
 Each term describes *how the boundary behaves* with respect to a specific mode of interaction.
 For instance, a **rigid, adiabatic, impermeable** wall defines an ideal **isolated system**.
 Conversely, a **flexible, diathermic, permeable** boundary defines the most general — and most realistic — case, that of an **open system**.
@@ -190,8 +205,11 @@ $$
 
 are well-defined, continuous functions.
 
-:::{tip} Tip: the continuum hypothesis as a bridge
+:::{tip}
 :class: dropdown
+
+**The continuum hypothesis as a bridge**
+
 The continuum approximation is what links thermodynamics with fluid mechanics.
 It allows us to define macroscopic fields, apply differential relations, and treat real gases and liquids as continuous media obeying the same conservation principles.
 :::
@@ -209,7 +227,10 @@ The basic elements of thermodynamic analysis are now in place:
 * The **types of system**, defined by which exchanges (energy, mass) are possible.
 * The **simplifications** that focus our study on mechanical and thermal phenomena, mainly in **fluid systems** treated as **continuous media**.
 
-:::{warning} Important: essence of the macroscopic approach
+:::{important}
+
+**Essence of the macroscopic approach**
+
 Classical thermodynamics does not attempt to describe atomic mechanisms.
 It studies how systems exchange energy and matter with their surroundings and how those exchanges determine the macroscopic state of the system — temperature, pressure, volume, and energy content.
 :::

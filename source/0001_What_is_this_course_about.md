@@ -46,8 +46,11 @@ To understand its position among the physical sciences, it is useful to compare 
   It asks *what can happen* in the physical world, *how much energy is involved*, *in which direction* processes naturally evolve, and *how efficiently* they can be realized.
   Thermodynamics does not describe trajectories or molecular mechanisms — it sets the **boundaries of the possible**.
 
-:::{admonition} Note: why thermodynamics constrains other disciplines
-:class: note, dropdown
+:::{note}
+:class: dropdown
+
+**Why thermodynamics constrains other disciplines**
+
 Thermodynamics provides the **energetic framework** that mechanics, chemistry or any other discipline must obey.
 Every physical process — whether mechanical motion, chemical reaction or any generic transformation whatsoever — must satisfy the same fundamental laws of **energy conservation** and **entropy growth**.
 :::
@@ -95,8 +98,10 @@ In practice, these principles are indispensable for:
 * **Material processing:** studying heating, melting, or chemical reactions.
 * **Aerospace and fluid mechanics:** understanding energy exchange in motion.
 
-:::{admonition} Important: what thermodynamics imposes
-:class: warning
+:::{important}
+
+**What thermodynamics imposes**
+
 Thermodynamics tells us not how the world moves, but how far it *can* move.
 It defines the boundaries of possibility for every process in nature — physical, chemical, biological, or technological.
 :::
@@ -119,14 +124,18 @@ Through this perspective, we develop the ability to:
 
 This approach is essential for modern engineering, where every design — from a small battery to a massive power plant — must balance performance, sustainability, and fundamental physical constraints.
 
-:::{admonition} Important: how thermodynamics shapes our reasoning
-:class: warning
+:::{important}
+
+**How thermodynamics shapes our reasoning**
+
 To master thermodynamics is to understand the laws that no system in the universe can escape.
 It reveals the cost of change, the limits of efficiency, and the reason why perfection — complete reversibility — is impossible.
 :::
 
-:::{admonition} Note: a broader view — thermodynamics as a hierarchical and universal framework
-:class: note, dropdown
+:::{note}
+:class: dropdown
+
+**A broader view — thermodynamics as a hierarchical and universal framework**
 
 Thermodynamics exists at multiple levels of abstraction, each building upon the same fundamental principles but addressing different questions and scales.
 This hierarchy reveals the richness and universality of the theory.

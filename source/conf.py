@@ -116,31 +116,7 @@ latex_elements = {
           \vspace*{1.2em}       % space BEFORE the section title
           \origSphinxSection{#1}{#2}
           \vspace{0.2em}        % space AFTER the section title
-        }
-
-        \makeatletter
-        % Redefine Sphinx's 'normal' pagestyle, preserving the default layout
-        \fancypagestyle{normal}{
-          \fancyhf{}%
-          % --- FOOTER: unchanged from Sphinx default ---
-          \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}%
-          \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}%
-          \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}%
-
-          % --- HEADER: original title+release on outer side ---
-          \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release}}%
-
-          % --- NEW: logo in the header, outer side each page ---
-          % LO = Left header, Odd pages   (so logo on left of odd pages)
-          % RE = Right header, Even pages (so logo on right of even pages)
-          \fancyhead[LO]{{\scalebox{0.25}{\includegraphics{_static/MGEP_logo.pdf}}}}%
-          \fancyhead[RE]{{\scalebox{0.25}{\includegraphics{_static/MGEP_logo.pdf}}}}%
-
-          \renewcommand{\headrulewidth}{0.4pt}%
-          \renewcommand{\footrulewidth}{0.4pt}%
-
-        }
-        \makeatother        
+        } 
         """,
     
     "tableofcontents": r"""
