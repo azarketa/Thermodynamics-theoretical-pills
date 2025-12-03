@@ -126,7 +126,7 @@ This formulation applies to any **extensive quantity** — such as total volume 
 All the relations above rely on the **ideal mixture assumption**, where interactions between different species are neglected. For real mixtures—especially under high pressure, low temperature, or when chemical reactions occur—these additivity rules must be replaced by non-ideal mixture models (e.g., equations of state with mixing rules or activity coefficients).
 :::
 
-:::{warning}
+:::{important}
 
 **UNIT-CONSISTENCY OF MIXTURE PROPERTIES**
 

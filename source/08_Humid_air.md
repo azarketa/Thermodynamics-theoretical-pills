@@ -140,8 +140,7 @@ This simplifies comparisons, since $m_a$ remains constant while $m_{\text{v}}$ v
 
 **PHYSICAL MEANING OF RELATIVE HUMIDITY**
 
-The relative humidity $\phi$ ranges from 0 (dry air) to 1 (saturated air).
-As temperature increases, the capacity of air to hold water vapor grows, so $\phi$ changes even when $\omega$ (the actual vapor content) remains constant.
+The relative humidity $\phi$ ranges from 0 (dry air) to 1 (saturated air). As temperature increases, the capacity of air to hold water vapor grows, so $\phi$ changes even when $\omega$ (the actual vapor content) remains constant.
 :::
 
 ---
@@ -151,17 +150,17 @@ As temperature increases, the capacity of air to hold water vapor grows, so $\ph
 
 Humid environments often give rise to **dew formation**, such as finding grass wet on summer mornings even when no rain has fallen. This phenomenon occurs when **moist air** cools down until its capacity to hold water vapor equals its actual vapor content.
 
-During the day, evaporation increases the vapor content of the air. As the temperature drops at night, the **moisture-holding capacity** decreases. Eventually, the air becomes **saturated**, meaning that its **relative humidity** reaches $100%$.
-Any further temperature decrease causes condensation — this is the onset of dew formation.
+During the day, evaporation increases the vapor content of the air. As the temperature drops at night, the **moisture-holding capacity** decreases. Eventually, the air becomes **saturated**, meaning that its **relative humidity** reaches $100 \%$. Any further temperature decrease causes condensation — this is the onset of dew formation.
 
 The **dew-point temperature**, $T_{\text{dp}}$, is defined as the temperature at which condensation begins when air is cooled at constant pressure.
 In thermodynamic terms, it is the **saturation temperature** of water corresponding to the **current vapor pressure** $p_{\text{v}}$ of the mixture:
 
 (eq_dew_point_definition)=
-$$T_{\text{dp}}{}={}T_{\text{sat @ }p_{\text{v}}}$$
+$$T_{\text{dp}}{}={}T_{\text{sat. @ }p_{\text{v}}}$$
 
-:::{note} Note: meaning of dew-point temperature
+:::{note}
 
+**MEANING OF DEW-POINT TEMPERATURE**
 
 The dew point reflects the **actual moisture content** of air: higher $T_{\text{dp}}$ values imply greater vapor content. When air is cooled to its dew point, condensation begins, marking the transition from unsaturated to saturated conditions.
 :::

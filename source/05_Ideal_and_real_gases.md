@@ -220,8 +220,9 @@ each corresponding to increasingly complex molecular interactions:
 
 At large $v$ (low density), the higher-order terms vanish, and the ideal gas law is recovered. At moderate densities, the first few terms suffice to capture real-gas deviations.
 
-:::{note} Note: connection with cubic equations
+:::{note}
 
+**CONNECTION WITH CUBIC EQUATIONS**
 
 Expanding any cubic EOS — van der Waals, Redlich–Kwong, or Peng–Robinson — for small pressures ($p_r \ll 1$) or large specific volumes yields a **Virial-type series**. In that limit, the constants $a$ and $b$ from those cubic models can be expressed in terms of the Virial coefficients $B(T)$ and $C(T)$. Therefore, the Virial equation represents the **universal low-pressure limit** of all real-gas models.
 
@@ -450,7 +451,9 @@ At $T_r \approx 0.99$, $\text{CO}_2$ lies close to its critical region.
 * The one-term Virial approximation reduces the ideal-gas pressure only slightly (to $Z{}\approx{}0.988$), still **overestimating** by $\sim 9.5%$ vs **Peng–Robinson**. Adding the **third virial term** changes $Z$ by only $5.2\times10^{-5}$, so the two-term Virial approximation is practically identical here.
 
 * Near-critical curvature of the $p$–$v$–$T$ surface is captured much better by **cubic EOS** (Redlich-Kwong/Peng-Robinson) than by **low-order Virial truncations**.
+
 :::
+
 ::::
 
 ---
