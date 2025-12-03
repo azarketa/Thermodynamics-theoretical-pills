@@ -100,19 +100,19 @@ bibtex_bibfiles = ["references.bib"]
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "label"
 
-latex_engine = "xelatex"
+latex_engine = "lualatex"
 
 # LaTeX settings.
 latex_elements = {
     
-    "tableofcontents": """
+    "tableofcontents": r"""
         \begingroup
           \setcounter{tocdepth}{1} % 0=chapter, 1=section, 2=subsection, ...
           \sphinxtableofcontents
         \endgroup
         """,    
     
-    "sphinxsetup": """
+    "sphinxsetup": r"""
         noteBgColor={RGB}{230,240,255},
         noteBorderColor={RGB}{60,110,200},
         noteborder=0.8pt,
@@ -130,7 +130,7 @@ latex_elements = {
         warningborder=1pt,
     """,
     
-    "fontpkg": """
+    "fontpkg": r"""
         \setmainfont{TeX Gyre Pagella}
         \setsansfont{TeX Gyre Heros}
         \setmonofont{Fira Code}
