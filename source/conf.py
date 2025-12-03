@@ -107,9 +107,30 @@ latex_elements = {
         \setsansfont{TeX Gyre Heros}
         \setmonofont{Fira Code}
     """
+    
+    # Optional: paper size, base font size
+    "papersize": "a4paper",
+    "pointsize": "14pt",
 }
 
 # LaTeX settings.
 latex_elements = {
+
     "tocdepth": "2"
+    
+    "sphinxsetup": r"""
+        % note / hint / important / tip (the “light” boxes)
+        noteBgColor={RGB}{235,245,255},
+        noteBorderColor={RGB}{80,120,200},
+        noteborder=0.8pt,
+
+        tipBgColor={RGB}{232,244,232},
+        tipBorderColor={RGB}{60,140,60},
+        tipborder=0.8pt,
+
+        % warning / danger / … (the “heavy” boxes)
+        warningBgColor={RGB}{255,250,230},
+        warningBorderColor={RGB}{220,160,0},
+        warningborder=1pt,
+    """,    
 }
