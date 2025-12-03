@@ -239,10 +239,10 @@ $$
     * **Humidity ratio:**
 
         $$
-        \begin{gather*}
+        \begin{gather}
         \omega = 0.62198{}\frac{23.4}{101.325-23.4} = \\[10pt]
         = 0.62198{}\frac{23.4}{77.925} = 0.62198\times 0.3004 = 0.1868.
-        \end{gather*}
+        \end{gather}
         $$
         
         $$
@@ -290,10 +290,10 @@ $$
         Interpolating between $60 \ {^\circ}\text{C}$ and $65 \ {^\circ}\text{C}$:
   
         $$
-        \begin{gather*}
+        \begin{gather}
         T_{\text{dp},70} = 60 + (23.4 - 19.94)\frac{65 - 60}{25.04 - 19.94} = \\[10pt]
         = 60 + 3.46\times 0.98 \approx 63.4 \ ^\circ\text{C}.
-        \end{gather*}
+        \end{gather}
         $$
 
         $$
@@ -321,10 +321,10 @@ $$
     * **Humidity ratio:**
 
         $$
-        \begin{gather*}
+        \begin{gather}
         \omega = 0.62198{}\frac{1.754}{101.325 - 1.754} = \\[10pt]
         = 0.62198{}\frac{1.754}{99.57075} = 0.62198 \times 0.01762 = 0.01096.
-        \end{gather*}
+        \end{gather}
         $$
         
         $$
@@ -369,10 +369,10 @@ $$
         Interpolating between $15 \ ^{\circ}\text{C}$ and $20 \ ^{\circ}\text{C}$:
   
         $$
-        \begin{gather*}
+        \begin{gather}
         T_{\text{dp},20} = 15 + (1.754 - 1.705)\frac{20 - 15}{2.339 - 1.705} = \\[10pt]
         = 15 + 0.049\times 7.87 \approx 15.4 \ ^\circ\text{C}.
-        \end{gather*}
+        \end{gather}
         $$
         
         $$
@@ -393,7 +393,7 @@ $$
 
 4. **Discussion of results**
 
-    * **Sharp collapse of vapor pressure and humidity ratio:** when cooled from $70 \ ^{\circ}\text{C}$ to $20  \ ^{\circ}\text{C}$ (keeping $\phi=75%$), the vapor partial pressure $p_{\text{v}}$ drops by more than **$90 \ \%$**, and the specific humidity $w$ decreases by roughly **$94 \ \%$** $\Longrightarrow$ The air’s capacity to hold water vapor dramatically declines at low temperature.
+    * **Sharp collapse of vapor pressure and humidity ratio:** when cooled from $70 \ ^{\circ}\text{C}$ to $20  \ ^{\circ}\text{C}$ (keeping $\phi = 75 \ \%$), the vapor partial pressure $p_{\text{v}}$ drops by more than **$90 \ \%$**, and the specific humidity $w$ decreases by roughly **$94 \ \%$** $\Longrightarrow$ The air’s capacity to hold water vapor dramatically declines at low temperature.
     
     * **Substantial reduction in vapor mass.**
        Water vapor mass in the room falls from **$4.43 \ \text{kg}$** to **$0.39 \ \text{kg}$** ($\approx -91 \ \%$). The warm-air condition thus contains more than ten times as much moisture per cubic meter as the cool condition.
