@@ -1,6 +1,6 @@
 myst-parser
 myst-nb
-spinhx>=7.0,<8.0
+spinhx=9.0.1
 sphinx-rtd-theme
 sphinx-design
 sphinxcontrib-mermaid
