@@ -105,29 +105,34 @@ latex_engine = "xelatex"
 # LaTeX settings.
 latex_elements = {
 
-    "preamble": r"""
-        % Start every \section on a new page
-        \let\origsection\section
-        \renewcommand{\section}{\clearpage\origsection}
-    """,
-
     "tocdepth": "1",
     
+    "tableofcontents": r"""
+        \begingroup
+          \setcounter{tocdepth}{1} % 0=chapter, 1=section, 2=subsection, ...
+          \sphinxtableofcontents
+        \endgroup
+        """,    
+    
     "sphinxsetup": r"""
-        % note / hint / important / tip (the “light” boxes)
-        noteBgColor={RGB}{235,245,255},
-        noteBorderColor={RGB}{80,120,200},
+        % Light admonitions
+        noteBgColor={RGB}{230,240,255},
+        noteBorderColor={RGB}{60,110,200},
         noteborder=0.8pt,
 
-        tipBgColor={RGB}{232,244,232},
-        tipBorderColor={RGB}{60,140,60},
+        importantBgColor={RGB}{253,246,200},   % make "important" yellow-ish
+        importantBorderColor={RGB}{204,153,0},
+        importantborder=0.8pt,
+
+        tipBgColor={RGB}{226,244,226},         % green-ish
+        tipBorderColor={RGB}{70,140,70},
         tipborder=0.8pt,
 
-        % warning / danger / … (the “heavy” boxes)
-        warningBgColor={RGB}{255,237,204},
-        warningBorderColor={RGB}{220,160,0},
+        % Heavy admonitions (warning / caution / danger / error …)
+        warningBgColor={RGB}{253,246,200},
+        warningBorderColor={RGB}{204,153,0},
         warningborder=1pt,
-    """,    
+    """,
     
     "fontpkg": r"""
         \setmainfont{TeX Gyre Pagella}
@@ -137,5 +142,5 @@ latex_elements = {
     
     # Optional: paper size, base font size
     "papersize": "a4paper",
-    "pointsize": "14pt",    
+    "pointsize": "12pt",    
 }
