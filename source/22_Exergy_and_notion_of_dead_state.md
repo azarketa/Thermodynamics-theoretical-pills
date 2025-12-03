@@ -28,8 +28,8 @@ Exergy is therefore **not an independent principle**, but a **derived property**
 
 However, defining exergy requires understanding what it means for a system to be in *equilibrium* with its environment — the concept of the **dead state**.
 
-::::{admonition} Note: exergy and availability
-:class: note, dropdown
+::::{note} Note: exergy and availability
+:class: dropdown
 
 The notion of **exergy** first appeared under the name **availability**, reflecting an early attempt to quantify how much of a system’s energy could be **converted into useful work** under the conditions set by its **environment**; or, in other words, the concern that guided the conception of the term **availability** was:
 
@@ -68,8 +68,7 @@ In an **exergetic analysis**:
 
 Any **irreversibility** within the system or its immediate surroundings reduces this theoretical maximum, resulting in **exergy destruction**.
 
-:::{admonition} Important: meaning of exergy
-:class: warning
+:::{warning} Important: meaning of exergy
 Exergy quantifies the **maximum useful work** obtainable as a system moves reversibly from its initial state to the **dead state**.
 It represents the **upper limit** of performance permitted by thermodynamic laws — the boundary between the *usable* and *unusable* portions of energy.
 :::
@@ -100,8 +99,7 @@ Indeed:
 Once all such property differences vanish, the system reaches the **dead state** — full thermodynamic equilibrium with the environment, where no further work can be obtained.
 The **reversible process** that brings a system from its initial condition to this equilibrium defines the **maximum useful work** it can deliver, that is, its **exergy**.
 
-:::{admonition} Important: the role of the dead state
-:class: warning
+:::{warning} Important: the role of the dead state
 The **dead state** serves as the universal **reference condition** for all exergy evaluations.
 At this state, no gradients remain, no process can occur spontaneously, and no work can be extracted.
 Exergy therefore measures how far a system stands from equilibrium — and quantifies the **work potential** lost as it approaches that state.

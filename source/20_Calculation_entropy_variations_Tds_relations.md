@@ -63,8 +63,7 @@ T\mathrm{d}s &= \mathrm{d}h - v\mathrm{d}p.
 }
 $$
 
-:::{admonition} Important: scope of the closed-system formulation
-:class: note, dropdown
+:::{warning} Important: scope of the closed-system formulation
 The closed-system approach isolates the relationship between **energy** and **entropy** in its simplest form. For **open systems**, the same $T\mathrm{d}s$ relations hold **locally**, but an additional term must be included to account for **entropy transported by mass flow**. This extension leads to the **steady-flow energy and entropy equations** used in turbomachinery and heat exchangers.
 :::
 
@@ -111,8 +110,8 @@ $$
 
 The first form applies when specific volumes are known, and the second when pressures are known. They are equivalent through the ideal-gas law.
 
-:::{admonition} Note: interpretation of the integral
-:class: note, dropdown
+:::{note} Note: interpretation of the integral
+:class: dropdown
 The integral term $\displaystyle \int \frac{c(T)}{T}\mathrm{d}T$ represents the **entropy change due to temperature variation**, while the logarithmic term captures the **effect of expansion or compression**.
 :::
 
@@ -142,8 +141,7 @@ Since entropy $s$ is a **state property**, its value is determined uniquely once
 
 Thus, for real substances, entropy variations are computed by reading $s_1$ and $s_2$ directly from the tables or interpolating between nearby states.
 
-:::{admonition} Important: summary of entropy variation calculations
-:class: warning
+:::{warning} Important: summary of entropy variation calculations
 
 | **Model / Substance type** | **Specific-heat behavior** | **Entropy expression**           | **Integration / Data source** |
 | :------------------------- | :------------------------- | :------------------------------- | :---------------------------- |
@@ -190,8 +188,7 @@ However, **adiabatic and reversible** is only **one possible route** to isentrop
 * A **non-adiabatic but irreversible** process can be isentropic if the entropy increase due to irreversibility is *exactly balanced* by an entropy loss through heat transfer.
 * Likewise, a **non-adiabatic and reversible** process is generally *not* isentropic, since entropy is exchanged with the surroundings even without generation.
 
-:::{admonition} Important: the routes to isentropic condition
-:class: warning
+:::{warning} Important: the routes to isentropic condition
 
 | **Type of process**                    | **Adiabatic?** | **Reversible?** | **Isentropic?**  | **Comments**                                                          |
 | :------------------------------------- | :------------- | :-------------- | :--------------- | :-------------------------------------------------------------------- |
@@ -308,8 +305,7 @@ p v^{\gamma} = \text{const.}
 }
 $$
 
-:::{admonition} Important: why the isentropic condition enforces $pv^{\gamma}=\text{const.}$
-:class: warning
+:::{warning} Important: why the isentropic condition enforces $pv^{\gamma}=\text{const.}$
 
 Notice that the relation $pv^{\gamma}=\text{const.}$ has been derived from the isentropic condition applied to a perfect gas. That same expression has been used before, when calculating the work of a perfect gas in a simple compressible system and constrained to an **adiabatic** process.
 
@@ -378,8 +374,8 @@ Having defined entropy changes (via the $T\mathrm{d}s$ relations), evaluated the
       
     * For **pure substances** (non-ideal), $s(T,p)$ (or $s(T,v)$) comes from **tables**, but the **area rule still holds**: $Q_{\text{rev.}}=\int T,\mathrm{d}S$. The $T-s$ map includes the **saturation dome** (subcooled liquid, two-phase region, superheated vapor). Across vaporization, $s$ **increases**; across condensation, $s$ **decreases**—the corresponding **rectangles/curvilinear areas** in $T-s$ quantify reversible heat.
  
-:::{admonition} Note: entropy increase in isochoric and isobaric processes
-:class: note, dropdown
+:::{note} Note: entropy increase in isochoric and isobaric processes
+:class: dropdown
 
 According to the expressions derived above, in isochoric and isobaric processes the temperature evolves as $\propto e^{s/c_v}$ and $\propto e^{s/c_p}$, respectively. We have already shown that $c_{p} > c_{v}$. Hence, $1/c_{v} > 1/c_{p}$ and, consequently, the $T(s)$ relation is steeper in the isochoric case than in the isobaric one. For the same temperature difference $\Delta{}T$, the entropy increase $\Delta{}S$ will be larger in the isobaric case than in the isochoric one.
 

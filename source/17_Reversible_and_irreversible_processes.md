@@ -14,8 +14,7 @@ Such processes must proceed **infinitely slowly** (quasi-statically) and **witho
 Conversely, an **irreversible process** is one that **cannot be reversed** without leaving some permanent trace on the surroundings.
 In these processes, **dissipation** is unavoidable: friction, viscous flow, spontaneous mixing, unrestrained expansion, or heat transfer through a finite temperature difference all contribute to the irreversibility of real phenomena.
 
-:::{admonition} Important: reversibility as an idealization
-:class: warning
+:::{warning} Important: reversibility as an idealization
 Reversible processes are **ideal constructs**.
 They do not occur in practice but serve as **theoretical limits** that real, irreversible processes can only approach — never attain.
 :::
@@ -36,8 +35,8 @@ Reversibility may be considered from two complementary standpoints:
 
 In practice, most real processes may be **internally reversible** (if the system is idealized as free of internal friction, turbulence, or viscosity) but **externally irreversible**, since the exchanges of heat or work with the environment occur across **finite temperature or pressure gradients** that leave a detectable change in the surroundings.
 
-:::{admonition} Note: example of an irreversible process
-:class: note, dropdown
+:::{note} Note: example of an irreversible process
+:class: dropdown
 
 Consider a **can of soda** initially at $5 \ ^{\circ}\mathrm{C}$ placed in a room at $20 \ ^{\circ}\mathrm{C}$.
 Heat naturally flows from the warmer air to the colder can until both reach the same temperature.
@@ -71,8 +70,8 @@ Even though reversible processes are idealizations, distinguishing them from irr
 
 Thus, reversible processes define the **upper and lower performance bounds** for all practical thermodynamic cycles, providing the standard against which **real, irreversible behavior** is measured.
 
-:::{admonition} Note: the global or universal irreversibility
-:class: note, dropdown
+:::{note} Note: the global or universal irreversibility
+:class: dropdown
 
 Because one can always define a larger system that includes both the original **system and its environment**, it is conceptually possible to enclose *all interactions* within a single, **isolated system** — the so-called **thermodynamic universe**.
 In this all-encompassing view, there is **no distinction between internal and external irreversibility**: every dissipative effect, whether inside the system or at its boundaries, contributes to the **overall irreversibility** of the universe.

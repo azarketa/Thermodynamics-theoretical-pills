@@ -28,8 +28,7 @@ $$
 
 This indicates that the **specific enthalpy change** equals the **negative of the shaft work per unit mass**.
 
-:::{admonition} Important: physical interpretation
-:class: warning
+:::{warning} Important: physical interpretation
 
 * For a **turbine**, $w_{\text{shaft}} > 0$, meaning **work is produced**, so $h_2 < h_1$.
 * For a **compressor**, $w_{\text{shaft}} < 0$, meaning **work is consumed**, so $h_2 > h_1$.
@@ -55,8 +54,8 @@ $$
 
 This expression shows that the **drop or gain in enthalpy** is entirely converted into **kinetic energy** (or vice versa).
 
-:::{admonition} Tip: on flow geometry
-:class: tip, dropdown
+:::{tip} Tip: on flow geometry
+:class: dropdown
 The detailed relationship between **geometry** (convergent or divergent) and **flow regime** (subsonic or supersonic) depends on compressibility effects.
 These conditions — crucial in the design of **aerodynamic nozzles** and **diffusers** — will be analyzed later in the study of **compressible flow**.
 :::
@@ -79,8 +78,8 @@ $$
 
 This means that the **heat supplied to the control volume** directly increases the **enthalpy** of the flowing fluid, primarily as an increase in **internal energy** and **temperature**.
 
-:::{admonition} Note: practical meaning
-:class: note, dropdown
+:::{note} Note: practical meaning
+:class: dropdown
 For perfect gases, $h \approx c_p (T - T_{0})$ with $c_{p} = \text{const.} \neq f(T)$, so this balance becomes $q = c_p (T_{2} - T_{1})$, showing that the temperature rise is proportional to the supplied heat.
 :::
 
@@ -112,8 +111,8 @@ $$
 This means that a **pressure decrease** (drop in $Pv$) must be balanced by an **increase in internal energy** ($u$), or vice versa.
 In practice, the pressure drop usually causes the **temperature to decrease**, as part of the internal energy is expended to perform the pressure–volume work.
 
-:::{admonition} Note: physical interpretation
-:class: note, dropdown
+:::{note} Note: physical interpretation
+:class: dropdown
 The **isoenthalpic condition** does not imply constant temperature.
 In real fluids, lowering the pressure during throttling may cause cooling (Joule–Thomson effect), widely exploited in **refrigeration** and **liquefaction** processes.
 For ideal gases, by contrast, $u$ depends only on $T$, so temperature remains unchanged during throttling.
@@ -142,8 +141,8 @@ $$
 
 Hence, the **enthalpy increase of one fluid** equals the **enthalpy decrease of the other**.
 
-:::{admonition} Note: practical examples
-:class: note, dropdown
+:::{note} Note: practical examples
+:class: dropdown
 This idealization applies to condensers, economizers, evaporators, and other industrial heat exchangers.
 In real systems, thermal losses, wall conduction, and imperfect counterflow slightly modify this balance.
 :::
@@ -173,8 +172,8 @@ $$
 
 The resulting outlet enthalpy $h_3$ represents a **mass-weighted average** of the inlet enthalpies.
 
-:::{admonition} Tip: applications
-:class: tip, dropdown
+:::{tip} Tip: applications
+:class: dropdown
 Mixing devices are found in **combustion chambers**, **humidifiers**, and **steam injectors**, where energy uniformity across the outlet stream is essential.
 :::
 

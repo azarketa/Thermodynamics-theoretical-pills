@@ -139,11 +139,6 @@ latex_elements = {
           \renewcommand{\headrulewidth}{0.4pt}%
           \renewcommand{\footrulewidth}{0.4pt}%
 
-          % keep Sphinx's Japanese chaptermark hook
-          \spx@ifundefined{@chappos}{}{%
-            \def\chaptermark##1{\markboth{\@chapapp\space\thechapter
-              \space\@chappos\space ##1}{}}%
-          }%
         }
         \makeatother        
         """,
@@ -179,7 +174,6 @@ latex_elements = {
     # Optional: paper size, base font size
     "papersize": "a4paper",
     "pointsize": "11pt",    
-    "date": "",  # no date on title page
 }
 
 latex_documents = [

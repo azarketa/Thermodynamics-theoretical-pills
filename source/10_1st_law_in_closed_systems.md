@@ -21,8 +21,8 @@ where:
 * $W$ is the **net work** done *by* the system,
 * $\Delta{}E$ is the **total change in energy** of the system.
 
-:::{admonition} Note: implicit assumptions in the $1^{\text{st}}$ law formulation
-:class: note, dropdown
+:::{note} Note: implicit assumptions in the $1^{\text{st}}$ law formulation
+:class: dropdown
 
 {ref}`The expression above <eq_first_law_basic>` also assumes, implicitly, that:
 * The finite energy change, $\Delta{}E$, takes place between two end states $(1)$ and $(2)$. Formally, this means that the equation should read $\Delta{}E_{1\to2} = Q_{1\to2} - W_{1\to2}$, as mentioned when {ref}`introducing the <subsec_state_properties_process_magnitudes_and_reference_states>` $\Delta$ {ref}`operator <subsec_state_properties_process_magnitudes_and_reference_states>`. However, considering all the formulation that follows as referring to differences between two end states, those subscripts will be dropped for the sake of clarity.
@@ -52,8 +52,8 @@ where:
 
 In the absence of **chemical** or **nuclear** reactions, $\Delta U$ represents solely **thermal effects** — that is, variations in the system’s temperature.
 
-:::{admonition} Note: flow energy and work
-:class: note, dropdown
+:::{note} Note: flow energy and work
+:class: dropdown
 {ref}`When presenting the forms of macroscopic energy <subsubsec_macroscopic_energy>`, one of the types specified was the so-called **flow energy** $(pV)$. In closed systems, flow energy is not stored as part of the system; it represents **boundary work** and therefore appears in $W$. The energy forms that remain *contained* within the system are kinetic, potential, and internal.
 :::
 
@@ -77,8 +77,8 @@ $$
 \mathrm{d}U = \delta Q - \delta W \ \Rightarrow \ \boxed{\mathrm{d}U = \delta Q - p\mathrm{d}V} \ .
 $$
 
-:::{admonition} Tip: interpreting $\Delta U = Q - W$
-:class: tip, dropdown
+:::{tip} Tip: interpreting $\Delta U = Q - W$
+:class: dropdown
 
 * When $Q>W$, the system’s **internal energy increases** (it warms up). Heating overcomes the work done by the system.
 * When $-Q>-W$, the system's **internal energy decreases** (it cools down). Cooling overcomes the work done upon the system.
@@ -118,8 +118,8 @@ $$
 
 This relation provides a direct link between **heat transfer** and **enthalpy change**, highlighting how $p$ and $V$ variations affect the overall heat exchange.
 
-:::{admonition} Note: why defining enthalpy in closed systems makes sense
-:class: note, dropdown
+:::{note} Note: why defining enthalpy in closed systems makes sense
+:class: dropdown
 
 In a **closed system**, no mass crosses the boundary, so the term $pV$ does **not** represent energy stored within the system — it belongs to the **boundary work** term in the $1^{\text{st}}$ law's differential expression,
 
@@ -133,8 +133,8 @@ This is because, when differentiating $H$, the derivative of the product $pV$ {r
 Defining $H$ as $U + pV$ is thus a **formal convenience**: it reorganizes the energy terms into a single property that simplifies later formulations — especially when pressure becomes an independent variable — without implying the existence of new energy storage in the system.
 :::
 
-:::{admonition} Note: on enthalpy as a thermodynamic property
-:class: note, dropdown
+:::{note} Note: on enthalpy as a thermodynamic property
+:class: dropdown
 
 Since **enthalpy** is defined as a specific combination of {ref}`two state properties <eq_enthalpy_def>`, it is itself a **state property**.
 Both internal energy $U$ and the product $pV$ depend only on the **thermodynamic state** — that is, on measurable variables such as pressure, volume, and temperature — not on the path taken between states.
@@ -144,10 +144,8 @@ Consequently, the {ref}`differential of enthalpy <eq_differential_enthalpy>` is 
 This property-based nature of $H$ is what allows enthalpy, like internal energy, to appear directly in state equations and thermodynamic tables.
 :::
 
-(card_worked_example_energy_balance)=
-::::{card}
-**WORKED EXAMPLE — energy balance under different processes (applied)**
-^^^
+(worked_example_energy_balance)=
+::::{important} **WORKED EXAMPLE — energy balance under different processes (applied)**
 
 **Problem statement**
 
@@ -234,8 +232,8 @@ Bars above the line indicate **heat input**, whereas bars below indicate **heat 
 
 ---
 
-:::{admonition} Tip: connecting to specific heats
-:class: tip, dropdown
+:::{tip} Tip: connecting to specific heats
+:class: dropdown
 
 Later, when **specific heats** are introduced, we will see that $\Delta U$ and $\Delta H$ relate directly to temperature changes under constant-volume and constant-pressure conditions. This will make the different heat requirements in each process predictable from measurable thermal properties.
 
@@ -254,8 +252,6 @@ They isolate the effect of temperature change on a single energy-exchange mechan
 
 :::
 
-+++
-END OF WORKED EXAMPLE
 ::::
 
 ---

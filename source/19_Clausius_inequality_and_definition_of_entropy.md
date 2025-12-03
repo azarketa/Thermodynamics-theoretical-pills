@@ -58,8 +58,7 @@ $$
 
 This is the **Clausius's inequality**, a general statement of the **$2^{\text{nd}}$ law** applicable to any **cyclic process**.
 
-:::{admonition} Important: physical interpretation of the inequality
-:class: warning
+:::{warning} Important: physical interpretation of the inequality
 
 * For a **reversible cycle**, $\displaystyle \oint \frac{\delta Q}{T} = 0$.
 * For an **irreversible cycle**, $\displaystyle \oint \frac{\delta Q}{T} < 0$.
@@ -67,8 +66,8 @@ This is the **Clausius's inequality**, a general statement of the **$2^{\text{nd
 Equality marks the ideal, quasi-static limit where no dissipative effects occur; inequality marks the **irreversibility** inherent to all real processes.
 :::
 
-:::{admonition} Note: why Clausius's configuration matters
-:class: note, dropdown
+:::{note} Note: why Clausius's configuration matters
+:class: dropdown
 
 This conceptual setup is not arbitrary — it is a **thought experiment** designed to test the consistency of the $2^{\text{nd}}$ law.
 By coupling a reversible engine to another system that reuses its rejected heat, Clausius was able to explore whether it would be possible, *in principle*, to build a device that takes heat from a single reservoir and converts it entirely into work — precisely the situation forbidden by the **Kelvin–Planck postulate**.
@@ -112,16 +111,15 @@ $$
 
 where the equality holds only for **reversible** transformations.
 
-:::{admonition} Important: significance of entropy and generalization of the 2nd law
-:class: warning
+:::{warning} Important: significance of entropy and generalization of the 2nd law
 
 * Entropy is a **state property**, allowing the $2^{\text{nd}}$ law to be expressed for **non-cyclic processes**.
 * For any **reversible process**, $\Delta S = \int \frac{\delta Q_{\text{rev}}}{T}$.
 * For any **irreversible process**, $\Delta S > \int \frac{\delta Q_{\text{irrev}}}{T}$ — meaning that the **entropy of the universe increases**.
   :::
 
-:::{admonition} Note: units of entropy
-:class: note, dropdown
+:::{note} Note: units of entropy
+:class: dropdown
 Mind that, according to the {re}`above equation <eq_entropy_inequality>`, entropy (and specific entropy, i.e. entropy per unit mass) shares the same **dimensional structure** as the quotient of heat and temperature:
 
 $$
@@ -192,8 +190,7 @@ $$
 
 Local decreases in entropy are possible within subsystems, but they must always be offset by greater increases elsewhere, ensuring that the **total entropy of the universe never decreases**.
 
-:::{admonition} Important: physical meaning
-:class: warning
+:::{warning} Important: physical meaning
 
 * Entropy is **conserved** only in reversible processes and **created** in irreversible ones.
 * The increase of entropy defines the **natural direction of all processes** and establishes the **thermodynamic arrow of time**.

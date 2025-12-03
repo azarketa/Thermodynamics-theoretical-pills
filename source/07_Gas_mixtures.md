@@ -30,8 +30,8 @@ Since they are fractions, they must satisfy the normalization condition:
 (eq_normalization_mass_molar)=
 $${\sum_{i=1}^{k} x_i}{}={}1 \qquad\text{and}\qquad {\sum_{i=1}^{k} y_i}{}={}1$$
 
-:::{admonition} Note: physical interpretation
-:class: note, dropdown
+:::{note} Note: physical interpretation
+:class: dropdown
 
 The mass fraction expresses how much of the mixture’s total mass corresponds to each species, whereas the molar fraction expresses how many moles of that species are present relative to the total moles.
 Both are fundamental when converting between molar and mass-based quantities in mixture calculations.
@@ -69,8 +69,8 @@ Thus, the ratios of each component’s partial pressure and partial volume to th
 (eq_y_relation)=
 $$\frac{p_i}{p_{\text{total}}}{}={} \frac{V_i}{V_{\text{total}}}{}={} \frac{N_i}{N_{\text{total}}}{}={}y_i$$
 
-:::{admonition} Tip: significance of molar fraction
-:class: tip, dropdown
+:::{tip} Tip: significance of molar fraction
+:class: dropdown
 
 The molar fraction directly expresses how each species contributes to the overall pressure and volume of the gas mixture. It serves as the natural weighting factor for many other mixture properties and simplifies the formulation of state and energy equations.
 :::
@@ -117,14 +117,13 @@ where
 
 This formulation applies to any **extensive quantity** — such as total volume — and ensures that the mixture property reflects the collective contribution of all components, each weighted by its mass fraction.
 
-:::{admonition} Note: validity of additivity
-:class: note, dropdown
+:::{note} Note: validity of additivity
+:class: dropdown
 
 All the relations above rely on the **ideal mixture assumption**, where interactions between different species are neglected. For real mixtures—especially under high pressure, low temperature, or when chemical reactions occur—these additivity rules must be replaced by non-ideal mixture models (e.g., equations of state with mixing rules or activity coefficients).
 :::
 
-:::{admonition} Important: unit-consistency of mixture properties
-:class: warning
+:::{warning} Important: unit-consistency of mixture properties
 
 Each property of an ideal gas mixture—whether expressed per mole or per mass—results from **weighted averaging** of the component properties. The weighting factor depends on the reference basis:
 
@@ -137,9 +136,7 @@ Note that the molar and mass quantities show a different nomenclature. If $\phi$
 * The **mass quantities** are expressed with **bare** symbols, i.e. $\phi$ (e.g. $c_{p,\text{mixture}}$). When a weighted-sum formula is employed, the mass quantities will show up with the **mass fractions $x_{i}$**.
 :::
 
-::::{card}
-**WORKED EXAMPLE — mixture properties of standard air**
-^^^
+::::{important} **WORKED EXAMPLE — mixture properties of standard air**
 
 **Problem statement**
 
@@ -243,8 +240,8 @@ Air is a common mixture that usually described as having a volumetric compositio
 
 ---
 
-:::{admonition} Tip: interpretation
-:class: tip, dropdown
+:::{tip} Tip: interpretation
+:class: dropdown
 
 Differences are **sub-percent** and stem from:
 1. The simplified binary composition (no $\text{Ar}$, $\text{CO}_{2}$, etc.; argon alone shifts $\text{MW}_{\text{air}}$ upward).
@@ -253,8 +250,6 @@ Differences are **sub-percent** and stem from:
 Including minor species (e.g., $\sim0.93 \ \% \ \text{Ar}$) and using high-precision $c_p(T)$ polynomials would bring the results essentially into line with the tabulated “standard air” values.
 :::
 
-+++
-END OF WORKED EXAMPLE
 ::::
 
 ---

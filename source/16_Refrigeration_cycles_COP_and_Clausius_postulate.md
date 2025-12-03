@@ -23,8 +23,7 @@ The two devices differ only in purpose:
 * a **refrigerator** removes heat from a low-temperature space,
 * a **heat pump** delivers heat to a warm space.
 
-:::{admonition} Important: reversed-direction operation
-:class: warning
+:::{warning} Important: reversed-direction operation
 
 While a **heat engine** converts part of the natural heat flow (hot → cold) into work,
 a **reversed heat engine** consumes work to make heat flow **cold → hot**.
@@ -73,8 +72,7 @@ $$
 \text{COP}_{\text{HP}}=\frac{Q_H}{Q_H-Q_L} = \frac{Q_L}{Q_H-Q_L} + 1 = \text{COP}_{\text{R}} + 1 \implies \boxed{\text{COP}_{\text{HP}} = \text{COP}_{\text{R}} + 1} \ .
 $$
 
-:::{admonition} Important: physical interpretation of COP values
-:class: warning
+:::{warning} Important: physical interpretation of COP values
 
 The **coefficient of performance** follows the *same conceptual logic* as **efficiency**: both express a **ratio between what is obtained and what it costs** to obtain it. In the case of the $\text{COP}$, such a ratio expresses how much heat transfer is achieved per unit of work supplied:
 
@@ -117,8 +115,7 @@ If this work drives a **refrigeration cycle** operating between the same two res
 The overall effect would be a **net transfer of $Q_L$ from cold to hot without any external work** — a direct violation of the **Clausius postulate**.
 The inverse argument leads to the same conclusion, proving that both postulates are **logically equivalent** and impose identical restrictions on thermodynamic cycles.
 
-:::{admonition} Important: summary of postulate complementarity
-:class: warning
+:::{warning} Important: summary of postulate complementarity
 
 | **Aspect**                | **Kelvin–Planck (Heat engines)**              | **Clausius (Refrigerators / Heat pumps)**                                                 |
 | :------------------------ | :-------------------------------------------- | :---------------------------------------------------------------------------------------- |

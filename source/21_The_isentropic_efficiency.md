@@ -51,8 +51,8 @@ Enforcing the same pressure change ensures that both processes perform the **sam
 
 In this diagram, an **isentropic process** appears as a **vertical line** ($\Delta s=0$), while the **actual process** curves to the right ($\Delta s>0$), revealing the internal entropy generation.
 
-:::{admonition} Note: the Mollier diagram
-:class: note, dropdown
+:::{note} Note: the Mollier diagram
+:class: dropdown
 The **$h–s$ diagram** (or **Mollier diagram**) is a key graphical tool in thermodynamics.
 It allows visual comparison between:
 
@@ -63,8 +63,8 @@ It allows visual comparison between:
 This makes it particularly suited for devices like turbines, compressors, and nozzles, where **enthalpy variations dominate** the energy conversion process.
 :::
 
-:::{admonition} Note: choice of operational constraint
-:class: note, dropdown
+:::{note} Note: choice of operational constraint
+:class: dropdown
 
 The **isentropic reference process** must always be defined under the **same boundary or end conditions** as the real one. The appropriate **operational constraint**—such as constant pressure, volume, or temperature—depends on the system’s configuration and purpose:
 
@@ -214,8 +214,7 @@ $$
 
 <br/>
 
-:::{admonition} Important: summary of isentropic efficiency expressions
-:class: warning
+:::{warning} Important: summary of isentropic efficiency expressions
 
 | **Device** | **Generic / tabulated substances** | **Ideal gases ($c_p(T)$)** | **Perfect gases ($c_p$ const.)** | **Interpretation** |
 | :-  | :- | :- | :- | :- |

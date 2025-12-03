@@ -12,8 +12,7 @@ Thermodynamic equilibrium serves as the conceptual bridge between observable pro
 A system is in **equilibrium** when no measurable changes occur in its macroscopic properties while it is isolated from its surroundings.
 In such a state, every possible internal imbalance — mechanical, thermal, or chemical — has been cancelled out.
 
-:::{admonition} Important: meaning of equilibrium
-:class: warning
+:::{warning} Important: meaning of equilibrium
 Thermodynamic equilibrium means that the system has reached a condition where no spontaneous internal evolution occurs.
 It represents a state of **maximum stability** under the given constraints.
 :::
@@ -65,8 +64,8 @@ The schematic illustration below intends to represent the $0^{\text{th}}$ law as
 Schematic representation of the $0^{\text{th}}$ law
 :::
 
-:::{admonition} Note: empirical meaning of temperature
-:class: note, dropdown
+:::{note} Note: empirical meaning of temperature
+:class: dropdown
 Temperature is the **equilibrium state property** that determines whether two systems are in **thermal equilibrium** $\implies$  if two systems are said to be in thermal equilibrium, they **share the same temperature**.
 :::
 
@@ -107,15 +106,14 @@ William Thomson (Lord Kelvin) deduced the concept of **absolute zero**, the temp
 This lower limit, $0\ \text{K}$, corresponds to $-273.15\ [^\circ\text{C}]$.
 While absolute zero cannot be reached (as prohibited by quantum mechanics and the Third law), it provides a universal reference.
 
-:::{admonition} Important: absolute temperature
-:class: warning
+:::{warning} Important: absolute temperature
 The absolute temperature scale is independent of material properties.
 Zero Kelvin represents the limit of complete molecular rest (conceptually), though quantum uncertainty prevents its realization.
 This universality makes the Kelvin scale the foundation for scientific and engineering applications.
 :::
 
-:::{admonition} Tip: units and notation
-:class: tip, dropdown
+:::{tip} Tip: units and notation
+:class: dropdown
 The unit of thermodynamic temperature is the **Kelvin** ($[\text{K}]$), not “degree Kelvin.”
 The symbol $^\circ$ is used only for the Celsius scale.
 :::
@@ -136,8 +134,7 @@ A system’s state can either change with time or remain constant:
 A **process** represents the *transition between two states*.
 It can be viewed as a path that links an initial state $(1)$ and a final state $(2)$.
 
-:::{admonition} Important: definition of process
-:class: warning
+:::{warning} Important: definition of process
 A thermodynamic process is any transformation that carries a system from one equilibrium state to another.
 The **path** followed and the **time** required to reach the final state define the type of process.
 :::
@@ -155,8 +152,8 @@ Empirically:
 * $\tau$ increases with system **volume** ($V$); larger systems take longer to equilibrate.
 * $\tau$ decreases with **boundary surface area** ($A$); larger surfaces allow faster exchange.
 
-:::{admonition} Tip: interpreting relaxation time
-:class: tip, dropdown
+:::{tip} Tip: interpreting relaxation time
+:class: dropdown
 A large bath takes longer to heat up because of its larger volume,
 but increasing the heating surface reduces the time needed to reach equilibrium.
 :::
@@ -176,8 +173,7 @@ Although countless processes exist, only a few idealized cases have analytical i
    Infinitely slow transformations in which the system remains infinitesimally close to equilibrium at all times.
    In practice, no process is truly quasi-static, but this idealization allows us to derive fundamental relationships among state variables.
 
-:::{admonition} Important: quasi-static as an ideal limit
-:class: warning
+:::{warning} Important: quasi-static as an ideal limit
 A quasi-static process is not real but serves as a **reference model**.
 Because equilibrium holds at every stage, the system passes through a continuous series of equilibrium states,
 making it possible to define and integrate its thermodynamic properties.

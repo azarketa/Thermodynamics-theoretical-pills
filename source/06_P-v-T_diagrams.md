@@ -45,8 +45,7 @@ The system is slowly heated by a thermal source such as a small burner.
    If heating continues beyond the saturated vapor state, the temperature rises above the saturation temperature.
    The vapor expands, the piston ascends further, and the gas approximately follows {ref}`the ideal-gas law <eq_ideal_gas_specific_form>`. The fluid in this region is the **superheated vapor**.
 
-:::{admonition} Important: key observations in the $T-v$ diagram
-:class: warning
+:::{warning} Important: key observations in the $T-v$ diagram
 
 * The **specific volume** of liquid water remains nearly constant until boiling begins.
 * The **phase change** appears as a **horizontal line** (constant $T$ and $p$).
@@ -83,8 +82,8 @@ This leads to two major conclusions:
     
     Supercritical fluids exhibit properties intermediate between those of gases and liquids and are used in specialized applications such as solvent extraction and supercritical drying.
 
-:::{admonition} Note: pressure cookers and high-altitude boiling
-:class: note, dropdown
+:::{note} Note: pressure cookers and high-altitude boiling
+:class: dropdown
 
 * In a **pressure cooker**, the internal pressure exceeds atmospheric pressure, allowing water to remain liquid above $100 \ ^{\circ}\text{C}$ and thus cook food faster.
 * On the other hand, atop **Mount Everest**, where $p_{\text{atm}} \approx 34 \ \text{kPa}$, water boils at about $86 \ ^{\circ}\text{C}$.
@@ -123,8 +122,8 @@ The resulting **$p-v$ diagram** shows similar features to the $T-v$ projection:
 
 The bell-shaped envelope again separates the single-phase regions from the two-phase mixture.
 
-:::{admonition} Note: comparison between $T-v$ and $p-v$ diagrams
-:class: note, dropdown
+:::{note} Note: comparison between $T-v$ and $p-v$ diagrams
+:class: dropdown
 
 * In the **liquid region**, specific volume varies little with $T$ or $p$.
 * In the **vapor region**, $p$ is inversely proportional to $v$ (Boyle–Mariotte law).
@@ -173,8 +172,8 @@ The slope of the **fusion line** reveals whether a substance **expands** or **co
 * Positive slope: volume decreases upon solidification (most substances).
 * Negative slope: volume increases (water).
 
-:::{admonition} Note: interpretation of process lines
-:class: note, dropdown
+:::{note} Note: interpretation of process lines
+:class: dropdown
 
 * **Vertical lines** correspond to isothermal processes (constant $T$).
 * **Horizontal lines** correspond to isobaric processes (constant $p$).
@@ -206,9 +205,7 @@ $$
 This intensive parameter ranges from $x=0$ (saturated liquid) to $x=1$ (saturated vapor).
 In the two-phase region, all other properties can be expressed as mass-weighted averages of their saturated-liquid and saturated-vapor values.
 
-::::{card}
-**WORKED EXAMPLE — locating water states on the $p–v–T$ diagram**
-^^^
+::::{important} **WORKED EXAMPLE — locating water states on the $p–v–T$ diagram**
 
 **Problem statement**
 
@@ -329,8 +326,8 @@ For each thermodynamic state of **water**, determine the requested properties by
 
 ---
 
-:::{admonition} Tip: reading the $p–v–T$ surface
-:class: tip
+:::{tip} Tip: reading the $p–v–T$ surface
+:class: dropdown 
 
 * Fixing $p$ and $T$ (case a) selects an **isobar–isotherm** point; comparing $T$ with $T_\text{sat}(p)$ tells whether the state lies **inside** (mixture) or **outside** (superheated/subcooled) the dome.
 * Fixing $p$ and $u$ (case b) near $u_f$ pins the state to the **saturated liquid** line at $T_\text{sat}(p)$, so $v=v_f(p)$.
@@ -339,8 +336,6 @@ For each thermodynamic state of **water**, determine the requested properties by
   Together, these patterns show how simple state checks against saturation properties let you navigate the $p$–$v$–$T$ surface quickly and accurately.
   :::
 
-+++
-END OF WORKED EXAMPLE
 ::::
 
 
@@ -353,8 +348,7 @@ In the **$T-v$ diagram**, the deviation of real vapor behavior from the ideal ga
 At low pressures and high temperatures, gases behave nearly ideally because their specific volume is large, making intermolecular forces negligible.
 However, near saturation or condensation conditions, deviations become significant, and the use of **real-gas models** becomes essential.
 
-:::{admonition} Important: region of validity of the ideal gas model
-:class: warning
+:::{warning} Important: region of validity of the ideal gas model
 The **ideal-gas assumption** holds only when the distance between molecules is large (low $p$, high $T$).
 Close to phase boundaries, intermolecular attractions dominate and the ideal-gas model fails.
 This is the regime where **compressibility factors** and **cubic equations of state** become necessary.
