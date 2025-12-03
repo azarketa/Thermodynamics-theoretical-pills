@@ -159,7 +159,7 @@ Air is a common mixture that usually described as having a volumetric compositio
 
 ---
 
-**Problem data**{footcite}`2015Cengel`
+**Problem data**{cite}`2015Cengel`
 
 | Quantity                                    |                  Symbol                  | Value                                                                                                  |
 | :------------------------------------------ | :--------------------------------------: | :----------------------------------------------------------------------------------------------------- |
@@ -270,10 +270,3 @@ Including minor species (e.g., $\sim0.93 \ \% \ \text{Ar}$) and using high-preci
 * Both **partial pressures** and **partial volumes** {ref}`scale with the molar fraction <eq_y_relation>`, which explains its central role in mixture formulations.
 * **Property evaluation** follows the same additive logic: specific heats (in their {ref}`molar <eq_molar_specific_heats>` and {ref}`mass <eq_mass_specific_heats>` formulations), {ref}`molar mass <eq_mixture_molar_mass>`, and {ref}`gas constant <eq_mixture_gas_constant>` are all weighted averages.
 * **State-property variations** such as {ref}`internal energy <eq_state_property_changes>`, {ref}`enthalpy <eq_enthalpy_change_mixture>` and {ref}`entropy <eq_entropy_change_mixture>` are mass-weighted sums, extending the same principle to energy and entropy analysis.
-
----
-
-(subsec_references_gas_mixtures)=
-### References
-```{footbibliography}
-:style: unsrt

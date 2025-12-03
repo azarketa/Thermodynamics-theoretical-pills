@@ -285,7 +285,7 @@ Different gas models are applied for computing the pressure of a mole of $\text{
 
 ---
 
-**Problem data**{footcite}`weast1972handbook, mit_virial`
+**Problem data**{cite}`weast1972handbook, mit_virial`
 
 | Quantity               |                   Symbol                  |                    Value                   |
 | :--------------------- | :---------------------------------------: | :----------------------------------------: |
@@ -465,10 +465,3 @@ At $T_r \approx 0.99$, $\text{CO}_2$ lies close to its critical region.
 * **Real-gas** behavior requires corrections for finite size and interactions — via {ref}`van der Waals <eq_vanderwaals>`, {ref}`Redlich–Kwong <eq_redlich_kwong>`, {ref}`Virial <eq_virial_equation>`, and {ref}`Peng–Robinson <eq_peng_robinson>`.
 * For broad engineering conditions, **Peng–Robinson** typically offers the best accuracy–simplicity balance; **Redlich–Kwong** is a solid lighter-weight alternative.
 * Truncated **virial** forms remain valuable for dilute gases but are not the most accurate at moderate densities or near phase boundaries.
-
----
-
-(subsec_references_ideal_and_real_gases)=
-### References
-```{footbibliography}
-:style: unsrt

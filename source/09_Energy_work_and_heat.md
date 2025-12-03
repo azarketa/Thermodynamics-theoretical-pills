@@ -1,7 +1,3 @@
-```python
-
-```
-
 (sec_energy_work_heat)=
 ## Energy, work and heat
 
@@ -451,7 +447,7 @@ We apply the appropriate relations for each process and evaluate the correspondi
 
 ---
 
-**Problem data**{footcite}`2015Cengel`
+**Problem data**{cite}`2015Cengel`
 
 | Quantity                           |       Symbol       |                     Value |
 | :--------------------------------- | :----------------: | ------------------------: |
@@ -628,10 +624,3 @@ To relate these transfers consistently, thermodynamics adopts clear **sign conve
 * $Q > 0$ when heat is **added** to the system (heating), and $Q < 0$ when **released** (cooling).
 
 On the **$p$–$V$ diagram**, areas represent **work**, while on the **$T$–$s$ diagram**, they represent **heat** for reversible processes. Both views complement each other: one expresses **mechanical** energy exchange, the other **thermal**, offering a complete picture of energy transfer between a system and its surroundings.
-
----
-
-(subsec_references_ideal_and_real_gases)=
-### References
-```{footbibliography}
-:style: unsrt
