@@ -127,20 +127,20 @@ latex_elements = {
         \endgroup
         """,    
     
-    "sphinxsetup": (
-        "noteBgColor={rgb}{230,240,255}, "
-        "noteBorderColor={rgb}{60,110,200}, "
-        "noteborder=0.8pt, "
-        "importantBgColor={rgb}{253,246,200}, "
-        "importantBorderColor={rgb}{204,153,0}, "
-        "importantborder=0.8pt, "
-        "tipBgColor={rgb}{226,244,226}, "
-        "tipBorderColor={rgb}{70,140,70}, "
-        "tipborder=0.8pt, "
-        "warningBgColor={rgb}{253,246,200}, "
-        "warningBorderColor={rgb}{204,153,0}, "
-        "warningborder=1pt"
-    ),
+    "sphinxsetup": r"""
+        noteBgColor={rgb}{230,240,255},
+        noteBorderColor={rgb}{60,110,200},
+        noteborder=0.8pt,
+        importantBgColor={rgb}{253,246,200},
+        importantBorderColor={rgb}{204,153,0},
+        importantborder=0.8pt,
+        tipBgColor={rgb}{226,244,226},
+        tipBorderColor={rgb}{70,140,70},
+        tipborder=0.8pt,
+        warningBgColor={rgb}{253,246,200},
+        warningBorderColor={rgb}{204,153,0},
+        warningborder=1pt
+        """,
     
     "fontpkg": r"""
         \setmainfont{TeX Gyre Pagella}
