@@ -47,11 +47,8 @@ This first block builds the conceptual and mathematical tools required to analyz
   Defines *flow exergy*, *non-flow exergy*, and *exergy destruction* $I{}={}T_0 S_{\text{gen}}$.
   Provides a unified framework for quantifying the *quality* of energy and losses across systems.
 
-:::{note}
-:class: dropdown
-
-**A summary of the Fundamentals outline**
-
+:::{admonition} Note: a summary of the fundamentals outline
+:class: note, dropdown
 **Central idea:** The fundamentals establish a language — systems, states, energy forms, entropy, and exergy — that enables any real process or device to be expressed as a structured balance of *quantities* and *inefficiencies*.
 This foundation supports every subsequent cycle analysis.
 :::
@@ -91,10 +88,8 @@ It explores both *idealized* cycles (as baselines) and *realistic* configuration
   Reviews isentropic expansion/compression; defines *choked flow*, *Mach number effects*, and *gross thrust* concepts.
   Explains pressure mismatch and efficiency trends in propulsion contexts.
 
-:::{note}
-:class: dropdown
-
-**A summary of the gas cycles outline**
+:::{admonition} Note: a summary of the gas cycles outline
+:class: note, dropdown
 
 **Central idea:** Gas cycles translate thermodynamic principles into continuous-flow processes where energy is converted mainly by compression and expansion.
 The *Brayton framework* provides the conceptual link between stationary and mobile (propulsive) systems.
@@ -127,10 +122,8 @@ They are modeled as **air-standard cycles**, providing idealized references for 
   Recognizes deviations from the ideal: heat transfer, finite combustion duration, friction, pumping losses, and incomplete expansion.
   Introduces simple correction factors or empirical performance coefficients used in practical assessments.
 
-:::{note}
-:class: dropdown
-
-**A summary of the ICREs outline**
+:::{admonition} Note: a summary of the ICREs outline
+:class: note, dropdown
 
 **Central idea:** ICRE analysis connects ideal cyclic reasoning with real engine behavior.
 Through compression, combustion, and expansion, these systems illustrate how chemical energy is cyclically converted into mechanical work — under the same **$1^{\text{st}}$ law** and **$2^{\text{nd}}$ law** constraints.
@@ -177,10 +170,8 @@ It establishes the link between heat addition, expansion, condensation, and rege
   Presents *topping–bottoming* concepts, where high-temperature gas cycles drive low-temperature steam or ORC subsystems.
   Emphasizes overall efficiency gains through energy cascading and waste-heat utilization.
 
-:::{note}
-:class: dropdown
-
-**A summary of the steam cycles outline**
+:::{admonition} Note: a summary of the steam cycles outline
+:class: note, dropdown
 
 **Central idea:** Steam and vapor cycles illustrate thermodynamics in its most practical form — turning heat into mechanical power within real technological and environmental constraints.
 Through condensation, regeneration, and combination with gas cycles, they demonstrate how every joule of energy is progressively degraded but still *governed* by the same universal laws.
@@ -188,9 +179,8 @@ Through condensation, regeneration, and combination with gas cycles, they demons
 
 ---
 
-:::{important}
-
-**A summary of the course**
+:::{admonition} Important: a summary of the course
+:class: important
 
 **Overall progression.**
 

@@ -138,7 +138,13 @@ latex_elements = {
         tipborder=0.8pt,
         warningBgColor={RGB}{253,246,200},
         warningBorderColor={RGB}{204,153,0},
-        warningborder=1pt
+        warningborder=1pt,
+        div.tip_background-TeXcolor={RGB}{226,244,226},
+        div.tip_border-TeXcolor={RGB}{70,140,70},
+        div.warning_background-TeXcolor={RGB}{253,246,200},
+        div.warning_border-TeXcolor={RGB}{204,153,0},
+        div.note_background-TeXcolor={RGB}{230,240,255},
+        div.note_border-TeXcolor={RGB}{60,110,200}   
         """,
     
     "fontpkg": r"""
