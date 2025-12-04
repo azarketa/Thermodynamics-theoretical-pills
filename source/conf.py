@@ -118,7 +118,19 @@ latex_elements = {
               \vspace{10em}
               {\Large \py@HeaderFamily \@author\par}
               \vspace{5em}
-              {\scalebox{0.75}{\includegraphics{MGEP_logo.pdf}}}
+              
+              \begin{figure}[h!]
+              \centering
+              {\scalebox{0.5}{\includegraphics{MGEP_logo.pdf}}}
+              \end{figure}
+              
+              \vspace{5em}
+              
+              \begin{figure}[h!]
+              \centering
+              {\scalebox{0.1}{\includegraphics{MGEP_logo.pdf}}}
+              \end{figure}              
+              
             \endgroup
           \end{titlepage}
           \clearpage
