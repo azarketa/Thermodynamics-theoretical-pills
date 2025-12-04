@@ -29,4 +29,4 @@ Thermal and Fluids Engineering: Theoretical Pills
    .. only:: html
    # References
    
-   <bibliography_section>
+   bibliography_section
