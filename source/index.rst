@@ -22,9 +22,10 @@ Thermal and Fluids Engineering: Theoretical Pills
    05_Combining_laws
 
 .. only:: html
+
    .. toctree::
       :maxdepth: 1
       :titlesonly:
       :caption: BIBLIOGRAPHY
-   
+
    bibliography_section
