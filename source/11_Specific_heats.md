@@ -783,8 +783,3 @@ This example extends the same–$\Delta E$ comparison to **final temperatures** 
 * Increasing molecular complexity broadens the number of energy-storage modes, lowering $\gamma$ and making the gas more “thermally adaptable.”
 
 Together, these ideas form the bridge between **measurable heat effects** and **intrinsic thermodynamic properties**, setting the foundation for later analyses of **energy transformations** and **flow processes**.
-
-
-```python
-
-```
