@@ -148,7 +148,7 @@ latex_elements = {
         \makeatother
         
         \pretocmd{\section}{
-          \def\tempa{References}
+          \def\tempa{REFERENCES}
           \def\tempb{#1}
           \ifx\tempa\tempb
             \expandafter\@gobble
