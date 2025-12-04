@@ -106,6 +106,23 @@ latex_engine = "xelatex"
 
 # LaTeX settings.
 latex_elements = {
+
+    "preamble": r"""
+        \makeatletter
+        \renewcommand{\sphinxmaketitle}{
+          \begin{titlepage}
+            \thispagestyle{empty}
+            \begingroup
+              \centering
+              {\Huge \py@HeaderFamily \@title\par}
+              \vspace{2em}
+              {\Large \py@HeaderFamily \@author\par}
+            \endgroup
+          \end{titlepage}
+          \clearpage
+        }
+        \makeatother
+        """,
     
     "tableofcontents": r"""
         \begingroup
