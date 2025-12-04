@@ -181,7 +181,7 @@ latex_documents = [
 ]
 
 from sphinx.builders.latex import LaTeXBuilder
-from sphinxcontrib.bibtex.transform import BibliographyTransform
+from sphinxcontrib.bibtex.transforms import BibliographyTransform
 
 def disable_latex_bibliography_transform(app):
     LaTeXBuilder.default_transforms = [
