@@ -143,17 +143,6 @@ latex_elements = {
             \renewcommand{\headrulewidth}{0.4pt}
             \renewcommand{\footrulewidth}{0.4pt}
           }
-        }
-        
-        \let\origchapter\chapter
-        \renewcommand{\chapter}[1]{
-          \def\tempa{References}
-          \def\tempb{##1}
-          \ifx\tempa\tempb
-            %
-          \else
-            \origchapter{##1}
-          \fi
         }        
         
         \makeatother  
