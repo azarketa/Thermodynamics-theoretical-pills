@@ -32,4 +32,4 @@ Thermal and Fluids Engineering: Theoretical Pills
 
 .. only:: latex
 
-      bibliography_section_latex
+      bibliography_section
