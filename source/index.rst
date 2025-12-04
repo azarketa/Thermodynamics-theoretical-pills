@@ -32,9 +32,4 @@ Thermal and Fluids Engineering: Theoretical Pills
 
 .. only:: latex
 
-   .. toctree::
-      :maxdepth: 1
-      :titlesonly:
-      :caption: BIBLIOGRAPHY
-
       bibliography_section_latex
