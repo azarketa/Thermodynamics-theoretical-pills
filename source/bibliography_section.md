@@ -1,7 +1,8 @@
 :::{only} html
-# Bibliography
+# References
 :::
 
 ```{bibliography}
+:title: References
 :style: unsrt
 :all:
