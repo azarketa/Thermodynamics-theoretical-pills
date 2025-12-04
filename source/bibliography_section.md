@@ -1,4 +1,6 @@
+:::{only} html
+# Bibliography
+
 ```{bibliography}
-:title: Bibliography
 :style: unsrt
 :all:
