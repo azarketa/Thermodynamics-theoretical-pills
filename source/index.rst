@@ -28,7 +28,7 @@ Thermal and Fluids Engineering: Theoretical Pills
 	  :titlesonly:
 	  :caption: BIBLIOGRAPHY
 	   
-	  bibliography_section
+   bibliography_section
 	  
 .. only:: latex
 
@@ -37,4 +37,4 @@ Thermal and Fluids Engineering: Theoretical Pills
 	  :titlesonly:
 	  :caption: BIBLIOGRAPHY
 	   
-	  bibliography_section_latex
+   bibliography_section_latex
