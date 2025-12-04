@@ -1,3 +1,4 @@
+```{only} html
 # References
 
 ```{bibliography}

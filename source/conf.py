@@ -124,17 +124,25 @@ latex_elements = {
               {\scalebox{0.5}{\includegraphics{MGEP_logo.pdf}}}
               \end{figure}
               
-              \vspace{5em}
-              
-              \begin{figure}[h!]
-              \centering
-              {\scalebox{0.1}{\includegraphics{MGEP_logo.pdf}}}
-              \end{figure}              
-              
             \endgroup
           \end{titlepage}
           \clearpage
         }
+        
+        \@ifundefined{fancyhf}{}{
+          \fancypagestyle{normal}{
+            \fancyhf{}
+            \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
+            \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}
+            \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
+            \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release}}
+            \fancyhead[LO]{\scalebox{0.1}{\includegraphics{MGEP_logo.pdf}}}
+            \fancyhead[RE]{\scalebox{0.1}{\includegraphics{MGEP_logo.pdf}}}
+            \renewcommand{\headrulewidth}{0.4pt}
+            \renewcommand{\footrulewidth}{0.4pt}
+          }
+        }
+        
         \makeatother
         """,
     
@@ -179,15 +187,3 @@ latex_documents = [
      "manual",
      False),
 ]
-
-from sphinx.builders.latex import LaTeXBuilder
-from sphinxcontrib.bibtex.transforms import BibliographyTransform
-
-def disable_latex_bibliography_transform(app):
-    LaTeXBuilder.default_transforms = [
-        t for t in LaTeXBuilder.default_transforms
-        if t is not BibliographyTransform
-    ]
-
-def setup(app):
-    app.connect("builder-inited", disable_latex_bibliography_transform)
