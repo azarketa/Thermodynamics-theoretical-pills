@@ -115,8 +115,10 @@ latex_elements = {
             \begingroup
               \centering
               {\Huge \py@HeaderFamily \@title\par}
-              \vspace{2em}
+              \vspace{10em}
               {\Large \py@HeaderFamily \@author\par}
+              \vspace{5em}
+              {\scalebox{0.75}{\includegraphics{MGEP_logo.pdf}}}
             \endgroup
           \end{titlepage}
           \clearpage
@@ -161,7 +163,7 @@ latex_documents = [
     ("index",
      "teflu.tex",
      "Thermal and Fluids Engineering: Theoretical Pills",
-     "TEFLU, Mondragon Goi Eskola Politeknikoa",
+     "TEFLU Arloa, Mondragon Goi Eskola Politeknikoa (MGEP)",
      "manual",
      False),
 ]
