@@ -145,15 +145,18 @@ latex_elements = {
           }
         }
         
-        \makeatother
-        
-        \pretocmd{\chapter}{
+        \let\origchapter\chapter
+        \renewcommand{\chapter}[1]{
           \def\tempa{References}
-          \def\tempb{#1}
+          \def\tempb{##1}
           \ifx\tempa\tempb
-            \expandafter\@gobble
+            
+          \else
+            \origchapter{##1}
           \fi
-        }{}{}        
+        }        
+        
+        \makeatother  
         """,
     
     "tableofcontents": r"""
