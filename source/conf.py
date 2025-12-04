@@ -179,3 +179,15 @@ latex_documents = [
      "manual",
      False),
 ]
+
+from sphinx.builders.latex import LaTeXBuilder
+from sphinxcontrib.bibtex.transform import BibliographyTransform
+
+def disable_latex_bibliography_transform(app):
+    LaTeXBuilder.default_transforms = [
+        t for t in LaTeXBuilder.default_transforms
+        if t is not BibliographyTransform
+    ]
+
+def setup(app):
+    app.connect("builder-inited", disable_latex_bibliography_transform)
