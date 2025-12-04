@@ -9,7 +9,7 @@ Thermal and Fluids Engineering: Theoretical Pills
 
    What is this course about? <0001_What_is_this_course_about>
    Course outline <0002_Course_outline>
-   
+
 .. toctree::
    :maxdepth: 2
    :titlesonly:
@@ -20,21 +20,21 @@ Thermal and Fluids Engineering: Theoretical Pills
    03_1st_law
    04_2nd_law
    05_Combining_laws
-   
+
 .. only:: html
 
    .. toctree::
       :maxdepth: 1
-	  :titlesonly:
-	  :caption: BIBLIOGRAPHY
-	   
-   bibliography_section
-	  
+      :titlesonly:
+      :caption: BIBLIOGRAPHY
+
+      bibliography_section
+
 .. only:: latex
 
    .. toctree::
       :maxdepth: 1
-	  :titlesonly:
-	  :caption: BIBLIOGRAPHY
-	   
-   bibliography_section_latex
+      :titlesonly:
+      :caption: BIBLIOGRAPHY
+
+      bibliography_section_latex
