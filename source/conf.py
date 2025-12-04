@@ -150,9 +150,7 @@ latex_elements = {
           \def\tempa{References}
           \def\tempb{##1}
           \ifx\tempa\tempb
-            
-          \else
-            \origchapter{##1}
+            \expandafter\@gobble
           \fi
         }        
         
