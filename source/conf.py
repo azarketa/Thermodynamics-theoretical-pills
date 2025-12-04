@@ -108,6 +108,8 @@ latex_engine = "xelatex"
 latex_elements = {
 
     "preamble": r"""
+        \usepackage{etoolbox}
+        
         \makeatletter
         \renewcommand{\sphinxmaketitle}{
           \begin{titlepage}
@@ -135,7 +137,7 @@ latex_elements = {
             \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
             \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}
             \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
-            \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release}}
+            \fancyhead[LE,RO]{{\py@HeaderFamily \@title \py@release}}
             \fancyhead[LO]{\scalebox{0.1}{\includegraphics{MGEP_logo.pdf}}}
             \fancyhead[RE]{\scalebox{0.1}{\includegraphics{MGEP_logo.pdf}}}
             \renewcommand{\headrulewidth}{0.4pt}
@@ -144,6 +146,14 @@ latex_elements = {
         }
         
         \makeatother
+        
+        \pretocmd{\section}{
+          \def\tempa{References}
+          \def\tempb{#1}
+          \ifx\tempa\tempb
+            \expandafter\@gobble
+          \fi
+        }{}{}        
         """,
     
     "tableofcontents": r"""
