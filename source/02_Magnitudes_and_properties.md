@@ -77,7 +77,10 @@ Thermodynamic properties can be grouped according to how they depend on the syst
 * **Intensive properties** are *independent* of system size; they remain unchanged when subsystems are combined.
   Examples: **pressure** ($p$), **temperature** ($T$), **density** ($\rho$).
 
-:::{warning} Important: additivity vs. independence
+:::{warning}
+
+**ADDITIVITY VS. INDEPENDENCE**
+
 Extensive properties describe *quantities of substance*; intensive properties describe *conditions of substance*.
 Thermodynamics relates them through ratios such as “per mass,” “per volume,” or “per mole,” which convert extensives into intensives.
 :::
@@ -193,6 +196,7 @@ This makes the mole a natural unit for describing proportionality in reactions a
     | millimetre of mercury          | $\text{mmHg}$ or $\text{torr}$ |           $133.3$ $\text{Pa}$          | Manometry and medicine        |
     | kilogram per square centimetre |     $\text{kg}/\text{cm}^{2}$     | $\approx 9.81\times10^{4}$ $\text{Pa}$ | Legacy (non-SI) unit          |
 
+
 :::{tip}
 
 **INTERPRETATION OF 1 ATM**
@@ -239,7 +243,10 @@ This parallels the notion of microscopic pressure as the collective effect of co
 
 From the **macroscopic** standpoint, temperature is a **state variable** that indicates the degree of thermal equilibrium between systems.
 
-::::{warning} Important: intensive nature of temperature
+::::{warning}
+
+**INTENSIVE NATURE OF TEMPERATURE**
+
 Unlike extensive quantities such as mass or energy, **temperature is an intensive property** — it does not add up. Combining two bodies of water at $100\ ^\circ\text{C}$ does not yield $200\ ^\circ\text{C}$; the final temperature lies between them, depending on heat capacities and masses.
 
 The figure below illustrates the difference between extensive and intensive properties when combining two systems ($A$ and $B$) which, before joining, show their own masses, volumes, temperatures and pressures. The extensiveness of mass and volume allows to sum them up for getting the mass and volume of the combined system. However, such an additivity is not applicable to temperature and pressure, due to the intensive nature of those magnitudes.

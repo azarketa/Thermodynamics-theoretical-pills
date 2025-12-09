@@ -97,7 +97,7 @@ This leads to two major conclusions:
 ---
 
 (subsec_simplified_tv_projection)=
-### The Simplified $T-v$ projection
+### The simplified $T-v$ projection
 
 If we plot all saturation points for both liquid and vapor and connect them, we obtain the **saturation line**, which forms an **inverted bell**.
 The $T-v$ diagram can then be divided into distinct regions:
