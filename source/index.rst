@@ -20,6 +20,14 @@ Thermal and Fluids Engineering: Theoretical Pills
    03_1st_law
    04_2nd_law
    05_Combining_laws
+   
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+   :caption: MODULE 2: GAS CYCLES
+
+   01_The_Brayton_cycle
+   02_Basics_on_propulsion_systems
 
 .. only:: html
 
