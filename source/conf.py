@@ -20,7 +20,6 @@ sys.path.insert(0, os.path.abspath('.'))
 
 extensions = [
     'myst_nb',
-    'myst_parser',
     'sphinx_design',
     'sphinx_togglebutton',
     'sphinxcontrib.mermaid',
