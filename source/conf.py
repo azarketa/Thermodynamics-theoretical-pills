@@ -20,6 +20,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 extensions = [
     'myst_nb',
+    'myst_parser',
     'sphinx_design',
     'sphinx_togglebutton',
     'sphinxcontrib.mermaid',
@@ -33,6 +34,11 @@ extensions = [
     "sphinxcontrib.cairosvgconverter",
     'hoverxref.extension'
 ]
+
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
 
 # Make formal refs hoverable without changing markup.
 hoverxref_auto_ref = True
