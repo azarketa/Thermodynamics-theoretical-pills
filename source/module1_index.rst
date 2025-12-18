@@ -1,4 +1,4 @@
-MODULE 1: FUNDAMENTALS
+FUNDAMENTALS
 ======================
 
 .. toctree::

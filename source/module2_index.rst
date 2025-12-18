@@ -1,4 +1,4 @@
-MODULE 2: GAS CYCLES
+GAS CYCLES
 ===================
 
 .. toctree::
