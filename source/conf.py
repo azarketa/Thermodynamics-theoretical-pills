@@ -37,7 +37,6 @@ extensions = [
 
 source_suffix = {
     ".rst": "restructuredtext",
-    ".md": "markdown",
 }
 
 # Make formal refs hoverable without changing markup.
