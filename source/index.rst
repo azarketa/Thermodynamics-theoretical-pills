@@ -43,7 +43,11 @@ Thermal and Fluids Engineering: Theoretical Pills
    .. toctree::
       :maxdepth: 2
 
-      introduction_index
-      module1_index
-      module2_index
-      bibliography_section_latex
+      INTRODUCTION
+      ============
+
+      .. toctree::
+         :maxdepth: 3
+
+         0001_What_is_this_course_about
+         0002_Course_outline
