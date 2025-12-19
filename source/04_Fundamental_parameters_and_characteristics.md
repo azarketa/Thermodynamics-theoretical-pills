@@ -48,7 +48,8 @@ Beyond length-scale parameters, engine geometry is often described through **vol
 
 - $V_1$: cylinder volume at **BDC** (maximum volume).
 - $V_2$: cylinder volume at **TDC** (minimum volume, clearance volume).
-- $V_d$: **displacement volume** (swept volume), defined as
+- $V_d$: **displacement volume** (swept volume), defined as:
+  
   $$
   V_d = V_1 - V_2 = \frac{\pi}{4} b^2 s .
   $$

@@ -131,134 +131,132 @@ Learning the components now makes later thermodynamic modelling physically groun
 
 ---
 
-#### Cylinder
+* **Cylinder:**
 
-The **cylinder** houses the piston and guides its motion. Because the piston slides continuously, the cylinder requires:
+    The **cylinder** houses the piston and guides its motion. Because the piston slides continuously, the cylinder requires:
+    
+    - good surface finish,
+    - strict manufacturing tolerances,
+    - high wear resistance.
+    
+    Thermal and mechanical loads are significant, so cylinders frequently employ liners (dry or wet sleeves). A dry liner acts as a wear-resistant surface, while a wet liner can incorporate coolant contact and improve heat removal.
 
-- good surface finish,
-- strict manufacturing tolerances,
-- high wear resistance.
+<br/>
 
-Thermal and mechanical loads are significant, so cylinders frequently employ liners (dry or wet sleeves). A dry liner acts as a wear-resistant surface, while a wet liner can incorporate coolant contact and improve heat removal.
+* **Engine block:**
 
----
+    The **engine block** houses the cylinders and supports the piston–connecting rod–crankshaft assembly. It must be structurally rigid and it often integrates cooling passages.
+    
+    Materials are selected to balance strength, thermal behavior, and weight. Cast iron and aluminum alloys are common: aluminum alloys reduce mass and improve thermal conductivity, benefiting cooling, but may require liners or treatments for wear resistance.
+    
+    The engine block design strongly depends on cylinder arrangement:
+    
+    - inline blocks are longer,
+    - V blocks are shorter but split into banks,
+    - boxer blocks are wide and low, lowering center of gravity.
 
-#### Engine block
+<br/>
 
-The **engine block** houses the cylinders and supports the piston–connecting rod–crankshaft assembly. It must be structurally rigid and it often integrates cooling passages.
+* **Crankcase (oil sump):**
 
-Materials are selected to balance strength, thermal behavior, and weight. Cast iron and aluminum alloys are common: aluminum alloys reduce mass and improve thermal conductivity, benefiting cooling, but may require liners or treatments for wear resistance.
+    The **crankcase** typically serves as an oil reservoir and oil collector, positioned below the engine block. It is often bolted to the block. Because it is usually not a primary structural element, it is commonly made from light alloys or thin steel sheets.
 
-The engine block design strongly depends on cylinder arrangement:
+<br/>
 
-- inline blocks are longer,
-- V blocks are shorter but split into banks,
-- boxer blocks are wide and low, lowering center of gravity.
+* **Cylinder head:**
 
----
+    The **cylinder head** is mounted on top of the block and contains:
+    
+    - the combustion chamber geometry,
+    - intake and exhaust ports,
+    - valves (or valve seats),
+    - and spark plugs or injectors.
+    
+    It operates under high thermal and mechanical stress. Heat losses are often significant here, especially near the exhaust region.
+    
+    A key sealing component is the **head gasket**, placed between the head and the block. Its purpose is to ensure tight sealing against:
+    
+    - combustion gases,
+    - coolant leakage,
+    - oil leakage.
+    
+    The gasket must be deformable enough to conform to surfaces yet strong enough to withstand high pressures and temperatures. Failure leads to severe issues: loss of compression, cross-contamination of oil and coolant, and eventual engine damage.
 
-#### Crankcase (oil sump)
+<br/>
 
-The **crankcase** typically serves as an oil reservoir and oil collector, positioned below the engine block. It is often bolted to the block. Because it is usually not a primary structural element, it is commonly made from light alloys or thin steel sheets.
+* **Piston:**
 
----
+    The **piston** is the moving element that receives pressure forces from the working fluid and transmits them to the connecting rod. It must:
+    
+    - ensure sealing together with piston rings,
+    - remain lightweight (reducing inertia),
+    - withstand high temperatures and thermal gradients,
+    - resist corrosion and wear.
+    
+    Pistons experience especially high temperatures near their crown and must be designed for controlled thermal expansion.
 
-#### Cylinder head
+<br/>
 
-The **cylinder head** is mounted on top of the block and contains:
+* **Piston rings:**
 
-- the combustion chamber geometry,
-- intake and exhaust ports,
-- valves (or valve seats),
-- and spark plugs or injectors.
+    **Piston rings** sit in grooves around the piston perimeter. Their main roles are:
+    
+    - sealing the combustion chamber (limiting blow-by),
+    - controlling oil distribution on the cylinder wall,
+    - transferring heat from the piston to the cylinder wall.
+    
+    A typical set may include:
+    
+    - **compression rings** (also called fire rings): seal combustion gases and limit leakage into the crankcase, while also aiding heat transfer,
+    - an **oil control ring** (scraper): spreads lubricant uniformly and removes excess oil,
+    - an **expander** element: acts like a spring supporting oil rings and maintaining contact pressure.
+    
+    Ring selection and coatings are driven by wear, temperature, friction reduction, and sealing requirements. Ring design differs between two-stroke and four-stroke engines due to lubrication strategy and operating constraints.
 
-It operates under high thermal and mechanical stress. Heat losses are often significant here, especially near the exhaust region.
+<br/>
 
-A key sealing component is the **head gasket**, placed between the head and the block. Its purpose is to ensure tight sealing against:
+* **Connecting rod:**
 
-- combustion gases,
-- coolant leakage,
-- oil leakage.
+    The **connecting rod** transmits forces between piston and crankshaft. It must combine low mass with high stiffness and strength, and it must satisfy strict tolerance requirements to ensure proper alignment and load transfer. It is typically made from forged steel, special steels, light alloys, or more advanced cast materials.
 
-The gasket must be deformable enough to conform to surfaces yet strong enough to withstand high pressures and temperatures. Failure leads to severe issues: loss of compression, cross-contamination of oil and coolant, and eventual engine damage.
+<br/>
 
----
+* **Crankshaft:**
 
-#### Piston
+    The **crankshaft** converts the connecting rod motion into rotation. It is subjected to torsion and bending loads and commonly includes:
+    
+    - journals and crankpins,
+    - bearings,
+    - counterweights to reduce vibration.
+    
+    Crankshafts often include internal oil passages to ensure lubrication of bearings and moving contacts. Materials include forged steel and ductile cast iron (spheroidal graphite cast iron).
 
-The **piston** is the moving element that receives pressure forces from the working fluid and transmits them to the connecting rod. It must:
+* **Valves:**
 
-- ensure sealing together with piston rings,
-- remain lightweight (reducing inertia),
-- withstand high temperatures and thermal gradients,
-- resist corrosion and wear.
+    **Valves** regulate intake and exhaust flows. Exhaust valves, in particular, experience very high temperatures (often several hundreds of degrees Celsius). Multi-valve designs can reduce thermal loads and improve flow capacity. Materials are chosen for high-temperature resistance, commonly using chromium/nickel alloy steels.
 
-Pistons experience especially high temperatures near their crown and must be designed for controlled thermal expansion.
+<br/>
 
----
+* **Camshaft:**
 
-#### Piston rings
+    The **camshaft** actuates the intake and exhaust valves following a prescribed timing law. It is typically located in the cylinder head and is mechanically driven in synchrony with the crankshaft.
 
-**Piston rings** sit in grooves around the piston perimeter. Their main roles are:
+<br/>
 
-- sealing the combustion chamber (limiting blow-by),
-- controlling oil distribution on the cylinder wall,
-- transferring heat from the piston to the cylinder wall.
+* **Timing belt / transmission belt:**
 
-A typical set may include:
+    A belt (or chain) connects the crankshaft to the camshaft, ensuring correct valve timing. In addition, belts may drive auxiliary devices such as:
+    
+    - fans in air-cooled engines,
+    - mechanically driven compressors in supercharged engines.
 
-- **compression rings** (also called fire rings): seal combustion gases and limit leakage into the crankcase, while also aiding heat transfer,
-- an **oil control ring** (scraper): spreads lubricant uniformly and removes excess oil,
-- an **expander** element: acts like a spring supporting oil rings and maintaining contact pressure.
+<br/>
 
-Ring selection and coatings are driven by wear, temperature, friction reduction, and sealing requirements. Ring design differs between two-stroke and four-stroke engines due to lubrication strategy and operating constraints.
+* **Starter motor:**
 
----
+    An internal combustion engine is not self-starting: it requires an external energy source to initiate rotation. The **starter motor** is a small electric machine powered by the vehicle battery. It converts electrical power into mechanical rotation by engaging a pinion with the flywheel, forcing the crankshaft to rotate until combustion becomes self-sustaining.
 
-#### Connecting rod
-
-The **connecting rod** transmits forces between piston and crankshaft. It must combine low mass with high stiffness and strength, and it must satisfy strict tolerance requirements to ensure proper alignment and load transfer. It is typically made from forged steel, special steels, light alloys, or more advanced cast materials.
-
----
-
-#### Crankshaft
-
-The **crankshaft** converts the connecting rod motion into rotation. It is subjected to torsion and bending loads and commonly includes:
-
-- journals and crankpins,
-- bearings,
-- counterweights to reduce vibration.
-
-Crankshafts often include internal oil passages to ensure lubrication of bearings and moving contacts. Materials include forged steel and ductile cast iron (spheroidal graphite cast iron).
-
----
-
-#### Valves
-
-**Valves** regulate intake and exhaust flows. Exhaust valves, in particular, experience very high temperatures (often several hundreds of degrees Celsius). Multi-valve designs can reduce thermal loads and improve flow capacity. Materials are chosen for high-temperature resistance, commonly using chromium/nickel alloy steels.
-
----
-
-#### Camshaft
-
-The **camshaft** actuates the intake and exhaust valves following a prescribed timing law. It is typically located in the cylinder head and is mechanically driven in synchrony with the crankshaft.
-
----
-
-#### Timing belt / transmission belt
-
-A belt (or chain) connects the crankshaft to the camshaft, ensuring correct valve timing. In addition, belts may drive auxiliary devices such as:
-
-- fans in air-cooled engines,
-- mechanically driven compressors in supercharged engines.
-
----
-
-#### Starter motor
-
-An internal combustion engine is not self-starting: it requires an external energy source to initiate rotation. The **starter motor** is a small electric machine powered by the vehicle battery. It converts electrical power into mechanical rotation by engaging a pinion with the flywheel, forcing the crankshaft to rotate until combustion becomes self-sustaining.
-
-In small devices (chainsaws, outboards), this function is performed manually by pull-cords or similar mechanisms, which provide the initial crankshaft rotation.
+    In small devices (chainsaws, outboards), this function is performed manually by pull-cords or similar mechanisms, which provide the initial crankshaft rotation.
 
 ---
 
