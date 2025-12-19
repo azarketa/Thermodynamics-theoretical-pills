@@ -41,12 +41,3 @@ This diversity motivates a **layered approach** to the topic. Before entering th
 Many non-ideal effects that appear later in the thermodynamic analysis (heat losses, incomplete combustion, friction, pumping work, pressure drops, finite-time combustion) are not abstract phenomena: they are directly connected to geometry, components, and system architecture. Understanding the “machine” first makes the thermodynamics more meaningful.
 
 :::
-
----
-
-### Conceptual closure
-
-- ICREs are one of the two dominant families of gas power cycles, together with Brayton-based gas turbines.
-- Otto and Diesel cycles are the two principal ideal reference models for thermodynamic analysis.
-- Real engines exhibit large technological diversity that cannot be captured by thermodynamic classification alone.
-- Mechanical structure, system layout, and components provide the necessary basis for a meaningful thermodynamic study.

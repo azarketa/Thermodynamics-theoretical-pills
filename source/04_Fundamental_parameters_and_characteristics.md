@@ -53,7 +53,8 @@ Beyond length-scale parameters, engine geometry is often described through **vol
   V_d = V_1 - V_2 = \frac{\pi}{4} b^2 s .
   $$
 
-The **compression ratio** is defined as
+The **compression ratio** is defined as:
+
 $$
 r = \frac{V_1}{V_2}.
 $$
@@ -67,10 +68,12 @@ This contrasts with the Brayton cycle, where the key ratio is the **pressure rat
 
 :::
 
-The **engine displacement** (total swept volume) is
+The **engine displacement** (total swept volume) is:
+
 $$
 V_{d,\text{eng}} = Z\,V_d,
 $$
+
 where $Z$ is the number of cylinders.
 
 ---
@@ -101,17 +104,20 @@ Let:
 - $A_s$ be the **stoichiometric** air–fuel ratio ($\text{kg air}/\text{kg fuel}$),
 - $A$ be the actual air–fuel ratio ($\text{kg air}/\text{kg fuel}$),
 - $\lambda$ be the **relative air–fuel ratio** (excess-air factor), so that
+
   $$
   A = \lambda A_s .
   $$
 
-Then, when working per unit mass of air,
+Then, when working per unit mass of air:
+
 $$
 q_{\text{in}} = \frac{\text{LHV}}{A}
 = \frac{\text{LHV}}{\lambda A_s}.
 $$
 
 If the working fluid is considered as the **air–fuel mixture** instead of air alone, then per unit mass of mixture:
+
 $$
 q_{\text{in}} = \frac{\text{LHV}}{1 + A}
 = \frac{\text{LHV}}{1 + \lambda A_s}.
@@ -131,10 +137,12 @@ For ideal Otto/Diesel cycle analysis, it is often convenient to work per unit ma
 (subsec_icre_power)=
 ### Power output and air mass flow rate
 
-A key performance quantity is the **power output**, defined as
+A key performance quantity is the **power output**, defined as:
+
 $$
 \text{Pot} = \dot{m}_{\text{air}}\, w_{\text{net}},
 $$
+
 where:
 
 - $\text{Pot}$ is the power ($\text{kW}$),
@@ -145,15 +153,17 @@ A practical estimate of $\dot{m}_{\text{air}}$ can be built from geometry and op
 
 - density times volume per cycle times number of cycles per second,
 
-one obtains
+one obtains:
+
 $$
-\dot{m}_{\text{air}}
-= \rho \left(\frac{\pi}{4} b^2\right) s \left(\frac{N}{60}\right) i \, Z,
+\dot{m}_{\text{air}} = \rho \left(\frac{\pi}{4} b^2\right) s \left(\frac{N}{60}\right)iZ,
 $$
-and therefore
+
+and therefore:
+
 $$
 \text{Pot}
-= w_{\text{net}} \, \rho \left(\frac{\pi}{4} b^2\right) s \left(\frac{N}{60}\right) i \, Z .
+= w_{\text{net}} \, \rho \left(\frac{\pi}{4} b^2\right) s \left(\frac{N}{60}\right)iZ .
 $$
 
 Here:
@@ -186,15 +196,15 @@ It does not include volumetric efficiency, flow restrictions, residual gases, or
 ### Fuel consumption
 
 Fuel consumption is commonly tied to the **air–fuel ratio**:
+
 $$
 A = \frac{\dot{m}_{\text{air}}}{\dot{m}_{\text{fuel}}}.
 $$
 
-Therefore,
+Therefore:
+
 $$
-\dot{m}_{\text{fuel}}
-= \frac{\dot{m}_{\text{air}}}{A}
-= \frac{\dot{m}_{\text{air}}}{\lambda A_s}.
+\dot{m}_{\text{fuel}} = \frac{\dot{m}_{\text{air}}}{A} = \frac{\dot{m}_{\text{air}}}{\lambda A_s}.
 $$
 
 This expression highlights the key dependencies:

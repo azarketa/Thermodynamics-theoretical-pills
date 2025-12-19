@@ -50,10 +50,13 @@ In a real four-stroke engine, the piston also performs **intake** and **exhaust*
 The corresponding works are:
 
 - intake (work done by the surroundings on the piston–gas system):
+
   $$
   w_{\text{in},0\rightarrow 1} = p_0 (v_1 - v_0),
   $$
+  
 - exhaust (work done by the system on the surroundings):
+
   $$
   w_{\text{out},1\rightarrow 0} = p_0 (v_1 - v_0).
   $$
@@ -95,6 +98,7 @@ Thus, the Diesel cycle preserves the compression and expansion modelling but rep
 ### Thermal efficiency of the ideal Otto cycle
 
 For both Otto and Diesel cycles, neglecting kinetic and potential energy changes, the first law for a closed system over a process can be written in specific form as:
+
 $$
 (q_{\text{in}} - q_{\text{out}}) + (w_{\text{in}} - w_{\text{out}}) = \Delta u .
 $$
@@ -102,32 +106,31 @@ $$
 For the Otto cycle, heat is added and rejected at **constant volume**, so heat transfer equals the change in internal energy:
 
 Heat addition ($2 \rightarrow 3$):
+
 $$
 q_{\text{in}} = u_3 - u_2 = c_v (T_3 - T_2).
 $$
 
 Heat rejection ($4 \rightarrow 1$):
+
 $$
 q_{\text{out}} = u_4 - u_1 = c_v (T_4 - T_1).
 $$
 
 Therefore, the thermal efficiency is:
+
 $$
-\eta_{\text{th,Otto}}
-= \frac{w_{\text{net}}}{q_{\text{in}}}
-= 1 - \frac{q_{\text{out}}}{q_{\text{in}}}
-= 1 - \frac{T_4 - T_1}{T_3 - T_2}.
+\eta_{\text{th,Otto}} = \frac{w_{\text{net}}}{q_{\text{in}}} = 1 - \frac{q_{\text{out}}}{q_{\text{in}}} = 1 - \frac{T_4 - T_1}{T_3 - T_2}.
 $$
 
 To express this efficiency in terms of the compression ratio, use the isentropic relations for processes $1 \rightarrow 2$ and $3 \rightarrow 4$, together with $v_2=v_3$ and $v_4=v_1$:
+
 $$
-\frac{T_2}{T_1} = \left(\frac{v_1}{v_2}\right)^{\gamma-1}
-\quad \text{and} \quad
-\frac{T_3}{T_4} = \left(\frac{v_4}{v_3}\right)^{\gamma-1}
-= \left(\frac{v_1}{v_2}\right)^{\gamma-1}.
+\frac{T_2}{T_1} = \left(\frac{v_1}{v_2}\right)^{\gamma-1} \quad \text{and} \quad \frac{T_3}{T_4} = \left(\frac{v_4}{v_3}\right)^{\gamma-1} = \left(\frac{v_1}{v_2}\right)^{\gamma-1}.
 $$
 
 Defining the compression ratio $r = v_1/v_2$, it follows that the Otto-cycle efficiency becomes:
+
 $$
 \eta_{\text{th,Otto}} = 1 - \frac{1}{r^{\gamma-1}} .
 $$
@@ -151,6 +154,7 @@ Therefore, pushing $r$ ever higher yields diminishing returns in ideal efficienc
 In spark-ignition engines, increasing $r$ raises the end-of-compression temperature. If the mixture reaches conditions that promote **auto-ignition** before the flame front propagates smoothly from the spark, parts of the mixture can ignite prematurely, producing rapid pressure rise and pressure waves. This is the phenomenon of **knock** (often perceived as a metallic pinging). Knock increases mechanical and thermal loading and is undesirable for durability.
 
 As a result, spark-ignition engines typically operate with compression ratios in the range:
+
 $$
 8 \lesssim r \lesssim 11 .
 $$
@@ -195,41 +199,43 @@ A key point is that even though Otto and Diesel differ noticeably in the $p-v$ d
 ### Thermal efficiency of the ideal Diesel cycle
 
 For the Diesel cycle, the heat-addition process occurs at **constant pressure**, and therefore boundary work occurs during combustion. Applying the first law to process $2 \rightarrow 3$:
+
 $$
 q_{\text{in}} - w_{b,\text{out}} = u_3 - u_2 .
 $$
 
 For an ideal-gas constant-pressure process, this leads to:
+
 $$
 q_{\text{in}} = (u_3 - u_2) + p_2(v_3 - v_2) = h_3 - h_2 = c_p (T_3 - T_2).
 $$
 
 Heat rejection ($4 \rightarrow 1$) is still modelled as constant-volume:
+
 $$
 q_{\text{out}} = u_4 - u_1 = c_v (T_4 - T_1).
 $$
 
 Thus, Diesel thermal efficiency is:
+
 $$
-\eta_{\text{th,Diesel}}
-= 1 - \frac{q_{\text{out}}}{q_{\text{in}}}
-= 1 - \frac{c_v (T_4 - T_1)}{c_p (T_3 - T_2)}
-= 1 - \frac{T_4 - T_1}{\gamma (T_3 - T_2)} .
+\eta_{\text{th,Diesel}} = 1 - \frac{q_{\text{out}}}{q_{\text{in}}} = 1 - \frac{c_v (T_4 - T_1)}{c_p (T_3 - T_2)} = 1 - \frac{T_4 - T_1}{\gamma (T_3 - T_2)} .
 $$
 
 To express the result in terms of compression ratio and a new Diesel-specific parameter, define the **cutoff ratio**:
+
 $$
 r_c = \frac{v_3}{v_2}.
 $$
 
 Using isentropic relations and the structure of the Diesel cycle, one obtains the standard form:
+
 $$
-\eta_{\text{th,Diesel}}
-= 1 - \frac{1}{r^{\gamma-1}}
-\left[\frac{r_c^\gamma - 1}{\gamma (r_c - 1)}\right].
+\eta_{\text{th,Diesel}} = 1 - \frac{1}{r^{\gamma-1}} \left[\frac{r_c^\gamma - 1}{\gamma (r_c - 1)}\right].
 $$
 
 The bracketed term is always greater than 1 for $r_c>1$, so for the same compression ratio:
+
 $$
 \eta_{\text{th,Otto}} > \eta_{\text{th,Diesel}} .
 $$
@@ -254,16 +260,22 @@ From the Diesel efficiency expression, several key qualitative results follow:
 - **Smaller cutoff ratio increases efficiency:**  
   As $r_c \rightarrow 1$, the heat-addition process approaches constant volume and the bracketed factor approaches 1.  
   This can be shown by the first-order approximation:
+  
   $$
   r_c^\gamma - 1 \approx \gamma (r_c - 1),
   $$
+
+  
   so Otto and Diesel efficiencies coincide in the limit $r_c \to 1$.
 
 - **Diesel engines tolerate higher $r$ (and need it):**  
   Compression-ignition requires sufficiently high end-of-compression temperature to trigger auto-ignition of the injected fuel. Therefore Diesel engines operate with much larger compression ratios, commonly:
+
   $$
   12 \lesssim r \lesssim 23,
   $$
+
+  
   which strongly increases efficiency through the $1 - 1/r^{\gamma-1}$ factor.
 
 - **Typical Diesel efficiencies are higher in practice:**  
@@ -326,10 +338,13 @@ This motivates the **dual (mixed) cycle**, which models heat addition as a combi
 Two parameters are defined:
 
 - a **pressure ratio** across the constant-volume portion:
+  
   $$
   r_p = \frac{p_x}{p_2},
   $$
+  
 - a **cutoff ratio** across the constant-pressure portion:
+
   $$
   r_c = \frac{v_3}{v_x}.
   $$
@@ -360,4 +375,3 @@ This makes the dual cycle a convenient bridge between the two classical idealiza
 - Diesel ideal efficiency introduces the cutoff ratio $r_c$: $\eta_{\text{th,Diesel}} = 1 - \frac{1}{r^{\gamma-1}}\left[\frac{r_c^\gamma-1}{\gamma(r_c-1)}\right]$.
 - At equal $r$, Otto is more efficient than Diesel, but Diesel engines operate at higher $r$ in practice and often reach higher real efficiencies.
 - The dual cycle captures mixed constant-volume/constant-pressure heat addition and provides a more flexible ideal model for modern CI engines.
-
