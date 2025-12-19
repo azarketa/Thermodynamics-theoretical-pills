@@ -1,5 +1,5 @@
 (sec_icre_losses)=
-## Real-cycle losses in ICREs: heat transfer, finite-time combustion, and pumping
+## Losses
 
 Ideal Otto, Diesel, and dual cycles are valuable because they isolate the main thermodynamic mechanisms and yield compact efficiency trends. Real engines, however, deviate from those idealizations in systematic ways. Understanding **where** and **why** the deviations occur is essential for two reasons:
 
