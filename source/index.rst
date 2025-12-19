@@ -9,6 +9,7 @@ Thermal and Fluids Engineering: Theoretical Pills
    introduction_index
    module1_index
    module2_index
+   module3_index
    bibliography_section_latex   
 
 .. only:: html
