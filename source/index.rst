@@ -7,10 +7,10 @@ Thermal and Fluids Engineering: Theoretical Pills
    :titlesonly:
 
    introduction_index
-   module1_index
-   module2_index
-   module3_index
-   bibliography_section_latex   
+   fundamentals_index
+   gas_cycles_index
+   icres_index
+   steam_cycles_index   
 
 .. only:: html
 	  

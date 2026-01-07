@@ -6,4 +6,4 @@ Modeling losses and boosting performance
    :maxdepth: 2
 
    Losses <06_Losses>
-   Overfeeding and technological evolution <07_Overfeeding_and_technological_evolution_of_ICREs>
+   Overfeeding and the technological evolution of ICREs <07_Overfeeding_and_technological_evolution_of_ICREs>
