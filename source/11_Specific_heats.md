@@ -1,7 +1,14 @@
 (sec_specific_heats_as_properties)=
 ## Specific heats
 
-When a system is supplied with energy as heat, its temperature usually rises. The way that rise happens depends on **how the process is constrained** — for instance, whether the system can expand or not. Some of these constrained processes can be easily reproduced experimentally, allowing us to **relate measurable quantities** such as the energy added and the resulting temperature increase. From these controlled experiments arise the definitions of the **specific heats**, which connect changes in internal energy and enthalpy to temperature variations.
+When a system is supplied with energy as heat, its temperature usually rises. The way that rise happens depends on **how the process is constrained** — for instance, whether the system can expand or not. Some of these constrained processes can be easily reproduced experimentally, allowing us to **relate measurable quantities** such as the energy added and the resulting temperature increase. From these controlled experiments arise the definitions of the **specific heats**, which connect changes in internal energy and enthalpy to temperature variations. In general terms though, the specific heat parameter is conceived as a proportionality constant between the heat in a process to the temperature variation experienced by the system; as such, the most general relation for an infinitesimal energy exchange in the form of heat adopts the expression:
+
+(eq_general_specific_heat_relation)=
+$$
+\delta{q} = c\mathrm{d}T.
+$$
+
+The main purpose of this section is to set the above expression upon a solid thermodynamic basis.
 
 ---
 
@@ -108,7 +115,7 @@ Only the energy-related quantities ($u$, $h$) are **state functions**; the heat 
 
 **ON THE UNITS OF SPECIFIC HEATS**
 
-Notice that both $c_p$ and $c_v$ are measured in $[\text{kJ}/(\text{kg}{\cdot}\text{K})]$, which means that the specific heats express the **amount of energy required to raise the temperature of one kilogram of a substance by one kelvin**, under the specified constraint (constant volume or constant pressure).
+Notice that both $c_v$ and $c_o$ are measured in $[\text{kJ}/(\text{kg}{\cdot}\text{K})]$, which means that the specific heats express the **amount of energy required to raise the temperature of one kilogram of a substance by one kelvin**, under the specified constraint (constant volume or constant pressure).
 :::
 
 ---
@@ -262,7 +269,7 @@ $$
 R = c_p - c_v,
 $$
 
-the gas constant represents the **energy required for unit mass (or mole) of gas to expand by unit temperature change at constant pressure**, relative to constant volume — that is, the *energy per unit temperature that goes into $pv$ (expansion) work* rather than internal energy.
+the gas constant represents the **energy required for unit mass (or mole) of gas to expand by unit temperature change at constant pressure**, relative to constant volume — that is, the *energy per unit temperature that goes into $p\Delta{}v$ (expansion) work* rather than internal energy.
 
 During **isothermal processes**, $\Delta T = 0 \Rightarrow \Delta u = \Delta h = 0$, so the heat transfer $Q$ is entirely converted into **boundary work** $W$. Using the ideal gas law $pv = RT$, we have:
 
@@ -291,7 +298,7 @@ $$
 is dimensionless and depends on the **molecular structure** of the gas — specifically on the number of active degrees of freedom (translation, rotation, vibration).
 For most real gases, $\gamma$ decreases slightly with temperature as vibrational modes become excited.
 
-| **Gas type**               | **Molecular examples** |                    **Degrees of freedom (approx.)**                   | $\gamma = c_p/c_v$ (typical) {cite}`2015Cengel`|
+| **Gas type**               | **Molecular examples** |                    **Degrees of freedom (DoF) (approx.)**                   | $\gamma = c_p/c_v$ (typical) {cite}`2015Cengel` = (DoF + 2)/DoF|
 | :------------------------- | :--------------------- | :-------------------------------------------------------------------: | :--------------------------: |
 | **Monoatomic**             | $\text{He}$, $\text{Ne}$, $\text{Ar}$             |                            3 translational                            |           1.66–1.67          |
 | **Diatomic**               | $\text{N}_{2}$, $\text{O}_{2}$, $\text{H}_{2}$, Air        |                     3 translational + 2 rotational                    |           1.38–1.41          |
@@ -324,7 +331,7 @@ Intermediate values of $c$ correspond to **polytropic processes** with partial h
 | :--------------- | :------------------ | :----------------------: | :-------------------------------: |
 | **Isochoric**    | $v = \text{const.}$ |      $n \to \infty$      |             $c = c_v$             |
 | **Isobaric**     | $p = \text{const.}$ |          $n = 0$         |             $c = c_p$             |
-| **Isothermal**   | $T = \text{const.}$ |          $n = 1$         | $c \to \infty$ (undefined) |
+| **Isothermal**   | $T = \text{const.}$ |          $n = 1$         | $c \to \pm \infty$ (undefined) |
 | **Adiabatic**    | $Q = 0$             |       $n = \gamma$       |              $c = 0$              |
 
 :::{note}
@@ -371,26 +378,26 @@ $$
 Since $v = R T / p$, we can also relate $\mathrm{d}p/p$ to $\mathrm{d}T/T$:
 
 $$
-\frac{\mathrm{d}p}{p} = \frac{n}{1 - n}\frac{\mathrm{d}T}{T}.
+\frac{\mathrm{d}p}{p} = \frac{n}{n - 1}\frac{\mathrm{d}T}{T}.
 $$
 
 Replacing $\mathrm{d}p$ in the previous expression for $\delta q$:
 
 $$
-\delta q = c_p\mathrm{d}T - \frac{R T}{p}\left(\frac{p n}{(1 - n)T}\mathrm{d}T\right)
-= \left[c_p - \frac{n R}{1 - n}\right]\mathrm{d}T.
+\delta q = c_p\mathrm{d}T - \frac{R T}{p}\left(\frac{p n}{(n - 1)T}\mathrm{d}T\right)
+= \left[c_p - \frac{n R}{n - 1}\right]\mathrm{d}T.
 $$
 
 Hence, for a polytropic process, the heat exchanged per unit temperature change is:
 
 $$
-\delta q = c\mathrm{d}T, \quad \text{with} \quad c = \frac{c_p - n R}{1 - n}.
+\delta q = c\mathrm{d}T, \quad \text{with} \quad c = c_{p} - \frac{n R}{n - 1}.
 $$
 
 Substituting $R = c_p - c_v$ finally gives:
 
 $$
-c = \frac{c_p - n c_v}{1 - n},
+c = \frac{n c_v - c_p}{n - 1},
 $$
 
 and rearranging:
@@ -404,7 +411,7 @@ This expression tells us **how “polytropic” the process is**, i.e., how much
 * $c$ represents the **effective specific heat** — the amount of heat per unit temperature change for the actual process.
 * $c_p$ and $c_v$ are the two **limiting values**:
 
-  * $c_p$ corresponds to the case where pressure is constant and all $p,\mathrm{d}v$ work is supplied by heat input.
+  * $c_p$ corresponds to the case where pressure is constant, where part of the heat input corresponds to the toal $p\mathrm{d}v$, and the remaining part goes to increasing the internal energy.
   * $c_v$ corresponds to no expansion work (constant volume), where all heat goes into raising internal energy.
 
 Between those extremes, the process behaves *partly like both*, depending on how much of the energy supplied (or extracted) goes into expansion/compression work.
@@ -417,358 +424,6 @@ The exponent $n$ thus acts as a **thermodynamic dial** between these limits:
 * When $c$ tends to infinity → $n = 1$: isothermal (heat input fully compensates the work done).
 
 :::
-
-::::{important}
-
-**WORKED EXAMPLE — FINAL TEMPERATURES WITH A PERFECT GAS MODEL**
-
-**Problem statement**
-
-In the two previous worked examples, we have {ref}`calculated the work associated with different processes <worked_example_boundary_work>` and {ref}`obtained the required heat input for a fixed net energy change <worked_example_energy_balance>`.
-The purpose of this worked example is to determine the **final temperature** of nitrogen ($\mathrm{N_2}$) at the end of those processes, using the **perfect gas model**. For the polytropic process, calculate the effective heat capacity $c$ as well.
-
-We consider the **same system and initial state** (closed system, $m=1~\mathrm{kg}$ of $\mathrm{N_2}$, $p_1=100~\mathrm{kPa}$, $T_1=300~\mathrm{K}$) and keep the **same net stored‐energy change** as before:
-
-$$
-\Delta E = -53.9~\mathrm{kJ}.
-$$
-
-Caveat: {ref}`mind that, in general <eq_first_law_components>`, $\Delta E \neq \Delta U$. For a closed system,
-
-$$
-\Delta E = \Delta U + \Delta E_{\text{k.}} + \Delta E_{\text{p.}} = \Delta U + \Delta E_{\mathrm{mech.}} = Q - W,
-$$
-
-so the **mechanical‐energy** change $\Delta E_{\mathrm{mech.}} = \Delta E_{\text{k.}} + \Delta E_{\text{p.}}$ must be accounted for.
-
----
-
-**Synthesis**
-
-Perfect‐gas, constant specific heats:
-
-$$
-c_v = \frac{R}{\gamma-1}, \qquad \Delta U = m c_v (T_2 - T_1).
-$$
-
-With $\Delta E$ fixed and the known $W$ from the boundary‐work example:
-
-$$
-Q = \Delta E + W, \qquad \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U.
-$$
-
-Path relations used to obtain $T_2$:
-* isochoric $v=\mathrm{const.}$ (assume $\Delta E_{\mathrm{mech.}}=0$);
-* isobaric $p=\mathrm{const.}$ with volume doubling ($T_2/T_1=v_2/v_1=2$);
-* isothermal $T=\mathrm{const.}$;
-* adiabatic, reversible $Q=0,\ pv^\gamma=\mathrm{const.}$;
-* polytropic $pv^n=\mathrm{const.}$ with $n=1.2$.
-
----
-
-**Problem data**
-
-**Constants and initial state**
-
-| Quantity                  |        Symbol        |                            Value |
-| :------------------------ | :------------------: | -------------------------------: |
-| Gas                       |           —          |         Nitrogen, $\mathrm{N_2}$ |
-| Mass                      |          $m$         |                  $1~\mathrm{kg}$ |
-| Initial temperature       |         $T_1$        |                 $300~\mathrm{K}$ |
-| Initial pressure          |         $p_1$        |               $100~\mathrm{kPa}$ |
-| Gas constant              |          $R$         | $0.2968~\mathrm{kJ/(kg\cdot K)}$ |
-| Heat‐capacity ratio       |       $\gamma$       |                            $1.4$ |
-| Specific heat at constant $v$      | $c_v = R/(\gamma-1)$ |  $0.742~\mathrm{kJ/(kg\cdot K)}$ |
-| Fixed total energy change |      $\Delta E$      |              $-53.9~\mathrm{kJ}$ |
-
-**Work from the boundary‐work example**
-
-| Process                |          Relation          | $W$ [kJ] |
-| :--------------------- | :------------------------: | -------: |
-| Isochoric              |     $v=\mathrm{const.}$    |     +0.0 |
-| Isobaric               |     $p=\mathrm{const.}$    |    +89.0 |
-| Isothermal             |     $T=\mathrm{const.}$    |    +61.7 |
-| Adiabatic (reversible) | $pv^{1.4}=\mathrm{const.}$ |    +53.9 |
-| Polytropic $n=1.2$     | $pv^{1.2}=\mathrm{const.}$ |    +65.0 |
-
----
-
-**Calculations**
-
-1. **Isochoric**
-
-   $W = 0$.
-   Assume rigid, stationary vessel $\Rightarrow \Delta E_{\mathrm{mech.}} = 0$.
-   Then $\Delta U = \Delta E = -53.9~\mathrm{kJ}$ and:
-
-   $$
-   T_2 = T_1 + \frac{\Delta U}{m c_v}
-   = 300 + \frac{-53.9}{0.742}
-   = 227.4~\mathrm{K}.
-   $$
-
-   $$
-   \boxed{T_2 = 227.4~\mathrm{K}}, \quad
-   \boxed{Q = -53.9~\mathrm{kJ}},
-   $$
-
-   $$
-   \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}} \ .
-   $$
-
----
-
-2. **Isobaric**
-
-   $$
-   W = +89.0~\mathrm{kJ}.
-   $$
-
-   Volume doubling:
-
-   $$
-   pv=RT \Rightarrow \frac{v_2}{v_1} = \frac{T_2}{T_1}; \ v_{2}=2v_{1} \implies \frac{T_2}{T_1}=2
-   $$
-
-   $$
-   \Delta U = m c_v (T_2 - T_1)
-   = (1)(0.742)(300)
-   = +222.6~\mathrm{kJ}.
-   $$
-
-   $$
-   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
-   = -53.9 - 222.6
-   = -276.5~\mathrm{kJ}.
-   $$
-
-   $$
-   Q = \Delta E + W
-   = -53.9 + 89.0
-   = +35.1~\mathrm{kJ}.
-   $$
-
-   Cross‐check via enthalpy:
-    
-   $$
-   c_p = c_v + R = 0.743 + 0.2968 = 1.039~\mathrm{\tfrac{kJ}{kg\cdot K}},
-   $$
-   
-   $$
-   \Delta T = T_2 - T_1 = 600 - 300 = 300~\mathrm{K}.
-   $$
-   
-   $$
-   \Delta H = m c_p \Delta T = (1)(1.039)(300) = 311.6~\mathrm{kJ} \ \text{or}
-   $$
-   
-   $$
-   \Delta H = \Delta U + W = 222.6 + 89.0 = 311.6~\mathrm{kJ}.
-   $$
-   
-   $$
-   Q = \Delta H + \Delta E_{\mathrm{mech.}}
-   = 311.6 - 276.5
-   = 35.1~\mathrm{kJ} \quad (\text{same result}).
-   $$
-   
-   $$
-   \boxed{T_2 = 600.0~\mathrm{K}}, \quad
-   \boxed{Q = +35.1~\mathrm{kJ}},   
-   $$
-
-   $$
-   \boxed{\Delta U = +222.6~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = -276.5~\mathrm{kJ}} \ .
-   $$
-
----
-
-3. **Isothermal**
-
-   $$
-   W = +61.7~\mathrm{kJ}.
-   $$
-
-   Since $T_2 = T_1 = 300.0~\mathrm{K}$,
-   $\Delta U = 0$ and
-
-   $$
-   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
-   = -53.9 - 0
-   = -53.9~\mathrm{kJ}.
-   $$
-
-   $$
-   Q = \Delta E + W
-   = -53.9 + 61.7
-   = +7.8~\mathrm{kJ}.
-   $$
-
-   $$
-   \boxed{T_2 = 300.0~\mathrm{K}}, \quad
-   \boxed{Q = +7.8~\mathrm{kJ}},
-   $$
-
-   $$
-   \boxed{\Delta U = 0.0~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = -53.9~\mathrm{kJ}} \ .
-   $$
-
----
-
-4. **Adiabatic**
-
-   $Q = 0$, and $pv^\gamma = \mathrm{const.}$ with volume doubling:
-
-   $$
-   T_2 = T_1 \left(\frac{v_1}{v_2}\right)^{\gamma-1}
-   = 300(0.5)^{0.4}
-   = 227.4~\mathrm{K}.
-   $$
-
-   $$
-   \Delta U = m c_v (T_2 - T_1)
-   = (1)(0.743)(227.4 - 300)
-   = -53.9~\mathrm{kJ}.
-   $$
-
-   $$
-   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
-   = -53.9 - (-53.9)
-   = 0.0~\mathrm{kJ}.
-   $$
-
-   $$
-   W = Q - \Delta E = 0 - (-53.9) = +53.9~\mathrm{kJ}.
-   $$
-
-   $$
-   \boxed{T_2 = 227.4~\mathrm{K}}, \quad
-   \boxed{Q = 0.0~\mathrm{kJ}},
-   $$
-
-   $$
-   \boxed{\Delta U = -53.9~\mathrm{kJ}}, \quad
-   \boxed{\Delta E_{\mathrm{mech.}} = 0.0~\mathrm{kJ}} \ .
-   $$
-
----
-
-5. **Polytropic ($n=1.2$)**
-
-   $$
-   W = +65.0~\mathrm{kJ}.
-   $$
-
-   $$
-   T_2 = T_1 (v_2/v_1)^{1-n}
-   = 300 \cdot 2^{-0.2}
-   = 261.2~\mathrm{K}.
-   $$
-
-   $$
-   \Delta U = m c_v (T_2 - T_1)
-   = (1)(0.743)(261.2 - 300)
-   = -28.8~\mathrm{kJ}.
-   $$
-
-   $$
-   \Delta E_{\mathrm{mech.}} = \Delta E - \Delta U
-   = -53.9 - (-28.8)
-   = -25.1~\mathrm{kJ}.
-   $$
-
-   $$
-   Q = \Delta E + W
-   = -53.9 + 65.0
-   = +11.1~\mathrm{kJ}.
-   $$
-
-   $$
-   c = \frac{c_{p} - nc_{v}}{1 - n} = \frac{1.039 - 1.2{\cdot}0.742}{1 - 1.2} = -0.737 \ \text{kJ}/\left(\text{kg}\cdot\text{K}\right)
-   $$
-
-   $$
-   \boxed{T_2 = 261.2~\mathrm{K}}, \quad
-   \boxed{Q = +11.1~\mathrm{kJ}}, \quad
-   \boxed{\Delta U = -28.8~\mathrm{kJ}},
-   $$
-
-   $$
-   \boxed{\Delta E_{\mathrm{mech.}} = -25.1~\mathrm{kJ}}, \quad
-   \boxed{c = -0.737 \ \text{kJ}/\left(\text{kg}\cdot\text{K}\right)} \ .
-   $$
-
----
-
-**Summary of results**
-
-| Process              |          Relation          | $W$ [kJ] | $Q$ [kJ] | $T_2$ [K] | $\Delta U$ [kJ] | $\Delta E_{\mathrm{mech.}}$ [kJ] | $c$ [kJ/(kg$\cdot$K)] |
-| :------------------- | :------------------------: | -------: | -------: | --------: | --------------: | ------------------------------: | -----: |
-| Isochoric            |     $v=\mathrm{const.}$    |     +0.0 |    −53.9 |     227.4 |           −53.9 |                             0.0 | 0.743
-| Isobaric             |     $p=\mathrm{const.}$    |    +89.0 |    +35.1 |     600.0 |          +222.6 |                          −276.5 | 1.039
-| Isothermal           |     $T=\mathrm{const.}$    |    +61.7 |     +7.8 |     300.0 |             0.0 |                           −53.9 | $\to \infty$
-| Adiabatic (rev.)     | $pv^{1.4}=\mathrm{const.}$ |    +53.9 |      0.0 |     227.4 |           −53.9 |                             0.0 | 0
-| Polytropic ($n=1.2$) | $pv^{1.2}=\mathrm{const.}$ |    +65.0 |    +11.1 |     261.2 |           −28.8 |                           −25.1 | -0.737
-
----
-
-**Visualization**
-
-The bar chart below compares, for each process, the **internal** $U$ and **mechanical** $E_{\text{mech.}}$ variations that together yield the same total energy loss $\Delta E = -53.9\ \mathrm{kJ}$.
-A horizontal dashed line marks $\Delta E$.
-
-![budgetE-diagram](1_fundamentals_figs/energy_budget_diagram_worked_example_mod.svg)
-
----
-
-:::{tip}
-
-**INTERPRETATION**
-
-This example extends the same–$\Delta E$ comparison to **final temperatures** under a perfect‐gas model, while explicitly tracking **mechanical‐energy changes**.
-
-* **Energy bookkeeping:** for every path, the first law is satisfied as $\Delta E = \Delta U + \Delta E_{\mathrm{mech.}} = Q - W$. With $\Delta E$ fixed, $Q$ shifts with $W$, and $T_2$ follows from $\Delta U = m c_v \Delta T$.
-* **Isochoric:** by **assumption**, the vessel is rigid and stationary, so $\Delta E_{\mathrm{mech.}}=0$. With $W=0$, the entire energy loss is internal cooling, yielding $T_2=227.4~\mathrm{K}$.
-* **Isobaric:** constant‐pressure expansion doubles the volume. Internal energy rises sharply; to keep the same total loss, the system must **lose mechanical energy**. Macroscopically, this corresponds to the gas doing work that propels a piston upward or raises a weight.
-* **Isothermal:** temperature remains fixed ($\Delta U=0$). The total energy decrease appears as a **loss of mechanical energy**, representing the system’s macroscopic expansion against external resistance.
-* **Adiabatic, reversible:** here $\Delta E_{\mathrm{mech.}}=0$ is a **result**, not an assumption. The constraints $Q=0$ and $pv^\gamma=\mathrm{const.}$ fix $T_2$, so that $\Delta U=-W$ and $\Delta E=\Delta U$.
-* **Polytropic ($n=1.2$):** intermediate behavior between isothermal and adiabatic. Part of the fixed loss occurs as internal cooling, and the rest as a mechanical‐energy decrease, yielding $T_2$ between the isothermal and adiabatic values.
-
-<br/>
-
-* **Macroscopic insight:**
-
-  The sign and magnitude of $\Delta E_{\mathrm{mech.}}$ describe how the system’s **bulk kinetic or potential energy** changes. Large negative values (as in the isobaric case) indicate significant **mechanical energy release** to the surroundings—such as lifting a piston—whereas $\Delta E_{\mathrm{mech.}}=0$ corresponds to a **stationary system** whose energy changes are purely thermal.
-
-<br/>
-
-* **Overall takeaway:**
-
-    Even with the same total energy change ($\Delta E=-53.9~\mathrm{kJ}$), each process redistributes the energy differently among $Q$, $W$, $\Delta U$, and $\Delta E_{\mathrm{mech.}}$.
-    The process path determines the **final temperature** and the way thermal and mechanical exchanges balance to satisfy the first law.
-
-<br/>
-
-* **On the negative effective heat**: notice that the $c$ value obtained for the given polytropic index is **negative**.
-
-  * Since $q = c\mathrm{d}T$, the *sign* of $c$ tells how **heat flow ($\delta q$)** and **temperature change ($\mathrm{d}T$)** are related:
-    * If $c > 0$: heat enters the system ($\delta q > 0$) as temperature increases ($\mathrm{d}T > 0$) → the process **absorbs** heat to get hotter.
-    * If $c < 0$: heat enters or leaves the system *while* temperature changes in the opposite direction — for instance, during expansion, **heat enters but the gas cools down**; during compression, **heat leaves but the gas heats up**.
-    * In other words, **a negative effective specific heat means that heat and temperature change have opposite signs** — the heat transfer *partly compensates* the energy exchange produced by work.
-  * When does $c$ become negative? From the relation $c = (c_p - n c_v)/(1 - n)$, $c < 0$ occurs when numerator and denominator have opposite signs — that is, for **polytropic indices $1 < n < \gamma$**.
-    * For $n = 1$, the process is **isothermal** and $c \to \infty$.
-    * For $1 < n < \gamma$, the process is **sub-adiabatic** (or *under-adiabatic*), meaning that **some heat transfer** occurs, but it acts *opposite* to the temperature change.
-    * For $n = \gamma$, the process is **adiabatic**, and $c = 0$.
-    * For $n > \gamma$, both numerator and denominator are negative, making $c > 0$ again.
-  * Hence, **negative $c$ corresponds to sub-adiabatic processes**, where part of the energy transfer through work is offset by heat flow in the opposite direction.
-    During expansion, the gas still cools even though it *absorbs* heat; during compression, it warms up even though it *rejects* heat. This doesn’t violate thermodynamics — it simply reflects that the **work interaction dominates over the heat exchange**. Such behavior is common in controlled expansions, throttling adjustments, or other partially insulated processes where heat and mechanical effects counteract each other.
-
-:::
-
-::::
 
 ---
 

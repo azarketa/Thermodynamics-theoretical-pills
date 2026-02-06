@@ -106,9 +106,13 @@ $$R_{\text{mixture}}{}={} \sum_{i=1}^{k} x_i{}R_i$$
 
 Finally, the **extensive properties** of a mixture can be expressed either as the **molar-weighted** or the **mass-weighted** sums of the corresponding molar/specific properties of each component:
 
-$$
-\Phi_{\text{mixture}} = \sum_{i=1}^{k} N_i\overline{\phi}_i = \sum_{i=1}^{k} m_i\phi_i
-$$
+\begin{equation}
+    \Phi_{\text{mixture}}
+    \begin{cases}
+         = \sum_{i=1}^{k} N_i\overline{\phi}_i \ \ \text{(molar basis)}\\[3ex]
+         = \sum_{i=1}^{k} m_i\phi_i \ \ \text{(mass basis)}
+    \end{cases}
+\end{equation}
 
 where
 

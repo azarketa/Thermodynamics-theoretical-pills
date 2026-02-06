@@ -91,7 +91,7 @@ It is not an independent form of energy but rather part of the **mechanical work
 We start from the **balance principle**: the **rate of change of energy in the control volume** equals the **rate of energy in** minus the **rate of energy out** (all extensive rates):
 
 (eq_1st_law_open_systems_general)=
-$$ \frac{\mathrm{d}E}{\mathrm{d}t} = \Big(\dot Q_{\text{in}} - \dot W_{\text{in}} + \sum_{\text{in}} \dot m e_{\text{in}}\Big) - \Big(\dot Q_{\text{out}} - \dot W_{\text{out}} + \sum_{\text{out}} \dot m e_{\text{out}}\Big),
+$$ \frac{\mathrm{d}E}{\mathrm{d}t} = \Big(\dot Q_{\text{in}} - \dot W_{\text{in}} + \sum_{\text{in}} \dot m e\Big) - \Big(\dot Q_{\text{out}} - \dot W_{\text{out}} + \sum_{\text{out}} \dot m e\Big),
 $$
 
 where the **specific total energy** of a flowing stream is
@@ -112,7 +112,7 @@ so that, being both heat **to** the CV and work **from** the CV positive:
 
 (eq_1st_law_open_systems_simplified_ver1)=
 $$
-\frac{\mathrm{d}E}{\mathrm{d}t} = \dot Q - \dot W + \sum_{\text{in}} \dot m e_{\text{in}} - \sum_{\text{out}} \dot m e_{\text{out}}.
+\frac{\mathrm{d}E}{\mathrm{d}t} = \dot Q - \dot W + \sum_{\text{in}} \dot m e - \sum_{\text{out}} \dot m e.
 $$
 
 ---
@@ -163,8 +163,8 @@ Substituting and regrouping (moving flow work into the stream energies) gives th
 
 (eq_1st_law_open_systems_simplified_ver2)=
 $$
-\frac{\mathrm{d}E}{\mathrm{d}t} =\dot Q - \dot W_{\text{shaft}} +\sum_{\text{in}}\dot m\left(u + pv + \frac{c^2}{2}+g z\right)_{\text{in}}
--\sum_{\text{out}}\dot m\left(u + pv + \frac{c^2}{2}+g z\right)_{\text{out}}.
+\frac{\mathrm{d}E}{\mathrm{d}t} =\dot Q - \dot W_{\text{shaft}} +\sum_{\text{in}}\dot m\left(u + pv + \frac{c^2}{2}+g z\right)
+-\sum_{\text{out}}\dot m\left(u + pv + \frac{c^2}{2}+g z\right).
 $$
 
 Since $h \equiv u + p v$, the steady balance becomes
@@ -187,18 +187,16 @@ $$
 
 :::
 
-:::{important}
+::::{important}
 
 **COMPARATIVE FORMULATION OF CLOSED AND OPEN SYSTEMS**
 
 | **Formulation** | **Closed system** | **Open system under steady flow (single inlet-outlet when applies)** |
 | :-  | :-  | :- |
-| **General form of the $1^{\text{st}}$ law** | $\displaystyle \Delta{}E = \Delta{U} + \Delta{E_{\text{k}}} + \Delta{E_{\text{p}}} = Q - W$ | $\displaystyle \dot{Q} - \dot{W} = \sum_{\text{out}} \dot{m} \left(u + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(u + \frac{c^2}{2} + g z\right)$ <br/> $\dot{Q} - \dot{W}_{\text{shaft}} = \sum_{\text{out}} \dot{m} \left(h + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(h + \frac{c^2}{2} + g z\right)$ |
-| **Work components** | Boundary work only $\int p\mathrm{d}v$ | Shaft work $\int v\mathrm{d}p$ + flow work $(\Delta(pv))$|
-| **Specific form** | $\displaystyle \Delta{u} + \Delta{e_{\text{k}}} + \Delta{e_{\text{p}}} = q - w$ | $\displaystyle q - w = (u_2 - u_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$ <br/> $q - w_{\text{shaft}} = (h_2 - h_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$ |
+| **General form of the $1^{\text{st}}$ law** | $\displaystyle \Delta{}E = \Delta{U} + \Delta{E_{\text{k}}} + \Delta{E_{\text{p}}} = Q - W$ | $\displaystyle \dot{Q} - \dot{W} = \sum_{\text{out}} \dot{m} \left(u + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(u + \frac{c^2}{2} + g z\right)$ <br/> $\displaystyle \dot{Q} - \dot{W}_{\text{shaft}} = \sum_{\text{out}} \dot{m} \left(h + \frac{c^2}{2} + g z\right) + \sum_{\text{in}} \dot{m} \left(h + \frac{c^2}{2} + g z\right)$ |
+| **Work components** | Boundary work only $\displaystyle \int p\mathrm{d}v$ | Shaft work $\displaystyle \left(-\int v\mathrm{d}p\right)$ + flow work $\displaystyle (\Delta(pv))$|
+| **Specific form** | $\displaystyle \Delta{u} + \Delta{e_{\text{k}}} + \Delta{e_{\text{p}}} = q - w$ | $\displaystyle q - w = (u_2 - u_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$ <br/> $\displaystyle q - w_{\text{shaft}} = (h_2 - h_1) + \tfrac{c_2^2 - c_1^2}{2} + g(z_2 - z_1)$ |
 | **Typical examples**  | Piston–cylinder, rigid tank | Compressor, turbine, diffuser, nozzle, heat exchanger, mixer, valve|
-
-:::
 
 :::{note}
 
@@ -216,6 +214,8 @@ $$
 $$
 
 :::
+
+::::
 
 ---
 

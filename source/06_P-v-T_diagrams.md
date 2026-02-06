@@ -327,7 +327,7 @@ For each thermodynamic state of **water**, determine the requested properties by
 | 4 | Superheated vapor | $T = 283.43~^\circ\text{C}$                                                                            |
 
 * Comparing given states with **saturation properties** allows immediate phase identification.
-* Mixture states (case c) lie **inside the dome**; subcooled and superheated states (a, b, d) lie **outside** it.
+* Mixture states (case 3) lie **inside the dome**; subcooled and superheated states (1, 2, 4) lie **outside** it.
 * Linear interpolation across tabulated data provides accurate intermediate values for both $v$ and $T$.
 
 ---
@@ -336,10 +336,10 @@ For each thermodynamic state of **water**, determine the requested properties by
  
 **READING THE $p-v-T$ SURFACE**
 
-* Fixing $p$ and $T$ (case a) selects an **isobar–isotherm** point; comparing $T$ with $T_\text{sat}(p)$ tells whether the state lies **inside** (mixture) or **outside** (superheated/subcooled) the dome.
-* Fixing $p$ and $u$ (case b) near $u_f$ pins the state to the **saturated liquid** line at $T_\text{sat}(p)$, so $v=v_f(p)$.
-* Specifying $p$ and $x$ (case c) places the state **on the dome** at $T_\text{sat}(p)$, with $v$ a linear blend of $v_f$ and $v_g$.
-* Fixing $p$ and a large $v$ (case d) typically means **superheated vapor**; interpolate in superheated tables to obtain $T$.
+* Fixing $p$ and $T$ (case 1) selects an **isobar–isotherm** point; comparing $T$ with $T_\text{sat}(p)$ tells whether the state lies **inside** (mixture) or **outside** (superheated/subcooled) the dome.
+* Fixing $p$ and $u$ (case 2) near $u_f$ pins the state to the **saturated liquid** line at $T_\text{sat}(p)$, so $v=v_f(p)$.
+* Specifying $p$ and $x$ (case 3) places the state **on the dome** at $T_\text{sat}(p)$, with $v$ a linear blend of $v_f$ and $v_g$.
+* Fixing $p$ and a large $v$ (case 4) typically means **superheated vapor**; interpolate in superheated tables to obtain $T$.
   Together, these patterns show how simple state checks against saturation properties let you navigate the $p$–$v$–$T$ surface quickly and accurately.
   :::
 
@@ -350,7 +350,7 @@ For each thermodynamic state of **water**, determine the requested properties by
 (subsec_error_tv_diagram)=
 ### Departure from ideal gas behavior
 
-In the **$T-v$ diagram**, the deviation of real vapor behavior from the ideal gas law increases as we approach the **triple point**.
+In the **$T-v$ diagram**, the deviation of real vapor behavior from the ideal gas law increases as we approach the **critical point**.
 At low pressures and high temperatures, gases behave nearly ideally because their specific volume is large, making intermolecular forces negligible.
 However, near saturation or condensation conditions, deviations become significant, and the use of **real-gas models** becomes essential.
 

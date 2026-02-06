@@ -400,7 +400,7 @@ $$
     * **Sharp collapse of vapor pressure and humidity ratio:** when cooled from $70 \ ^{\circ}\text{C}$ to $20  \ ^{\circ}\text{C}$ (keeping $\phi = 75 \ \%$), the vapor partial pressure $p_{\text{v}}$ drops by more than **$90 \ \%$**, and the specific humidity $w$ decreases by roughly **$94 \ \%$** $\Longrightarrow$ The air’s capacity to hold water vapor dramatically declines at low temperature.
     
     * **Substantial reduction in vapor mass.**
-       Water vapor mass in the room falls from **$4.43 \ \text{kg}$** to **$0.39 \ \text{kg}$** ($\approx -91 \ \%$). The warm-air condition thus contains more than ten times as much moisture per cubic meter as the cool condition.
+       Water vapor mass in the room falls from **$4.43 \ \text{kg}$** to **$0.39 \ \text{kg}$** ($\approx -91 \ \%$). The warm-air condition thus contains more than ten times as much moisture per kg of dry air as the cool condition.
     
     * **Increase in total and dry-air mass.**
        Cooling at constant pressure and volume increases the gas density, so $m_{\text{a}}$ rises by **$\approx 50 \ \%$**, and total moist-air mass by **$\approx 27 \ \%$**.

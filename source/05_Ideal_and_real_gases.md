@@ -4,7 +4,7 @@
 Modeling gases is one of the key aspects of Thermodynamics. Gases differ by composition and molecular structure — air, carbon monoxide, hydrogen, methane, butane, or ethanol vapor all behave differently.
 However, under suitable conditions, all gases exhibit comparable patterns that can be captured through mathematical models.
 
-This section first develops the **ideal gas model**, valid at low pressures and high temperatures, and then introduces **real-gas models** that extend predictive accuracy under dense or cold conditions. A quantitative example illustrates their differences. The intensive variables used here connect directly to {ref}`the previous section <sec_characterization_substances>`, and the final forms satisfy {ref}`the general state relation eq_general_state_equation`.
+This section first develops the **ideal gas model**, valid at low pressures and high temperatures, and then introduces **real-gas models** that extend predictive accuracy under dense or cold conditions. A quantitative example illustrates their differences. The intensive variables used here connect directly to {ref}`the previous section <sec_characterization_substances>`, and the final forms satisfy {ref}`the general state relation <eq_general_state_equation>`.
 
 ---
 
@@ -461,7 +461,7 @@ At $T_r \approx 0.99$, $\text{CO}_2$ lies close to its critical region.
 (subsec_conceptual_closure_gases)=
 ### Conceptual closure
 
-* The **ideal gas law** ($p{}v = R{}T$) describes the low-density limit and satisfies {ref}`the generic state relation <eq_general_state_equation>`.
+* The **ideal gas law** ($p{}v = R{}T$) describes the low-$p$, high-$T$ limit and satisfies {ref}`the generic state relation <eq_general_state_equation>`.
 * **Real-gas** behavior requires corrections for finite size and interactions — via {ref}`van der Waals <eq_vanderwaals>`, {ref}`Redlich–Kwong <eq_redlich_kwong>`, {ref}`Virial <eq_virial_equation>`, and {ref}`Peng–Robinson <eq_peng_robinson>`.
 * For broad engineering conditions, **Peng–Robinson** typically offers the best accuracy–simplicity balance; **Redlich–Kwong** is a solid lighter-weight alternative.
 * Truncated **virial** forms remain valuable for dilute gases but are not the most accurate at moderate densities or near phase boundaries.

@@ -47,7 +47,7 @@ This indicates that the **specific enthalpy change** equals the **negative of th
 * In a **nozzle**, enthalpy decreases as the fluid accelerates (increasing its speed $c$).
 * In a **diffuser**, kinetic energy decreases and enthalpy increases as the fluid slows down.
 
-Assuming **adiabatic operation** ($q \simeq 0$), **no shaft work** ($w_{\text{shaft}} = 0$), and **negligible elevation change**, the steady-flow energy balance becomes:
+Assuming **adiabatic operation** ($q \simeq 0$), **no shaft work** ($w_{\text{shaft}} = 0$), and **negligible elevation change** ($\Delta z \simeq 0$), the steady-flow energy balance becomes:
 
 (eq_nozzle_diffuser)=
 $$
@@ -114,7 +114,7 @@ $$
 h = u + pv \implies u_2 - u_1 = -(p_2v_2 - p_1v_1).
 $$
 
-This means that a **pressure decrease** (drop in $Pv$) must be balanced by an **increase in internal energy** ($u$), or vice versa.
+This means that a **decrease in flow work** (drop in $Pv$) must be balanced by an **increase in internal energy** ($u$), or vice versa.
 In practice, the pressure drop usually causes the **temperature to decrease**, as part of the internal energy is expended to perform the pressure–volume work.
 
 :::{note}
@@ -122,7 +122,7 @@ In practice, the pressure drop usually causes the **temperature to decrease**, a
 **PHYSICAL INTERPRETATION**
 
 The **isoenthalpic condition** does not imply constant temperature.
-In real fluids, lowering the pressure during throttling may cause cooling (Joule–Thomson effect), widely exploited in **refrigeration** and **liquefaction** processes.
+In real fluids where $u=u(T,p)$, lowering the pressure during throttling may cause cooling (Joule–Thomson effect), widely exploited in **refrigeration** and **liquefaction** processes.
 For ideal gases, by contrast, $u$ depends only on $T$, so temperature remains unchanged during throttling.
 :::
 
@@ -168,7 +168,7 @@ From **mass conservation**:
 
 (eq_mixing_chamber_mass_conservation)=
 $$
-\dot m_3 = \dot m_1 + \dot m_2.
+\dot m_1 ++ \dot m_2 = \dot m_3.
 $$
 
 and from **energy conservation**:

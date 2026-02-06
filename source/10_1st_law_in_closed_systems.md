@@ -89,7 +89,7 @@ $$
 * When $W>Q$, the system’s **internal energy decreases** (it cools down). The work done by the system overcomes heating.
 * When $-W>-Q$, the system's **internal energy increases** (it warms up). The work done upon the system overcomes cooling.
   This intuitive balance helps identify the direction of energy flow in simple processes.
-  :::
+:::
 
 ---
 

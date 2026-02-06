@@ -102,7 +102,7 @@ The distinction between **state properties** and **process magnitudes** can be c
 
 **THE DUMMY OPERATORS**
 
-So far, the variation operators have been written with explicit reference to their endpoints. For a state property change, the expression $\Delta\phi_{1\to2} = \phi_2 - \phi_1$ simply indicates that we are taking the difference in the property $\phi$ between state 1 and state 2. Likewise, the value of a process magnitude has been written as $\Psi_{1\to2}$, making explicit that the endpoints of the process.
+So far, the variation operators have been written with explicit reference to their endpoints. For a state property change, the expression $\Delta\phi_{1\to2} = \phi_2 - \phi_1$ simply indicates that we are taking the difference in the property $\phi$ between state 2 and state 1. Likewise, the value of a process magnitude has been written as $\Psi_{1\to2}$, making explicit that the endpoints of the process.
 
 In many thermodynamic problems, however, the initial and final states are already clear from the context, so it is unnecessary to specify them every time. In such cases, the finite changes can be written more simply as $\Delta\phi$ or $\Psi$, with the endpoints understood.
 :::
@@ -137,7 +137,7 @@ Macroscopic forms of energy depend on the system’s overall motion or position 
 
   (eq_Ek)=
   $$
-  E_k = \frac{1}{2}mV^2.
+  E_k = \frac{1}{2}mc^2.
   $$
 
 * **Potential energy** associated with position in a gravitational field:
@@ -278,11 +278,11 @@ Graphically, this represents the **area under the process curve** in a $p–V$ d
 
   In an adiabatic process, no heat crosses the system boundary — all the energy transfer occurs as work.
   The pressure and volume are related by the expression $p V^{\gamma} = \text{constant}$, where $\gamma = c_p / c_v$ is the ratio of specific heats.
-  Substituting $p = C/V^{\gamma}$,
+  Substituting $p = \text{C}/V^{\gamma}$,
 
   $$
-  W_{1\to2} = \int_{V_1}^{V_2} C V^{-\gamma}\mathrm{d}V
-  = \frac{C}{1 - \gamma}\left(V_2^{1 - \gamma} - V_1^{1 - \gamma}\right)
+  W_{1\to2} = \int_{V_1}^{V_2} \text{C} V^{-\gamma}\mathrm{d}V
+  = \frac{\text{C}}{1 - \gamma}\left(V_2^{1 - \gamma} - V_1^{1 - \gamma}\right)
   = \frac{p_2 V_2 - p_1 V_1}{1 - \gamma}.
   $$
 
@@ -294,11 +294,11 @@ Graphically, this represents the **area under the process curve** in a $p–V$ d
     * For **large $n$**, pressure drops rapidly, and less work is done (approaching isochoric behavior).
       Hence, $n$ controls the “path” on the $p$–$V$ plane, bridging different kinds of processes (isothermal, adiabatic, etc.) into a single general model.
 
-  Substituting $p = C/V^n$,
+  Substituting $p = \text{C}/V^n$,
 
   $$
-  W_{1\to2} = \int_{V_1}^{V_2} CV^{-n}\mathrm{d}V
-  = \frac{C}{1-n}\left(V_2^{1-n} - V_1^{1-n}\right)
+  W_{1\to2} = \int_{V_1}^{V_2} \text{C}V^{-n}\mathrm{d}V
+  = \frac{\text{C}}{1-n}\left(V_2^{1-n} - V_1^{1-n}\right)
   = \frac{p_2 V_2 - p_1 V_1}{1 - n}.
   $$
 
@@ -386,12 +386,12 @@ Notice that the Watt unit $[\text{W}]$ corresponds to the **rate of energy**, i.
 {ref}`As mentioned before <subsec_work_simple_compressible_systems>`, the {ref}`infinitesimal expression for work <eq_flow_work_diff>` is a **general relation** that can take either **positive** or **negative** values depending on the **sign of the volume change** (i.e. $\pm\mathrm{d}V$):
 
 * If $\mathrm{d}V > 0$, the system **expands** and performs **positive work** on its surroundings — energy leaves the system as mechanical output.
-* If $\mathrm{d}V < 0$, the system **is compressed**, and **negative work** is done *by* the system — equivalently, work is done *on* the system, meaning mechanical energy enters it.
+* If $\mathrm{d}V < 0$, the system **is compressed**, and **negative work** is done *by* the surroundings — equivalently, work is done *on* the system, meaning mechanical energy enters it.
 
 On a $p$–$V$ diagram, this corresponds to the **area under the process curve**:
 
-* **Expansion** (work done *by* the system): area *below* the curve $\rightarrow W > 0$.
-* **Compression** (work done *on* the system): area *above* the curve $\rightarrow W < 0$.
+* **Expansion** $(W > 0)$: work done *by* the system $\rightarrow$ area *below* the curve, and the system **loses** energy.
+* **Compression** $W < 0)$: work done *on* the system $\rightarrow$ also area *below* the curve, and the system **gains** energy.
 
 Likewise, heat is also a **process magnitude** whose sign depends on the **direction of energy flow**. By convention, we define:
 
