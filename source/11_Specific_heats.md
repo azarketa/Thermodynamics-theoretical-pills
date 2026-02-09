@@ -115,7 +115,7 @@ Only the energy-related quantities ($u$, $h$) are **state functions**; the heat 
 
 **ON THE UNITS OF SPECIFIC HEATS**
 
-Notice that both $c_v$ and $c_o$ are measured in $[\text{kJ}/(\text{kg}{\cdot}\text{K})]$, which means that the specific heats express the **amount of energy required to raise the temperature of one kilogram of a substance by one kelvin**, under the specified constraint (constant volume or constant pressure).
+Notice that both $c_v$ and $c_p$ are measured in $[\text{kJ}/(\text{kg}{\cdot}\text{K})]$, which means that the specific heats express the **amount of energy required to raise the temperature of one kilogram of a substance by one kelvin**, under the specified constraint (constant volume or constant pressure).
 :::
 
 ---

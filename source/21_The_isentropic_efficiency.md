@@ -186,12 +186,12 @@ $$
 The **isentropic efficiency of a nozzle** is defined as:
 
 :::{epigraph}
-The ratio of the *actual kinetic energy* of the fluid at the nozzle exit to the *kinetic energy* that would be achieved if the same process (from the same inlet state to the same exit pressure) were isentropic.
+The ratio of the difference between the actual kinetic energy of the fluid at the nozzle exit and the kinetic energy at the inlet, to the difference between the kinetic energy that would be achieved if the same process (from the same inlet state to the same exit pressure) were isentropic and the kinetic energy at the inlet.
 :::
 
 (eq_eta_noz)=
 $$
-\boxed{\eta_{\text{is., noz.}} = \frac{c_{2a}^2}{c_{2s}^2} = \frac{h_1 - h_{2a}}{h_1 - h_{2s}}} \ .
+\boxed{\eta_{\text{is., noz.}} = \frac{c_{2a}^2 - c_{1}^{2}}{c_{2s}^2 - c_{1}^{2}} = \frac{h_1 - h_{2a}}{h_1 - h_{2s}}} \ .
 $$
 
 For an **ideal gas:**
@@ -206,13 +206,13 @@ $$
 so that
 
 $$
-\boxed{\eta_{\text{is., noz.}} = \frac{c_{2a}^2}{c_{2s}^2} = \frac{\int_{T_{2a}}^{T_1} c_p(T)\mathrm{d}T}{\int_{T_{2s}}^{T_1} c_p(T)\mathrm{d}T}} \ .
+\boxed{\eta_{\text{is., noz.}} = \frac{c_{2a}^2 - c_{1}^{2}}{c_{2s}^2 - c_{1}^{2}} = \frac{\int_{T_{2a}}^{T_1} c_p(T)\mathrm{d}T}{\int_{T_{2s}}^{T_1} c_p(T)\mathrm{d}T}} \ .
 $$
 
 For **perfect gases ($c_p = \text{const.}$):**
 
 $$
-\boxed{\eta_{\text{is., noz.}} = \frac{c_{2a}^2}{c_{2s}^2} = \frac{T_1 - T_{2a}}{T_1 - T_{2s}}} \ .
+\boxed{\eta_{\text{is., noz.}} = \frac{c_{2a}^2 - c_{1}^{2}}{c_{2s}^2 - c_{1}^{2}} = \frac{T_1 - T_{2a}}{T_1 - T_{2s}}} \ .
 $$
 
 <br/>
@@ -225,7 +225,7 @@ $$
 | :-  | :- | :- | :- | :- |
 | **Compressor** | $\dfrac{h_{2s}-h_1}{h_{2a}-h_1}$   | $\dfrac{\int_{T_1}^{T_{2s}} c_p(T)\mathrm{d}T}{\int_{T_1}^{T_{2a}} c_p(T)\mathrm{d}T}$     | $\dfrac{T_{2s}-T_1}{T_{2a}-T_1}$ | Fraction of ideal compression work achieved |
 | **Turbine**    | $\dfrac{h_1-h_{2a}}{h_1-h_{2s}}$   | $\dfrac{\int_{T_{2a}}^{T_{1}} c_p(T)\mathrm{d}T}{\int_{T_{2s}}^{T_{1}} c_p(T)\mathrm{d}T}$ | $\dfrac{T_1-T_{2a}}{T_1-T_{2s}}$ | Fraction of ideal expansion work delivered  |
-| **Nozzle**     | $\dfrac{c_{2a}^2}{c_{2s}^2}=\dfrac{h_1-h_{2a}}{h_1-h_{2s}}$   | $\dfrac{c_{2a}^2}{c_{2s}^2}=\dfrac{\int_{T_{2a}}^{T_1} c_p(T)\mathrm{d}T}{\int_{T_{2s}}^{T_1} c_p(T)\mathrm{d}T}$     | $\dfrac{c_{2a}^2}{c_{2s}^2}=\dfrac{T_1-T_{2a}}{T_1-T_{2s}}$ | Fraction of ideal kinetic energy conversion |
+| **Nozzle**     | $\dfrac{c_{2a}^2 - c_{1}^{2}}{c_{2s}^2 - c_{1}^{2}}=\dfrac{h_1-h_{2a}}{h_1-h_{2s}}$   | $\dfrac{c_{2a}^2 - c_{1}^{2}}{c_{2s}^2 - c_{1}^{2}}=\dfrac{\int_{T_{2a}}^{T_1} c_p(T)\mathrm{d}T}{\int_{T_{2s}}^{T_1} c_p(T)\mathrm{d}T}$     | $\dfrac{c_{2a}^2 - c_{1}^{2}}{c_{2s}^2 - c_{1}^{2}}=\dfrac{T_1-T_{2a}}{T_1-T_{2s}}$ | Fraction of ideal kinetic energy conversion |
 :::
 
 ---
@@ -236,7 +236,7 @@ $$
 * The **isentropic efficiency** generalizes the **second law** from cyclic to single processes, quantifying the **departure from reversibility**.
 * It expresses how closely a real transformation approaches its **isentropic (adiabatic and reversible)** counterpart.
 * By construction, both real and ideal processes are compared under the **same operational constraint** (e.g. identical outlet pressure in open systems).
-* **Entropy generation** increases the required input (in compressors) or reduces the useful output (in turbines and nozzles), lowering $\eta_{\text{is.}}$.
+* **Entropy generation** increases the required input (in compressors) or reduces either the useful output (in turbines) or the kinetic energy variation (in nozzles), lowering $\eta_{\text{is.}}$.
 * For **generic or tabulated substances**, efficiency is evaluated from **enthalpy differences**; for **ideal gases**, through **temperature-dependent heat capacities**; and for **perfect gases**, by **temperature ratios**.
 * The **$h-s$ (Mollier) diagram** provides an intuitive visualization: the vertical line represents the **isentropic limit**, and the deviation to the right reflects **irreversibility**.
 * All isentropic efficiencies satisfy $0 < \eta_{\text{is.}} < 1$, with $\eta_{\text{is.}} = 1$ defining the **reversible adiabatic limit**.

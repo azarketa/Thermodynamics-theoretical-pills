@@ -183,12 +183,12 @@ Entropy within a system can change for two distinct reasons:
 Mathematically, this can be expressed as:
 
 $$
-\Delta S_{\text{sys.}} = \Delta S = \frac{\Delta Q}{T} + S_{\text{gen.}} = \Delta S_{\text{transf.}} + S_{\text{gen.}},
+\Delta S_{\text{sys.}} = \Delta S = \int \frac{Q}{T} + S_{\text{gen.}} = \Delta S_{\text{transf.}} + S_{\text{gen.}},
 $$
 
 where $S_{\text{gen.}} \ge 0$ represents the entropy generated internally.
 
-The **simplest way** to achieve $\Delta S = 0$ is to enforce **adiabaticity** ($\Delta Q = 0$) *and* **reversibility** ($S_{\text{gen.}} = 0$). In this case, neither heat crosses the boundary nor entropy is produced inside, and the process remains truly isentropic. This combination defines the **ideal isentropic process** — the one typically used in the analysis of turbines, compressors, and nozzles.
+The **simplest way** to achieve $\Delta S = 0$ is to enforce **adiabaticity** ($ Q = 0$) *and* **reversibility** ($S_{\text{gen.}} = 0$). In this case, neither heat crosses the boundary nor entropy is produced inside, and the process remains truly isentropic. This combination defines the **ideal isentropic process** — the one typically used in the analysis of turbines, compressors, and nozzles.
 
 However, **adiabatic and reversible** is only **one possible route** to isentropy, not the only one. Other combinations can, under special conditions, also yield $\Delta S = 0$:
 
@@ -413,8 +413,17 @@ This deduction, based exclusively in the functional relation $T(s)$, could have 
   * **Perfect gas** (constant $c_p, c_v$): closed **logarithmic** expressions (analytical).
   * **Pure (real) substances**: values from **tables**; $s$ is fixed by any two independent intensive properties.
 
-* The **isentropic condition** means **zero net entropy change** of the system ($\Delta S=0$). The **simplest route** is **adiabatic + reversible** ($\Delta Q=0$, $S_{\text{gen}}=0$), but other special balances (non-adiabatic + irreversible) can also yield $\Delta S=0$.
+* The **isentropic condition** means **zero net entropy change** of the system ($\Delta S=0$). The **simplest route** is **adiabatic + reversible** ($ Q=0$, $S_{\text{gen.}}=0$), but other special balances (non-adiabatic + irreversible) can also yield $\Delta S=0$.
 
-* For **perfect gases**, the adiabatic–reversible (ideal isentropic) specialization gives the classic **power laws**: $T v^{\gamma-1}=\text{const.}$, $T p^{(1-\gamma)/\gamma}=\text{const.}$, and $p v^{\gamma}=\text{const.}$
+* For **perfect gases**, the adiabatic–reversible (ideal isentropic) specialization gives the classic **power laws**:
+
+\begin{equation*}
+    \text{Isentropic evolution} \implies
+    \begin{cases}
+        Tv^{\gamma - 1} = \text{const.}\\[1ex]
+        Tp^{(1 - \gamma)/\gamma}=\text{const.}\\[1ex]
+        pv^{\gamma}=\text{const.}
+    \end{cases}
+\end{equation*}
 
 * The **$p-v$** and **$T-s$** planes are **graphically complementary**. This duality provides a clean geometric accounting of **work** and **(reversible) heat** in processes and cycles.

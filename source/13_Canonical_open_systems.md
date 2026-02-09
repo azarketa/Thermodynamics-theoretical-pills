@@ -168,7 +168,7 @@ From **mass conservation**:
 
 (eq_mixing_chamber_mass_conservation)=
 $$
-\dot m_1 ++ \dot m_2 = \dot m_3.
+\dot m_1 + \dot m_2 = \dot m_3.
 $$
 
 and from **energy conservation**:

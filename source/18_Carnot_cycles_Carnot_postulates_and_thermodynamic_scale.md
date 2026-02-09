@@ -31,7 +31,7 @@ A **Carnot cycle** is the **idealized reversible cycle** of a heat engine. It co
 During one complete cycle, the system absorbs $Q_H$ from the high-temperature reservoir, rejects $Q_L$ to the low-temperature reservoir, and delivers a **net work output**
 
 $$
-W_{\text{out}} = Q_H - Q_L.
+W_{\text{net,out}} = Q_H - Q_L.
 $$
 
 Even though every step is reversible, the **$2^{\text{nd}}$ law** is fully respected:
