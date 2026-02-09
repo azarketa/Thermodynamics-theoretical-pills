@@ -21,7 +21,7 @@ It represents a state of **maximum stability** under the given constraints.
 :::
 
 Intuitively, all systems tend toward equilibrium when left undisturbed.
-Mathematically, this natural tendency is described by the **Second law of Thermodynamics**, which introduces **entropy ($S$)** as the magnitude that quantifies how systems evolve toward equilibrium.
+Mathematically, this natural tendency is described by the **$2^{\text{nd}}$ law of Thermodynamics**, which introduces **entropy ($S$)** as the magnitude that quantifies how systems evolve toward equilibrium.
 
 To verify whether a system is in equilibrium, we must examine the following aspects:
 
@@ -87,10 +87,10 @@ The choice of a scale is conventional — multiple temperature scales coexist, t
 (subsubsec_celsius_scale)=
 #### The Celsius scale
 
-The **Celsius scale** (symbol $[^\circ\text{C}]$) was proposed by Anders Celsius, taking as fixed points:
+The **Celsius scale** (symbol $^\circ\text{C}$) was proposed by Anders Celsius, taking as fixed points:
 
-* the **melting point of water**, $0\ [^\circ\text{C}]$, and
-* the **boiling point of water**, $100\ [^\circ\text{C}]$,
+* the **melting point of water**, $0 \ ^\circ\text{C}$, and
+* the **boiling point of water**, $100 \ ^\circ\text{C}$,
 
 both measured at standard atmospheric pressure ($1\ \text{atm} = 101325\ \text{Pa}$).
 
@@ -108,8 +108,8 @@ T\left(\text{K}\right) = T\left(^\circ\text{C}\right) + 273.15
 $$
 
 William Thomson (Lord Kelvin) deduced the concept of **absolute zero**, the temperature at which molecular motion would theoretically cease.
-This lower limit, $0\ \text{K}$, corresponds to $-273.15\ [^\circ\text{C}]$.
-While absolute zero cannot be reached (as prohibited by quantum mechanics and the Third law), it provides a universal reference.
+This lower limit, $0\ \text{K}$, corresponds to $-273.15 \ ^\circ\text{C}$.
+While absolute zero cannot be reached (as prohibited by quantum mechanics and the $3^{\text{rd}}$ law), it provides a universal reference.
 
 :::{important}
 
@@ -124,8 +124,7 @@ This universality makes the Kelvin scale the foundation for scientific and engin
 
 **UNITS AND NOTATION**
 
-The unit of thermodynamic temperature is the **Kelvin** ($[\text{K}]$), not “degree Kelvin.”
-The symbol $^\circ$ is used only for the Celsius scale.
+The unit of thermodynamic temperature is the **Kelvin** ($\text{K}$), not “degree Kelvin.” The symbol $^\circ$ is used only for the Celsius scale.
 :::
 
 ---
@@ -180,13 +179,10 @@ but increasing the heating surface reduces the time needed to reach equilibrium.
 
 Although countless processes exist, only a few idealized cases have analytical importance:
 
-1. **Cyclic processes (cycles):**
-   Repetitive transformations that start and end at the same state.
+1. **Cyclic processes (cycles):** repetitive transformations that start and end at the same state.
    Examples include power and refrigeration cycles.
 
-2. **Quasi-static (reversible) processes:**
-   Infinitely slow transformations in which the system remains infinitesimally close to equilibrium at all times.
-   In practice, no process is truly quasi-static, but this idealization allows us to derive fundamental relationships among state variables.
+2. **Quasi-static (reversible) processes:** infinitely slow transformations in which the system remains infinitesimally close to equilibrium at all times. In practice, no process is truly quasi-static, but this idealization allows us to derive fundamental relationships among state variables.
 
 :::{important}
 

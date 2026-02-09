@@ -38,7 +38,7 @@ In thermodynamics, we commonly employ five of them:
 | Length                    |     $L$    |     metre     |    $\text{m}$   |
 | Time                      |     $t$    |     second    |    $\text{s}$   |
 | Mass                      |     $m$    |    kilogram   |   $\text{kg}$   |
-| Temperature               |     $T$    |     Kelvin    |    $\text{K}$   |
+| Temperature               |     $T$    |     kelvin    |    $\text{K}$   |
 | Amount of substance       |     $n$    |      mole     |   $\text{mol}$  |
 
 From these fundamental ones, many other **derived magnitudes** can be built:
@@ -46,10 +46,10 @@ From these fundamental ones, many other **derived magnitudes** can be built:
 | **Derived Magnitude** | **Definition** | **SI Unit**              | **Unit Expression**                                  |
 | :-------------------- | :------------- | :----------------------- | :--------------------------------------------------- |
 | Density ($\rho$)      | $\rho = m/V$   | kilogram per cubic metre | $\text{kg}/\text{m}^{3}$                           |
-| Force ($F$)           | $F = m{\cdot}a$    | Newton                   | $\text{N} = \text{kg}\cdot\text{m}/\text{s}^{2}$ |
-| Pressure ($p$)        | $p = F/A$      | Pascal                   | $\text{Pa} = \text{N}/\text{m}^{2}$              |
-| Energy ($E$)          | —              | Joule                    | $\text{J} = \text{N}\cdot\text{m}$               |
-| Power ($\dot{W}$)     | —              | Watt                     | $\text{W} = \text{J}/\text{s}$                   |
+| Force ($F$)           | $F = m{\cdot}a$    | newton                   | $\text{N} = \text{kg}\cdot\text{m}/\text{s}^{2}$ |
+| Pressure ($p$)        | $p = F/A$      | pascal                   | $\text{Pa} = \text{N}/\text{m}^{2}$              |
+| Energy ($E$)          | —              | joule                    | $\text{J} = \text{N}\cdot\text{m}$               |
+| Power ($\dot{W}$)     | —              | watt                     | $\text{W} = \text{J}/\text{s}$                   |
 
 :::{tip}
 
@@ -114,22 +114,11 @@ For example, energy per unit mass (specific energy) or per mole (molar energy) a
 (subsec_measurable_fundamental_properties)=
 ### Measurable fundamental properties
 
-* **Volume**
+* **Volume:** for fluids, **volume** is the only geometrical property of interest. Shape and surface area are secondary; the total space occupied by the substance is what matters. It is measured in cubic metres $(\text{m}^{3})$.
 
-    For fluids, **volume** is the only geometrical property of interest.
-    Shape and surface area are secondary; the total space occupied by the substance is what matters.
-    It is measured in cubic metres $(\text{m}^{3})$.
+* **Mass:** measures the amount of matter and is expressed in kilograms $(\text{kg})$. It is a conserved extensive quantity in all non-reactive processes.
 
-* **Mass**
-
-    **Mass** measures the amount of matter and is expressed in kilograms $(\text{kg})$.
-    It is a conserved extensive quantity in all non-reactive processes.
-
-* **Amount of Substance**
-
-    The **amount of substance**, measured in moles $(\text{mol})$, connects macroscopic and molecular descriptions.
-    By definition, one mole of any substance contains the same number of entities (atoms, molecules, ions)
-    as there are atoms in $0.012\ \text{kg}$ of carbon-12:
+* **Amount of Substance:** the **amount of substance**, measured in moles $(\text{mol})$, connects macroscopic and molecular descriptions. By definition, one mole of any substance contains the same number of entities (atoms, molecules, ions) as there are atoms in $0.012\ \text{kg}$ of carbon-12:
 
     (eq_mol_def)=
     $$    
@@ -152,9 +141,7 @@ This makes the mole a natural unit for describing proportionality in reactions a
 (subsec_pressure)=
 ### Complex measurable properties: pressure
 
-* **Definition**
-
-    **Pressure ($p$)** is the **normal force per unit area** that a system exerts on its boundaries or on another system:
+* **Definition:** **Pressure ($p$)** is the **normal force per unit area** that a system exerts on its boundaries or on another system:
 
     (eq_pressure_def)=
     $$    
@@ -175,9 +162,7 @@ This makes the mole a natural unit for describing proportionality in reactions a
 
     Although **force** is a vector, **pressure** is a scalar because it acts normal to the surface element.    
 
-* **Units and Scales**
-
-    The SI unit of pressure is the **pascal** $(\text{Pa} = \text{N}/\text{m}^{2})$.
+* **Units and Scales:** the SI unit of pressure is the **pascal** $(\text{Pa} = \text{N}/\text{m}^{2})$.
     It is a small unit: a 70 $\text{kg}$ person standing on a $0.3\times0.3\ \text{m}^{2}$ tile exerts
     
     $$

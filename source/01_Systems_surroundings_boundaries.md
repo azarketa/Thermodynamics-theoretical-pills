@@ -77,17 +77,11 @@ If you can identify what crosses the boundary, you can apply thermodynamics.
 
 Because our aim is to understand and model engineering systems, we introduce several **simplifications** that make the analysis tractable and meaningful.
 
-1. **Typical fluids:**
-   We will use **air and water** as the standard fluids representing gases and liquids, respectively.
-   They are paradigmatic in energy systems and cover most practical applications.
+1. **Typical fluids:** we will use **air and water** as the standard fluids representing gases and liquids, respectively. They are paradigmatic in energy systems and cover most practical applications.
 
-2. **Excluded effects:**
-   We will neglect phenomena that fall outside the mechanical or thermal domain — such as rheological (viscous time-dependent), electrical, magnetic, or chemical reactions — unless explicitly stated.
+2. **Excluded effects:** we will neglect phenomena that fall outside the mechanical or thermal domain — such as rheological (viscous time-dependent), electrical, magnetic, or chemical reactions — unless explicitly stated.
 
-3. **Macroscopic viewpoint:**
-   Our approach will be **classical or phenomenological** thermodynamics:
-   we are interested in the *average* or *overall* behavior of systems rather than their atomic details.
-   This contrasts with the **microscopic conception**, used in *statistical thermodynamics*, which explains the same laws in terms of molecular behavior.
+3. **Macroscopic viewpoint:** our approach will be **classical or phenomenological** thermodynamics. We are interested in the *average* or *overall* behavior of systems rather than their atomic details. This contrasts with the **microscopic conception**, used in *statistical thermodynamics*, which explains the same laws in terms of molecular behavior.
 
 :::{important}
 
@@ -105,19 +99,19 @@ Statistical or microscopic thermodynamics explains *why* those macroscopic laws 
 Depending on what the boundary allows to cross, we classify systems as **isolated**, **closed**, or **open**.
 This classification reflects which kinds of interactions — energy and/or mass — are possible with the surroundings.
 
-1. **Isolated system**
+1. **Isolated system:**
 
    * Exchanges **neither mass nor energy** with the surroundings.
    * The boundary is *impermeable* (no mass flow), *rigid* (no work), and *adiabatic* (no heat).
    * It is an *idealization* — in practice, no system is perfectly isolated, though a Dewar flask is a close approximation.
 
-2. **Closed system** (control mass)
+2. **Closed system** (control mass):
 
    * Exchanges **energy** (heat and/or work) but **not mass** with its surroundings.
    * At least one part of the boundary allows thermal or mechanical interaction.
    * Example: a piston–cylinder assembly.
 
-3. **Open system** (control volume)
+3. **Open system** (control volume):
 
    * Exchanges **both energy and mass** with its surroundings.
    * Boundaries may be *flexible*, *diathermic*, or *permeable* depending on the specific process.
