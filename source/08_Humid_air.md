@@ -27,7 +27,7 @@ Under typical atmospheric conditions, air temperature ranges approximately from 
 The **specific heat at constant pressure**, $c_p$, acts as a proportionality factor connecting temperature and energy: it indicates how much energy is required, per kilogram of substance, to raise its temperature one Kelvin while the pressure remains constant.
 
 (eq_cp_dry_air)=
-$$c_p = 1.005 \ [\mathrm{kJ/(kg\cdot K)}]$$
+$$c_p = 1.005 \ \mathrm{kJ/(kg\cdot K)}$$
 
 In this context, the **specific enthalpy** $h$ serves as a convenient measure of the specific energy content of the gas, combining both its internal energy and the energy associated with the pressure it exerts. As occurs with the specific heat, the specific enthalpy of an ideal gas depends only on temperature, making it straightforward to compute.
 
@@ -54,7 +54,7 @@ $$h_{\text{v}}(T, \text{low }p) \simeq h_g(T)$$
 Given that the enthalpy of saturated water vapor at $0 \ ^{\circ}\mathrm{C}$ is $2500.9\ \mathrm{kJ/kg}$ and that its average specific heat is $c_p{}={}1.82\ \mathrm{kJ/kg\cdot K}$, one may write:
 
 (eq_hg_approximation)=
-$$h_g(T) \simeq h_g(0 \ ^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ [\mathrm{kJ/kg}]$$
+$$h_g(T) \simeq h_g(0 \ ^{\circ}\mathrm{C}){}+{}1.82T{}={}2500.9{}+{}1.82{}T \ \mathrm{kJ/kg}$$
 
 :::{note}
 
@@ -99,7 +99,7 @@ $$
 \frac{\left(p_{\text{v}} V / R_{\text{v}} T\right)}{\left(p_a V / R_a T\right)}{}={}
 \frac{(p_{\text{v}}/R_{\text{v}})}{(p_a/R_a)}{}={}
 0.622\frac{p_{\text{v}}}{p_a}
-\quad\left[\frac{\text{kg water vapor}}{\text{kg dry air}}\right]
+\ \frac{\text{kg H}_{2}\text{O}}{\text{kg dry air}}
 $$
 
 For perfectly dry air ($m_{\text{v}}{}={}0$), $\omega{}={}0$. As more vapor is added, $\omega$ increases until the air reaches **saturation** — the condition where it can hold no additional moisture.
@@ -113,7 +113,7 @@ $$
 \phi{}={} \frac{m_{\text{v}}}{m_g}{}={}
 \frac{(p_{\text{v}} V / R_{\text{v}} T)}{(p_g V / R_{\text{v}} T)}{}={}
 \frac{p_{\text{v}}}{p_g}
-\quad[-]
+\ -
 $$
 
 where $p_g{}={}p_{\text{sat @ }T}$ is the saturation pressure of water at temperature $T$.
@@ -126,7 +126,7 @@ $$H{}={}H_a{}+{}H_{\text{v}}{}={}m_a h_a{}+{}m_{\text{v}} h_{\text{v}}$$
 and, dividing by $m_a$:
 
 (eq_specific_enthalpy_humid_air)=
-$$h{}={}h_a{}+{}\frac{m_{\text{v}}}{m_a}{}h_{\text{v}}{}={}h_a{}+{}\omega{}h_{\text{v}} \quad [\mathrm{kJ/kg_{dry,air}}]$$
+$$h{}={}h_a{}+{}\frac{m_{\text{v}}}{m_a}{}h_{\text{v}}{}={}h_a{}+{}\omega{}h_{\text{v}} \ \frac{\text{kJ}}{\text{kg dry air}}$$
 
 :::{note}
 
@@ -209,7 +209,7 @@ $$
 2. **Humidity ratio**
 
 $$
-\omega = 0.62198{}\frac{p_{\text{v}}}{p-p_{\text{v}}}\quad [\text{kg}_{\text{v}}/\text{kg}_{\text{a}}].
+\omega = 0.62198{}\frac{p_{\text{v}}}{p-p_{\text{v}}} \ \frac{\text{kg H}_{2}\text{O}}{\text{kg dry air}}.
 $$
 
 3. **Masses in the room**
@@ -247,7 +247,7 @@ $$
         $$
         
         $$
-        \boxed{\omega_{70} = 0.1868 \ \text{kg}_{\text{v}}/\text{kg}_{\text{a}}}.
+        \boxed{\omega_{70} = 0.1868 \ \frac{\text{kg H}_{2}\text{O}}{\text{kg dry air}}}.
         $$
 
     * **Masses in the room:**
@@ -282,7 +282,7 @@ $$
 
         From standard steam tables{cite}`2015Cengel`:
         
-        | $T$ $[^{\circ}\text{C}]$ | $p_{\text{g}}$ $[\text{kPa}]$ |
+        | $T \ ^{\circ}\text{C}$ | $p_{\text{g}} \ \text{kPa}$ |
         | :------: | :------------: |
         |    60    |      19.94     |
         |    65    |      25.04     |
@@ -331,7 +331,7 @@ $$
         $$
         
         $$
-        \boxed{\omega_{20} = 0.01096\ \text{kg}_{\text{v}}/\text{kg}_{\text{a}}}.
+        \boxed{\omega_{20} = 0.01096\ \frac{\text{kg H}_{2}\text{O}}{\text{kg dry air}}}.
         $$
 
     * **Masses in the room:**
@@ -364,7 +364,7 @@ $$
         
         From tables{cite}`2015Cengel`:
 
-        | $T$ $[^{\circ}\text{C}]$ | $p_{\text{g}}$ $[\text{kPa}]$ |
+        | $T \ ^{\circ}\text{C}$ | $p_{\text{g}} \ \text{kPa}$ |
         | :------: | :------------: |
         |    15    |      1.705     |
         |    20    |      2.339     |
@@ -387,7 +387,7 @@ $$
 
 3. **Comparative table**
 
-| Case | $T$ $[^{\circ}\text{C}]$ | $\phi$ $[–]$ | $p_{\text{v}}$ $[\text{kPa}]$ | $p_{\text{a}}$ $[\text{kPa}]$ | $\omega$ $[\text{kg}_{\text{v}}/\text{kg}_{\text{a}}]$ | $m_{\text{a}}$ $[\text{kg}]$ | $m_{\text{v}}$ $[\text{kg}]$ | $m_{\text{tot}}$ $[\text{kg}]$ | $T_{\text{dp}}$ $[^{\circ}\text{C}]$ |
+| Case | $T \ ^{\circ}\text{C}$ | $\phi \ –$ | $p_{\text{v}} \ \text{kPa}$ | $p_{\text{a}} \ \text{kPa}$ | $\omega \ \frac{\text{kg H}_{2}\text{O}}{\text{kg dry air}}$ | $m_{\text{a}} \ \text{kg}$ | $m_{\text{v}} \ \text{kg}$ | $m_{\text{tot.}} \ \text{kg}$ | $T_{\text{dp}} \ ^{\circ}\text{C}$ |
 | :------------------------------------ | :------: | :--------: | :---------: | :------------: | :--------------------: | ------------: | ---------: | ----------------------: | :------: |
 | **Nominal operation** | $70$ | $0.75$ | $23.4$  | $77.93$ | $0.1868$ | $23.73$ | $4.433$ | $28.17$ | $63.4$ |
 | **Sauna off** | $20$ | $0.75$ | $1.754$ | $99.57$ | $0.01096$ | $35.50$ | $0.389$ | $35.89$ | $15.4$ |
